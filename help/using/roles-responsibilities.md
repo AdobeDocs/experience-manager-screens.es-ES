@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ La siguiente tabla resume el **Día dos: Gráfico** RACI de compatibilidad con p
 | *Día dos:Compatibilidad con postinicio* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA |
 | Asistencia de nivel 1 | I | I | RA |
-| Asistencia de nivel 1 | I | C | RA |
-| Asistencia de nivel 1 | I | RA | C |
+| Asistencia de nivel 2 | I | C | RA |
+| Asistencia de nivel 3 | I | RA | C |
 | Actualización de contenido | RA | I | I |
 | Evalúe el éxito del UX e identifique las áreas de mejoras | RA | C | I |
