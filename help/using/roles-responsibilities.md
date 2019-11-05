@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
 
 ---
 
@@ -44,7 +44,7 @@ El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocu
 
 Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
 
-### Consideración del socio de hardware {#selecting-hardware-partner}
+#### Consideración del socio de hardware {#selecting-hardware-partner}
 
 Es fundamental seleccionar el socio de hardware adecuado. Deben tenerse en cuenta las siguientes cuestiones:
 
@@ -147,12 +147,18 @@ El siguiente es un gráfico RACI de muestra que utiliza las definiciones de func
 | Plan de actualización de contenido | I | RA | C | C |
 | Plan de transición de la fase piloto a la fase de producción | RA | RA | I | I |
 | Transferencia de conocimientos | RA | RA | I | I |
+
+| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+|---|---|---|---|---|
 | *Día uno: Implementación del proyecto (preparación para el comercio minorista)* |
 | Ordenación y almacenamiento de hardware | RA | I | I | I |
 | Programa de integración comercial | I | I | C | RA |
 | Prueba de aceptación del usuario de ensayo | I | C | RA |  |
 | Configuración masiva de hardware | RA | I | C | I |
 | Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
+
+| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+|---|---|---|---|---|
 | *Día uno:Día uno: Implementación del proyecto (hardware)* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
