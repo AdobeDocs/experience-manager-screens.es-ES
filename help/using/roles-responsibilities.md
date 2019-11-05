@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -38,13 +38,27 @@ Las funciones personalizadas necesarias para abordar los parámetros UX (Experie
 
 Normalmente, los implementadores de AEM implementarán la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
 
-### Integradores AV {#av-integrators}
+### Integradores audiovisuales {#av-integrators}
 
 El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocupa del diseño minorista y la preparación del sitio, incluida la adquisición, configuración e implementación de hardware. Normalmente, es un tercero contratado que tiene acceso a un Centro de operaciones de red (NOC). En muchos casos, el integrador de A/V es el propietario del proyecto debido a su participación continua después del lanzamiento.
 
 Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
 
-### Estrategias comerciales {#business-strategist}
+### Consideración del socio de hardware {#selecting-hardware-partner}
+
+Es fundamental seleccionar el socio de hardware adecuado. Deben tenerse en cuenta las siguientes cuestiones:
+
+1. ¿Cuáles son los términos del contrato de nivel de servicio?
+
+1. ¿Qué es la cobertura global?
+
+1. ¿Es soporte las 24 horas?
+
+1. ¿Cómo se administrarán los dispositivos?
+
+1. ¿Cuáles son los sistemas activos de vigilancia y advertencia?
+
+### Encargados de estrategias comerciales {#business-strategist}
 
 Los Estrategas Comerciales representan a los responsables de la toma de decisiones de la empresa. Esta función está muy involucrada en las etapas de descubrimiento y requisitos y es el principal impulsor del proyecto.
 
@@ -60,7 +74,7 @@ La Administración de contenido y elementos creativos podría ser la siguiente:
 * Creative Agency o
 * Administrador de marcas
 
-### Administradores de proyectos {#project-managers}
+### Gestores de proyectos {#project-managers}
 
 Los jefes de proyecto suelen administrar la implementación completa de la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
 
@@ -114,28 +128,31 @@ El siguiente es un gráfico RACI de muestra que utiliza las definiciones de func
 | Visitas al sitio y requisitos de hardware | RA | I | C | C |
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
+
+| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+|---|---|---|---|---|
 | *Día uno: Implementación del proyecto (diseño de la aplicación)* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación del plan y la programación del proyecto | RA | RA | C | C |
 | Evaluar entornos de servidor actuales | I | RA | I | I |
-| Requisitos de diseño de UX | I | AR | C | AR |
+| Requisitos de diseño de UX | I | RA | C | RA |
 | Validación de requisitos técnicos | I | RA | RA | C |
-| Diseño de arquitectura | I | AR | I | I |
-| Validación de la estructura de datos con el diseño de la interfaz de usuario | I | AR | C | C |
+| Diseño de arquitectura | I | RA | I | I |
+| Validación de la estructura de datos con el diseño de la interfaz de usuario | I | RA | C | C |
 | Desarrollo de aplicaciones | RA | RA | RA | RA |
-| Configuración del proyecto de AEM Screens | I | AR | C | I |
-| Implementación de Analytics | I | AR | C | - |
-| Pruebas e implementación | AR | C | AR | I |
-| Configuración del servidor | I | AR | I | I |
-| Plan de actualización de contenido | I | AR | C | C |
-| Plan de transición de la fase piloto a la fase de producción | AR | AR | I | I |
-| Transferencia de conocimientos | AR | AR | I | I |
+| Configuración del proyecto de AEM Screens | I | RA | C | I |
+| Implementación de Analytics | I | RA | C | - |
+| Pruebas e implementación | RA | C | RA | I |
+| Configuración del servidor | I | RA | I | I |
+| Plan de actualización de contenido | I | RA | C | C |
+| Plan de transición de la fase piloto a la fase de producción | RA | RA | I | I |
+| Transferencia de conocimientos | RA | RA | I | I |
 | *Día uno: Implementación del proyecto (preparación para el comercio minorista)* |
-| Ordenación y almacenamiento de hardware | AR | I | I | I |
-| Programa de integración comercial | I | I | C | AR |
-| Prueba de aceptación del usuario de ensayo | I | C | AR |  |
-| Configuración masiva de hardware | AR | I | C | I |
-| Acuerdo sobre la compatibilidad con el lanzamiento posterior | AR | C | AR | C |
+| Ordenación y almacenamiento de hardware | RA | I | I | I |
+| Programa de integración comercial | I | I | C | RA |
+| Prueba de aceptación del usuario de ensayo | I | C | RA |  |
+| Configuración masiva de hardware | RA | I | C | I |
+| Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
 | *Día uno:Día uno: Implementación del proyecto (hardware)* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
