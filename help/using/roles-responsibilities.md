@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
+source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
 
@@ -118,9 +118,10 @@ A continuación se muestra un gráfico RACI de muestra con las definiciones de f
 
 El siguiente es un gráfico RACI de muestra que utiliza las definiciones de funciones y proporciona un ejemplo de tareas y consideraciones comunes en un proyecto de AEM Screens.
 
+La siguiente tabla resume el **Día cero: Consideraciones** previas a la venta:
+
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| *Día cero: Consideraciones previas a la venta* |
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación de los objetivos estratégicos | CI | I | RA | RA |
@@ -129,9 +130,10 @@ El siguiente es un gráfico RACI de muestra que utiliza las definiciones de func
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
 
+La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño de la aplicación)**:
+
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| *Día uno: Implementación del proyecto (diseño de la aplicación)* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación del plan y la programación del proyecto | RA | RA | C | C |
 | Evaluar entornos de servidor actuales | I | RA | I | I |
@@ -148,18 +150,20 @@ El siguiente es un gráfico RACI de muestra que utiliza las definiciones de func
 | Plan de transición de la fase piloto a la fase de producción | RA | RA | I | I |
 | Transferencia de conocimientos | RA | RA | I | I |
 
+La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación para el comercio minorista)**:
+
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| *Día uno: Implementación del proyecto (preparación para el comercio minorista)* |
 | Ordenación y almacenamiento de hardware | RA | I | I | I |
 | Programa de integración comercial | I | I | C | RA |
 | Prueba de aceptación del usuario de ensayo | I | C | RA |  |
 | Configuración masiva de hardware | RA | I | C | I |
 | Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
 
+La siguiente tabla resume el **Día uno:Día uno: Implementación del proyecto (hardware)**:
+
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| *Día uno:Día uno: Implementación del proyecto (hardware)* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
 | Selección de hardware del reproductor | RAC | - | - | - |
