@@ -4,7 +4,7 @@ seo-title: Pruebas y garantía de calidad para AEM Screens
 description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 seo-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 
 ---
 
@@ -22,19 +22,61 @@ Debe crearse una lista de comprobación que identifique todos los KPI definidos 
 
 Deben considerarse los siguientes elementos:
 
-1. **Consideraciones** mecánicas para:
-   * montaje en pantalla
-   * montaje del reproductor
-   * ventilación
-   * anexos periféricos
-   * administración de cables
-   * red de dispositivos
+## 1. Consideraciones mecánicas {#mechanical-considerations}
 
-1. **Consideraciones** de software para:
-   * registro del dispositivo
-   * publicación de medios
-   * reproducción
-   * dependencias de base de datos (definidas previamente)
+Se recomiendan las siguientes consideraciones mecánicas:
+
+* montaje en pantalla
+* montaje del reproductor
+* ventilación
+* anexos periféricos
+* administración de cables
+* red de dispositivos
+
+## 2. Consideraciones de software {#software-considerations}
+
+Se recomiendan las siguientes consideraciones de software:
+
+* registro del dispositivo
+* publicación de medios
+* reproducción
+* dependencias de base de datos (definidas previamente)
 
 >[!NOTE]
 > Esta fase también debería utilizarse como herramienta para crear una instalación y una guía del usuario que posteriormente se pueda enviar con el equipo y mantener in situ para consulta futura.
+
+## 3. Consideraciones sobre la administración de dispositivos {#device-management-considerations}
+
+
+AEM Screens incluye un módulo del Centro de control de dispositivos que permite la gestión de los puntos finales de la aplicación del reproductor de pantallas.
+
+Esto hace referencia a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
+Este módulo le permite:
+
+1. Monitoreo de los registros de errores de la aplicación
+1. Administrar capturas de pantalla remotas
+1. Administrar descargas de contenido
+1. Reinicios de la aplicación
+
+>[!CAUTION]
+> DEBERÍA UTILIZAR EL Centro DE Control DE Dispositivos NPT PARA:
+>
+> 1. Instalar nuevas versiones de la aplicación del reproductor
+> 1. Supervisar los recursos de nivel del sistema
+> 1. Configurar configuraciones de nivel de sistema
+> 1. Permitir la intervención en equipos de escritorio remotos.
+
+
+
+>[!NOTE]
+> Adobe recomienda que las plataformas de administración de dispositivos de terceros dedicadas se utilicen en todas las implementaciones.
+
+La plataforma específica elegida depende de una serie de factores, incluidos el sistema ***operativo*** objetivo, los requisitos ***del*** proyecto y el ***número de puntos*** finales.
+
+Algunos ejemplos son:
+
+* Administración de dispositivos de Google Chrome
+* TeamViewer
+* AirWatch42
+* Engranajes
+* Soti
