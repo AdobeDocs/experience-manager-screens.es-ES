@@ -4,7 +4,7 @@ seo-title: Pruebas y garantía de calidad para AEM Screens
 description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 seo-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ Este módulo le permite:
 1. Monitoreo de los registros de errores de la aplicación
 1. Administrar capturas de pantalla remotas
 1. Administrar descargas de contenido
-1. Reinicios de la aplicación
+1. Administrar problemas de reinicio de la aplicación
 
 Para obtener información detallada sobre el Centro ***de control de*** dispositivos, consulte [Resolución de problemas del centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de control de dispositivos en la Guía **del usuario de pantallas de** AEM.
 
