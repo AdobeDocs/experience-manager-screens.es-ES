@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
@@ -19,33 +19,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 Esta página muestra cómo instalar y configurar los reproductores de Pantallas en sus dispositivos.
-
-## Instalación de AEM Screens Player {#installing-aem-screens-player}
-
-El reproductor de AEM Screens está disponible para Android, Chrome OS, iOS y Windows.
-
-Para descargar **AEM Screens Player**, visite la página de descargas [**de**](https://download.macromedia.com/screens/) AEM 6.5 Player.
-
->[!NOTE]
->
->Una vez descargado el último reproductor (*.exe*), siga los pasos del reproductor para completar la instalación ad-hoc:
->
->1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. Vaya a **Configuración** en el menú de acción de la izquierda, introduzca la dirección de ubicación de la instancia de AEM en el **servidor** y haga clic en **Guardar**.
->1. Haga clic en el vínculo **Registro** desde el menú de acción de la izquierda y en los pasos siguientes para completar el proceso de registro del dispositivo.
->
-
-
-
-### Additional Resources {#additional-resources}
-
-Consulte los siguientes temas para obtener información detallada:
-
-* Para descargar Android Player, visite **Google Play**. Para obtener más información sobre la implementación de Android Watchdog, consulte [Implementación de un reproductor](implementing-android-player.md)de Android.
-
-* Para implementar Chrome OS Player, consulte la Consola [de administración de](implementing-chrome-os-player.md) Chrome para obtener más información.
-
-* Para configurar AEM Screens Windows Player, consulte [Implementación de Windows Player](implementing-windows-player.md).
 
 ## Server Configuration {#server-configuration}
 
