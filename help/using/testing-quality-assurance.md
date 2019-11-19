@@ -4,7 +4,7 @@ seo-title: Pruebas y garantía de calidad para AEM Screens
 description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 seo-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -20,6 +20,9 @@ En la fase, deben construirse y probarse todos los sistemas de ensayo.
 
 Debe crearse una lista de comprobación que identifique todos los KPI definidos previamente y que mida la entrega en relación con ellos.
 
+>[!NOTE]
+> Esta fase también debería utilizarse como herramienta para crear una instalación y una guía del usuario que posteriormente se pueda enviar con el equipo y mantener in situ para consulta futura.
+
 Deben considerarse los siguientes elementos:
 
 ## 1. Consideraciones mecánicas {#mechanical-considerations}
@@ -33,7 +36,7 @@ Se recomiendan las siguientes consideraciones mecánicas:
 * administración de cables
 * red de dispositivos
 
-## 2. Consideraciones de software {#software-considerations}
+## 2. Consideraciones sobre el software {#software-considerations}
 
 Se recomiendan las siguientes consideraciones de software:
 
@@ -42,8 +45,6 @@ Se recomiendan las siguientes consideraciones de software:
 * reproducción
 * dependencias de base de datos (definidas previamente)
 
->[!NOTE]
-> Esta fase también debería utilizarse como herramienta para crear una instalación y una guía del usuario que posteriormente se pueda enviar con el equipo y mantener in situ para consulta futura.
 
 ## 3. Consideraciones sobre la administración de dispositivos {#device-management-considerations}
 
@@ -58,8 +59,10 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Reinicios de la aplicación
 
+Para obtener información detallada sobre el Centro ***de control de*** dispositivos, consulte [Resolución de problemas del centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de control de dispositivos en la Guía **del usuario de pantallas de** AEM.
+
 >[!CAUTION]
-> DEBERÍA UTILIZAR EL Centro DE Control DE Dispositivos NPT PARA:
+> No debe utilizar el Centro de control de dispositivos para:
 >
 > 1. Instalar nuevas versiones de la aplicación del reproductor
 > 1. Supervisar los recursos de nivel del sistema
