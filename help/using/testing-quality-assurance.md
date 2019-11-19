@@ -4,7 +4,7 @@ seo-title: Pruebas y garantía de calidad para AEM Screens
 description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 seo-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens incluye un módulo del Centro de control de dispositivos que permite
 Esto hace referencia a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
 Este módulo le permite:
 
-1. Monitoreo de los registros de errores de la aplicación
+1. Monitorear registros de errores de la aplicación del reproductor
 1. Administrar capturas de pantalla remotas
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de la aplicación
@@ -66,8 +66,8 @@ Para obtener información detallada sobre el Centro ***de control de*** disposit
 >
 > 1. Instalar nuevas versiones de la aplicación del reproductor
 > 1. Supervisar los recursos de nivel del sistema
-> 1. Configurar configuraciones de nivel de sistema
-> 1. Permitir la intervención en equipos de escritorio remotos.
+> 1. Solucionar errores de nivel de sistema
+> 1. Permitir la intervención en equipos de escritorio remotos
 
 
 
@@ -80,6 +80,6 @@ Algunos ejemplos son:
 
 * Administración de dispositivos de Google Chrome
 * TeamViewer
-* AirWatch42
-* Engranajes
-* Soti
+* AirWatch
+* 42Gears
+* Portátil de integración de AV propietario
