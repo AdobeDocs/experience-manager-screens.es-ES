@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# Glosario{#glossary}
+# Glosario {#glossary}
 
 **Canal** de aplicación Un canal de aplicación muestra una aplicación creada por un desarrollador que muestra contenido interactivo.
 
@@ -28,9 +28,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **Live Copy** Una Live Copy es una copia del contenido específico del sitio para el que se mantiene una relación activa con el origen original. Esta relación en directo permite que la Live Copy herede contenido y propiedades de página del origen.
 
-**Las ubicaciones de ubicación** hospedan la configuración de las pantallas según dónde estén las distintas pantallas.
+**Ubicación/Ubicación Carpeta** Ubicaciones o ubicaciones dentro de la carpeta de ubicación hospedan la configuración de las pantallas según dónde se encuentren las distintas pantallas.
 
-**Software** del reproductor El reproductor es el software que se ejecuta en un dispositivo que le permitirá mostrar un canal en una pantalla.
+**Software** del reproductor El reproductor es la aplicación de software que se ejecuta en un dispositivo y que le permitirá mostrar un canal en una pantalla.
 
 **Pantalla** Una pantalla es un monitor físico o cualquier otro sistema capaz de producir una salida visual, que muestra el contenido proveniente de su dispositivo.
 
