@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Configuraciones del servidor de pantallas](configuring-screens-introduction.md)
    + [Configuración de configuraciones de Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalación de Screens Player](installing-screens-player.md)
-   + [Conexión de la aplicación Screens Player](working-with-screens-player.md)
+   + [Conexión del reproductor de pantallas](working-with-screens-player.md)
    + [Registro de dispositivos](device-registration.md)
    + [Configuración de ACL](setting-up-acls.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
-   + Instalación del cliente {#installing-client}
+   + Consideraciones específicas del cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [Descripción general de la arquitectura de creación y publicación](author-publish-architecture-overview.md)
       + [Configuración del autor y la publicación](author-and-publish.md)
-+ Creación {#authoring}
+   + Integración de Analytics con AEM Screens {#analytics-integration}
+      + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
+      + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
++ Creación y ejemplos de casos de uso {#authoring}
    + Configuración de un proyecto de pantallas {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Crear y administrar canales](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [Lanzamientos](launches.md)
       + [Nuevo importador de proyectos a partir de archivo](project-importer.md)
       + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
-   + Integración de Analytics con AEM Screens {#analytics-integration}
-      + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
+   + Ejemplos de casos de uso {#use-case-examples}
+      + [Canales de emergencia](emergency-channel.md)
+      + [Activación de la temperatura del centro de viajes](local-temperature-activation.md)
+      + [Activación de reserva de hospitalidad](hospitality-reservation-activation.md)
+      + [Activación de objetivo de inventario comercial](retail-inventory-activation.md)
 + Desarrollo de {#developing}
    + [API de REST](rest-api.md)
    + [Desarrollo de un componente personalizado para AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Creación de componentes](creating-components.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de diseños de varias zonas de plantillas personalizadas](creating-custom-templates-multizone-layouts.md)
-+ Ejemplos de casos de uso {#use-case-examples}
-   + [Canales de emergencia](emergency-channel.md)
-   + [Activación de la temperatura del centro de viajes](local-temperature-activation.md)
-   + [Activación de reserva de hospitalidad](hospitality-reservation-activation.md)
-   + [Activación de objetivo de inventario comercial](retail-inventory-activation.md)
 + Solución de problemas {#troubleshooting}
    + [Preguntas más frecuentes sobre AEM Screens](aem-screens-faqs.md)
    + [Resolución de problemas del centro de control de dispositivos](monitoring-screens.md)
