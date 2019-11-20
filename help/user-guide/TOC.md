@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # Guía del usuario de AEM Screens {#user-guide}
 
 + [Introducción a las pantallas](aem-screens-introduction.md)
-+ Información general {#overview}
++ Información general y guía de inicio rápido {#overview}
    + [Guía de inicio rápido](kickstart-for-aem-screens.md)
    + [Términos clave](screens-glossary.md)
 + Conceptos básicos de la red de publicidad dinámica {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Parte 3: Pruebas, puntos de interés, programas piloto y lanzamientos](testing-pocs-pilots-rollouts.md)
    + [Parte 4: Administración e implementación de proyectos](project-management-and-deployment.md)
    + [Parte 5: Consideraciones de soporte](support-considerations.md)
-+ Administración {#administering}
++ Configuración y administración {#administering}
    + [Configuraciones del servidor de pantallas](configuring-screens-introduction.md)
    + [Configuración de configuraciones de Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalación de Screens Player](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [Activación de la temperatura del centro de viajes](local-temperature-activation.md)
       + [Activación de reserva de hospitalidad](hospitality-reservation-activation.md)
       + [Activación de objetivo de inventario comercial](retail-inventory-activation.md)
-+ Desarrollo de {#developing}
+      + [Aplicación de transiciones](applying-transitions.md)
++ Recursos para desarrolladores y API {#developing}
    + [API de REST](rest-api.md)
    + [Desarrollo de un componente personalizado para AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canales sin conexión](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Creación de componentes](creating-components.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de diseños de varias zonas de plantillas personalizadas](creating-custom-templates-multizone-layouts.md)
-+ Solución de problemas {#troubleshooting}
++ Resolución de problemas y preguntas más frecuentes {#troubleshooting}
    + [Preguntas más frecuentes sobre AEM Screens](aem-screens-faqs.md)
    + [Resolución de problemas del centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
