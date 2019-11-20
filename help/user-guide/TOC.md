@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
+source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
    + [Registro de dispositivos](device-registration.md)
    + [Configuración de ACL](setting-up-acls.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
+   + [Nuevo importador de proyectos a partir de archivo](project-importer.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
@@ -49,7 +50,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [Crear y administrar programaciones](managing-schedules.md)
       + [Administración de dispositivos](managing-devices.md)
       + [Asignación de canales](channel-assignment.md)
-   + Uso de las funciones del producto {#product-features}
+   + Uso de las funciones principales del producto {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización masiva sin conexión](bulk-offline-update.md)
       + [Servicio de notificaciones de pantalla de AEM](screens-notifications-service.md)
@@ -63,9 +64,11 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [Diseño de varias zonas](multi-zone-layout-aem-screens.md)
       + [Representaciones de vídeo](generating-renditions.md)
       + [Usar la secuencia integrada dinámica](dynamic-embedded-sequences.md)
-      + [Lanzamientos](launches.md)
-      + [Nuevo importador de proyectos a partir de archivo](project-importer.md)
       + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
+   + Administración de actualizaciones de contenido {#content-updates}
+      + [Actualización de contenido bajo demanda](on-demand-content.md)
+      + [Actualización de contenido como servicio](content-update-as-a-service.md)
+      + [Actualización de contenido mediante inicios](launches.md)
    + Ejemplos de casos de uso {#use-case-examples}
       + [Canales de emergencia](emergency-channel.md)
       + [Activación de la temperatura del centro de viajes](local-temperature-activation.md)
