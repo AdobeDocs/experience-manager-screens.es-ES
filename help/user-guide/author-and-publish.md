@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,22 @@ Siga los pasos a continuación para enviar actualizaciones de contenido del auto
    >De forma predeterminada, se activarán todas las casillas y deberá anular la selección manualmente para publicar todos los módulos del proyecto.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **Descripción del cuadro de diálogo Incluir elementos secundarios**
+
+   El paso mencionado arriba muestra cómo puede publicar todo el contenido. En caso de que desee utilizar las otras tres alternativas disponibles, deberá comprobar esa opción en particular.
+Por ejemplo, la siguiente imagen permite administrar y actualizar solo las páginas modificadas del proyecto:
+   ![image](assets/author-publish-manage.png)
+
+   Siga las explicaciones siguientes para comprender las opciones disponibles:
+
+   1. **Incluir solo elementos secundarios**inmediatos:
+Esta opción permite administrar las actualizaciones solo a los subnodos de la estructura del proyecto.
+   1. **Incluir solo las páginas**modificadas:
+Esta opción le permite administrar las actualizaciones únicamente en las páginas modificadas del proyecto en las que se encuentran los cambios en la estructura del proyecto.
+   1. **Incluir solo las páginas**que ya estén actualizadas:
+Esta opción permite administrar las actualizaciones solo en las páginas que se publicaron anteriormente.
+
 
 1. Haga clic en **Publicar** en el asistente **Administrar publicación.**
 
