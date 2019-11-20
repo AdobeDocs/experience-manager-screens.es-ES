@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ La fecha de lanzamiento del paquete de funciones de AEM Screens 201907 es el 31 
 
 El reproductor cambia a un canal que muestra la información de emergencia al recibir un evento disparado por el sistema de emergencia. El canal se reproduce exclusivamente hasta que termina la situación de emergencia.
 
-Consulte Caso de uso de canal [**de**](emergency-channel.md) emergencia para la implementación.
+Consulte Caso de uso de canal [de](emergency-channel.md) emergencia para la implementación.
 
 * **Objetivo habilitado para componentes asincrónicos (*como vídeos, secuencia*incrustada)**
 
-Ahora se puede activar la segmentación** **para los recursos utilizados en el proyecto de AEM Screens.
+Ahora se puede activar la segmentación para los recursos utilizados en el proyecto de AEM Screens.
 
-Para obtener más información sobre cómo activar la segmentación de recursos en el proyecto de AEM Screens, consulte [**Configuración de ContextHub en pantallas**](configuring-context-hub.md)AEM.
+Para obtener más información sobre cómo activar la segmentación de recursos en el proyecto de AEM Screens, consulte [Configuración de ContextHub en pantallas](configuring-context-hub.md)AEM.
 
 Después de configurar ContextHub para su proyecto de AEM Screens, siga los distintos casos de uso para comprender cómo los recursos activados por datos desempeñan un papel vital en diferentes industrias:
 
@@ -57,11 +57,11 @@ El controlador de actualizaciones ahora analiza los fragmentos de experiencia y 
 * **Lanzamientos**
 
 Los inicios permiten a los autores de contenido crear versiones futuras de los canales. Con la ayuda de lanzamientos, los autores pueden obtener una vista previa de cada canal en el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo Aprobadores recibirá una notificación y puede aprobar o rechazar la solicitud. Cuando se alcanza la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
-Consulte [**Lanzamientos**](launches.md) para obtener más detalles.
+Consulte [Lanzamientos](launches.md) para obtener más detalles.
 
 * **Configuraciones sin conexión en fragmentos de experiencias**
 
-Ahora puede agregar configuraciones sin conexión (bibliotecas del lado del cliente y archivos estáticos) mientras configura el fragmento de experiencia Pantallas. Consulte [**Uso de fragmentos**](experience-fragments-in-screens.md) de experiencia para obtener más información.
+Ahora puede agregar configuraciones sin conexión (bibliotecas del lado del cliente y archivos estáticos) mientras configura el fragmento de experiencia Pantallas. Consulte [Uso de fragmentos](experience-fragments-in-screens.md) de experiencia para obtener más información.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.4.5 Fe
 
 #### Descargas de AEM Screens Player {#aem-screens-player-downloads}
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte Descargas [**del reproductor de**](https://download.macromedia.com/screens/)AEM Screens.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte Descargas [del reproductor de](https://download.macromedia.com/screens/)AEM Screens.
