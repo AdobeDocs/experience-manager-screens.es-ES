@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# Transición de ContentSync a SmartSync{#transitioning-from-contentsync-to-smartsync}
+# Transición de ContentSync a SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 Esta sección proporciona información general sobre la función SmartSync y cómo minimiza la carga/almacenamiento del servidor y el tráfico de red para reducir los costes.
 
@@ -74,18 +74,17 @@ Siga los pasos a continuación para realizar la transición de ContentSync a Sma
    >
    >Se debe borrar toda la caché de contenido antes de utilizar SmartSync por primera vez.
 
-1. Vaya a **Configuración de la consola web de Adobe Experience Manager **mediante la instancia de AEM —&gt; icono de martillo —&gt; **Operaciones** —&gt; Consola **** web.
+1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante la instancia de AEM —&gt; icono de martillo —&gt; **Operaciones** —&gt; Consola **** web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Configuración de la consola web de Adobe Experience Manager **se abre. Busque *offlinecontentservices*.
 
-   Para buscar la propiedad **Screens Offline Content Service **, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+   Para buscar la propiedad **Screens Offline Content Service** , pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Haga clic en **Guardar** para activar la propiedad **Screens Offline Content Services* ***y, por tanto, utilice SmartSync para AEM Screens.
+1. Haga clic en **Guardar** para habilitar la propiedad **Screens Offline Content Services** y, por tanto, utilice SmartSync para pantallas AEM.
 1. Una vez que haya habilitado SmartSync, debe navegar hasta el proyecto y hacer clic en **Actualizar contenido** sin conexión *(en la barra de acciones),* como se muestra en la figura siguiente.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-
