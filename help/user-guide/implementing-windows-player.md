@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -102,7 +102,7 @@ Siga los pasos a continuación para habilitar el modo de kiosco:
 
 1. Habilitar el iniciador de shell.
 
-   Consulte la sección ***Configurar el iniciador*** de shell en la página ** [Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de soporte técnico de Microsoft Windows para obtener información adicional.
+   Consulte la sección ***Configurar el iniciador*** de shell en la página **[del iniciador](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de shell de Microsoft Windows para obtener más información.
 
 1. Cree un usuario que no sea administrativo (si ya no tiene uno) para utilizarlo en Kiosk. Puede ser un usuario local o de dominio.
 1. Instale Windows Player para ese usuario de Kiosk desde la página de descargas [de](https://download.macromedia.com/screens/) AEM Screens Player.
