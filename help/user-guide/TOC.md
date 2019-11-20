@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
       + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
    + Administración de actualizaciones de contenido {#content-updates}
       + [Actualización de contenido bajo demanda](on-demand-content.md)
-      + [Actualización de contenido como servicio](content-update-as-a-service.md)
+      + [Actualización del contenido como servicio](content-update-as-a-service.md)
       + [Actualización de contenido mediante inicios](launches.md)
    + Ejemplos de casos de uso {#use-case-examples}
       + [Canales de emergencia](emergency-channel.md)
