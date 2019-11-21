@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
+source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 
 ---
 
@@ -82,6 +82,7 @@ source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
    + [Canales sin conexión](offline-channels.md)
    + [Ampliación del componente AEM Screens](extending-component-tutorial-develop.md)
    + [Creación de componentes](creating-components.md)
+   + [Incrustación de una aplicación REACT mediante el editor de AEM SPA e integración con análisis de AEM Screens](embedding-react-app.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de diseños de varias zonas de plantillas personalizadas](creating-custom-templates-multizone-layouts.md)
 + Resolución de problemas y preguntas más frecuentes {#troubleshooting}
