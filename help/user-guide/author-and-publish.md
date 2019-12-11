@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ Puede configurar un ejemplo sencillo en el que aloje a un autor y dos instancias
 
 * Autor —&gt; localhost:4502
 * Publish 1 (pub1) —&gt; localhost:4503
-* Publish (pub2) —&gt; localhost:4504
+* Publish 2 (pub2) —&gt; localhost:4504
 
 ## Configuración de agentes de replicación en el autor {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Haga clic en **Editar** para abrir el cuadro de diálogo Configuración **del** agente y especificar los detalles.
+
+   >[!NOTE]
+   >
+   >El usuario debe marcar **Habilitado** para habilitar el agente de replicación. Debe marcar esta opción en Predeterminado, Pantallas y Agentes de replicación inversa.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
