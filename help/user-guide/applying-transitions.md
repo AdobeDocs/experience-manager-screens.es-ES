@@ -6,19 +6,19 @@ seo-description: Siga esta página para aprender a aplicar transiciones a sus pr
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # Aplicación de transiciones {#applying-transitions}
 
-En esta sección se describe cómo un componente **Transición** le permite agregar una transición al proyecto Pantallas.
+En esta sección se describe cómo aplicar el componente **Transición** entre distintos recursos (imágenes y vídeos) en un canal.
 
 
 >[!CAUTION]
 >
->Para obtener información detallada sobre las propiedades del componente Transición, consulte [Transiciones](adding-components-to-a-channel.md#transition)
+>Para obtener información detallada sobre las propiedades del componente Transición, consulte [Transiciones](adding-components-to-a-channel.md#transition).
 
 ## Adición de un componente de transición a recursos en un canal {#adding-transition}
 
@@ -43,15 +43,13 @@ Siga los pasos a continuación para añadir un componente de transición a su pr
 1. Arrastre y suelte el componente **Transición** en el editor.
    >[!CAUTION]
    >
-   >Antes de agregar la transición a los recursos del canal, asegúrese de:
-No se agrega transición antes del primer recurso en el canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
+   >Antes de agregar la transición a los recursos en el canal, asegúrese de no agregar la transición antes del primer recurso en el canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >De forma predeterminada, el componente de transición se establece en Tipo como **Normal** con **Duración** definida en *600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición más largo que el recurso al que se está aplicando.
-
+   >De forma predeterminada, las propiedades del componente de transición como **Tipo** se establecen en **Normal** y la **Duración** se establece en *600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición más largo que el recurso al que se está aplicando.
 
 ## Adición de un componente de transición a vídeos en un canal {#adding-transition-videos}
 
