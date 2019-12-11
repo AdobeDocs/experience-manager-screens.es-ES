@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    1. Seleccione la carpeta **Canales** y haga clic en **Crear** para abrir el asistente y crear un canal.
 
-   1. Seleccione **Canal de secuencia **en el asistente y cree el canal denominado **MainAdChannel**.
+   1. Seleccione Canal **** de secuencia en el asistente y cree el canal titulado **MainAdChannel**.
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Adición de contenido al canal de secuencia**
@@ -63,7 +63,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    1. Seleccione la carpeta **Canales** .
    1. Haga clic en **Crear** para abrir el asistente y crear un canal.
-   1. Seleccione **Canal de secuencia **en el asistente y cree el canal denominado **CanalDeEmergencia**.
+   1. Seleccione Canal **de secuencia** en el asistente y cree el canal denominado **CanalDeEmergencia**.
    >[!NOTE]
    >
    >Normalmente, el canal de emergencia se agrega al proyecto de producción preexistente.
@@ -96,9 +96,9 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 1. Asigne ambas pantallas a la programación y defina las prioridades
 
-   1. Seleccione la programación** (StoreSchedule)** y haga clic en **Tablero** en la barra de acciones.
+   1. Seleccione la programación **(StoreSchedule)** y haga clic en **Tablero** en la barra de acciones.
 
-   1. Haga clic en **+ Asignar canal** en el panel **CANALES ASIGNADOS ****1.
+   1. Haga clic en **+ Asignar canal** desde el panel CANALES **** ASIGNADOS.
 
    1. En el cuadro de diálogo Asignación **de canal** :
 
@@ -113,7 +113,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Haga clic en **+ Asignar canal** en el panel **CANALES ASIGNADOS ****1.
+1. Haga clic en **+ Asignar canal** desde el panel CANALES **** ASIGNADOS.
 
 1. En el cuadro de diálogo Asignación **de canal** :
 
@@ -131,7 +131,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 1. **Asignación de programación a cada visualización**
 
-   1. Vaya a cada pantalla, como **EmergencyChannel** —&gt; **Ubicaciones** —&gt; **Tienda **—&gt;**TiendaDelantera**.
+   1. Vaya a cada pantalla, como **EmergencyChannel** —&gt; **Ubicaciones** —&gt; **Tienda** —&gt;**TiendaPrimera**.
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **Haga clic en**... en el panel CANALES y PROGRAMAS **ASIGNADOS y haga clic en** +Asignar programación ****.
