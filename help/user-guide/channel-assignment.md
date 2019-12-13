@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -68,7 +68,7 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    La prioridad se utiliza para solicitar las asignaciones en caso de que varias de ellas coincidan con los criterios de reproducción. Aquel elemento que tenga el valor más alto siempre tendrá prioridad sobre otros valores más bajos. Por ejemplo, si hay dos canales A y B, y A tiene una prioridad de 1 y B tiene una prioridad de 2, se muestra el canal B ya que tiene mayor prioridad que A.
 
-   La prioridad de un canal se establece como un número (1 como mínimo) en el cuadro de diálogo **Asignación de canal **Como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
+   La prioridad de un canal se establece como un número (1 para indicar el mínimo) en el cuadro de diálogo **Asignación de canales**, tal como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
    **Eventos admitidos**:
 
