@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -71,11 +71,11 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. Si el código **de** registro es el mismo en ambos equipos, toque o haga clic en el botón **Validar** en AEM, como se muestra en el paso (6).
-1. Defina el nombre que desee para el dispositivo y haga clic en** Registrarse**.
+1. Defina el nombre que desee para el dispositivo y haga clic en **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Toque o haga clic en** Finalizar** para completar el proceso de registro.
+1. Tap/click **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
