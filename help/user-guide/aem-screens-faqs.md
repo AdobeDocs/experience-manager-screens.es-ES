@@ -6,7 +6,7 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ El reproductor ChromeOS se puede instalar como complemento Chrome Browser en el 
 1. Descomprima y guárdelo en el disco.
 1. Abra el navegador Chrome y haga clic en el menú de 3 puntos y seleccione **Más herramientas** —&gt; **Extensiones** en la esquina superior derecha o navegue directamente a ***chrome://extensions***.
 1. Encienda el modo **de** desarrollador desde la esquina superior derecha.
-1. Haga clic en **Cargar sin empaquetar **desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
+1. Haga clic en **Cargar sin empaquetar** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
 1. Compruebe **AEM Screens Chrome Player** si está disponible en la lista de extensiones.
 1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** en la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 1. Haga clic en **AEM Screens** Plugin para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
