@@ -6,19 +6,19 @@ seo-description: Siga esta página para aprender a aplicar transiciones a sus pr
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # Aplicación de transiciones {#applying-transitions}
 
-En esta sección se describe cómo aplicar el componente **Transición** entre distintos recursos (imágenes y vídeos) en un canal.
+En esta sección se describe cómo aplicar el componente **Transición** entre distintos recursos (imágenes y vídeos) y secuencias incrustadas en un canal.
 
 
 >[!CAUTION]
 >
->Para obtener información detallada sobre las propiedades del componente Transición, consulte [Transiciones](adding-components-to-a-channel.md#transition).
+>Para obtener información detallada sobre las propiedades del componente **Transición** , consulte [Transiciones](adding-components-to-a-channel.md#transition).
 
 ## Adición de un componente de transición a recursos en un canal {#adding-transition}
 
@@ -51,8 +51,12 @@ Siga los pasos a continuación para añadir un componente de transición a su pr
    >
    >De forma predeterminada, las propiedades del componente de transición como **Tipo** se establecen en **Normal** y la **Duración** se establece en *600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición más largo que el recurso al que se está aplicando.
 
+1. Además, si agrega un componente Secuencia **** incrustada (que incluye un canal de secuencia) a este editor de canal, puede agregar un componente de transición al final, de modo que el contenido se reproduzca en orden, como se muestra en la figura siguiente:
+
+   ![image3](assets/transitions5.png)
+
 ## Adición de un componente de transición a vídeos en un canal {#adding-transition-videos}
 
-Al aplicar el componente de transición entre vídeos, defina siempre el **tipo** en **Desvanecimiento** y la duración **de la** secuencia en **1600 ms**.
+Al aplicar un componente de transición entre vídeos, se recomienda definir el **tipo** en **Desvanecimiento** y la duración **de la** secuencia en **1600 ms**.
 
 ![image3](assets/transitions4.png)
