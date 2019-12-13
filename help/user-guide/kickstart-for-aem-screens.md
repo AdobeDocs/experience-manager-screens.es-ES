@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Haga clic en **Crear** para crear un nuevo proyecto de Pantallas (consulte la figura siguiente).
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Enter the title as *Test_Project*  and click **Create**.
    ![climage_1-4](assets/chlimage_1-4.png)
 
    Una vez creado el proyecto, vuelve a la consola Proyecto de Pantallas. Puede seleccionar el proyecto. En un proyecto, hay cinco tipos de carpetas, a saber, **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones** y **Programaciones**, como se muestra en la figura siguiente.
@@ -77,8 +77,8 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Haga clic en** Crear** desde la barra de acciones (ver la figura a continuación). Se abrirá un asistente.
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). Se abrirá un asistente.
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![climage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    Siga los pasos a continuación para agregar contenido al canal (*TestChannel*) de su proyecto:
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Click **Edit** from the action bar (see the figure below). Se abre el editor para el* TestChannel*.
+   1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
    1. Haga clic en el icono que alterna el panel lateral del lado izquierdo de la barra de acciones para abrir los recursos y componentes.
    1. Arrastre los componentes que quiera añadir y colóquelos en el canal.
@@ -115,7 +115,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
-   1. Vaya a la carpeta *Test_Project* que ha creado y seleccione la carpeta **Locations **Locations.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. Haga clic en **Crear** junto al icono del signo más en la barra de acciones (consulte la figura siguiente). Se abrirá un asistente.
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Vaya a la ubicación en la que desea crear la visualización (*Test_* Project —&gt; **Ubicaciones** —&gt; *TestLocation)* como se muestra en la figura de arriba y seleccione *TestLocation*.
 
-   1. Haga clic en** Crear **desde la barra de acciones.
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. Haga clic en **Crear** en la barra de acciones.
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. Introduzca **Nombre** y **Título** para la ubicación de visualización (introduzca el título como *TestDisplay*).
 
@@ -161,7 +161,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Vaya a la carpeta **Programaciones** desde Test_Project —&gt; **Programaciones**.
 
-   1. Haga clic en** Crear **desde la barra de acciones. Se abrirá un asistente.
+   1. Haga clic en **Crear** en la barra de acciones. Se abrirá un asistente.
    1. Seleccione **Programar** en la página del asistente **Crear** .
 
    1. Introduzca el **Nombre** y el **Título** como *Programa* matinal en la página de propiedades.
@@ -187,13 +187,13 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Seleccione la ruta de canal*** (*Test_Project* —&gt; *Canales* —&gt; *TestChannel* ) en el **canal**.
+   1. Seleccione la Ruta **del** canal (*Test_Project* —&gt; *Canales* —&gt; *TestChannel* ) en el **canal**.
 
    1. Select the **Priority** for this channel as *1*.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   1. Escriba **Programar **y seleccione las fechas **activas desde** y **activas hasta**.
+   1. Introduzca **Programar** y seleccione las fechas **activas desde** y **activas hasta**.
 
    1. Haga clic en **Guardar**.
    El canal se crea y se agrega al panel.
@@ -241,7 +241,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Haga clic en **Finalizar** para completar el paso de registro del dispositivo.
 
