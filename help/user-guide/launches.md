@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -67,7 +67,7 @@ Si desea cambiar la configuración anterior, siga las siguientes instrucciones:
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, le permite establecer un período de gracia de 600 segundos en la ruta */contenido/pantallas*.
 
-Esto significa que cuando se establece la fecha de lanzamiento de cualquier lanzamiento para los recursos en */contenido/pantallas*, la promoción comenzará con este desplazamiento. Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 AM y el período de gracia es de 600 segundos, el trabajo de promoción comenzará el 24 de noviembre, a las 8:50 AM.
+Esto significa que cuando se establece la fecha de lanzamiento para cualquier inicio de los recursos en */contenido/pantallas*, la promoción comenzará con este desplazamiento. Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 AM y el período de gracia es de 600 segundos, el trabajo de promoción comenzará el 24 de noviembre, a las 8:50 AM.
 
 ## Uso de inicios {#using-launches}
 
@@ -104,7 +104,7 @@ Siga los pasos a continuación para implementar la futura funcionalidad de publi
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Introduzca el título **de** lanzamiento como **promociones** de verano y no necesita establecer la** fecha de inicio**, como se muestra en la figura siguiente. Haga clic en **Crear**.
+1. Introduzca el título **de** lanzamiento como **promociones** de verano y no necesita establecer la fecha **de** lanzamiento, como se muestra en la figura siguiente. Haga clic en **Crear**.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Siga los pasos a continuación para editar las propiedades de inicio:
 
    >[!NOTE]
    >
-   >Seleccione la opción **Árbol de contenido **en el carril izquierdo para abrir el lanzamiento que ha creado.
+   >Seleccione la opción Árbol **de** contenido en el carril izquierdo para abrir el lanzamiento que ha creado.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
