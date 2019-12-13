@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -35,7 +35,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Seleccione el modelo **DAM Update Asset **y haga clic en Editar en la barra de acciones para abrir la ventana **DAM Update Asset **ventana.
+1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,7 +47,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Haga clic en **Guardar **en la parte superior izquierda de la pantalla **Recurso de actualización DAM **.
+1. Haga clic en **Guardar** de la parte superior izquierda de la pantalla **Recurso de actualización DAM**.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
@@ -73,11 +73,11 @@ Siga los pasos a continuación para generar manualmente representaciones en Full
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset **model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click the **Run**.
+1. Select the desired video in the **Payload** and click **Run**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
