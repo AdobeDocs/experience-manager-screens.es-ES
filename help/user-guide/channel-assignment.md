@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ En esta página se muestra la asignación del canal a las visualizaciones.
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
-1. Vaya a la pantalla requerida, por ejemplo, **DemoProject*** *—&gt; **Ubicaciones** —&gt; **SanJosé** —&gt; **StoreDisplay**.
+1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —&gt; **Ubicaciones** —&gt; **SanJosé** —&gt; **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    O bien,
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   Puede configurar las siguientes propiedades desde el cuadro de diálogo **Asignación de canal **Cuadro de diálogo:
+   Puede configurar las siguientes propiedades en el cuadro de diálogo **Asignación de canales**:
 
    **Rol del canal**:
 
