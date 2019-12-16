@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ El recurso de imagen tiene tres fichas denominadas **Imagen**, **Accesibilidad**
 | **Accesibilidad** |
 | ***Texto alternativo*** | Texto alternativo a la imagen. |
 | **Secuencia** |
-| ***Duración*** | Seleccione toda la duración de la imagen. Si establece la duración como -1, indica que la imagen incrustada se ejecutará a toda su longitud en un canal determinado. |
+| ***Duración*** | De forma predeterminada, la duración se establece en *8000 ms*. Si desea cambiar la duración de reproducción de la imagen, actualice el campo **Duración** . |
 
 ### Transición {#transition}
 
