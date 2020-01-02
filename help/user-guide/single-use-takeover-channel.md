@@ -5,7 +5,7 @@ description: Siga este Caso de uso para crear un único canal TakeOver de uso.
 seo-description: Siga este Caso de uso para crear un único canal TakeOver de uso.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ Siga los pasos a continuación para configurar un proyecto:
    >[!NOTE]
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte Asignación **[de canal](channel-assignment.md)**.
 
-1. Rellene los campos (Ruta **del** canal, **Prioridad** y Eventos **** admitidos) del cuadro de diálogo Asignación **de** canal y haga clic en **Guardar**. Ahora, ha asignado el **MainAdChannel** a la pantalla.
+1. Rellene los campos (Ruta **del** canal, **Prioridad** y Eventos **** admitidos) del cuadro de diálogo Asignación **de** canal y haga clic en **Guardar**. Ahora ha asignado el **MainAdChannel** a la pantalla.
 
    ![recurso](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ Siga los pasos a continuación para configurar un proyecto:
 El texto de la **programación** mencionada en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00.01*.
 
       ![recurso](assets/single-takeover8.png)
+
+      Vaya a la pantalla desde **SingleUseTake** —> **Ubicaciones** —> **Punto de encuentro** —> Pantalla **principal del vestíbulo** y haga clic en **Tablero** en la barra de acciones para ver los canales asignados con sus prioridades, como se muestra a continuación.
+
+      >[!NOTE]
+      >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.
+
+      ![recurso](assets/single-takeover9.png)
 
       >[!NOTE]
       >Puede mencionar la programación para diferentes casos de uso. Consulte Caso de uso perpetuo para obtener más detalles.
