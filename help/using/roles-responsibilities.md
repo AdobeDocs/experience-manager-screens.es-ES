@@ -4,27 +4,27 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
+source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
 
 
 # Funciones y responsabilidades del proyecto {#roles-responsibilities}
 
-Como implementador experimentado de AEM, probablemente habrá visto las funciones a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos* de TI.
+Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
 En un proyecto típico de AEM Screens, las funciones se perfeccionan aún más, ya que cada una de ellas cumple un objetivo importante en el proyecto.
 
 El diagrama a continuación muestra las funciones a las que nos referiremos en toda la guía.
 
-![](/help/assets/roles-used.png)
+![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
 > Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
 
 ## Definición de funciones {#roles}
 
-La siguiente sección proporciona información general sobre la audiencia de destino:
+En la sección siguiente se proporciona información general sobre la audiencia de destino:
 
 ### Adobe {#adobe-audience}
 
@@ -44,7 +44,7 @@ El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocu
 
 Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
 
-#### Consideración del socio de hardware {#selecting-hardware-partner}
+#### Consideración de un socio de hardware {#selecting-hardware-partner}
 
 Es fundamental seleccionar el socio de hardware adecuado. Deben tenerse en cuenta las siguientes cuestiones:
 
@@ -64,10 +64,10 @@ Los Estrategas Comerciales representan a los responsables de la toma de decision
 
 Son los que definen los requisitos y configuran las métricas de KPI. La estrategia comercial podría ser la siguiente:
 
-* Marketing o
+* Marketing o,
 * Gerente de ventas Digital Strategy Manager Creativos / Administración de contenido.
 
-El equipo de Creativos y Administración de Contenido trabaja en estrecha colaboración con el equipo de Estrategia y convierte los requisitos en experiencias de cliente. Controlan el diseño UX general y conservan el contenido que complementa la marca.
+El equipo de Creativos y Administración de Contenido trabaja en estrecha colaboración con el equipo de Estrategia y convierte los requisitos en experiencias con los clientes. Controlan el diseño UX general y conservan el contenido que complementa la marca.
 
 La Administración de contenido y elementos creativos podría ser la siguiente:
 
@@ -91,12 +91,12 @@ Para apoyar una implementación exitosa de Digital Signage, es habitual segmenta
 
 1. La segunda etapa, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de despliegue.
 
-1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y los elementos de apoyo como parte de la solución total.
+1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y a los elementos de apoyo como parte de la solución total.
 
 >[!NOTE]
 >
-> Aunque esta guía pone énfasis principalmente en el *día uno* y el *día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
-Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
+> Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
+Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -110,7 +110,7 @@ A continuación se muestra un gráfico RACI de muestra con las definiciones de f
 
 * **Responsable**: Realiza el trabajo para completar la tarea.
 
-* **Responsable**: Los delegados trabajan y son los últimos en revisar la tarea antes de que se complete.
+* **Responsable**: Los delegados trabajan y es la última parte en revisar la tarea antes de que se complete.
 
 * **Consultado**: Revisa la tarea o la entrega para proporcionar información.
 
@@ -135,7 +135,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
-| Alineación del plan y la programación del proyecto | RA | RA | C | C |
+| Alineación en el plan y la programación del proyecto | RA | RA | C | C |
 | Evaluar entornos de servidor actuales | I | RA | I | I |
 | Requisitos de diseño de UX | I | RA | C | RA |
 | Validación de requisitos técnicos | I | RA | RA | C |
@@ -160,7 +160,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (preparaci
 | Configuración masiva de hardware | RA | I | C | I |
 | Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
 
-La siguiente tabla resume el **Día uno:Día uno: Implementación del proyecto (hardware)**:
+La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
@@ -179,13 +179,13 @@ La siguiente tabla resume el **Día uno:Día uno: Implementación del proyecto (
 
 * **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o el envío al equipo de desarrollo interno
 
-* **Técnico**: Ya sea contratado por el integrador AV o es parte de la misma empresa.
+* **Técnico**: Ya sea contratado por el integrador de AV o es parte de la misma empresa.
 
 La siguiente tabla resume el **Día dos: Gráfico** RACI de compatibilidad con postinicio:
 
 | **Fase** | **Creación** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
-| *Día dos:Compatibilidad con postinicio* |
+| *Día dos: Compatibilidad con postinicio* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA |
 | Asistencia de nivel 1 | I | I | RA |
 | Asistencia de nivel 2 | I | C | RA |
