@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -46,9 +46,9 @@ En la siguiente sección se explica cómo configurar los agentes de replicación
 
 Puede configurar un ejemplo sencillo en el que aloje a un autor y dos instancias de publicación:
 
-* Autor —&gt; localhost:4502
-* Publish 1 (pub1) —&gt; localhost:4503
-* Publish 2 (pub2) —&gt; localhost:4504
+* Autor —> localhost:4502
+* Publish 1 (pub1) —> localhost:4503
+* Publish 2 (pub2) —> localhost:4504
 
 ## Configuración de agentes de replicación en el autor {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ Para crear agentes de replicación, debe aprender a crear un agente de replicaci
 
 Existen 3 agentes de replicación que se necesitan para las pantallas:
 
-1. **Agente de replicación predeterminado ***(especificado como ***agente** de replicación estándar)
+1. **Agente de replicación predeterminado ***(especificado como***agente **de replicación estándar)
 1. **Agente de replicación de pantallas**
 1. **Agente de replicación inversa**
 
@@ -64,7 +64,7 @@ Existen 3 agentes de replicación que se necesitan para las pantallas:
 
 Siga los pasos a continuación para crear un agente de replicación predeterminado:
 
-1. Vaya a su instancia de AEM —&gt; icono de martillo —&gt; **Operaciones** —&gt; **Configuración**.
+1. Vaya a su instancia de AEM —> icono de martillo —> **Operaciones** —> **Configuración**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -103,8 +103,8 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 
 #### Creación de Agentes de Replicación Estándar {#creating-standard-replication-agents}
 
-1. Crear un agente de replicación estándar para pub1 (el agente predeterminado ya debería estar configurado) (por ejemplo, *https://&lt;hostname&gt;:4503/bin/received?sling:authRequestLogin=1*)
-1. Cree un agente de replicación estándar para pub2. Puede copiar el agente de rep para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname&gt;:4504/bin/received?sling:authRequestLogin=1*)
+1. Crear un agente de replicación estándar para pub1 (el agente predeterminado ya debería estar configurado) (por ejemplo, *https://&lt;hostname>:4503/bin/received?sling:authRequestLogin=1*)
+1. Cree un agente de replicación estándar para pub2. Puede copiar el agente de rep para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname>:4504/bin/received?sling:authRequestLogin=1*)
 
 #### Creación de agentes de replicación de pantallas {#creating-screens-replication-agents}
 
@@ -143,34 +143,37 @@ El usuario y la contraseña del clúster de todas las instancias de publicación
 
 En cada instancia de publicación:
 
-1. En la consola OSGi, navegue a **MAIN** —&gt; Compatibilidad con **criptografía** (*https://&lt;host&gt;:&lt;puerto&gt;/system/console/crypto*).
+1. En la consola OSGi, navegue a **MAIN** —> Compatibilidad con **criptografía** (*https://&lt;host>:&lt;puerto>/system/console/crypto*).
 1. Escriba la contraseña de texto sin formato que desee (igual para todas las instancias) en **Texto sin formato**
 1. Haga clic en **Proteger**.
 1. Copie el valor Texto **** protegido en el editor de texto o el bloc de notas. Este valor se utilizará en la configuración OSGi para ActiveMQ.
 
 Dado que cada instancia de publicación tiene claves criptográficas únicas de forma predeterminada, debe realizar este paso en cada instancia de pub y guardar la clave única para la siguiente configuración.
 
-*Por ejemplo*,
+>Nota:
+>La contraseña debe comenzar y finalizar con llaves.
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*Por ejemplo:*
+
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar clúster de artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
 
 En cada instancia de publicación:
 
-1. Vaya al administrador de configuración OSGi *https://&lt;host&gt;:&lt;puerto&gt;/system/console/configMgr*
+1. Vaya al administrador de configuración OSGi *https://&lt;host>:&lt;puerto>/system/console/configMgr*
 1. Seleccione la configuración del proveedor **de JMS de** Apache ActiveMQ Artemis
 1. Actualice lo siguiente:
 
-* ***Contraseña*** del clúster: (utilice un valor cifrado del paso anterior por instancia respectiva)
-* ***Temas***: {name: 'comandos', dirección: 'com.adobe.cq.screens.command', maxConsumers: 50}
+* ***Contraseña ***del clúster: (utilice un valor cifrado del paso anterior por instancia respectiva)
+* ***Temas ***: {name: &#39;comandos&#39;, dirección: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
 
 #### Verificar el clúster de artemis de ActiveMQ {#verify-activemq-artemis-cluster}
 
 Siga los pasos a continuación en cada instancia de Publish:
 
-1. Vaya a la Consola OSGi -&gt; Principal &gt; Artemis ActiveMQ `[https://localhost:4505/system/console/mq`.
-1. Verifique y verifique para ver los puertos de otras instancias en Información de clúster &gt; Topología &gt; nodos=2, miembros=2.
+1. Vaya a la Consola OSGi -> Principal > Artemis ActiveMQ `[https://localhost:4505/system/console/mq`.
+1. Verifique y verifique para ver los puertos de otras instancias en Información de clúster > Topología > nodos=2, miembros=2.
 1. Enviar un mensaje de prueba (en la parte superior de la pantalla, en Información del agente)
 1. Introduzca los siguientes cambios en los campos:
 
@@ -192,7 +195,7 @@ Si no ve la siguiente configuración desde */system/console/mq*, vaya a */system
 
 Siga los pasos de cada instancia de Publish:
 
-1. Vaya a la Consola **** OSGi &gt; Administrador **de configuración**
+1. Vaya a la Consola **** OSGi > Administrador **de configuración**
 1. Seleccionar el filtro de referente Sling de **Apache**
 1. Actualizar configuración y **marcar Permitir vacío**
 
@@ -217,7 +220,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 
 #### Paso 2: Registro de un dispositivo en el autor {#step-registering-a-device-on-author}
 
-1. Vaya a su proyecto `https://localhost:4502/screens.html/content/screens/we-retail` o selecciónelo y vaya a Dispositivos &gt; Administrador de dispositivos.
+1. Vaya a su proyecto `https://localhost:4502/screens.html/content/screens/we-retail` o selecciónelo y vaya a Dispositivos > Administrador de dispositivos.
 1. Seleccione **Registrar dispositivo**.
 1. Haga clic en Registro **del** dispositivo para ver el dispositivo.
 1. Select the device you want to register and click **Register Device**.
@@ -251,15 +254,15 @@ Siga los pasos a continuación para replicar el usuario del dispositivo:
 
 También puede activar el dispositivo desde la consola de administración de dispositivos. Siga los pasos a continuación:
 
-1. Vaya a su proyecto Pantallas —&gt; **Dispositivos**.
-1. Haga clic en **Administrador de dispositivos **desde la barra de acciones.
+1. Vaya a su proyecto Pantallas —> **Dispositivos**.
+1. Click **Device Manager** from the action bar.
 1. Seleccione el dispositivo y haga clic en **Activar** en la barra de acciones, como se muestra en la figura siguiente.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Como alternativa, una vez activado el dispositivo también puede editar o actualizar la URL del servidor haciendo clic en **Editar URL del servidor **desde la barra de acciones, como se muestra en la figura siguiente y los cambios se propagarán al reproductor de AEM Screens.
+>Como alternativa, una vez activado el dispositivo también puede editar o actualizar la URL del servidor haciendo clic en **Editar URL** del servidor en la barra de acciones, como se muestra en la figura siguiente y los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,7 +270,7 @@ También puede activar el dispositivo desde la consola de administración de dis
 
 Los siguientes puntos resumen la lista de comprobación de publicaciones:
 
-* *Usuario* de dispositivo de pantallas: se almacena como usuario de AEM y se activa desde **Herramientas** &gt; **Seguridad** &gt; **Usuarios**. Al usuario se le añadirá el prefijo "screen" con una cadena serializada larga.
+* *Usuario* de dispositivo de pantallas: se almacena como usuario de AEM y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le añadirá el prefijo &quot;screen&quot; con una cadena serializada larga.
 
 * *Proyecto* : proyecto de AEM Screens.
 * *Ubicación* : ubicación a la que está conectado el dispositivo.
@@ -293,7 +296,7 @@ También puede actualizar o editar la URL del servidor desde la consola de admin
 
 1. Vaya al proyecto de AEM Screens y seleccione la carpeta **Dispositivos** .
 1. Click **Device Manager** from the action bar.
-1. Seleccione el dispositivo y haga clic en **Editar URL del servidor **en la barra de acciones, como se muestra en la figura siguiente y los cambios se propagarán al reproductor de AEM Screens.
+1. Seleccione el dispositivo y haga clic en **Editar URL** del servidor en la barra de acciones, como se muestra en la figura siguiente y los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
