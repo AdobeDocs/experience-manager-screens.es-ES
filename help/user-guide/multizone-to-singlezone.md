@@ -4,17 +4,17 @@ description: Siga esta página para conocer el caso de uso de las transiciones d
 seo-description: Caso de uso de MultiZone a SingleZone Transitions.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 0cae7c19759fe3418a13ab2d7cc68f1b220f397d
+source-git-commit: 6f770734941635a0cd404986c259022137355af3
 
 ---
 
 
-# Transición de MultiZone a SingleZone {#multizone-to-singlezone-use-case}
+# Transición de zonas múltiples a zonas únicas {#multizone-to-singlezone-use-case}
 
 
 ## Descripción de caso de uso {#use-case-description}
 
-En esta sección se describe un ejemplo de caso de uso que hace hincapié en cómo configurar un canal de diseño de varias zonas que se alterne con un canal de diseño de una sola zona. Cada canal tiene una secuencia de recursos de imagen y vídeo.
+En esta sección se describe un ejemplo de caso de uso que hace hincapié en cómo configurar un canal de diseño de varias zonas que se alterne con un canal de diseño de una sola zona. El canal de varias zonas tiene recursos de vídeo/imagen secuenciados y muestra cómo se puede configurar un proyecto que alterne de varias zonas a una sola zona y viceversa.
 
 ### Condiciones previas {#preconditions}
 
@@ -29,50 +29,55 @@ Antes de comenzar este caso de uso, asegúrese de comprender cómo:
 
 Autores de contenido
 
-##  Configuración del proyecto {#setting-up-the-project}
+## Configuración del proyecto {#setting-up-the-project}
 
 Siga los pasos a continuación para configurar un proyecto:
 
-1. Cree un proyecto de AEM Screens denominado **ChannelTransition**, como se muestra a continuación.
+1. Cree un proyecto de AEM Screens denominado **TakoverLoop**, como se muestra a continuación.
+
+   ![recurso](assets/mz-to-sz1.png)
 
 
-
-1. **Creación de un canal de pantalla dividido**
+1. **Creación de un canal de pantallas de varias zonas**
 
    1. Seleccione la carpeta **Canales** y haga clic en **Crear** en la barra de acciones para abrir el asistente y crear un canal.
    1. Seleccione Canal **de pantalla dividido de barras** izquierda-izquierda en el asistente y cree el canal titulado **MultiZoneLayout**.
+   1. Agregue contenido al canal. Arrastre y suelte los recursos en cada una de las zonas. El siguiente ejemplo muestra un canal **MultiZoneLayout** que consta de un vídeo, una imagen y una pancarta de texto (en una secuencia incrustada), como se muestra a continuación.
+   ![recurso](assets/mz-to-sz2.png)
+
+   >[!NOTE]
+   >
+   >Para obtener más información sobre la creación de un diseño de varias zonas en el canal, consulte Diseño de [varias zonas](multi-zone-layout-aem-screens.md).
 
 
+1. Cree otro canal denominado **TakoverChannel** en la carpeta **Canales** .
 
-   1. Select the **MultiZoneLayout** channel and click **Edit** from the action bar to open the editor. Arrastre y suelte los recursos en cada una de las zonas. El siguiente ejemplo muestra un vídeo, una imagen y una pancarta de texto en el canal, como se muestra a continuación.
+   ![recurso](assets/mz-to-sz3.png)
 
+1. Haga clic en **Editar** en la barra de acciones para agregar contenido a este canal. Agregue a este canal un componente **Canal** y un recurso de imagen al que desee cambiar, como se muestra en la figura siguiente:
 
-1. **Creación de un canal 2X2 con cuatro imágenes**
+   ![recurso](assets/mz-to-sz4.png)
 
-   1. Seleccione la carpeta **Canales** y haga clic en **Crear** en la barra de acciones para abrir el asistente y crear un canal.
+1. Abra la configuración del componente Canal y señale al canal **MultiZoneLayout** que creó en el *paso 2*.
 
-   1. Seleccione **2X2 Dividir plantilla de canal** de pantalla en el asistente y cree el canal con el título **Dos canalesDosDos**.
+   ![recurso](assets/mz-to-sz5.png)
 
+1. Establezca la duración del campo **Secuencia** en **10000 ms**.
 
-   1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor y arrastrar y soltar cuatro imágenes (cuatro zonas diferentes) en ese canal, como se muestra a continuación.
+   ![recurso](assets/mz-to-sz6.png)
 
+1. Del mismo modo, abra la configuración de la imagen (recurso que ha agregado) y defina su duración desde el campo **Secuencia** a **3000 ms**.
 
-1. **Creación de un canal de pantalla dividido 1X2 con dos imágenes**
+   ![recurso](assets/mz-to-sz7.png)
 
-   1. Seleccione la carpeta **Canales** y haga clic en **Crear** en la barra de acciones para abrir el asistente y crear un canal.
+## Comprobación de la vista previa {#checking-the-preview}
 
-   1. Seleccione **1X2 Dividir plantilla de canal** de pantalla en el asistente y cree el canal con el título **OnebyTwoChannel**.
+Puede ver la salida deseada desde el reproductor o simplemente haciendo clic en la **Vista previa** desde el editor.
 
+El resultado mostrará cómo se reproduce un diseño de varias zonas durante *10000 ms* y, a continuación, cambiará al diseño de una sola zona con una duración de reproducción de *3000 ms* y, a continuación, volverá al diseño de varias zonas.
 
-   1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor y arrastrar y soltar dos imágenes (dos zonas diferentes) en ese canal, como se muestra a continuación.
+>[!VIDEO](https://video.tv.adobe.com/v/30366)
 
-
-1. **Creación de un canal con un vídeo de pantalla completa**
-
-   1. Seleccione la carpeta **Canales** y haga clic en **Crear** en la barra de acciones para abrir el asistente y crear un canal.
-
-   1. Seleccione la plantilla Canal **de secuencia** en el asistente y cree el canal titulado **FullScreensVideo**.
-
-
-   1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor, arrastrar y soltar el componente de vídeo en ese canal y, a continuación, agregar el vídeo deseado, como se muestra a continuación.
-
+>[!NOTE]
+>
+>Puede personalizar la transición de canal (desde el diseño de varias zonas a una sola zona o viceversa) según sus necesidades.
