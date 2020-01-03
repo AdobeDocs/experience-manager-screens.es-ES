@@ -5,7 +5,7 @@ description: Siga este Caso de uso para crear un único canal TakeOver de uso.
 seo-description: Siga este Caso de uso para crear un único canal TakeOver de uso.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ Siga los pasos a continuación para configurar un proyecto:
 
    * **Ruta** de canal: Seleccione la ruta del canal TakeOver
    * **Prioridad**: Establezca la prioridad de este canal mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
+      >[!NOTE]
+      >La prioridad puede ser cualquier valor que sea superior al valor de prioridad del canal que se reproduce normalmente.
    * **Eventos** admitidos: Seleccione la **Pantalla** inactiva y el **Temporizador**.
    * **Programar**: Introduzca el texto de la programación en la que desea que este canal ejecute la visualización. Por ejemplo, el texto aquí permite que el contenido se reproduzca 2 minutos antes de las 12:00 am del 31 de diciembre hasta las 12:01 am.
 El texto de la **programación** mencionada en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00.01*.
 
       ![recurso](assets/single-takeover8.png)
 
-      Vaya a la pantalla desde **SingleUseTake** —> **Ubicaciones** —> **Punto de encuentro** —> Pantalla **principal del vestíbulo** y haga clic en **Tablero** en la barra de acciones para ver los canales asignados con sus prioridades, como se muestra a continuación.
+      Vaya a la pantalla de **SingleUseTakeOver** —> **Ubicaciones** —> **Punto de encuentro** —> **PantallaPresiónPrincipal** y haga clic en **Tablero** en la barra de acciones para ver los canales asignados con sus prioridades, como se muestra a continuación.
 
       >[!NOTE]
       >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.
 
       ![recurso](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >Puede mencionar la programación para diferentes casos de uso. Consulte Caso de uso perpetuo para obtener más detalles.
+>[!NOTE]
+>Se recomienda eliminar el canal TakeOver de un solo uso una vez reproducido.
