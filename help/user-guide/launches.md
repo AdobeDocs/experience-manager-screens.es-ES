@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
 # Lanzamientos {#launches}
-
 
 Los autores de contenido pueden crear versiones futuras de los canales, conocidas como **Launch** , y una fecha de lanzamiento posterior para este lanzamiento permite que el contenido esté activo en dispositivos o reproductores.
 
@@ -33,7 +32,7 @@ En la siguiente sección se explica el período de gracia y cómo configurarlo d
 
 ### Explicación del período de gracia {#understanding-grace-period}
 
-La siguiente configuración permite al administrador configurar el período ***de*** gracia, necesario en los inicios.
+La siguiente configuración permite al administrador configurar el período ***de ***gracia, necesario en los inicios.
 
 **Período** de gracia, incluye:
 
@@ -61,9 +60,9 @@ Descargue las siguientes configuraciones de prueba:
 
 Si desea cambiar la configuración anterior, siga las siguientes instrucciones:
 
-* cree el ***archivo sling:OsgiConfig/ nt:en /apps/system/config*** con el nombre **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** y contenido
+* cree el ***archivo sling:OsgiConfig/ nt:en /apps/system/config ***con el nombre**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **y contenido
 
-   *launches.eventhandler.updatelastmodified=B"false"launches.eventhandler.launch.promoationperiod=["/content/screen(/.*):600"]launches.eventhandler.threadpool.maxsize=I"5"launches.eventhandler.threadpool.priority="MIN"*
+   *launches.eventhandler.updatelastmodified=B&quot;false&quot;launches.eventhandler.launch.promoationperiod=[&quot;/content/screen(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, le permite establecer un período de gracia de 600 segundos en la ruta */contenido/pantallas*.
 
@@ -80,7 +79,7 @@ Siga la sección siguiente para implementar inicios en su proyecto de AEM Screen
 
 Siga los pasos a continuación para implementar la futura funcionalidad de publicación en su proyecto de AEM Screens:
 
-1. Vaya al canal de su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —&gt; **Channels** —&gt; **FutureLaunch**, como se muestra a continuación.
+1. Vaya al canal de su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Channels** —> **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
@@ -154,12 +153,9 @@ Siga los pasos a continuación para editar las propiedades de inicio:
    >
    >Explicación de las entradas Lanzamientos en Promoción **automática**:
 
-   >* **Fecha** de lanzamiento, hace referencia a la fecha de lanzamiento, es decir, la fecha y hora en que el contenido se reproducirá en el reproductor de pantallas según la zona horaria del reproductor.
-   >
-   >
+   >    * **Fecha** de lanzamiento, hace referencia a la fecha de lanzamiento, es decir, la fecha y hora en que el contenido se reproducirá en el reproductor de pantallas según la zona horaria del reproductor.
    >    * **Preparado** para la producción, permite promocionar los canales y significa que el lanzamiento está listo para usarse.
-
-   * **Ámbito**, hace referencia a los canales que se pueden promocionar durante un lanzamiento.
+   >    * **Ámbito**, hace referencia a los canales que se pueden promocionar durante un lanzamiento.
 
 
    Existen las tres opciones siguientes para configurar el ámbito:
@@ -169,7 +165,8 @@ Siga los pasos a continuación para editar las propiedades de inicio:
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
    >[!CAUTION]
-   La promoción de inicio respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
+   >
+   >La promoción de inicio respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
 
 1. Haga clic en **Guardar y cerrar** para volver al canal **FutureLaunch** .
 
