@@ -6,7 +6,7 @@ seo-description: 'Siga esta página para conocer la actualización de contenido 
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
@@ -69,26 +69,25 @@ Esta opción permite administrar las actualizaciones solo en las páginas que se
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
    >
    >
-   >El proceso **Administrar publicación** con contenido sin conexión de actualización consta de dos pasos y los pasos deben estar en el orden correcto.
-   >
-   >
-   >
-   >    1. El flujo de trabajo no funcionará si se activa **Actualizar contenido** sin conexión antes de realizar la publicación mediante **Administrar publicación**.
-      >
-      >    
-   1. El flujo de trabajo no funcionará si no hay cambios en el proyecto y no hay nada para **actualizar contenido** sin conexión.
-   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido se sigue cargando en la instancia de publicación) después de hacer clic en el botón **Publicar** en el flujo de trabajo de administración de publicación.
+   >    1. El flujo de trabajo no funcionará si no hay cambios en el proyecto y no hay nada para **actualizar contenido** sin conexión.
+   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido sigue cargándose para publicar instancias) después de hacer clic en el botón **Publicar** en el flujo de trabajo de administración de publicaciones.
 
 
-1. Una vez que haya completado el flujo de trabajo de administración de publicaciones, debe activar la actualización de contenido sin conexión en el autor, lo que creará la actualización sin conexión en la instancia de creación.
+   > [!CAUTION]
+   > Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido** sin conexión desde el panel de canales o seleccione el proyecto. En este caso, el contenido sin conexión de actualización solo se realiza en la instancia de creación.
 
-   Vaya al proyecto y haga clic en **Actualizar contenido** sin conexión en la barra de acciones. Esta acción reenvía el mismo comando para publicar instancias, de modo que los archivos comprimidos sin conexión también se crean en la instancia de publicación.
+1. Vaya al proyecto y haga clic en **Actualizar contenido** sin conexión en la barra de acciones. Esta acción reenvía el mismo comando para publicar instancias, de modo que los archivos comprimidos sin conexión también se crean en la instancia de publicación.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
+
+   >[!NOTE]
+   >
+   >Una vez que haya completado el flujo de trabajo de administración de publicación y si hay un reproductor que apunta a la instancia de creación, debe activar la actualización de contenido sin conexión en el autor, lo que creará la actualización sin conexión en la instancia de creación.
+
    >[!CAUTION]
    >
-   >Primero debe publicar y, a continuación, activar la actualización de contenido sin conexión, tal como se resume en los pasos anteriores.
+   >Debe activar el contenido sin conexión de actualización en la instancia de autor, si tiene un reproductor registrado en el servidor de creación. No es necesario actualizar el contenido sin conexión para el reproductor registrado en la instancia de publicación.
 
 ### Administración de publicaciones para un canal {#managing-publication-for-a-channel}
 
