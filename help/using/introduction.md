@@ -3,15 +3,15 @@ title: Introducción a [!UICONTROL AEM Screens]
 seo-title: Guía de prácticas recomendadas para proyectos de [!UICONTROL AEM Screens]
 description: Esta página es una sección introductoria de AEM Screens
 seo-description: Esta página ofrece una introducción a AEM Screens
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
 
 ---
 
 
 # Introducción a AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** es una solución de señalización digital que le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas. Esta solución incluye distintos tipos de pantallas de visualización "in-situ" y actúa de forma conjunta con una estrategia de marketing digital integral y omnicanal.
+**AEM (Adobe Experience Manager) Screens** es una solución de señalización digital que le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas. Esta solución incluye distintos tipos de pantallas de visualización &quot;in-situ&quot; y actúa de forma conjunta con una estrategia de marketing digital integral y omnicanal.
 
 AEM Screens le permite crear:
 
@@ -40,9 +40,9 @@ La creación y gestión de una red de señalización digital mediante AEM Screen
 >
 > Si su equipo de implementación tiene experiencia trabajando con aplicaciones de AEM Sites, es importante comprender la diferencia entre AEM Sites y AEM Screens.
 
-AEM Screens proporciona una plataforma unificada de creación y reproducción para implementar contenido en dispositivos de señalización digital en espacios públicos. Si bien el autor de la experiencia debería esforzarse por mantener la coherencia en la web y en los canales "in-situ", hay algunas diferencias que se deberían señalar.
+AEM Screens proporciona una plataforma unificada de creación y reproducción para implementar contenido en dispositivos de señalización digital en espacios públicos. Si bien el autor de la experiencia debería esforzarse por mantener la coherencia en la web y en los canales &quot;in-situ&quot;, hay algunas diferencias que se deberían señalar.
 
-* **Tiempo de permanencia**: normalmente, las páginas web están diseñadas para proporcionar una gran cantidad de información que se puede consumir durante un período de tiempo relativamente más largo. Por el contrario, las experiencias digitales "in-situ" deben anticipar las necesidades del usuario y proporcionar indicaciones claras y concisas sobre cómo y por qué este debería interactuar con la pantalla. Esto da como resultado experiencias más específicas, depuradas y contextuales.
+* **Tiempo de permanencia**: normalmente, las páginas web están diseñadas para proporcionar una gran cantidad de información que se puede consumir durante un período de tiempo relativamente más largo. Por el contrario, las experiencias digitales &quot;in-situ&quot; deben anticipar las necesidades del usuario y proporcionar indicaciones claras y concisas sobre cómo y por qué este debería interactuar con la pantalla. Esto da como resultado experiencias más específicas, depuradas y contextuales.
 
 * **Distancia de visualización**: normalmente, los usuarios tienen que distanciarse más que cuando visualizan un sitio web. Como resultado, el tamaño del texto debería ser, por norma general, mayor. Además, el espaciado entre el texto, las imágenes y otro contenido complementario debería someterse a pruebas en función del tamaño de pantalla previsto y la ubicación en el espacio físico.
 
@@ -54,7 +54,7 @@ AEM Screens proporciona una plataforma unificada de creación y reproducción pa
 
 AEM Screens proporciona un marco para implementar contenido en dispositivos físicos. El contenido se asigna a los canales en Screens, que pueden contener contenido multimedia o aplicaciones de pantalla táctil. Dentro de este marco, una aplicación de AEM Sites podría entregarse como contenido a través de un canal.
 
-Antes de enviarse a un canal en Screens, se debe dar formato a un sitio de AEM para que su uso se adapte a las dimensiones del dispositivo de visualización para el que está destinado.
+Antes de colocarse en un canal en pantallas, se debe dar formato a los sitios de AEM para que se utilicen en las dimensiones del dispositivo de visualización para el que está destinado.
 
 > [!NOTE]
 >
