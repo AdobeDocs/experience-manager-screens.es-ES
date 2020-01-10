@@ -5,7 +5,7 @@ description: Siga este Caso de uso para crear un canal de captura perpetua.
 seo-description: Siga este Caso de uso para configurar un proyecto que cree un canal de toma permanente que se reproduzca durante un día y hora específicos de forma continua.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
+source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
 
 ---
 
@@ -106,4 +106,11 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
+| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
+| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
 | después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el canal empieza a reproducirse después de las 12:45 del 1 de enero, continúa reproduciéndose todo el día el 2 de enero hasta las 3:00 am del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el canal comienza el reproductor después de las 12:45 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 12:45 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
+Tenga en cuenta que también puede utilizar notación de hora __ militar (es decir, 14:00) en lugar de notación de am/pm (es decir, 2:00 pm)
