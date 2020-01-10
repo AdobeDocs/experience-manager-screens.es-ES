@@ -5,7 +5,7 @@ description: Siga este Caso de uso para crear un canal de captura perpetua.
 seo-description: Siga este Caso de uso para configurar un proyecto que cree un canal de toma permanente que se reproduzca durante un día y hora específicos de forma continua.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
+source-git-commit: 5e80a23674528467dd6eca7054e0730471646baf
 
 ---
 
@@ -86,8 +86,8 @@ Siga los pasos a continuación para configurar un proyecto:
    * **Prioridad**: Establezca la prioridad de este canal mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
    * **Eventos** admitidos: Seleccione la **Pantalla** inactiva y el **Temporizador**.
    * **Programar**: Introduzca el texto de la programación en la que desea que este canal ejecute la visualización. El texto de la **programación** mencionada en este ejemplo es *miércoles después de las 14:00 y antes de las 16:00*.
-      [!NOTE]
-      > Para obtener más información sobre las expresiones que puede agregar a la **programación**, consulte la sección Expresiones [de](#example-expressions) ejemplo que aparece a continuación
+      >[!NOTE]
+      >Para obtener más información sobre las expresiones que puede agregar a la **programación**, consulte la sección Expresiones [de](#example-expressions) ejemplo que aparece a continuación
    * **activo desde**: Fecha y hora de inicio.
    * **activa hasta**: Fecha y hora de finalización.
    Por ejemplo, el texto de **Programar** y **activo desde** y **activo hasta** la fecha y la hora aquí permite que el contenido se reproduzca cada miércoles de 14:00 a 16:00.
@@ -115,4 +115,5 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el canal empieza a reproducirse después de las 12:45 del 1 de enero, continúa reproduciéndose todo el día el 2 de enero hasta las 3:00 am del 3 de enero |
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el canal comienza el reproductor después de las 12:45 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 12:45 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
-Tenga en cuenta que también puede utilizar notación de hora __ militar (es decir, 14:00) en lugar de notación de am/pm (es decir, 2:00 pm)
+>[!NOTE]
+>También se puede usar notación de hora __ militar (es decir, 14:00) en lugar de notación de am/pm (es decir, 2:00 pm).
