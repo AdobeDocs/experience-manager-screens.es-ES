@@ -5,7 +5,7 @@ description: Siga este Caso de uso para crear un canal de captura perpetua.
 seo-description: Siga este Caso de uso para configurar un proyecto que cree un canal de toma permanente que se reproduzca durante un día y hora específicos de forma continua.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
+source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
 
 ---
 
@@ -17,7 +17,7 @@ En la página siguiente se muestra un caso de uso que hace hincapié en la confi
 ## Descripción de caso de uso {#use-case-description}
 
 Este caso de uso explica cómo crear un canal que *toma el control* del canal de reproducción normal para una visualización o un grupo de pantallas. La toma de control tendrá lugar perpetuamente durante un día y hora específicos.
-Por ejemplo, hay un canal TakeOver perpetuo que se reproduce todos los viernes de 9:00 a 10:00. Durante este tiempo, no debería reproducirse ningún otro canal. En el siguiente ejemplo se muestra la creación de un canal de adquisición perpetua que se reproduce y permite que el contenido se reproduzca cada miércoles durante 2 horas desde las 17:00 hasta las 19:00.
+Por ejemplo, hay un canal TakeOver perpetuo que se reproduce todos los viernes de 9:00 a 10:00. Durante este tiempo, no debería reproducirse ningún otro canal. En el siguiente ejemplo se muestra la creación de un canal de adquisición perpetua que se reproduce y permite que el contenido se reproduzca cada miércoles durante 2 horas desde las 14:00 hasta las 16:00.
 
 ### Condiciones previas {#preconditions}
 
@@ -86,6 +86,8 @@ Siga los pasos a continuación para configurar un proyecto:
    * **Prioridad**: Establezca la prioridad de este canal mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
    * **Eventos** admitidos: Seleccione la **Pantalla** inactiva y el **Temporizador**.
    * **Programar**: Introduzca el texto de la programación en la que desea que este canal ejecute la visualización. El texto de la **programación** mencionada en este ejemplo es *miércoles después de las 14:00 y antes de las 16:00*.
+      [!NOTE]
+      > Para obtener más información sobre las expresiones que puede agregar a la **programación**, consulte la sección Expresiones [de](#example-expressions) ejemplo que aparece a continuación
    * **activo desde**: Fecha y hora de inicio.
    * **activa hasta**: Fecha y hora de finalización.
    Por ejemplo, el texto de **Programar** y **activo desde** y **activo hasta** la fecha y la hora aquí permite que el contenido se reproduzca cada miércoles de 14:00 a 16:00.
