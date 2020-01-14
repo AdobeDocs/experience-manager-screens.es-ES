@@ -6,7 +6,7 @@ seo-description: 'Siga esta página para conocer la actualización de contenido 
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -114,9 +114,7 @@ Siga los pasos que se describen a continuación para enviar actualizaciones de c
    >
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
 
-1. Una vez que haya completado el flujo de trabajo de administración de publicaciones, debe activar la actualización de contenido sin conexión en el autor, lo que creará la actualización sin conexión en la instancia de creación.
-
-   Vaya al panel de canales y haga clic en **Actualizar contenido** sin conexión. Esta acción reenvía el mismo comando para publicar instancias, de modo que los archivos comprimidos sin conexión también se crean en la instancia de publicación.
+1. Activar **actualización de contenido** sin conexión en el panel de canal solo insertará el contenido sin conexión en la instancia de creación, pero no en la instancia de publicación. Los pasos 1 a 4 sirven para insertar contenido sin conexión en una instancia de publicación.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
