@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Para cada instancia de publicación:
 
 1. Ir a `https://<host>:<port>/system/console/configMgr`
 1. Seleccione **Apache Sling Oak-Based Discovery Service** Configuration.
-1. Actualizar direcciones URL del conector de topología: agregue direcciones URL de todas las instancias de publicación de participación, es decir, `https://localhost:4502/libs/sling/topology/connector`
+1. Actualizar direcciones URL del conector de topología: agregue direcciones URL de todas las instancias de publicación de participación que sean:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Lista blanca del conector de topología: adaptarse a las IP o subredes que cubren instancias de publicación de participación
 1. Habilitar bucles locales de detención **automática**
 
@@ -237,7 +239,7 @@ Compruebe el reproductor y verá el contenido que agregó en el canal.
 
 **Verificación del dispositivo**
 
-Antes de realizar los pasos a continuación, asegúrese de comprobar el ID del dispositivo. Para verificarlo, busque el ID del dispositivo en CRXDELite, con la ruta como */inicio/usuarios/pantallas/{proyecto}/dispositivos*.
+Antes de realizar los pasos a continuación, asegúrese de comprobar el ID del dispositivo. Para verificarlo, busque el ID del dispositivo en CRXDELite, con la ruta como */home/users/screen/we-Retail/devices*.
 
 Siga los pasos a continuación para replicar el usuario del dispositivo:
 
@@ -275,11 +277,15 @@ Los siguientes puntos resumen la lista de comprobación de publicaciones:
 * *Programación* : si utiliza una programación, asegúrese de que se publique
 * *Ubicación, Programas y Carpeta* de canal: si los recursos correspondientes están dentro de una carpeta.
 
-Una vez verificada la lista de comprobación, debe comprobar los siguientes cambios o comportamientos en el canal:
+Siga los pasos a continuación para comprobar el comportamiento de autor y publicación:
 
-* Después de publicar la configuración del dispositivo, abra la configuración del reproductor de pantallas y asígnela a la instancia de Publish. También puede activar el dispositivo desde la consola de administración de dispositivos.
-* Actualice cierto contenido de canal en Autor y publíquelo y compruebe que el canal actualizado ahora se muestra en el reproductor de AEM Screens.
-* Conecte el reproductor de pantallas a otra instancia de publicación y compruebe el comportamiento anterior.
+1. Actualizar contenido de canal en la instancia de autor
+1. Realice **Administrar publicación** para publicar nuevos cambios en todas las instancias de publicación
+1. Pulse **Activar** para activar el dispositivo desde el Administrador **de dispositivos**
+1. **Editar URL** desde la URL de la instancia de autor a una de las URL de instancias de publicación
+1. Verificación de la visualización del contenido del canal actualizado en el reproductor de AEM Screens
+1. Repita estos pasos con una instancia de publicación diferente
+
 
 #### Paso 5: Señalar la instancia de dispositivo para publicar en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ También puede actualizar o editar la URL del servidor desde la consola de admin
 1. Seleccione el dispositivo y haga clic en **Editar URL** del servidor en la barra de acciones, como se muestra en la figura siguiente y los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+La función **Administrar publicación** le permite enviar actualizaciones de contenido desde el autor para publicarlas en el dispositivo. Puede publicar/cancelar la publicación de contenido para todo el proyecto de AEM Screens o solo para uno de sus canales, ubicaciones, dispositivos, aplicaciones o programaciones. Para obtener más información sobre esta función, consulte [On-Demand Content Update](on-demand-content.md).
 
 
