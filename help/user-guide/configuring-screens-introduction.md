@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -28,9 +28,42 @@ Esta página muestra cómo instalar y configurar los reproductores de Pantallas 
 >
 >El reproductor de AEM Screens no utiliza el distintivo de falsificación de solicitudes entre sitios (CSRF). Por lo tanto, para configurar y que el servidor AEM esté listo para usar en AEM Screens, omita el filtro de referente permitiendo que los referentes estén vacíos.
 
+## Marco de comprobación de estado {#health-check-framework}
+
+El marco de comprobación de estado permite al usuario comprobar si se han configurado dos configuraciones necesarias antes de ejecutar un proyecto de AEM Screens.
+
+Permite al usuario verificar las dos comprobaciones de configuración siguientes para ejecutar un proyecto de AEM Screens, es decir, para comprobar el estado de los dos filtros siguientes:
+
+1. **Permitir referente vacío**
+2. **https**
+
+Siga los pasos a continuación para comprobar si estas dos configuraciones vitales están habilitadas para AEM Screens:
+
+1. Vaya a [Adobe Experience Manager Web ConsoleComprobación](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)del estado de Sling.
+
+   ![activos](assets/health-check1.png)
+
+
+2. Haga clic en **Ejecutar las comprobaciones** de estado seleccionadas para ejecutar la validación de dos propiedades enumeradas arriba.
+
+   Si ambos filtros están activados, el servicio **de mantenimiento de configuración de** pantallas muestra el **resultado** como **correcto** con ambas configuraciones como habilitadas.
+
+   ![activos](assets/health-check2.png)
+
+   Si uno o ambos filtros están desactivados, se muestra una alerta para el usuario, como se muestra en la figura siguiente.
+
+   La siguiente alerta muestra si ambos filtros están desactivados:
+   ![activos](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Para habilitar el filtro **de referente Sling de** Apache, consulte [Permitir solicitudes](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)de referente vacías.
+>* Para habilitar el servicio **HTTP** , consulte Servicio [HTTP basado en](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)Apache Felix Jetty.
+
+
 ### Requisitos previos {#prerequisites}
 
-Los siguientes puntos clave ayudan a configurar y a que el servidor AEM esté listo para su uso en AEM Screens:
+Los siguientes puntos clave ayudan a configurar y a que el servidor AEM esté listo para su uso en AEM Screens.
 
 #### Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
 
@@ -49,6 +82,22 @@ Los siguientes puntos clave ayudan a configurar y a que el servidor AEM esté li
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. Haga clic en **Guardar** para habilitar el filtro de referente de sling de Apache que permite vaciar.
+
+#### Servicio HTTP Apache Felix Jetty Basado en Jetty {#allow-apache-felix-service}
+
+1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante la instancia de AEM —> icono de martillo —> **Operaciones** —> Consola **** web.
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **Se abre la configuración** de la consola web de Adobe Experience Manager. Busque el servicio HTTP Apache Felix Jetty.
+
+   Para buscar esta propiedad, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+
+1. Marque la opción **HABILITAR HTTP** , como se muestra en la figura siguiente.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. Haga clic en **Guardar** para habilitar el servicio *http* .
 
 #### Activar IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 
@@ -102,4 +151,11 @@ Establezca la codificación ******Java en Unicode. Por ejemplo,*Dfile.encoding=C
 >**Recomendación:**
 >
 >Se recomienda utilizar HTTPS para AEM Screens Server en el uso de producción.
+
+
+
+
+
+
+
 
