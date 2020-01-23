@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->Esta funcionalidad de AEM Screens solo está disponible si ha instalado AEM 6.4.2 Feature Pack 2 y AEM 6.3.3 Feature Pack 4.
-
+>Esta funcionalidad de AEM Screens solo está disponible si ha instalado AEM 6.4.2 Feature Pack 2 y AEM 6.3.3 Feature Pack 4.\
 >Para obtener acceso a cualquiera de estos paquetes de funciones, debe ponerse en contacto con la asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
->
+
 Esta sección abarca los siguientes temas:
 
 * **Secuencias en Adobe Analytics con AEM Screens**
@@ -31,7 +30,7 @@ Esta sección abarca los siguientes temas:
 
 ## Secuencias en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-El proceso ***de*** secuenciación comienza con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido del canal envía eventos de Adobe Analytics con nómina, es decir, la captura de prueba de datos a Windows I/O y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
+El proceso ***de ***secuenciación comienza con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido del canal envía eventos de Adobe Analytics con nómina, es decir, la captura de prueba de datos a Windows I/O y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
 
 ### Diagrama de secuencia {#sequencing-diagram}
 
