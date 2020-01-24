@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
 
@@ -33,7 +33,17 @@ El componente Póster personalizado se crea ampliando el componente Imagen.
 
 ## Requisitos previos {#prerequisites}
 
+Para completar este tutorial, es necesario lo siguiente:
+
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) o [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + paquete de funciones de las últimas pantallas
+1. [Reproductor de AEM Screens](/help/user-guide/aem-screens-introduction.md)
+1. Entorno de desarrollo local
+
+Los pasos del tutorial y las capturas de pantalla se realizan con CRXDE-Lite. [Los IDE de Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) o [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) también se pueden utilizar para completar el tutorial. Puede encontrar más información sobre el uso de un IDE para [desarrollar AEM aquí](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+
 ## Configuración del proyecto {#project-setup}
+
+El código fuente de un proyecto de Screens suele gestionarse como un proyecto Maven de varios módulos. Para agilizar el tutorial, se generó un proyecto previamente mediante el [programa Archetype 13](https://github.com/adobe/aem-project-archetype)de AEM Project. Puede encontrar más detalles sobre la [creación de un proyecto con el arquetipo del proyecto AEM de Maven aquí](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
 1. Descargue e instale los siguientes paquetes mediante la administración **del paquete** CRX `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -225,7 +235,7 @@ El componente Póster se procesa en pantalla completa en el modo de vista previa
    </jcr:root>
    ```
 
-   La propiedad `sling:hideChildren`= `"[linkURL,size]`" se utiliza en el `items` nodo para asegurarse de que los campos **linkURL** y **size** están ocultos en el cuadro de diálogo. No basta con quitar estos nodos del cuadro de diálogo de póster. La propiedad `sling:hideResource="{Boolean}true"` de la ficha de accesibilidad se utiliza para ocultar toda la ficha.
+   La propiedad `sling:hideChildren`= `"[linkURL,size]`&quot; se utiliza en el `items` nodo para asegurarse de que los campos **linkURL** y **size** están ocultos en el cuadro de diálogo. No basta con quitar estos nodos del cuadro de diálogo de póster. La propiedad `sling:hideResource="{Boolean}true"` de la ficha de accesibilidad se utiliza para ocultar toda la ficha.
 
    Se añaden dos campos de selección al cuadro de diálogo para que los autores puedan controlar la posición y el color del texto del título y la descripción.
 
@@ -267,7 +277,7 @@ El componente Póster se procesa en pantalla completa en el modo de vista previa
 
    `The h1` y las etiquetas h2 se agregan para mostrar el Título y la Descripción en función de las propiedades del componente: `${properties.jcr:title}` y `${properties.jcr:description}`.
 
-   Alrededor de las etiquetas `h1` y `h2` hay un envoltorio div con tres clases CSS con variaciones de " `cmp-poster__text`". El valor de las propiedades `textPosition` y `textColor` se utiliza para cambiar la clase CSS representada en función de la selección de cuadro de diálogo del autor. En la siguiente sección, se escriben las CSS de las bibliotecas de cliente para habilitar estos cambios en la pantalla.
+   Alrededor de las etiquetas `h1` y `h2` hay un envoltorio div con tres clases CSS con variaciones de &quot; `cmp-poster__text`&quot;. El valor de las propiedades `textPosition` y `textColor` se utiliza para cambiar la clase CSS representada en función de la selección de cuadro de diálogo del autor. En la siguiente sección, se escriben las CSS de las bibliotecas de cliente para habilitar estos cambios en la pantalla.
 
    Un logotipo también se incluye como superposición en el componente. En este ejemplo, la ruta al logotipo de We.Retail está codificada en DAM. Según el caso de uso, puede que sea más lógico crear un nuevo campo de diálogo para que la ruta del logotipo sea un valor que se rellene dinámicamente.
 
@@ -496,7 +506,7 @@ El componente Póster está diseñado para utilizarse en un canal de secuencia. 
 
 El siguiente vídeo muestra el componente terminado y cómo se puede agregar a un canal de secuencia. A continuación, el canal se agrega a la pantalla Ubicación y, finalmente, se asigna a un reproductor de Pantallas.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## Código finalizado {#finished-code}
 
