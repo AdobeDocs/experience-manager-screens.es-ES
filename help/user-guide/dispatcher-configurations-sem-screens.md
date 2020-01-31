@@ -9,7 +9,7 @@ contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
@@ -20,11 +20,15 @@ Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carg
 
 En la página siguiente se proporcionan las directrices para configurar el despachante de un proyecto de AEM Screens.
 
+>[!NOTE]
+>Si hay un despachante disponible, las conexiones al servlet de registro se pueden evitar filtrando las reglas del despachante.
+>Si no hay ningún distribuidor, deshabilite el servlet de registro en la lista de componentes OSGi.
+
 ## Requisitos previos {#pre-requisites}
 
 Antes de configurar el despachante para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
 
-Consulte **[Configuración de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** para obtener más detalles.
+Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más detalles.
 
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
@@ -42,7 +46,7 @@ Agregue lo siguiente a la `/clientheaders` sección
 
 ### Paso 2: Configuración de filtros de pantalla {#step-configuring-screens-filters}
 
-Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter***.
+Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter ***.
 
 ```
 ## AEM Screens Filters
@@ -64,4 +68,4 @@ Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter***.
 
 ### Paso 3: Desactivación de la caché del despachante {#step-disabling-dispatcher-cache}
 
-Deshabilite el almacenamiento en caché del despachante para la ruta ****** de contenido/pantallas.
+Deshabilite el almacenamiento en caché del despachante para la ruta ******de contenido/pantallas.
