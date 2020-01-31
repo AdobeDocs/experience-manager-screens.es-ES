@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
@@ -15,9 +15,11 @@ En la página siguiente se describe cómo utilizar la sincronización de comando
 
 ## Información general {#overview}
 
-Las soluciones de señalización digital necesitan admitir paredes de vídeo y reproducción sincronizada para admitir escenarios como las cuentas regresivas de Año Nuevo o los vídeos de gran tamaño divididos para reproducirse en varias pantallas, y es aquí donde entra en juego la sincronización de contenido.
+Las soluciones de señalización digital necesitan admitir paredes de vídeo y reproducción sincronizada para admitir escenarios como las cuentas regresivas de Año Nuevo o los vídeos de gran tamaño divididos para reproducirse en varias pantallas, y aquí es donde entra en juego la sincronización de comandos.
 
-Para utilizar la sincronización de comandos, un reproductor actúa como *maestro* y envía el comando, y todos los demás reproductores actúan como *clientes* y reproducen cuando reciben el comando. El *maestro* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir y/o el HTML externo del elemento que se va a reproducir.
+Para utilizar la sincronización de comandos, un reproductor actúa como *maestro* y envía el comando, y todos los demás reproductores actúan como *clientes* y se reproducen cuando reciben el comando.
+
+El *maestro* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir y/o el HTML externo del elemento que se va a reproducir.
 
 ## Implementación de sincronización de comandos {#using-command-sync}
 
@@ -63,7 +65,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 ### Configuración de un patrón {#setting-up-master}
 
 1. Vaya al tablero de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla** del vestíbulo y haga clic en **Tablero** desde la barra de acciones.
-Verá los dos dispositivos (cromado y reproductor web) en el panel **DISPOSITIVOS** , como se muestra en la figura siguiente.
+Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISPOSITIVOS** , como se muestra en la figura siguiente.
 
    ![image1](assets/command-sync7.png)
 
