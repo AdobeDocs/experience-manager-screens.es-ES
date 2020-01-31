@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ Si no hay ninguna representación, asegúrese de tener instalado ffmpeg en el si
 >
 >Si no hay ninguna representación, asegúrese de tener instalado ffmpeg en el sistema operativo en el que se está ejecutando AEM.
 >
->Haga clic [aquí](https://evermeet.cx/ffmpeg/) para instalar ffmpeg.
+>Haga clic [aquí](https://www.ffmpeg.org/download.html) para instalar ffmpeg.
 
 ## Recursos de vídeo {#video-assets}
 
@@ -78,7 +78,7 @@ Compruebe la lista de perfiles del diseño de página si el componente de vídeo
 
 1. Seleccione el vídeo y abra el cuadro de diálogo **Editar** . Open the **Profiles** tab.
 
-   Seleccione diferentes perfiles (debe estar presente al menos el perfil "H.264 de alta calidad").
+   Seleccione diferentes perfiles (debe estar presente al menos el perfil &quot;H.264 de alta calidad&quot;).
 
    ![climage_1-7](assets/chlimage_1-7.png)
 
@@ -107,7 +107,7 @@ En caso de que el reproductor de AEM Screens recoja el vídeo pero no lo muestre
 
 Siga los pasos a continuación para solucionar el problema del indicador de la política de reproducción automática de Google:
 
-1. Vaya a ***chrome://flags/#autoplay-policy***
+1. Vaya a ***chrome://flags/#autoplay-policy ***
 1. Cambiar la directiva **de** reproducción automática de **Predeterminado** a **no se requiere ningún gesto del usuario**
 
 1. Reinicie el explorador Web y actualice el reproductor
@@ -149,7 +149,7 @@ Siga los pasos a continuación para configurar una estrategia absoluta:
 **Alineación de bloqueos en OS X** Siga los pasos a continuación para alinear los relojes en OSX:
 
 1. Abrir preferencias **de fecha y hora** en cada cuadro OSX
-1. Comprobar** Establecer fecha y hora automáticamente**
+1. Marcar la fecha y la hora **establecidas automáticamente**
 1. Pegue el valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com en el menú desplegable o simplemente ejecute *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Iniciar los reproductores de más de 2
 
