@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
 1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
    El canal contiene el siguiente contenido, como se muestra en la figura a continuación.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. Cree una pantalla en la carpeta **Ubicaciones** , como se muestra en la figura siguiente.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. Asigne el canal **ChannelLobby** a su **pantalla de vestíbulo**.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md)
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
 1. Vaya a la carpeta **Dispositivos** y haga clic en Administrador **de dispositivos** en la barra de acciones para registrar los dispositivos.
 
@@ -59,8 +59,23 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
    >
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md)
 
-1. Para fines de demostración, este ejemplo muestra un dispositivo cromado y un reproductor web como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
+1. Para fines de demostración, este ejemplo muestra un dispositivo cromado y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
    ![image1](assets/command-sync6.png)
+
+### Actualización de la configuración de canal
+
+1. Vaya a **ChannelLobby** y haga clic en **Editar** en la barra de acciones para actualizar la configuración del canal.
+
+1. Seleccione todo el canal como se muestra en la figura siguiente.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Página** .
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. Escriba la palabra clave *sincronizada* en el campo **Estrategia** .
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### Configuración de un patrón {#setting-up-master}
 
