@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
+source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 ---
 
@@ -23,7 +23,7 @@ El *maestro* envía un comando a todos los clientes registrados cuando está a p
 
 ## Implementación de sincronización de comandos {#using-command-sync}
 
-En la siguiente sección se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
+En la sección siguiente se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
 
 ### Configuración del proyecto {#setting-up}
 
