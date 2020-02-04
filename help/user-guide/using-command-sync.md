@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
 1. Vaya al tablero de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla** del vestíbulo y haga clic en **Tablero** desde la barra de acciones.
 Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISPOSITIVOS** , como se muestra en la figura siguiente.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. En el panel **DISPOSITIVOS** , seleccione el dispositivo que desea definir como maestro. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como maestro. Haga clic en **Establecer como dispositivo** maestro.
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. Introduzca la dirección IP en **Establecer como dispositivo** maestro y haga clic en **Guardar**.
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> Puede configurar varios dispositivos como principales.
 
 ### Sincronización con Master {#sync-up-master}
 
-1. Una vez que haya definido el dispositivo Chrome como maestro, puede sincronizar el otro dispositivo para sincronizarlo con el maestro.
-Seleccione el otro dispositivo en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo** maestro, como se muestra en la figura siguiente.
+1. Una vez que haya configurado el dispositivo Chrome como maestro, puede sincronizar el otro dispositivo (en este caso, el reproductor de Windows) para sincronizarlo con el maestro.
+Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo** maestro, como se muestra en la figura siguiente.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. Seleccione el dispositivo en la lista y haga clic en **Guardar**.
 
+1. Una vez que el dispositivo (reproductor de Windows) se sincroniza con el maestro (reproductor de Chrome), verá el dispositivo sincronizado en el panel **DISPOSITIVOS** .
 
-1. Vaya a [Web Player](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### Eliminación o dessincronización con el patrón {#desync-up-master}
 
-
-
+Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización o quitar la asignación de ese dispositivo. Para quitar la sincronización del dispositivo maestro, seleccione el dispositivo y haga clic en **Desincronizar** en el panel **DISPOSITIVOS** .
 
