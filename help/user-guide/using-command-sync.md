@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
 1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
    El canal contiene el siguiente contenido, como se muestra en la figura a continuación.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. Cree una pantalla en la carpeta **Ubicaciones** , como se muestra en la figura siguiente.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Asigne el canal **ChannelLobby** a su **pantalla de vestíbulo**.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 1. Vaya a **ChannelLobby** y haga clic en **Editar** en la barra de acciones para actualizar la configuración del canal.
 
 1. Seleccione todo el canal como se muestra en la figura siguiente.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Página** .
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Escriba la palabra clave *sincronizada* en el campo **Estrategia** .
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configuración de un patrón {#setting-up-master}
 
 1. Vaya al tablero de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla** del vestíbulo y haga clic en **Tablero** desde la barra de acciones.
 Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISPOSITIVOS** , como se muestra en la figura siguiente.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. En el panel **DISPOSITIVOS** , seleccione el dispositivo que desea definir como maestro. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como maestro. Haga clic en **Establecer como dispositivo** maestro.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. Introduzca la dirección IP en **Establecer como dispositivo** maestro y haga clic en **Guardar**.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > Puede configurar varios dispositivos como principales.
@@ -99,13 +99,13 @@ Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISP
 1. Una vez que haya configurado el dispositivo Chrome como maestro, puede sincronizar el otro dispositivo (en este caso, el reproductor de Windows) para sincronizarlo con el maestro.
 Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo** maestro, como se muestra en la figura siguiente.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Seleccione el dispositivo en la lista y haga clic en **Guardar**.
 
 1. Una vez que el dispositivo (reproductor de Windows) se sincroniza con el maestro (reproductor de Chrome), verá el dispositivo sincronizado en el panel **DISPOSITIVOS** .
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Eliminación o dessincronización con el patrón {#desync-up-master}
 
