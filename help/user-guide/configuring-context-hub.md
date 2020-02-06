@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ El diagrama siguiente proporciona una representación visual de cómo las config
 
 ## Condiciones previas {#preconditions}
 
-Antes de empezar a configurar un almacén de datos para configurar las configuraciones de Context Hub para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
+Antes de empezar a configurar las configuraciones de Context Hub para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
 
 >[!CAUTION]
 >
@@ -50,21 +50,29 @@ Antes de empezar a configurar un almacén de datos para configurar las configura
 
 ## Paso 1: Configuración de un almacén de datos {#step-setting-up-a-data-store}
 
-Siga los pasos a continuación para configurar un almacén de datos que le permita utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de pantallas de AEM.
+Puede configurar el almacén de datos como un evento de E/S local o como un evento de base de datos local.
+
+### Evento de E/S local {#local-io-event}
+
+Siga los pasos que se describen a continuación para configurar un almacén de datos, como un evento ASCII, que le permita utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
+
+### Evento de base de datos local {#local-db-event}
+
+Siga los pasos a continuación para configurar un almacén de datos como una hoja de Excel que le permita utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
 
 1. **Navegación a ContextHub**
 
-   Vaya a la instancia de AEM y haga clic en el icono de herramientas en la barra lateral izquierda. Haga clic en **Sitios** —&gt; **ContextHub**, como se muestra en la figura siguiente.
+   Vaya a la instancia de AEM y haga clic en el icono de herramientas en la barra lateral izquierda. Haga clic en **Sitios** —> **ContextHub**, como se muestra en la figura siguiente.
 
    ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
 
 1. **Creación de una nueva configuración de la Tienda ContextHub**
 
-   1. Vaya a **global** &gt; **predeterminado** &gt; Configuración **de** ContextHub.
+   1. Vaya a **global** > **predeterminado** > Configuración **de** ContextHub.
 
-   1. Haga clic en** Crear &gt; Contenedor de configuración **e introduzca el título como** ContextHubDemo**.
+   1. Haga clic en** Crear > Contenedor de configuración **e introduzca el título como** ContextHubDemo**.
 
-   1. **** Vaya **a** ContextHubDemo **&gt; Configuración de la tienda** ContentHub... para abrir el asistente **Configurar**.
+   1. **** Vaya **a** ContextHubDemo **> Configuración de la tienda** ContentHub... para abrir el asistente **Configurar**.
 
    1. Introduzca el **título** como hojas de **Google**, el nombre **** de la tienda como hojas de **Google** y el tipo **de** **tienda comocontexthub.generic-jsonp**
 
@@ -93,7 +101,7 @@ Siga los pasos a continuación para configurar un almacén de datos que le permi
    >En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
    >
    >
-   >Reemplace el código por el *&lt;ID de hoja&gt;* y *&lt;clave de API&gt;* que buscó al configurar las hojas de Google.
+   >Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
 
    >[!CAUTION]
    Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta heredada (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
@@ -101,9 +109,9 @@ Siga los pasos a continuación para configurar un almacén de datos que le permi
 
 1. **Creación de una marca en actividades**
 
-   1. Vaya de la instancia de AEM a **Personalización** &gt; **Actividades**
+   1. Vaya de la instancia de AEM a **Personalización** > **Actividades**
 
-   1. Haga clic en **Crear** &gt; **Crear marca**
+   1. Haga clic en **Crear** > **Crear marca**
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
@@ -133,9 +141,9 @@ Una vez que haya configurado un almacén de datos y definido la marca, siga los 
 
 1. **Creación de segmentos en audiencias**
 
-   1. Vaya de la instancia de AEM a **Personalización** &gt; **Audiencias** &gt; **We.Retail**.
+   1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **We.Retail**.
 
-   1. Haga clic en **Crear** &gt; **Crear segmento de Context Hub.** Se abre el cuadro de diálogo **Nuevo segmento** de ContextHub.
+   1. Haga clic en **Crear** > **Crear segmento de Context Hub.** Se abre el cuadro de diálogo **Nuevo segmento** de ContextHub.
 
    1. Enter the **Title** as **SheetA1 1** and click **Create**. Del mismo modo, cree otro segmento denominado **HojaA2 2**.
 
@@ -171,7 +179,7 @@ Una vez que haya configurado un almacén de datos y definido la marca, siga los 
 
 Siga los pasos a continuación para habilitar la segmentación en los canales.
 
-1. Vaya a uno de los canales de AEM Screens**. **Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un canal de pantallas de AEM.
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un canal de pantallas de AEM.
 
 1. Seleccione el canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
 
@@ -179,17 +187,17 @@ Siga los pasos a continuación para habilitar la segmentación en los canales.
 
 1. Seleccione la ficha **Personalización** para configurar las configuraciones de ContextHub.
 
-   1. Seleccione la Ruta **de** ContextHub como **bibliotecas** &gt; **configuración** &gt; **configuración** de nube &gt; **predeterminada** **** ****&gt; Configuraciones de ContextHub y haga clic enSeleccionar.
+   1. Seleccione la Ruta **de** ContextHub como **bibliotecas** > **configuración** > **configuración** de nube > **predeterminada** **** ****> Configuraciones de ContextHub y haga clic enSeleccionar.
 
-   1. Seleccione la Ruta **de** segmentos como **conf** &gt; **We.Retail** &gt; **configuración** &gt; **wcm** **** ****&gt; segmentosy haga clic en Seleccionar.
+   1. Seleccione la Ruta **de** segmentos como **conf** > **We.Retail** > **configuración** > **wcm** **** ****> segmentosy haga clic en Seleccionar.
 
    1. Haga clic en **Guardar y cerrar**.
    >[!NOTE]
-   Utilice ContextHub y la ruta Segments, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
+   Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** &gt; **Canales** y haga clic en **Editar** en la barra de acciones.
+1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones.
 
    >[!NOTE]
    Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
