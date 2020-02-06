@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el p
 
 1. Seleccione el dispositivo en la lista y haga clic en **Guardar**.
 
+   >[NOTA:]
+   > El cuadro de diálogo **Sincronizar con dispositivo** maestro mostrará la lista de dispositivos maestros. Puede seleccionar una de sus preferencias.
+
 1. Una vez que el dispositivo (reproductor de Windows) se sincroniza con el maestro (reproductor de Chrome), verá el dispositivo sincronizado en el panel **DISPOSITIVOS** .
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Eliminación o dessincronización con el patrón {#desync-up-master}
+### Dessincronización con el maestro {#desync-up-master}
 
-Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización o quitar la asignación de ese dispositivo. Para quitar la sincronización del dispositivo maestro, seleccione el dispositivo y haga clic en **Desincronizar** en el panel **DISPOSITIVOS** .
+Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización de la asignación desde ese dispositivo. Para quitar la sincronización del dispositivo maestro, siga los pasos a continuación:
 
+1. Vaya al panel **DISPOSITIVOS** y seleccione el dispositivo.
+
+1. Haga clic en **Desincronizar dispositivo(s)** para sincronizar el cliente desde el dispositivo maestro.
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. Haga clic en **Confirmar** para anular la sincronización del dispositivo seleccionado del maestro.
+
+   >[NOTA:]
+   > Si selecciona el dispositivo maestro y utiliza la opción de dessincronización, todos los dispositivos conectados al maestro se dessincronizarán en un solo paso.
