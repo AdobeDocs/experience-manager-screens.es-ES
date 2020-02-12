@@ -5,16 +5,55 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # Creación de plantillas personalizadas en diseños de varias zonas {#creating-custom-templates-multizone}
 
-En el siguiente ejemplo se muestra cómo crear una plantilla personalizada en diseños de varias zonas.
+Esta página muestra cómo se puede crear una plantilla personalizada en un diseño de varias zonas.
 
-Por ejemplo, la sección siguiente muestra la creación de una plantilla personalizada en un diseño multizona con las configuraciones siguientes:
+## Convención de nombres {#name-terms}
+
+Antes de comprender cómo crear plantillas de varias zonas personalizadas para utilizarlas en un proyecto de AEM Screens, es obligatorio comprender la verbiage de las plantillas que desea crear.
+
+| **Nombre del diseño** | **Descripción** |
+|---|---|
+| Left20-LandscapeHD3Zone | Se refiere a un diseño horizontal de 3 zonas que permite crear 3 zonas con una zona 1 del 20 % de la pantalla horizontal y vertical desde la izquierda, una zona 2 del 80 % de la pantalla horizontal y un 20 % de la pantalla vertical hacia la derecha, una zona 3 del 100 % de la pantalla horizontal y un 80 % de la pantalla vertical con una proporción de aspecto de 16:9 |
+| Upper20-PortraitHD2Zone | Se refiere a una plantilla vertical de 2 zonas que cubre el 20 % de la pantalla desde la parte superior, con una proporción de aspecto de 16:9 |
+| Right20-LandscapeSD3Zone | Se refiere a una plantilla de 3 zonas que cubre el 20 % de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
+
+##  Casos de uso de ejemplo {#example-use-cases}
+
+## Creación de un diseño Left20-LandscapeHD3Zone {#landscape-layout-one}
+
+Siga la sección que se muestra a continuación para crear una plantilla personalizada con la siguiente configuración:
+
+* **Left20** hace referencia a la zona superior de la izquierda que cubre el 20% del tamaño de pantalla horizontal y vertical.
+* **Horizontal** hace referencia a la orientación de la pantalla
+* **HD** hace referencia a la proporción de aspecto como 16:9
+* **3Zone** se refiere a tres zonas de la pantalla
+
+## Representación visual del diseño MultiZone {#multi-layout-visual-one}
+
+El diseño Left20-LandscapeHD3Zone permite crear el siguiente diseño multizona en el proyecto:
+
+![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Creación de un diseño Upper20-PortraitHD2Zone {#landscape-layout-two}
+
+Siga la sección que se muestra a continuación para crear una plantilla personalizada con la siguiente configuración:
+
+
+
+
+
 
 ![image](assets/custom-template1.png)
 
