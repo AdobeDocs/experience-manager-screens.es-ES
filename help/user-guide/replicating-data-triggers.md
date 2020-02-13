@@ -4,12 +4,12 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
+source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
 
 ---
 
 
-# Replicar activadores de datos en servidor de publicación {#replicating-data-triggers}
+# Replicar activadores de datos en servidores de publicación {#replicating-data-triggers}
 
 Al utilizar ContextHub y AEM Targeting Engine para personalizar el contenido en función de los desencadenantes de datos en una configuración de creación/publicación, todas las configuraciones relacionadas con ContextHub y Personalización no se replican automáticamente con los canales cuando se publican.
 
@@ -32,7 +32,7 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!Note]
-   >Como alternativa, puede utilizar el [vínculo](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) para desplazarse directamente a la pantalla y configurar y probar la conexión.
+   >Como alternativa, puede utilizar `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para desplazarse directamente a la pantalla para configurar y probar la conexión.
 
 1. Haga clic en **Probar conexión** en la barra de acciones para validar la comunicación del autor con la instancia de publicación, como se muestra en la figura siguiente.
 
@@ -41,18 +41,15 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
    >[!Note]
    >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de prueba para obtener más información.
 
-1. Haga clic en **Editar** en la pantalla de arriba y asegúrese de que la dirección URL del extremo en el campo Extremos **del** importador también apunta a la dirección URL del servidor de publicación en el agente de distribución.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
-
-1. Seleccione **Agregar** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, es decir, `/conf/screens/settings/cloudsettings/configuration)`.
+1. Seleccione **Agregar** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration)`.
 
 1. Haga clic en **Enviar**
 
 ### Replicar las audiencias {#replicating-audiences}
 
-1. Vaya a **Herramientas** > **Personalización** > **Audiencias** o utilice el [vínculo](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html) para desplazarse directamente.
+1. Vaya a su instancia de AEM > **Personalización** > **Audiencias** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para desplazarse directamente.
 
-1. Explore en la carpeta del proyecto, es decir, `/conf/screens/`.
+1. Explore en la carpeta del proyecto, por ejemplo, `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
 
@@ -64,7 +61,7 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
 ### Replicar las actividades {#replicating-activities}
 
-1. Vaya a **Herramientas** > **Personalización** > **Actividades** o utilice el [vínculo](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html) para desplazarse directamente.
+1. Vaya a la instancia de AEM > **Personalización** > **Actividades** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para desplazarse directamente.
 
 1. Explore en la carpeta del proyecto, es decir, `/content/campaigns/screens/…`.
 
@@ -89,25 +86,31 @@ Si la replicación se realiza correctamente, debe ver la siguiente estructura en
 
 Si la conexión de prueba falla al replicar las configuraciones de ContextHub, siga la sección siguiente para solucionar el problema:
 
-1. Vaya al campo Extremos **del** importador y asegúrese de que la dirección URL del extremo apunta a la dirección URL del servidor de publicación en el agente de distribución.
+1. Vaya a Herramientas > **Implementación** > **Distribución** > **Agente** de publicación.
 
-1. Si no utiliza las credenciales predeterminadas, deberá configurar el agente de distribución con una contraseña de administrador diferente.
+1. Haga clic en **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en el campo Extremos **del** importador también apunta a la dirección URL del servidor de publicación en el agente de distribución.
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. Si no utiliza las credenciales de administrador predeterminadas, deberá configurar el agente de distribución con una contraseña de administrador diferente.
 Siga los pasos a continuación:
 
-   1. Vaya a Herramientas > **Operaciones** > Consola web** `http://localhost:4502/system/console/configMgr`para abrir la pantalla **de la consola web de** Adobe Experience Manager.
+   1. Vaya a Herramientas > **Operaciones** > Consola **** web `http://localhost:4502/system/console/configMgr`para abrir la pantalla **de la consola web de** Adobe Experience Manager.
 
    1. Buscar las credenciales de transporte de **Apache Sling Distribution - User Credentials based DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. Cree una configuración rellenando **Nombre**, Nombre **** de usuario y **contraseña**, por ejemplo, *slingTransportSecretProvider*. .
+   1. Cree una configuración rellenando **Nombre**, Nombre **** de usuario y **contraseña**, por ejemplo, *slingTransportSecretProvider*.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
+
    1. Haga clic en **Guardar**
 
-   1. Busque el nombre del agente de distribución mediante `Cmd +F`.
+   1. Utilice `Cmd +F` para buscar **Apache Sling Distribution Agent - Forward Agent Factory** para abrir las configuraciones y buscar **Transport Secret Provider**.
 
-   1. Haga clic para abrir la configuración osgi del agente de distribución.
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-   1. Busque Transport Secret Provider en la configuración de osgi y actualícela con `"(name=slingTransportSecretProvider)"`.
+   1. Actualice el `(name=default)` con `(name=slingTransportSecretProvider)`.
 
-   1. Haga clic en **Guardar** y ejecute la conexión de prueba.
+   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de su instancia de AEM.
 
