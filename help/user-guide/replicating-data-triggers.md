@@ -4,7 +4,7 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
    >[!Note]
    >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de prueba para obtener más información.
 
-1. Seleccione **Agregar** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration)`.
+1. Seleccione **Agregar** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Haga clic en **Enviar**
 
@@ -51,7 +51,7 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
 1. Explore en la carpeta del proyecto, por ejemplo, `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Seleccione todas las audiencias y segmentos desde la interfaz de usuario.
 
@@ -114,3 +114,6 @@ Siga los pasos a continuación:
 
    1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de su instancia de AEM.
 
+   1. El usuario tendrá que volver a visitar la página **Distribution Agent** desde la instancia de AEM para actualizar o reemplazar la URL predeterminada de `localhost:4503` a su propia URL de publicación.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
