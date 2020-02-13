@@ -4,7 +4,7 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
 1. Vaya a Herramientas > **Implementación** > **Distribución** > **Agente** de publicación.
 
 1. Haga clic en **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en el campo Extremos **del** importador también apunta a la dirección URL del servidor de publicación en el agente de distribución.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Si no utiliza las credenciales de administrador predeterminadas, deberá configurar el agente de distribución con una contraseña de administrador diferente.
+1. Si no utiliza las credenciales de administrador predeterminadas, deberá configurar el agente de distribución con un nombre de usuario y una contraseña diferentes.
 Siga los pasos a continuación:
 
    1. Vaya a Herramientas > **Operaciones** > Consola **** web `http://localhost:4502/system/console/configMgr`para abrir la pantalla **de la consola web de** Adobe Experience Manager.
