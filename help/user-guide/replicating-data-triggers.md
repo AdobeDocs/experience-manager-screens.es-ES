@@ -4,7 +4,7 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
 1. Haga clic en **Siguiente** y **Publicar**.
 
-   > [!Note]
-   >La replicación de las configuraciones y audiencias de ContextHub se realiza durante la configuración del proyecto, mientras que la replicación de actividades se requiere cada vez que se cambia la segmentación dentro de un canal.
+> [!Note]
+> **Importante **:>La replicación de las configuraciones y audiencias de ContextHub se realiza durante la configuración del proyecto, mientras que la replicación de actividades se requiere cada vez que se cambia la segmentación dentro de un canal.
 
 #### Resultado {#result}
 
@@ -113,7 +113,3 @@ Siga los pasos a continuación:
    1. Actualice el `(name=default)` con `(name=slingTransportSecretProvider)`.
 
    1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de su instancia de AEM.
-
-   1. El usuario tendrá que volver a visitar la página **Distribution Agent** desde la instancia de AEM para actualizar o reemplazar la URL predeterminada de `localhost:4503` a su propia URL de publicación.
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
