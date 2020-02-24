@@ -5,7 +5,7 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ Esta página muestra cómo se puede crear una plantilla personalizada en un dise
 
 ## Convención de nombres {#name-terms}
 
-Antes de comprender cómo crear plantillas de varias zonas personalizadas para utilizarlas en un proyecto de AEM Screens, es obligatorio comprender la verbiage de las plantillas que desea crear.
+Antes de comprender cómo crear plantillas multizona personalizadas para utilizarlas en un proyecto de AEM Screens, se recomienda conocer la versión de las plantillas que desea crear.
 
 | **Nombre del diseño** | **Descripción** |
 |---|---|
@@ -26,9 +26,9 @@ Antes de comprender cómo crear plantillas de varias zonas personalizadas para u
 
 ##  Casos de uso de ejemplo {#example-use-cases}
 
-## Creación de un diseño Left20-LandscapeHD3Zone {#landscape-layout-one}
+## Diseño Left20-LandscapeHD3Zone {#custom-template-one}
 
-Siga la sección que se muestra a continuación para crear una plantilla personalizada con la siguiente configuración:
+Siga la sección siguiente para crear una plantilla personalizada *Left20-LandscapeHD3Zone* con la siguiente configuración:
 
 * **Left20** hace referencia a la zona superior de la izquierda que cubre el 20% del tamaño de pantalla horizontal y vertical.
 * **Horizontal** hace referencia a la orientación de la pantalla
@@ -41,24 +41,50 @@ El diseño Left20-LandscapeHD3Zone permite crear el siguiente diseño multizona 
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## Creación de un diseño Left20-LandscapeHD3Zone {#landscape-layout-one}
 
+Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone para un proyecto de AEM Screens:
 
+1. Cree un proyecto de AEM Screens titulado como plantilla **personalizada**.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. Vaya a **CRXDE Lite** desde su instancia de AEM —> Herramientas —> **CRXDE Lite**.
 
-## Creación de un diseño Upper20-PortraitHD2Zone {#landscape-layout-two}
+1. Cree una carpeta en **aplicaciones** con el título de plantilla **personalizada**. Del mismo modo, cree otra carpeta titulada como **plantilla** en plantilla **personalizada**, como se muestra en la figura siguiente.
 
-Siga la sección que se muestra a continuación para crear una plantilla personalizada con la siguiente configuración:
+   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > Se recomienda hacer clic en **Guardar todo** desde la barra de acciones de CRXDE Lite cada vez que cree, edite o copie contenido en cualquiera de los nodos; de lo contrario, no podrá confirmar las actualizaciones.
 
+1. Copie la plantilla de la barra izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
+1. Cambie el nombre de la **barra izquierda** copiada (`/apps/customtemplate/template`) a **mi diseño** personalizado.
 
+1. Vaya a `/apps/customtemplate/template/my-custom-layout` las propiedades **jcr:description** y actualícelas en *Template para Left20-LandscapeHD3Zone* y **jcr:title** en *Left20-LandscapeHD3Zone*.
 
+1. Vaya al nodo **offline-config** desde `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` y actualice **jcr:title** a *Left20-LandscapeHD3Zone*.
 
-![image](assets/custom-template1.png)
+1. Vaya a la propiedad *jcr:content* de **my-custom-template** desde `/apps/customtemplate/template/my-custom-layout/jcr:content` y actualice la propiedad **cq:cssClass** a **aem-Layout my-custom-layout**.
 
+1. En relación con el paso (4), en el que ha copiado la plantilla de la barra izquierda, verá 3 cuadrículas adaptables debajo de `my-custom-layout/jcr:content`. Agregue una clase css personalizada a cada una de las cuadrículas adaptables de la propiedad *cq:cssClass* ; por ejemplo, *my-custom-layout (superior izquierda*, *mi-diseño personalizado): superior derecha*, *mi-diseño personalizado (inferior*).
+
+   >[!NOTE]
+   >Estas clases personalizadas se utilizarán en css para definir la anchura y la altura de estas cuadrículas adaptables.
+
+   >[!NOTE]
+   > Puede agregar o quitar las cuadrículas adaptables en función del número total de cuadrículas que desee. En este ejemplo, se muestran 2 cuadrículas en la primera fila y 1 cuadrícula en la segunda fila, por lo que hay un total de 3 cuadrículas adaptables (r1c1, r1c2, r2c1).
+
+1. Copiar `/libs/settings/wcm/designs/screens` a `/apps/settings/wcm/designs/` y cambiar el nombre como diseños de plantilla **personalizados**
+
+1. Navegue hasta `/apps/settings/wcm/designs/custom-template-designs` y actualice la propiedad *jcr:title* de diseños **de plantilla** personalizados para **personalizar el diseño** de plantilla.
+
+1. actualice el `/apps/settings/wcm/designs/<project>-designs/static.css` contenido para que coincida con lo siguiente
 
 ## Creación de una plantilla personalizada con una configuración específica {#basic-flow-setting}
+
+![image](assets/custom-template1.png)
 
 Siga los pasos a continuación para crear una plantilla personalizada.
 
