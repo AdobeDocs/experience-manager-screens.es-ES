@@ -5,7 +5,7 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -60,15 +60,26 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
 
 1. Copie la plantilla de la barra izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
-1. Cambie el nombre de la **barra izquierda** copiada (`/apps/customtemplate/template`) a **mi diseño** personalizado.
+1. Cambie el nombre de la **barra izquierda** copiada (`/apps/customtemplate/template`) a **mi diseño**personalizado.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Vaya a `/apps/customtemplate/template/my-custom-layout` las propiedades **jcr:description** y actualícelas en *Template para Left20-LandscapeHD3Zone* y **jcr:title** en *Left20-LandscapeHD3Zone*.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. Vaya al nodo **offline-config** desde `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` y actualice **jcr:title** a *Left20-LandscapeHD3Zone*.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Vaya a la propiedad *jcr:content* de **my-custom-template** desde `/apps/customtemplate/template/my-custom-layout/jcr:content` y actualice la propiedad **cq:cssClass** a **aem-Layout my-custom-layout**.
 
-1. En relación con el paso (4), en el que ha copiado la plantilla de la barra izquierda, verá 3 cuadrículas adaptables debajo de `my-custom-layout/jcr:content`. Agregue una clase css personalizada a cada una de las cuadrículas adaptables de la propiedad *cq:cssClass* ; por ejemplo, *my-custom-layout (superior izquierda*, *mi-diseño personalizado): superior derecha*, *mi-diseño personalizado (inferior*).
+   ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. En relación con el paso (4), en el que ha copiado la plantilla de la barra izquierda, verá 3 cuadrículas adaptables debajo de `my-custom-layout/jcr:content`. Agregue una clase css personalizada a cada una de las cuadrículas interactivas de la propiedad *cq:cssClass* ; por ejemplo, *my-custom-layout (superior izquierda* para el nodo *r1c1* ).
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   Del mismo modo, agregue *my-custom-layout—top-right* para *r1c2* y, *my-custom-layout—bottom* para el nodo *r2c1* .
 
    >[!NOTE]
    >Estas clases personalizadas se utilizarán en css para definir la anchura y la altura de estas cuadrículas adaptables.
@@ -76,72 +87,51 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
    >[!NOTE]
    > Puede agregar o quitar las cuadrículas adaptables en función del número total de cuadrículas que desee. En este ejemplo, se muestran 2 cuadrículas en la primera fila y 1 cuadrícula en la segunda fila, por lo que hay un total de 3 cuadrículas adaptables (r1c1, r1c2, r2c1).
 
-1. Copiar `/libs/settings/wcm/designs/screens` a `/apps/settings/wcm/designs/` y cambiar el nombre como diseños de plantilla **personalizados**
+1. Copie `/libs/settings/wcm/designs/screens` en el diseño copiado `/apps/settings/wcm/designs/` y cámbiele el nombre como diseños **de plantilla** personalizados.
 
 1. Navegue hasta `/apps/settings/wcm/designs/custom-template-designs` y actualice la propiedad *jcr:title* de diseños **de plantilla** personalizados para **personalizar el diseño** de plantilla.
 
-1. actualice el `/apps/settings/wcm/designs/<project>-designs/static.css` contenido para que coincida con lo siguiente
+1. Vaya a `/apps/settings/wcm/designs/custom-template-designs` y cree un archivo static.css.
 
-## Creación de una plantilla personalizada con una configuración específica {#basic-flow-setting}
-
-![image](assets/custom-template1.png)
-
-Siga los pasos a continuación para crear una plantilla personalizada.
-
-1. Cree la plantilla en `/apps/<project>/templates/my-custom-layout`
+1. Copie el contenido en el archivo static.css:
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. Cree un diseño de página en `/apps/settings/wcm/designs/<project>`.
 
    >[!NOTE]
-   >
-   >Asegúrese de que la ruta `cq:designPath` anterior coincide con la ruta.
+   > Puede actualizar los porcentajes para que coincidan con los requisitos de la plantilla personalizada.
 
-1. Actualice el nodo **offline-config** para que el diseño apunte también a la nueva ruta
+1. Vaya a `/apps/<project>/templates/my-custom-layout/jcr:content` la propiedad *cq:designPath* y actualícela para `/apps/settings/wcm/designs/customtemplate-designs` cargar los estilos configurados en static.css
 
-1. Agregue un archivo **static.css** en la `/apps/settings/wcm/designs/<project>` carpeta y defina su contenido en
+   >[!NOTE]
+   > Se recomienda escribir todos los estilos en lugar de copiarlos o pegarlos, lo que puede provocar que los espacios en blanco produzcan problemas de estilo css.
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## Visualización del resultado {#viewing-result}
+
+Siga los pasos a continuación para utilizar la plantilla personalizada anterior en el proyecto de AEM Screens:
+
+1. Vaya al proyecto Pantallas que ha creado en el paso (1) y seleccione la carpeta **Canales** .
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. Haga clic en **Crear** en la barra de acciones y seleccione la plantilla **Left20-LandscapeHD3Zone** en el asistente **Crear** .
+
+1. Una vez creado un canal con la plantilla personalizada, puede agregar recursos al canal desde el editor.
 
 ## Inserción de una imagen como capa de fondo {#inserting-image}
 
