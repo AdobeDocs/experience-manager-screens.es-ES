@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 1. Seleccione cualquier canal y haga clic en **Editar** en la barra de acciones para agregar o editar contenido en el canal.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 1. Haga clic en **Editar** para abrir el editor de canales y seleccionar el recurso al que desee aplicar la programación.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Seleccione el recurso y haga clic en la parte superior izquierda **Configurar** (icono de llave inglesa) para abrir las propiedades de la imagen.
 
    Click the **Activation** tab.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Puede especificar la fecha desde el selector de fechas mediante los campos **Activo desde** y **Activo hasta** .
 
