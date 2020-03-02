@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ En esta sección se tratan los siguientes temas:
 
 Con esta función, no sólo puede especificar la fecha y hora de inicio y finalización, sino también un patrón de periodicidad.
 
-## Reproducción de un solo evento {#single-event-playback}
+## Ventana de activación {#single-event-playback}
 
 La activación de nivel de recurso se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
 
