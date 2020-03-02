@@ -5,7 +5,7 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ Siga la sección siguiente para crear una plantilla personalizada *Left20-Landsc
 
 El diseño Left20-LandscapeHD3Zone permite crear el siguiente diseño multizona en el proyecto:
 
-![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Creación de un diseño Left20-LandscapeHD3Zone {#landscape-layout-one}
 
