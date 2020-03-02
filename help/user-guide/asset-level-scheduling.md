@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
+source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ---
 
@@ -95,11 +95,16 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
-| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
-| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+| antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
+| después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
+| después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 pm |
 | Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
+>[!NOTE]
+>También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 ### Partición de semana {#week-parting}
 
@@ -118,10 +123,14 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
-| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
-| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
+| después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
+| después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+
+>[!NOTE]
+>También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 
 ### Partición de mes {#month-parting}
@@ -141,12 +150,12 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | **Expresión** | **Interpretación** |
 |---|---|
 | de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
-| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
-| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
 
 > [!NOTE]
 > Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+
+>[!NOTE]
+> También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 ## Activación de varios recursos {#multi-asset-scheduling}
 
@@ -187,18 +196,3 @@ Siga los pasos a continuación para seleccionar varios recursos y programar su v
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## Expresiones de ejemplo {#example-expressions}
-
-En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
-
-| **Expresión** | **Interpretación** |
-|---|---|
-| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
-| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
-| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
-| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el canal empieza a reproducirse después de las 2:00 pm del 1 de enero, continúa reproduciéndose todo el día el 2 de enero hasta las 3:00 am del 3 de enero |
-| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
-
->[!NOTE]
->También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
