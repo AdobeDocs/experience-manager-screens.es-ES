@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ Siga los pasos a continuación para configurar un almacén de datos como una hoj
 
    1. Vaya a **global** > **predeterminado** > Configuración **de** ContextHub.
 
-   1. Haga clic en** Crear > Contenedor de configuración **e introduzca el título como** ContextHubDemo**.
+   1. Haga clic en **Crear** > Contenedor **** de configuración e introduzca el título como **ContextHubDemo**.
 
    1. **** Vaya **a** ContextHubDemo **> Configuración de la tienda** ContentHub... para abrir el asistente **Configurar**.
 
    1. Introduzca el **título** como hojas de **Google**, el nombre **** de la tienda como hojas de **Google** y el tipo **de** **tienda comocontexthub.generic-jsonp**
 
    1. Haga clic en **Siguiente**
-   1. Introduzca la configuración de json específica**.** Por ejemplo, puede utilizar el siguiente json para fines de demostración.
+   1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración.
    1. Haga clic en **Guardar**.
 
    ```
