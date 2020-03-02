@@ -5,28 +5,40 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# Creación de plantillas personalizadas en diseños de varias zonas {#creating-custom-templates-multizone}
+# Creación de plantillas personalizadas para diseños de varias zonas {#creating-custom-templates-multizone}
 
-Esta página muestra cómo se puede crear una plantilla personalizada en un diseño de varias zonas.
+Esta página muestra cómo se puede crear una plantilla personalizada para un diseño de varias zonas.
 
-## Convención de nombres {#name-terms}
+## Consideraciones importantes {#considerations}
 
-Antes de comprender cómo crear plantillas multizona personalizadas para utilizarlas en un proyecto de AEM Screens, se recomienda conocer la versión de las plantillas que desea crear.
+Hay dos consideraciones importantes que debe tener en cuenta antes de crear una plantilla personalizada en el diseño de varias zonas:
 
-| **Nombre del diseño** | **Descripción** |
-|---|---|
-| Left20-LandscapeHD3Zone | Se refiere a un diseño horizontal de 3 zonas que permite crear 3 zonas con una zona 1 del 20 % de la pantalla horizontal y vertical desde la izquierda, una zona 2 del 80 % de la pantalla horizontal y un 20 % de la pantalla vertical hacia la derecha, una zona 3 del 100 % de la pantalla horizontal y un 80 % de la pantalla vertical con una proporción de aspecto de 16:9 |
-| Upper20-PortraitHD2Zone | Se refiere a una plantilla vertical de 2 zonas que cubre el 20 % de la pantalla desde la parte superior, con una proporción de aspecto de 16:9 |
-| Right20-LandscapeSD3Zone | Se refiere a una plantilla de 3 zonas que cubre el 20 % de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
+1. **Tamaño o porcentajes** de píxeles fijos:
 
-##  Casos de uso de ejemplo {#example-use-cases}
+   Debe decidir si se utiliza un tamaño de píxel fijo para las diferentes zonas del diseño personalizado o si se desea crear un diseño personalizado con porcentajes.
 
-## Diseño Left20-LandscapeHD3Zone {#custom-template-one}
+   > [!NOTE]
+   > La ventaja de utilizar el porcentaje para establecer zonas para el diseño personalizado le permite reutilizar la plantilla en una variedad de tamaños de pantalla.
+
+1. **Convención** de nombres:
+
+   Antes de comprender cómo crear plantillas multizona personalizadas para utilizarlas en un proyecto de AEM Screens, se recomienda conocer la versión de las plantillas que desea crear.
+
+   | **Nombre del diseño** | **Descripción** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Se refiere a un diseño horizontal de 3 zonas que permite crear 3 zonas con una zona 1 del 20 % de la pantalla horizontal y vertical desde la izquierda, una zona 2 del 80 % de la pantalla horizontal y un 20 % de la pantalla vertical hacia la derecha, una zona 3 del 100 % de la pantalla horizontal y un 80 % de la pantalla vertical con una proporción de aspecto de 16:9 |
+   | Upper20-PortraitHD2Zone | Se refiere a una plantilla vertical de 2 zonas que cubre el 20 % de la pantalla desde la parte superior, con una proporción de aspecto de 16:9 |
+   | Right20-LandscapeSD3Zone | Se refiere a una plantilla de 3 zonas que cubre el 20 % de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
+
+   > [!IMPORTANT]
+   > Es posible que las zonas definidas en el diseño personalizado no coincidan con la proporción de aspecto general de todo el diseño. La convención de nomenclatura seguida en este documento especifica la proporción de aspecto del diseño personalizado en su conjunto.
+
+## Ejemplo de caso de uso Left20-LandscapeDiseño HD3Zone {#custom-template-one}
 
 Siga la sección siguiente para crear una plantilla personalizada *Left20-LandscapeHD3Zone* con la siguiente configuración:
 
@@ -131,13 +143,17 @@ Siga los pasos a continuación para utilizar la plantilla personalizada anterior
 
 1. Haga clic en **Crear** en la barra de acciones y seleccione la plantilla **Left20-LandscapeHD3Zone** en el asistente **Crear** .
 
-1. Una vez creado un canal con la plantilla personalizada, puede agregar recursos al canal desde el editor.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Una vez creado un canal con la plantilla personalizada, puede agregar recursos al canal desde el editor. La siguiente vista previa muestra las imágenes en una plantilla personalizada.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Inserción de una imagen como capa de fondo {#inserting-image}
 
 Puede insertar una imagen como capa de fondo en el diseño:
 
-Puede ajustar la regla CSS para utilizar lo que se denomina &quot;uri-datos&quot; y poner directamente en línea la imagen (con codificación Base64) en el archivo CSS.
+Puede ajustar la regla CSS para utilizar lo que se denomina &quot;uri-datos&quot; y poner directamente en línea la imagen (codificada en Base64) en el archivo CSS, creado en (paso 13), *static.css*.
 
 Esto se hace de la siguiente manera:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ O bien, puede seguir los pasos a continuación:
 
 ## Actualización del color de fondo {#updating-color}
 
-Para cambiar el color de fondo, agregue el siguiente código al archivo xml:
+Para cambiar el color de fondo, agregue el siguiente código al archivo xml (paso 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
