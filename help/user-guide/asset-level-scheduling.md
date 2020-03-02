@@ -1,32 +1,28 @@
 ---
-title: Programación del nivel de recursos
-seo-title: Programación del nivel de recursos
+title: Activación de nivel de recurso
+seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
-contentOwner: jsyal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
-noindex: true
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
 
 ---
 
 
-# Programación del nivel de recursos {#asset-level-scheduling}
+# Activación de nivel de recurso {#asset-level-scheduling}
 
-En esta sección se describe la programación de nivel de recursos para los recursos utilizados en los canales.
+En esta sección se describe la activación a nivel de recurso para los recursos utilizados en los canales.
 
 En esta sección se tratan los siguientes temas:
 
 * Información general
-* Uso de la programación de nivel de recursos
+* Ventana de activación
+* Reproducción de un solo evento
 * Gestión de periodicidad en recursos
-* Programación de varios recursos
-
+   * Partición de día
+   * Partición de semana
+   * Partición de mes
+* Activación de varios recursos
 
 >[!CAUTION]
 >
@@ -36,15 +32,15 @@ En esta sección se tratan los siguientes temas:
 
 ## Información general {#overview}
 
-***La programación*** de nivel de recursos le permite activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor. Esta opción está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
+***Activación*** de nivel de recurso, le permite activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor. Esta opción está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
 
 *Por ejemplo*, desea que una promoción especial se muestre solamente durante la hora feliz (de 2pm a 5pm) los lunes y miércoles.
 
 Con esta función, no sólo puede especificar la fecha y hora de inicio y finalización, sino también un patrón de periodicidad.
 
-## Uso de la programación de nivel de recursos {#using-asset-level-scheduling}
+## Reproducción de un solo evento {#single-event-playback}
 
-La programación de nivel de recursos se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
+La activación de nivel de recurso se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
 
 Siga los pasos a continuación para realizar la programación de nivel de recursos:
 
@@ -62,46 +58,107 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 1. Haga clic en **Editar** para abrir el editor de canales y seleccionar el recurso al que desee aplicar la programación.
 
-   ![screen_shot_2018-04-24at90434pm](assets/screen_shot_2018-04-24at90434pm.png)
+   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Seleccione el recurso y haga clic en el icono **Configurar** de la parte superior izquierda para abrir las propiedades de la imagen.
 
    Click the **Activation** tab.
 
-   ![screen_shot_2018-04-23at112348am](assets/screen_shot_2018-04-23at112348am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Puede especificar la fecha desde el selector de fechas desde los campos **Activo desde** y **Activo hasta** .
+1. Puede especificar la fecha desde el selector de fechas mediante los campos **Activo desde** y **Activo hasta** .
 
    Si selecciona **Activo desde** y **Activo hasta** la fecha y la hora, el recurso se mostrará y se reproducirá en bucle únicamente entre esa fecha y hora de inicio y la fecha y hora de finalización, respectivamente.
 
-   ![screen_shot_2018-04-23at113545am](assets/screen_shot_2018-04-23at113545am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Gestión de periodicidad en recursos {#handling-recurrence-in-assets}
 
 Puede programar los recursos para que se repitan a determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
 
-Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha Activación para establecer el intervalo recurrente deseado para el recurso.
+Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Adición de un evento recurrente para el recurso {#adding-a-recurring-event-for-your-asset}
+### Partición de día {#day-parting}
 
 1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
-1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión cron o una versión de texto natural para especificar la programación de periodicidad.
 
-   Puede buscar en la web un generador de expresiones cron gratuitas y, a continuación, copiar y pegar la expresión cron en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
-   *Como alternativa*, en lugar de utilizar la expresión cron, también puede utilizar la versión de texto natural, como *después de las 6:00 y antes de las 18:00* del viernes, para realizar la tarea. Introduzca el texto en la **programación** para mostrar el recurso.
+   > [!NOTE]
+   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
-## Programación de varios recursos {#multi-asset-scheduling}
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para partición de día {#example-one}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
+| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
+| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+
+### Partición de semana {#week-parting}
+
+1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
+
+   > [!NOTE]
+   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Ejemplo de expresiones para partición de semana {#example-two}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
+| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
+| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+
+
+### Partición de mes {#month-parting}
+
+1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
+
+   > [!NOTE]
+   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para partición mensual {#example-three}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
+| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
+| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+
+> [!NOTE]
+> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+
+## Activación de varios recursos {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La función de programación **de** varios recursos solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
+>La función Activación **de** varios recursos solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
 
-***La programación*** de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
+***La activación*** de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
 
 ### Requisitos previos {#prerequisites}
 
-Para utilizar la programación de varios recursos para sus recursos, cree un proyecto de AEM Screens con un canal de secuencia. Por ejemplo, el siguiente caso de uso muestra la implementación de la función:
+Para utilizar la activación de varios recursos en sus recursos, cree un proyecto de AEM Screens con un canal de secuencia. Por ejemplo, el siguiente caso de uso muestra la implementación de la función:
 
 * Creación de un proyecto de AEM Screens con el título **MultiAssetDemo**
 * Cree un canal denominado **MultiAssetChannel** y agregue contenido al canal, como se muestra en la figura siguiente
@@ -126,7 +183,22 @@ Siga los pasos a continuación para seleccionar varios recursos y programar su v
 
    >[!NOTE]
    >
-   >El icono de programación está visible en la esquina superior derecha para aquellos recursos que tienen una programación de varios recursos.
+   >El icono de programación está visible en la esquina superior derecha para los recursos que tienen una activación de varios recursos.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
+## Expresiones de ejemplo {#example-expressions}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| antes de las 8:00 am | el canal se reproduce antes de las 8:00 am todos los días |
+| después de las 2:00 pm | el canal se reproduce después de las 2:00 pm todos los días |
+| después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el canal empieza a reproducirse después de las 2:00 pm del 1 de enero, continúa reproduciéndose todo el día el 2 de enero hasta las 3:00 am del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
+>[!NOTE]
+>También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
