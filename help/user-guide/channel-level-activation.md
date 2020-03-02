@@ -11,16 +11,24 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
 
 # Activación de nivel de canal {#channel-level-activation-single-event-playback}
 
-El uso de la activación de nivel de canal cubre los siguientes temas:
+En esta página se describe la activación a nivel de canal para los recursos utilizados en los canales.
+
+En esta sección se tratan los siguientes temas:
 
 * Información general
+* Ventana de activación
+* Uso de la activación de nivel de canal como una reproducción de evento única
+* Gestión de periodicidad para recursos en un canal
+   * Partición de día
+   * Partición de semana
+   * Partición de mes
 * Uso de la activación de nivel de canal como una reproducción de evento única
 
 ## Información general {#overview}
@@ -33,7 +41,7 @@ El siguiente ejemplo proporciona una solución centrándose en los siguientes t�
 * un canal ***de evento*** único que se ejecuta una sola vez a la hora establecida
 * una programación ***establecida y una prioridad*** para el evento de una sola reproducción que se produce dentro del canal de la secuencia principal
 
-## Uso de la activación de nivel de canal {#using-channel-level-activation}
+## Ventana de activación {#using-channel-level-activation}
 
 En la sección siguiente se explica la creación de una sola reproducción de evento dentro de un canal para un proyecto de AEM Screens.
 
@@ -141,4 +149,85 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 Para obtener más información sobre AEM Screen Player, consulte los siguientes recursos:
 * [Descargas de AEM Screens Player](https://download.macromedia.com/screens/)
 * [Uso de AEM Screens Player](working-with-screens-player.md)
+
+
+
+## Gestión de periodicidad para recursos en un canal{#handling-recurrence-in-assets}
+
+Puede programar los recursos de un canal para que se repitan en determinados intervalos, de forma diaria, semanal o mensual, según sus necesidades.
+
+Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
+
+### Partición de día {#day-parting}
+
+1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el tablero de canales.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
+
+   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para partición de día {#example-one}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
+| después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
+| después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 pm |
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
+>[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+
+### Partición de semana {#week-parting}
+
+1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el tablero de canales.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
+
+   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Ejemplo de expresiones para partición de semana {#example-two}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
+| después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
+| después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+
+>[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+
+
+### Partición de mes {#month-parting}
+
+1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el tablero de canales.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
+
+   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para partición mensual {#example-three}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
+
+>[!NOTE]Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+
+>[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
