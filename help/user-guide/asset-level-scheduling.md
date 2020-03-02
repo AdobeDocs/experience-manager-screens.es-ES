@@ -4,14 +4,14 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # Activación de nivel de recurso {#asset-level-scheduling}
 
-En esta sección se describe la activación a nivel de recurso para los recursos utilizados en los canales.
+En esta página se describe la activación a nivel de recurso para los recursos utilizados en los canales.
 
 En esta sección se tratan los siguientes temas:
 
@@ -58,9 +58,9 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 1. Haga clic en **Editar** para abrir el editor de canales y seleccionar el recurso al que desee aplicar la programación.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Seleccione el recurso y haga clic en el icono **Configurar** de la parte superior izquierda para abrir las propiedades de la imagen.
+1. Seleccione el recurso y haga clic en la parte superior izquierda **Configurar** (icono de llave inglesa) para abrir las propiedades de la imagen.
 
    Click the **Activation** tab.
 
@@ -80,7 +80,7 @@ Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede
 
 ### Partición de día {#day-parting}
 
-1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
+1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
@@ -108,7 +108,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 ### Partición de semana {#week-parting}
 
-1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
+1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
@@ -135,7 +135,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 ### Partición de mes {#month-parting}
 
-1. Seleccione el recurso y haga clic en el icono **Configurar** para abrir el cuadro de diálogo de propiedades.
+1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
+
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    > [!NOTE]
