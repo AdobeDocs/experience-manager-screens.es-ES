@@ -11,12 +11,12 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# Activación de nivel de canal: reproducción de un solo evento {#channel-level-activation-single-event-playback}
+# Activación de nivel de canal {#channel-level-activation-single-event-playback}
 
 El uso de la activación de nivel de canal cubre los siguientes temas:
 
@@ -87,7 +87,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Crear visualización en Ubicación**
 
-   1. Vaya a Activación **a nivel** de canal &gt; **Ubicaciones** &gt; **Región**.
+   1. Vaya a Activación **a nivel** de canal > **Ubicaciones** > **Región**.
    1. Seleccione **Región** y haga clic en **+ Crear** en la barra de acciones.
    1. Seleccione **Mostrar** en el asistente y cree una pantalla con el título **RegiónMostrar.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Para **MainAdChannel:**
 
-   1. Vaya a Activación **a nivel de** canal &gt; **Ubicaciones** &gt; **Región** &gt; **RegiónVisualización** y haga clic en **Asignar canal** en la barra de acciones.
+   1. Vaya a Activación **a nivel de** canal > **Ubicaciones** > **Región** > **RegiónVisualización** y haga clic en **Asignar canal** en la barra de acciones.
    1. **Se abre el cuadro de diálogo Asignación** de canal.
    1. Select **Reference Channel**.. by path.
-   1. Seleccione la ruta **de** canal como activación **de nivel de** canal —&gt; ***Canales*** —&gt; ***MainAdChannel***.
+   1. Seleccione la ruta **de** canal como activación **de nivel de** canal —> ***Canales*** —> ***MainAdChannel***.
    1. La función **** de canal se rellena como **mainadchannel**.
    1. Seleccione la **prioridad** como **1**.
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
@@ -108,14 +108,14 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    >[!NOTE]
    >
-   >También puede asignar canal desde el tablero de visualización navegando a Activación **a nivel de** canal —&gt; **Ubicaciones** —&gt; **Región** —&gt; **RegiónMostrar** y haciendo clic en **Tablero** en la barra de acciones. Haga clic en **+ Asignar canal** desde el panel CANALES y PROGRAMAS **ASIGNADOS** .
+   >También puede asignar canal desde el tablero de visualización navegando a Activación **a nivel de** canal —> **Ubicaciones** —> **Región** —> **RegiónMostrar** y haciendo clic en **Tablero** en la barra de acciones. Haga clic en **+ Asignar canal** desde el panel CANALES y PROGRAMAS **ASIGNADOS** .
 
    Del mismo modo, asigne channel **TargetedSinglePlay** para la visualización**:
 
-   1. Vaya a Activación **a nivel de** canal —&gt; **Ubicaciones** —&gt; **Región** —&gt; **RegiónVisualización** y haga clic en **Asignar canal** en la barra de acciones.
+   1. Vaya a Activación **a nivel de** canal —> **Ubicaciones** —> **Región** —> **RegiónVisualización** y haga clic en **Asignar canal** en la barra de acciones.
    1. **Se abre el cuadro de diálogo Asignación** de canal.
    1. Select **Reference Channel**.. by path.
-   1. Seleccione la ruta **de** canal como activación **a nivel** de canal* —&gt; ***Canales*** —&gt; ***TargetedSinglePlay***.
+   1. Seleccione la ruta **de** canal como activación **a nivel** de canal* —> ***Canales*** —> ***TargetedSinglePlay***.
    1. La función **de canal** se rellena como **target singleplay**.
    1. Establezca la **prioridad** como **2**.
    1. Seleccione los eventos **** admitidos como carga **** inicial, **pantalla** inactiva y **temporizador**, *como se muestra en la figura siguiente.
@@ -133,7 +133,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 ## Visualización de los resultados {#viewing-the-results}
 
-Una vez que haya configurado los canales y la pantalla se haya completado, inicie el reproductor de AEM Screens para ver el contenido.
+Una vez que haya configurado los canales y se haya completado la visualización, inicie el reproductor de AEM Screens para ver el contenido.
 
 El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:59 (según lo establecido en la programación), el canal **TargetedSinglePlay** mostrará su contenido hasta las 12:05 a.m. y luego **MainAdChannel** reanudará la reproducción de su contenido.
 
