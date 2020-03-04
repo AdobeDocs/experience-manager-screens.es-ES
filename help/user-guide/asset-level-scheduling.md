@@ -19,7 +19,7 @@ En esta sección se tratan los siguientes temas:
 * Ventana de activación
 * Reproducción de un solo evento
 * Gestión de periodicidad en recursos
-   * Partición de día
+   * Partición de días
    * Partición de semana
    * Partición de mes
 * Activación de varios recursos
@@ -78,7 +78,7 @@ Puede programar los recursos para que se repitan a determinados intervalos de fo
 
 Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Partición de día {#day-parting}
+### Partición de días {#day-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -99,7 +99,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 pm |
-| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
@@ -123,7 +123,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
 | después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
