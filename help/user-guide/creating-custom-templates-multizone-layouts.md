@@ -70,7 +70,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
    > [!NOTE]
    > Se recomienda hacer clic en **Guardar todo** desde la barra de acciones de CRXDE Lite cada vez que cree, edite o copie contenido en cualquiera de los nodos; de lo contrario, no podrá confirmar las actualizaciones.
 
-1. Copie la plantilla de la barra izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
+1. Copie la plantilla de la izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
 1. Cambie el nombre de la **barra izquierda** copiada (`/apps/customtemplate/template`) a **mi diseño**personalizado.
    ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
