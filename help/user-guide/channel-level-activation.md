@@ -26,7 +26,7 @@ En esta sección se tratan los siguientes temas:
 * Ventana de activación
 * Uso de la activación de nivel de canal como una reproducción de evento única
 * Gestión de periodicidad para recursos en un canal
-   * Partición de día
+   * Partición de días
    * Partición de semana
    * Partición de mes
 * Uso de la activación de nivel de canal como una reproducción de evento única
@@ -158,13 +158,14 @@ Puede programar los recursos de un canal para que se repitan en determinados int
 
 Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Partición de día {#day-parting}
+### Partición de días {#day-parting}
 
 1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el tablero de canales.
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
-   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
@@ -178,11 +179,12 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 pm |
-| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
->[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>[!NOTE]
+También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 ### Partición de semana {#week-parting}
 
@@ -190,7 +192,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
-   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
@@ -200,13 +203,14 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
 | después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
 
->[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>[!NOTE]
+También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 
 ### Partición de mes {#month-parting}
@@ -215,7 +219,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
-   >[!NOTE]Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
@@ -227,7 +232,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 |---|---|
 | de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
 
->[!NOTE]Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+>[!NOTE]
+Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
 
->[!NOTE]También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>[!NOTE]
+También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
