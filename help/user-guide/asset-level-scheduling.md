@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
+source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
 
 ---
 
@@ -173,10 +173,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
 > [!NOTE]
-> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
-
->[!NOTE]
->También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
