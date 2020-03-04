@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
 
 ---
 
@@ -99,9 +99,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 pm |
-| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
-| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
-| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
 
 >[!NOTE]
 >También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
@@ -123,14 +121,11 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
-| antes de las 8:00 am | el recurso del canal se reproduce antes de las 8:00 de la mañana todos los días |
-| después de las 2:00 pm | el recurso en el canal se reproduce después de las 14:00 todos los días |
-| después de las 12:15 y antes de las 12:45 | el recurso en el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y después de las 12:45 |
+| Lun,Wed,Fri | el recurso se reproduce en el canal los lunes, miércoles y viernes |
+| Mon-Thu | el recurso se reproduce en el canal de los lunes a los jueves |
 
 >[!NOTE]
->También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>También puede utilizar notación _completa_ (es decir, lunes, miércoles, viernes) en lugar de notación _manual_ (es decir, lunes, miércoles, viernes).
 
 
 ### Partición de mes {#month-parting}
@@ -151,12 +146,38 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | **Expresión** | **Interpretación** |
 |---|---|
 | de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
+| de febrero a julio | el recurso se reproduce en el canal desde febrero hasta finales de julio |
+
+> [!NOTE]
+> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+
+### Combinaciones de asociaciones {#combined-parting}
+
+1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
+
+   > [!NOTE]
+   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para combinaciones de elementos {#example-four}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6am y las 6pm los lunes y miércoles de enero a finales de marzo |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
 > [!NOTE]
 > Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
 
 >[!NOTE]
-> También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+
 
 ## Activación de varios recursos {#multi-asset-scheduling}
 
