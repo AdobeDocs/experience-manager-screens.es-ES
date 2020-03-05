@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ En esta sección se tratan los siguientes temas:
    * Partición de días
    * Partición de semana
    * Partición de mes
+   * Combinación de asociaciones
 * Activación de varios recursos
 
 >[!CAUTION]
@@ -151,7 +152,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 > [!NOTE]
 > Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
 
-### Combinaciones de asociaciones {#combined-parting}
+### Combinación de asociaciones {#combined-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -162,7 +163,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
-#### Expresiones de ejemplo para combinaciones de elementos {#example-four}
+#### Expresiones de ejemplo para la combinación de elementos {#example-four}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
 
