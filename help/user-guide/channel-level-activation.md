@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -29,6 +29,7 @@ En esta sección se tratan los siguientes temas:
    * Partición de días
    * Partición de semana
    * Partición de mes
+   * Combinación de asociaciones
 * Uso de la activación de nivel de canal como una reproducción de evento única
 
 ## Información general {#overview}
@@ -237,4 +238,28 @@ Al definir los días de la semana y los meses, puede utilizar las notaciones de 
 
 >[!NOTE]
 También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+
+### Combinación de asociaciones {#combined-parting}
+
+1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el tablero de canales.
+
+1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** canal, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
+
+   >[!NOTE]
+Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+
+1. Introduzca la expresión en la **programación** y el recurso se mostrará para el intervalo de día y hora concreto.
+
+#### Expresiones de ejemplo para la combinación de elementos {#example-four}
+
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+
+| **Expresión** | **Interpretación** |
+|---|---|
+| después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6am y las 6pm los lunes y miércoles de enero a finales de marzo |
+| el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en el canal comienza a reproducirse después de las 14:00 del 1 de enero y continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
+| del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el canal comienza el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
+
+>[!NOTE]
+Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
