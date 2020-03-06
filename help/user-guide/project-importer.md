@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
 
@@ -49,17 +49,17 @@ El modelo de datos para el importador de proyectos se describe a continuación:
 
 | **Propiedad** | **Descripción** |
 |---|---|
-| ***path {string*}** | Ruta de acceso del recurso para la ubicación |
-| ***[./jcr:title]{string*}** | El nombre de la plantilla que se va a utilizar (es decir, la ubicación de *pantallas/núcleo/plantillas/ubicación*) |
+| ***path {string *}** | Ruta de acceso del recurso para la ubicación |
+| ***[./jcr:title]{string *}** | El nombre de la plantilla que se va a utilizar (es decir, la ubicación de *pantallas/núcleo/plantillas/ubicación*) |
 | ***plantilla {string}*** | Título opcional que se usará para la página |
 | ***[./jcr:description]{string}*** | Descripción opcional que se usará para la página |
 
 El archivo de hoja de cálculo (CSV/XLS) requiere, por tanto, las siguientes columnas:
 
-* **path {string}** La ruta de la ubicación que se va a importar, donde la raíz de la ruta es la carpeta de ubicación del proyecto (es decir, */foo* se importará a */content/screen/&lt;project&gt;/locations/foo*)
+* **path {string}** La ruta de la ubicación que se va a importar, donde la raíz de la ruta es la carpeta de ubicación del proyecto (es decir, */foo* se importará a */content/screen/&lt;project>/locations/foo*)
 
-* **plantilla {string}** La plantilla que se usará para la nueva ubicación, por ahora el único valor permitido es "location", pero se extenderá a todas las plantillas de Pantallas en el futuro ("display", "secuencechannel, etc.)
-* [**./*] {string}** Cualquier propiedad opcional que se establezca en la ubicación (es decir, ./jcr:title, ./jcr:description, ./foo, ./barra). La versión actual no permite ningún filtrado en este momento
+* **plantilla {string}** La plantilla que se usará para la nueva ubicación, por ahora el único valor permitido es &quot;location&quot;, pero se extenderá a todas las plantillas de Pantallas en el futuro (&quot;display&quot;, &quot;secuencechannel, etc.)
+* **[./*]{string}**Cualquier propiedad opcional que se establezca en la ubicación (es decir, ./jcr:title, ./jcr:description, ./foo, ./barra). La versión actual no permite ningún filtrado en este momento
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ En la sección siguiente se describe cómo se utiliza el importador de proyectos
 >Restricciones:
 >
 >* La versión actual no admite archivos que no sean extensiones CSV/XLS/XLSX.
->* No existe ningún filtro de las propiedades para los archivos importados ni para nada que empiece con "./" se importará.
+>* No existe ningún filtro de las propiedades para los archivos importados ni para nada que empiece con &quot;./&quot; se importará.
 >
 
 
@@ -103,7 +103,7 @@ Siga los pasos a continuación para importar un archivo a la carpeta de ubicacio
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Seleccione el proyecto,** DemoProjectImporter **—&gt;** Crear **—&gt;** Importar ubicaciones** de la barra lateral.
+1. Seleccione el proyecto,** DemoProjectImporter **—>** Crear **—>** Importar ubicaciones** de la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
