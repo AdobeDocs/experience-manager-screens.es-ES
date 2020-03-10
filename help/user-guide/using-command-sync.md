@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
+source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 
 ---
 
@@ -12,6 +12,9 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 # Sincronización de comandos {#command-sync}
 
 En la página siguiente se describe cómo utilizar la sincronización de comandos. La sincronización de comandos permite la reproducción sincronizada entre distintos reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
+
+>[!IMPORTANT]
+>Esta función no admite secuencias incrustadas, secuencias incrustadas dinámicas, canales de aplicación o transiciones.
 
 ## Información general {#overview}
 
@@ -24,6 +27,9 @@ El *maestro* envía un comando a todos los clientes registrados cuando está a p
 ## Implementación de sincronización de comandos {#using-command-sync}
 
 En la sección siguiente se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
+
+>[!NOTE]
+>Para la reproducción sincronizada, es necesario que todos los dispositivos de hardware tengan las mismas especificaciones de hardware y, preferiblemente, el mismo sistema operativo. No se recomienda la sincronización entre hardware y sistemas operativos diferentes.
 
 ### Configuración del proyecto {#setting-up}
 
@@ -112,16 +118,20 @@ Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el p
 
 ### Dessincronización con el maestro {#desync-up-master}
 
-Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización de la asignación desde ese dispositivo. Para quitar la sincronización del dispositivo maestro, siga los pasos a continuación:
+Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización de la asignación desde ese dispositivo.
+
+>[!NOTE]
+>Si desincroniza un dispositivo maestro, también desvinculará todos los dispositivos cliente asociados a dicho dispositivo maestro.
+
+Para quitar la sincronización del dispositivo maestro, siga los pasos a continuación:
 
 1. Vaya al panel **DISPOSITIVOS** y seleccione el dispositivo.
 
-1. Haga clic en **Desincronizar dispositivo(s)** para dessincronizar el cliente desde el dispositivo maestro.
+1. Haga clic en **Dessincronizar los dispositivos** para anular la sincronización del cliente desde el dispositivo maestro.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Haga clic en **Confirmar** para dessincronizar el dispositivo seleccionado del maestro.
+1. Haga clic en **Confirmar** para anular la sincronización del dispositivo seleccionado del maestro.
 
    >[NOTA:]
-   > Si selecciona el dispositivo maestro y utiliza la opción de dessincronización, todos los dispositivos conectados al maestro se dessincronizarán en un solo paso.
-
+   > Si selecciona el dispositivo maestro y utiliza la opción de desincronización, todos los dispositivos conectados al maestro se dessincronizarán en un solo paso.
