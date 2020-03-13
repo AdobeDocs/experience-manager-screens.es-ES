@@ -3,7 +3,7 @@ title: Creación con activadores de datos
 seo-title: Creación con activadores de datos
 description: Siga esta página para aprender a crear con activadores de datos.
 translation-type: tm+mt
-source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
+source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
 ---
 
@@ -12,15 +12,22 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 Esta sección resalta cómo habilitar la segmentación en los canales.
 
+>[!IMPORTANT]
+> La versión mínima que admite activadores de datos en un canal de AEM Screens es AEM 6.4.3 Feature Pack 3.
+
 ## Requisitos previos {#prereqs}
 
-Antes de seguir los pasos a continuación para habilitar la segmentación en canales, debe conocer los siguientes temas:
+Antes de seguir los pasos que se describen a continuación para activar la segmentación en canales, debe conocer los términos [clave en Configuración en pantallas](configuring-context-hub.md) de AEM necesarios para comprender ContextHub y la determinación de objetivos en pantallas de AEM.
 
-1. Términos clave en la configuración de AEM Screens
-1. Configuración del almacén de datos
-1. Configurar la segmentación de audiencias
+>[!IMPORTANT]
+> Se recomienda que comprenda y configure las configuraciones de ContextHub antes de habilitar la segmentación en un canal de AEM Screens.
 
-Una vez que haya completado los pasos anteriores, podrá activar la segmentación en los canales.
+Siga los vínculos siguientes para obtener más información:
+
+1. **[Configuración del almacén de datos](configuring-context-hub.md)**
+1. **[Configuración de la segmentación de audiencias](configuring-context-hub.md)**
+
+Una vez que haya completado los pasos anteriores, estará listo para habilitar la segmentación en los canales.
 
 ## Información general sobre la creación con activadores de datos {#author-targeting}
 
@@ -30,7 +37,7 @@ Una vez que haya completado los pasos anteriores, podrá activar la segmentació
 
 Siga los pasos a continuación para habilitar la segmentación en los canales.
 
-1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un canal de pantallas de AEM.
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** *(canal de secuencia)* creado en un canal de pantallas de AEM.
 
 1. Seleccione el canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
 
@@ -44,19 +51,22 @@ Siga los pasos a continuación para habilitar la segmentación en los canales.
 
    1. Haga clic en **Guardar y cerrar**.
    >[!NOTE]
-   Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
+   >
+   >Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
 1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones.
 
    >[!NOTE]
-   Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+   >
+   >Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
    >[!NOTE]
-   Una vez que haya configurado las configuraciones de ContextHub para su canal, asegúrese de seguir los pasos anteriores del 1 al 4 para los otros tres canales de secuencia también si desea seguir todos los casos de uso que se mencionan a continuación.
+   >
+   >Una vez que haya configurado las configuraciones de ContextHub para su canal, asegúrese de seguir los pasos anteriores del 1 al 4 para los otros tres canales de secuencia también si desea seguir todos los casos de uso que se mencionan a continuación.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
