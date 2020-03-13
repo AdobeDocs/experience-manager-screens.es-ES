@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -36,7 +36,7 @@ El reproductor cambia a un canal que muestra la información de emergencia al re
 
 Consulte Caso de uso de canal [de](emergency-channel.md) emergencia para la implementación.
 
-* **Objetivo habilitado para componentes asincrónicos (*como vídeos, secuencia*incrustada)**
+* **Establecimiento de objetivos para componentes asincrónicos
 
 Ahora se puede activar la segmentación para los recursos utilizados en el proyecto de AEM Screens.
 
