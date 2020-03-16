@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -21,7 +21,7 @@ En el siguiente tutorial se explican los pasos para crear un componente personal
 
 ## Información general {#overview}
 
-Este tutorial está dirigido a desarrolladores que no conocen AEM Screens. En este tutorial, se ha creado un componente sencillo "Hello World" para un canal de secuencia en AEM Screens. Un cuadro de diálogo permite a los autores actualizar el texto mostrado.
+Este tutorial está dirigido a desarrolladores que no conocen AEM Screens. En este tutorial, se ha creado un componente sencillo &quot;Hello World&quot; para un canal de secuencia en AEM Screens. Un cuadro de diálogo permite a los autores actualizar el texto mostrado.
 
 ![overviewhellow](assets/overviewhellow.png)
 
@@ -83,9 +83,9 @@ El código fuente de un proyecto de Screens suele gestionarse como un proyecto M
    * `/content/screens/we-retail-run`
    Este paquete contiene el contenido inicial y la estructura de configuración necesarias para el proyecto. **`/conf/we-retail-run`** contiene todas las configuraciones para el proyecto de ejecución We.Retail. **`/content/dam/we-retail-run`** incluye el inicio de recursos digitales para el proyecto. **`/content/screens/we-retail-run`** contiene la estructura de contenido Pantallas. El contenido debajo de todas estas rutas se actualiza principalmente en AEM. Para promover la coherencia entre los entornos (local, Dev, Stage, Prod), a menudo se guarda una estructura de contenido base en el control de código fuente.
 
-1. **Vaya al proyecto de ejecución de AEM Screens &gt; We.Retail:**
+1. **Vaya al proyecto de ejecución de AEM Screens > We.Retail:**
 
-   En el menú Inicio de AEM &gt; Haga clic en el icono Pantallas. Verifique que se pueda ver el proyecto de ejecución We.Retail.
+   En el menú Inicio de AEM > Haga clic en el icono Pantallas. Verifique que se pueda ver el proyecto de ejecución We.Retail.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -399,7 +399,7 @@ Debajo se crea una página de diseño de ejecución We.Retail que almacenará to
 
 El componente Hello World está pensado para utilizarse en un canal de secuencia. Para probar el componente, se crea un nuevo canal de secuencia.
 
-1. En el menú Inicio de AEM, vaya a **Pantallas** &gt; **We.Retail** Run &gt; y seleccione **Canales**.
+1. En el menú Inicio de AEM, vaya a **Pantallas** > **We.Retail** Run > y seleccione **Canales**.
 
 1. Haga clic en el botón **Crear**
 
@@ -408,11 +408,11 @@ El componente Hello World está pensado para utilizarse en un canal de secuencia
 
 1. En el asistente Crear:
 
-1. Paso de plantilla: elija** Canal de secuencia**
+1. Paso de plantilla: elija Canal **de secuencia**
 
    1. Paso de propiedades
-   * Ficha Básico &gt; Título = Canal **inactivo**
-   * Ficha Canal &gt; marcar **Convertir canal en línea**
+   * Ficha Básico > Título = Canal **inactivo**
+   * Ficha Canal > marcar **Convertir canal en línea**
    ![canal de inactividad](assets/idle-channel.gif)
 
 1. Abra las propiedades de página del canal inactivo. Actualice el campo Diseño para que señale a `/apps/settings/wcm/designs/we-retail-run,`la página de diseño creada en la sección anterior.
@@ -440,11 +440,89 @@ El componente Hello World está pensado para utilizarse en un canal de secuencia
 
    Configuración de diseño en /apps/settings/wcm/designs/we-retail-run
 
+## Plantilla para controladores personalizados {#custom-handlers}
+
+La sección siguiente resalta la plantilla para el controlador personalizado y los requisitos mínimos de pom.xml para ese proyecto específico.
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+El siguiente código proporciona los requisitos mínimos en pom.xml para ese proyecto específico:
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## Colocando todo juntos {#putting-it-all-together}
 
 El siguiente vídeo muestra el componente terminado y cómo se puede agregar a un canal de secuencia. A continuación, el canal se agrega a la pantalla Ubicación y, finalmente, se asigna a un reproductor de Pantallas.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Código finalizado {#finished-code}
 
