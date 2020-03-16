@@ -3,7 +3,7 @@ title: Creación con activadores de datos
 seo-title: Creación con activadores de datos
 description: Siga esta página para aprender a crear con activadores de datos.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 Esta sección resalta cómo habilitar la segmentación en los canales.
 
 >[!IMPORTANT]
-> La versión mínima que admite activadores de datos en un canal de AEM Screens es AEM 6.4.3 Feature Pack 3.
+> La versión mínima que admite activadores de datos en un canal de AEM Screens es AEM 6.5.3 Feature Pack 3.
 
 ## Requisitos previos {#prereqs}
 
@@ -56,7 +56,7 @@ Siga los pasos a continuación para habilitar la segmentación en los canales.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones.
+1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones. Arrastre y suelte los recursos en el editor de canales.
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ Siga los pasos a continuación para habilitar la segmentación en los canales.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Una vez que haya configurado las configuraciones de ContextHub para su canal, asegúrese de seguir los pasos anteriores del 1 al 4 para los otros tres canales de secuencia también si desea seguir todos los casos de uso que se mencionan a continuación.
+1. Haga clic en **Objetivo**.
+
+1. Seleccione **Marca** y la **actividad** en el menú desplegable y haga clic en **Iniciar objetivo**.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
