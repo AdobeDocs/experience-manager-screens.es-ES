@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -44,7 +44,7 @@ Siga los pasos a continuación para implementar el caso de uso de activación de
 
 1. **Configuración de las audiencias según los requisitos**
 
-   1. Vaya a los segmentos de la audiencia (consulte el ***paso 2: Configuración de la segmentación*** de audiencias en la página **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
+   1. Vaya a los segmentos de la audiencia (consulte el ***paso 2: Configuración de la segmentación*** de audiencias en la página **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)**para obtener más información).
 
    1. Agregue tres nuevos segmentos **For_Red**, **For_Green** y **For_Blue**.
 
@@ -53,23 +53,23 @@ Siga los pasos a continuación para implementar el caso de uso de activación de
    1. Arrastre y suelte la **comparación: Propiedad: propiedad** del editor y haga clic en el icono de configuración para editar las propiedades.
    1. Seleccione **googlesheets/value/1/2** en la lista desplegable en Nombre de la **propiedad**
 
-   1. Seleccione el **Operador** como **mayor que **en el menú desplegable
+   1. Seleccione el **Operador** como **bueno que** en el menú desplegable
 
    1. Seleccione Tipo **** de datos como **número**
 
-   1. Seleccione **googlesheets/value/1/1** en la lista desplegable del nombre de la **segunda propiedad**
+   1. Seleccione **googlesheets/value/1/1** en el menú desplegable del nombre **de la** segunda propiedad.
 
-   1. Arrastre y suelte **otra comparación: Propiedad: propiedad **al editor y haga clic en el icono de configuración para editar las propiedades.
-   1. Seleccione **googlesheets/value/1/2** en la lista desplegable en Nombre de la **propiedad**
+   1. Arrastre y suelte **otra comparación: Propiedad: propiedad** del editor y haga clic en el icono de configuración para editar las propiedades.
+   1. Seleccione **googlesheets/value/1/2** en el menú desplegable en Nombre de **propiedad**.
 
-   1. Seleccione el **Operador** como **mayor que **en el menú desplegable
+   1. Seleccione el **Operador** como **bueno que** en el menú desplegable
 
    1. Seleccionar tipo **de datos** como **número**
 
    1. Seleccione **googlesheets/value/1/0** en la lista desplegable del nombre de la **segunda propiedad**
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Del mismo modo, edite y agregue reglas de propiedad de comparación al segmento **For_Blue** como se muestra en la figura siguiente:
+   Del mismo modo, edite y agregue reglas de propiedad de comparación al segmento **For_Blue** , como se muestra en la figura siguiente:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
@@ -87,7 +87,7 @@ Siga los pasos a continuación para implementar el caso de uso de activación de
 
    >[!CAUTION]
    >
-   >Debería haber configurado las **** configuraciones **de ContextHub** mediante la ficha **Propiedades** del canal —&gt; **Personalización** .
+   >Debería haber configurado las **** configuraciones **de ContextHub** mediante la ficha **Propiedades** del canal —> **Personalización** .
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
