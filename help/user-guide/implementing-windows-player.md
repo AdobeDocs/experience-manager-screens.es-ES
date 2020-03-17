@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,11 +24,11 @@ En esta sección se describe la configuración del reproductor de Windows 10 de 
 
 Para implementar Windows Player para AEM Screens, instale Windows Player para AEM Screens.
 
-Visite la página de descargas [**de**](https://download.macromedia.com/screens/) AEM 6.4 Player.
+Visite la página de descargas [**de **](https://download.macromedia.com/screens/)AEM 6.4 Player.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-El método ad-hoc permite instalar el último Reproductor de Windows (*.exe*). Visite la página de descargas [**del reproductor de**](https://download.macromedia.com/screens/) AEM 6.4.
+El método ad-hoc permite instalar el último Reproductor de Windows (*.exe*). Visite la página de descargas [**del reproductor de **](https://download.macromedia.com/screens/)AEM 6.4.
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
@@ -102,7 +102,7 @@ Siga los pasos a continuación para habilitar el modo de kiosco:
 
 1. Habilitar el iniciador de shell.
 
-   Consulte la sección ***Configurar el iniciador*** de shell en la página **[del iniciador](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de shell de Microsoft Windows para obtener más información.
+   Consulte la sección ***Configurar el iniciador*** de shell en la página **[del iniciador](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**de shell de Microsoft Windows para obtener más información.
 
 1. Cree un usuario que no sea administrativo (si ya no tiene uno) para utilizarlo en Kiosk. Puede ser un usuario local o de dominio.
 1. Instale Windows Player para ese usuario de Kiosk desde la página de descargas [de](https://download.macromedia.com/screens/) AEM Screens Player.
@@ -119,7 +119,7 @@ Si obtiene una pantalla negra cuando inicia sesión como usuario de Kiosk, signi
 
 La ruta de instalación predeterminada para el reproductor de Windows es:
 
-***C:\Users\&amp;lt;su usuario&gt;\AppData\Local\Programs\@aem-screensscreen-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;su usuario>\AppData\Local\Programs\@aem-screensscreen-player-electron\AEM Screens Player.exe***
 
 La secuencia de comandos de ejemplo de los vínculos habilitará y deshabilitará el shell personalizado. Por lo tanto, es posible que tenga que dividir la secuencia de comandos en dos y habilitar/deshabilitar las líneas siguientes aplicables:
 
