@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -40,7 +40,7 @@ En esta página se muestra la asignación del canal a las visualizaciones.
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
-1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —&gt; **Ubicaciones** —&gt; **SanJosé** —&gt; **StoreDisplay**.
+1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -84,13 +84,13 @@ Siga los pasos a continuación para asignar un canal a una visualización:
    * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
    **Mostrar información de herramientas de atracción**:
 
-   La opción de mostrar la información sobre herramientas de atracción define si esta opción ("*Pulse donde quiera para comenzar*") debe mostrarse (o no) no mientras el canal se está ejecutando.
+   La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
 
 1. Haga clic en **Guardar** para asignar el canal creado a una pantalla.
 
 ### Parrilla de programación {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar los canales en una parrilla de programación en un día, semana o mes según sea necesario.
 
@@ -148,7 +148,7 @@ Aquí se creará la parrilla de programación según los meses, de modo que el c
 
 >[!NOTE]
 >
->Además, puede definir la ***Prioridad**de cada uno de los canales.* Por ejemplo, si dos canales están establecidos para el mismo día y hora o para ese mismo mes, el canal con mayor prioridad se reproduce en primer lugar. El valor mínimo de la prioridad se puede establecer en 0.
+>Además, puede definir la ***Prioridad*** de cada uno de los canales. Por ejemplo, si dos canales están establecidos para el mismo día y hora o para ese mismo mes, el canal con mayor prioridad se reproduce en primer lugar. El valor mínimo de la prioridad se puede establecer en 0.
 
 #### Reproducir contenido de canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
 
