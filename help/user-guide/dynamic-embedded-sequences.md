@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -56,7 +56,7 @@ El siguiente ejemplo proporciona una solución centrándose en los siguientes t�
 
 >[!NOTE]
 >
->To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)** under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)**under Authoring section in AEM Screens documentation.
 
 ## Usar la secuencia integrada dinámica {#using-dynamic-embedded-sequence-2}
 
@@ -121,13 +121,13 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Cree dos ubicaciones y un canal debajo de cada carpeta de ubicación.**
 
-   1. Vaya a **Demostración** —&gt; **Ubicaciones** —&gt; **Región A**.
+   1. Vaya a **Demostración** —> **Ubicaciones** —> **Región A**.
    1. Seleccione **Región A** y haga clic en **+ Crear** en la barra de acciones.
    1. Seleccione **Ubicación** en el asistente con **Título** como **Tienda 1**. Del mismo modo, cree otra ubicación desde el asistente titulada **Tienda 2** con **Título** como **Tienda 2**. Puede dejar vacío el campo **Nombre** al crear **Tienda 1** y **Tienda 2**.
    1. Repita el paso (b) y seleccione Canal **de** secuencia en el asistente. Introduzca el **Título** como **Región A** y **Nombre** como **región **para este canal.
    >[!CAUTION]
    >
-   >Asegúrese de que al crear el canal **Región A**, introduzca el **Título** como **Región A **y el **Nombre** como **región**.
+   >Asegúrese de que, al crear la **región A** del canal, introduzca el **título** como **región A** y el **nombre** como **región**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Cree Mostrar y Canal en cada ubicación.**
 
-   1. Vaya a **Demostración** —&gt; **Ubicaciones** —&gt; **Región A** —&gt; **Tienda 1**.
+   1. Vaya a **Demostración** —> **Ubicaciones** —> **Región A** —> **Tienda 1**.
    1. Seleccione **Tienda 1** y haga clic en **+ Crear** en la barra de acciones.
    1. Seleccione **Mostrar** en el asistente y cree **Store1Display.**
    1. Repita el paso (b) y seleccione esta vez Canal **de secuencia** en el asistente. Introduzca el **Título** como **Store1Channel** y el **Nombre** como **tienda**.
@@ -153,11 +153,11 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Del mismo modo, cree una pantalla como **Store2Display** y un canal **Store2Channel** en** Store 2** (con el nombre de **tienda**).
+   Del mismo modo, cree una visualización como **Store2Display** y un canal **Store2Channel** en **Store 2** (con el nombre de **tienda**).
 
    >[!NOTE]
    >
-   >Asegúrese de que puede usar el mismo nombre para los canales creados en la **tienda 1** y en la **tienda 2** como **tienda**.
+   >Asegúrese de que puede utilizar el mismo nombre para los canales creados en la **tienda 1** y en la **tienda 2** como **tienda**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
@@ -173,7 +173,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Agregue contenido a los canales en sus respectivas ubicaciones.**
 
-   Vaya a **Demostración** -&gt; **Ubicaciones** -&gt; **Región A** -&gt; **Región A** y haga clic en **Editar** en la barra de acciones. Arrastre y suelte los recursos que desee agregar al canal.
+   Vaya a **Demostración** -> **Ubicaciones** -> **Región A** -> **Región A** y haga clic en **Editar** en la barra de acciones. Arrastre y suelte los recursos que desee agregar al canal.
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Del mismo modo, vaya a la **demostración** -&gt; **Ubicaciones** -&gt; **Región B** -&gt; **Región B** y haga clic en **Editar** en la barra de acciones para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
+   Del mismo modo, vaya a la **demostración** -> **Ubicaciones** -> **Región B** -> **Región B** y haga clic en **Editar** en la barra de acciones para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,10 +202,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Asignar canales a una programación**
 
-   1. Vaya a **Demostración** —&gt; **Programaciones** —&gt; **Programación** de publicidad y haga clic en **Tablero** en la barra de acciones.
+   1. Vaya a **Demostración** —> **Programaciones** —> **Programación** de publicidad y haga clic en **Tablero** en la barra de acciones.
    1. Haga clic en **+ Asignar canal** desde el panel CANALES **** ASIGNADOS para abrir el cuadro de diálogo Asignación **de** canal.
    1. Select **Reference Channel**.. by path.
-   1. Seleccione la Ruta **** del canal como **Demostración*** —&gt; ***Canales*** —&gt; ***Global***.
+   1. Seleccione la Ruta **** del canal como **Demostración** —> ***Canales*** —> ***Global***.
    1. Enter the **Channel Role** as **GlobalAdSegment**.
    1. Seleccione los eventos **** admitidos como carga **** inicial, **pantalla** inactiva e interacción **del usuario**.
    1. Haga clic en **Guardar**.
@@ -213,10 +213,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    1. Haga clic en **+ Asignar canal** desde el panel CANALES **** ASIGNADOS para abrir el cuadro de diálogo Asignación **de** canal.
    1. Seleccione Canal **de referencia**. por nombre.
-   1. Escriba el nombre **** del canal como **región***.*
+   1. Introduzca el nombre **del** canal como **región***.
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. Haga clic en **Guardar**.
-   **Asignar canal por función para la tienda:**
+   **Asignar canal por función para la tienda:
 
    1. Haga clic en **+ Asignar canal** desde el panel CANALES **** ASIGNADOS para abrir el cuadro de diálogo Asignación **de** canal.
    1. Seleccione Canal **de referencia**. por nombre.
@@ -245,15 +245,15 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Asignación de programación a cada visualización**
 
-   1. Vaya a cada pantalla, como **Demostración** —&gt; **Ubicaciones** —&gt; **Región A** —&gt;**Tienda 1** —&gt;**Tienda1 Visualización**.
+   1. Vaya a cada pantalla, como **Demostración** —> **Ubicaciones** —> **Región A** —>**Tienda 1** —>**Tienda1 Visualización**.
    1. Click **Dashboard** from the action to open the display dashboard.
-   1. **Haga clic en**... en el panel CANALES y PROGRAMAS **ASIGNADOS y haga clic en** +Asignar programación ****.
-   1. Seleccione la ruta de la programación (por ejemplo, aquí, **Demostración** —&gt; **Programaciones** —&gt;**AnuncioProgramación**).
+   1. Haga clic en **...** en el panel CANALES y PROGRAMAS **ASIGNADOS y haga clic en** +Asignar programación ****.
+   1. Seleccione la ruta de la programación (por ejemplo, aquí, **Demostración** —> **Programaciones** —>**AnuncioProgramación**).
    1. Haga clic en **Guardar**.
 
 ## Visualización de los resultados {#viewing-the-results}
 
-Una vez que haya configurado los canales y la pantalla se haya completado, inicie el reproductor de AEM Screens para ver el contenido.
+Una vez que haya configurado los canales y se haya completado la visualización, inicie el reproductor de AEM Screens para ver el contenido.
 
 >[!NOTE]
 >
@@ -268,13 +268,13 @@ El siguiente resultado confirma el contenido del canal en el reproductor de AEM 
 
 **Escenario 1**:
 
-Si asigna la ruta de visualización como **Demostración** —&gt; **Ubicaciones** —&gt; **Región A** —&gt;** Tienda 1** —&gt; **Tienda1Pantalla**, se mostrará el siguiente contenido en su reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demostración** —> **Ubicaciones** —> **Región A** —>** Tienda 1** —> **Tienda1Pantalla**, se mostrará el siguiente contenido en su reproductor de AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Escenario 1**:
 
-Si asigna la ruta de visualización como **Demostración** —&gt; **Ubicaciones** —&gt; **Región B** —&gt;** Tienda 3** —&gt; **Store3Display**, se mostrará el siguiente contenido en su reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demostración** —> **Ubicaciones** —> **Región B** —> **Tienda 3** —> **Tienda3Visualización**, se mostrará el siguiente contenido en su reproductor de AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -309,7 +309,7 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
 1. **Crear grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Haga clic en **Herramientas** —&gt; **Seguridad** —&gt; **Grupos**.
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. Haga clic en **Crear grupo** e introduzca Autor **** global en **ID**.
    1. Haga clic en **Guardar y cerrar**.
    Del mismo modo, cree otros dos grupos, como **Región-Autor** y **Tienda-Autor**.
@@ -319,7 +319,7 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
 1. **Crear usuarios y agregar usuarios a grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Haga clic en **Herramientas** —&gt; **Seguridad** —&gt; **Usuarios**.
+   1. Click **Tools** --> **Security** --> **Users**.
    1. Haga clic en **Crear usuario** e introduzca Usuario **** global en **ID**.
    1. Introduzca **la contraseña** y confirme la contraseña de este usuario.
    1. Haga clic en la ficha **Grupos** e introduzca el nombre del grupo en **Seleccionar grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
@@ -335,7 +335,7 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
 1. **Agregar todos los grupos a los colaboradores**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Haga clic en **Herramientas** —&gt; **Seguridad** —&gt; **Grupos**.
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. Seleccione **Colaboradores** en la lista y seleccione la ficha **Miembros** .
    1. Seleccione el **grupo** como Autor **global**, Autor **regional,** Autor de **tienda y Autor** de tienda para colaboradores.
    1. Haga clic en **Guardar y cerrar**.
@@ -365,9 +365,9 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
    **Para Región-Autor:**
 
    1. Navigate to the **Permissions** tab.
-   1. Vaya a ***/content/screen/demo*** y compruebe únicamente los permisos de lectura***.
+   1. Vaya a ***/content/screen/demo*** y compruebe únicamente los permisos de **lectura** .
    1. Vaya a ***/content/screen/demo/locations*** y compruebe únicamente los permisos de **lectura** .
-   1. Vaya a ***/content/screen/demo/channels ***y desmarque los permisos del canal**global **.***
+   1. Vaya a ***/content/screen/demo/channels ***y desmarque los permisos del canal **global**.***
    1. Vaya a ***/content/screen/demo/locations***/***region-a*** y compruebe todos los permisos. Del mismo modo, compruebe los permisos para **region-b**.
    Consulte la figura siguiente para comprender los pasos:
 
@@ -389,7 +389,7 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   La siguiente imagen muestra que ahora el usuario **de la** tienda solo tiene acceso a las cuatro tiendas, a saber, **Tienda 1**, **Tienda 2**, **Tienda 3** y **Tienda 4** **** ****, pero no tiene permisos para acceder a los canales de la región (**Región A **y Región Bnigera).
+   La siguiente imagen muestra que ahora el usuario **de la** tienda solo tiene acceso a las cuatro tiendas, a saber, **Tienda 1**, **Tienda 2**, **Tienda 3** y **Tienda 4** ******** ****, pero no tiene permisos para acceder a los canales de la región (Región Ay Región B).
 
    ![store](assets/store.gif)
 
