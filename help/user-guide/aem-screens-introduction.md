@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -56,20 +56,24 @@ La siguiente figura define las personalidades y sus funciones para las pantallas
 
 >[!NOTE]
 >
->*Además, para ver las diferentes responsabilidades según las funciones, haga clic en las personas mencionadas arriba.*
+>*Además, para vista de diferentes responsabilidades según las funciones, haga clic en las personas mencionadas anteriormente.*
 
 ## Conocimiento previo requerido {#pre-requisite-knowledge}
 
-Antes de empezar a trabajar en un proyecto de señalización digital con AEM Screens, se requiere el conocimiento de Adobe Experience Manager (AEM), que debe completarse antes de trabajar en un proyecto de AEM Screens.
+Antes de que inicio a trabajar en un proyecto de señalización digital con AEM Screens, se requiere el conocimiento de Adobe Experience Manager (AEM), que debe completarse antes de trabajar en un proyecto de AEM Screens.
 
 Consulte los siguientes tutoriales y recursos para obtener información sobre Adobe Experience Manager 6.5:
 
-* **** Introducción a Adobe Experience Manager: Descubra los artículos de introducción y los tutoriales de vídeo para Adobe Experience Manager.
+* **Introducción a Adobe Experience Manager:** Descubra los artículos de introducción y los tutoriales de vídeo para Adobe Experience Manager.
 * **Tutoriales y vídeos** de AEM 6.5: Recopilación de tutoriales y vídeos en los que se destacan las funciones nuevas y actualizadas de AEM Sites, Assets, Forms, Screens y Foundation con la versión de AEM 6.5.
 * **Conceptos** principales de AEM: Información general sobre los conceptos básicos de cómo AEM está estructurado y cómo desarrollarse sobre él, incluida la comprensión del JCR, Sling, OSGi, el distribuidor, los flujos de trabajo y MSM.
 
-### Esenciales de implementación guiada {#guided-implementation-essentials}
+## Additional Resources {#additional-resources}
 
-Siga la ruta de aprendizaje guiado **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que cubre las funciones básicas y avanzadas admitidas en AEM Screens.
+* **Esenciales de implementación guiada**
 
-Al crear un nuevo proyecto, las distintas funciones pueden superponerse según los requisitos organizativos y empresariales.
+   Siga la ruta de aprendizaje guiado **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que cubre las funciones básicas y avanzadas admitidas en AEM Screens.
+
+* **Guía de prácticas recomendadas para proyectos de AEM Screens**
+
+   Siga la Guía de **[optimizaciones para proyectos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**de AEM Screens diseñados para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en las funciones y responsabilidades del proyecto, el gráfico RACI para las diferentes funciones de configuración de la plataforma AEM y la asistencia y supervisión.
