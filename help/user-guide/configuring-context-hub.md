@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -28,37 +28,54 @@ Antes de entrar en los detalles de la creación y administración de canales imp
 
 **Área** hace referencia al nombre de proyecto de AEM Screens, como la publicidad digital y la publicidad dinámica
 
-**Actividad** Define la categoría de regla, como por ejemplo, por inventario, por tiempo, por disponibilidad del departamento, etc.
+**Actividad** Define la categoría de la regla, como por ejemplo, controlado por inventario, por el tiempo, por disponibilidad del departamento, etc.
 
 **Audiencia** Define la regla.
 
 **Segmento** Se refiere a la versión del recurso que se va a reproducir para la regla dada, como si la temperatura es inferior a 50 grados centígrados, la pantalla muestra una imagen de un café caliente o una bebida fría.
 
-El diagrama siguiente proporciona una representación visual de cómo las configuraciones de ContextHub coinciden con la actividad, la audiencia y los canales.
+El diagrama siguiente muestra cómo las configuraciones de ContextHub coinciden con la Actividad, la Audiencia y los Canales.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Condiciones previas {#preconditions}
 
-Antes de empezar a configurar las configuraciones de Context Hub para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
+Antes de dar inicio a la configuración de Context Hub Configurations para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
 
 >[!CAUTION]
 >
->Google Sheets se utiliza en el siguiente ejemplo como sistema de bases de datos de muestra desde donde se recuperan los valores y se utiliza únicamente con fines educativos. Adobe no acepta el uso de Google Sheets para entornos de producción.
+>Google Sheets se utiliza en el siguiente ejemplo como sistema de bases de datos de muestra desde donde se recuperan los valores y se utiliza únicamente con fines educativos. Adobe no aprueba el uso de Google Sheets para entornos de producción.
 >
 >Para obtener más información, consulte [Obtener clave](https://developers.google.com/maps/documentation/javascript/get-api-key) de API en la documentación de Google.
+
 
 ## Paso 1: Configuración de un almacén de datos {#step-setting-up-a-data-store}
 
 Puede configurar el almacén de datos como un evento de E/S local o como un evento de base de datos local.
 
-### Evento de E/S local {#local-io-event}
+El siguiente ejemplo de desencadenadores de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos como una hoja de Excel que le permite utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
 
-Siga los pasos que se describen a continuación para configurar un almacén de datos, como un evento ASCII, que le permita utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
+Una vez configurada correctamente la hoja de Google, por ejemplo:
 
-### Evento de base de datos local {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Siga los pasos a continuación para configurar un almacén de datos como una hoja de Excel que le permita utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
+La siguiente validación es lo que vista al comprobar la conexión introduciendo el ID de hoja de Google y la clave de API en el formato siguiente:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Uso de los valores de hojas de Google en AEM **>Las hojas de Google expondrán sus valores en la Tienda ContextHub y estarán disponibles en`<store-name>/values/<i>/<j>`, donde`<i>`y`<j>`son los índices de fila y columna en la hoja de cálculo (comenzando desde 0).
+>
+> * /values/0/0 señala a A1
+> * /values/5/0 puntos a A5
+> * /values/0/5 puntos a E1
+
+
+El ejemplo específico que se muestra a continuación muestra la hoja de Excel como un almacén de datos que activará el cambio de recursos si el valor es mayor que 100 o menor que 50.
+
 
 1. **Navegación a ContextHub**
 
@@ -72,9 +89,9 @@ Siga los pasos a continuación para configurar un almacén de datos como una hoj
 
    1. Haga clic en **Crear** > Contenedor **** de configuración e introduzca el título como **ContextHubDemo**.
 
-   1. **** Vaya **a** ContextHubDemo **> Configuración de la tienda** ContentHub... para abrir el asistente **Configurar**.
+   1. **Vaya** a **ContextHubDemo** > Configuración de la tienda **ContentHub...** para abrir el asistente **Configurar**.
 
-   1. Introduzca el **título** como hojas de **Google**, el nombre **** de la tienda como hojas de **Google** y el tipo **de** **tienda comocontexthub.generic-jsonp**
+   1. Introduzca el **título** como hojas de **Google**, el nombre **de la** tienda como hojas de **Google** y el tipo **de** **tienda comocontexthub.generic-jsonp**
 
    1. Haga clic en **Siguiente**
    1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración.
@@ -85,14 +102,14 @@ Siga los pasos a continuación para configurar un almacén de datos como una hoj
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,10 +121,10 @@ Siga los pasos a continuación para configurar un almacén de datos como una hoj
    >Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
 
    >[!CAUTION]
-   Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta heredada (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
-   En caso de que desee configurar las configuraciones de la tienda de Google Sheets fuera de la carpeta preexistente global, debe establecer el nombre **de la** tienda como **segmentación** y el tipo **de** tienda como **aem.segmentation**. Además, debe omitir el proceso de definir el archivo como se ha definido anteriormente.
+   Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
+   En caso de que desee configurar las configuraciones de la tienda de Google Sheets fuera de la carpeta global, deberá establecer el nombre **de la** tienda como **segmentación** y el tipo **de** tienda como **aem.segmentation**. Además, debe omitir el proceso de definir el archivo como se ha definido anteriormente.
 
-1. **Creación de una marca en actividades**
+1. **Creación de una marca en Actividades**
 
    1. Vaya de la instancia de AEM a **Personalización** > **Actividades**
 
@@ -133,15 +150,15 @@ Siga los pasos a continuación para configurar un almacén de datos como una hoj
    1. Select **Area** from the **Create Page** wizard and click Next
 
    1. Enter the **Title** as **GoogleSheets** and click **Create**.
-El área se creará en la actividad.
+Su área se creará en su actividad.
 
-## Paso 2: Configuración de la segmentación de audiencias {#step-setting-up-audience-segmentation}
+## Paso 2: Configuración de la segmentación por Audiencia {#step-setting-up-audience-segmentation}
 
 Una vez que haya configurado un almacén de datos y definido la marca, siga los pasos a continuación para configurar los segmentos de audiencia.
 
-1. **Creación de segmentos en audiencias**
+1. **Creación de segmentos en Audiencias**
 
-   1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **We.Retail**.
+   1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **pantallas**.
 
    1. Haga clic en **Crear** > **Crear segmento de Context Hub.** Se abre el cuadro de diálogo **Nuevo segmento** de ContextHub.
 
@@ -149,7 +166,7 @@ Una vez que haya configurado un almacén de datos y definido la marca, siga los 
 
 1. **Edición de segmentos**
 
-   1. Seleccione las **hojas de segmentos A1 1** (creadas en el paso (5)) y haga clic en **Editar** en la barra de acciones.
+   1. Seleccione las **hojas de segmento A1 1** y haga clic en **Editar** en la barra de acciones.
 
    1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
    1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor** .
@@ -172,16 +189,17 @@ Una vez que haya configurado un almacén de datos y definido la marca, siga los 
    1. Seleccione el **operador** como **igual** en el menú desplegable.
 
    1. Introduzca el **valor** como **2**.
-   >[!NOTE]
-   Las reglas aplicadas en los pasos anteriores son sólo un ejemplo de cómo se configuran los segmentos para implementar los siguientes casos de uso.
 
-## Paso 3: Activación de la determinación de objetivos en los canales {#step-enabling-targeting-in-channels}
 
-Siga los pasos a continuación para habilitar la segmentación en los canales.
 
-1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un canal de pantallas de AEM.
 
-1. Seleccione el canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
+## Paso 3: Habilitar la determinación de objetivos en Canales {#step-enabling-targeting-in-channels}
+
+Siga los pasos a continuación para habilitar la segmentación en sus canales.
+
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un Canal de AEM Screens.
+
+1. Seleccione canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
@@ -213,4 +231,4 @@ Después de configurar ContextHub para su proyecto de AEM Screens, puede seguir 
 
 1. **[Activación de objetivo de inventario comercial](retail-inventory-activation.md)**
 1. **[Activación de la temperatura del centro de viajes](local-temperature-activation.md)**
-1. **[Activación de reserva de hospitalidad](hospitality-reservation-activation.md)**
+1. **[Activación de reservación de hospitalidad](hospitality-reservation-activation.md)**
