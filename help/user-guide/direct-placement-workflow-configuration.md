@@ -4,7 +4,7 @@ seo-title: Configuración del flujo de trabajo de colocación directa
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
 seo-description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ Como autor de contenido, también puede hacer clic manualmente en **Actualizar c
 
 ## Configuración del flujo de trabajo de colocación directa {#configuring-workflow}
 
+>[!IMPORTANT]
+> Antes de realizar el inicio de la configuración, debe instalar el paquete de [demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Una vez que haya instalado el paquete, debería poder realizar la vista y acceder a él desde su instancia de AEM —> Herramientas (icono) —> **Flujo de trabajo** —> Modelos **de flujo de trabajo**.
+
+Siga los pasos a continuación para configurar el flujo de trabajo de colocación directa:
+
+1. Vaya a AEM Screens desde su instancia de AEM y cree un proyecto de Pantallas denominado Flujo de trabajo **de recursos**.
+
+1. Cree un canal denominado **Workflow-Assets** en la carpeta **Canales** .
+
+1. 
