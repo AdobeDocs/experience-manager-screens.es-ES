@@ -76,4 +76,4 @@ Consulte los siguientes tutoriales y recursos para obtener información sobre Ad
 
 * **Guía de prácticas recomendadas para proyectos de AEM Screens**
 
-   Siga la Guía de [optimizaciones para proyectos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) de AEM Screens diseñados para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en las funciones y responsabilidades del proyecto, el gráfico RACI para las diferentes funciones de configuración de la plataforma AEM y la asistencia y supervisión.
+   Siga la Guía de **[optimizaciones para proyectos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**de AEM Screens diseñados para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en las funciones y responsabilidades del proyecto, el gráfico RACI para las diferentes funciones de configuración de la plataforma AEM y la asistencia y supervisión.
