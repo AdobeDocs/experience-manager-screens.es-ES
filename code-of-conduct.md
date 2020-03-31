@@ -1,5 +1,5 @@
 ---
-source-git-commit: 26214b3a0c8510a66a340e8f9566aeb4692a23d7
+source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
 translation-type: tm+mt
 
 ---
@@ -7,7 +7,7 @@ translation-type: tm+mt
 
 ## Nuestra promesa
 
-En interés de fomentar un ambiente abierto y acogedor, contribuyentes y mantenedores nos comprometemos a hacer de la participación en nuestro proyecto y en nuestra comunidad una experiencia libre de acoso para todos, sin importar la edad, el tamaño del cuerpo, la discapacidad, la etnia, la identidad y expresión de género, el nivel de experiencia, la nacionalidad, la apariencia personal, la raza, la religión o la identidad y orientación sexuales.
+En aras de fomentar un entorno abierto y acogedor, nosotros como colaboradores y mantenedores nos comprometemos a hacer de la participación en nuestro proyecto y en nuestra comunidad una experiencia libre de acoso para todos, sin importar la edad, tamaño corporal, discapacidad, etnia, identidad de género y expresión, nivel de experiencia, nacionalidad, apariencia personal, raza, religión o identidad y orientación sexual.
 
 ## Nuestros estándares
 
@@ -24,14 +24,14 @@ Algunos ejemplos de comportamiento inaceptable de los participantes son:
 * El uso del lenguaje o las imágenes sexualizadas y la atención o los avances sexuales no deseados
 * Troleo, insultos/comentarios despectivos y ataques personales o políticos
 * Acoso público o privado
-* Publicación de información privada de otros usuarios, como una dirección física o electrónica, sin permiso explícito
+* Publicación de información privada de terceros, como una dirección física o electrónica, sin permiso explícito
 * Otras conductas que puedan considerarse razonablemente inapropiadas en un entorno profesional
 
 ## Nuestras responsabilidades
 
 Los encargados de la gestión de proyectos son responsables de aclarar las normas de comportamiento aceptable y se espera que adopten medidas correctivas apropiadas y justas en respuesta a cualquier caso de comportamiento inaceptable.
 
-Los responsables del proyecto tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, confirmaciones, códigos, ediciones wiki, problemas y otras contribuciones que no estén alineados con este Código de Conducta, o de prohibir temporal o permanentemente a cualquier colaborador por otros comportamientos que consideren inapropiados, amenazantes, ofensivos o perjudiciales.
+Los mantenedores de proyectos tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, comisiones, códigos, ediciones wiki, problemas y otras contribuciones que no estén alineados con este Código de Conducta, o de prohibir temporal o permanentemente a cualquier colaborador por otros comportamientos que consideren inapropiados, amenazadores, ofensivos o perjudiciales.
 
 ## Ámbito
 
@@ -39,10 +39,9 @@ Este Código de Conducta se aplica tanto en los espacios del proyecto como en lo
 
 ## Aplicación
 
-Los casos de comportamiento abusivo, hostigador o inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las denuncias serán examinadas e investigadas y darán lugar a una respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reportero de un incidente.
-Los detalles adicionales de las políticas de ejecución específicas pueden publicarse por separado.
+Se pueden notificar casos de comportamiento abusivo, hostigador o inaceptable de otro modo poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las denuncias serán examinadas e investigadas y darán lugar a una respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reportero de un incidente. Los detalles adicionales de las políticas de ejecución específicas pueden publicarse por separado.
 
-Los encargados de la gestión de proyectos que no sigan o hagan cumplir el Código de Conducta de buena fe pueden tener repercusiones temporales o permanentes determinadas por otros miembros de la dirección del proyecto.
+Los encargados de la gestión de proyectos que no sigan o apliquen el Código de Conducta de buena fe pueden tener repercusiones temporales o permanentes determinadas por otros miembros de la dirección del proyecto.
 
 ## Atribución
 
