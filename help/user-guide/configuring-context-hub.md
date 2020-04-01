@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ Una vez configurada correctamente la hoja de Google, por ejemplo:
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-La siguiente validación es lo que vista al comprobar la conexión introduciendo el ID de hoja de Google y la clave de API en el formato siguiente:
+La siguiente validación es lo que vista al comprobar la conexión introduciendo los dos valores, ID *de hoja de* Google y clave *de* API en el formato siguiente:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**Uso de los valores de hojas de Google en AEM **>Las hojas de Google expondrán sus valores en la Tienda ContextHub y estarán disponibles en`<store-name>/values/<i>/<j>`, donde`<i>`y`<j>`son los índices de fila y columna en la hoja de cálculo (comenzando desde 0).
->
-> * /values/0/0 señala a A1
-> * /values/5/0 puntos a A5
-> * /values/0/5 puntos a E1
+> El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
 
-
-El ejemplo específico que se muestra a continuación muestra la hoja de Excel como un almacén de datos que activará el cambio de recursos si el valor es mayor que 100 o menor que 50.
-
+## Paso 2: Conexión de Google Sheets a la instancia de AEM {#step-connecting-aem-instance}
 
 1. **Navegación a ContextHub**
 
    Vaya a la instancia de AEM y haga clic en el icono de herramientas en la barra lateral izquierda. Haga clic en **Sitios** —> **ContextHub**, como se muestra en la figura siguiente.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Creación de una nueva configuración de la Tienda ContextHub**
 
-   1. Vaya a **global** > **predeterminado** > Configuración **de** ContextHub.
+   1. Vaya al contenedor de configuración titulado como **pantallas**.
 
-   1. Haga clic en **Crear** > Contenedor **** de configuración e introduzca el título como **ContextHubDemo**.
+   1. Haga clic en **Crear** > **Crear Contenedor** de configuración e introduzca el título como **ContextHubDemo**.
 
-   1. **Vaya** a **ContextHubDemo** > Configuración de la tienda **ContentHub...** para abrir el asistente **Configurar**.
+      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Introduzca el **título** como hojas de **Google**, el nombre **de la** tienda como hojas de **Google** y el tipo **de** **tienda comocontexthub.generic-jsonp**
+   1. **Vaya** a **ContextHubDemo** > **Crear** la configuración **de** ContentHub y haga clic en **Guardar**.
 
-   1. Haga clic en **Siguiente**
-   1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración.
-   1. Haga clic en **Guardar**.
+      >[!NOTE]
+      > Después de hacer clic en **Guardar** , aparecerá en la pantalla de configuración **de** ContextHub.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. En la pantalla de configuración **de** ContextHub, haga clic en **Crear** > Configuración de la tienda de **ContentHub.**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** ****tienda como contexthub.generic-jsonpy haga clic en Siguiente.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
+
+      >[!IMPORTANT]
+      >Asegúrese de reemplazar el código por su *&lt;ID de hoja>* y *&lt;Clave de API>*, que buscó al configurar las hojas de Google.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
-   >
-   >
-   >Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
+      >[!NOTE]
+      En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
+Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
 
-   >[!CAUTION]
-   Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
-   En caso de que desee configurar las configuraciones de la tienda de Google Sheets fuera de la carpeta global, deberá establecer el nombre **de la** tienda como **segmentación** y el tipo **de** tienda como **aem.segmentation**. Además, debe omitir el proceso de definir el archivo como se ha definido anteriormente.
+      >[!CAUTION]
+      Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
+   >En caso de que desee configurar las configuraciones de la tienda de Google Sheets fuera de la carpeta global, deberá establecer el nombre **de la** tienda como **segmentación** y el tipo **de** tienda como **aem.segmentation**. Además, debe omitir el proceso de definir el archivo como se ha definido anteriormente.
 
 1. **Creación de una marca en Actividades**
 
