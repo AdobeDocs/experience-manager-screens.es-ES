@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ El diagrama siguiente muestra cómo las configuraciones de ContextHub coinciden 
 
 Antes de dar inicio a la configuración de Context Hub Configurations para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets se utiliza en el siguiente ejemplo como sistema de bases de datos de muestra desde donde se recuperan los valores y se utiliza únicamente con fines educativos. Adobe no aprueba el uso de Google Sheets para entornos de producción.
 >
 >Para obtener más información, consulte [Obtener clave](https://developers.google.com/maps/documentation/javascript/get-api-key) de API en la documentación de Google.
-
 
 ## Paso 1: Configuración de un almacén de datos {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 >[!NOTE]
 > El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
 
-## Paso 2: Conexión de Google Sheets a la instancia de AEM {#step-connecting-aem-instance}
+## Paso 2: Configuración de configuraciones de tienda {#step-setting-store-configurations}
 
 1. **Navegación a ContextHub**
 
@@ -123,7 +122,19 @@ Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó a
 
       >[!CAUTION]
       Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
-   >En caso de que desee configurar las configuraciones de la tienda de Google Sheets fuera de la carpeta global, deberá establecer el nombre **de la** tienda como **segmentación** y el tipo **de** tienda como **aem.segmentation**. Además, debe omitir el proceso de definir el archivo como se ha definido anteriormente.
+
+1. **Configuración de la segmentación de tiendas**
+
+   1. Vaya a Configuración de **ContentHub Store.** y cree otra configuración de almacén en el contenedor de configuración de pantallas y defina el **Título** como **segmentación-contexto**, Nombre **de** tienda como **segmentación** y Tipo **de** **** almacén como aem.segmentation.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+Debe omitir el proceso de definición del archivo y dejarlo en blanco.
+
+## Paso 3: Configuración de marca y área {#setting-brand-area}
 
 1. **Creación de una marca en Actividades**
 
@@ -133,14 +144,15 @@ Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó a
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
-   1. Enter the **Title** as **ContextHubDemo** and click **Create**. Su marca ahora se crea como se muestra a continuación.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Su marca ahora se crea como se muestra a continuación.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Problema conocido:
-   Para agregar un área, quite el patrón de la dirección URL, como
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Problema conocido:
+Para agregar un área, quite el patrón de la dirección URL, como
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Creación de un área en la marca**
 
@@ -153,7 +165,7 @@ Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó a
    1. Enter the **Title** as **GoogleSheets** and click **Create**.
 Su área se creará en su actividad.
 
-## Paso 2: Configuración de la segmentación por Audiencia {#step-setting-up-audience-segmentation}
+## Paso 4: Configuración de la segmentación por Audiencia {#step-setting-up-audience-segmentation}
 
 Una vez que haya configurado un almacén de datos y definido la marca, siga los pasos a continuación para configurar los segmentos de audiencia.
 
@@ -194,7 +206,7 @@ Una vez que haya configurado un almacén de datos y definido la marca, siga los 
 
 
 
-## Paso 3: Habilitar la determinación de objetivos en Canales {#step-enabling-targeting-in-channels}
+## Habilitar la determinación de objetivos en Canales {#step-enabling-targeting-in-channels}
 
 Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
