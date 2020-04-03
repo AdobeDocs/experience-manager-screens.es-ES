@@ -5,14 +5,14 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # Estilo y personalización de marca para superposiciones de texto {#creating-custom-branding-styling}
 
-Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
+Siga esta página para aprender a aplicar personalización de marca y estilo para las superposiciones de texto aplicadas a los recursos en un canal de pantallas.
 
 ## Creación de personalización de marca y estilo para superposiciones de texto {#steps-custom-branding}
 
@@ -31,11 +31,11 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 1. Vaya a CRXDE Lite desde su instancia de AEM —> Herramientas —> **CRXDE Lite**.
 
-1. En este caso, debe crear un diseño personalizado `/apps/settings/wcm/designs/<your-project>/`, por ejemplo
+1. Debe crear un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`, por ejemplo, en este caso, navegue hasta `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Vaya al archivo static.css y establezca las siguientes reglas css. También se muestra en la figura siguiente.
+1. Vaya al archivo *static.css* y defina las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
 
    ```shell
     //global styles
@@ -53,7 +53,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 1. Copie la ruta de acceso al proyecto; en este caso, la ruta será `/apps/settings/wcm/designs/customstyle`.
 
-1. Vaya al canal titulado como **DemoBrand** (creado en step(1)) y haga clic en **Propiedades** en la barra de acciones después de seleccionar el canal.
+1. Vaya al canal titulado como **DemoBrand** (creado en el paso 1) y haga clic en **Propiedades** en la barra de acciones después de seleccionar el canal.
 
 1. Vaya a la ficha **Avanzado** y marque el campo **Diseño** .
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -70,31 +70,31 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 ## Visualización del resultado {#viewing-the-result}
 
-Una vez que haya completado los pasos anteriores, puede actualizar el archivo *statis.css* desde **CRXDE Lite** y, en consecuencia, vista la actualización a la presentación de texto agregada al recurso.
+Una vez que haya completado los pasos anteriores, puede actualizar el archivo *statis.css* desde **CRXDE Lite** y, en consecuencia, vista la actualización a la superposición de texto que ya se ha agregado al recurso.
 
-Siga los pasos a continuación para vista del diseño actualizado al diseño de texto:
+Siga los pasos a continuación para vista del diseño actualizado a la superposición de texto:
 
-1. Vaya a su proyecto de AEM Screens titulado como estilo **** personalizado y a un canal titulado como **DemoBrand** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya a su proyecto de AEM Screens titulado como **custom style** —> **Canales** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Dado que ahora ha agregado el diseño al campo **Diseños** , como se mencionó anteriormente, haga clic en **Previsualización** para vista del estilo actual de la imagen con una superposición de texto.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Vaya al archivo static.css en CRXDE Lite, por ejemplo, agregue la fuente.
+1. Vaya al archivo *static.css* en CRXDE Lite y agregue la fuente como, por ejemplo, `font-family: "Lucida Console", Courier, monospace;` a este archivo, como se muestra a continuación.
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. Una vez que guarde los cambios y vuelva a cargar la previsualización, verá una actualización de la fuente de superposición de texto, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Además, puede quitar los dos últimos bloques de código del archivo static.css para eliminar el estilo en caja alrededor de la superposición de texto.
+1. Además, puede eliminar los dos últimos bloques de código del archivo *static.css* para eliminar el estilo en caja alrededor de la superposición de texto.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. vista el cambio actualizado en la previsualización donde se agrega la superposición de texto a la imagen, como se muestra a continuación.
+1. Se vista el cambio actualizado en la previsualización donde se agrega la superposición de texto a la imagen.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Por lo tanto, siguiendo los pasos de las secciones anteriores, puede actualizar la marca y el estilo personalizado para las superposiciones de texto agregadas a sus recursos.
+En relación con el tutorial, ahora puede actualizar la marca y el estilo personalizado para las superposiciones de texto agregadas a los recursos.
 
 
 
