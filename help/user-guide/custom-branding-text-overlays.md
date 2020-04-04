@@ -5,7 +5,7 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Siga esta página para aprender a aplicar personalización de marca y estilo par
 
 Siga los pasos a continuación para crear una marca y un estilo personalizados para las superposiciones de texto:
 
-1. Cree un proyecto de AEM Screens con el título de **estilo** personalizado y un canal con el título **DemoBrand**, como se muestra en la ilustración siguiente.
+1. Creación de un proyecto de AEM Screens. En este ejemplo se muestra la funcionalidad creando un proyecto llamado **customstyle** y un canal titulado **DemoBrand** , como se muestra en la siguiente figura.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 1. Vaya al archivo *static.css* y defina las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 1. Haga clic en **Guardar y cerrar** para actualizar la ruta de diseño.
 
+### Actualización de ACL {#updating-acls}
+
+Debe actualizar las ACL de estos diseños para que el reproductor pueda descargarlos.
+
+1. Vaya a useradmin, elija la ruta de diseño personalizada `screens-<project>-devices group` y asígnele permiso de lectura.
+
+1. Proporcione permisos de lectura y modificación de `screens-<project>-administrators` grupos a esta ruta.
 
 ## Visualización del resultado {#viewing-the-result}
 
