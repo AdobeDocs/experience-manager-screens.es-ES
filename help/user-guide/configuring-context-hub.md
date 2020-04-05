@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Paso 5: Edición de segmentos {#editing-audience-segmentation}
+## Paso 5: Edición de segmentos en Audiencias{#editing-audience-segmentation}
 
 1. **Edición de segmentos**
 
-   1. 
-      1. Vaya de su instancia de AEM a **Personalización** > **Actividades** > **PantallasMarca** >**Valor** de pantalla >**ValorComprobación50**.
-   1. Seleccione el segmento **ValueCheck50** y haga clic en **Editar** en la barra de acciones.
+   1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **pantallas**.
+
+   1. Seleccione el segmento **Superior50** y haga clic en **Editar** en la barra de acciones.
 
    1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
+
    1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor** .
+
    1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
 
-   1. Seleccione el **Operador** como **igual** en el menú desplegable.
+   1. Seleccione el **Operador** como **bueno que** en el menú desplegable.
 
-   1. Introduzca el **valor** como **1**.
+   1. Introduzca el **valor** como **50**.
    >[!NOTE]
    AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Del mismo modo, edite los valores de propiedad en **TargetValue2**.
+   Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
 
    1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
+
    1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor** .
+
    1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
 
-   1. Seleccione el **operador** como **igual** en el menú desplegable.
+   1. Seleccione el **Operador** como **menor que** en el menú desplegable.
 
-   1. Introduzca el **valor** como **2**.
-
+   1. Introduzca el **valor** como **50**.
 
 
 
