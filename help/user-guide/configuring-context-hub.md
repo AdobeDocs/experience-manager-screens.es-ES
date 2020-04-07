@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -201,7 +201,7 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Haga clic en **Crear** > **Crear Actividad.** Se abre el Asistente para **configurar Actividades** .
 
-   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueeck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
+   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueCheck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -231,13 +231,18 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
 
+      >[!NOTE]
+Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal como se rellenan en las hojas de Google en la figura siguiente:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Seleccione el **Operador** como **bueno que** en el menú desplegable.
 
-   1. Introduzca el **valor** como **50**.
+   1. Introduzca el **valor** como **70**.
    >[!NOTE]
    AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
 
