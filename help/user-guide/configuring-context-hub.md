@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ Debe omitir el proceso de definición del archivo y dejarlo en blanco.
    1. Seleccione el segmento **Higherthan50** y haga clic en **Propiedades** en la barra de acciones.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Seleccione la ficha **Personalización** en Propiedades **del segmento**. Configure la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**, como se muestra en la figura siguiente.
+   1. Seleccione la ficha **Personalización** en Propiedades **del segmento**. Configure la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**, como se muestra en la figura siguiente.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -201,7 +201,7 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Haga clic en **Crear** > **Crear Actividad.** Se abre el Asistente para **configurar Actividades** .
 
-   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueCheck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
+   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueeck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -239,11 +239,11 @@ Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal co
    1. Seleccione el **Operador** como **bueno que** en el menú desplegable.
 
    1. Introduzca el **valor** como **70**.
-   >[!NOTE]
-   AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
 
    1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
@@ -262,11 +262,11 @@ Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal co
 
 Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
-1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** creado en un Canal de AEM Screens.
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenChannel** creado en un Canal de AEM Screens.
 
-1. Seleccione canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
+1. Seleccione el **TargetChannel** de canal y haga clic en **Propiedades** en la barra de acciones.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Seleccione la ficha **Personalización** para configurar las configuraciones de ContextHub.
 
@@ -275,20 +275,18 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
    1. Seleccione la Ruta **de** segmentos como **conf** > **We.Retail** > **configuración** > **wcm** **** ****> segmentosy haga clic en Seleccionar.
 
    1. Haga clic en **Guardar y cerrar**.
-   >[!NOTE]
-   Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
-1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+   1. Navegue y seleccione el canal **TargetChannel** y haga clic en **Editar** en la barra de acciones.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
-   >[!NOTE]
-   Una vez que haya configurado las configuraciones de ContextHub para su canal, asegúrese de seguir los pasos anteriores del 1 al 4 para los otros tres canales de secuencia también si desea seguir todos los casos de uso que se mencionan a continuación.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
