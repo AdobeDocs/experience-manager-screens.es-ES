@@ -5,7 +5,7 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
