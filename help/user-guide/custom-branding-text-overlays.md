@@ -5,7 +5,7 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Vaya al archivo *static.css* y defina las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
+1. Cree el archivo *static.css* y defina las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Haga clic en **Guardar y cerrar** para actualizar la ruta de diseño.
+
+>[!IMPORTANT]
+> Tiene la opción de superponer las plantillas de Pantallas existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más detalles.
+
+1. Para superponer las plantillas de pantallas existentes para insertar sus propios diseños de forma predeterminada:
+
+   1. Superponer `/libs/screens/core/templates/sequencechannel` en `/apps/screens/core/templates/sequencechannel`.
+   1. Modifique la propiedad *cq:designPath* en `/apps/screens/core/templates/sequencechannel/jcr:content` para que señale al nuevo diseño.
+
+1. Para crear su propia plantilla por completo:
+   1. Copiar `/libs/screens/core/templates/sequencechannel` a `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modifique la propiedad *cq:designPath* en `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para que señale al nuevo diseño.
+
 
 ### Actualización de ACL {#updating-acls}
 
