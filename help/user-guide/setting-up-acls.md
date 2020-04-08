@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -25,7 +25,7 @@ Como administrador de AEM, debe asegurarse de que los miembros del equipo de un 
 
 Los siguientes pasos resumen el procedimiento para configurar las ACL de un proyecto:
 
-1. Inicie sesión en AEM y vaya a **Herramientas** &gt; **Seguridad**.
+1. Inicie sesión en AEM y vaya a **Herramientas** > **Seguridad**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -37,11 +37,11 @@ Los siguientes pasos resumen el procedimiento para configurar las ACL de un proy
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Seleccione **Colaboradores** en la lista y haga doble clic en él.
+1. Seleccione **Colaboradores** en la lista y haga clic en ella en el doble.
 
    ![screen_shot_2018-02-18at3938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Agregue el **Acme** (proyecto que ha creado) para **Agregar miembros al grupo**. Haga clic en **Guardar**.
+1. Añada el **Acme** (proyecto que ha creado) para **Añadir miembros en grupo**. Haga clic en **Guardar**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -49,7 +49,7 @@ Los siguientes pasos resumen el procedimiento para configurar las ACL de un proy
    >
    >Si desea que los miembros del equipo del proyecto registren reproductores (lo que implica crear un usuario para cada reproductor), busque el grupo usuarios administradores y agregue el grupo ACME a los administradores de usuarios
 
-1. Agregue todos los usuarios que estarán trabajando en el proyecto **Acme** al grupo **Acme** .
+1. Añada todos los usuarios que trabajarán en el proyecto **Acme** al grupo **Acme** .
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
@@ -59,7 +59,7 @@ Los siguientes pasos resumen el procedimiento para configurar las ACL de un proy
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
-### Permisos {#permissions}
+### Permisos    {#permissions}
 
 La siguiente tabla resume la ruta con los permisos a nivel de proyecto:
 
@@ -84,7 +84,7 @@ Por ejemplo, puede crear los siguientes grupos específicos de proyectos:
 
 * Pantallas para administradores de proyectos
 * Pantallas Operadores de proyecto (registrar reproductores y administrar ubicaciones y dispositivos)
-* Pantallas para usuarios de proyectos (trabajar con canales, programaciones y asignaciones de canal)
+* Pantallas Usuarios del proyecto (trabajar con canales, programaciones y asignaciones de canales)
 
 En la tabla siguiente se resumen los grupos con descripción y permisos para un proyecto de AEM Screens:
 
@@ -93,7 +93,7 @@ En la tabla siguiente se resumen los grupos con descripción y permisos para un 
   <tr>
    <td><strong>Nombre del grupo</strong></td>
    <td><strong>Descripción</strong></td>
-   <td><strong>Permisos</strong></td>
+   <td><strong>Permisos   </strong></td>
   </tr>
   <tr>
    <td>Administradores<br /> de pantallas <em>administradores de pantallas</em></td>
@@ -131,7 +131,7 @@ En la tabla siguiente se resumen los grupos con descripción y permisos para un 
     </ul> </td>
   </tr>
   <tr>
-   <td>Pantallas Reproductores<br /> <em>pantallas-nosotros-dispositivos minoristas</em></td>
+   <td>Pantallas Reproductores<br /> <em>pantallas -&lt;proyecto&gt;-dispositivos</em></td>
    <td>Agrupa todos los reproductores y todos los reproductores/dispositivos son miembros de los colaboradores automáticamente.</td>
    <td><p> Miembro de los contribuyentes</p> </td>
   </tr>
