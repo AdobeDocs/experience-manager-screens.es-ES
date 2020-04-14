@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 Esta sección abarca los siguientes temas:
 
-* **Asignación de un canal**
-* **Descripción de las propiedades de la asignación de canal, cuadro de diálogo**
+* **Asignación de un Canal**
+* **Descripción de las propiedades de la asignación de Canales, cuadro de diálogo**
 * **Parrilla de programación**
 
 Una vez que haya definido una visualización, debe asignar un canal a una de las visualizaciones.
@@ -32,7 +32,7 @@ En esta página se muestra la asignación del canal a las visualizaciones.
 
 * [Configurar e implementar Screens](configuring-screens-introduction.md)
 * [Crear y gestionar proyecto de pantallas](creating-a-screens-project.md)
-* [Crear y administrar canales](managing-channels.md)
+* [Crear y administrar Canales](managing-channels.md)
 * [Crear y administrar ubicaciones](managing-locations.md)
 * [Crear y administrar pantallas](managing-displays.md)
 
@@ -50,43 +50,57 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Puede configurar las siguientes propiedades en el cuadro de diálogo **Asignación de canales**:
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Rol del canal**:
+### Explicación de las propiedades de Canal {#channel-properties}
 
-   El rol de canal define el contexto de la visualización. Varias acciones dirigen la función y es independiente del canal que cumple esa función.
+#### Canal de referencia {#ref-channel}
 
-   **Canal de referencia**:
+El canal de referencia le permite proporcionar una referencia al canal deseado, ya sea según el nombre del canal o según la ruta de acceso al canal.
 
-   El canal de referencia le permite proporcionar una referencia al canal deseado, ya sea según el nombre del canal o según la ruta de acceso al canal.
+* **por ruta de acceso**: proporcione una referencia explícita mediante la ruta de acceso absoluta del canal.
 
-   * **por ruta de acceso**: proporcione una referencia explícita mediante la ruta de acceso absoluta del canal.
-   * **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
-   **Prioridad:**
+* **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   La prioridad se utiliza para solicitar las asignaciones en caso de que varias de ellas coincidan con los criterios de reproducción. Aquel elemento que tenga el valor más alto siempre tendrá prioridad sobre otros valores más bajos. Por ejemplo, si hay dos canales A y B, y A tiene una prioridad de 1 y B tiene una prioridad de 2, se muestra el canal B ya que tiene mayor prioridad que A.
+#### Rol del canal {#role-channel}
 
-   La prioridad de un canal se establece como un número (1 para indicar el mínimo) en el cuadro de diálogo **Asignación de canales**, tal como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
+El rol de canal define el contexto de la visualización. Varias acciones dirigen la función y es independiente del canal que cumple esa función.
 
-   **Eventos admitidos**:
+#### Prioridad {#priority-channel}
 
-   * **Carga inicial**: carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales junto con la programación
-   * **Pantalla inactiva**: se carga cuando la pantalla está inactiva. Se puede asignar a varios canales junto con la programación
-   * **Temporizador:** se debe establecer al proporcionar una programación
-   * **Interacción del usuario**: el reproductor cambiará al canal determinado si el usuario toca la pantalla que está visualizando un canal inactivo, y se cargará al tocar la pantalla
-   **Programa**:
+La prioridad se utiliza para solicitar las asignaciones en caso de que varias de ellas coincidan con los criterios de reproducción. Aquel elemento que tenga el valor más alto siempre tendrá prioridad sobre otros valores más bajos. Por ejemplo, si hay dos canales A y B, y A tiene una prioridad de 1 y B tiene una prioridad de 2, se muestra el canal B ya que tiene mayor prioridad que A.
 
-   La programación le permite proporcionar una descripción de texto que indique cuándo debe aparecer el canal. También permite definir una fecha de inicio (**activo desde**) y una fecha de finalización (**activo hasta**) para que el canal se muestre. La sintaxis de la expresión de programación se basa en el texto de later.js y la sintaxis cron:
+>[!NOTE]
+>La prioridad de un canal se establece como un número (1 para indicar el mínimo) en el cuadro de diálogo **Asignación de canales**, tal como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **Mostrar información de herramientas de atracción**:
+#### Eventos admitidos {#supported-events-channel}
 
-   La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
+* **Carga inicial**: carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales junto con la programación
+* **Pantalla inactiva**: se carga cuando la pantalla está inactiva. Se puede asignar a varios canales junto con la programación
+* **Temporizador:** se debe establecer al proporcionar una programación
+* **Interacción del usuario**: el reproductor cambiará al canal determinado si el usuario toca la pantalla que está visualizando un canal inactivo, y se cargará al tocar la pantalla
 
-1. Haga clic en **Guardar** para asignar el canal creado a una pantalla.
+#### Método de interrupción {#interruption-method-channel}
+
+Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
+Las siguientes opciones están disponibles para establecer el método de interrupción desde el cuadro de diálogo Asignación de **Canal** :
+
+* **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, se corta la reproducción y se actualiza o reproduce inmediatamente el nuevo contenido
+* **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, esperamos a que el elemento actual de la secuencia termine de reproducirse y sólo después de eso actualizamos o reproducimos el nuevo contenido
+   >[!NOTE]
+   >Ésta es la opción predeterminada seleccionada.
+* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, esperamos que toda la secuencia llegue a su final y justo antes de volver al primer elemento se actualiza o reproduce el nuevo contenido
+
+#### Programa {#schedule-channel}
+
+La programación le permite proporcionar una descripción de texto que indique cuándo debe aparecer el canal. También permite definir una fecha de inicio (**activo desde**) y una fecha de finalización (**activo hasta**) para que el canal se muestre.
+
+**Mostrar información de herramientas de atracción**:
+
+La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
+
 
 ### Parrilla de programación {#dayparting}
 
@@ -158,4 +172,10 @@ En este ejemplo se muestra la parrilla de programación de una tienda que muestr
 |---|---|---|---|
 | A | Invierno | 1 | 01 de diciembre de 2017 - 31 de diciembre de 2017 |
 | B | Navidad | 2 | 24 de diciembre de 2017 - 31 de diciembre de 2017 |
+
+>[!IMPORTANT]
+> Para obtener más información sobre la partición de días, consulte las secciones siguientes:
+>* [Gestión de periodicidad en recursos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Gestión de periodicidad para recursos en un Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
