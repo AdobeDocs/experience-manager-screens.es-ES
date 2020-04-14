@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   Puede comprender y configurar las propiedades desde el cuadro de diálogo Asignación de **Canal** de la sección siguiente.
 
-### Explicación de las propiedades de Canal {#channel-properties}
+### Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
 
 #### Canal de referencia {#ref-channel}
 
@@ -84,14 +84,17 @@ La prioridad se utiliza para solicitar las asignaciones en caso de que varias de
 
 #### Método de interrupción {#interruption-method-channel}
 
+>[IMPORTANTE]
+> Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+
 Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
 Las siguientes opciones están disponibles para establecer el método de interrupción desde el cuadro de diálogo Asignación de **Canal** :
 
-* **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, se corta la reproducción y se actualiza o reproduce inmediatamente el nuevo contenido
-* **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, esperamos a que el elemento actual de la secuencia termine de reproducirse y sólo después de eso actualizamos o reproducimos el nuevo contenido
+* **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, puede cortar la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
+* **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de que actualice o reproduzca el nuevo contenido
    >[!NOTE]
    >Ésta es la opción predeterminada seleccionada.
-* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, esperamos que toda la secuencia llegue a su final y justo antes de volver al primer elemento se actualiza o reproduce el nuevo contenido
+* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelva al primer elemento para actualizar o reproducir el nuevo contenido
 
 #### Programa {#schedule-channel}
 
