@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -201,7 +201,7 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Haga clic en **Crear** > **Crear Actividad.** Se abre el Asistente para **configurar Actividades** .
 
-   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueeck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
+   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueCheck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -270,9 +270,7 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
 1. Seleccione la ficha **Personalización** para configurar las configuraciones de ContextHub.
 
-   1. Seleccione la Ruta **de** ContextHub como **bibliotecas** > **configuración** > **configuración** de nube > **predeterminada** **** ****> Configuraciones de ContextHub y haga clic enSeleccionar.
-
-   1. Seleccione la Ruta **de** segmentos como **conf** > **We.Retail** > **configuración** > **wcm** **** ****> segmentosy haga clic en Seleccionar.
+   1. Defina la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
 
    1. Haga clic en **Guardar y cerrar**.
 
