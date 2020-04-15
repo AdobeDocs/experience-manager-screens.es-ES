@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
    >[!NOTE]
    >Esta opción está seleccionada de forma predeterminada.
 * **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelva al primer elemento para actualizar o reproducir el nuevo contenido
+
+   >[!NOTE]
+   >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se pospongan ligeramente, ya que el reproductor esperará el final del elemento o secuencia (después del tiempo especificado) antes de la actualización. El retraso dependerá de la duración de reproducción del elemento.
 
 #### Programa {#schedule-channel}
 
