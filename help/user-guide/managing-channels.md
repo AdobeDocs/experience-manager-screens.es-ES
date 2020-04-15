@@ -11,14 +11,14 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
 
 # Crear y administrar canales {#creating-and-managing-channels}
 
-Un canal muestra una secuencia de contenido y muestra imágenes y vídeos, pero también puede mostrar un sitio web o una aplicación de una sola página.
+Un Canal muestra una secuencia de contenido y muestra imágenes y vídeos, pero también puede mostrar un sitio web o una aplicación de una sola página.
 
 En esta página se muestra la forma de crear y administrar canales para Screens.
 
@@ -49,18 +49,18 @@ Las opciones de plantilla siguientes están disponibles mientras utiliza el asis
 | Carpeta de canales | Permite crear una carpeta para almacenar la colección de canales. |
 | Canal de secuencia | Permite crear un canal que reproduce los componentes de forma secuencial (uno por uno en una presentación con diapositivas). |
 | Canal de aplicaciones | Permite mostrar la aplicación web personalizada en el reproductor Screens. |
-| Canal de pantalla dividida 1x1 | Permite ver el componente en una sola zona. |
-| Canal de pantalla dividida 1x2 | Permite ver los recursos en dos zonas (divididos horizontalmente). |
-| Canal de pantalla dividida 2X1 | Permite ver los recursos en dos zonas (divididos verticalmente). |
-| Canal de pantalla dividida 2x2 | Permite ver los recursos en cuatro zonas (divididos horizontal y verticalmente en una matriz). |
-| Canal de pantalla dividida 2 a 3 | Permite ver los recursos en dos zonas (divididos horizontalmente), siendo una de ellas más grande que la otra. |
-| Canal de pantalla dividida en barras L izquierda o derecha | Permite a los autores de contenido ver diferentes tipos de recursos en zonas de tamaño adecuado. |
+| Canal de pantalla dividida 1x1 | Permite la vista del componente en una sola zona. |
+| Canal de pantalla dividida 1x2 | Permite la vista de los recursos en dos zonas (divididos horizontalmente). |
+| Canal de pantalla dividida 2X1 | Permite la vista de los recursos en dos zonas (divididos verticalmente). |
+| Canal de pantalla dividida 2x2 | Permite la vista de los recursos en cuatro zonas (divididos horizontal y verticalmente en una matriz). |
+| Canal de pantalla dividida 2 a 3 | Permite la vista de los recursos en dos zonas (divididas horizontalmente), siendo una de ellas más grande que la otra. |
+| Canal de pantalla dividida en barras L izquierda o derecha | Permite a los autores de contenido vista diferentes tipos de recursos en zonas de tamaño adecuado. |
 
 >[!NOTE]
 >
 >Los canales Dividir pantalla dividen la visualización en varias zonas para que pueda reproducir varias experiencias al mismo tiempo, una junto a la otra. Las experiencias pueden ser elementos estáticos o de texto o secuencias incrustadas.
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 >
 >Puede crear distintas zonas mediante las opciones de plantilla como 1x2, 2x2, o 2 a 3, para dividir los canales de la pantalla, tal como se mencionó con anterioridad.
 
-***Importante***:
-
-Una vez que cree y añada contenido al canal, el siguiente paso es crear una ubicación seguida de una visualización. Además, debe asignar ese canal a una pantalla. Consulte los siguientes recursos que se encuentran al final de la sección para obtener más información.
+>[!IMPORTANT]
+> Una vez que cree y añada contenido al canal, el siguiente paso es crear una ubicación seguida de una visualización. Además, debe asignar ese canal a una pantalla. Consulte los siguientes recursos que se encuentran al final de la sección para obtener más información.
 
 ## Uso de canales {#working-with-channels}
 
@@ -78,7 +77,7 @@ Puede editar, ver las propiedades y el panel, y copiar, acceder a la vista previ
 
 >[!NOTE]
 >
->Haga clic en el icono de la izquierda para seleccionar un elemento. Por ejemplo, haga clic en el icono del canal y realice las acciones siguientes, tal y como se muestra en la figura siguiente.
+>Seleccione el canal, como se muestra en la figura siguiente.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,16 +85,18 @@ Puede editar, ver las propiedades y el panel, y copiar, acceder a la vista previ
 
 Para añadir o editar contenido en un canal, siga los pasos que se indican a continuación:
 
-1. Haga clic en el canal que desee editar (como se muestra en la figura anterior).
+1. Seleccione el canal que desee editar (como se muestra en la figura anterior).
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. El editor que se abra le permitirá añadir recursos o componentes al canal que quiera publicar.
 
 >[!NOTE]
 >
->Puede agregar componentes al canal. Consulte **[Adición de componentes a un canal](adding-components-to-a-channel.md)** para obtener más información.
+>Puede agregar componentes al canal. Consulte **[Añadir componentes a un Canal](adding-components-to-a-channel.md)**para obtener más información.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Carga de vídeos en el canal** Siga los pasos a continuación para cargar vídeos en el canal:
+**Cargar vídeos al canal**
+
+Siga los pasos a continuación para cargar los vídeos en el canal:
 
 1. Seleccione el canal en el que desee cargar el vídeo.
 1. Haga clic en **Editar** en la barra de acciones para abrir el editor.
@@ -109,7 +110,7 @@ Para añadir o editar contenido en un canal, siga los pasos que se indican a con
 
 Para ver o editar las propiedades de un canal, siga los pasos que se indican a continuación:
 
-1. Haga clic en el canal que desee editar.
+1. Haga clic en el Canal que desee editar.
 1. Click **Properties** from the action bar to view/edit the channel properties. Las fichas siguientes le permiten cambiar las opciones.
 
 ![propiedades](assets/properties.gif)
@@ -118,16 +119,16 @@ Para ver o editar las propiedades de un canal, siga los pasos que se indican a c
 
 Para ver el panel de un canal, siga los pasos que se indican a continuación:
 
-1. Haga clic en el canal que desee editar.
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Seleccione el canal que desee editar.
+1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
 
-![tablero](assets/dashboard.gif)
+![panel](assets/dashboard.gif)
 
 ### Información del canal {#channel-information}
 
-El panel Información del canal describe las propiedades del canal, junto con la vista previa del canal. Asimismo, proporciona información sobre si el canal está en línea o sin conexión.
+El panel Información de Canal describe las propiedades de Canal, junto con la previsualización al canal. Asimismo, proporciona información sobre si el canal está en línea o sin conexión.
 
-Haga clic en (**...**) en la barra de acciones de **información de canal** para ver las propiedades, editar el contenido o actualizar el caché (contenido sin conexión) del canal.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -135,21 +136,21 @@ Haga clic en (**...**) en la barra de acciones de **información de canal** para
 
 >[!NOTE]
 >
->De forma predeterminada, al crear un canal, éste se encuentra sin conexión.
+>De forma predeterminada, cuando se crea un canal, el canal está sin conexión.
 
 Cuando cree un canal, podrá definirlo como un canal en línea o sin conexión.
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+Un ***canal en línea*** mostrará el contenido actualizado en el entorno en tiempo real, mientras que ***un canal sin conexión*** muestra el contenido almacenado en caché.
 
 Siga los pasos que se describen para crear el canal en línea:
 
-1. Desplácese al canal denominado **TestProject** --&gt; **Canales** --&gt; **TestChannel**.
+1. Desplácese al canal denominado **TestProject** --> **Canales** --> **TestChannel**.
 
    Seleccione el canal.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. El panel **INFORMACIÓN DEL CANAL **proporciona información sobre si el canal está en línea o sin conexión.
+   Click **Dashboard** from the action bar to view the status of the player. El panel **INFORMACIÓN DE CANAL** proporciona información sobre si el canal está en línea o sin conexión.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -157,7 +158,7 @@ Siga los pasos que se describen para crear el canal en línea:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Compruebe el **modo** Desarrollador **(forzar a que el canal esté en línea)** para que el canal esté en línea.
+1. Compruebe el **modo** Desarrollador **(forzar el canal a estar en línea)** para que el canal se convierta en línea.
 
    Haga clic en **Guardar y cerrar** para guardar su elección.
 
@@ -169,7 +170,7 @@ Siga los pasos que se describen para crear el canal en línea:
 
 >[!NOTE]
 >
->Si desea volver a configurar el canal como sin conexión, desmarque la opción Modo de desarrollador de la ficha **Propiedades** (como se muestra en el paso (3)) y, a continuación, en el panel INFORMACIÓN **DE** CANAL, haga clic en **Actualizar contenido** sin conexión, como se muestra en la figura siguiente.
+>Si desea volver a configurar el canal como sin conexión, desmarque la opción Modo de desarrollador de la ficha **Propiedades** (como se muestra en el paso (3)) y, a continuación, en el panel INFORMACIÓN **de** CANAL, haga clic en **Actualizar contenido** sin conexión, como se muestra en la figura siguiente.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -185,27 +186,27 @@ En la tabla siguiente se resumen los eventos asociados a las actualizaciones aut
    <td><strong>Actualización manual del dispositivo</strong></td>
   </tr>
   <tr>
-   <td>Cambio en el canal en línea</td>
+   <td>Cambio en el Canal en línea</td>
    <td>Contenido actualizado automáticamente</td>
    <td><p>Contenido actualizado en "Dispositivo: Config push"</p> <p>O bien,</p> <p>Contenido actualizado en el <strong><i>dispositivo: Reiniciar</i></strong></p> </td>
   </tr>
   <tr>
-   <td>Cambio en el canal sin conexión, pero el "contenido push" del canal NO se activa (no se vuelve a crear el paquete sin conexión)</td>
+   <td>Cambio en el canal sin conexión pero el Canal "Contenido push" NO se activa (no se vuelve a crear el paquete sin conexión)</td>
    <td>Sin actualización de contenido</td>
    <td>Sin actualización de contenido</td>
   </tr>
   <tr>
-   <td>Se activa el cambio en el canal sin conexión y el "contenido push" del canal (nuevo paquete sin conexión)</td>
+   <td>Se activa el cambio en el Canal sin conexión y el Canal "Contenido push" (nuevo paquete sin conexión)</td>
    <td>Contenido actualizado automáticamente</td>
    <td><p>Contenido actualizado en el <strong><i>dispositivo: Configuración push</i></strong></p> <p>O bien,</p> <p>Contenido actualizado en el <strong><i>dispositivo: Reiniciar</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Cambio en la configuración</p>
     <ul>
-     <li>Mostrar (canal forzado)</li>
+     <li>Visualización (canal forzado)</li>
      <li>Dispositivo</li>
-     <li>Asignaciones de canal (canal nuevo, canal eliminado)</li>
-     <li>Asignación de canal (función, evento, programación)</li>
+     <li>Asignaciones de Canales (nuevo canal, canal eliminado)</li>
+     <li>Asignación de Canal (función, evento, programación)</li>
     </ul> </td>
    <td>Configuración actualizada automáticamente</td>
    <td><p>Configuración actualizada en el <strong><i>dispositivo: Configuración push</i></strong></p> <p>O bien,</p> <p>Configuración actualizada en el <strong><i>dispositivo: Reiniciar</i></strong></p> </td>
@@ -241,7 +242,7 @@ El siguiente paso después de crear un canal y añadir o editar el contenido del
 
 Consulte los recursos siguientes para ver los pasos siguientes:
 
-* [Crear y administrar canales](managing-channels.md)
+* [Crear y administrar Canales](managing-channels.md)
 * [Crear y administrar ubicaciones](managing-locations.md)
 * [Crear y administrar pantallas](managing-displays.md)
 
