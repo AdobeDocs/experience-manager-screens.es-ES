@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ El panel Información de Canal describe las propiedades de Canal, junto con la p
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### Visualización del manifiesto {#view-manifest}
+
+Puede vista del manifiesto desde el panel de canal.
+
+>[IMPORTANTE]
+> Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+
+Siga estos pasos para activar esta opción desde el panel de canal:
+1. **Definir el Canal como sin conexión**
+   1. Seleccione el canal y **Propiedades** en la barra de acciones
+   1. Vaya a la ficha **Canal** y asegúrese de desmarcar la opción Modo **de desarrollador (forzar el canal para que esté en línea)**
+   1. Click **Save &amp; Close**
+1. **Actualizar contenido sin conexión**
+   1. Seleccione el canal y seleccione **Panel** en la barra de acciones
+   1. Vaya al panel **CANAL INFORMATION** y haga clic en *...*
+   1. Haga clic en **Actualizar contenido sin conexión**
+
+Ahora debería poder ver la opción Manifiesto **de** Vista del panel INFORMACIÓN **** CANAL en el panel Canal.
+
+![image1](assets/channel-one.png)
+
 
 ### Canales en línea y sin conexión {#online-and-offline-channels}
 
