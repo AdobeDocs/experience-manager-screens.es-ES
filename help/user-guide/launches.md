@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -75,27 +75,30 @@ Siga la sección siguiente para implementar inicios en su proyecto de AEM Screen
 1. **Creación de un lanzamiento de pantalla**
 1. **Edición de un lanzamiento de pantallas para establecer la fecha y el ámbito de lanzamiento**
 
-### Creación de una publicación futura {#creating-a-launch}
+### Creación de un lanzamiento de pantalla {#creating-a-launch}
 
 Siga los pasos a continuación para implementar la funcionalidad de inicios en su proyecto de AEM Screens:
 
-1. Vaya a un canal de secuencia en su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
+1. Cree un canal de secuencia en su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
    >Debe crear un inicio a partir de un canal preexistente en el proyecto de AEM Screens.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Imagen](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Seleccione canal **FutureLaunch** y haga clic en **Crear lanzamiento** en la barra de acciones.
 
-1. Se abre el asistente **Crear inicio** . Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Añadir páginas** para seleccionar el canal Pantallas para el que desea crear el lanzamiento.
+   ![Imagen](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >En el siguiente ejemplo se muestra cómo crear un inicio para el canal existente en el asistente.
+1. Se abre el asistente **Crear inicio** . Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Añadir Canales** para agregar el canal para el que desea crear el lanzamiento.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Uso del Canal existente {#existing-channel-launch}
+
+1. Seleccione el canal que ya existe en el asistente **Crear inicio** y haga clic en **Siguiente**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Seleccione el canal y haga clic en **Siguiente** en la barra de acciones.
 
@@ -124,6 +127,49 @@ Siga los pasos a continuación para implementar la funcionalidad de inicios en s
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Al hacer clic en **Listo** , podrá volver al canal **FutureLaunch** .
+
+   ![Imagen](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### Uso de la opción Añadir Canales {#add-channel-launch}
+
+1. Haga clic en **+ Añadir Canales** para agregar el canal para el que desea crear el lanzamiento.
+
+   ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >La opción **Seleccionar** se desactivará si intenta seleccionar varios canales o una carpeta para agregar el lanzamiento.
+
+1. Vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Ahora puede seleccionar el canal que ha agregado para crear un lanzamiento y hacer clic en **Siguiente**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Introduzca el título **de** lanzamiento como **promociones** de verano y no necesita establecer la fecha **de** lanzamiento, como se muestra en la figura siguiente. Haga clic en **Crear**.
+
+   >[!NOTE]
+   >
+   >*Al habilitar o comprobar* la opción **Heredar datos** activos de la página de origen, los canales se pueden crear como copias en directo en el lanzamiento. Si se realizan cambios en el canal original, dichos cambios se aplican automáticamente a los canales de inicio.
+   >
+   >
+   >*Al deshabilitar o desmarcar* **Heredar datos** activos de la página de origen, los canales se pueden copiar sin ninguna relación activa durante el lanzamiento. Por lo tanto, si se realizan cambios en el canal original, esos cambios no se aplican a los canales de inicio.
+
+   ![Imagen](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >Puede establecer la fecha de lanzamiento activo en este paso o puede configurarla más tarde mientras edita las propiedades del lanzamiento una vez que ya se ha creado.
+
+1. Verá que se ha creado el lanzamiento. Puede hacer clic en **Abrir** para vista de las páginas en el editor o en **Hecho** para volver al proyecto.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Al hacer clic en **Listo** , podrá volver al canal **FutureLaunch** .
+
+   ![Imagen](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### Edición de las propiedades de inicio para establecer la fecha de lanzamiento y el ámbito {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
