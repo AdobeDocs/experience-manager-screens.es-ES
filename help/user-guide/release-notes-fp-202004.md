@@ -4,7 +4,7 @@ seo-title: Notas de la versión de Feature Pack 2004
 description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 15 de abril de 2020.
 seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 15 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 15 de
 
 * **Opciones de estrategia de interrupción de reproducción**
 
-   Como autor, ahora puede especificar cuándo se interrumpe un canal o no para que el autor del contenido pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
+   Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
 
+   Consulte la sección Método **[de](/help/user-guide/channel-assignment.md#interruption-method-channel)**interrupción para obtener más información sobre las opciones disponibles en el cuadro de diálogo Asignación **de**Canales para implementar esta función en el proyecto de AEM Screens.
 
-* **Lanzamientos**
+* **Lanzamientos de pantallas**
 
    Se ha mejorado el flujo de experiencia del usuario autor del contenido y se ha reducido el número de clics para utilizar la publicación futura.
+
+   Consulte Actualización **[de contenido mediante el lanzamiento](launches.md)**de pantallas para obtener más información.
 
 * **Tablero de canal**
 
@@ -39,11 +42,15 @@ La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 15 de
 
 * **Ver manifiesto**
 
-   Puede vista del manifiesto desde el panel de canal.
+   Ahora puede vista del archivo de manifiesto desde el panel de canal.
+
+   Consulte **[Visualización del manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposición de texto**
 
-   Al agregar una prueba a la función de superposición de texto, el tamaño de fuente es ahora mucho más preciso y actualizado.
+   Al agregar una prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
+
+   Consulte Superposición **[de](text-overlay.md)**texto para crear una experiencia atractiva en un Canal de secuencia proporcionando un título o una descripción superpuestos sobre una imagen.
 
 * **Mejoras en la sincronización de comandos**
 
