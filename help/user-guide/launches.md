@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -177,43 +177,43 @@ Una vez creado el lanzamiento, debe editar las propiedades de inicio para establ
 
 Siga los pasos a continuación para editar las propiedades de inicio:
 
-1. Vaya al canal (**FutureLaunch**) y seleccione el canal, como se muestra en la figura siguiente. Abra el carril **Referencias** desde el carril lateral izquierdo.
+1. Vaya a canal **FutureLaunch***(es decir, el lanzamiento pendiente)* y seleccione el canal, como se muestra en la figura siguiente.
 
-   >[!NOTE]
-   >
-   >Seleccione la opción Árbol **de** contenido en el carril izquierdo para abrir el lanzamiento que ha creado.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Haga clic en el **Panel** en la barra de acciones y verá el panel **PENDIENTES LAUNCHES** desde el panel canal.
 
-1. Vaya a **Lanzamientos** y seleccione el lanzamiento (**VeranoPromociones**) que ha creado. Haga clic en **Editar propiedades**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Seleccione el inicio y haga clic en cualquiera de las acciones deseadas en el panel INICIOS **PENDIENTES** .
 
-1. Se abre el cuadro de diálogo **Promociones** de verano de lanzamiento. Rellene los campos siguientes:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Por ejemplo, haga clic en **Iniciar propiedades** para editar las propiedades del lanzamiento **SummerPromotions**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Puede editar el título **de** la presentación y rellenar los campos siguientes:
 
    * Seleccione la fecha de **inicio**
    * Comprobar **producción lista**
    * Seleccione **Promocionar páginas** aprobadas desde el **ámbito**
-   >[!NOTE]
-   >
-   >Explicación de las entradas Lanzamientos en Promoción **automática**:
+   **Explicación de las entradas Lanzamientos en Promoción automática:**
 
-   >    * **Fecha** de lanzamiento, hace referencia a la fecha de lanzamiento, es decir, la fecha y hora en que el contenido se reproducirá en el reproductor de pantallas según la zona horaria del reproductor.
-   >    * **Listo** para la producción, permite promocionar los canales y significa que el lanzamiento está listo para ser utilizado.
-   >    * **Ámbito**, se refiere a los canales que pueden promoverse durante un lanzamiento.
-
-
+   * **Fecha** de lanzamiento, hace referencia a la fecha de lanzamiento, es decir, la fecha y hora en que el contenido se reproducirá en el reproductor de pantallas según la zona horaria del reproductor.
+   * **Listo** para la producción, permite promocionar los canales y significa que el lanzamiento está listo para ser utilizado.
+   * **Ámbito**, se refiere a los canales que pueden promoverse durante un lanzamiento.
    Existen las tres opciones siguientes para configurar el ámbito:
-   1. **Promocione el lanzamiento** completo: Todos los canales del lanzamiento se promocionan en la fecha de lanzamiento establecida.
-   1. **Promocione las páginas** modificadas: Solo se promocionarán los recursos de lanzamiento editados. Se recomienda utilizar esta opción cuando no se requiera la revisión del inicio. Permite promover las modificaciones en los canales de lanzamiento.
-   1. **Promocione las páginas** aprobadas: Solo se promocionan las páginas aprobadas en la fecha de lanzamiento establecida.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >La promoción de inicio respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
+   * **Promocione el lanzamiento** completo: Todos los canales del lanzamiento se promocionan en la fecha de lanzamiento establecida.
+   * **Promocione las páginas** modificadas: Solo se promocionarán los recursos de lanzamiento editados. Se recomienda utilizar esta opción cuando no se requiera la revisión del inicio. Permite promover las modificaciones en los canales de lanzamiento.
+   * **Promocione las páginas** aprobadas: Solo se promocionan las páginas aprobadas en la fecha de lanzamiento establecida.
+
+      >[!CAUTION]
+      >
+      >La promoción de inicio respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
+
+
 
 1. Haga clic en **Guardar y cerrar** para volver al canal **FutureLaunch** .
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
