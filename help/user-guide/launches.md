@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -77,9 +77,9 @@ Siga la sección siguiente para implementar inicios en su proyecto de AEM Screen
 
 ### Creación de una publicación futura {#creating-a-launch}
 
-Siga los pasos a continuación para implementar la futura funcionalidad de publicación en su proyecto de AEM Screens:
+Siga los pasos a continuación para implementar la funcionalidad de inicios en su proyecto de AEM Screens:
 
-1. Vaya al canal de su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
+1. Vaya a un canal de secuencia en su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
@@ -87,21 +87,22 @@ Siga los pasos a continuación para implementar la futura funcionalidad de publi
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Seleccione canal **FutureLaunch** y haga clic en **Crear**. Seleccione **Iniciar** en el menú desplegable.
+1. Seleccione canal **FutureLaunch** y haga clic en **Crear lanzamiento** en la barra de acciones.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. Se abre el asistente **Crear inicio** . Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Añadir páginas** para seleccionar el canal Pantallas para el que desea crear el lanzamiento.
 
-1. Se abre el asistente **Crear inicio** . Haga clic en **+ Añadir páginas** para seleccionar los canales de pantallas de AEM para los que desea crear el lanzamiento.
+   >[!NOTE]
+   >En el siguiente ejemplo se muestra cómo crear un inicio para el canal existente en el asistente.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Vaya al canal y haga clic en **Seleccionar**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Seleccione el canal y haga clic en **Siguiente** en la barra de acciones.
 
-1. Una vez seleccionada la página, haga clic en **Siguiente** para ir un paso más allá en el asistente **Crear inicio** .
+   >[!NOTE]
+   >**La opción Incluir subpáginas** está seleccionada de forma predeterminada.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Imagen](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Introduzca el título **de** lanzamiento como **promociones** de verano y no necesita establecer la fecha **de** lanzamiento, como se muestra en la figura siguiente. Haga clic en **Crear**.
 
@@ -112,7 +113,7 @@ Siga los pasos a continuación para implementar la futura funcionalidad de publi
    >
    >*Al deshabilitar o desmarcar* **Heredar datos** activos de la página de origen, los canales se pueden copiar sin ninguna relación activa durante el lanzamiento. Por lo tanto, si se realizan cambios en el canal original, esos cambios no se aplican a los canales de inicio.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Imagen](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -122,9 +123,7 @@ Siga los pasos a continuación para implementar la futura funcionalidad de publi
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Al hacer clic en **Listo** , podrá volver al proyecto **LaunchesDemo** .
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Al hacer clic en **Listo** , podrá volver al canal **FutureLaunch** .
 
 ### Edición de las propiedades de inicio para establecer la fecha de lanzamiento y el ámbito {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
