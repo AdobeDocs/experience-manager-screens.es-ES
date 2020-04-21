@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 
    1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
 
+      >[!CAUTION]
+      >Si utiliza Adobe Experience Manager (AEM) 6.4, introduzca el Título **de** configuración como hojas de **Google** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >En AEM 6.4, introduzca el Título **** de configuración como hojas de **googlesheets** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
+
 
    1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
 
