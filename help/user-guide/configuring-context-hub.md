@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -92,8 +92,13 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** ****tienda como contexthub.generic-jsonpy haga clic en Siguiente.
+   1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >En AEM 6.4, introduzca el Título **** de configuración como hojas de **googlesheets** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
 
    1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
 
@@ -272,7 +277,7 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
    1. Defina la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
 
-   1. Haga clic en **Guardar y cerrar**.
+   1. Click **Save &amp; Close**.
 
       >[!NOTE]
       Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
