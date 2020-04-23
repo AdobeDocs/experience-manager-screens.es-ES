@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Actualización de contenido con Screens Launch {#launches}
 
-Los creadores de contenido pueden crear versiones futuras de los canales, conocidas como **Pantallas de lanzamiento** , y una fecha de lanzamiento posterior permite que el contenido esté activo en dispositivos o reproductores.
+Los autores de contenido pueden crear versiones futuras de los canales, conocidas como **Pantallas** , y establecer la fecha de lanzamiento de este lanzamiento. Esto permite que el contenido esté activo en dispositivos o reproductores en la fecha de lanzamiento especificada.
 
-Con la ayuda de futuras publicaciones, los autores pueden realizar previsualizaciones de cada canal en el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo Aprobadores recibirá una notificación y puede aprobar o rechazar la solicitud. Cuando se alcanza la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
+Con la ayuda de **Screens Launches**, los autores pueden realizar previsualizaciones de cada canal en el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo Aprobadores recibirá una notificación y puede aprobar o rechazar la solicitud. Cuando se alcanza la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
 
 Por ejemplo, si el autor desea crear versiones futuras de c1, c2 (canales), se crea un lanzamiento y se establece una fecha de lanzamiento (por ejemplo, 10 de noviembre a las 8:00 a.m.). Cualquier otra actualización del contenido se envía para su revisión. Una vez aprobado y en fecha de lanzamiento (10 de noviembre, 8:00 AM), este lanzamiento reproduce el contenido en los dispositivos o reproductores.
 
 ## Requisitos {#requirements}
 
-Antes de realizar el inicio de la implementación de futuras publicaciones en un proyecto de AEM Screens, asegúrese de comprender el concepto de período de gracia y su relevancia.
+Antes de inicio de aprovechar Screens Launches en un proyecto de AEM Screens, asegúrese de comprender el concepto de período de gracia y su importancia.
 
-En la siguiente sección se explica el período de gracia y cómo configurarlo de forma predeterminada. También puede descargar una configuración de prueba de muestra para comprender su uso.
+La ejecución de una experiencia en la fecha de lanzamiento establecida en el reproductor implica:
+
+* promoción del lanzamiento (normalmente tarda unos segundos)
+
+* publicar los recursos para publicar instancias (normalmente tarda unos minutos, depende del tamaño de los canales o recursos que deban publicarse)
+
+* tiempo que tarda la actualización en completarse (suele tardar unos minutos)
+
+* tiempo que tardan los reproductores en descargar el contenido de la instancia de publicación (normalmente tarda minutos en función del ancho de banda n/w y del tamaño de los recursos que deben descargarse)
+
+* diferencias de tiempo del servidor y del reproductor
 
 ### Explicación del período de gracia {#understanding-grace-period}
 
-La siguiente configuración permite al administrador configurar el período ***de*** gracia, que se requiere para futuras publicaciones.
+Para que el reproductor pueda reproducir en inicio el contenido en la fecha de lanzamiento establecida, necesitamos inicios de las actividades antes mencionadas antes de la fecha de lanzamiento.
 
-**Período** de gracia, incluye:
-
-* promoción del lanzamiento
-* publicación de los recursos para publicar instancias
-* tiempo que tardan los dispositivos en descargar el contenido de la instancia de publicación y en cualquier diferencia de tiempo entre el servidor y el reproductor
+Si la fecha de lanzamiento es *24 de noviembre, 9:00 AM* y el período de gracia es de *24 horas*, la secuencia de acciones anterior tendrá un inicio en (fecha de lanzamiento - período de gracia), es decir, 23 de noviembre, 9:00 AM hora del servidor. Esto da 24 horas de tiempo para completar todas las acciones mencionadas anteriormente y el contenido llegará a los jugadores. Los jugadores comprenderán que se trata de un contenido de inicio, por lo que el contenido no se reproducirá inmediatamente, pero los reproductores almacenarán este contenido como una versión futura y tendrán el inicio de reproducirse exactamente en la fecha de lanzamiento establecida en el huso horario del reproductor.
 
 Por ejemplo: supongamos que el servidor está en PST y que los dispositivos están en EST, la diferencia máxima de tiempo es de 3 horas en este caso y supongamos que la promoción tardará 1 minuto y que la publicación del autor tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. Entonces período de gracia = diferencia de tiempo (3 horas) + tiempo para promocionar el lanzamiento (1 min) + tiempo para publicar el lanzamiento (10 min) + tiempo para descargar en el reproductor (10-15 min) + buffer (para ser seguro, digamos 30 min) = 3 horas 56 min = 14160 segundos. Así que, cuando programemos cualquier lanzamiento en directo, la promoción se inicio temprano con este desplazamiento. En la ecuación anterior, la mayoría de los elementos no toma mucho tiempo, podemos usar una estimación decente para este desplazamiento una vez que sepamos la diferencia de tiempo máxima por parte del servidor y de cualquier reproductor.
 
-### Configuración del período de gracia listo para usar {#configuring-out-of-the-box-grace-period}
-
-De forma predeterminada, el período de gracia de un lanzamiento se establece en 24 horas, lo que significa que cuando se establece la fecha de lanzamiento de cualquier lanzamiento para los recursos en */contenido/pantallas*, la promoción se inicio con este desplazamiento. Por ejemplo, si liveDate se establece como 24 de noviembre, 9:00 a.m. y el período de gracia es de 24 horas, el trabajo de promoción se inicio a las 23:00 a.m. del 23 de noviembre.
-
-### Descarga de configuraciones {#downloading-configurations}
-
-Descargue las siguientes configuraciones de prueba:
-
-[Obtener archivo](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->La configuración mencionada anteriormente tiene 600 segundos como período de gracia en esta configuración de prueba.
+>De forma predeterminada, el período de gracia para los inicios de pantallas se establece en 24 horas, lo que significa que cuando se establece la fecha de lanzamiento de cualquier lanzamiento para los recursos en */contenido/pantallas*, la promoción se inicio con este desplazamiento.
 
-#### Actualización de las configuraciones {#updating-the-configurations}
+### Actualización del período de gracia listo para usar {#updating-out-of-the-box-grace-period}
 
-Si desea cambiar la configuración anterior, siga las siguientes instrucciones:
+En esta sección se explica cómo puede actualizar un período de gracia predeterminado a 10 minutos:
 
-* cree el ***archivo sling:OsgiConfig/ nt:en /apps/system/config*** con el nombre **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** y contenido
+1. Vaya a CRXDE Lite y, a continuación, a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Haga clic con el botón derecho y copie el archivo.
+3. Vaya a `/apps/system/config` y haga clic con el botón secundario y péguelo.
+4. Haga clic en el Doble `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir el archivo en el editor de CRXDE Lite. Debe mostrar el período de gracia para la ruta */contenido/pantallas/* como 86400. Cambie ese valor a **600**.
 
-   *launches.eventhandler.updatelastmodified=B&quot;false&quot;launches.eventhandler.launch.promoationperiod=[&quot;/content/screen(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+Ahora, el contenido del archivo de texto debe tener un aspecto similar a:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, le permite establecer un período de gracia de 600 segundos en la ruta */contenido/pantallas*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Esto significa que cuando se establece la fecha de lanzamiento de cualquier inicio para los recursos en */contenido/pantallas*, la promoción contraerá este desplazamiento. Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 a.m. y el período de gracia es de 600 segundos, el trabajo de promoción se inicio a las 8:50 a.m. del 24 de noviembre.
+Dado que el período de gracia se ha establecido en 10 minutos en el ejemplo anterior, cuando se establece la fecha de lanzamiento de cualquier inicio para los recursos en */contenido/pantallas*, la promoción contraerá este inicio.
+
+Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 AM y el período de gracia es de 600 segundos, el trabajo de promoción se inicio el 24 de noviembre a las 8:50 AM.
 
 ## Uso de Screens Launch {#using-launches}
 
