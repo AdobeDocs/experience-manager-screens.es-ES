@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 
 
 ## Uso de Screens Launch {#using-launches}
 
-Siga la sección siguiente para implementar Screens Launch en el proyecto de AEM Screens.
+En esta sección se muestra cómo implementar Screens Launch en el proyecto de AEM Screens.
 
 ### Creación de un lanzamiento de pantalla {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Siga los pasos a continuación para implementar la funcionalidad Screens Launch 
 
    >[!NOTE]
    >Puede utilizar la opción **+ Añadir Canales** para agregar otro canal para el que desee crear el lanzamiento.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Para utilizar la opción **Añadir Canales** , vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
 
@@ -173,13 +171,13 @@ Siga los pasos a continuación para editar las propiedades de inicio:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Edición del lanzamiento de pantallas para Añadir o eliminar Canales {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edición del lanzamiento de pantallas para Añadir o eliminar Canales {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Una vez creado el lanzamiento, puede agregar o quitar canales al inicio existente mediante la acción **Editar inicio** .
+Una vez creado el lanzamiento, puede agregar o quitar canales al lanzamiento existente mediante la opción **Editar inicio** .
 
 Una vez que haya terminado, haga clic en **Guardar** para volver al canal **FutureLaunch** .
 
-#### Promocione el lanzamiento de pantallas manualmente{#promote-the-screens-launch-manually}
+### Promocione el lanzamiento de pantallas manualmente{#promote-the-screens-launch-manually}
 
 Puede promocionar el lanzamiento manualmente mediante la opción **Promocionar lanzamiento** del panel **PENDIENTES DE INICIO** .
 
@@ -196,11 +194,10 @@ Puede elegir los recursos que desea promocionar como parte de esta promoción ma
 1. Haga clic en **Siguiente** en el asistente **Promote Launch** .
 1. Haga clic en **Promocionar** para promocionar el lanzamiento.
 
+### Eliminación del lanzamiento de pantallas {#deleting-the-screens-launch}
 
-#### Eliminación del lanzamiento de pantallas {#deleting-the-screens-launch}
-
-Puede eliminar el inicio mediante la acción **Eliminar inicio** .
+Puede eliminar el inicio mediante la opción **Eliminar inicio** del panel **PENDIENTES LAUNCHES** .
 
 >[ATENCIÓN]
->Esta acción también eliminará todos los inicios anidados descendientes.
+>Esta acción también eliminará todos los descendientes (inicios anidados).
 
