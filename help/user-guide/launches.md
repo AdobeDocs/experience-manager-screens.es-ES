@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ Una vez creado el lanzamiento, puede agregar o quitar canales al lanzamiento exi
 
 Una vez que haya terminado, haga clic en **Guardar** para volver al canal **FutureLaunch** .
 
-### Promocione el lanzamiento de pantallas manualmente{#promote-the-screens-launch-manually}
+### Promoción manual del lanzamiento de pantallas{#promote-the-screens-launch-manually}
 
 Puede promocionar el lanzamiento manualmente mediante la opción **Promocionar lanzamiento** del panel **PENDIENTES DE INICIO** .
 
