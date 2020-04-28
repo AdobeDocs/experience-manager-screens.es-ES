@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión de Feature Pack 2004
 seo-title: Notas de la versión de Feature Pack 2004
-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
-seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
+description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 28 de abril de 2020.
+seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 28 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
 
 AEM Screens ha lanzado AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4 con los siguientes detalles.
 
-## Release Date {#release-date}
+## Fecha de la versión {#release-date}
 
-La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 20 de abril de 2020.
+La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 28 de abril de 2020.
 
 ### Novedades {#what-s-new}
 
