@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión de Feature Pack 2004
 seo-title: Notas de la versión de Feature Pack 2004
-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 28 de abril de 2020.
-seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 28 de abril de 2020.
+description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
+seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >Se recomienda actualizar a la versión más reciente de Adobe Experience Manager (AEM). Screens ofrece compatibilidad con el mantenimiento de la plataforma AEM 6.3 Screens.
 
-AEM Screens ha lanzado AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4 con los siguientes detalles.
+## Disponibilidad {#availability}
+
+AEM Screens ha lanzado AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4.
+
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde un vínculo ** pendiente.
+
+>[!NOTE]
+>Consulte [Cómo trabajar con paquetes](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) para conocer cómo los paquetes permiten la importación y exportación del contenido del repositorio y cómo se puede acceder a los paquetes desde el Administrador de paquetes o el Uso compartido de paquetes y/o mantenerlos.
+
 
 ## Fecha de la versión {#release-date}
 
-La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 28 de abril de 2020.
+La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 20 de abril de 2020.
 
 ### Novedades {#what-s-new}
 
