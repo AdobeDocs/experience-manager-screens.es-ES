@@ -4,7 +4,7 @@ seo-title: Notas de la versión de Feature Pack 2004
 description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 20 de
 
 * **Tablero de canal**
 
-   Actualice las instrucciones del cuadro de diálogo panel de canal y sin conexión para leerlas... &quot;Actualizar contenido sin conexión&quot; reemplaza la palabra &quot;Actualizar caché&quot;
+   Refleja las actualizaciones de las instrucciones del panel de canal en el panel INFORMACIÓN **** CANAL.
 
 
 * **Ver manifiesto**
@@ -64,6 +64,8 @@ La fecha de lanzamiento del paquete de funciones de AEM Screens 2004 es el 20 de
 
    Con esta versión del paquete de funciones, se reflejan las mejoras en el retraso de sincronización de comandos entre los cambios de recursos.
 
+   Consulte **[Sincronización](using-command-sync.md)**de comandos para obtener más detalles.
+
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
 Los siguientes reproductores de AEM Screens están disponibles para AEM Screens, lanzados con AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4:
@@ -72,6 +74,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM Screens,
 * Windows
 * Android
 
-#### Descargas de AEM Screens Player {#aem-screens-player-downloads}
+#### Descargas de AEM Screens Player  {#aem-screens-player-downloads}
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte Descargas [**del reproductor de **](https://download.macromedia.com/screens/)AEM Screens.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte Descargas **[del reproductor de](https://download.macromedia.com/screens/)**AEM Screens.
