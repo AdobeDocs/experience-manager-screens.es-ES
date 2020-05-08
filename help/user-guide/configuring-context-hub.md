@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 1%
 
 ---
 
@@ -91,6 +94,20 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
    1. En la pantalla de configuración **de** ContextHub, haga clic en **Crear** > Configuración de la tienda de **ContentHub.**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >Como parte de AEM 6.5 Feature Pack 4 o AEM 6.4 Feature Pack 8, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
+      >Siga los pasos a continuación:
+      >
+      >1. Vaya a CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
+      >1. Compruebe si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si el `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
+      > 1. Haga clic con el botón secundario en `/conf/screens/settings` y cree un nuevo nodo con el *nombre* como **cloudsettings1** y *Escriba* como **sling:Folder** y guarde los cambios.
+      >1. Mueva todos los nodos debajo de `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
+      >1. Eliminar `cloudsettings` y guardar.
+      >1. Cambie el nombre `cloudsettings1` a `cloudsettings` y guarde.
+      >1. Ahora debe observar que /conf/screen/settings/cloudsettings tiene `jcr:primaryType` as `sling:Folder`.
+Debe seguir estos pasos en la creación y publicación antes o después de la actualización.
+
 
    1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
 
