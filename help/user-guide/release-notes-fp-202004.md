@@ -4,7 +4,10 @@ seo-title: Notas de la versión de Feature Pack 2004
 description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 AEM Screens ha lanzado AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde un vínculo ** pendiente.
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) con su Adobe ID.
 
 >[!NOTE]
 >Consulte [Cómo trabajar con paquetes](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) para conocer cómo los paquetes permiten la importación y exportación del contenido del repositorio y cómo se puede acceder a los paquetes desde el Administrador de paquetes o el Uso compartido de paquetes y/o mantenerlos.
