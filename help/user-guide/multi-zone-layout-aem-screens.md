@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 6%
 
 ---
@@ -69,13 +69,10 @@ Puede utilizar recursos únicos como una imagen o un vídeo en las tres zonas di
 
    1. Vaya a **Zonas** —> **Canales**—>**MultiZone**.
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Añadir imágenes al Canal**
 
-   Para reproducir una sola imagen o un vídeo en las tres zonas, simplemente arrastre y suelte la imagen en el editor de canal, como se muestra a continuación.
-
-   ![new1-1](assets/new1-1.gif)
+   Para reproducir una sola imagen o un vídeo en las tres zonas, simplemente arrastre y suelte la imagen en el editor de canal.
 
 ### Uso de contenido secuencial en una o varias zonas {#using-sequenced-content-in-one-or-more-zones}
 
