@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,10 @@ Si desea que las zonas muestren la secuencia de imágenes o contenido y una imag
 
 Una vez implementados los diseños de varias zonas mediante los pasos anteriores, se muestra el siguiente resultado, como se muestra en la figura siguiente.
 
-La siguiente salida de Screens Player muestra el contenido en tres zonas diferentes. Las zonas izquierda y derecha (ambas utilizan la secuencia incrustada como componente) muestran una secuencia de imágenes y la zona siguiente muestra una imagen estática.
+Haga clic en la **Previsualización** del editor de canales para realizar la vista de la siguiente salida que muestra el contenido en dos zonas diferentes. Las zonas izquierda y derecha (ambas utilizan la secuencia incrustada como componente).
+
+>[!NOTE]
+>Si intenta vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión desde el panel de canal.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
