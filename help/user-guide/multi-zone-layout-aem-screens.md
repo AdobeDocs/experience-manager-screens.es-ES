@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
+source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1176'
 ht-degree: 4%
 
 ---
@@ -35,18 +35,18 @@ La página siguiente describe el uso del diseño de varias zonas y abarca los si
 
 Según los requisitos del proyecto, a veces se necesitan varias zonas en un canal, así como poder editarlas como una sola unidad completa. Por ejemplo, una secuencia de productos con una fuente de medios sociales relacionada que se ejecuta en tres zonas distintas en un solo canal.
 
-## Creación de un diseño de varias zonas {#creating-multi-zone-layout}
-
-Al crear un canal, puede utilizar distintas plantillas para crear zonas en el canal. Puede agregar una sola imagen, vídeo o un canal incrustado que permita mostrar varios recursos en una secuencia.
 
 ### Requisitos previos {#prerequisites}
 
-Antes de inicio de implementar esta funcionalidad, asegúrese de tener un proyecto listo como requisito previo para la implementación de inicio de diseño multizona. Por ejemplo,
+Antes de inicio de implementar esta funcionalidad, asegúrese de tener conocimientos conceptuales sobre:
 
-* Creación de un proyecto de AEM Screens titulado como **zonas**
-* Cree una visualización en **Ubicaciones** con el título **MultiZoneDisplay**.
+* [Creación de un proyecto de AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Creación de una visualización](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Asignación de un Canal a una pantalla](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-Cree un canal titulado como proyecto **MultiZone** in **Zones** . Siga los pasos a continuación:
+## Creación de un diseño de varias zonas {#creating-multi-zone-layout}
+
+Al crear un canal, puede utilizar distintas plantillas para crear zonas en el canal. Puede agregar una sola imagen, vídeo o un canal incrustado que permita mostrar varios recursos en una secuencia.
 
 **Creación del Canal**
 
@@ -65,20 +65,18 @@ Puede utilizar recursos únicos como una imagen o un vídeo en las tres zonas di
 
 1. **Añadir contenido al Canal**
 
-   1. Vaya a **Zonas** —> **Canales**—>**MultiZone**.
+   1. Vaya a **Zones** —> **Canales**—> **MultiZone**.
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
 1. **Añadir imágenes al Canal**
 
    Para reproducir una sola imagen o un vídeo en dos zonas, simplemente arrastre y suelte una imagen en cada zona del editor de canal, como se muestra en la figura siguiente:
 
-   MultiZone-img3
-
    ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Uso de contenido secuencial en una o varias zonas {#using-sequenced-content-in-one-or-more-zones}
 
-Si desea que las zonas muestren la secuencia de imágenes o contenido y una imagen estática en dos zonas diferentes, siga los pasos a continuación para obtener más información.
+Si desea que las zonas muestren la secuencia de imágenes y un vídeo en dos zonas diferentes, siga los pasos a continuación para obtener más información.
 
 1. **Creación de una carpeta de Canal**
 
@@ -101,7 +99,7 @@ Si desea que las zonas muestren la secuencia de imágenes o contenido y una imag
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   El vídeo agregado al editor del canal de secuencia de **Zone2** se muestra a continuación:
+   Añada un vídeo al editor del canal de secuencia de **Zone2** , como se muestra en la figura siguiente:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -110,18 +108,14 @@ Si desea que las zonas muestren la secuencia de imágenes o contenido y una imag
    1. Vaya a **Zones** —> **Canales** —> **MultiZone**.
    1. Haga clic en **Editar** en la barra de acciones para abrir el editor.
    1. Arrastre y suelte el componente Secuencia **** incrustada en dos de las zonas.
-
-1. **Añadir contenido a las tres zonas**
-
-   1. Vaya a **Zones** —> **Canales** —> **MultiZone**.
    1. Seleccione la secuencia incrustada en una de las zonas.
    1. Haga clic en el icono **Configurar** (llave inglesa) en una de las secuencias incrustadas en el editor.
    1. Seleccione la ruta de canal como **Zonas** —> **Canales** —> **Canales** incrustados —> **Zona1**, como se muestra en la figura siguiente.
-   Del mismo modo, agregue **Zone2** a otro componente de secuencia incrustada en el editor.
+   1. Del mismo modo, agregue **Zone2** a otro componente de secuencia incrustada en el editor.
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### Creación de ubicación y visualización {#creating-location}
+### Creación de una ubicación y una visualización {#creating-location}
 
 Debe crear una ubicación y una pantalla para la vista del contenido en el reproductor de pantallas. Siga los pasos a continuación para crear una ubicación y una visualización.
 
@@ -152,12 +146,14 @@ Debe asignar los canales a la pantalla para la vista del contenido. Siga los pas
    1. Haga clic en **Guardar**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Del mismo modo, debe asignar los otros dos canales incrustados (**Zone1** y **Zone2**) a esta pantalla mediante el paso (2).
+   1. Del mismo modo, debe asignar los otros dos canales incrustados (**Zone1** y **Zone2**) a esta pantalla.
    1. Una vez que asigne los tres canales a la pantalla **Punto de encuentro** , deberá poder realizar la vista de los canales asignados desde el panel de visualización.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
-   >[!Iimportante]
-   > Una vez asignado el canal principal (en este caso, **MultiZone**) a la pantalla, es obligatorio asignar los otros dos canales incrustados **Zone1** y **Zone2** también a la misma pantalla.
+
+
+      >[!Iimportante]
+      > Una vez asignado el canal principal (en este caso, **MultiZone**) a la pantalla, es obligatorio asignar los otros dos canales incrustados **Zone1** y **Zone2** también a la misma pantalla.
 
 ### Registro del dispositivo {#registering-device}
 
@@ -171,19 +167,20 @@ Una vez que haya configurado una ubicación y una pantalla, siga los pasos a con
       >[!NOTE]
       > El título del dispositivo debe coincidir con el token del dispositivo (campo **Token** ) que se muestra en la ficha Registro **del** dispositivo.
    1. Si el título coincide con el autentificador del dispositivo, seleccione el dispositivo y haga clic en **Registrar dispositivo** en la barra de acciones.
-   1. Si el código de registro coincide con el código de la ficha Registro del reproductor de pantallas, haga clic en **Validar** en la barra de acciones.
+   1. Si el código de registro coincide con el código de la ficha Registro **del** dispositivo del reproductor de pantallas, haga clic en **Validar** en la barra de acciones.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Seleccione **Asignar visualización** y seleccione la ruta de acceso a la configuración del dispositivo.
+   >[!NOTE]
+   >Si intenta vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión desde el panel de canal.
 
 #### Visualización del resultado {#viewing-the-result}
 
-Una vez implementados los diseños de varias zonas mediante los pasos anteriores, se muestra el siguiente resultado, como se muestra en la figura siguiente.
+Una vez implementados los diseños de varias zonas mediante los pasos anteriores, se muestra el siguiente resultado.
 
 Compruebe el reproductor de pantallas para vista de la salida que muestra el contenido en dos zonas diferentes. Las zonas izquierda y derecha (ambas utilizan la secuencia incrustada como componente).
 
->[!NOTE]
->Si intenta vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión desde el panel de canal.
+La zona izquierda es un canal de secuencia y la zona derecha incluye un vídeo.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
