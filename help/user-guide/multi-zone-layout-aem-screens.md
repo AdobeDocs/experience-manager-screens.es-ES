@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,9 @@ Si desea que las zonas muestren la secuencia de imágenes y un vídeo en dos zon
    1. Seleccione **Secuencia Canal** en el asistente **Crear** para crear un canal denominado **Zona1**.
    1. Select **Zone1** and click **Edit** from the action bar to open the editor.
    1. Arrastre y suelte algunas imágenes en este canal.
-   Del mismo modo, cree otro canal de secuencia denominado **Zone2** en la carpeta **EmbeddedChannels** .
+   1. Del mismo modo, cree otro canal de secuencia denominado **Zone2** en la carpeta **EmbeddedChannels** .
+   1. Arrastre y suelte un vídeo en este canal.
+   La siguiente figura muestra los canales **Zone1** y **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Si desea que las zonas muestren la secuencia de imágenes y un vídeo en dos zon
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Añada un vídeo al editor del canal de secuencia de **Zone2** , como se muestra en la figura siguiente:
+   El vídeo agregado al editor del canal de secuencia de **Zone2** se muestra a continuación:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Si desea que las zonas muestren la secuencia de imágenes y un vídeo en dos zon
 
    1. Vaya a **Zones** —> **Canales** —> **MultiZone**.
    1. Haga clic en **Editar** en la barra de acciones para abrir el editor.
-   1. Arrastre y suelte el componente Secuencia **** incrustada en dos de las zonas.
+   1. Arrastre y suelte el componente Secuencia **** incrustada en ambas zonas.
    1. Seleccione la secuencia incrustada en una de las zonas.
    1. Haga clic en el icono **Configurar** (llave inglesa) en una de las secuencias incrustadas en el editor.
    1. Seleccione la ruta de canal como **Zonas** —> **Canales** —> **Canales** incrustados —> **Zona1**, como se muestra en la figura siguiente.
