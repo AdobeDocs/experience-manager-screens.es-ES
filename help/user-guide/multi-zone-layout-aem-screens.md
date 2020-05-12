@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -176,7 +176,7 @@ Una vez que haya configurado una ubicación y una pantalla, siga los pasos a con
    >[!NOTE]
    >Si intenta vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión desde el panel de canal.
 
-#### Visualización del resultado {#viewing-the-result}
+### Visualización del resultado {#viewing-the-result}
 
 Una vez implementados los diseños de varias zonas mediante los pasos anteriores, se muestra el siguiente resultado.
 
