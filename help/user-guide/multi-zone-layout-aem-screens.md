@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 4%
@@ -151,7 +151,7 @@ Debe asignar los canales a la pantalla para la vista del contenido. Siga los pas
    1. Defina los Eventos **** admitidos como Carga **** inicial, **Pantalla** inactiva y **Temporizador**.
    1. Haga clic en **Guardar**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Del mismo modo, debe asignar los otros dos canales incrustados (**Zone1** y **Zone2**) a esta pantalla mediante el paso (2).
    1. Una vez que asigne los tres canales a la pantalla **Punto de encuentro** , deberá poder realizar la vista de los canales asignados desde el panel de visualización.
 
