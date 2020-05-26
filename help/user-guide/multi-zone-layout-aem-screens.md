@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ Al crear un canal, puede utilizar distintas plantillas para crear zonas en el ca
 
 ### Uso de recursos únicos en una o varias zonas {#using-single-assets-in-one-or-more-zones}
 
-Puede utilizar recursos únicos como una imagen o un vídeo en las tres zonas diferentes. Siga los pasos a continuación para la implementación:
+Puede utilizar recursos únicos como una imagen o un vídeo en todas las zonas individuales. Siga los pasos a continuación para la implementación:
 
 1. **Añadir contenido al Canal**
 
@@ -76,7 +76,7 @@ Puede utilizar recursos únicos como una imagen o un vídeo en las tres zonas di
 
 ### Uso de contenido secuencial en una o varias zonas {#using-sequenced-content-in-one-or-more-zones}
 
-Si desea que las zonas muestren la secuencia de imágenes y un vídeo en dos zonas diferentes, siga los pasos a continuación para obtener más información.
+Si desea que las zonas muestren la secuencia de imágenes y un vídeo en las distintas zonas, siga los pasos a continuación para obtener más información.
 
 1. **Creación de una carpeta de Canal**
 
@@ -174,7 +174,7 @@ Una vez que haya configurado una ubicación y una pantalla, siga los pasos a con
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Seleccione **Asignar visualización** y seleccione la ruta de acceso a la configuración del dispositivo.
    >[!NOTE]
-   >Si intenta vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión desde el panel de canal.
+   >Si está intentando vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión en el panel de canal para cada uno de los canales asignados a la pantalla.
 
 ### Visualización del resultado {#viewing-the-result}
 
