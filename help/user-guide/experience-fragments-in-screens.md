@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -71,11 +71,9 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
 
 1. **Navegue a la página Sitios en We.Retail**
 
-   1. Vaya a Sitios y seleccione **We.Retail In-Store** -> Estados **** Unidos ->**Inglés** y seleccione la página **Equipo** para utilizarla como fragmento de experiencia para el canal Pantallas.
+   1. Vaya a Sitios y seleccione **We.Retail In-Store** -> **Canales** ->Canales **inactivos - Noche** y seleccione esta página para utilizarla como fragmento de experiencia en el canal Pantallas.
 
    1. Haga clic en **Editar** en la barra de acciones para abrir la página que desee utilizar como fragmento de experiencia para el canal Pantallas.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Reutilización del contenido**
 
