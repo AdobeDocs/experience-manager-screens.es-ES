@@ -10,7 +10,10 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ Esta sección proporciona información general sobre la función SmartSync y có
 
 ## Información general {#overview}
 
-SmartSync es el mecanismo más reciente utilizado por AEM Screens. Sirve como reemplazo del método actual utilizado para almacenar en caché los canales sin conexión y entregarlos al reproductor.
+SmartSync es el mecanismo más reciente utilizado por AEM Screens. Sirve como reemplazo del método actual utilizado para almacenar en caché canales sin conexión y entregarlos al reproductor.
 
 Se ejecuta tanto en el lado del servidor como en el lado del cliente.
 
@@ -38,9 +41,9 @@ Se ejecuta tanto en el lado del servidor como en el lado del cliente.
 
 La función SmartSync ofrece una serie de ventajas para el proyecto de AEM Screens. Permite
 
-* Reducción drástica de los requerimientos de tráfico de red y almacenamiento de información en el lado del servidor
+* Reducción drástica de los requerimientos de tráfico de red y almacenamiento del lado del servidor
 * El reproductor descarga los recursos de forma inteligente solo si el recurso falta o se cambia
-* Optimizaciones de almacenamiento de información del lado del servidor y del lado del cliente
+* Optimizaciones de almacenamiento del lado del servidor y del lado del cliente
 
 >[!NOTE]
 >
@@ -50,7 +53,7 @@ La función SmartSync ofrece una serie de ventajas para el proyecto de AEM Scree
 
 >[!NOTE]
 >
->Si ya ha instalado AEM 6.3 Feature Pack 5 y AEM 6.4 Feature Pack 3, puede activar SmartSync para los recursos para mejorar el uso del espacio en disco. Para habilitar SmartSync, siga la sección siguiente para realizar la transición de ContentSync a SmartSync, habilitando SmartSync.
+>Si ya ha instalado AEM 6.3 Feature Pack 5 y AEM 6.4 Feature Pack 3, puede activar SmartSync para los recursos para mejorar el uso del espacio en disco. Para habilitar SmartSync, siga la sección siguiente para la transición de ContentSync a SmartSync, habilitando SmartSync.
 >
 >SmartSync está disponible para Screens Player con servidores compatibles con AEM 6.4.3 FP3.
 >
@@ -62,7 +65,7 @@ La función SmartSync ofrece una serie de ventajas para el proyecto de AEM Scree
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
-Siga los pasos a continuación para realizar la transición de ContentSync a SmartSync:
+Siga los pasos a continuación para la transición de ContentSync a SmartSync:
 
 1. La migración de ContentSync a SmartSync requiere borrar la caché de ContentSync antes de activar SmartSync.
 
@@ -74,11 +77,11 @@ Siga los pasos a continuación para realizar la transición de ContentSync a Sma
    >
    >Se debe borrar toda la caché de contenido antes de utilizar SmartSync por primera vez.
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante la instancia de AEM —&gt; icono de martillo —&gt; **Operaciones** —&gt; Consola **** web.
+1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante la instancia de AEM —> icono de martillo —> **Operaciones** —> Consola **** web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Configuración de la consola web de Adobe Experience Manager **se abre. Busque *offlinecontentservices*.
+1. **Configuración de la consola web de Adobe Experience Manager **se abre. Busque *offlinecontentservice*.
 
    Para buscar la propiedad **Screens Offline Content Service** , pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
