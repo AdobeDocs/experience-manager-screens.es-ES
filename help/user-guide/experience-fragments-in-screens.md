@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Esta página cubre los siguientes temas:
 
 * **Información general**
 * **Uso de fragmentos de experiencias en AEM Screens**
-* **Propagación de cambios desde la página de formato**
+* **Propagación de cambios en la página**
 
 ## Información general {#overview}
 
@@ -79,6 +79,7 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
 
    1. Seleccione el fragmento que desee incluir en el canal.
    1. Haga clic en el último icono de la derecha para abrir el cuadro de diálogo **Convertir en fragmento** de experiencia.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Creación del fragmento de experiencia**
@@ -91,12 +92,14 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
    1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. Haga clic en la marca de verificación para completar la creación de un nuevo fragmento de experiencia.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Creación de Live Copy del fragmento de experiencias**
 
    1. Vaya a la página de inicio de AEM.
    1. Seleccione Fragmentos **de** experiencia, resalte el **fragmento** Pantallas y haga clic en **Variación como Live Copy**, como se muestra en la figura siguiente:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Seleccione el** Fragmento de pantalla*** en el asistente **Crear Live Copy** y haga clic en **Siguiente**.
@@ -118,6 +121,7 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
    1. Vaya a **ScreensFragment** (creado en los pasos anteriores) y haga clic en **Propiedades** en la barra de acciones.
 
    1. Seleccione la ficha Configuración **** sin conexión, como se muestra en la figura siguiente.
+
    Puede agregar las bibliotecas **del lado del** cliente (java y css) y los archivos **estáticos** al fragmento de experiencia.
 
    En el siguiente ejemplo se muestra la adición de bibliotecas de cliente y fuentes como parte de archivos estáticos al fragmento de experiencia.  ![fragmento](assets/fragment.gif)
@@ -129,6 +133,7 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
 
    1. Haga clic en el icono de componentes en la ficha lateral.
    1. Arrastre y suelte el fragmento de **experiencias** en el canal.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Seleccione el componente Fragmento **de** experiencia y seleccione el icono superior izquierdo (llave inglesa) para abrir el cuadro de diálogo Fragmento de **experiencia** .
@@ -163,7 +168,7 @@ Tras completar los pasos anteriores, puede validar el fragmento de experiencia e
 vista del contenido desde la página **Sitios** (Live Copy del fragmento de experiencia) en el canal, como se muestra en la figura siguiente:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Propagación de cambios desde la página de formato {#propagating-changes-from-the-master-page}
+## Propagación de cambios en la página {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** se refiere a la copia (del origen), mantenida mediante acciones de sincronización tal como se define en las configuraciones de despliegue.
 
