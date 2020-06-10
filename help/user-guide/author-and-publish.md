@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 2%
 
 ---
 
@@ -56,7 +59,7 @@ Para crear agentes de replicación, debe aprender a crear un agente de replicaci
 
 Existen 3 agentes de replicación que se necesitan para las pantallas:
 
-1. **Agente de replicación predeterminado ***(especificado como***agente **de replicación estándar)
+1. **Agente de replicación predeterminado ***(especificado como***agente** de replicación estándar)
 1. **Agente de replicación de pantallas**
 1. **Agente de replicación inversa**
 
@@ -101,7 +104,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
    >También puede copiar y cambiar el nombre de un agente de replicación predeterminado existente.
 
 
-#### Creación de Agentes de Replicación Estándar {#creating-standard-replication-agents}
+#### Creación de Agentes de Replicación Estándar  {#creating-standard-replication-agents}
 
 1. Crear un agente de replicación estándar para pub1 (el agente predeterminado ya debería estar configurado) (por ejemplo, *https://&lt;hostname>:4503/bin/received?sling:authRequestLogin=1*)
 1. Cree un agente de replicación estándar para pub2. Puede copiar el agente de rep para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname>:4504/bin/received?sling:authRequestLogin=1*)
@@ -129,7 +132,7 @@ Para cada instancia de publicación:
 1. Actualizar direcciones URL del conector de topología: agregue direcciones URL de todas las instancias de publicación de participación que sean:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Lista blanca del conector de topología: adaptarse a las IP o subredes que cubren instancias de publicación de participación
+1. Lista permitida del conector de topología: adaptarse a las IP o subredes que cubren instancias de publicación de participación
 1. Habilitar bucles locales de detención **automática**
 
 La configuración debe ser idéntica para cada instancia de publicación y el bucle local de parada automática evita un bucle infinito.
@@ -153,7 +156,7 @@ En cada instancia de publicación:
 Dado que cada instancia de publicación tiene claves criptográficas únicas de forma predeterminada, debe realizar este paso en cada instancia de pub y guardar la clave única para la siguiente configuración.
 
 >[!NOTE]
->La contraseña debe comenzar y finalizar con llaves.
+>La contraseña debe inicio y terminar con llaves.
 >Por ejemplo:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
 
 #### Paso 4: Activar clúster de artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
@@ -164,21 +167,21 @@ En cada instancia de publicación:
 1. Seleccione la configuración del proveedor **de JMS de** Apache ActiveMQ Artemis
 1. Actualice lo siguiente:
 
-* ***Contraseña ***del clúster: (utilice un valor cifrado del paso anterior por instancia respectiva)
-* ***Temas ***: {name: &#39;comandos&#39;, dirección: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
+* ***Contraseña*** del clúster: (utilice un valor cifrado del paso anterior por instancia respectiva)
+* ***Temas***: {name: &#39;comandos&#39;, dirección: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
 
 #### Verificar el clúster de artemis de ActiveMQ {#verify-activemq-artemis-cluster}
 
 Siga los pasos a continuación en cada instancia de Publish:
 
 1. Vaya a la Consola OSGi -> Principal > Artemis ActiveMQ `[https://localhost:4505/system/console/mq`.
-1. Verifique y verifique para ver los puertos de otras instancias en Información de clúster > Topología > nodos=2, miembros=2.
+1. Compruebe y verifique la vista de los puertos de otras instancias en Información del clúster > Topología > nodos=2, miembros=2.
 1. Enviar un mensaje de prueba (en la parte superior de la pantalla, en Información del agente)
 1. Introduzca los siguientes cambios en los campos:
 
    1. **Destino**: /com.adobe.cq.screen/devTestTopic
    1. **Texto**: Hola a todos
-   1. Vea el error.log de cada instancia para ver que el mensaje se envió y recibió en el clúster
+   1. Vista el error.log de cada instancia para ver que el mensaje se ha enviado y recibido en el clúster
 
 >[!NOTE]
 >
@@ -190,23 +193,23 @@ Si no ve la siguiente configuración desde */system/console/mq*, vaya a */system
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
-#### Eliminar requisito de encabezado de referente {#remove-referrer-header-requirement}
+#### Eliminar el requisito de encabezado de remitente del reenvío {#remove-referrer-header-requirement}
 
 Siga los pasos de cada instancia de Publish:
 
 1. Vaya a la Consola **** OSGi > Administrador **de configuración**
-1. Seleccionar el filtro de referente Sling de **Apache**
+1. Seleccionar el filtro de Remitente del reenvío Sling de **Apache**
 1. Actualizar configuración y **marcar Permitir vacío**
 
 ### Configuración de la instancia de creación y publicación {#configuring-author-and-publish-instance}
 
-Una vez configurada la topología de publicación, debe configurar las instancias de creación y publicación para ver los resultados prácticos de la implementación:
+Una vez configurada la topología de publicación, debe configurar las instancias de creación y publicación para vista de los resultados prácticos de la implementación:
 
 >[!NOTE]
 >
 >**Requisitos previos**
 >
->Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens y, a continuación, cree una ubicación, una pantalla y un canal en el proyecto. Agregue contenido a su canal y asígnele un canal a una pantalla.
+>Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens y, a continuación, cree una ubicación, una pantalla y un canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
 
 #### Paso 1: Inicio de AEM Screens Player (dispositivo) {#step-starting-an-aem-screens-player-device}
 
@@ -221,7 +224,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 
 1. Vaya a su proyecto `https://localhost:4502/screens.html/content/screens/we-retail` o selecciónelo y vaya a Dispositivos > Administrador de dispositivos.
 1. Seleccione **Registrar dispositivo**.
-1. Haga clic en Registro **del** dispositivo para ver el dispositivo.
+1. Haga clic en Registro **del** dispositivo para realizar la vista del dispositivo.
 1. Select the device you want to register and click **Register Device**.
 1. Compruebe el código de registro y haga clic en **Validar**.
 1. Escriba un título para el dispositivo y haga clic en **Registrar**.
@@ -233,7 +236,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 1. Click **Assign**.
 1. Click **Finish** to complete the process, and now the device is assigned.
 
-Compruebe el reproductor y verá el contenido que agregó en el canal.
+Comprueba tu reproductor y verás el contenido que agregaste en tu canal.
 
 #### Paso 4: Configuración de dispositivo de publicación para instancias de publicación {#step-publishing-device-configuration-to-publish-instances}
 
@@ -265,35 +268,35 @@ También puede activar el dispositivo desde la consola de administración de dis
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### Lista de comprobación de publicación {#publishing-check-list}
+### lista de comprobación de publicación {#publishing-check-list}
 
-Los siguientes puntos resumen la lista de comprobación de publicaciones:
+Los siguientes puntos resumen la lista de comprobación de publicación:
 
 * *Usuario* de dispositivo de pantallas: se almacena como usuario de AEM y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le añadirá el prefijo &quot;screen&quot; con una cadena serializada larga.
 
 * *Proyecto* : proyecto de AEM Screens.
 * *Ubicación* : ubicación a la que está conectado el dispositivo.
-* *Canales:* uno o más canales que se muestran en la ubicación
+* *Canales* : uno o más canales que se muestran en la ubicación
 * *Programación* : si utiliza una programación, asegúrese de que se publique
-* *Ubicación, Programas y Carpeta* de canal: si los recursos correspondientes están dentro de una carpeta.
+* *Ubicación, Programas y Carpeta* de Canal: si los recursos correspondientes están dentro de una carpeta.
 
 Siga los pasos a continuación para comprobar el comportamiento de autor y publicación:
 
-1. Actualizar contenido de canal en la instancia de autor
+1. Actualizar contenido de canal en la instancia de creación
 1. Realice **Administrar publicación** para publicar nuevos cambios en todas las instancias de publicación
 1. Pulse **Activar** para activar el dispositivo desde el Administrador **de dispositivos**
 1. **Editar URL** desde la URL de la instancia de autor a una de las URL de instancias de publicación
-1. Verificación de la visualización del contenido del canal actualizado en el reproductor de AEM Screens
+1. Verificación de la visualización del contenido de canal actualizado en el reproductor de AEM Screens
 1. Repita estos pasos con una instancia de publicación diferente
 
 
 #### Paso 5: Señalar la instancia de dispositivo para publicar en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Vea la interfaz de usuario de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens con capacidad táctil o con un ratón.
+1. Haga una Vista de la IU de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens activado o con un ratón.
 1. Haga clic en la opción **Configuración** del panel lateral.
 1. Cambiar la instancia de autor a la instancia de publicación en **el servidor**.
 
-Vea los cambios en el reproductor de AEM Screens.
+Vista de los cambios en el reproductor de AEM Screens.
 
 También puede actualizar o editar la URL del servidor desde la consola de administración de dispositivos siguiendo los pasos siguientes:
 
