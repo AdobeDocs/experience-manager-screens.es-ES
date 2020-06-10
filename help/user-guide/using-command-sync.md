@@ -4,7 +4,10 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 En la página siguiente se describe cómo utilizar la sincronización de comandos. La sincronización de comandos permite la reproducción sincronizada entre distintos reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
 
 >[!IMPORTANT]
->Esta función no admite secuencias incrustadas, secuencias incrustadas dinámicas, canales de aplicación o transiciones.
+>Esta función no admite secuencias incrustadas, secuencias incrustadas dinámicas, Canales de aplicaciones o Transiciones.
 
 ## Información general {#overview}
 
@@ -22,7 +25,7 @@ Las soluciones de señalización digital necesitan admitir paredes de vídeo y r
 
 Para utilizar la sincronización de comandos, un reproductor actúa como *maestro* y envía el comando, y todos los demás reproductores actúan como *clientes* y se reproducen cuando reciben el comando.
 
-El *maestro* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir y/o el HTML externo del elemento que se va a reproducir.
+El *maestro* envía un comando a todos los clientes registrados cuando está a punto de inicio de la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir y/o el HTML externo del elemento que se va a reproducir.
 
 ## Implementación de sincronización de comandos {#using-command-sync}
 
@@ -35,13 +38,13 @@ En la sección siguiente se describe cómo puede utilizar la sincronización de 
 
 Antes de utilizar la función de sincronización de comandos, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
 
-1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
+1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **CommandSyncDemo** y una secuencia de canal **ChannelLobby**.
 
    ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de canales](/help/user-guide/managing-channels.md)
+   >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de Canales](/help/user-guide/managing-channels.md)
 
    El canal contiene el siguiente contenido, como se muestra en la figura a continuación.
 
@@ -68,9 +71,9 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 1. Para fines de demostración, este ejemplo muestra un dispositivo cromado y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
    ![image1](assets/command-sync6.png)
 
-### Actualización de la configuración de canal
+### Actualización de la configuración de Canal
 
-1. Vaya a **ChannelLobby** y haga clic en **Editar** en la barra de acciones para actualizar la configuración del canal.
+1. Vaya a **ChannelLobby** y haga clic en **Editar** en la barra de acciones para actualizar la configuración de canal.
 
 1. Seleccione todo el canal como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync7-1.png)
@@ -85,7 +88,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
 ### Configuración de un patrón {#setting-up-master}
 
-1. Vaya al tablero de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla** del vestíbulo y haga clic en **Tablero** desde la barra de acciones.
+1. Vaya al panel de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla** del vestíbulo y haga clic en **Panel** en la barra de acciones.
 Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISPOSITIVOS** , como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -110,7 +113,7 @@ Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el p
 1. Seleccione el dispositivo en la lista y haga clic en **Guardar**.
 
    >[NOTA:]
-   > El cuadro de diálogo **Sincronizar con dispositivo** maestro mostrará la lista de dispositivos maestros. Puede seleccionar una de sus preferencias.
+   > El cuadro de diálogo **Sincronizar con dispositivo** maestro mostrará la lista de los dispositivos maestros. Puede seleccionar una de sus preferencias.
 
 1. Una vez que el dispositivo (reproductor de Windows) se sincroniza con el maestro (reproductor de Chrome), verá el dispositivo sincronizado en el panel **DISPOSITIVOS** .
 
