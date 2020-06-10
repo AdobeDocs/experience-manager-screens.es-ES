@@ -1,10 +1,13 @@
 ---
 title: Funciones y responsabilidades del proyecto de AEM Screens
 seo-title: Funciones y responsabilidades del proyecto de AEM Screens
-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
-seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
+description: En la página se describen las funciones y responsabilidades del proyecto de AEM Screens
+seo-description: En la página se describen las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +27,7 @@ El diagrama a continuación muestra las funciones a las que nos referiremos en t
 
 ## Definición de funciones {#roles}
 
-En la sección siguiente se proporciona información general sobre la audiencia de destino:
+La siguiente sección proporciona información general sobre la audiencia de destinatario:
 
 ### Adobe {#adobe-audience}
 
@@ -60,16 +63,16 @@ Es fundamental seleccionar el socio de hardware adecuado. Deben tenerse en cuent
 
 ### Encargados de estrategias comerciales {#business-strategist}
 
-Los Estrategas Comerciales representan a los responsables de la toma de decisiones de la empresa. Esta función está muy involucrada en las etapas de descubrimiento y requisitos y es el principal impulsor del proyecto.
+Los estrategas empresariales representan a los encargados de adoptar decisiones en la compañía. Esta función está muy involucrada en las etapas de descubrimiento y requisitos y es el principal impulsor del proyecto.
 
 Son los que definen los requisitos y configuran las métricas de KPI. La estrategia comercial podría ser la siguiente:
 
 * Marketing o,
-* Gerente de ventas Digital Strategy Manager Creativos / Administración de contenido.
+* Gestor de contenido/Creativos de Sales Manager Digital Strategy Manager.
 
-El equipo de Creativos y Administración de Contenido trabaja en estrecha colaboración con el equipo de Estrategia y convierte los requisitos en experiencias con los clientes. Controlan el diseño UX general y conservan el contenido que complementa la marca.
+El equipo de creativos y Gestoras de contenido colabora estrechamente con el equipo de la Estrategia y convierte los requisitos en experiencias con los clientes. Controlan el diseño UX general y conservan el contenido que complementa la marca.
 
-La Administración de contenido y elementos creativos podría ser la siguiente:
+Los elementos creativos y el Gestor de contenido podrían ser los siguientes:
 
 * Creative Agency o
 * Administrador de marcas
@@ -80,7 +83,7 @@ Los jefes de proyecto suelen administrar la implementación completa de la imple
 
 >[!NOTE]
 >
-> Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia a la que va dirigido un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+> Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Etapas del proyecto {#project-stages}
@@ -89,7 +92,7 @@ Para apoyar una implementación exitosa de Digital Signage, es habitual segmenta
 
 1. La primera etapa se denomina *Día cero*. Esta etapa incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir completamente el alcance del proyecto.
 
-1. La segunda etapa, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de despliegue.
+1. La segunda etapa, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de implementación.
 
 1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y a los elementos de apoyo como parte de la solución total.
 
@@ -125,7 +128,7 @@ La siguiente tabla resume el **Día cero: Consideraciones** previas a la venta:
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación de los objetivos estratégicos | CI | I | RA | RA |
-| Necesidades de informes e identificación del ROI | I | C | RA | C |
+| Necesidades de Sistema de informes e identificación del ROI | I | C | RA | C |
 | Visitas al sitio y requisitos de hardware | RA | I | C | C |
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
@@ -136,7 +139,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 |---|---|---|---|---|
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y la programación del proyecto | RA | RA | C | C |
-| Evaluar entornos de servidor actuales | I | RA | I | I |
+| Evaluar Entornos actuales del servidor | I | RA | I | I |
 | Requisitos de diseño de UX | I | RA | C | RA |
 | Validación de requisitos técnicos | I | RA | RA | C |
 | Diseño de arquitectura | I | RA | I | I |
@@ -154,7 +157,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (preparaci
 
 | **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| Ordenación y almacenamiento de hardware | RA | I | I | I |
+| Pedidos y Almacenamientos de hardware | RA | I | I | I |
 | Programa de integración comercial | I | I | C | RA |
 | Prueba de aceptación del usuario de ensayo | I | C | RA |  |
 | Configuración masiva de hardware | RA | I | C | I |
@@ -167,7 +170,7 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
 | Selección de hardware del reproductor | RAC | - | - | - |
-| Administración maestra de dispositivos | RA | I | - | - |
+| Administración de dispositivos del maestro | RA | I | - | - |
 | Ordenación y almacenamiento de dispositivos y configuración | RA | CI | I | - |
 | Definición del proceso de soporte | RA | I | RA | C |
 
@@ -175,15 +178,15 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 >
 > Las funciones cambian durante el día dos (compatibilidad con el lanzamiento posterior).
 
-* **Autor**: Administración de contenido + Estrategia
+* **Autor**: Gestor de contenido + Estrategia
 
 * **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o el envío al equipo de desarrollo interno
 
-* **Técnico**: Ya sea contratado por el integrador de AV o es parte de la misma empresa.
+* **Técnico**: Ya sea contratado por el integrador AV o es parte de la misma compañía.
 
 La siguiente tabla resume el **Día dos: Gráfico** RACI de compatibilidad con postinicio:
 
-| **Fase** | **Creación** | **Desarrollador** | **Técnico** |
+| **Fase** | **Autor** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
 | *Día dos: Compatibilidad con postinicio* |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA |
