@@ -4,12 +4,18 @@ seo-title: Lista de comprobación de seguridad para AEM Screens
 description: En la página se describe la lista de comprobación de seguridad para AEM Screens
 seo-description: En la página se describe la lista de comprobación de seguridad para AEM Screens
 translation-type: tm+mt
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 1%
 
 ---
 
 
 # Consideraciones de seguridad del sistema para AEM Screens {#security-checklist}
+
+>[!IMPORTANT]
+>Se trata de un recurso Git interno.
 
 Esta página resalta las consideraciones de seguridad del sistema para pantallas AEM.
 
