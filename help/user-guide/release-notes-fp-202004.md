@@ -4,7 +4,7 @@ seo-title: Notas de la versión de Feature Pack 2004
 description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 AEM Screens ha lanzado AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) con su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
 
 ## Fecha de la versión {#release-date}
 
