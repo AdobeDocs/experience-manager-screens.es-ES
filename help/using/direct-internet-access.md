@@ -2,7 +2,7 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -39,7 +39,7 @@ La configuración de red de acceso directo puede separarse lógicamente en dos b
 ### Conexión WAN/Internet {#wan-connection}
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de red ya descrita, proporciona un ancho de banda suficiente para que las pantallas AEM funcionen correctamente y sin problemas. En detalle, &quot;suficiente&quot; depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
-Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente a la vez que se agregan más consumidores/equipos a la red.
+Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente mientras se agregan más consumidores/equipos a la red.
 
 ### Conexión LAN {#lan-connection}
 
@@ -55,7 +55,7 @@ Para aquellos casos de uso en los que hay más interacciones con sensores u otro
 
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red:
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >La información le permite vista del consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Así que cada una de esas solicitudes suman y extienden el tiempo de descarga.
