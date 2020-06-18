@@ -1,13 +1,11 @@
 ---
 title: Configuración de red móvil
-seo-title: Configuración de red móvil
 description: La página describe Configuración de red móvil
-seo-description: La página describe Configuración de red móvil
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 4%
+source-wordcount: '13'
+ht-degree: 7%
 
 ---
 
