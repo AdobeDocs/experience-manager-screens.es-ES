@@ -1,8 +1,8 @@
 ---
 title: Configuración del autor y la publicación en AEM Screens
 seo-title: Configuración del autor y la publicación en AEM Screens
-description: La arquitectura de AEM Screens se parece a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
-seo-description: La arquitectura de AEM Screens se parece a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
+description: La arquitectura AEM Screens se parece a la arquitectura tradicional AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para aprender a configurar el autor y la publicación para AEM Screens.
+seo-description: La arquitectura AEM Screens se parece a la arquitectura tradicional AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para aprender a configurar el autor y la publicación para AEM Screens.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Esta página resalta los siguientes temas:
 Antes de comenzar con los servidores de creación y publicación, debe tener conocimientos previos de:
 
 * **Topología de AEM**
-* **Creación y gestión de proyectos de AEM Screens**
+* **Creación y administración de proyectos de AEM Screens**
 * **Proceso de registro del dispositivo**
 
 >[!NOTE]
@@ -132,7 +132,7 @@ Para cada instancia de publicación:
 1. Actualizar direcciones URL del conector de topología: agregue direcciones URL de todas las instancias de publicación de participación que sean:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Lista permitida del conector de topología: adaptarse a las IP o subredes que cubren instancias de publicación de participación
+1. **Conector de topología Lista** blanca: adaptarse a las IP o subredes que cubren instancias de publicación de participación
 1. Habilitar bucles locales de detención **automática**
 
 La configuración debe ser idéntica para cada instancia de publicación y el bucle local de parada automática evita un bucle infinito.
@@ -209,16 +209,16 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 >
 >**Requisitos previos**
 >
->Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens y, a continuación, cree una ubicación, una pantalla y un canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
+>Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens seguido de la creación de una ubicación, visualización y canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
 
-#### Paso 1: Inicio de AEM Screens Player (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Paso 1: Inicio de un reproductor de AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
 
 1. Abra una nueva ventana del navegador.
 1. Go to Screens player using the *web browser*, that is,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Cuando abra el dispositivo, verá el estado de este como no registrado.
 
 >[!NOTE]
 >
->Puede abrir un reproductor de AEM Screens con la aplicación AEM Screens que ha descargado o con el navegador web.
+>Puede abrir un reproductor de AEM Screens mediante la aplicación de AEM Screens que ha descargado o mediante el navegador web.
 
 #### Paso 2: Registro de un dispositivo en el autor {#step-registering-a-device-on-author}
 
@@ -254,7 +254,7 @@ Siga los pasos a continuación para replicar el usuario del dispositivo:
 >
 >No active author-publish-screen-service ya que es un usuario del sistema, utilizado por el trabajo del autor.
 
-También puede activar el dispositivo desde la consola de administración de dispositivos. Siga los pasos a continuación:
+También puede activar el dispositivo desde la consola de administración de dispositivos. Complete los siguientes pasos:
 
 1. Vaya a su proyecto Pantallas —> **Dispositivos**.
 1. Click **Device Manager** from the action bar.
@@ -274,7 +274,7 @@ Los siguientes puntos resumen la lista de comprobación de publicación:
 
 * *Usuario* de dispositivo de pantallas: se almacena como usuario de AEM y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le añadirá el prefijo &quot;screen&quot; con una cadena serializada larga.
 
-* *Proyecto* : proyecto de AEM Screens.
+* *Proyecto* - El proyecto AEM Screens.
 * *Ubicación* : ubicación a la que está conectado el dispositivo.
 * *Canales* : uno o más canales que se muestran en la ubicación
 * *Programación* : si utiliza una programación, asegúrese de que se publique
@@ -286,17 +286,17 @@ Siga los pasos a continuación para comprobar el comportamiento de autor y publi
 1. Realice **Administrar publicación** para publicar nuevos cambios en todas las instancias de publicación
 1. Pulse **Activar** para activar el dispositivo desde el Administrador **de dispositivos**
 1. **Editar URL** desde la URL de la instancia de autor a una de las URL de instancias de publicación
-1. Verificación de la visualización del contenido de canal actualizado en el reproductor de AEM Screens
+1. Compruebe que el contenido de canal actualizado se muestra en el reproductor de AEM Screens
 1. Repita estos pasos con una instancia de publicación diferente
 
 
 #### Paso 5: Señalar la instancia de dispositivo para publicar en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Haga una Vista de la IU de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens activado o con un ratón.
+1. Haga una Vista de la IU de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens con capacidad táctil o con un ratón.
 1. Haga clic en la opción **Configuración** del panel lateral.
 1. Cambiar la instancia de autor a la instancia de publicación en **el servidor**.
 
-Vista de los cambios en el reproductor de AEM Screens.
+Vista los cambios en el reproductor de AEM Screens.
 
 También puede actualizar o editar la URL del servidor desde la consola de administración de dispositivos siguiendo los pasos siguientes:
 
