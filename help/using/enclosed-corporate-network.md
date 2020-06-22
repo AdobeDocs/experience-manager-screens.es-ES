@@ -2,7 +2,7 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La configuración de red corporativa adjunta puede separarse lógicamente en dos
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de red ya descrita, proporciona un ancho de banda suficiente para operar AEM Screens sin problemas y sin problemas.
 En detalle, &quot;suficiente&quot; depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
-Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente a la vez que se agregan más consumidores/equipos a la red.
+Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente mientras se agregan más consumidores/equipos a la red.
 
 ### Red de área local {#lan-connection}
 
@@ -45,3 +45,5 @@ Para el funcionamiento normal, por ejemplo, si se ha definido una lista de repro
 Las siguientes tablas oferta una buena visión general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los posibles tiempos de espera.
 
 Toda la información debe considerarse como el consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Así que cada una de esas solicitudes suman y extienden el tiempo de descarga.
+
+![](/help/using/assets/enclosed-network-download.png)
