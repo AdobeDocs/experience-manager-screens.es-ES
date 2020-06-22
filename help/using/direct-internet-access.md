@@ -2,9 +2,9 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Los puertos pueden variar debido a la configuración de la configuración dedica
 La configuración también incluye un acceso a Internet por parte de cualquier Proveedor de servicio de Internet (ISP) y su línea de Internet. La mayoría de los ISP proporcionan un router de Internet que abarca el módem de Internet, el conmutador de red, el punto de acceso WIFI, el cortafuegos y otras funcionalidades de red (según el fabricante y el modelo).
 
 >[!NOTE]
->**Sugerencia para la resolución de problemas **>Si los AEM Screens no se conectan correctamente y muestran el contenido esperado:
+>**Sugerencia para la resolución de problemas **>Si los AEM Screens no se conectan correctamente y no muestran el contenido esperado:
 >
 >1. Compruebe el servidor de seguridad del enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
 >1. Asegúrese de que todos los puertos necesarios están permitidos e inténtelo de nuevo.
