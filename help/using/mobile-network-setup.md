@@ -2,9 +2,9 @@
 title: Configuración de red móvil
 description: La página describe Configuración de red móvil
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Configuraciones de red móvil {#mobile-network-setup}
 
-Los reproductores de AEM Screens de Adobe también se pueden conectar mediante redes móviles/móviles que ejecuten al menos una red 3G.
-Dentro de los AEM Screens, el contenido necesario se descarga físicamente al controlador del reproductor/equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y no influye en el rendimiento de los sistemas de visualización.
-Conexión de reproductores de AEM Screens con una conexión móvil 3/4/5G a su proveedor de datos de Mobile Service. La ventaja de esta configuración es que el router móvil se puede colocar en un punto optimizado para garantizar la mejor cobertura de red disponible. Normalmente se encuentra en una posición elevada y abierta con la menor construcción de hormigón o metal que sea posible.
-Este SetUp permite a los usuarios de pantalla de AEM una buena flexibilidad, ya que no se requiere una línea fija para conectar AEM Screens.
+AEM Screens Los reproductores también pueden conectarse mediante redes móviles o móviles que ejecuten al menos una red 3G.
 
+Dentro de los AEM Screens, el contenido requerido se descarga físicamente al controlador del reproductor o al equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y no influye en el rendimiento de los monitores.
+
+Conexión de reproductores de AEM Screens con una conexión móvil 3/4/5G a su proveedor de datos de Mobile Service. La ventaja de esta configuración es que el router móvil se puede colocar en un punto optimizado para garantizar la mejor cobertura de red disponible. Normalmente se encuentra en una posición elevada y abierta con la menor construcción de hormigón o metal que sea posible.
+
+Este SetUp permite a los usuarios de pantalla de AEM una buena flexibilidad, ya que no se requiere una conexión fija para conectar AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Este SetUp permite a los usuarios de pantalla de AEM una buena flexibilidad, ya 
 >
 >1. Compruebe el servidor de seguridad del enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
 >1. Asegúrese de que todos los puertos necesarios están permitidos e inténtelo de nuevo.
-
 
 
 
