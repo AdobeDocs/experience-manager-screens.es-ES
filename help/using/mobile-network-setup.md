@@ -2,9 +2,9 @@
 title: Red móvil directa
 description: La página describe la configuración de red móvil directa
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Siga los pasos a continuación para conectar los reproductores de pantalla de AE
 
 
 1. Asegúrese de que la configuración del adaptador de red coincide con la configuración del router.
-1. Compruebe si el router está correctamente conectado a la red de área amplia ISP (enlace de Internet). Normalmente, esto también se puede identificar mediante un LED de señal en los routers estándar.
+
+1. Compruebe si el router está correctamente conectado a la red de área amplia ISP (enlace de Internet). También se puede identificar mediante un LED de señal en los routers estándar.
 
 1. En caso de que la llamada mediante URL se realice correctamente, puede continuar instalando los AEM Screens y registrarlos según corresponda. AEM Screens de Inicio.
 
@@ -63,7 +64,7 @@ La configuración de red se puede separar lógicamente en dos bloques:
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, proporciona un ancho de banda suficiente para que los AEM Screens funcionen bien y sin problemas.
 
 *Suficiente* depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
-Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente mientras se agregan más consumidores/equipos a la red.
+Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente a la vez que se agregan más consumidores/equipos a la red.
 Además de la conexión de red teórica específica que debe estar asegurada, que la cobertura del router móvil es al menos &quot;buena&quot; (consulte el Manual del router móvil). Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda suficiente para atender a todos los clientes conectados dentro de la LAN conectada.
 
 Las redes de datos proporcionan ancho de banda estándar con:
