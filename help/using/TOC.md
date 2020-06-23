@@ -1,14 +1,14 @@
 ---
 user-guide-title: Guía de prácticas recomendadas para proyectos de AEM Screens
 solution-title: AEM Screens
-getting-started-title: Guía de prácticas recomendadas de AEM Screens
+getting-started-title: Guía de prácticas recomendadas para AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 95%
+source-wordcount: '130'
+ht-degree: 76%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 95%
 + Información sobre la implementación {#deployment-brief}
    + [Configuraciones de la plataforma AEM](aem-platform-configurations.md)
    + [Taxonomía e implementación del proyecto](project-taxonomy-implementation.md)
+   + Administración del tráfico de red {#manage-network-traffic}
+      + [Red de Internet directa (cableada/inalámbrica)](/help/using/direct-internet-network.md)
+      + [Red móvil directa](/help/using/mobile-network.md)
+      + [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)
+      + [Red corporativa cerrada (cableada/inalámbrica)](/help/using/enclosed-corporate-network.md)
    + [Configuraciones de dispositivos](device-configurations.md)
    + [Pruebas y control de calidad](testing-quality-assurance.md)
    + [Estrategia de participación del proveedor](vendor-engagement.md)
