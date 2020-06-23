@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Para el funcionamiento normal, por ejemplo, si se ha definido una lista de repro
 
 Las siguientes tablas oferta una buena visión general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los posibles tiempos de espera.
 
-Toda la información debe considerarse como el consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Así que cada una de esas solicitudes suman y extienden el tiempo de descarga.
+>[!NOTE]
+>Toda la información debe considerarse como el consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/enclosed-network-download.png)
