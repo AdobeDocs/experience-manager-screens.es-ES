@@ -4,15 +4,15 @@ seo-title: Introducción a la configuración de red estándar
 description: La página describe la configuración de red estándar
 seo-description: La página describe la configuración de red estándar
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Introducción a la configuración de red estándar {#intro-standard-networks}
+# Administración del tráfico de red {#managing-network-traffic}
 
 Una configuración de red puede tener varias estructuras. En esta sección se proporciona una visión general de las estructuras de red implementadas en un entorno. Hay diferentes configuraciones que a veces se implementan desde cero.
 
@@ -27,7 +27,7 @@ Un servidor proxy es un equipo dedicado o un sistema de software que se ejecuta 
 
 Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan con frecuencia uno o más sitios de Internet, es probable que estén en la caché del proxy, lo que mejorará el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, lo que puede resultar útil para solucionar problemas.
 
-## Explicación de la configuración de red {#network-setups}
+## Explicación de la configuración de red estándar {#network-setups}
 
 Para implementar una configuración de red, debe consultar los siguientes escenarios con detalles de implementación y fortalezas.
 
