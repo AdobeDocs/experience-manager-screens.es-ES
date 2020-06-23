@@ -4,9 +4,9 @@ seo-title: Introducción a la configuración de red estándar
 description: La página describe la configuración de red estándar
 seo-description: La página describe la configuración de red estándar
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Para implementar una configuración de red, debe consultar los siguientes escena
 
 Existen tres tipos principales de configuraciones de red:
 
-1. [Acceso directo a Internet](/help/using/direct-internet-access.md)
-1. [Red móvil directa](/help/using/mobile-network-setup.md)
-1. [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-setup-router.md)
-1. [Red corporativa adjunta](/help/using/enclosed-corporate-network.md)
+1. [Red de Internet directa (cableada/inalámbrica)](/help/using/direct-internet-network.md)
+1. [Red móvil directa](/help/using/mobile-network.md)
+1. [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)
+1. [Red corporativa cerrada (cableada/inalámbrica)](/help/using/enclosed-corporate-network.md)
 
 La siguiente tabla describe los diferentes tipos de configuraciones de red con ventajas y desventajas:
 
