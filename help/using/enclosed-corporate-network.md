@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ Por ejemplo, los componentes de red deben coincidir al menos con el estándar de
 
 ### Otros aspectos específicos de las redes corporativas {#other-networks}
 
-Normalmente, las redes corporativas tienen una carga de dispositivos conectados, pueden estar separadas en varias subredes y pueden tener conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
-El esquema anterior se simplifica y se ajusta en la mayoría de los casos al entorno disponible para el cliente.
-En caso de que se prevea una solución WiFI para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo estándares WIFI modernos como IEEE 802.11g. Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma &quot;más reciente&quot; como 802.11h-n es de mejor calidad. Si se requiere un Repetidor WIFI, recomendamos encarecidamente las tecnologías de punto de acceso WIFI Mesh como Google Nest Mesh WIFI o similar.
+Generalmente, las redes corporativas tienen una carga de dispositivos conectados, podrían estar separadas en varias subredes y podrían tener conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
+Este esquema se simplifica y se adapta en la mayoría de los casos al entorno disponible para el cliente.
+
+En caso de que se prevea una solución WIFI para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo estándares WIFI modernos, como `IEEE 802.11g` por ejemplo: Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un Repetidor WIFI, recomendamos encarecidamente las tecnologías de punto de acceso WIFI Mesh como Google Nest Mesh WIFI o similar.
 Otras tecnologías de repetición WiFi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
