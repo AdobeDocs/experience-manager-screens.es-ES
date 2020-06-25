@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Siga los pasos que se describen a continuación para garantizar la conexión ade
    >1. Asegúrese de que todos los puertos necesarios están permitidos.
 
 
-## Requisitos para la configuración de redes corporativas cerradas {#requirements-enclosed-networks}
+## Configuración de redes corporativas cerradas {#requirements-enclosed-networks}
 
 La configuración de red corporativa adjunta puede separarse lógicamente en dos bloques:
 
