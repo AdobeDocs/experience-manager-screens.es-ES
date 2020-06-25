@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,33 @@ La configuración de red corporativa adjunta se aplica a las empresas más peque
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## Conexión de AEM Screens Player a Direct Internet Access {#connecting-aem-screens-players}
+
+Siga los pasos que se describen a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
+
+1. Asegúrese de que cada uno de los reproductores de pantalla de AEM está conectado a la red de routers.
+1. Pruebe la conexión a Internet llamando a una dirección URL en el navegador del sistema.
+
+   >[!NOTE]
+   >En caso de que reciba un error, compruebe la configuración de la red.Existen básicamente dos opciones para una conexión de red correcta:
+   >* DHCP
+   >* Configuración manual de IP
+
+
+1. Asegúrese de que la configuración del adaptador de red coincide con la configuración del enrutador y compruebe si no se alcanza la cantidad máxima de direcciones IP disponibles en la red.
+
+1. Compruebe si el router está correctamente conectado a la red de área amplia ISP (enlace de Internet). Esto también se puede identificar mediante un LED de señal en los routers estándar.
+1. Si la llamada mediante URL se realiza correctamente, puede continuar instalando los AEM Screens y registrándose. AEM Screens de Inicio.
+
+   >[!NOTE]
+   >**Sugerencia para la resolución de problemas**
+   >Si los AEM Screens no se conectan correctamente y no se muestra el contenido esperado:
+   >
+   >1. Compruebe el servidor de seguridad del enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
+   >1. Asegúrese de que todos los puertos necesarios están permitidos.
+
+
 ## Requisitos para la configuración de redes corporativas cerradas {#requirements-enclosed-networks}
 
 La configuración de red corporativa adjunta puede separarse lógicamente en dos bloques:
@@ -26,7 +53,7 @@ La configuración de red corporativa adjunta puede separarse lógicamente en dos
 ### Red de área amplia {#wan-connection}
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para que los AEM Screens funcionen bien y sin problemas.
-*El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
+*El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
 
 >[!NOTE]
 >Todos los dispositivos tienen acceso simultáneo a la conexión a Internet y el ancho de banda suele disminuir linealmente cuando se agregan más consumidores o equipos a la red.
@@ -44,8 +71,8 @@ Por ejemplo, los componentes de red deben coincidir al menos con el estándar de
 Generalmente, las redes corporativas tienen una carga de dispositivos conectados, podrían estar separadas en varias subredes y podrían tener conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
 Este esquema se simplifica y se adapta en la mayoría de los casos al entorno disponible para el cliente.
 
-En caso de que se prevea una solución WIFI para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo estándares WIFI modernos, como `IEEE 802.11g` por ejemplo: Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un Repetidor WIFI, recomendamos encarecidamente las tecnologías de punto de acceso WIFI Mesh como Google Nest Mesh WIFI o similar.
-Otras tecnologías de repetición WiFi acaban en una pérdida masiva de ancho de banda en toda la red.
+En caso de que se prevea una solución Wi-Fi para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo `IEEE 802.11g` estándares de conexión Wi-Fi modernos. Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de punto de acceso Wi-Fi de malla como Google Nest Mesh Wi-Fi o similar.
+Otras tecnologías de repetición Wi-Fi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
 
