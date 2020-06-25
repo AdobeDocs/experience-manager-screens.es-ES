@@ -2,9 +2,9 @@
 title: Red móvil directa
 description: La página describe la configuración de red móvil directa
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Siga los pasos que se describen a continuación para garantizar la conexión ade
 
 1. Si la llamada mediante URL se realiza correctamente, puede continuar instalando los AEM Screens y registrándose. AEM Screens de Inicio.
 
-## Requisitos para configurar la configuración de la red móvil {#requirements-direct}
+## Configuración de la red móvil directa {#requirements-direct}
 
 La configuración de red se puede separar lógicamente en dos bloques:
 
