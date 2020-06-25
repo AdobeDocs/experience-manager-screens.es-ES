@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redes corporativas cerradas (cableadas/inalámbricas) {#enclosed-corporate-networks}
 
-La configuración de red corporativa adjunta se aplica a las empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo, pero la configuración lógica se muestra en la siguiente figura.
+La configuración de red corporativa adjunta se aplica a empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo y la configuración lógica se muestra en la figura siguiente.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -53,35 +53,38 @@ La configuración de red corporativa adjunta puede separarse lógicamente en dos
 ### Red de área amplia {#wan-connection}
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para que los AEM Screens funcionen bien y sin problemas.
-*El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
+*El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes de Wi-Fi invitadas.
 
 >[!NOTE]
->Todos los dispositivos tienen acceso simultáneo a la conexión a Internet y el ancho de banda suele disminuir linealmente cuando se agregan más consumidores o equipos a la red.
+>Todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
 
 ### Red de área local {#lan-connection}
 
 El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens sin problemas.
 
-En estos días, la red LAN dentro de las organizaciones corporativas suele coincidir al menos con una red de 1000 MBit/seg, por lo que debe haber suficiente ancho de banda para conectar muchos dispositivos con buen rendimiento al sistema. Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red.
+La red LAN dentro de las organizaciones corporativas es generalmente de al menos 1000 MBit/seg., de modo que hay suficiente ancho de banda para conectar muchos dispositivos con buen rendimiento al sistema. Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red.
 
 Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 1000 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
 
 ### Otros aspectos específicos de las redes corporativas {#other-networks}
 
-Generalmente, las redes corporativas tienen una carga de dispositivos conectados, podrían estar separadas en varias subredes y podrían tener conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
-Este esquema se simplifica y se adapta en la mayoría de los casos al entorno disponible para el cliente.
+Las redes corporativas tienen una serie de dispositivos conectados, están separados en varias subredes y tienen conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
+Este esquema se simplifica y se adapta a la mayoría de los casos a los entornos disponibles para el cliente.
 
-En caso de que se prevea una solución Wi-Fi para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo `IEEE 802.11g` estándares de conexión Wi-Fi modernos. Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de punto de acceso Wi-Fi de malla como Google Nest Mesh Wi-Fi o similar.
+En caso de que se prevea una solución Wi-Fi para conectar Pantallas a Internet Link, se recomienda usar como mínimo estándares de Wi-Fi modernos `IEEE 802.11g` . Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un Repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de puntos de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similar.
 Otras tecnologías de repetición Wi-Fi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
 
-Los AEM Screens ofrecen una gran ventaja a los usuarios de publicidad dinámica. Está descargando y guardando localmente todos los archivos multimedia necesarios, como imágenes y vídeo. Debido a este concepto, el tráfico de red principal se produce en caso de que haya contenido nuevo para mostrarse en una pantalla específica.
-Para el funcionamiento normal, por ejemplo, si se ha definido una lista de reproducción que no se cambia muy a menudo durante el día, se oferta una operación cercana a la independiente de la red, una vez que todos los archivos se han guardado en el reproductor. Para aquellos casos de uso en los que hay más interacciones con Sensores u otros Triggers y el contenido es muy dinámico, una conexión de red rápida y confiable es esencial para una reacción de pantalla inmediata a fin de garantizar la mejor experiencia posible para el cliente.
+Los AEM Screens ofrecen una gran ventaja a los usuarios de publicidad dinámica. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo que se muestra en una pantalla específica.
 
-Las siguientes tablas oferta una buena visión general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los posibles tiempos de espera.
+Para operaciones normales, por ejemplo, una lista de reproducción definida que se actualiza con frecuencia durante el día: oferta una operación cercana a una red independiente, una vez que todos los archivos se hayan guardado en el reproductor.
+
+En situaciones en las que hay más interacciones con sensores o activadores y contenido dinámico, es esencial una conexión de red rápida y fiable para una reacción inmediata a la pantalla a fin de garantizar la mejor experiencia posible para el cliente.
+
+La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
 >[!NOTE]
->Toda la información debe considerarse como el consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
+>La información le permite vista del consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/enclosed-network-download.png)
