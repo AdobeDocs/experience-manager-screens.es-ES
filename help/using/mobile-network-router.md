@@ -2,9 +2,9 @@
 title: Red móvil con enrutador de datos móvil y componentes de red activos
 description: La página describe la red móvil con el enrutador de datos móvil y los componentes de red activos
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ La configuración contiene un acceso a Internet de cualquiera de los AEM Screens
 
 
 
-## Requisitos para configurar la red móvil con el enrutador de datos móvil y los componentes de red activos {#requirements-direct}
+## Configuración de la red móvil con el enrutador de datos móvil y los componentes de red activos {#requirements-direct}
 
 La configuración de red se puede separar lógicamente en dos bloques:
 
