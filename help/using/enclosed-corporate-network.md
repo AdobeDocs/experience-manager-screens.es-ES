@@ -2,7 +2,7 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Redes corporativas cerradas (cableadas/inalámbricas) {#enclosed-corporate-networks}
+# Red corporativa cerrada (cableada/inalámbrica) {#enclosed-corporate-networks}
 
 La configuración de red corporativa adjunta se aplica a empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo y la configuración lógica se muestra en la figura siguiente.
 
