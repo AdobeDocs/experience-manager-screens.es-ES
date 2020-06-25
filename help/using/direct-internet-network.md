@@ -2,9 +2,9 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Siga los pasos que se describen a continuación para garantizar la conexión ade
    >1. Asegúrese de que todos los puertos necesarios están permitidos.
 
 
-## Requisitos para configurar la red de acceso directo {#requirements-direct}
+## Configuración de la red de acceso directo {#requirements-direct}
 
 La Red de Internet Directa está lógicamente separada en dos bloques:
 
