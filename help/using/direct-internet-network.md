@@ -2,9 +2,9 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,25 @@ La Red de Internet directa contiene un punto de acceso de entrada para el acceso
 
 Las comunicaciones estándar de puertos para AEM Screens son:
 * `http (TCP Port 80)`
-O bien,
+   <br>O bien,</br>
+
 * `ssl-secured https (TCP Port 443)`
 
 Los puertos pueden variar debido a la configuración de la configuración dedicada de AEM. Dentro de este SetUp, todos los dispositivos están conectados directamente a su router de Internet como se muestra en la figura a continuación.
 
 ![](/help/assets/direct-access-2.png)
 
-La configuración también incluye un acceso a Internet por parte de cualquier Proveedor de servicio de Internet (ISP) y su línea de Internet. La mayoría de los ISP proporcionan un router de Internet que abarca el módem de Internet, el conmutador de red, el punto de acceso WIFI, el servidor de seguridad y otras funciones de red (según el fabricante y el modelo).
+La configuración también incluye un acceso a Internet por parte de cualquier Proveedor de servicio de Internet (ISP) y su línea de Internet. La mayoría de los ISP proporcionan un router de Internet que abarca el módem de Internet, el conmutador de red, el punto de acceso WIFI, el cortafuegos y otras funcionalidades de red (según el fabricante y el modelo).
 
 ## Conexión de AEM Screens Player a Direct Internet Access {#connecting-aem-screens-players}
 
-Siga los pasos a continuación para conectar los reproductores de pantalla de AEM en esta configuración:
+Siga los pasos que se describen a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
 1. Asegúrese de que cada uno de los reproductores de pantalla de AEM está conectado a la red de routers.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el navegador del sistema.
 
    >[!NOTE]
-   >Si recibe un mensaje de error, compruebe la configuración de la red.Existen básicamente dos opciones para una conexión de red correcta:
+   >En caso de que reciba un error, compruebe la configuración de la red.Existen básicamente dos opciones para una conexión de red correcta:
    >* DHCP
    >* Configuración manual de IP
 
@@ -45,7 +46,7 @@ Siga los pasos a continuación para conectar los reproductores de pantalla de AE
 
    >[!NOTE]
    >**Sugerencia para la resolución de problemas**
-   >Si los AEM Screens no se conectan correctamente y no muestran el contenido esperado:
+   >Si los AEM Screens no se conectan correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe el servidor de seguridad del enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
    >1. Asegúrese de que todos los puertos necesarios están permitidos.
@@ -53,7 +54,7 @@ Siga los pasos a continuación para conectar los reproductores de pantalla de AE
 
 ## Requisitos para configurar la red de acceso directo {#requirements-direct}
 
-La Red de Internet directa puede separarse lógicamente en dos bloques:
+La Red de Internet Directa está lógicamente separada en dos bloques:
 
 * Red de área amplia
 
@@ -63,10 +64,10 @@ La Red de Internet directa puede separarse lógicamente en dos bloques:
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens.
 
-*Suficiente* depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
+*Suficiente* depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
 
 >[!NOTE]
->Todos los dispositivos tienen acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
+>Todos los dispositivos mencionados anteriormente tienen un acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
 
 ### Red de área local {#lan-connection}
 
@@ -76,15 +77,15 @@ La red LAN suele coincidir al menos con una red de 100 Mbps, por lo que hay sufi
 En caso de que se prevea una solución WIFI para conectar AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares WIFI modernos, como `IEEE 802.11g` por ejemplo: Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad.
 
 >[!NOTE]
->Si se requiere un Repetidor WIFI, recomendamos encarecidamente las tecnologías de punto de acceso WIFI Mesh como Google Nest Mesh WIFI o similar. Otras tecnologías de repetición WiFi acaban en una pérdida masiva de ancho de banda en toda la red.
+>Si se requiere un repetidor WIFI, se recomienda encarecidamente un punto de acceso WIFI de malla como WIFI de malla anidada de Google o similar. Otras tecnologías de repetición WiFi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
 
 Los AEM Screens ofrecen una gran ventaja a los usuarios de publicidad dinámica. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo que se muestra en una pantalla específica.
 
-Para operaciones normales, por ejemplo, una vez que se haya definido una lista de reproducción que se actualiza con frecuencia durante el día, se oferta una operación cercana a la red independiente, una vez que todos los archivos se hayan guardado en el reproductor.
+Para operaciones normales, por ejemplo, una lista de reproducción definida que se actualiza con frecuencia durante el día: oferta una operación cercana a una red independiente, una vez que todos los archivos se hayan guardado en el reproductor.
 
-Para aquellos casos de uso en los que hay más interacciones con sensores u otros activadores y el contenido es muy dinámico, una conexión de red rápida y confiable es esencial para una reacción de pantalla inmediata a fin de garantizar la mejor experiencia posible para el cliente.
+En situaciones en las que hay más interacciones con sensores o activadores y contenido dinámico, es esencial una conexión de red rápida y fiable para una reacción inmediata a la pantalla a fin de garantizar la mejor experiencia posible para el cliente.
 
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
