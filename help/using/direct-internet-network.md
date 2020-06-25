@@ -2,7 +2,7 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -16,6 +16,7 @@ La Red de Internet directa contiene un punto de acceso de entrada para el acceso
 
 Las comunicaciones estándar de puertos para AEM Screens son:
 * `http (TCP Port 80)`
+
    <br>O bien,</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -24,7 +25,7 @@ Los puertos pueden variar debido a la configuración de la configuración dedica
 
 ![](/help/assets/direct-access-2.png)
 
-La configuración también incluye un acceso a Internet por parte de cualquier Proveedor de servicio de Internet (ISP) y su línea de Internet. La mayoría de los ISP proporcionan un router de Internet que abarca el módem de Internet, el conmutador de red, el punto de acceso WIFI, el cortafuegos y otras funcionalidades de red (según el fabricante y el modelo).
+La configuración también incluye un acceso a Internet por parte de cualquier Proveedor de servicio de Internet (ISP) y su línea de Internet. La mayoría de los ISP proporcionan un router de Internet que abarca el módem de Internet, el conmutador de red, el punto de acceso Wi-Fi, el cortafuegos y otras funciones de red (según el fabricante y el modelo).
 
 ## Conexión de AEM Screens Player a Direct Internet Access {#connecting-aem-screens-players}
 
@@ -64,7 +65,7 @@ La Red de Internet Directa está lógicamente separada en dos bloques:
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens.
 
-*Suficiente* depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes WIFI invitadas.
+*Suficiente* depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
 
 >[!NOTE]
 >Todos los dispositivos mencionados anteriormente tienen un acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
@@ -74,10 +75,10 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, proporciona suficiente ancho de banda para operar AEM Screens.
 
 La red LAN suele coincidir al menos con una red de 100 Mbps, por lo que hay suficiente ancho de banda para conectar muchos dispositivos con un buen rendimiento al sistema.
-En caso de que se prevea una solución WIFI para conectar AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares WIFI modernos, como `IEEE 802.11g` por ejemplo: Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad.
+En caso de que se prevea una solución Wi-Fi para conectar a los AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares de conexión Wi-Fi modernos `IEEE 802.11g` . Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad.
 
 >[!NOTE]
->Si se requiere un repetidor WIFI, se recomienda encarecidamente un punto de acceso WIFI de malla como WIFI de malla anidada de Google o similar. Otras tecnologías de repetición WiFi acaban en una pérdida masiva de ancho de banda en toda la red.
+>Si se requiere un repetidor Wi-Fi, se recomienda encarecidamente un punto de acceso Wi-Fi en malla como Google Nest Mesh Wi-Fi o similar. Otras tecnologías de repetición Wi-Fi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
 
