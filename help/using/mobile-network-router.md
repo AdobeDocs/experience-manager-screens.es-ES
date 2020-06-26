@@ -2,9 +2,9 @@
 title: Red móvil con enrutador de datos móvil y componentes de red activos
 description: La página describe la red móvil con el enrutador de datos móvil y los componentes de red activos
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 Los reproductores de AEM Screens de Adobe también pueden conectarse mediante redes móviles o móviles que ejecuten al menos una red 3G.
 
-Dentro de los AEM Screens, el contenido requerido se descarga físicamente al controlador del reproductor o al equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y no influye en el rendimiento de los sistemas de visualización.
+Dentro de los AEM Screens, el contenido requerido se descarga físicamente al controlador del reproductor o al equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda determinado solo afecta a los tiempos de descarga iniciales, así como a las actualizaciones de contenido, y no influye en el rendimiento de la reproducción regular de los monitores.
 
-La ventaja de esta configuración es que el router móvil se puede colocar en un punto optimizado para garantizar la mejor cobertura de red disponible. Normalmente se encuentra en una posición elevada y abierta con la menor construcción de hormigón o metal que sea posible.
-Este SetUp permite a los usuarios de la pantalla de AEM flexibilidad, ya que no se requiere una línea fija para conectarse a los AEM Screens.
+La ventaja de esta configuración es que el router móvil se puede colocar en un punto optimizado para garantizar la mejor cobertura de red disponible. Normalmente se encuentra en una posición elevada y abierta, con la menor cantidad posible de construcciones de hormigón o metal.
+Esta configuración permite a los usuarios de AEM Screen flexibilidad, ya que no se requiere una línea fija para conectarse a los AEM Screens. Esto es particularmente interesante para configuraciones efímeras o móviles.
 
 El siguiente diagrama muestra la configuración de la red móvil con el enrutador de datos móvil y los componentes de red activos y contiene un acceso a Internet de cualquiera de los controladores de AEM Screens mediante el acceso directo a Internet mediante un vínculo de datos 3/4/5 G propio.
 
@@ -27,7 +27,7 @@ El siguiente diagrama muestra la configuración de la red móvil con el enrutado
 
 Siga los pasos que se describen a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
-La configuración contiene un acceso a Internet de cualquiera de los AEM Screens Controladores por acceso directo a Internet usando su propio enlace de datos 3/4/5G.
+La configuración asigna un acceso a Internet para cada controlador de AEM Screens mediante acceso directo a Internet mediante un vínculo de datos 3/4/5 G dedicado.
 
 1. Asegúrese de que el enrutador de datos móvil está correctamente conectado a la red de datos móviles, como se indica en el sistema operativo, y que cada uno de los reproductores de pantalla de AEM está conectado a la red de enrutadores.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el navegador del sistema.
@@ -60,11 +60,11 @@ La configuración de red se puede separar lógicamente en dos bloques:
 
 ### Conexión a Internet móvil {#mobile-internet-connection}
 
-El rendimiento de la conexión a Internet, además de la accesibilidad de la red ya descrita, proporciona un ancho de banda suficiente para operar AEM Screens sin problemas y con buen gusto.
+El rendimiento de la conexión a Internet, además de la accesibilidad de red ya descrita, tiene que proporcionar un ancho de banda suficiente para realizar descargas de contenido de AEM Screens sin problemas.
 
-*Suficiente* depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
+*Suficiente* depende de la cantidad de dispositivos de pantalla AEM conectados y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
 Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente mientras se agregan más consumidores/equipos a la red.
-Además de la conexión de red teórica específica que debe garantizarse, que la cobertura del router móvil es al menos &quot;buena&quot;. Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda suficiente para atender a todos los clientes conectados dentro de la LAN conectada.
+Además de la conexión de red teórica específica, hay que garantizar que la cobertura del router móvil sea al menos &quot;buena&quot;. Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda suficiente para atender a todos los clientes conectados dentro de la LAN conectada.
 
 La siguiente tabla resalta las redes de datos con su ancho de banda estándar:
 
@@ -90,7 +90,7 @@ Al considerar qué red de datos debe utilizarse, se recomienda responder a las s
 
 ### Red de área local {#lan-connection}
 
-El rendimiento de la LAN, además de la accesibilidad de la red ya descrita, ofrece un ancho de banda suficiente para operar AEM Screens sin problemas y sin problemas. En estos días, la red LAN suele coincidir al menos con una red de 100 Mbps, por lo que debe haber suficiente ancho de banda para conectar muchos dispositivos con un buen rendimiento al sistema. Al utilizar otro componente de red activo, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red.
+El rendimiento de la LAN, además de la accesibilidad de red ya descrita, tiene que proporcionar un ancho de banda suficiente para operar sin problemas las descargas de contenido de los AEM Screens. En estos días, la red LAN suele coincidir al menos con una red de 100 Mbps, por lo que debe haber suficiente ancho de banda para conectar muchos dispositivos con un buen rendimiento al sistema. Al utilizar otro componente de red activo, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red.
 
 Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
 
