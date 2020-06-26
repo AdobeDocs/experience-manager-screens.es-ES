@@ -2,9 +2,9 @@
 title: Administración del tráfico de red
 description: La página describe la configuración de red estándar y cómo administrar el tráfico de red.
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Una conexión a Internet depende del uso de un servidor proxy. Un servidor proxy
 
 Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan con frecuencia uno o más sitios de Internet, es probable que estén en la caché del proxy y esto mejore aún más el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, que se pueden utilizar para solucionar problemas.
 
-Cuando un servidor proxy recibe una solicitud de un recurso de Internet (como una página Web o al conectarse a un editor de AEM), explora su caché local de direcciones URL anteriormente llamadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy (actúa como cliente) en nombre del usuario y solicita la página al servidor de Internet. Cuando se devuelve el contenido, el servidor proxy relaciona su contenido con la solicitud original y la reenvía al usuario.
+Cuando un servidor proxy recibe una solicitud de un recurso de Internet (como una página Web o al conectarse a un editor de AEM), explora su caché local de direcciones URL anteriormente llamadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy (actúa como cliente) en nombre del usuario y solicita la página al servidor de Internet. Cuando se devuelve el contenido, el servidor proxy lo relaciona con la solicitud original y la reenvía al usuario.
 
 ## Explicación de la configuración de red estándar {#network-setups}
 
