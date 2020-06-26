@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Red corporativa cerrada (cableada/inalámbrica) {#enclosed-corporate-networks}
 
-La configuración de red corporativa adjunta se aplica a empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo y la configuración lógica se muestra en la figura siguiente.
+La configuración de red corporativa adjunta se aplica a empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo, y la configuración lógica se muestra en la siguiente figura.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,7 +52,7 @@ La configuración de red corporativa adjunta puede separarse lógicamente en dos
 
 ### Red de área amplia {#wan-connection}
 
-El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para que los AEM Screens funcionen bien y sin problemas.
+El rendimiento de la conexión a Internet, además de la accesibilidad de la red, tiene que proporcionar un ancho de banda suficiente para que el contenido de los AEM Screens se actualice sin problemas.
 *El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes de Wi-Fi invitadas.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 
 ### Red de área local {#lan-connection}
 
-El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens sin problemas.
+El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, tiene que proporcionar un ancho de banda suficiente para operar sin problemas las actualizaciones de contenido de los AEM Screens.
 
 La red LAN dentro de las organizaciones corporativas es generalmente de al menos 1000 MBit/seg., de modo que hay suficiente ancho de banda para conectar muchos dispositivos con buen rendimiento al sistema. Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red.
 
-Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 1000 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
+Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
 
 ### Otros aspectos específicos de las redes corporativas {#other-networks}
 
