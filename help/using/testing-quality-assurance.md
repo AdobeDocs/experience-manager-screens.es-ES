@@ -1,10 +1,13 @@
 ---
 title: Pruebas y control de calidad
 seo-title: Pruebas y garantía de calidad para AEM Screens
-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
-seo-description: En la página se describe la Guía de optimizaciones de las pantallas de prueba y garantía de calidad para AEM
+description: La página describe la Guía de optimizaciones de prueba y garantía de calidad para AEM Screens
+seo-description: La página describe la Guía de optimizaciones de prueba y garantía de calidad para AEM Screens
 translation-type: tm+mt
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,8 @@ En la fase, deben construirse y probarse todos los sistemas de ensayo.
 Debe crearse una lista de comprobación que identifique todos los KPI definidos previamente y que mida la entrega en relación con ellos.
 
 >[!NOTE]
-> Esta fase también debería utilizarse como herramienta para crear una instalación y una guía del usuario que posteriormente se pueda enviar con el equipo y mantener in situ para consulta futura.
+>
+>Esta fase también debería utilizarse como herramienta para crear una instalación y una guía del usuario que posteriormente se pueda enviar con el equipo y mantener in situ para consulta futura.
 
 Deben considerarse los siguientes elementos:
 
@@ -49,7 +53,7 @@ Se recomiendan las siguientes consideraciones de software:
 ## 3. Consideraciones sobre la administración de dispositivos {#device-management-considerations}
 
 
-AEM Screens incluye un módulo del Centro de control de dispositivos que permite la gestión de los puntos finales de la aplicación del reproductor de pantallas.
+AEM Screens incluye un módulo de Device Control Center que permite la administración de los puntos finales de la aplicación del reproductor de pantallas.
 
 Esto hace referencia a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
 Este módulo le permite:
@@ -59,9 +63,10 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de la aplicación
 
-Para obtener información detallada sobre el Centro ***de control de*** dispositivos, consulte [Resolución de problemas del centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de control de dispositivos en la Guía **del usuario de pantallas de** AEM.
+Para obtener información detallada sobre el Centro ***de control de*** dispositivos, consulte [Resolución de problemas del centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de control de dispositivos en la Guía **del usuario de** AEM Screens.
 
 >[!CAUTION]
+>
 > No debe utilizar el Centro de control de dispositivos para:
 >
 > 1. Instalar nuevas versiones de la aplicación del reproductor
@@ -72,9 +77,10 @@ Para obtener información detallada sobre el Centro ***de control de*** disposit
 
 
 >[!NOTE]
+>
 > Adobe recomienda que las plataformas de administración de dispositivos de terceros dedicadas se utilicen en todas las implementaciones.
 
-La plataforma específica elegida depende de una serie de factores, incluidos el sistema ***operativo*** objetivo, los requisitos ***del*** proyecto y el ***número de puntos*** finales.
+La plataforma específica elegida depende de una serie de factores, incluidos el sistema ***operativo*** destinatario, los requisitos ***de*** proyecto y el ***número de puntos*** finales.
 
 Algunos ejemplos son:
 
