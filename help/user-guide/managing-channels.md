@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 45%
 
 ---
 
@@ -69,6 +72,7 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 >Puede crear distintas zonas mediante las opciones de plantilla como 1x2, 2x2, o 2 a 3, para dividir los canales de la pantalla, tal como se mencionó con anterioridad.
 
 >[!IMPORTANT]
+>
 > Una vez que cree y añada contenido al canal, el siguiente paso es crear una ubicación seguida de una visualización. Además, debe asignar ese canal a una pantalla. Consulte los siguientes recursos que se encuentran al final de la sección para obtener más información.
 
 ## Uso de canales {#working-with-channels}
@@ -143,7 +147,7 @@ Siga estos pasos para activar esta opción desde el panel de canal:
 1. **Definir el Canal como sin conexión**
    1. Seleccione el canal y **Propiedades** en la barra de acciones
    1. Vaya a la ficha **Canal** y asegúrese de desmarcar la opción Modo **de desarrollador (forzar el canal para que esté en línea)**
-   1. Click **Save &amp; Close**
+   1. Haga clic en **Guardar y cerrar**
 1. **Actualizar contenido sin conexión**
    1. Seleccione el canal y seleccione **Panel** en la barra de acciones
    1. Vaya al panel **CANAL INFORMATION** y haga clic en *...*
@@ -250,6 +254,7 @@ Las visualizaciones asociadas se incluirán en el panel **Visualizaciones asigna
 >
 >* [Crear y administrar ubicaciones](managing-locations.md)
 >* [Crear y administrar pantallas](managing-displays.md)
+
 >
 
 
