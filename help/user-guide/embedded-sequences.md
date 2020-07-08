@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 42%
 
 ---
 
@@ -56,6 +59,7 @@ Siga los pasos a continuación para añadir una secuencia integrada al canal:
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
+>
 >Debe asignar el canal (utilizado en la secuencia incrustada) a la misma pantalla.
 >
 >Siga los pasos que se describen a continuación después de haber agregado una secuencia incrustada al canal desde los pasos anteriores:
@@ -63,14 +67,17 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >1. Vaya a la pantalla y seleccione la visualización en la carpeta **Ubicaciones** .
 >1. Haga clic en el **Panel** de la barra de acciones para desplazarse hasta el panel de visualización.
 >1. Seleccione **+ Asignar Canales** en los PANELES **CANALES y PROGRAMAS** ASIGNADOS para abrir el cuadro **de diálogo Asignación de** Canales.
+
    >
    >
 1. Seleccione la ruta del canal que utiliza (en secuencia incrustada) en Ruta de **Canal**.
 >1. Asegúrese de que la **prioridad** es inferior al canal principal.
+
    >
    >
 1. No debe seleccionar ningún Evento **** admitido.
 >1. Haga clic en **Guardar** una vez finalizado.
+
 >
 
 
