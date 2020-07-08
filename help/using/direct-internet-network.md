@@ -2,7 +2,7 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -68,6 +68,7 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 *Suficiente* depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
 
 >[!NOTE]
+>
 >Todos los dispositivos mencionados anteriormente tienen un acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
 
 ### Red de área local {#lan-connection}
@@ -78,6 +79,7 @@ La red LAN suele coincidir al menos con una red de 100 Mbps, por lo que hay sufi
 En caso de que se prevea una solución Wi-Fi para conectar a los AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares de conexión Wi-Fi modernos `IEEE 802.11g` . Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad.
 
 >[!NOTE]
+>
 >Si se requiere un repetidor Wi-Fi, se recomienda encarecidamente un punto de acceso Wi-Fi en malla como Google Nest Mesh Wi-Fi o similar. Otras tecnologías de repetición Wi-Fi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
@@ -91,6 +93,7 @@ En situaciones en las que hay más interacciones con sensores o activadores y co
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
 >[!NOTE]
+>
 >La información le permite vista del consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/assets/download-times-direct.png)
