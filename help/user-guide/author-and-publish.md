@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 2%
+source-wordcount: '1893'
+ht-degree: 3%
 
 ---
 
@@ -156,8 +156,9 @@ En cada instancia de publicación:
 Dado que cada instancia de publicación tiene claves criptográficas únicas de forma predeterminada, debe realizar este paso en cada instancia de pub y guardar la clave única para la siguiente configuración.
 
 >[!NOTE]
->La contraseña debe inicio y terminar con llaves.
->Por ejemplo:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>
+>La contraseña debe inicio y terminar con llaves. Por ejemplo:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar clúster de artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
 
