@@ -4,7 +4,10 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -18,14 +21,14 @@ Siga esta página para conocer los pasos necesarios para publicar estas configur
 Básicamente, esto se reduce a la publicación manual:
 
 1. Configuraciones de módulos de interfaz de usuario y de la Tienda ContextHub
-1. Audiencias de personalización
-1. Actividades de personalización
+1. audiencias de personalización
+1. actividades de personalización
 
 ## Pasos para replicar activadores de datos en el servidor de publicación {#replicating-data-triggers-publish}
 
 Siga los pasos a continuación para replicar los activadores de datos en el servidor de publicación.
 
-### Paso 1:Replicar configuraciones de ContextHub {#replicating-contexthub-configurations}
+### Paso 1: Replicar configuraciones de ContextHub {#replicating-contexthub-configurations}
 
 1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Publicar agente** y haga clic en el agente de publicación para configurar la configuración.
 
@@ -41,25 +44,25 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
    >[!Note]
    >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de prueba para obtener más información.
 
-1. Seleccione **Agregar** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration`.
+1. Seleccione **Añadir** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Haga clic en **Enviar**.
 
-### Replicar las audiencias {#replicating-audiences}
+### Replicar las Audiencias {#replicating-audiences}
 
-1. Vaya a su instancia de AEM > **Personalización** > **Audiencias** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para desplazarse directamente.
+1. Vaya a la instancia de AEM > **Personalización** > **Audiencias** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para desplazarse directamente.
 
 1. Explore en la carpeta del proyecto, por ejemplo, `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Seleccione todas las audiencias y segmentos desde la interfaz de usuario.
+1. Seleccione todas las audiencias y segmentos en la interfaz de usuario.
 
 1. Haga clic en **Administrar publicación** en la barra de acciones.
 
 1. Haga clic en **Siguiente** y **Publicar**.
 
-### Replicar las actividades {#replicating-activities}
+### Replicar las Actividades  {#replicating-activities}
 
 1. Vaya a la instancia de AEM > **Personalización** > **Actividades** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para desplazarse directamente.
 
@@ -77,7 +80,7 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
 #### Resultado {#result}
 
-Si la replicación se realiza correctamente, debe ver la siguiente estructura en la instancia de publicación (o similar para el proyecto):
+Si la replicación se realiza correctamente, debe vista de la siguiente estructura en la instancia de publicación (o similar para el proyecto):
 
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
@@ -94,7 +97,7 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
 
 1. Si no utiliza las credenciales de administrador predeterminadas, deberá configurar el agente de distribución con un nombre de usuario y una contraseña diferentes.
 
-   Siga los pasos a continuación:
+   Complete los siguientes pasos:
 
    1. Vaya a Herramientas > **Operaciones** > Consola **** web `http://localhost:4502/system/console/configMgr`para abrir la pantalla **de la consola web de** Adobe Experience Manager.
    1. Buscar las credenciales de transporte de **Apache Sling Distribution - User Credentials based DistributionTransportSecretProvider**
