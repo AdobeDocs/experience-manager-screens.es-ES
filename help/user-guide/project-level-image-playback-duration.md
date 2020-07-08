@@ -5,7 +5,10 @@ description: 'Esta funcionalidad le permite definir la duración de la reproducc
 seo-description: 'Esta funcionalidad le permite definir la duración de la reproducción de la imagen en el nivel de proyecto. '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +21,13 @@ Esta función le permite definir la duración de la reproducción de la imagen e
 
 ### Requisitos previos {#prerequisites}
 
-Antes de utilizar esta función, asegúrese de configurar un proyecto como requisito previo para empezar a implementar esta funcionalidad. Por ejemplo,
+Antes de utilizar esta función, asegúrese de configurar un proyecto como requisito previo para que inicio implemente esta funcionalidad. Por ejemplo,
 
-1. Creación de un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**)
+1. Crear un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**)
 
 1. Creación de un canal de secuencia como **PlayBackChannel** en la carpeta **Canales**
 
-1. Agregar contenido a **PlayBackChannel**
+1. Añadir contenido a **PlayBackChannel**
 
    ![activos](assets/image_playback1.png)
 
@@ -40,14 +43,15 @@ En la sección siguiente se explica cómo editar la duración de la reproducció
 
 
 >[!NOTE]
->Si desea actualizar la duración de reproducción de una imagen o un canal, consulte Duración [de reproducción de imagen a nivel de](channel-level-image-playback.md)canal.
+>
+>Si desea actualizar la duración de una reproducción de imagen o canal, consulte Duración [de reproducción de imagen a nivel de](channel-level-image-playback.md)Canal.
 
 Siga los pasos a continuación para aprender a actualizar la duración de la reproducción de imágenes en el nivel de proyecto:
 
 1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
    ![activos](assets/image_playback3.png)
 
-1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
+1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa de la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de Canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -55,7 +59,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de la rep
 
    >[!NOTE]
    >
-   >De forma predeterminada, las imágenes de un canal se definen en una duración de reproducción de 8 segundos y los vídeos se reproducen con la duración predeterminada.
+   >De forma predeterminada, las imágenes de un canal se definen con una duración de reproducción de 8 segundos y los vídeos se reproducen con la duración predeterminada.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
@@ -67,5 +71,5 @@ Siga los pasos a continuación para aprender a actualizar la duración de la rep
 
 Una vez que haya actualizado la duración de la reproducción del canal (en este ejemplo, las tres imágenes), notará que las imágenes se reproducirán durante 3 segundos en lugar de 8 segundos (valor predeterminado).
 
-![channel_preview](assets/channel_preview.gif)
+![canal_previsualización](assets/channel_preview.gif)
 
