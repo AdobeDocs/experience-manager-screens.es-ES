@@ -4,14 +4,17 @@ seo-title: Configuración del flujo de trabajo de colocación directa
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
 seo-description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
 
 # Configuración del flujo de trabajo de colocación directa {#direct-placement-workflow}
 
-Siga esta página para obtener información sobre la configuración de un flujo de trabajo de recursos que le permite insertar mediante programación un recurso en un canal de pantallas AEM predefinido.
+Siga esta página para obtener información sobre la configuración de un flujo de trabajo de recursos que le permite insertar mediante programación un recurso en un canal de AEM Screens predefinido.
 
 Esta sección abarca los siguientes temas:
 
@@ -25,12 +28,14 @@ La configuración de flujo de trabajo de colocación directa asigna un canal de 
 Como autor de contenido, también puede hacer clic manualmente en **Actualizar contenido** sin conexión.
 
 >[!NOTE]
-> Para obtener información sobre cómo utilizar la actualización sin conexión masiva, consulte Actualización [de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
+>
+>Para obtener información sobre cómo utilizar la actualización sin conexión masiva, consulte Actualización [de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuración del flujo de trabajo de colocación directa {#configuring-workflow}
 
 >[!IMPORTANT]
-> Antes de realizar el inicio de la configuración, debe instalar el paquete de [demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Una vez que haya instalado el paquete, debería poder realizar la vista y acceder a él desde su instancia de AEM —> Herramientas (icono) —> **Flujo de trabajo** —> Modelos **de flujo de trabajo**.
+>
+>Antes de realizar el inicio de la configuración, debe instalar el paquete de [demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Una vez que haya instalado el paquete, debería poder realizar la vista y acceder a él desde su instancia de AEM —> Herramientas (icono) —> **Flujo de trabajo** —> Modelos **de flujo de trabajo**.
 
 Siga los pasos a continuación para configurar el flujo de trabajo de colocación directa:
 
