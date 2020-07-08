@@ -2,7 +2,7 @@
 title: Red móvil directa
 description: La página describe la configuración de red móvil directa
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -69,9 +69,11 @@ Como seguimiento, el Paquete de datos necesario debe ser al menos:
 
 
 >[!IMPORTANT]
+>
 >Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga, que se reflejarán en los supuestos anteriores.Una red 4G con *buena* cobertura y datos *ilimitados* debe coincidir con las instalaciones más comunes de esta configuración de red.
 
 >[!NOTE]
+>
 >Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor de AEM Screens. Si sólo hay una cobertura justa disponible en una ubicación específica, debe tener en cuenta el cambio de la configuración de red general a la red [móvil con enrutador de datos móvil y componentes](/help/using/mobile-network-router.md)de red activos.
 
 
@@ -92,6 +94,7 @@ En situaciones en las que hay más interacciones con sensores o activadores y co
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
 >[!NOTE]
+>
 >Toda la información se refiere al consumo de cada dispositivo de la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/download-times-mobile.png)
