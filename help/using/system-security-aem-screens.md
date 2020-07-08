@@ -1,10 +1,10 @@
 ---
 title: Lista de comprobación de seguridad para AEM Screens
 seo-title: Lista de comprobación de seguridad para AEM Screens
-description: En la página se describe la lista de comprobación de seguridad para AEM Screens
-seo-description: En la página se describe la lista de comprobación de seguridad para AEM Screens
+description: La página describe la lista de comprobación de seguridad para AEM Screens
+seo-description: La página describe la lista de comprobación de seguridad para AEM Screens
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,17 +15,18 @@ ht-degree: 1%
 # Consideraciones de seguridad del sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Se trata de un recurso Git interno.
 
-Esta página resalta las consideraciones de seguridad del sistema para pantallas AEM.
+Esta página resalta las consideraciones de seguridad del sistema para AEM Screens.
 
 
-## Documento técnico para la seguridad de pantallas de AEM {#white-paper}
+## Documento técnico para la seguridad de los AEM Screens {#white-paper}
 
 Esta sección describe el documento técnico. (Documento técnico pendiente adjunto)
 
 
-## Preguntas más frecuentes sobre la seguridad de AEM Screens {#faqs-screens}
+## Preguntas más frecuentes sobre seguridad para AEM Screens {#faqs-screens}
 
 Las siguientes preguntas más frecuentes suponen una arquitectura de reproductor autenticada y registrada que utiliza HTTPS como protocolo de comunicación entre el reproductor y AEM Server.
 
@@ -77,7 +78,9 @@ Un reproductor físicamente comprometido puede ser teóricamente manipulado para
 Por lo tanto, se recomienda poner los dispositivos fuera del alcance, preferiblemente en un contenedor seguro, con el cableado también asegurado. También deshabilite los puertos remotos IR.
 
 Si el sistema operativo del dispositivo no se actualiza con regularidad, el sistema operativo puede quedar expuesto a agujeros de seguridad y permitir ataques remotos a través de la red.
+
 >[!NOTE]
+>
 >Se recomienda instrumentar los dispositivos con capacidades de control y actualización remota decentes (escritorio remoto, solución MDM, etc.). También se recomienda utilizar una red privada, no expuesta a la WIFI pública, por ejemplo.
 
 
