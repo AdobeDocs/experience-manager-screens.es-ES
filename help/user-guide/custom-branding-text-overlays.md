@@ -5,7 +5,7 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Siga esta página para aprender a aplicar personalización de marca y estilo par
 
 Siga los pasos a continuación para crear una marca y un estilo personalizados para las superposiciones de texto:
 
-1. Creación de un proyecto de AEM Screens. En este ejemplo se muestra la funcionalidad creando un proyecto llamado **customstyle** y un canal titulado **DemoBrand** , como se muestra en la siguiente figura.
+1. Cree un proyecto de AEM Screens. En este ejemplo se muestra la funcionalidad creando un proyecto llamado **customstyle** y un canal titulado **DemoBrand** , como se muestra en la siguiente figura.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -82,6 +82,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 1. Haga clic en **Guardar y cerrar** para actualizar la ruta de diseño.
 
 >[!IMPORTANT]
+>
 > Tiene la opción de superponer las plantillas de Pantallas existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más detalles.
 
 1. Para superponer las plantillas de pantallas existentes para insertar sus propios diseños de forma predeterminada:
@@ -108,7 +109,7 @@ Una vez que haya completado los pasos anteriores, puede actualizar el archivo *s
 
 Siga los pasos a continuación para vista del diseño actualizado a la superposición de texto:
 
-1. Vaya a su proyecto de AEM Screens titulado como **custom style** —> **Canales** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
+1. Vaya a su proyecto AEM Screens titulado como **custom style** —> **Canales** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Dado que ahora ha agregado el diseño al campo **Diseños** , como se mencionó anteriormente, haga clic en **Previsualización** para vista del estilo actual de la imagen con una superposición de texto.
 
