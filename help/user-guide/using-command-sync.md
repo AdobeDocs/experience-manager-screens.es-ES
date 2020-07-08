@@ -4,7 +4,7 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -17,6 +17,7 @@ ht-degree: 2%
 En la página siguiente se describe cómo utilizar la sincronización de comandos. La sincronización de comandos permite la reproducción sincronizada entre distintos reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
 
 >[!IMPORTANT]
+>
 >Esta función no admite secuencias incrustadas, secuencias incrustadas dinámicas, Canales de aplicaciones o Transiciones.
 
 ## Información general {#overview}
@@ -29,9 +30,10 @@ El *maestro* envía un comando a todos los clientes registrados cuando está a p
 
 ## Implementación de sincronización de comandos {#using-command-sync}
 
-En la sección siguiente se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
+En la sección siguiente se describe cómo se puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
 
 >[!NOTE]
+>
 >Para la reproducción sincronizada, es necesario que todos los dispositivos de hardware tengan las mismas especificaciones de hardware y, preferiblemente, el mismo sistema operativo. No se recomienda la sincronización entre hardware y sistemas operativos diferentes.
 
 ### Configuración del proyecto {#setting-up}
@@ -101,7 +103,8 @@ Verá los dos dispositivos (cromado y reproductor de Windows) en el panel **DISP
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> Puede configurar varios dispositivos como principales.
+>
+>Puede configurar varios dispositivos como principales.
 
 ### Sincronización con Master {#sync-up-master}
 
@@ -124,6 +127,7 @@ Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en el p
 Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, puede anular la sincronización de la asignación desde ese dispositivo.
 
 >[!NOTE]
+>
 >Si desincroniza un dispositivo maestro, también desvinculará todos los dispositivos cliente asociados a dicho dispositivo maestro.
 
 Para quitar la sincronización del dispositivo maestro, siga los pasos a continuación:
