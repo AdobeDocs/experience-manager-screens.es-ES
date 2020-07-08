@@ -2,7 +2,7 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -56,6 +56,7 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 *El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes de Wi-Fi invitadas.
 
 >[!NOTE]
+>
 >Todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente cuando se agregan más consumidores o equipos a la red.
 
 ### Red de área local {#lan-connection}
@@ -85,6 +86,7 @@ En situaciones en las que hay más interacciones con sensores o activadores y co
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
 >[!NOTE]
+>
 >La información le permite vista del consumo de cada dispositivo en la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/enclosed-network-download.png)
