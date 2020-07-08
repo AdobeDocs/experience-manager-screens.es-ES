@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 59%
 
 ---
 
@@ -181,7 +184,9 @@ En este ejemplo se muestra la parrilla de programación de una tienda que muestr
 | B | Navidad | 2 | 24 de diciembre de 2017 - 31 de diciembre de 2017 |
 
 >[!IMPORTANT]
+>
 > Para obtener más información sobre la partición de días, consulte las secciones siguientes:
+>
 >* [Gestión de periodicidad en recursos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestión de periodicidad para recursos en un Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
