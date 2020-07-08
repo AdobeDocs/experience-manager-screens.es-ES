@@ -2,7 +2,7 @@
 title: Red móvil con enrutador de datos móvil y componentes de red activos
 description: La página describe la red móvil con el enrutador de datos móvil y los componentes de red activos
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -81,10 +81,12 @@ Al considerar qué red de datos debe utilizarse, se recomienda responder a las s
 * ¿Cuántos cambios de contenido se esperan y cuáles son los tamaños de archivo promedio?
 
 >[!NOTE]
+>
 >El Paquete de datos necesario debe ser al menos:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga, que se reflejarán en los supuestos anteriores. Una red 4G con *buena* cobertura y datos ilimitados debe coincidir con las instalaciones más comunes de esta configuración de red.
 
 
@@ -104,6 +106,7 @@ Para aquellos casos de uso en los que hay más interacciones con Sensores u otro
 Las siguientes tablas oferta una buena visión general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los posibles tiempos de espera.
 
 >[!NOTE]
+>
 >Toda la información se refiere al consumo de cada dispositivo de la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/mobile-router-download.png)
