@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +56,7 @@ Por ejemplo: supongamos que el servidor está en PST y que los dispositivos est�
 Así que, cada vez que programamos un lanzamiento en vivo, el inicio de la promoción se hará pronto con este desplazamiento. En la ecuación anterior, la mayoría de los elementos no toma mucho tiempo, podemos usar una estimación decente para este desplazamiento una vez que sepamos la máxima diferencia de tiempo entre el servidor y cualquier reproductor.
 
 >[!NOTE]
+>
 >De forma predeterminada, el período de gracia para el lanzamiento de pantallas se establece en 24 horas, lo que significa que cuando se establece la fecha de lanzamiento de cualquier inicio para los recursos en */contenido/pantallas*, la promoción contraerá este desplazamiento.
 
 ### Actualización del período de gracia listo para usar {#updating-out-of-the-box-grace-period}
@@ -78,13 +82,13 @@ Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 
 
 ## Uso de Screens Launch {#using-launches}
 
-En esta sección se muestra cómo implementar Screens Launch en el proyecto de AEM Screens.
+Esta sección muestra cómo implementar Screens Launch en el proyecto AEM Screens.
 
 ### Creación de un lanzamiento de pantalla {#creating-a-launch}
 
-Siga los pasos a continuación para implementar la funcionalidad Screens Launch en su proyecto de AEM Screens:
+Siga los pasos que se describen a continuación para implementar la funcionalidad Screens Launch en el proyecto AEM Screens:
 
-1. Cree un canal de secuencia en su proyecto de AEM Screens, por ejemplo, **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
+1. Cree un canal de secuencia en el proyecto de AEM Screens, por ejemplo **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
@@ -171,7 +175,7 @@ Siga los pasos a continuación para editar las propiedades de inicio:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Edición del lanzamiento de pantallas para Añadir o eliminar Canales {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edición del lanzamiento de pantallas para Añadir o eliminar Canales  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Una vez creado el lanzamiento, puede agregar o quitar canales al lanzamiento existente mediante la opción **Editar inicio** .
 
