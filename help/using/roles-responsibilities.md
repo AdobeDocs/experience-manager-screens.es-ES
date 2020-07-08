@@ -1,10 +1,10 @@
 ---
 title: Funciones y responsabilidades del proyecto de AEM Screens
 seo-title: Funciones y responsabilidades del proyecto de AEM Screens
-description: En la página se describen las funciones y responsabilidades del proyecto de AEM Screens
-seo-description: En la página se describen las funciones y responsabilidades del proyecto de AEM Screens
+description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
+seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,13 +16,14 @@ ht-degree: 11%
 
 Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
-En un proyecto típico de AEM Screens, las funciones se perfeccionan aún más, ya que cada una de ellas cumple un objetivo importante en el proyecto.
+En un proyecto típico de AEM Screens, los roles se perfeccionan aún más, ya que cada uno de ellos sirve para fines importantes en el proyecto.
 
 El diagrama a continuación muestra las funciones a las que nos referiremos en toda la guía.
 
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
 
 ## Definición de funciones {#roles}
@@ -31,7 +32,7 @@ La siguiente sección proporciona información general sobre la audiencia de des
 
 ### Adobe {#adobe-audience}
 
-Adobe incluye recursos de Adobe Managed Services como CSE (ingeniero de éxito del cliente) y asistencia técnica de Adobe.
+Adobe incluye recursos de Adobes Managed Services como CSE (ingeniero de éxito del cliente) y asistencia técnica de Adobe.
 
 ### Implementadores de AEM {#aem-implementors}
 
@@ -79,11 +80,11 @@ Los elementos creativos y el Gestor de contenido podrían ser los siguientes:
 
 ### Gestores de proyectos {#project-managers}
 
-Los jefes de proyecto suelen administrar la implementación completa de la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
+Los jefes de proyecto generalmente administran la implementación completa para la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
 
 >[!NOTE]
 >
-> Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Etapas del proyecto {#project-stages}
@@ -98,7 +99,7 @@ Para apoyar una implementación exitosa de Digital Signage, es habitual segmenta
 
 >[!NOTE]
 >
-> Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
+>Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
 Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
 
 ## Gráfico RACI {#raci-chart}
@@ -107,7 +108,7 @@ A continuación se muestra un gráfico RACI de muestra con las definiciones de f
 
 >[!NOTE]
 >
-> Este gráfico no está diseñado para ser seguido exactamente sino para proporcionar un ejemplo de tareas y consideraciones comunes en un proyecto de AEM Screens.
+>No se pretende que este gráfico se siga exactamente, sino que proporcione un ejemplo de tareas y consideraciones comunes en los proyectos de AEM Screens.
 
 ### Definiciones de RACI {#raci-definitions}
 
@@ -145,7 +146,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 | Diseño de arquitectura | I | RA | I | I |
 | Validación de la estructura de datos con el diseño de la interfaz de usuario | I | RA | C | C |
 | Desarrollo de aplicaciones | RA | RA | RA | RA |
-| Configuración del proyecto de AEM Screens | I | RA | C | I |
+| Configuración del proyecto AEM Screens | I | RA | C | I |
 | Implementación de Analytics | I | RA | C | - |
 | Pruebas e implementación | RA | C | RA | I |
 | Configuración del servidor | I | RA | I | I |
@@ -176,11 +177,11 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 
 >[!NOTE]
 >
-> Las funciones cambian durante el día dos (compatibilidad con el lanzamiento posterior).
+>Las funciones cambian durante el día dos (compatibilidad con el lanzamiento posterior).
 
 * **Autor**: Gestor de contenido + Estrategia
 
-* **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o el envío al equipo de desarrollo interno
+* **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o entrega al equipo de desarrollo interno
 
 * **Técnico**: Ya sea contratado por el integrador AV o es parte de la misma compañía.
 
