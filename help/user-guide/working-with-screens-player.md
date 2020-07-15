@@ -10,18 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 43%
 
 ---
 
 
 # Working with AEM Screens Player {#working-with-aem-screens-player}
 
-Puede administrar el contenido del canal y otros ajustes en AEM Screens Player.
+Puede administrar el contenido de canal y otros ajustes en el Reproductor de AEM Screens.
 
 >[!NOTE]
 >
->Presione ***Ctrl + Cmd + F**para salir del modo de pantalla completa del reproductor AEM Screens para OS X.*
+>Presione ***Ctrl + Cmd + F*** para salir del modo de pantalla completa del reproductor AEM Screens para OS X.
 
 Una vez asigne un canal a una visualización, el reproductor AEM Screens muestra el contenido. Puede configurar las opciones de configuración del reproductor mediante las preferencias de la IU de administración (desde el panel) o desde el reproductor en sí mismo.
 
@@ -29,7 +32,7 @@ Una vez asigne un canal a una visualización, el reproductor AEM Screens muestra
 
 Puede configurar las preferencias del dispositivo desde el panel del dispositivo, el cual está disponible a través de la instancia de creación de AEM.
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --&gt; ***Devices***.
+1. Navigate to the device dashboard from your project, for example, ***Test Project*** --> ***Devices***.
 
    Select **Devices** and **Device Manager** from the action bar.
 
@@ -55,19 +58,33 @@ Para ver la administración de IU desde el reproductor Screens, pulse de forma p
 
 ![climage_1-3](assets/chlimage_1-3.gif)
 
-Si selecciona la opción **Configuración** en el menú lateral, también puede restablecer **Firmware**, **Preferencias** o **A fábrica** desde este cuadro de diálogo.
+#### Acceso a las opciones del menú Configuración {#configuration-options}
 
-Además, puede especificar el número máximo de archivos de registro que se guardarán para un reproductor de AEM Screens en el número **máximo. de los archivos de registro que se van a conservar**. Consulte la captura de pantalla de abajo para obtener más detalles.
+Puede actualizar las configuraciones si selecciona la opción **Configuración** en el menú lateral, como se muestra en la figura siguiente:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+El menú Configuración permite modificar las siguientes opciones:
+
+* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+
+* Especifique el número máximo de archivos de registro que se guardarán para un reproductor de AEM Screens en **Nº máximo. de los archivos de registro que se van a conservar**.
+
+* Habilite o deshabilite **el menú** de administración, el conmutador **de** Canales y la interfaz de usuario **de** Actividad para el reproductor de pantallas.
+
+   Si la IU **de** Actividad está habilitada desde el menú **Configuración** , el reproductor de AEM Screens muestra los mensajes *sincronizados* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
+
+   ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >La opción **Actualizar firmware** solo funciona en el Cordova, como reproductores de Android.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >Se recomienda desactivar la interfaz de usuario **del** administrador en implementaciones de producción.
+
+#### Acceso a las opciones del menú Caché de contenido {#content-cache-options}
 
 Puede borrar la caché de los canales y aplicaciones desde la IU de administración del reproductor AEM Screens.
 
@@ -113,9 +130,9 @@ Puede solucionar varios problemas relacionados con el reproductor AEM Screens (h
 |---|---|
 | El almacenamiento del reproductor está lleno | Eliminar archivos innecesarios |
 | Reproductor perdido red | Utilice el cable Cat-5/Cat-6. Para Wi-Fi, reduzca la distancia desde el router al dispositivo reproductor |
-| Se bloqueó AEM Screens Player | Se recomienda disponer de una aplicación de vigilancia que garantice que AEM Screens Player siempre se ejecute |
-| Configuración perdida de AEM Screens Player | Comprobar la conexión con el servidor AEM |
-| AEM Screens Player no se inicia automáticamente después de reiniciar o reiniciar el reproductor | Comprobación de la carpeta de inicio del sistema operativo o del procedimiento de inicialización |
+| Se bloqueó el reproductor de AEM Screens | Se recomienda disponer de una aplicación de vigilancia que garantice que el Reproductor de AEM Screens siempre se ejecute |
+| AEM Screens Player perdió la configuración | Comprobar la conexión con el servidor AEM |
+| AEM Screens Player no inicio automáticamente después de reiniciar o reiniciar el reproductor | Comprobar la carpeta de inicio del sistema operativo o el procedimiento de inicialización |
 | AEM Screens Player muestra contenido incorrecto o anterior | Comprobar conexión de red |
 
 ### Actualizaciones para el reproductor AEM Screens {#updates-for-aem-screens-player}
@@ -138,7 +155,7 @@ La siguiente sección proporciona las directrices de selección de hardware para
 * Revise siempre los requisitos de alimentación y el acondicionamiento de alimentación.
 * Revise cuidadosamente las necesidades de rendimiento y los puertos de E/S requeridos para la aplicación.
 
-La siguiente tabla resume las configuraciones de hardware con casos de uso típicos de un proyecto de AEM Screens:
+La siguiente tabla resume las configuraciones de hardware con casos de uso típicos para un proyecto de AEM Screens:
 
 <table>
  <tbody>
@@ -146,7 +163,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>Configuración del reproductor</td>
    <td>Procesador</td>
    <td>Memoria</td>
-   <td>SSD de almacenamiento</td>
+   <td>SSD de Almacenamiento</td>
    <td>GPU</td>
    <td>Mostrar</td>
    <td>E/S</td>
@@ -163,7 +180,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>
     <ul>
      <li>Bucle estándar de pantalla completa<br /> </li>
-     <li>Partición de día</li>
+     <li>Partición de días</li>
     </ul> </td>
   </tr>
   <tr>
@@ -182,7 +199,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
     </ul> </td>
   </tr>
   <tr>
-   <td>Avanzado</td>
+   <td>Avanzado </td>
    <td>Cuatro núcleos con hipersubprocesos, procesador Intel® Core i7</td>
    <td><p>16 GB de memoria</p> <p>8 MB de caché</p> </td>
    <td>256 GB</td>
