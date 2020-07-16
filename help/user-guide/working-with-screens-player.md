@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 43%
 
 ---
@@ -72,7 +72,7 @@ El menú Configuración permite modificar las siguientes opciones:
 
 * Habilite o deshabilite **el menú** de administración, el conmutador **de** Canales y la interfaz de usuario **de** Actividad para el reproductor de pantallas.
 
-   Si la IU **de** Actividad está habilitada desde el menú **Configuración** , el reproductor de AEM Screens muestra los mensajes *sincronizados* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
+   Si la IU **de** Actividad está habilitada desde el menú **Configuración** , el reproductor de AEM Screens muestra las notificaciones *de actividad del* reproductor en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
