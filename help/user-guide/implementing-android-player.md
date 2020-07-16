@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +27,13 @@ Además, **Watchdog** es una solución para recuperar al jugador de los bloqueos
 
 ## Instalación de Android Player {#installing-android-player}
 
-Para implementar Android Player para AEM Screens, instale Android Player para AEM Screens.
+Para implementar el Reproductor de Android para AEM Screens, instale el Reproductor de Android para AEM Screens.
 
-Visite la página de descargas [**de**](https://download.macromedia.com/screens/) AEM 6.4 Player.
+Visite la página de descargas [**de **](https://download.macromedia.com/screens/)AEM 6.5 Player.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-El método Ad-Hoc permite instalar el último reproductor de Android (*.exe*). Visite la página de descargas [**del reproductor de**](https://download.macromedia.com/screens/) AEM 6.4.
+El método Ad-Hoc permite instalar el último reproductor de Android (*.exe*). Visite la página de descargas [**de **](https://download.macromedia.com/screens/)AEM 6.5 Player.
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
@@ -64,10 +67,10 @@ Siga los pasos a continuación para firmar el apk androide con las claves del fa
 1. Descargue el paquete desde Google Play o desde la página de descargas [de](https://download.macromedia.com/screens/) AEM Screens Player
 1. Obtenga las claves de plataforma del fabricante para obtener un *pk8* y un archivo *pem*
 
-1. Localice la herramienta apksigner en el sdk android usando find ~/Library/Android/sdk/build-tools -name "apksigner"
-1. &lt;pathto&gt; /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
+1. Localice la herramienta apksigner en el sdk android usando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
+1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. Busque la ruta a la herramienta de alineación de código postal en el sdk android
-1. &lt;pathto&gt; /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
+1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
 1. Instalar ***aemscreensalign.apk*** mediante la instalación de adb en el dispositivo
 
 ## Implementación de Android Watchdog {#android-watchdog-implementation}
@@ -78,12 +81,12 @@ El siguiente diagrama muestra la implementación del servicio de vigilancia:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Inicialización** En el momento de la inicialización del complemento de cordova, se comprueban los permisos para ver si tenemos privilegios del sistema y, por lo tanto, el permiso de reinicio. Si se cumplen estos dos criterios, se crea una intención de reinicio pendiente; de lo contrario, se crea una intención pendiente de reiniciar la aplicación (según su actividad de inicio).
+**1. Inicialización** En el momento de la inicialización del complemento de cordova, se comprueban los permisos para ver si tenemos privilegios del sistema y, por lo tanto, el permiso de reinicio. Si se cumplen estos dos criterios, se crea una intención de reinicio pendiente; de lo contrario, se crea una intención pendiente de reiniciar la aplicación (según su Actividad de inicio).
 
-**2. Mantener activo Temporizador** Se utiliza un temporizador de mantenimiento para activar un evento cada 15 segundos. En ese caso, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
+**2. Mantener activo Temporizador** Se utiliza un temporizador de mantenimiento para activar un evento cada 15 segundos. En ese evento, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
 
 >[!NOTE]
 >
->En Android, *AlarmManager* se utiliza para registrar las *intenciones* pendientes que se pueden ejecutar incluso si la aplicación se ha bloqueado y su entrega de alarma no es exacta desde la API 19 (Kitkat). Mantenga cierto espacio entre el intervalo del temporizador y la alarma del *AlarmManager* *pendingIntent* .
+>En Android, *AlarmManager* se utiliza para registrar las *intenciones* pendientes que se pueden ejecutar aunque la aplicación se haya bloqueado y el envío de alarma no sea exacto de la API 19 (Kitkat). Mantenga cierto espacio entre el intervalo del temporizador y la alarma del *AlarmManager* *pendingIntent* .
 
 **3. Bloqueo** de la aplicación En caso de bloqueo, el parámetro pendingIntent para el reinicio registrado con AlarmManager ya no se restablece y, por tanto, ejecuta un reinicio o reinicio de la aplicación (según los permisos disponibles en el momento de la inicialización del complemento de Cordova).
