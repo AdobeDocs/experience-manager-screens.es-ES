@@ -2,9 +2,9 @@
 title: Red móvil directa
 description: La página describe la configuración de red móvil directa
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 23bb59c719c675baa84c579f624adccc80377661
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Red móvil directa {#mobile-network-setup}
 
-AEM Screens Los reproductores también pueden conectarse a través de redes móviles o móviles que se ejecutan al menos en una red 3G.
+AEM Screens Los reproductores también pueden conectarse mediante redes móviles o móviles que ejecuten al menos una red 3G.
 
-Dentro de los AEM Screens, el contenido requerido se descarga físicamente al controlador del reproductor o al equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda determinado solo afecta a los tiempos de descarga iniciales y no influye en el rendimiento de los monitores.
+Dentro de los AEM Screens, el contenido requerido se descarga físicamente al controlador del reproductor o al equipo y se almacena correctamente dentro del sistema operativo subyacente. Por lo tanto, el ancho de banda determinado solo afecta a los tiempos de descarga iniciales, así como a las actualizaciones de contenido, y no influye en el rendimiento de la reproducción regular de los monitores.
 
-La ventaja de la conexión de los reproductores AEM Screens con una conexión Cellular 3/4/5G a su proveedor de datos de servicio móvil es que el router móvil se puede colocar en un punto optimizado para garantizar la mejor cobertura de red disponible. Generalmente se encuentra en una posición elevada y abierta, con la mejor construcción de hormigón o metal que sea posible.
+La ventaja de conectar reproductores de AEM Screens sobre Cellular 3/4/5G a su proveedor de datos de servicio móvil es que el enrutador móvil puede colocarse en un punto optimizado para garantizar la mejor cobertura de red disponible. Normalmente se encuentra en una posición elevada y abierta, con la menor cantidad posible de construcciones de hormigón o metal.
 
-Este SetUp permite a los usuarios de pantalla de AEM una buena flexibilidad, ya que no se requiere una conexión fija para conectarse a AEM Screens.
+Esta configuración permite a los usuarios de AEM Screen una buena flexibilidad, ya que no se requiere una conexión fija para conectarse a AEM Screens. Esto es particularmente interesante para configuraciones efímeras o móviles.
 
 El siguiente diagrama muestra la configuración de red móvil directa y consta de un segmento de conexión de red único y la conexión de cada reproductor a la red de datos móviles o móviles.
 
@@ -28,7 +28,7 @@ El siguiente diagrama muestra la configuración de red móvil directa y consta d
 
 Siga los pasos que se describen a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
-1. Asegúrese de que cada uno de los reproductores de pantalla de AEM está conectado a la red de routers.
+1. Asegúrese de que cada uno de los reproductores de pantalla de AEM está conectado a la red del router.
 
 1. Pruebe la conexión a Internet llamando a una dirección URL en el navegador del sistema.
 
@@ -70,7 +70,7 @@ Como seguimiento, el Paquete de datos necesario debe ser al menos:
 
 >[!IMPORTANT]
 >
->Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga, que se reflejarán en los supuestos anteriores.Una red 4G con *buena* cobertura y datos *ilimitados* debe coincidir con las instalaciones más comunes de esta configuración de red.
+>Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un aumento del tiempo de descarga, que se reflejará en los supuestos anteriores. Una red 4G con *buena* cobertura y datos *ilimitados* debe coincidir con las instalaciones más comunes de esta configuración de red.
 
 >[!NOTE]
 >
@@ -79,9 +79,9 @@ Como seguimiento, el Paquete de datos necesario debe ser al menos:
 
 ### Red de área local {#lan-connection}
 
-El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens sin problemas. La red LAN suele coincidir con una red de 100 Mbps, por lo que hay suficiente ancho de banda para conectar muchos dispositivos con un buen rendimiento al sistema.
+Los problemas de rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, son proporcionar un ancho de banda suficiente para que los AEM Screens funcionen sin problemas. La recomendación para las velocidades de red LAN es el inicio de redes de 100 Mbps al menos, de modo que haya suficiente ancho de banda para conectar muchos dispositivos con buen rendimiento al sistema.
 
-Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red. Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet o enrutador.
+Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red. Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet o enrutador. De lo contrario, el ancho de banda total estará limitado por el eslabón más débil de la cadena de red.
 
 ## Descarga de medios y recursos {#download}
 
