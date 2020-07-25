@@ -3,8 +3,9 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Ayuda de las pantallas de Adobe Experience Manager
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 13%
@@ -59,7 +60,7 @@ ht-degree: 13%
    + Uso de las funciones principales del producto {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización masiva sin conexión](bulk-offline-update.md)
-      + [Servicio de notificaciones de pantalla de AEM](screens-notifications-service.md)
+      + [Servicio de notificaciones de AEM Screens](screens-notifications-service.md)
       + [Uso de fragmentos de experiencias](experience-fragments-in-screens.md)
       + [Activación de nivel de recurso](asset-level-scheduling.md)
       + [Activación de nivel de Canal](channel-level-activation.md)
@@ -92,7 +93,7 @@ ht-degree: 13%
    + [Canales sin conexión](offline-channels.md)
    + [Ampliación del componente AEM Screens](extending-component-tutorial-develop.md)
    + [Creación de componentes](creating-components.md)
-   + [Incrustación de una aplicación REACT mediante el editor de AEM SPA e integración con análisis de AEM Screens](embedding-react-app.md)
+   + [Incrustación de una aplicación REACT mediante el Editor de AEM SPA e integración con AEM Screens Analytics](embedding-react-app.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de personalización de marca y estilo para superposiciones de texto](custom-branding-text-overlays.md)
