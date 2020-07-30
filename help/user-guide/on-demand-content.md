@@ -6,7 +6,10 @@ seo-description: 'Siga esta página para conocer la actualización de contenido 
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ Esta sección describe el contenido bajo demanda para administrar publicaciones.
 
 ## Administración de publicación: Envío de actualizaciones de contenido desde el autor a la publicación en el dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Puede publicar y cancelar la publicación de contenido desde AEM Screens. La función Administrar publicación permite enviar actualizaciones de contenido desde el autor para publicarlas en el dispositivo. Puede publicar/cancelar la publicación de contenido para todo el proyecto de AEM Screens o solo para uno de sus canales, ubicaciones, dispositivos, aplicaciones o programaciones.
+Puede publicar y cancelar la publicación de contenido de AEM Screens. La función Administrar publicación permite enviar actualizaciones de contenido desde el autor para publicarlas en el dispositivo. Puede publicar/cancelar la publicación de contenido para todo el proyecto de AEM Screens o solo para uno de sus canales, ubicaciones, dispositivos, aplicaciones o programaciones.
 
 ### Administración de publicaciones para un proyecto de AEM Screens {#managing-publication-for-an-aem-screens-project}
 
-Siga los pasos a continuación para enviar actualizaciones de contenido del autor a un dispositivo para un proyecto de AEM Screens:
+Siga los pasos que se describen a continuación para enviar actualizaciones de contenido del autor y publicarlas en un dispositivo para un proyecto de AEM Screens:
 
-1. Vaya a su proyecto de AEM Screens.
+1. Vaya al proyecto de AEM Screens.
 1. Haga clic en **Administrar publicación** en la barra de acciones para publicar la instancia del proyecto para publicar.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
@@ -36,7 +39,7 @@ Siga los pasos a continuación para enviar actualizaciones de contenido del auto
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Haga clic en **+ Incluir elementos secundarios** en la barra de acciones y desmarque todas las opciones para publicar todos los módulos del proyecto y haga clic en **Agregar** para publicarlos.
+1. Haga clic en **+ Incluir elementos secundarios** en la barra de acciones y desmarque todas las opciones para publicar todos los módulos del proyecto y haga clic en **Añadir** para publicar.
 
    >[!NOTE]
    >
@@ -73,8 +76,8 @@ Esta opción permite administrar las actualizaciones solo en las páginas que se
    >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido sigue cargándose para publicar instancias) después de hacer clic en el botón **Publicar** en el flujo de trabajo de administración de publicaciones.
 
 
-   > [!CAUTION]
-   > Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido** sin conexión desde el panel de canales o seleccione el proyecto. En este caso, el contenido sin conexión de actualización solo se realiza en la instancia de creación.
+   >[!CAUTION]
+   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido** sin conexión desde el panel de canal o seleccione el proyecto. En este caso, el contenido sin conexión de actualización solo se realiza en la instancia de creación.
 
 1. Vaya al proyecto y haga clic en **Actualizar contenido** sin conexión en la barra de acciones. Esta acción reenvía el mismo comando para publicar instancias, de modo que los archivos comprimidos sin conexión también se crean en la instancia de publicación.
 
@@ -89,9 +92,9 @@ Esta opción permite administrar las actualizaciones solo en las páginas que se
    >
    >Debe activar el contenido sin conexión de actualización en la instancia de autor, si tiene un reproductor registrado en el servidor de creación. No es necesario actualizar el contenido sin conexión para el reproductor registrado en la instancia de publicación.
 
-### Administración de publicaciones para un canal {#managing-publication-for-a-channel}
+### Administración de publicaciones para un Canal {#managing-publication-for-a-channel}
 
-Siga los pasos que se describen a continuación para enviar actualizaciones de contenido del autor a un dispositivo para un canal en un proyecto de AEM Screens:
+Siga los pasos que se describen a continuación para enviar actualizaciones de contenido del autor a un dispositivo para un Canal en un proyecto de AEM Screens:
 
 >[!NOTE]
 >
@@ -114,7 +117,7 @@ Siga los pasos que se describen a continuación para enviar actualizaciones de c
    >
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
 
-1. Activar **actualización de contenido** sin conexión en el panel de canal solo insertará el contenido sin conexión en la instancia de creación, pero no en la instancia de publicación. Los pasos 1 a 4 sirven para insertar contenido sin conexión en una instancia de publicación.
+1. Activar **actualización de contenido** sin conexión en canal panel solo insertará el contenido sin conexión en la instancia de creación, pero no en la instancia de publicación. Los pasos 1 a 4 sirven para insertar contenido sin conexión en una instancia de publicación.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
@@ -122,7 +125,7 @@ Siga los pasos que se describen a continuación para enviar actualizaciones de c
    >
    >Primero debe publicar y, a continuación, activar la actualización de contenido sin conexión, tal como se resume en los pasos anteriores.
 
-### Reasignación de canal y dispositivo: {#channel-and-device-re-assignment}
+### Reasignación de Canal y dispositivo: {#channel-and-device-re-assignment}
 
 Si ha reasignado un dispositivo, debe publicar tanto la pantalla inicial como la nueva, una vez que el dispositivo se haya reasignado a la nueva pantalla.
 
