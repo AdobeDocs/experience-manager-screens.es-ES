@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -26,7 +26,7 @@ En esta página se describe la activación de nivel de canal de los recursos uti
 En esta sección se tratan los siguientes temas:
 
 * Información general
-* Ventana Activación
+* Ventana de activación
 * Uso de la Activación de nivel de Canal como una única reproducción de Evento
 * Gestión de periodicidad para recursos en un Canal
    * Partición de días
@@ -45,7 +45,7 @@ El siguiente ejemplo proporciona una solución centrándose en los siguientes t�
 * un ***único canal*** de evento que se ejecuta una sola vez a la hora establecida
 * un programa ***establecido y una prioridad*** para el evento de reproducción único que se produce dentro del canal de secuencia principal
 
-## Ventana Activación {#using-channel-level-activation}
+## Ventana de activación {#using-channel-level-activation}
 
 En la siguiente sección se explica la creación de una sola reproducción de evento dentro de un canal para un proyecto de AEM Screens.
 
@@ -154,7 +154,7 @@ Una vez que haya configurado los canales y se haya completado la visualización,
 El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:59 (según lo establecido en la programación), el canal **TargetedSinglePlay** mostrará su contenido hasta las 12:05 a.m. y, a continuación, **MainAdChannel** reanudará la reproducción de su contenido.
 
 >[!NOTE]
-Para obtener más información sobre AEM Screen Player, consulte los siguientes recursos:
+Para obtener más información sobre AEM reproductor de pantalla, consulte los siguientes recursos:
 * [Descargas de AEM Screens Player](https://download.macromedia.com/screens/)
 * [Uso de AEM Screens Player](working-with-screens-player.md)
 
