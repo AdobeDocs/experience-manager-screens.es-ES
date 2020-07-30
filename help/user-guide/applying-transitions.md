@@ -6,7 +6,7 @@ seo-description: Siga esta página para conocer cómo aplicar transiciones a sus
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Siga los pasos a continuación para agregar un componente de transición al proy
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >De forma predeterminada, las propiedades del componente de transición, como **Tipo** , se establecen en **Desvanecer** y la **Duración** se establece en *1600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición que sea más largo que el recurso al que se está aplicando.
 
