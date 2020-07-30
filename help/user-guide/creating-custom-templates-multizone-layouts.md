@@ -5,7 +5,10 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 1%
 
 ---
 
@@ -22,12 +25,12 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
 
    Debe decidir si se utiliza un tamaño de píxel fijo para las diferentes zonas del diseño personalizado o si se desea crear un diseño personalizado con porcentajes.
 
-   > [!NOTE]
-   > La ventaja de utilizar el porcentaje para establecer zonas para el diseño personalizado le permite reutilizar la plantilla en una variedad de tamaños de pantalla.
+   >[!NOTE]
+   >La ventaja de utilizar el porcentaje para establecer zonas para el diseño personalizado le permite reutilizar la plantilla en una variedad de tamaños de pantalla.
 
 1. **Convención** de nombres:
 
-   Antes de comprender cómo crear plantillas multizona personalizadas para utilizarlas en un proyecto de AEM Screens, se recomienda conocer la versión de las plantillas que desea crear.
+   Antes de comprender cómo crear plantillas de varias zonas personalizadas para utilizarlas en un proyecto de AEM Screens, se recomienda comprender la versión de las plantillas que desea crear.
 
    | **Nombre del diseño** | **Descripción** |
    |---|---|
@@ -35,8 +38,8 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
    | Upper20-PortraitHD2Zone | Se refiere a una plantilla vertical de 2 zonas que cubre el 20 % de la pantalla desde la parte superior, con una proporción de aspecto de 16:9 |
    | Right20-LandscapeSD3Zone | Se refiere a una plantilla de 3 zonas que cubre el 20 % de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
 
-   > [!IMPORTANT]
-   > Es posible que las zonas definidas en el diseño personalizado no coincidan con la proporción de aspecto general de todo el diseño. La convención de nomenclatura seguida en este documento especifica la proporción de aspecto del diseño personalizado en su conjunto.
+   >[!IMPORTANT]
+   >Es posible que las zonas definidas en el diseño personalizado no coincidan con la proporción de aspecto general de todo el diseño. La convención de nombre seguida en este documento especifica la proporción de aspecto del diseño personalizado en su conjunto.
 
 ## Ejemplo de caso de uso Left20-LandscapeDiseño HD3Zone {#custom-template-one}
 
@@ -57,18 +60,18 @@ El diseño Left20-LandscapeHD3Zone permite crear el siguiente diseño multizona 
 
 Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone para un proyecto de AEM Screens:
 
-1. Cree un proyecto de AEM Screens titulado como plantilla **personalizada**.
+1. Cree un proyecto de AEM Screens con el título de plantilla **personalizada**.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Vaya a **CRXDE Lite** desde su instancia de AEM —> Herramientas —> **CRXDE Lite**.
+1. Vaya al **CRXDE Lite** desde su instancia de AEM —> Herramientas —> **CRXDE Lite**.
 
 1. Cree una carpeta en **aplicaciones** con el título de plantilla **personalizada**. Del mismo modo, cree otra carpeta titulada como **plantilla** en plantilla **personalizada**, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-   > [!NOTE]
-   > Se recomienda hacer clic en **Guardar todo** desde la barra de acciones de CRXDE Lite cada vez que cree, edite o copie contenido en cualquiera de los nodos; de lo contrario, no podrá confirmar las actualizaciones.
+   >[!NOTE]
+   >Se recomienda hacer clic en **Guardar todo** desde la barra de acciones del CRXDE Lite cada vez que cree, edite o copie contenido en cualquiera de los nodos; de lo contrario, no podrá confirmar las actualizaciones.
 
 1. Copie la plantilla de la izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
@@ -87,7 +90,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. En relación con el paso (4), en el que ha copiado la plantilla de la barra izquierda, verá 3 cuadrículas adaptables debajo de `my-custom-layout/jcr:content`. Agregue una clase css personalizada a cada una de las cuadrículas interactivas de la propiedad *cq:cssClass* ; por ejemplo, *my-custom-layout (superior izquierda* para el nodo *r1c1* ).
+1. Haciendo referencia al paso (4), en el que ha copiado la plantilla de la barra izquierda, vista 3 cuadrículas adaptables debajo de `my-custom-layout/jcr:content`. Añada la clase css personalizada en cada una de las cuadrículas interactivas de la propiedad *cq:cssClass* ; por ejemplo, *my-custom-layout (superior izquierda* para el nodo *r1c1* ).
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
@@ -97,7 +100,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
    >Estas clases personalizadas se utilizarán en css para definir la anchura y la altura de estas cuadrículas adaptables.
 
    >[!NOTE]
-   > Puede agregar o quitar las cuadrículas adaptables en función del número total de cuadrículas que desee. En este ejemplo, se muestran 2 cuadrículas en la primera fila y 1 cuadrícula en la segunda fila, por lo que hay un total de 3 cuadrículas adaptables (r1c1, r1c2, r2c1).
+   >Puede agregar o quitar las cuadrículas adaptables en función del número total de cuadrículas que desee. En este ejemplo, se muestran 2 cuadrículas en la primera fila y 1 cuadrícula en la segunda fila, por lo que hay un total de 3 cuadrículas adaptables (r1c1, r1c2, r2c1).
 
 1. Copie `/libs/settings/wcm/designs/screens` en el diseño copiado `/apps/settings/wcm/designs/` y cámbiele el nombre como diseños **de plantilla** personalizados.
 
@@ -126,18 +129,18 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
    ```
 
    >[!NOTE]
-   > Puede actualizar los porcentajes para que coincidan con los requisitos de la plantilla personalizada.
+   >Puede actualizar los porcentajes para que coincidan con los requisitos de la plantilla personalizada.
 
 1. Vaya a `/apps/<project>/templates/my-custom-layout/jcr:content` la propiedad *cq:designPath* y actualícela para `/apps/settings/wcm/designs/customtemplate-designs` cargar los estilos configurados en static.css
 
    >[!NOTE]
-   > Se recomienda escribir todos los estilos en lugar de copiarlos o pegarlos, lo que puede provocar que los espacios en blanco produzcan problemas de estilo css.
+   >Se recomienda escribir todos los estilos en lugar de copiarlos o pegarlos, lo que puede provocar que los espacios en blanco produzcan problemas de estilo css.
 
 ## Visualización del resultado {#viewing-result}
 
 Siga los pasos a continuación para utilizar la plantilla personalizada anterior en el proyecto de AEM Screens:
 
-1. Vaya al proyecto Pantallas que ha creado en el paso (1) y seleccione la carpeta **Canales** .
+1. Vaya al proyecto Pantallas que ha creado en el paso (1) y seleccione la carpeta de **Canales** .
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
@@ -145,11 +148,11 @@ Siga los pasos a continuación para utilizar la plantilla personalizada anterior
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
-1. Una vez creado un canal con la plantilla personalizada, puede agregar recursos al canal desde el editor. La siguiente vista previa muestra las imágenes en una plantilla personalizada.
+1. Una vez creado un canal con la plantilla personalizada, puede agregar recursos a su canal desde el editor. La siguiente previsualización muestra las imágenes en una plantilla personalizada.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserción de una imagen como capa de fondo {#inserting-image}
+## Inserción de una imagen como capa de fondo  {#inserting-image}
 
 Puede insertar una imagen como capa de fondo en el diseño:
 
