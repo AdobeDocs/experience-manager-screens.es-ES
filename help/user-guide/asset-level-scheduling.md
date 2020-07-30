@@ -4,7 +4,7 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 2%
@@ -19,7 +19,7 @@ En esta página se describe la activación de nivel de recurso para los recursos
 En esta sección se tratan los siguientes temas:
 
 * Información general
-* Ventana Activación
+* Ventana de activación
 * Reproducción de un solo Evento
 * Gestión de periodicidad en recursos
    * Partición de días
@@ -42,7 +42,7 @@ En esta sección se tratan los siguientes temas:
 
 Con esta función, no sólo puede especificar el inicio y la fecha y hora de finalización, sino también un patrón de periodicidad.
 
-## Ventana Activación {#single-event-playback}
+## Ventana de activación {#single-event-playback}
 
 La Activación de nivel de recurso se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
 
@@ -88,8 +88,8 @@ Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
-   > [!NOTE]
-   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -115,8 +115,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
-   > [!NOTE]
-   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -140,8 +140,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
-   > [!NOTE]
-   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -154,8 +154,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
 | de febrero a julio | el recurso se reproduce en el canal desde febrero hasta finales de julio |
 
-> [!NOTE]
-> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
+>[!NOTE]
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
 
 ### Combinación de asociaciones {#combined-parting}
 
@@ -163,8 +163,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
-   > [!NOTE]
-   > Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   >[!NOTE]
+   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -178,8 +178,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en los inicios de canal que se reproducen después de las 14:00 del 1 de enero continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el reproductor de inicios de canal después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego vuelve a inicio el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
-> [!NOTE]
-> Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>[!NOTE]
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
