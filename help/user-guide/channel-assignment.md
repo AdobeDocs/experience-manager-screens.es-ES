@@ -1,47 +1,31 @@
 ---
 title: Asignación de canales
 seo-title: Asignación de canales
-description: Vaya a esta página para obtener más información sobre la asignación y la parrilla de programación del canal.
-seo-description: Vaya a esta página para obtener más información sobre la asignación y la parrilla de programación del canal.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 59%
+source-wordcount: '1335'
+ht-degree: 42%
 
 ---
 
 
 # Asignación de canales {#channel-assignment}
 
-Esta sección abarca los siguientes temas:
+Una vez que haya definido una visualización, deberá asignar un canal a una pantalla.
 
-* **Asignación de un Canal**
-* **Descripción de las propiedades de la asignación de Canales, cuadro de diálogo**
-* **Parrilla de programación**
+Esta página muestra cómo asignar un canal a la pantalla.
 
-Una vez que haya definido una visualización, debe asignar un canal a una de las visualizaciones.
+>[!NOTE]
+>Puede asignar varios canales a una pantalla.
 
-En esta página se muestra la asignación del canal a las visualizaciones.
-
-**Requisitos previos**:
-
-* [Configurar e implementar Screens](configuring-screens-introduction.md)
-* [Crear y gestionar proyecto de pantallas](creating-a-screens-project.md)
-* [Crear y administrar Canales](managing-channels.md)
-* [Crear y administrar ubicaciones](managing-locations.md)
-* [Crear y administrar pantallas](managing-displays.md)
-
-## Asignar un canal {#assign-a-channel}
+## Assigning a Channel {#assign-a-channel}
 
 Siga los pasos a continuación para asignar un canal a una visualización:
+
+>[!Iimportante]
+>El siguiente cuadro de diálogo para la asignación de canales es diferente para la versión de Adobe Experience 6.5.5 Screens Feature Pack y versiones posteriores. Consulte Asignación de [Canales](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) para obtener más detalles.
 
 1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Puede comprender y configurar las propiedades desde el cuadro de diálogo Asignación de **Canal** de la sección siguiente.
+   Puede configurar las propiedades desde el cuadro de diálogo Asignación **de** Canal en la sección siguiente. Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+
+## Asignación de un Canal para la versión del paquete de funciones de las pantallas de AEM 6.5.5 {#assign-a-channel-new-release}
+
+Siga los pasos a continuación para asignar un canal a una visualización:
+
+1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   O bien,
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. En la opción Configuración, puede elegir el canal por ruta o por nombre, introducir la función de canal, la prioridad y los Eventos admitidos.
+
+   >[!NOTE]
+   >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+
+1. En la opción **Programaciones** , seleccione la Zona horaria **de** referencia, la Ventana **de** Activación y la Programación **de** periodicidad.
+
+1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
 ### Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
 
@@ -111,18 +117,17 @@ La programación le permite proporcionar una descripción de texto que indique c
 
 La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
 
+### Partición de día {#dayparting}
 
-### Parrilla de programación {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
-La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar los canales en una parrilla de programación en un día, semana o mes según sea necesario.
-
-En los siguientes ejemplos se explica la parrilla de programación de los canales en tres contextos distintos:
+Los siguientes ejemplos explican la partición de día en canales en tres escenarios diferentes:
 
 #### Reproducir contenido en un único día que esté dividido en varias franjas horarias {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-En este ejemplo se muestra cómo un restaurante utiliza la parrilla de programación para mostrar los menús del desayuno, comida y cena.
+Este ejemplo muestra cómo un restaurante utiliza la partición de día para mostrar su menú de desayuno, almuerzo y cena.
 
 Aquí dividiremos cada día en tres franjas de tiempo diferentes, para que el contenido de los canales se reproduzca según la hora del día:
 
@@ -161,9 +166,9 @@ En este ejemplo se muestra la parrilla de programación de un casino donde se vi
 
 #### Reproducir contenido para un mes o meses en particular {#playing-content-for-a-particular-month-months}
 
-En este ejemplo se muestra la parrilla de programación de una tienda que muestra su colección de verano desde los meses de junio hasta agosto, y su colección de otoño desde septiembre hasta finales de octubre.
+En este ejemplo se muestra la partición de día de una tienda que muestra su colección de verano de los meses de junio a agosto y de otoño de septiembre a finales de octubre.
 
-Aquí se creará la parrilla de programación según los meses, de modo que el contenido del canal se reproduzca según los meses especificados del año.
+Aquí, creará partición de día según los meses para que el contenido del canal se reproduzca según los meses especificados del año.
 
 | **Canal** | **Función** | **Prioridad** | **Programa** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Aquí se creará la parrilla de programación según los meses, de modo que el c
 
 #### Reproducir contenido de canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
 
-En este ejemplo se muestra la parrilla de programación de una tienda que muestra su colección de invierno con el mismo programa para el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
+Este ejemplo muestra la partición de día de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
 
 | **Canal** | **Función** | **Prioridad** | **Programa** |
 |---|---|---|---|
 | A | Invierno | 1 | 01 de diciembre de 2017 - 31 de diciembre de 2017 |
 | B | Navidad | 2 | 24 de diciembre de 2017 - 31 de diciembre de 2017 |
 
+
 >[!IMPORTANT]
 >
-> Para obtener más información sobre la partición de días, consulte las secciones siguientes:
+> Para obtener más información sobre la partición de día, consulte las secciones siguientes:
 >
 >* [Gestión de periodicidad en recursos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestión de periodicidad para recursos en un Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
