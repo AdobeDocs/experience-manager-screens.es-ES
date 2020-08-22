@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 45%
 
 ---
@@ -54,7 +54,7 @@ Las opciones de plantilla siguientes están disponibles mientras utiliza el asis
 | Canal de aplicaciones | Permite mostrar la aplicación web personalizada en el reproductor Screens. |
 | Canal de pantalla dividida 1x1 | Permite la vista del componente en una sola zona. |
 | Canal de pantalla dividida 1x2 | Permite la vista de los recursos en dos zonas (divididos horizontalmente). |
-| Canal de pantalla dividida 2X1 | Permite la vista de los recursos en dos zonas (divididos verticalmente). |
+| canal de pantalla dividida 2X1 | Permite la vista de los recursos en dos zonas (divididos verticalmente). |
 | Canal de pantalla dividida 2x2 | Permite la vista de los recursos en cuatro zonas (divididos horizontal y verticalmente en una matriz). |
 | Canal de pantalla dividida 2 a 3 | Permite la vista de los recursos en dos zonas (divididas horizontalmente), siendo una de ellas más grande que la otra. |
 | Canal de pantalla dividida en barras L izquierda o derecha | Permite a los autores de contenido vista diferentes tipos de recursos en zonas de tamaño adecuado. |
@@ -94,7 +94,7 @@ Para añadir o editar contenido en un canal, siga los pasos que se indican a con
 
 >[!NOTE]
 >
->Puede agregar componentes al canal. Consulte **[Añadir componentes a un Canal](adding-components-to-a-channel.md)**para obtener más información.
+>Puede agregar componentes al canal. Consulte **[Añadir componentes a un Canal](adding-components-to-a-channel.md)** para obtener más información.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 Puede vista del manifiesto desde el panel de canal.
 
->[IMPORTANTE]
-> Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 Siga estos pasos para activar esta opción desde el panel de canal:
 1. **Definir el Canal como sin conexión**
@@ -231,8 +232,8 @@ En la tabla siguiente se resumen los eventos asociados a las actualizaciones aut
     <ul>
      <li>Visualización (canal forzado)</li>
      <li>Dispositivo</li>
-     <li>Asignaciones de Canales (nuevo canal, canal eliminado)</li>
-     <li>Asignación de Canal (función, evento, programación)</li>
+     <li>Asignaciones de canales (nuevo canal, canal eliminado)</li>
+     <li>Asignación de canal (función, evento, programación)</li>
     </ul> </td>
    <td>Configuración actualizada automáticamente</td>
    <td><p>Configuración actualizada en el <strong><i>dispositivo: Configuración push</i></strong></p> <p>O bien,</p> <p>Configuración actualizada en el <strong><i>dispositivo: Reiniciar</i></strong></p> </td>
