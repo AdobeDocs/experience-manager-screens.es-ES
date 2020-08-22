@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 4%
 
 ---
@@ -83,6 +83,7 @@ Si desea que las zonas muestren la secuencia de imágenes y un vídeo en las dis
    1. Vaya a **Zonas** —> **MultiZone** —> **Canales** y haga clic en **Crear** en la barra de acciones.
    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
    1. Enter the title as **EmbeddedChannels** and click **Create**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Añadir dos canales más a la carpeta Canal**
@@ -93,6 +94,7 @@ Si desea que las zonas muestren la secuencia de imágenes y un vídeo en las dis
    1. Arrastre y suelte algunas imágenes en este canal.
    1. Del mismo modo, cree otro canal de secuencia denominado **Zone2** en la carpeta **EmbeddedChannels** .
    1. Arrastre y suelte un vídeo en este canal.
+
    La siguiente figura muestra los canales **Zone1** y **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -154,7 +156,8 @@ Debe asignar los canales a la pantalla para la vista del contenido. Siga los pas
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!Iimportante]
+      >[!IMPORTANT]
+      >
       > Una vez asignado el canal principal (en este caso, **MultiZone**) a la pantalla, es obligatorio asignar los otros dos canales incrustados **Zone1** y **Zone2** también a la misma pantalla.
 
 ### Registro del dispositivo {#registering-device}
@@ -166,6 +169,7 @@ Una vez que haya configurado una ubicación y una pantalla, siga los pasos a con
    1. Vaya a la carpeta **Zones** —> **Dispositivos** .
    1. Select the **Devices** folder and click **Device Manager** from the action bar.
    1. Haga clic en Registro **del** dispositivo y seleccione el dispositivo pendiente en la lista.
+
       >[!NOTE]
       > El título del dispositivo debe coincidir con el token del dispositivo (campo **Token** ) que se muestra en la ficha Registro **del** dispositivo.
    1. Si el título coincide con el autentificador del dispositivo, seleccione el dispositivo y haga clic en **Registrar dispositivo** en la barra de acciones.
@@ -173,6 +177,7 @@ Una vez que haya configurado una ubicación y una pantalla, siga los pasos a con
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Seleccione **Asignar visualización** y seleccione la ruta de acceso a la configuración del dispositivo.
+
    >[!NOTE]
    >Si está intentando vista del contenido en el reproductor de pantallas, asegúrese de hacer clic en **Actualizar contenido** sin conexión en el panel de canal para cada uno de los canales asignados a la pantalla.
 
