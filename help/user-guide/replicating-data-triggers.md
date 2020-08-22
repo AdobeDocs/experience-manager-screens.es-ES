@@ -4,9 +4,9 @@ seo-title: Replicar activadores de datos en el servidor de publicación
 description: Replicar activadores de datos en el servidor de publicación.
 seo-description: Replicar activadores de datos en el servidor de publicación.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # Replicar activadores de datos en servidores de publicación {#replicating-data-triggers}
 
-Al utilizar ContextHub y AEM Targeting Engine para personalizar el contenido en función de los desencadenantes de datos en una configuración de creación/publicación, todas las configuraciones relacionadas con ContextHub y Personalización no se replican automáticamente con los canales cuando se publican.
+Al utilizar ContextHub y AEM motor de objetivo para personalizar el contenido en función de los desencadenantes de datos en una configuración de creación/publicación, todas las configuraciones relacionadas con ContextHub y Personalización no se replican automáticamente con los canales cuando se publican.
 
 Siga esta página para conocer los pasos necesarios para publicar estas configuraciones por separado.
 
 Básicamente, esto se reduce a la publicación manual:
 
 1. Configuraciones de módulos de interfaz de usuario y de la Tienda ContextHub
-1. audiencias de personalización
-1. actividades de personalización
+1. Audiencias de personalización
+1. Actividades de personalización
 
 ## Pasos para replicar activadores de datos en el servidor de publicación {#replicating-data-triggers-publish}
 
@@ -34,14 +34,16 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Como alternativa, puede utilizar `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para desplazarse directamente a la pantalla para configurar y probar la conexión.
 
 1. Haga clic en **Probar conexión** en la barra de acciones para validar la comunicación del autor con la instancia de publicación, como se muestra en la figura siguiente.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de prueba para obtener más información.
 
 1. Seleccione **Añadir** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration`.
@@ -114,4 +116,4 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Actualice el `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de su instancia de AEM.
+   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de la instancia de AEM.
