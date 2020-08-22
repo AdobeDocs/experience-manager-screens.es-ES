@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -63,10 +63,10 @@ Así que, cada vez que programamos un lanzamiento en vivo, el inicio de la promo
 
 En esta sección se explica cómo puede actualizar un período de gracia predeterminado a 10 minutos.
 
-1. Vaya a CRXDE Lite y, a continuación, a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Vaya al CRXDE Lite y, a continuación, a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Haga clic con el botón derecho y copie el archivo.
 3. Vaya a `/apps/system/config` y haga clic con el botón secundario y péguelo.
-4. Haga clic en el Doble `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir el archivo en el editor de CRXDE Lite. Debe mostrar el período de gracia para la ruta */contenido/pantallas/* como **86400**. Cambie ese valor a **600**.
+4. Haga clic en el doble `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir el archivo en el editor de CRXDE Lite. Debe mostrar el período de gracia para la ruta */contenido/pantallas/* como **86400**. Cambie ese valor a **600**.
 
 Ahora, el contenido del archivo de texto debe tener un aspecto similar a:
 
@@ -82,13 +82,13 @@ Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 
 
 ## Uso de Screens Launch {#using-launches}
 
-Esta sección muestra cómo implementar Screens Launch en el proyecto AEM Screens.
+Esta sección muestra cómo implementar Screens Launch en el proyecto de AEM Screens.
 
 ### Creación de un lanzamiento de pantalla {#creating-a-launch}
 
-Siga los pasos que se describen a continuación para implementar la funcionalidad Screens Launch en el proyecto AEM Screens:
+Siga los pasos que se describen a continuación para implementar la funcionalidad Screens Launch en el proyecto de AEM Screens:
 
-1. Cree un canal de secuencia en el proyecto de AEM Screens, por ejemplo **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
+1. Cree un canal de secuencia en su proyecto de AEM Screens, por ejemplo **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
@@ -202,6 +202,7 @@ Puede elegir los recursos que desea promocionar como parte de esta promoción ma
 
 Puede eliminar el inicio mediante la opción **Eliminar inicio** del panel **PENDIENTES LAUNCHES** .
 
->[ATENCIÓN]
+>[!CAUTION]
+>
 >Esta acción también eliminará todos los descendientes (inicios anidados).
 
