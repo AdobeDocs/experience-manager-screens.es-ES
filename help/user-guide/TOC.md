@@ -2,12 +2,12 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Ayuda de las pantallas de Adobe Experience Manager
+user-guide-title: Ayuda de Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 13%
 
 ---
@@ -56,14 +56,16 @@ ht-degree: 13%
       + [Crear y administrar ubicaciones](managing-locations.md)
       + [Crear y administrar programaciones](managing-schedules.md)
       + [Administración de dispositivos](managing-devices.md)
-      + [Asignación de canales](channel-assignment.md)
+      + Asignar canales{#assigning-channels} 
+         + [Asignación de canal: AEM 6.5.5 Screens FP y posterior](channel-assignment.md)
+         + [Asignación de canal: FP anterior](channel-assignment.md)
    + Uso de las funciones principales del producto {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización masiva sin conexión](bulk-offline-update.md)
       + [Servicio de notificaciones de AEM Screens](screens-notifications-service.md)
       + [Uso de fragmentos de experiencias](experience-fragments-in-screens.md)
       + [Activación de nivel de recurso](asset-level-scheduling.md)
-      + [Activación de nivel de Canal](channel-level-activation.md)
+      + [Activación de nivel de canal](channel-level-activation.md)
       + [Creación y administración de Live Copy](managing-livecopy.md)
       + [Creación de un flujo de trabajo de relleno de vídeo](creating-a-video-padding-workflow.md)
       + [Añadir componentes a un canal](adding-components-to-a-channel.md)
@@ -71,7 +73,7 @@ ht-degree: 13%
       + [Diseño de varias zonas](multi-zone-layout-aem-screens.md)
       + [Representaciones de vídeo](generating-renditions.md)
       + [Secuencia integrada dinámica](dynamic-embedded-sequences.md)
-      + [Duración de la reproducción masiva de imágenes en el nivel de Canal](channel-level-image-playback.md)
+      + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
       + [Sincronización de comandos](using-command-sync.md)
       + [Creación con activadores de datos](authoring-data-triggers.md)
    + Administración de actualizaciones de contenido {#content-updates}
@@ -91,9 +93,9 @@ ht-degree: 13%
    + [API de REST](rest-api.md)
    + [Desarrollo de un componente personalizado para AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canales sin conexión](offline-channels.md)
-   + [Ampliación del componente AEM Screens](extending-component-tutorial-develop.md)
+   + [Ampliación de un componente de AEM Screens](extending-component-tutorial-develop.md)
    + [Creación de componentes](creating-components.md)
-   + [Incrustación de una aplicación REACT mediante el Editor de AEM SPA e integración con AEM Screens Analytics](embedding-react-app.md)
+   + [Incrustación de una aplicación REACT con AEM Editor SPA e integración con AEM Screens Analytics](embedding-react-app.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de personalización de marca y estilo para superposiciones de texto](custom-branding-text-overlays.md)
