@@ -3,9 +3,9 @@ title: Asignación de canales
 seo-title: Asignación de canales
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 45%
 
 ---
@@ -29,7 +29,7 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
 1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tap/click **Assign Channel** in the action bar
 
