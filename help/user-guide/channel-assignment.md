@@ -3,10 +3,10 @@ title: Asignación de canales
 seo-title: Asignación de canales
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -97,9 +97,9 @@ La programación le permite proporcionar una descripción de texto que indique c
 
 La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
 
-### Partición de día {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
@@ -119,7 +119,7 @@ Aquí dividiremos cada día en tres franjas de tiempo diferentes, para que el co
 
 #### Reproducir contenido en un día específico de la semana {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra la parrilla de programación de un casino donde se visualiza un evento en directo todos los fines de semana desde las 20:00 hasta las 22:00, y donde también se muestran los platos especiales del menú que estarán disponibles durante la cena después de las 22:00 hasta la 1:00 de la madrugada.
+En este ejemplo se muestra la partición de día que se logra en un casino donde el evento en vivo se produce todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ En este ejemplo se muestra la parrilla de programación de un casino donde se vi
 
 #### Reproducir contenido para un mes o meses en particular {#playing-content-for-a-particular-month-months}
 
-En este ejemplo se muestra la partición de día de una tienda que muestra su colección de verano de los meses de junio a agosto y de otoño de septiembre a finales de octubre.
+En este ejemplo se muestra DayParting para una tienda que muestra su colección de verano de los meses de junio a agosto y de otoño de septiembre a finales de octubre.
 
 Aquí, creará partición de día según los meses para que el contenido del canal se reproduzca según los meses especificados del año.
 
@@ -171,7 +171,7 @@ Este ejemplo muestra la partición de día de una tienda que muestra su colecci�
 
 >[!NOTE]
 >
-> Para obtener más información sobre la partición de día, consulte las secciones siguientes:
+> Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
 >* [Gestión de periodicidad en recursos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestión de periodicidad para recursos en un Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
