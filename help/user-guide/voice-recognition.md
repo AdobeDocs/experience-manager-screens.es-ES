@@ -2,10 +2,10 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '633'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 1%
 
 La función de reconocimiento de voz permite cambiar el contenido de un canal de AEM Screens impulsado por la interacción de voz.
 
-Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. Esto permite que todos los jugadores registrados en la pantalla entiendan la voz. Debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
+Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas. Algunos casos de uso similares incluyen la búsqueda de recomendaciones de productos en tiendas, pedidos de artículos de menú en restaurantes y restaurantes. Esta función aumenta la accesibilidad para los usuarios y puede mejorar considerablemente la experiencia del cliente.
+
 
 >[!NOTE]
 >El hardware del reproductor debe admitir la entrada de voz, como un micrófono.
@@ -26,6 +27,9 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 
 ## Implementación del reconocimiento de voz {#implementing}
 
+
+Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
+
 En la sección siguiente se describe cómo activar y utilizar la función Reconocimiento de voz en un proyecto de AEM Screens.
 
 ### Configuración del proyecto {#setting-up}
@@ -34,19 +38,27 @@ Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene 
 
 1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **VoiceDemo** y tres canales de secuencia **Main**, **ColdDrinks** y **HotDrinks**, como se muestra en la figura siguiente.
 
+   ![image](assets/voice-recognition/vr-1.png)
+
    >[!NOTE]
    >
    >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de Canales](/help/user-guide/managing-channels.md)
 
 1. Navegue hasta cada uno de los canales y agregue contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal. Haga clic en **Editar** en la barra de acciones para abrir el editor y agregar contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido tanto a **ColdDrinks** como al canal **HotDrinks** .
 
-   Los canales ahora contienen el siguiente contenido, como se muestra en las figuras siguientes.
+   Los canales ahora contienen recursos (imágenes), como se muestra en las figuras siguientes.
 
    **Principal**:
 
+   ![image](assets/voice-recognition/vr-4.png)
+
    **ColdDrinks**:
 
+   ![image](assets/voice-recognition/vr-3.png)
+
    **HotDrinks**:
+
+   ![image](assets/voice-recognition/vr-2.png)
 
 ### Configuración de etiquetas para Canales {#setting-tags}
 
@@ -58,10 +70,27 @@ Siga los pasos a continuación para agregar etiquetas a su canal:
 
 1. Click **Properties** from the action bar.
 
+   ![image](assets/voice-recognition/vr-5.png)
+
 1. Vaya a la ficha **Conceptos básicos** y seleccione una etiqueta existente en el campo **Etiquetas** o cree una nueva.
+
+   Puede crear una nueva etiqueta escribiendo un nuevo nombre para la etiqueta, como se muestra en la figura siguiente:
+
+   ![image](assets/voice-recognition/vr-6.png)
+
+   O bien,
+
+   Puede crear etiquetas a partir de la instancia de AEM de antemano para el proyecto y seleccionarlas también.
+
+   Siga los pasos a continuación para crear etiquetas:
+
+   1. Vaya a la instancia de AEM.
+   1. Haga clic en las herramientas —> **Etiquetado**.
+      ![image](assets/voice-recognition/vr-7.png)
 
 1. Haga clic en **Guardar y cerrar** una vez que haya terminado.
 
+Del mismo modo, agregue la etiqueta titulada como **caliente** al canal **HotDrinks** y **frío** al canal **ColdDrinks** .
 
 ### Asignación de Canales a una visualización {#channel-assignment}
 
@@ -80,7 +109,7 @@ Siga los pasos a continuación para agregar etiquetas a su canal:
    >
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
-1. Una vez que haya asignado canales a una pantalla, vaya a la **pantalla Punto de encuentro** y seleccione la pantalla. Seleccione **Propiedades** en la barra de acciones.
+1. Una vez que haya asignado canales a una pantalla, navegue hasta la **pantalla del vestíbulo** y seleccione la pantalla. Seleccione **Propiedades** en la barra de acciones.
 
 1. Vaya a la ficha **Mostrar** y active la opción **Voz habilitada** en **Contenido**.
 
