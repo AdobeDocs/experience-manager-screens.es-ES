@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 37%
+source-wordcount: '895'
+ht-degree: 31%
 
 ---
 
@@ -23,20 +23,59 @@ Esta página muestra cómo asignar un canal a la pantalla.
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-Siga los pasos a continuación para asignar un canal a una visualización:
+Siga las secciones a continuación para crear un proyecto de AEM Screens y asignar un canal a una pantalla.
 
-1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
+### Creación de un proyecto y Canales de AEM Screens {#creating-project}
 
+Siga los pasos a continuación para configurar un proyecto y un canal:
 
-1. Tap/click **Assign Channel** from the action bar
+1. Cree un proyecto de AEM Screens denominado **DemoScreens**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para obtener información sobre cómo crear un proyecto de AEM Screens.
+
+1. Cree un canal de secuencia denominado **Cafeteria** en la carpeta **Canales** .
+
+1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para agregar contenido al canal.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Por ejemplo, el canal **Cafeteria** ahora muestra las siguientes imágenes:
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Cree una ubicación titulada **SanJosé** y una visualización como **Punto de encuentro**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Asignación de Canales a una visualización {#assigning-channel-to-display}
+
+Una vez que se haya completado la configuración del proyecto, debe asignar el canal a una pantalla para la vista del contenido.
+
+1. Vaya a la pantalla requerida, por ejemplo, **DemoScreens** —> **Ubicaciones** —> **SanJosé** —> **Punto de encuentro**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    O bien,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Toque o haga clic en **Panel** y haga clic en **+Asignar Canal** en el panel CANALES y PROGRAMAS **** ASIGNADOS.
 
-1. En la opción Configuración, puede elegir el canal por ruta o por nombre, introducir la función de canal, la prioridad y los Eventos admitidos.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. En la opción **Configuración** , puede elegir el canal por ruta o por nombre, introducir la función de canal, la prioridad, los eventos admitidos y los métodos de interrupción. Además, puede activar la opción de información sobre herramientas de atracción desde este cuadro de diálogo.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
@@ -45,7 +84,9 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
-## Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
+### Visualización del contenido en Chrome Player {#viewing-content-output}
+
+### Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
 
 ### Canal de referencia {#ref-channel}
 
