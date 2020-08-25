@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 28%
+source-wordcount: '1548'
+ht-degree: 26%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 28%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
->Esta sección resalta la asignación de Canales y la programación de canales para AEM 6.5.5 Screens Feature Pack y versiones posteriores.
+>Esta sección resalta la asignación de canales y la programación de canales para AEM 6.5.5 Screens Feature Pack y versiones posteriores.
 
 Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
 
@@ -73,18 +73,18 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. En la opción **Configuración** , puede elegir el canal por ruta o por nombre, introducir la función de canal, la prioridad, los eventos admitidos y los métodos de interrupción. Además, puede activar la opción de información sobre herramientas de atracción desde este cuadro de diálogo.
+1. En la opción **Configuración** , puede elegir el canal por ruta o por nombre, introducir la función **de** Canal, la **prioridad**, los Eventos **** admitidos y los métodos **de** interrupción. Además, puede activar la información sobre herramientas de **Atracción** desde este cuadro de diálogo.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
 1. En la opción **Programaciones** , seleccione la Zona horaria **de** referencia, la Ventana **de** Activación y la Programación **de**periodicidad.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
@@ -96,7 +96,9 @@ Consulte Registro [](device-registration.md) del dispositivo para obtener inform
 
 Vista de la siguiente salida en la selección del reproductor:
 
-### Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Descripción de las propiedades de Canal desde el cuadro de diálogo Asignación de Canal {#channel-properties}
 
 Las siguientes propiedades se establecen desde la opción **Configuración** del cuadro de diálogo Asignación de **Canal** .
 
@@ -185,18 +187,27 @@ Los siguientes ejemplos explican la partición de día en canales en tres escena
 
 Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su menú de desayuno, almuerzo y cena todos los días.
 
-Aquí dividiremos cada día en tres franjas de tiempo diferentes, para que el contenido de los canales se reproduzca según la hora del día. El definirá las siguientes propiedades de la programación de periodicidad para reproducir el contenido según este caso de uso.
+Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el contenido del canal se reproduzca según la hora especificada del día. Configure las siguientes propiedades de la programación de periodicidad para reproducir el contenido según este caso de uso.
 
 | **Nombre** | **Repetir** | **Inicial** | **Fin** |
 |---|---|---|---|
 | Desayuno | Cada día | 6:00 AM | 11:00 AM |
-| Desayuno | Cada día | 11:02 AM | 3:00 PM |
-| Desayuno | Cada día | 3:01 PM | 8:00 PM |
+| Almuerzo | Cada día | 11:02 AM | 3:00 PM |
+| Cena | Cada día | 3:01 PM | 8:00 PM |
 
 #### Reproducir contenido en un día específico de la semana {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra el DayParting logrado en un casino en el que el evento en directo se produce todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
+Este ejemplo muestra la partición de día implementada en un casino donde el evento en vivo tiene lugar todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
 
+| **Nombre** | **Repetir** | **Inicial** | **Fin** |
+|---|---|---|---|
+| Fin de semana | Cada semana | 8:00 PM | 10:00 PM |
+| Especial | Cada día | 10:00 PM | 1:00 AM |
+
+**Fin de semana**
+
+
+**Especial**
 
 #### Reproducir contenido para un mes o meses en particular {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Aquí, creará DayParting según los meses, para que el contenido del canal se r
 
 Este ejemplo muestra la partición de día de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
 
+## Timeline View {#timeline-view}
+
+Una vez que haya asignado un canal a una pantalla y haya configurado una programación de periodicidad, puede realizar la vista de la línea de tiempo desde el panel CANALES y PROGRAMAS **ASIGNADOS** .
+
+Siga los pasos a continuación para navegar hasta la vista de la línea de tiempo:
 
 
 
