@@ -2,9 +2,9 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 3%
 
 # Reconocimiento de voz en AEM Screens {#voice-recognition}
 
->[IMPORTANTE]
+>[!IMPORTANT]
+>
 >**Información de privacidad importante**
+>
 >Al utilizar la función Reconocimiento de voz, siga todas las directrices legales y éticas aplicables para su región (incluido, entre otras cosas, el envío de un aviso visible a los usuarios finales de que el reproductor está utilizando el Reconocimiento de voz). Adobe Inc., no recibe, almacena ni procesa ninguna información relacionada con la voz. Los reproductores de AEM Screens utilizan la API de voz web estándar integrada en el motor de navegación. Entre bastidores, se envía una forma de onda de su discurso a los servidores de Google para la conversión de voz a texto y este texto coincide con el reproductor con las palabras clave configuradas.
 >
 >Consulte el documento técnico Privacidad de [Google en la API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de voz web para obtener más información.
