@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 26%
+source-wordcount: '1551'
+ht-degree: 25%
 
 ---
 
@@ -187,7 +187,7 @@ Los siguientes ejemplos explican la partición de día en canales en tres escena
 
 Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su menú de desayuno, almuerzo y cena todos los días.
 
-Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el contenido del canal se reproduzca según la hora especificada del día. Configure las siguientes propiedades de la programación de periodicidad para reproducir el contenido según este caso de uso.
+Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el contenido del canal se reproduzca según la hora especificada del día. Configure las siguientes propiedades de la programación de periodicidad para que el canal reproduzca el contenido según este caso de uso.
 
 | **Nombre** | **Repetir** | **Inicial** | **Fin** |
 |---|---|---|---|
