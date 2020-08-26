@@ -2,9 +2,9 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: a1322709f4c9b682233364f72553b40585b46031
+source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -27,15 +27,13 @@ La función de reconocimiento de voz permite cambiar el contenido de un canal de
 
 Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas. Algunos casos de uso similares incluyen la búsqueda de recomendaciones de productos en tiendas, pedidos de artículos de menú en restaurantes y restaurantes. Esta función aumenta la accesibilidad para los usuarios y puede mejorar considerablemente la experiencia del cliente.
 
-
 >[!NOTE]
 >El hardware del reproductor debe admitir la entrada de voz, como un micrófono.
 
->[!IMPORTANT]
-> La función de reconocimiento de voz solo está disponible en reproductores de Chrome y Electron.
-
 ## Implementación del reconocimiento de voz {#implementing}
 
+>[!IMPORTANT]
+> La función de reconocimiento de voz solo está disponible en reproductores de Chrome y Electron.
 
 Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
 
@@ -105,11 +103,15 @@ Siga los pasos a continuación para crear etiquetas:
 1. Haga clic en las herramientas —> **Etiquetado**.
    ![image](assets/voice-recognition/vr-7.png)
 1. Haga clic en **Crear** —> **Crear Área de nombres**.
-   ![image](assets/voice-recognition/vr-7.png)
-1. Escriba el nombre del proyecto, por ejemplo: **VoiceDemo** y haga clic en Crear.
+   ![image](assets/voice-recognition/vr-tag3.png)
+1. Escriba el nombre del proyecto, por ejemplo: **VoiceDemo** y haga clic en **Crear**.
+   ![image](assets/voice-recognition/vr-tag2.png)
 1. Seleccione el proyecto **VoiceDemo** y haga clic en **Crear etiqueta** en la barra de acciones.
-1. Haga clic en **Enviar**.
+   ![image](assets/voice-recognition/vr-tag4.png)
+1. Escriba el nombre de la etiqueta y haga clic en **Enviar**.
+   ![image](assets/voice-recognition/vr-tag5.png)
 
+Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
 
 ### Asignación de Canales a una visualización y activación del reconocimiento de voz {#channel-assignment}
 
@@ -151,6 +153,10 @@ Una vez completados los pasos anteriores, puede registrar el dispositivo cromado
 >Consulte Registro [](device-registration.md) del dispositivo para obtener información sobre cómo registrar un dispositivo en un reproductor de AEM Screens.
 
 Este ejemplo muestra la salida en un reproductor Chrome.
+
+El canal **Principal** reproduce su contenido, pero cuando se utilizan palabras con palabras clave **calientes** como *quisiera tomar una bebida* caliente, los inicios de canal reproducen el contenido del canal **HotDrinks** .
+
+Del mismo modo, si utiliza palabras con una palabra clave **fría** como *me gustaría tener algo frío*, los inicios del canal juegan con el contenido del canal **ColdDrinks** .
 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
