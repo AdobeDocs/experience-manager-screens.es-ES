@@ -2,10 +2,10 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 1%
+source-wordcount: '847'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +81,7 @@ Siga los pasos a continuación para agregar etiquetas a su canal:
 
 1. Vaya a la ficha **Conceptos básicos** y seleccione una etiqueta existente en el campo **Etiquetas** o cree una nueva.
 
-   Puede crear una nueva etiqueta escribiendo un nuevo nombre para la etiqueta, como se muestra en la figura siguiente:
+   Puede crear una nueva etiqueta escribiendo un nuevo nombre para la etiqueta y la `return` tecla de visita, como se muestra en la figura siguiente:
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Siga los pasos a continuación para crear etiquetas:
 
 1. Defina las siguientes propiedades en cada uno de los canales, mientras asigna el canal.
 
-   * Principal
-   * HotDrinks
-   * ColdDrinks
+   | **Nombre del canal** | **Prioridad** | **Eventos admitidos** |
+   |---|---|---|
+   | Principal | 2 | Carga inicial, Pantalla inactiva, Temporizador |
+   | HotDrinks | 1 | Interacción del usuario |
+   | ColdDrinks | 1 | Interacción del usuario |
 
    >[!NOTE]
    >
