@@ -2,10 +2,10 @@
 title: Notas de la versión de Feature Pack 2008
 description: La página describe las Notas de la versión de Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,23 @@ La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2
 
 * **Vista de línea de tiempo en el Panel de programación**
 
+   La Vista de línea de tiempo permite al usuario realizar la vista de las programaciones asignadas al canal desde el panel de visualización.
+
+   Consulte Vista [de línea de tiempo](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obtener más información.
+
 * **Programación de repetición**
 
+   La programación de periodicidad le permite establecer una programación recurrente para su canal. Puede configurar varios programas de periodicidad para un canal.
+
+   Consulte Programación [de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más detalles.
+
 * **Capacidades de reconocimiento de voz en AEM Screens**
+
+   La función de reconocimiento de voz permite cambiar el contenido de un canal de AEM Screens impulsado por la interacción de voz.
+
+   Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas.
+
+   Consulte Reconocimiento [de voz](voice-recognition.md) para obtener más información.
 
 * **Actualización de preferencias del dispositivo en modo de autor/publicación**
 
@@ -40,7 +54,7 @@ La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2
 
 Los siguientes reproductores de AEM Screens están disponibles para AEM Screens, versión AEM 6.5 Feature Pack 5:
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
