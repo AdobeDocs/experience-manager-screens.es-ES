@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
@@ -72,25 +72,24 @@ Los siguientes puntos clave ayudan a configurar y AEM el servidor para que esté
 
 1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Buscar remitente del reenvío sling.
 
    Para buscar la propiedad de remitente del reenvío sling, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Marque la opción **Permitir vacío** , como se muestra en la figura siguiente.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![image](assets/config/empty-ref2.png)
 
 1. Haga clic en **Guardar** para activar el filtro de Remitente del reenvío Sling de Apache Permitir vacío.
+
 
 #### Servicio HTTP Apache Felix Jetty Basado en Jetty {#allow-apache-felix-service}
 
 1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Busque el servicio HTTP Apache Felix Jetty.
 
@@ -98,7 +97,7 @@ Los siguientes puntos clave ayudan a configurar y AEM el servidor para que esté
 
 1. Marque la opción **HABILITAR HTTP** , como se muestra en la figura siguiente.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![image](assets/config/config-1.png)
 
 1. Haga clic en **Guardar** para habilitar el servicio *http* .
 
