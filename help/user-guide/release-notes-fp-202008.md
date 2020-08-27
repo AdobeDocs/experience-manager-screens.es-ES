@@ -2,9 +2,9 @@
 title: Notas de la versión de Feature Pack 2008
 description: La página describe las Notas de la versión de Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.5 des
 
 La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2020.
 
-### Novedades {#what-s-new}
+### Novedades {#what-is-new}
 
 * **Vista de línea de tiempo en el Panel de programación**
 
@@ -48,18 +48,16 @@ La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2
 
    Consulte Reconocimiento [de voz](voice-recognition.md) para obtener más información.
 
-* **Actualización de preferencias del dispositivo en modo de autor/publicación**
-
 ### Reproductores de AEM Screens lanzados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens están disponibles para AEM Screens, versión AEM 6.5 Feature Pack 5:
+Los siguientes reproductores de AEM Screens están disponibles para AEM Screens, versión AEM 6.5 Feature Pack 5.
+
+>[!IMPORTANT]
+>Si ha instalado AEM Service Pack 6.5.5, es posible que encuentre problemas de replicación en los reproductores de Pantallas. Instale [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) para solucionar el problema.
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->Si ha instalado AEM Service Pack 6.5.5, es posible que encuentre problemas de replicación en los reproductores de Pantallas. Instale [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) para solucionar el problema.
 
 #### Descargas de AEM Screens Player  {#aem-screens-player-downloads}
 
