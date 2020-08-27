@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ Esta sección describe cómo configurar el reproductor AEM Screens Windows 10. P
 Para implementar Windows Player para AEM Screens, instale Windows Player para AEM Screens.
 
 Visite la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5.
+
+### Configuración de Entorno para AEM Screens 6.5.5 Feature Pack y posterior {#fp-environment-setup}
+
+Debe configurar un entorno para Windows Player si utiliza AEM Screens 6.5.5 Feature Pack.
+
+Complete los siguientes pasos:
+
+1. Vaya a **Adobe Experience Manager Web ConsoleConfiguration** mediante `http://localhost:4502/system/console/configMgr`.
+
+1. Busque el controlador de autenticación *Adobe Granite Token*.
+
+1. Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Haga clic en **Guardar**.
 
 ### Método ad-hoc {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Siga los pasos a continuación para habilitar el modo de kiosco:
 
 1. Ejecute el script de PowerShell como administrador.
 1. Reinicie e inicie sesión como el usuario de Kiosk y la aplicación del reproductor deberían estar en inicio.
-
-### Configuración de Entorno para AEM Screens 6.5.5 Feature Pack y posterior {#fp-environment-setup}
-
-Debe configurar un entorno para Windows Player si utiliza AEM Screens 6.5.5 Feature Pack.
-
-Complete los siguientes pasos:
-
-1. Vaya a **Adobe Experience Manager Web ConsoleConfiguration** mediante `http://localhost:4502/system/console/configMgr`.
-
-1. Busque el controlador de autenticación *Adobe Granite Token*.
-
-1. Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None**.
-   ![image](/help/user-guide/assets/granite-updates.png)
-
-1. Haga clic en **Guardar**.
 
 ### Solución de problemas {#troubleshooting}
 
