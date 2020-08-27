@@ -3,9 +3,9 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 25%
 
 ---
@@ -80,8 +80,8 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
    >[!NOTE]
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
-1. En la opción **Programaciones** , seleccione la Zona horaria **de** referencia, la Ventana **de** Activación y la Programación **de**periodicidad.
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. En la opción **Programar** , seleccione la Zona horaria **de** referencia, la Ventana **de** Activación y la Programación **de**periodicidad.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
@@ -152,6 +152,7 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 
 Las siguientes propiedades se establecen desde la opción **Programar** del cuadro de diálogo Asignación de **Canal** .
 
+
 #### Huso horario de referencia {#reference-timezone}
 
 La Zona horaria de referencia permite seleccionar la zona horaria para la visualización de contenido.
@@ -163,6 +164,9 @@ La ventana Activación permite seleccionar una fecha **de** Inicio y una fecha *
 #### Programación de repetición {#recurrence-schedule}
 
 La programación de periodicidad permite establecer una programación recurrente para el contenido. Haga clic en **+ Añadir programación** para agregar un programa de periodicidad al canal.
+
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
@@ -204,25 +208,9 @@ Este ejemplo muestra la partición de día implementada en un casino donde el ev
 | Fin de semana | Cada semana | 8:00 PM | 10:00 PM |
 | Especial | Cada día | 10:00 PM | 1:00 AM |
 
-**Fin de semana**
-
-
-**Especial**
-
-#### Reproducir contenido para un mes o meses en particular {#playing-content-for-a-particular-month-months}
-
-En este ejemplo se muestra DayParting para una tienda que muestra su colección de verano de los meses de junio a agosto y de otoño de septiembre a finales de octubre.
-
-Aquí, creará DayParting según los meses, para que el contenido del canal se reproduzca según los meses especificados del año.
-
-
 >[!NOTE]
 >
 >Además, puede definir la ***Prioridad*** de cada uno de los canales. Por ejemplo, si dos canales están establecidos para el mismo día y hora o para ese mismo mes, el canal con mayor prioridad se reproduce en primer lugar. El valor mínimo de la prioridad se puede establecer en 0.
-
-#### Reproducir contenido de canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
-
-Este ejemplo muestra la partición de día de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ Una vez que haya asignado un canal a una pantalla y haya configurado una program
 
 Siga los pasos a continuación para navegar hasta la vista de la línea de tiempo:
 
+1. Vaya a la pantalla requerida, por ejemplo, **DemoScreens** —> **Ubicaciones** —> **SanJosé** —> **Punto de encuentro**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   O bien,
+
+   Toque o haga clic en **Panel** y haga clic en **Cronología** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
+
+1. Imágenes pendientes (por corregir)
 
 
