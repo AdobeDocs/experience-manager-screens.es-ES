@@ -3,9 +3,9 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
@@ -170,6 +170,8 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 
 Las siguientes propiedades se establecen desde la opción **Programar** del cuadro de diálogo Asignación de **Canal** .
 
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Huso horario de referencia {#reference-timezone}
 
 La Zona horaria de referencia permite seleccionar la zona horaria para la visualización de contenido.
@@ -182,9 +184,6 @@ La ventana Activación permite seleccionar una fecha **de** Inicio y una fecha *
 
 La programación de periodicidad permite establecer una programación recurrente para el contenido. Haga clic en **+ Añadir programación** para agregar un programa de periodicidad al canal.
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ Puede definir las siguientes opciones:
 * **Nombre**: Título del programa de periodicidad.
 * **Repetir**: Seleccione si la programación se ejecuta **diariamente**, **semanalmente**, **mensualmente** o **anualmente**.
 * **Inicio**: La hora de inicio de la programación.
-* **Fin**: La hora de finalización de la programación. Puede configurarlo de la siguiente manera:
-* **Hora**: La programación finalizará a una hora específica.
-* **Duración**: La programación se ejecuta durante un período de tiempo determinado en horas o minutos.
+* **Fin**: La hora de finalización de la programación. Puede configurarlo por tiempo o duración.
+   * **Hora**: La programación finalizará a una hora específica.
+   * **Duración**: La programación se ejecuta durante un período de tiempo determinado en horas o minutos.
 
 ### DayParting {#dayparting}
 
