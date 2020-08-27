@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -29,16 +29,32 @@ Además, **Watchdog** es una solución para recuperar al jugador de los bloqueos
 
 Para implementar el Reproductor de Android para AEM Screens, instale el Reproductor de Android para AEM Screens.
 
-Visite la página de descargas [**de **](https://download.macromedia.com/screens/)AEM 6.5 Player.
+Visite la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5.
+
+### Configuración de Entorno para AEM Screens 6.5.5 Feature Pack y posterior {#fp-environment-setup}
+
+Debe configurar un entorno para el reproductor de Android si utiliza AEM Screens 6.5.5 Feature Pack.
+
+Complete los siguientes pasos:
+
+1. Vaya a **Adobe Experience Manager Web ConsoleConfiguration** mediante `http://localhost:4502/system/console/configMgr`.
+
+1. Busque el controlador de autenticación *Adobe Granite Token*.
+
+1. Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Haga clic en **Guardar**.
+
 
 ### Método ad-hoc {#ad-hoc-method}
 
-El método Ad-Hoc permite instalar el último reproductor de Android (*.exe*). Visite la página de descargas [**de **](https://download.macromedia.com/screens/)AEM 6.5 Player.
+El método Ad-Hoc permite instalar el último reproductor de Android (*.exe*). Visite [**AEM página de descargas**](https://download.macromedia.com/screens/) del reproductor 6.5.
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM a la que desea conectarse y haga clic en **Guardar**.
+1. Vaya a **Configuración** desde el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM con la que desea conectarse y haga clic en **Guardar**.
 
 1. Vaya al vínculo **Registro del** dispositivo **** desde el menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
 
