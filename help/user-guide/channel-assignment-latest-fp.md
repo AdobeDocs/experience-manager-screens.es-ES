@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 25%
+source-wordcount: '1488'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 
 Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
 
-Esta página muestra cómo asignar un canal a la pantalla.
+Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y DayParting.
 
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
@@ -55,7 +55,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
 ### Asignación de Canales a una visualización {#assigning-channel-to-display}
 
-Una vez que se haya completado la configuración del proyecto, debe asignar el canal a una pantalla para la vista del contenido.
+Una vez que se haya completado la configuración del proyecto, debe asignar el canal a una pantalla para vista del contenido.
 
 1. Vaya a la pantalla requerida, por ejemplo, **DemoScreens** —> **Ubicaciones** —> **SanJosé** —> **Punto de encuentro**.
 
@@ -65,7 +65,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
    O bien,
 
-   Toque o haga clic en **Panel** y haga clic en **+Asignar Canal** en el panel CANALES y PROGRAMAS **** ASIGNADOS.
+   Toque o haga clic en **Panel** en la barra de acciones y haga clic en **+Asignar Canal** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. En la opción **Configuración** , puede elegir el canal por ruta o por nombre, introducir la función **de** Canal, la **prioridad**, los Eventos **** admitidos y los métodos **de** interrupción. Además, puede activar la información sobre herramientas de **Atracción** desde este cuadro de diálogo.
+1. En la opción **Configuración** , puede elegir el canal **por ruta** o **por nombre**, introducir la función **de** Canal, la **prioridad**********, los Eventos compatiblesy los métodos de interrupción. Además, puede activar la información de objeto de atracción desde este cuadro de diálogo.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Vista de la siguiente salida en la selección del reproductor:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Descripción de las propiedades de Canal desde el cuadro de diálogo Asignación de Canal {#channel-properties}
+## Timeline View {#timeline-view}
+
+Una vez que haya asignado un canal a una pantalla y haya configurado una programación de periodicidad, puede realizar la vista de la línea de tiempo desde el panel CANALES y PROGRAMAS **ASIGNADOS** .
+
+Siga los pasos a continuación para navegar hasta la vista de la línea de tiempo:
+
+1. Vaya a la pantalla requerida, por ejemplo, **DemoScreens** —> **Ubicaciones** —> **SanJosé** —> **Punto de encuentro**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   O bien,
+
+   Toque o haga clic en **Panel** y haga clic en **Cronología** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
+
+1. Imágenes pendientes (por corregir)
+
+## Descripción de las propiedades de Canal desde el cuadro de diálogo Asignación de Canal {#channel-properties}
 
 Las siguientes propiedades se establecen desde la opción **Configuración** del cuadro de diálogo Asignación de **Canal** .
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Seleccionar un canal {#select-channel}
+### Seleccionar un canal {#select-channel}
 
 La selección de un canal permite proporcionar una referencia al canal deseado, ya sea por nombre de canal o por ruta de canal.
 
@@ -112,25 +130,25 @@ La selección de un canal permite proporcionar una referencia al canal deseado, 
 
 * **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Rol del canal {#role-channel}
+### Rol del canal {#role-channel}
 
 El rol de canal define el contexto de la visualización. Varias acciones dirigen la función y es independiente del canal que cumple esa función.
 
-#### Prioridad {#priority-channel}
+### Prioridad {#priority-channel}
 
 La prioridad se utiliza para solicitar las asignaciones en caso de que varias de ellas coincidan con los criterios de reproducción. Aquel elemento que tenga el valor más alto siempre tendrá prioridad sobre otros valores más bajos. Por ejemplo, si hay dos canales A y B, y A tiene una prioridad de 1 y B tiene una prioridad de 2, se muestra el canal B ya que tiene mayor prioridad que A.
 
 >[!NOTE]
 >La prioridad de un canal se establece como un número (1 para indicar el mínimo) en el cuadro de diálogo **Asignación de canales**, tal como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
-#### Eventos admitidos {#supported-events-channel}
+### Eventos admitidos {#supported-events-channel}
 
 * **Carga inicial**: carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales junto con la programación
 * **Pantalla inactiva**: se carga cuando la pantalla está inactiva. Se puede asignar a varios canales junto con la programación
 * **Temporizador:** se debe establecer al proporcionar una programación
 * **Interacción del usuario**: el reproductor cambiará al canal determinado si el usuario toca la pantalla que está visualizando un canal inactivo, y se cargará al tocar la pantalla
 
-#### Método de interrupción {#interruption-method-channel}
+### Método de interrupción {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 
 Las siguientes propiedades se establecen desde la opción **Programar** del cuadro de diálogo Asignación de **Canal** .
 
-
-#### Huso horario de referencia {#reference-timezone}
+### Huso horario de referencia {#reference-timezone}
 
 La Zona horaria de referencia permite seleccionar la zona horaria para la visualización de contenido.
 
-#### Ventana de activación {#activation-window}
+### Ventana de activación {#activation-window}
 
 La ventana Activación permite seleccionar una fecha **de** Inicio y una fecha **de** finalización para mostrar el contenido.
 
-#### Programación de repetición {#recurrence-schedule}
+### Programación de repetición {#recurrence-schedule}
 
 La programación de periodicidad permite establecer una programación recurrente para el contenido. Haga clic en **+ Añadir programación** para agregar un programa de periodicidad al canal.
 
@@ -211,23 +228,4 @@ Este ejemplo muestra la partición de día implementada en un casino donde el ev
 >[!NOTE]
 >
 >Además, puede definir la ***Prioridad*** de cada uno de los canales. Por ejemplo, si dos canales están establecidos para el mismo día y hora o para ese mismo mes, el canal con mayor prioridad se reproduce en primer lugar. El valor mínimo de la prioridad se puede establecer en 0.
-
-## Timeline View {#timeline-view}
-
-Una vez que haya asignado un canal a una pantalla y haya configurado una programación de periodicidad, puede realizar la vista de la línea de tiempo desde el panel CANALES y PROGRAMAS **ASIGNADOS** .
-
-Siga los pasos a continuación para navegar hasta la vista de la línea de tiempo:
-
-1. Vaya a la pantalla requerida, por ejemplo, **DemoScreens** —> **Ubicaciones** —> **SanJosé** —> **Punto de encuentro**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   O bien,
-
-   Toque o haga clic en **Panel** y haga clic en **Cronología** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
-
-1. Imágenes pendientes (por corregir)
-
 
