@@ -1,53 +1,57 @@
 ---
 title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
-description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en AEM Screens Player.
-seo-description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en AEM Screens Player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
+description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 13%
 
 ---
 
 
 # Guía de inicio rápido {#kickstart-guide}
 
-Esta sección es un punto de partida para las pantallas de AEM y muestra cómo lograr acciones básicas. Le guiará a través de la configuración de una experiencia de señalización digital básica con contenido/recursos y la publicación en un reproductor de Pantallas. Para obtener una comprensión detallada de todos los componentes para el desarrollo de Pantallas, consulte los recursos al final de la página.
+Esta sección es un inicio rápido para AEM Screens y muestra cómo lograr acciones básicas. Le guiará a través de la configuración de una experiencia de señalización digital básica con contenido/recursos y la publicación en un reproductor de Pantallas.
 
 ## Creación de una experiencia de señalización digital en 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
 Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y publicar contenido en el reproductor de Pantallas.
 
-1. Para descargar **AEM Screens Player**, haga clic [aquí](https://download.macromedia.com/screens/).
+Para descargar **AEM Screens Player**, haga clic [aquí](https://download.macromedia.com/screens/).
 
-   AEM Screens también está disponible en **Google Play**.
 
-   Para obtener más información sobre la implementación de Chrome OS Player, consulte [Chrome Management Console](implementing-chrome-os-player.md) .
+Para obtener más información sobre la implementación de Chrome OS Player, consulte [Chrome Management Console](implementing-chrome-os-player.md) .
 
-   Consulte [Instalación y configuración de pantallas](configuring-screens-introduction.md) para obtener más detalles.
+Para instalar y configurar los reproductores de Pantallas en sus dispositivos, consulte [Instalación y configuración de pantallas](configuring-screens-introduction.md) para obtener más información.
 
-   >[!NOTE]
-   >
-   >**Configuración de OSGI**
-   >
-   >
-   >Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no puede publicar una captura de pantalla de vuelta. Actualmente, algunas de estas funciones solo están disponibles si el filtro de referencia de Sling de Apache está habilitado Permitir vacío en la configuración OSGI. El tablero puede mostrar una advertencia de que la configuración de seguridad puede impedir que algunas de estas funciones funcionen.
-   >
-   >
-   >Siga los pasos a continuación para habilitar el filtro ***Apache Sling Referrer Allow Empty***:
-   >
-   >
-   >
-   >    1. Vaya a Configuración **de la consola web de** Adobe Experience Manager, es decir, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Marque la opción **allow.empty** .
-   >    1. Haga clic en **Guardar**.
+>[!NOTE]
+>**Configuración de OSGI**
+>Debe habilitar el remitente del reenvío vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad de remitente del reenvío vacía está deshabilitada, el dispositivo no puede publicar una captura de pantalla de nuevo. Actualmente, algunas de estas funciones solo están disponibles si el filtro Remitente del reenvío Sling de Apache Permitir vacío está habilitado en la configuración OSGI. El panel puede mostrar una advertencia de que la configuración de seguridad puede impedir que algunas de estas funciones funcionen.
+>
+>
+>Siga los pasos a continuación para habilitar el filtro de Remitente del reenvío Sling de ***Apache para permitir que esté vacío***:
 
+
+## Permitir solicitudes de Remitente del reenvío vacías {#allow-empty-referrer-requests}
+
+1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
+
+   ![image](assets/config/empty-ref1.png)
+
+1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Buscar remitente del reenvío sling.
+
+   Para buscar la propiedad de remitente del reenvío sling, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+
+1. Marque la opción **Permitir vacío** , como se muestra en la figura siguiente.
+
+   ![image](assets/config/empty-ref2.png)
+
+1. Haga clic en **Guardar** para activar el filtro de Remitente del reenvío Sling de Apache Permitir vacío.
+
+
+## Tutorial {#tutorial}
 
 1. **Crear un nuevo proyecto**
 
@@ -57,13 +61,14 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
    1. Enter the title as *Test_Project*  and click **Create**.
+
    ![climage_1-4](assets/chlimage_1-4.png)
 
-   Una vez creado el proyecto, vuelve a la consola Proyecto de Pantallas. Puede seleccionar el proyecto. En un proyecto, hay cinco tipos de carpetas, a saber, **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones** y **Programaciones**, como se muestra en la figura siguiente.
+   Una vez creado el proyecto, vuelve a la consola Proyecto de Pantallas. Puede seleccionar el proyecto. En un proyecto, existen cinco tipos de carpetas, a saber, **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones** y **Programaciones**, como se muestra en la figura siguiente.
 
    >[!NOTE]
    >
-   >Las programaciones solo están disponibles si ha instalado AEM 6.3 Sites Feature Pack 1. Para obtener acceso a este Feature Pack, debe ponerse en contacto con la Asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
+   >Las programaciones solo están disponibles si ha instalado AEM paquete de funciones 1 de sitios 6.3. Para obtener acceso a este Feature Pack, debe ponerse en contacto con la Asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
 
    ![climage_1-5](assets/chlimage_1-5.png)
 
@@ -71,7 +76,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
 1. **Creación de un nuevo canal**
 
-   Una vez que haya implementado el proyecto, debe crear un nuevo canal donde administrar el contenido.
+   Una vez que haya implementado el proyecto, deberá crear un nuevo canal en el que administrar el contenido.
 
    Siga los pasos a continuación para crear un nuevo canal para su proyecto:
 
@@ -81,17 +86,18 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
+
    ![climage_1-6](assets/chlimage_1-6.png)
 
-   Se crea *TestChannel* y se agrega a la carpeta de canales, como se muestra en la figura siguiente.
+   Se crea *TestChannel* y se agrega a la carpeta canales, como se muestra en la figura siguiente.
 
    ![climage_1-7](assets/chlimage_1-7.png)
 
-   Consulte Administración [de canales](managing-channels.md) para obtener más información sobre cómo crear y administrar canales.
+   Consulte Administración de [Canales](managing-channels.md) para obtener más información sobre la creación y administración de canales.
 
-1. **Adición de contenido a un canal**
+1. **Añadir contenido en un Canal**
 
-   Una vez que haya colocado el canal, debe agregar contenido al canal que mostrará el reproductor de pantallas.
+   Una vez que haya colocado el canal, deberá añadir contenido al canal que mostrará el reproductor de Pantallas.
 
    Siga los pasos a continuación para agregar contenido al canal (*TestChannel*) de su proyecto:
 
@@ -101,6 +107,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Haga clic en el icono que alterna el panel lateral del lado izquierdo de la barra de acciones para abrir los recursos y componentes.
    1. Arrastre los componentes que quiera añadir y colóquelos en el canal.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    En este ejemplo, el editor muestra una imagen agregada al canal.
@@ -109,7 +116,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
 1. **Crear una nueva ubicación**
 
-   Una vez que haya colocado el canal, deberá crear la ubicación.
+   Una vez que haya colocado el canal, deberá crear su ubicación.
 
    ***Las ubicaciones*** compartimentan las distintas experiencias de señalización digital y contienen las configuraciones de las pantallas según dónde estén las distintas pantallas.
 
@@ -121,6 +128,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Select **Location** from the wizard and click **Next**.
 
    1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    Se crea *TestLocation* y se agrega a la carpeta **Locations** .
@@ -133,7 +141,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    ***Las pantallas*** representan la experiencia digital que se ejecuta en una o varias pantallas.
 
-   1. Vaya a la ubicación en la que desea crear la visualización (*Test_* Project —&gt; **Ubicaciones** —&gt; *TestLocation)* como se muestra en la figura de arriba y seleccione *TestLocation*.
+   1. Vaya a la ubicación en la que desea crear la visualización (*Test_* Project —> **Ubicaciones** —> *TestLocation)* como se muestra en la figura de arriba y seleccione *TestLocation*.
 
    1. Haga clic en **Crear** en la barra de acciones.
    1. Select **Display** from the **Create** wizard and click **Next**.
@@ -147,19 +155,20 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
       1. Choose the **Number of Devices Horizontally** as 1.
       1. Choose the **Number of Devices Vertically** as 1.
    1. Haga clic en **Crear**.
+
    Se agrega una nueva pantalla (*TestDisplay*) a su ubicación *TestLocation)*, como se muestra en la figura siguiente.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
 
-1. **Adición de una programación**
+1. **Añadir una programación**
 
    La opción *Programas*, en AEM Screens, permite organizar los canales en grupos reutilizables de modo que no sea necesario repetir la asignación de forma individual para cada pantalla en la que desee mostrar el contenido.
 
    >[!NOTE]
    >
-   >Esta funcionalidad de Pantallas solo está disponible si ha instalado AEM 6.3 Sites Feature Pack 1. Para obtener acceso a este Feature Pack, debe ponerse en contacto con la Asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
+   >Esta funcionalidad de Pantallas solo está disponible si ha instalado AEM paquete de funciones 1 de Sitios 6.3. Para obtener acceso a este Feature Pack, debe ponerse en contacto con la Asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
 
-   1. Vaya a la carpeta **Programaciones** desde Test_Project —&gt; **Programaciones**.
+   1. Vaya a la carpeta **Programaciones** desde Test_Project —> **Programaciones**.
 
    1. Haga clic en **Crear** en la barra de acciones. Se abrirá un asistente.
    1. Seleccione **Programar** en la página del asistente **Crear** .
@@ -167,9 +176,10 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Introduzca el **Nombre** y el **Título** como *Programa* matinal en la página de propiedades.
 
    1. Haga clic en **Crear** y la programación se agregará a la carpeta **Programaciones** , como se muestra en la figura siguiente.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
-   Además, seleccione la programación (*MañanaProgramación*) y haga clic en **Tablero** en la barra de acciones para ver el tablero de programaciones. Puede ver o cambiar las propiedades de la programación, asignar canales y ver las pantallas asignadas mediante el tablero.
+   Además, seleccione la programación (*MañanaProgramación*) y haga clic en **Panel** en la barra de acciones para vista del panel de la programación. Puede vista o cambio de las propiedades de la programación, asignar canales y pantallas de vista asignadas mediante el panel.
 
    ![chlimage_1-14](assets/chlimage_1-14.png)
 
@@ -177,7 +187,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
 1. **Asignación de un canal**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
 
@@ -187,7 +197,7 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Seleccione la Ruta **del** canal (*Test_Project* —&gt; *Canales* —&gt; *TestChannel* ) en el **canal**.
+   1. Seleccione la ruta **de** Canal (*Test_Project* —> *Canales* —> *TestChannel* ) en el **Canal**.
 
    1. Select the **Priority** for this channel as *1*.
 
@@ -196,21 +206,23 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
    1. Introduzca **Programar** y seleccione las fechas **activas desde** y **activas hasta**.
 
    1. Haga clic en **Guardar**.
+
    El canal se crea y se agrega al panel.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
 
-   Para obtener más información sobre el cuadro de diálogo Asignación **de** canal y las propiedades asociadas a él, consulte [Asignación de canales](channel-assignment.md).
+   Para obtener más información sobre el cuadro de diálogo Asignación **de** Canal y las propiedades asociadas a él, consulte [Asignación de Canales](channel-assignment.md).
 
-1. **Adición de programación a un canal**
+1. **Añadir programación en un Canal**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Click **Dashboard** and select **+Assign Schedule** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure above. **Se abre el cuadro de diálogo Programar asignación** .
 
-   1. Elija la ruta en la que ha creado la programación (aquí, *Test_Project* —&gt; **Programaciones** —&gt; *Programación* matutina).
+   1. Elija la ruta en la que ha creado la programación (aquí, *Test_Project* —> **Programaciones** —> *Programación* matutina).
 
    1. Haga clic en **Guardar** para agregar la programación al canal.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Registro de un dispositivo**
@@ -219,16 +231,17 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    >[!NOTE]
    >
-   >Puede abrir el reproductor de pantallas con la aplicación AEM Screens que ha descargado o con el navegador web.
+   >Puede abrir el reproductor de pantallas con la aplicación de AEM Screens que ha descargado o con el navegador web.
 
-   Para ver el dispositivo pendiente:
+   Para vista del dispositivo pendiente:
 
    1. Abra una nueva ventana del navegador.
    1. Go to Screens player using the *web browser* `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Cuando abra el dispositivo, verá el estado de este como no registrado.
-   1. From the AEM dashboard, navigate to *Test_Project* --&gt; **Devices**
+   1. From the AEM dashboard, navigate to *Test_Project* --> **Devices**
 
    1. Click **Device Manager** from the action bar.
    1. Haga clic en Registro **del** dispositivo y verá los dispositivos pendientes, como se muestra en la figura siguiente.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Select the device you want to register and click **Register Device**.
@@ -267,9 +280,10 @@ Los pasos siguientes le permiten crear un proyecto de muestra para Pantallas y p
 
    1. Click **Assign**.
    1. Click **Finish** to complete the process, and now the device is assigned.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-   Se abre el tablero de visualización y verá toda la información relacionada con los canales y programaciones asignados, junto con los detalles de configuración del dispositivo.
+   Se abre el panel de visualización y verá toda la información relacionada con los canales y programaciones asignados, junto con los detalles de configuración del dispositivo.
 
    ![screen_shot_2017-12-18at122041pm](assets/screen_shot_2017-12-18at122041pm.png)
 
