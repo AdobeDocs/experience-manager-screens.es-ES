@@ -2,9 +2,9 @@
 title: Notas de la versión de Feature Pack 2008
 description: La página describe las Notas de la versión de Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -57,6 +57,9 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM Screens,
 * Chrome OS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>Si ha instalado AEM Service Pack 6.5.5, es posible que encuentre problemas de replicación en los reproductores de Pantallas. Instale [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) para solucionar el problema.
 
 #### Descargas de AEM Screens Player  {#aem-screens-player-downloads}
 
