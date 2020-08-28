@@ -2,9 +2,9 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 3%
 >
 >**Información de privacidad importante**
 >
->Al utilizar la función Reconocimiento de voz, siga todas las directrices legales y éticas aplicables para su región (incluido, entre otras cosas, el envío de un aviso visible a los usuarios finales de que el reproductor está utilizando el Reconocimiento de voz). Adobe Inc., no recibe, almacena ni procesa ninguna información relacionada con la voz. Los reproductores de AEM Screens utilizan la API de voz web estándar integrada en el motor de navegación. Entre bastidores, se envía una forma de onda de su discurso a los servidores de Google para la conversión de voz a texto y este texto coincide con el reproductor con las palabras clave configuradas.
+>Al utilizar la función de reconocimiento de voz, siga todas las directrices legales y éticas aplicables para su región (incluso, entre otras cosas, para proporcionar a los usuarios finales un aviso visible de que el reproductor está utilizando el Reconocimiento de voz). Adobe Inc., no recibe, almacena ni procesa ninguna información relacionada con la voz. Los reproductores de AEM Screens utilizan la API de voz web estándar integrada en el motor de navegación. Entre bastidores, esta API envía una forma de onda de su discurso a los servidores de Google para la conversión de voz a texto y este texto coincide con el reproductor en comparación con las palabras clave configuradas.
 >
 >Consulte el documento técnico Privacidad de [Google en la API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de voz web para obtener más información.
 
 
-
-La función de reconocimiento de voz permite cambiar el contenido de un canal de AEM Screens impulsado por la interacción de voz.
+La función de reconocimiento de voz permite cambiar el contenido en un canal de AEM Screens impulsado por la interacción de voz.
 
 Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas. Algunos casos de uso similares incluyen la búsqueda de recomendaciones de productos en tiendas, pedidos de artículos de menú en restaurantes y restaurantes. Esta función aumenta la accesibilidad para los usuarios y puede mejorar considerablemente la experiencia del cliente.
 
@@ -32,18 +31,13 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 ## Implementación del reconocimiento de voz {#implementing}
 
 >[!IMPORTANT]
-> La función de reconocimiento de voz solo está disponible en reproductores de sistemas operativos Chrome y Electron.
+> La función Reconocimiento de voz solo está disponible en reproductores de Chrome OS y Windows.
 
 Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
 
 En la sección siguiente se describe cómo activar y utilizar la función Reconocimiento de voz en un proyecto de AEM Screens.
 
-Puede configurar el proyecto mediante una de las dos plantillas siguientes:
-
-* [Canal de secuencia](#sequence-channel)
-* [Dividir Canal de pantallas](#split-channel)
-
-## Uso del Canal de secuencia como plantilla {#sequence-channel}
+## Caso de uso 1: Visualización del contenido en el conmutador de Canal de pantalla completa {#sequence-channel}
 
 Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
 
@@ -171,7 +165,7 @@ Del mismo modo, si utiliza palabras con una palabra clave **fría** como *me gus
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Uso del Canal Dividir pantallas como plantilla {#split-channel}
+## Caso de uso 2: Visualización del contenido en el conmutador de Canal de pantalla dividida {#split-channel}
 
 Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
 
