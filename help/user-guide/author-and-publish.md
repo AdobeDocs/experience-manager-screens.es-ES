@@ -1,17 +1,10 @@
 ---
 title: Configuración del autor y la publicación en AEM Screens
 seo-title: Configuración del autor y la publicación en AEM Screens
-description: La arquitectura AEM Screens se parece a la arquitectura tradicional AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para aprender a configurar el autor y la publicación para AEM Screens.
-seo-description: La arquitectura AEM Screens se parece a la arquitectura tradicional AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación. Siga esta página para aprender a configurar el autor y la publicación para AEM Screens.
-uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
-contentOwner: jsyal
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
-docset: aem65
+description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
+seo-description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 3%
@@ -31,7 +24,7 @@ Esta página resalta los siguientes temas:
 
 Antes de comenzar con los servidores de creación y publicación, debe tener conocimientos previos de:
 
-* **Topología de AEM**
+* **Topología AEM**
 * **Creación y administración de proyectos de AEM Screens**
 * **Proceso de registro del dispositivo**
 
@@ -43,7 +36,7 @@ Antes de comenzar con los servidores de creación y publicación, debe tener con
 
 >[!NOTE]
 >
->Para obtener más información sobre el autor y la descripción general de la arquitectura de publicación, así como sobre cómo se crea el contenido en una instancia de autor de AEM y, a continuación, se repite en varias instancias de publicación, consulte [Creación y descripción general](author-publish-architecture-overview.md)de la arquitectura de publicación.
+>Para obtener más información sobre el autor y la descripción general de la arquitectura de publicación, así como sobre cómo se crea el contenido en una instancia de autor AEM y, a continuación, se repite en varias instancias de publicación, consulte [Creación y publicación de información general](author-publish-architecture-overview.md)de la arquitectura.
 
 En la siguiente sección se explica cómo configurar los agentes de replicación en la topología de creación y publicación.
 
@@ -150,7 +143,7 @@ En cada instancia de publicación:
 
 1. En la consola OSGi, navegue a **MAIN** —> Compatibilidad con **criptografía** (*https://&lt;host>:&lt;puerto>/system/console/crypto*).
 1. Escriba la contraseña de texto sin formato que desee (igual para todas las instancias) en **Texto sin formato**
-1. Haga clic en **Proteger**.
+1. Haga clic en **Protect**.
 1. Copie el valor Texto **** protegido en el editor de texto o el bloc de notas. Este valor se utilizará en la configuración OSGi para ActiveMQ.
 
 Dado que cada instancia de publicación tiene claves criptográficas únicas de forma predeterminada, debe realizar este paso en cada instancia de pub y guardar la clave única para la siguiente configuración.
@@ -210,7 +203,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 >
 >**Requisitos previos**
 >
->Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens seguido de la creación de una ubicación, visualización y canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
+>Para comenzar con este ejemplo, cree un nuevo proyecto de AEM Screens seguido de una ubicación, visualización y canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
 
 #### Paso 1: Inicio de un reproductor de AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
 
@@ -219,7 +212,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 
 >[!NOTE]
 >
->Puede abrir un reproductor de AEM Screens mediante la aplicación de AEM Screens que ha descargado o mediante el navegador web.
+>Puede abrir un reproductor de AEM Screens con la aplicación de AEM Screens que ha descargado o con el navegador web.
 
 #### Paso 2: Registro de un dispositivo en el autor {#step-registering-a-device-on-author}
 
@@ -269,13 +262,13 @@ También puede activar el dispositivo desde la consola de administración de dis
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### lista de comprobación de publicación {#publishing-check-list}
+### Lista de comprobación de publicación {#publishing-check-list}
 
 Los siguientes puntos resumen la lista de comprobación de publicación:
 
-* *Usuario* de dispositivo de pantallas: se almacena como usuario de AEM y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le añadirá el prefijo &quot;screen&quot; con una cadena serializada larga.
+* *Usuario* de dispositivo de pantallas: se almacena como usuario AEM y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le añadirá el prefijo &quot;screen&quot; con una cadena serializada larga.
 
-* *Proyecto* - El proyecto AEM Screens.
+* *Proyecto* : El proyecto de AEM Screens.
 * *Ubicación* : ubicación a la que está conectado el dispositivo.
 * *Canales* : uno o más canales que se muestran en la ubicación
 * *Programación* : si utiliza una programación, asegúrese de que se publique
@@ -293,7 +286,7 @@ Siga los pasos a continuación para comprobar el comportamiento de autor y publi
 
 #### Paso 5: Señalar la instancia de dispositivo para publicar en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Haga una Vista de la IU de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens con capacidad táctil o con un ratón.
+1. Haga una vista de la IU de administración desde el reproductor de Pantallas, mantenga presionada la tecla en la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil habilitado o con un ratón.
 1. Haga clic en la opción **Configuración** del panel lateral.
 1. Cambiar la instancia de autor a la instancia de publicación en **el servidor**.
 
