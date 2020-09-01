@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 24%
+source-wordcount: '1477'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
 
-Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y DayParting.
+Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y la partición de día.
 
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
@@ -80,7 +80,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
    >[!NOTE]
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
-1. En la opción **Programar** , seleccione la Zona horaria **de** referencia, la Ventana **de** Activación y la Programación **de**periodicidad.
+1. En la opción **Programar** , seleccione la Ventana **de** Activación y la Programación **de**periodicidad.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -172,10 +172,6 @@ Las siguientes propiedades se establecen desde la opción **Programar** del cuad
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Huso horario de referencia {#reference-timezone}
-
-La Zona horaria de referencia permite seleccionar la zona horaria para la visualización de contenido.
-
 ### Ventana de activación {#activation-window}
 
 La ventana Activación permite seleccionar una fecha **de** Inicio y una fecha **de** finalización para mostrar el contenido.
@@ -186,7 +182,7 @@ La programación de periodicidad permite establecer una programación recurrente
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Puede definir las siguientes opciones:
 
@@ -197,32 +193,32 @@ Puede definir las siguientes opciones:
    * **Hora**: La programación finalizará a una hora específica.
    * **Duración**: La programación se ejecuta durante un período de tiempo determinado en horas o minutos.
 
-### DayParting {#dayparting}
+### Partición de día {#dayparting}
 
-La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
+La partición de día se refiere a dividir un día en espacios de tiempo y especificar qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
 Los siguientes ejemplos explican la partición de día en canales en tres escenarios diferentes:
 
 #### Reproducir contenido en un único día que esté dividido en varias franjas horarias {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su menú de desayuno, almuerzo y cena todos los días.
+Este ejemplo muestra cómo un restaurante utiliza la partición de día para mostrar su menú de desayuno, almuerzo y cena todos los días.
 
 Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el contenido del canal se reproduzca según la hora especificada del día. Configure las siguientes propiedades de la programación de periodicidad para que el canal reproduzca el contenido según este caso de uso.
 
-| **Nombre** | **Repetir** | **Inicial** | **Fin** |
+| **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
 | Desayuno | Cada día | 6:00 AM | 11:00 AM |
-| Almuerzo | Cada día | 11:02 AM | 3:00 PM |
-| Cena | Cada día | 3:01 PM | 8:00 PM |
+| Almuerzo | Cada día | 11:00 AM | 3:00 PM |
+| Cena | Cada día | 3:00 PM | 8:00 PM |
 
 #### Reproducir contenido en un día específico de la semana {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra la partición de día implementada en un casino donde el evento en vivo tiene lugar todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
+Este ejemplo muestra la partición de día implementada en un casino donde el evento en vivo se realiza todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
 
-| **Nombre** | **Repetir** | **Inicial** | **Fin** |
+| **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Fin de semana | Cada semana | 8:00 PM | 10:00 PM |
-| Especial | Cada día | 10:00 PM | 1:00 AM |
+| Fin de semana | Semanal: Sábado, domingo | 8:00 PM | 10:00 PM |
+| Ofertas especiales | Diario: Lunes a viernes | 10:00 PM | 1:00 AM |
 
 >[!NOTE]
 >
