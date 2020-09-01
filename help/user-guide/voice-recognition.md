@@ -2,10 +2,10 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 3%
+source-wordcount: '1103'
+ht-degree: 2%
 
 ---
 
@@ -31,13 +31,13 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 ## Implementación del reconocimiento de voz {#implementing}
 
 >[!IMPORTANT]
-> La función Reconocimiento de voz solo está disponible en reproductores de Chrome OS y Windows.
+> La función de reconocimiento de voz solo está disponible en reproductores Chrome OS y Windows.
 
 Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
 
 En la sección siguiente se describe cómo activar y utilizar la función Reconocimiento de voz en un proyecto de AEM Screens.
 
-## Caso de uso 1: Visualización del contenido en el conmutador de Canal de pantalla completa {#sequence-channel}
+## Visualización de contenido en pantalla completa o cambio de Canal de pantalla dividida {#sequence-channel}
 
 Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
 
@@ -48,6 +48,12 @@ Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene 
    >[!NOTE]
    >
    >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de Canales](/help/user-guide/managing-channels.md)
+
+   O bien,
+
+   Puede crear tres canales de secuencia **Principal**, **ColdDrinks** y **HotDrinks**, y un canal de pantalla dividida 1x2 adicional **SplitScreen** como se muestra en la figura siguiente.
+
+   ![image](assets/voice-recognition/vr-emb-1.png)
 
 1. Navegue hasta cada uno de los canales y agregue contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal. Haga clic en **Editar** en la barra de acciones para abrir el editor y agregar contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido tanto a **ColdDrinks** como al canal **HotDrinks** .
 
@@ -64,6 +70,9 @@ Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene 
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
+
+   Si ha agregado el canal Dividir pantallas al proyecto, navegue hasta **SplitScreen** y arrastre y suelte dos secuencias incrustadas y agregue rutas al canal **ColdDrinks** y **HotDrinks** como se muestra en la figura siguiente.
+   ![image](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Configuración de etiquetas para Canales {#setting-tags}
@@ -91,6 +100,10 @@ Siga los pasos a continuación para agregar etiquetas a su canal:
    ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Del mismo modo, agregue la etiqueta titulada como **activo** al canal **HotDrinks** .
+
+1. Si utiliza un canal de pantalla dividida, agregue ambas etiquetas (**caliente** y **fría**) a las propiedades del canal **SplitScreen** .
+
+   ![image](assets/voice-recognition/vr-emb-7.png)
 
 1. Haga clic en **Guardar y cerrar** una vez que haya terminado.
 
@@ -128,6 +141,9 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
 
 1. Asigne los canales **Principal**, **Refrescos** y **Bebidas** calientes **a su** pantalla de vestíbulo.
 
+   >[!NOTE]
+   >Si ha creado un canal de pantalla dividida, asigne el canal **SplitScreen** a la pantalla.
+
 1. Defina las siguientes propiedades en cada uno de los canales, mientras asigna el canal.
 
    | **Nombre del canal** | **Prioridad** | **Eventos admitidos** |
@@ -163,113 +179,6 @@ El canal **Principal** reproduce su contenido, pero cuando se utilizan palabras 
 Del mismo modo, si utiliza palabras con una palabra clave **fría** como *me gustaría tener algo frío*, los inicios del canal juegan con el contenido del canal **ColdDrinks** .
 
 ![newimage](assets/voice-recognition/voice-video.gif)
-
-
-## Caso de uso 2: Visualización del contenido en el conmutador de Canal de pantalla dividida {#split-channel}
-
-Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
-
-1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **VoiceDemo** y tres canales de secuencia **Main**, **ColdDrinks** y **HotDrinks**, y un canal de pantalla dividida 1x2 **SplitScreen** como se muestra en la siguiente figura.
-
-   ![image](assets/voice-recognition/vr-emb-1.png)
-
-   >[!NOTE]
-   >
-   >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de Canales](/help/user-guide/managing-channels.md)
-
-1. Navegue hasta cada uno de los canales y agregue contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal. Haga clic en **Editar** en la barra de acciones para abrir el editor y agregar contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido tanto a **ColdDrinks** como al canal **HotDrinks** .
-
-   Los canales ahora contienen recursos (imágenes), como se muestra en las figuras siguientes.
-
-   **Principal**:
-
-   ![image](assets/voice-recognition/vr-emb-3.png)
-
-
-   **ColdDrinks**:
-   ![image](assets/voice-recognition/vr-3.png)
-
-   **HotDrinks**:
-
-   ![image](assets/voice-recognition/vr-2.png)
-
-1. Vaya a **SplitScreen** y arrastre y suelte dos secuencias incrustadas y agregue rutas al canal **ColdDrinks** y **HotDrinks** , como se muestra en la figura siguiente.
-   ![image](assets/voice-recognition/vr-emb-6.png)
-
-
-### Configuración de etiquetas para Canales {#setting-tags-split}
-
-Una vez que haya agregado contenido a sus canales, debe desplazarse a cada uno de los canales y agregar las etiquetas apropiadas que activarían el reconocimiento de voz.
-
-Siga los pasos a continuación para agregar etiquetas a su canal:
-
-1. Navegue hasta cada uno de los canales y agregue contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal.
-
-1. Click **Properties** from the action bar.
-
-   ![image](assets/voice-recognition/vr-5.png)
-
-1. Vaya a la ficha **Conceptos básicos** y seleccione una etiqueta existente en el campo **Etiquetas** o cree una nueva.
-
-   Puede crear una nueva etiqueta escribiendo un nuevo nombre para la etiqueta y la `return` tecla de visita, como se muestra en la figura siguiente:
-
-   ![image](assets/voice-recognition/vr-6.png)
-
-   O bien,
-
-   Puede crear etiquetas a partir de la instancia de AEM de antemano para el proyecto y seleccionarlas también. Una vez que siga los pasos explicados en [Creación de etiquetas](#creating-tags), puede seleccionar la etiqueta desde la ubicación y agregarla a su canal, como se muestra en la figura siguiente:
-
-   ![image](assets/voice-recognition/vr-tag1.png)
-
-1. Del mismo modo, agregue la etiqueta titulada como **activo** al canal **HotDrinks** .
-
-1. Añada las etiquetas (**caliente** y **fría**) en las propiedades del canal **SplitScreen** .
-
-   ![image](assets/voice-recognition/vr-emb-7.png)
-
-
-1. Haga clic en **Guardar y cerrar** una vez que haya terminado.
-
-### Asignación de Canales a una visualización y activación del reconocimiento de voz {#channel-assignment-split}
-
-1. Cree una pantalla en la carpeta **Ubicaciones** , como se muestra en la figura siguiente.
-
-   ![image](assets/voice-recognition/vr-loc.png)
-
-   >[!NOTE]
-   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
-
-1. Asigne los canales **Main**, **ColdDrinks**, **HotDrinks** y **SplitScreen** a la pantalla **del vestíbulo** .
-
-1. Defina las siguientes propiedades en cada uno de los canales, mientras asigna el canal.
-
-   | **Nombre del canal** | **Prioridad** | **Eventos admitidos** |
-   |---|---|---|
-   | Principal | 2 | Carga inicial, Pantalla inactiva, Temporizador |
-   | HotDrinks | 1 | Interacción del usuario |
-   | ColdDrinks | 1 | Interacción del usuario |
-   | SplitScreen | 1 | Interacción del usuario |
-
-   >[!NOTE]
-   >
-   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
-
-1. Una vez que haya asignado canales a una pantalla, vaya a la pantalla **Punto de encuentro** y seleccione la pantalla. Seleccione **Propiedades** en la barra de acciones.
-
-1. Vaya a la ficha **Mostrar** y active la opción **Voz habilitada** en **Contenido**.
-
-   ![image](assets/voice-recognition/vr-disp.png)
-
-   >[!IMPORTANT]
-   >Es obligatorio activar la función de reconocimiento de voz desde la pantalla.
-
-
-### Visualización del contenido en Chrome Player {#viewing-content-split}
-
-Una vez completados los pasos anteriores, puede registrar el dispositivo cromado para vista de la salida.
-
->[!NOTE]
->Consulte Registro [](device-registration.md) del dispositivo para obtener información sobre cómo registrar un dispositivo en un reproductor de AEM Screens.
 
 Este ejemplo muestra la salida en un reproductor Chrome.
 
