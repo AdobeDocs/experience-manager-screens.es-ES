@@ -4,10 +4,10 @@ seo-title: Configuraciones de Dispatcher para AEM Screens
 description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 seo-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '251'
+ht-degree: 9%
 
 ---
 
@@ -33,6 +33,21 @@ Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-E
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
 Siga los pasos a continuación para configurar el despachante de un proyecto de AEM Screens.
+
+### Activación de sesiones adhesivas {#enable-sticky-session}
+
+Si alguien desea utilizar más de una instancia de publicación con dispatcher, debe actualizar el archivo dispatcher.any en su distribuidor.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Paso 1: Configuración de encabezados de cliente {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Los reproductores de pantallas utilizan una sesión autenticada, por lo que el d
 Para habilitar la caché de los recursos para que se proporcionen desde la caché del despachante, debe:
 
 * Añadir `/allowAuthorization 1` en la `/cache` sección
-* Añadir las reglas siguientes a `/rule`una sección de `/cache`
+* Añadir las siguientes reglas a la sección `/rules` de `/cache`
 
 ```xml
 /0000
