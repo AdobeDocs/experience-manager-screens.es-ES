@@ -2,10 +2,10 @@
 title: Notas de la versión de Feature Pack 2008
 description: La página describe las Notas de la versión de Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 3%
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.5 des
 
 ## Fecha de la versión {#release-date}
 
-La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2020.
+La fecha de la versión de AEM Screens Feature Pack 2008 es el 3 de septiembre de 2020.
 
 ### Novedades {#what-is-new}
 
@@ -47,6 +47,14 @@ La fecha de la versión de AEM Screens Feature Pack 2008 es el 31 de agosto de 2
    Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas.
 
    Consulte Reconocimiento [de voz](voice-recognition.md) para obtener más información.
+
+### Problemas y correcciones conocidos {#known-issues}
+
+Debe configurar un entorno para Windows o un reproductor de Android si utiliza el paquete de funciones de AEM Screens 6.5.5.
+
+* Consulte [Implementación de Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obtener más información.
+
+* Consulte [Implementación de Android Player](implementing-android-player.md#fp-environment-setup) para obtener más información.
 
 ### Reproductores de AEM Screens lanzados {#released-aem-screens-players}
 
