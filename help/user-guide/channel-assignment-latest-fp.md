@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 24%
+source-wordcount: '1471'
+ht-degree: 23%
 
 ---
 
@@ -193,7 +193,7 @@ Puede definir las siguientes opciones:
 
 ### DayParting {#dayparting}
 
-La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
+DayParting hace referencia a dividir un día en espacios horarios y especificar qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
 Los siguientes ejemplos explican la partición de día en canales en tres escenarios diferentes:
 
