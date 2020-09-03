@@ -4,10 +4,10 @@ seo-title: Glosario
 description: Siga esta página para comprender los términos clave asociados con AEM Screens.
 seo-description: Siga esta página para comprender los términos clave asociados con AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 8%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 8%
 **Canal** de la aplicación Un Canal de la aplicación muestra una aplicación creada por un desarrollador que muestra contenido interactivo.
 
 **Atraer bucle** Un bucle de atracción se define como el estado *principal* o *inactivo* cuando la pantalla tiene dos o más estados en los que puede existir. Su función es *atraer* a los clientes a la pantalla y animarlos a participar, generalmente tocando la pantalla pero también interactuando con un producto.
+
+**DayParting** DayParting hace referencia a dividir un día en espacios de tiempo y especificar qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
 **Dispositivo** Un dispositivo tiene la capacidad de ejecutar el software del reproductor para producir una salida visual. Puede controlar la visualización de una porción recortada, escalada, traducida de contenido o experiencia común. La configuración de la pantalla está enlazada a una pantalla, pero se puede reemplazar en caso de que se produzca un defecto técnico.
 
