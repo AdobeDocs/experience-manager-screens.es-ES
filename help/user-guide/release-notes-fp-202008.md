@@ -2,9 +2,9 @@
 title: Notas de la versión de Feature Pack 2008
 description: La página describe las Notas de la versión de Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,9 @@ La fecha de la versión de AEM Screens Feature Pack 2008 es el 3 de septiembre d
 
 ### Problemas y correcciones conocidos {#known-issues}
 
-Debe configurar un entorno para Windows o un reproductor de Android si utiliza el paquete de funciones de AEM Screens 6.5.5.
+Debe configurar un entorno para Windows o un reproductor de Android si utiliza AEM Screens 6.5.5 Service Pack.
+
+Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None** desde **Adobe Experience Manager Web ConsoleConfiguration** en todas las instancias de creación y publicación AEM.
 
 * Consulte [Implementación de Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obtener más información.
 
