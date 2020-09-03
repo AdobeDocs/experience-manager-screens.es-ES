@@ -3,10 +3,10 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 23%
+source-wordcount: '1472'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
 
-Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y la partición de día.
+Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y DayParting.
 
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
@@ -108,13 +108,11 @@ Siga los pasos a continuación para navegar hasta la vista de la línea de tiemp
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    O bien,
 
    Toque o haga clic en **Panel** y haga clic en **Cronología** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
 
-1. Imágenes pendientes (por corregir)
+   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Descripción de las propiedades de Canal desde el cuadro de diálogo Asignación de Canal {#channel-properties}
 
@@ -182,7 +180,7 @@ La programación de periodicidad permite establecer una programación recurrente
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Puede definir las siguientes opciones:
 
@@ -193,15 +191,15 @@ Puede definir las siguientes opciones:
    * **Hora**: La programación finalizará a una hora específica.
    * **Duración**: La programación se ejecuta durante un período de tiempo determinado en horas o minutos.
 
-### Partición de día {#dayparting}
+### DayParting {#dayparting}
 
-La partición de día se refiere a dividir un día en espacios de tiempo y especificar qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
+La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
 Los siguientes ejemplos explican la partición de día en canales en tres escenarios diferentes:
 
 #### Reproducir contenido en un único día que esté dividido en varias franjas horarias {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Este ejemplo muestra cómo un restaurante utiliza la partición de día para mostrar su menú de desayuno, almuerzo y cena todos los días.
+Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su menú de desayuno, almuerzo y cena todos los días.
 
 Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el contenido del canal se reproduzca según la hora especificada del día. Configure las siguientes propiedades de la programación de periodicidad para que el canal reproduzca el contenido según este caso de uso.
 
@@ -213,7 +211,7 @@ Aquí, dividiremos cada día en diferentes espacios de tiempo, de modo que el co
 
 #### Reproducir contenido en un día específico de la semana {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra la partición de día implementada en un casino donde el evento en vivo se realiza todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
+Este ejemplo muestra la partición de día implementada en un casino donde el evento en vivo tiene lugar todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
