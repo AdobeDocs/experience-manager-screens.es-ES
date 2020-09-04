@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,9 @@ Esta sección describe cómo configurar el reproductor AEM Screens Windows 10. P
 Para implementar Windows Player para AEM Screens, instale Windows Player para AEM Screens.
 
 Visite la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5.
+
+>[!NOTE]
+>No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
 
 ### Configuración de Entorno para AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
