@@ -6,9 +6,9 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1294'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 La siguiente sección proporciona respuestas a algunas de las preguntas más frecuentes más frecuentes relacionadas con un proyecto de AEM Screens.
 
-## Administración de Canales {#channel-management}
+## Administración de canales {#channel-management}
 
 ### 1. ¿Cuál es la diferencia entre un canal en línea y otro sin conexión? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
@@ -49,15 +49,15 @@ Y así sucesivamente, hasta que llegue a la carpeta de ubicaciones y se detenga 
 
 ### 1. Si descubro extremos como solicitudes de integración y registro de dispositivos, puedo crear un script con un gran número de dispositivos y registrar estos dispositivos. Además de bloquear esto a una sucursal Wi-Fi, ¿es posible asegurar estas solicitudes? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-Actualmente, el registro solo es posible en la instancia de autor. Aunque el servicio de registro no está autenticado, solo creará un dispositivo pendiente en AEM y no registrará el dispositivo ni asignará ninguna visualización.
+Actualmente, el registro solo es posible en la instancia de autor. Aunque el servicio de registro no está autenticado, solo creará un dispositivo pendiente en AEM y no registrará el dispositivo ni asignará ninguna pantalla.
 
-Para registrar un dispositivo (lo que significa crear un usuario para el dispositivo en AEM), debe autenticarse en AEM y seguir manualmente el asistente para el registro para completar el registro. En teoría, un usuario malintencionado puede crear varios dispositivos pendientes pero no puede registrarse sin un inicio de sesión de AEM.
+Para registrar un dispositivo (lo que significa crear un usuario para el dispositivo en AEM), debe autenticarse para AEM y seguir manualmente el asistente para el registro para completar el registro. En teoría, un usuario malintencionado puede crear varios dispositivos pendientes pero no puede registrarse sin un inicio de sesión AEM.
 
-### 2. ¿Existe alguna forma de transformar las solicitudes HTTP GET en HTTP POST con alguna forma de autenticación? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. ¿Existe alguna forma de transformar las solicitudes de GET HTTP en POST HTTP con alguna forma de autenticación? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-La solicitud de registro es una solicitud POST.
+La solicitud de registro es una solicitud de POST.
 
-Se recomienda obtener el ID del dispositivo de la sesión en lugar de pasarlo como parámetro. Esto limpiaría los registros del servidor, la caché del explorador, etc. Actualmente no se trata de un problema de seguridad. Tenga en cuenta que GET semánticamente se utiliza cuando no hay ningún cambio de estado en el servidor y POST se utiliza cuando hay un cambio de estado.
+Se recomienda obtener el ID del dispositivo de la sesión en lugar de pasarlo como parámetro. Esto limpiaría los registros del servidor, la caché del explorador, etc. Actualmente no se trata de un problema de seguridad. Tenga en cuenta que la GET semántica se utiliza cuando no hay cambios de estado en el servidor y el POST se utiliza cuando hay un cambio de estado.
 
 ### 3. ¿Existe alguna forma de rechazar una solicitud de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -65,7 +65,7 @@ No puede rechazar las solicitudes de registro. En su lugar, las solicitudes de r
 
 ## Informes de estado y supervisión de dispositivos {#device-monitoring-and-health-reports}
 
-### 1. ¿Cómo puedo solucionar problemas si mi reproductor de AEM Screens muestra la pantalla en blanco? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. ¿Cómo puedo solucionar problemas si el reproductor de AEM Screens muestra la pantalla en blanco? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 Compruebe las siguientes posibilidades para solucionar el problema de la pantalla en blanco:
 
@@ -73,9 +73,9 @@ Compruebe las siguientes posibilidades para solucionar el problema de la pantall
 * Canal no tiene contenido
 * Ninguno de los recursos está programado para mostrarse en este momento
 
-### 2. ¿Qué puedo hacer si el reproductor de AEM Screens no se puede registrar y su estado se muestra como Error? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. ¿Qué debo hacer si el reproductor de AEM Screens no se puede registrar y su estado se muestra como Error? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
-Debe activar el filtro Remitente del reenvío Sling de Apache para permitir que esté vacío. Esto es necesario para el funcionamiento óptimo del protocolo de control entre AEM Screens Player y el servidor de AEM Screens.
+Debe activar el filtro Remitente del reenvío Sling de Apache para permitir que esté vacío. Esto es necesario para el funcionamiento óptimo del protocolo de control entre AEM Screens Player y el servidor AEM Screens.
 
 1. Vaya a Configuración de la consola web de **Adobe Experience Manager**
 1. Marque la opción **allow.empty** .
@@ -83,19 +83,19 @@ Debe activar el filtro Remitente del reenvío Sling de Apache para permitir que 
 
 ### 3. ¿Cómo solucionar problemas si al registrar un reproductor de AEM Screens, el dispositivo muestra FALLO y los registros de la consola muestran el error ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-Este problema puede producirse si el reproductor no puede encontrar el DNS del servidor de pantallas de AEM. Puede intentar utilizar la dirección IP para conectarse. Para obtener la IP del servidor, utilice: *arp &lt;server_dns_name>*.
+Este problema puede producirse si el reproductor no puede encontrar el DNS del servidor de AEM Screens. Puede intentar utilizar la dirección IP para conectarse. Para obtener la IP del servidor, utilice: *arp &lt;server_dns_name>*.
 
 ### 4. ¿AMS recomienda implementar un Watchdog para Android en todos los dispositivos? ¿Se incluye el complemento Watchdog (Cordova) como parte de la APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 Un organismo de control de Android multiplataforma que utiliza API de Android puras ya forma parte del paquete. No se necesita ningún software adicional, pero en función del dispositivo que utilice, es posible que tenga que renunciar al apk para obtener privilegios del sistema para un ciclo de alimentación completo (PowerManager api). Si no se renuncia usando las claves del fabricante, se cerrará y reiniciará la aplicación pero no el ciclo de alimentación.
 
-Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación de dicho Reproductor **](implementing-android-player.md).
+Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación de dicho Reproductor**](implementing-android-player.md).
 
-### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomienda Adobe/AMS para supervisar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomienda Adobe/AMS para monitorear cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-Según lo que desee del monitoreo y las alertas, una nueva función del servicio de notificaciones de pantallas de AEM le notifica si un dispositivo no ha pasado un rato. Las herramientas de terceros dependerán del sistema operativo (SO), sus capacidades y las necesidades específicas del cliente.
+En función de lo que desee de la supervisión y las alertas, un nuevo servicio de notificaciones de AEM Screens le notifica si un dispositivo no ha pasado un tiempo por el ping. Las herramientas de terceros dependerán del sistema operativo (SO), sus capacidades y las necesidades específicas del cliente.
 
-Para obtener más información sobre dónde puede supervisar la actividad de dispositivos, consulte el servicio [**de notificaciones de pantallas de **](screens-notifications-service.md)AEM.
+Para obtener más información acerca de dónde puede supervisar la actividad de dispositivos, consulte el servicio [**de notificaciones de**](screens-notifications-service.md) AEM Screens.
 
 ## Reproductor de AEM Screens {#aem-screens-player}
 
@@ -108,7 +108,7 @@ El reproductor ChromeOS se puede instalar como complemento Chrome Browser en el 
 1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o navegue directamente a ***chrome://extensions***.
 1. Encienda el modo **de** desarrollador desde la esquina superior derecha.
 1. Haga clic en **Cargar sin empaquetar** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
-1. Compruebe **AEM Screens Chrome Player** si está disponible en la lista de extensiones.
+1. Compruebe **AEM Screens Chrome Player** plugin si está disponible en la lista de extensiones.
 1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** en la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 1. Haga clic en **AEM Screens** Plugin para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
 
@@ -125,6 +125,10 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 1. Vaya a Opciones **de desarrollador**
 1. Habilitar **Permanecer despierto**
 
+### 4. ¿Cómo habilitar el modo de ventana para el reproductor de Windows?
+
+No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
+
 ## Sugerencias generales para la resolución de problemas {#general-troubleshooting-tips}
 
 ### 1. ¿Cómo desactivar Livefyre para evitar un error en las pantallas A/P? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
@@ -134,12 +138,12 @@ Para deshabilitar Livefyre para evitar errores de registro:
 1. ***Deshabilitar paquete Livefyre:***
 
    * Ir a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
-   * Busque el paquete de AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
+   * Busque el paquete AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
    * Haga clic en **Detener**
 
 1. ***Deshabilitar el sondeo de Livefyre:***
 
-   * En CRXDE Lite, vaya a `/etc/importers/polling/livefyre-poller/jcr:content`
+   * En CRXDE Lite, navegue hasta `/etc/importers/polling/livefyre-poller/jcr:content`
    * Añadir una nueva propiedad *habilitada* tipo *Boolean*
    * Establecer la propiedad **** enabled en **false**
 
