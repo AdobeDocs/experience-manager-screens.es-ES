@@ -4,9 +4,9 @@ seo-title: Configuraciones de Dispatcher para AEM Screens
 description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 seo-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Siga los pasos a continuación para configurar el despachante de un proyecto de 
 
 ### Activación de sesiones adhesivas {#enable-sticky-session}
 
-Si alguien desea utilizar más de una instancia de publicación con dispatcher, debe actualizar el archivo dispatcher.any en su distribuidor.
+Si desea utilizar más de una instancia de publicación con dispatcher, deberá actualizar el `dispatcher.any` archivo.
 
 ```xml
 /stickyConnections {
