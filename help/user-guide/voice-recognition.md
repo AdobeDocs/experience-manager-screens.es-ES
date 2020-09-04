@@ -2,9 +2,9 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 
 Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
 
-En la sección siguiente se describe cómo activar y utilizar la función Reconocimiento de voz en un proyecto de AEM Screens.
+En la sección siguiente se describe cómo habilitar y utilizar la función de reconocimiento de voz en un proyecto de AEM Screens.
 
 ## Visualización de contenido en pantalla completa o cambio de Canal de pantalla dividida {#sequence-channel}
 
@@ -177,7 +177,7 @@ Una vez completados los pasos anteriores, puede registrar el dispositivo cromado
 
 El canal **Principal** reproduce su contenido, pero cuando se utilizan palabras con palabras clave **calientes** como *quisiera tomar una bebida* caliente, los inicios de canal reproducen el contenido del canal **HotDrinks** .
 
-Del mismo modo, si utiliza palabras con una palabra clave **fría** como *me gustaría tener algo frío*, los inicios del canal juegan con el contenido del canal **ColdDrinks** .
+Del mismo modo, si utiliza palabras con una palabra clave **fría** como *me gustaría tener algo frío*, los inicios de canal juegan con el contenido del canal **ColdDrinks** .
 
 **Salida deseada para el Canal de pantallas divididas**
 
