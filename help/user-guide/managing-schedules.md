@@ -1,25 +1,28 @@
 ---
 title: Crear y administrar programaciones
 seo-title: Administración de programas
-description: Consulte esta página para obtener información acerca de los programas, que permiten organizar los canales en grupos reutilizables de modo que no sea necesario repetir la asignación de forma individual para cada pantalla en la que desee mostrar el contenido.
-seo-description: Consulte esta página para obtener información acerca de los programas, que permiten organizar los canales en grupos reutilizables de modo que no sea necesario repetir la asignación de forma individual para cada pantalla en la que desee mostrar el contenido.
+description: Siga esta página para conocer las programaciones, que le permite organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
+seo-description: Siga esta página para conocer las programaciones, que le permite organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 48%
 
 ---
 
 
 # Crear y administrar programaciones {#creating-and-managing-schedules}
 
-La opción **Programas**, en AEM Screens, permite organizar los canales en grupos reutilizables de modo que no sea necesario repetir la asignación de forma individual para cada pantalla en la que desee mostrar el contenido.
+**Las programaciones**, en AEM Screens, le permiten organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada pantalla en la que desee mostrar su contenido.
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 >[!NOTE]
 >
@@ -40,7 +43,6 @@ Siga los pasos a continuación para crear un programa para el canal:
 
 Verá una carpeta de programas con el nombre y título designados en el proyecto.
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## Visualización del tablero {#viewing-dashboard}
 
@@ -58,9 +60,9 @@ Siga los pasos que se describen a continuación para ver el panel de programas. 
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panel** Información de programación Haga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para ver o cambiar las propiedades de la programación.
+   **Panel** Información de programación Haga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para cambiar las propiedades de vista o cambio de la programación.
 
-   **Panel** Canales asignados Haga clic en +Asignar canal en la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal. Consulte Asignación de canales para obtener más detalles.
+   **Panel** Canales asignados Haga clic en +Asignar Canal en la esquina superior derecha del panel CANALES asignados para abrir el cuadro de diálogo Asignación de Canal.
 
-   **Panel** de muestra asignado Seleccione cualquiera de las pantallas del panel PANTALLAS ASIGNADAS para abrir el tablero de visualización.
+   **Panel** de visualizaciones asignadas Seleccione cualquiera de las visualizaciones del panel PANTALLAS ASIGNADAS para abrir el panel de visualización.
 
