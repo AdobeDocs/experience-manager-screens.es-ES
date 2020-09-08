@@ -10,47 +10,50 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
 
 # Configuración y solución de problemas de la reproducción de vídeo {#video-playback-configuration-and-troubleshooting}
 
-Al cargar un vídeo en el DAM y agregarlo a su canal, es posible que se produzcan problemas con el vídeo que no se reproduce en el reproductor de pantallas.
+Al cargar un vídeo en el DAM y agregarlo a su canal, es posible que se produzcan problemas que impiden la reproducción del vídeo en el reproductor de pantallas.
 
 Las siguientes secciones describen cómo depurar y solucionar problemas de reproducción de vídeo en el canal.
 
 ## Representaciones DAM {#dam-renditions}
 
-Una vez cargado el vídeo en el canal, AEM debería empezar a crear algunas representaciones para él. Puede ver los vídeos en Recursos.
+Una vez cargado el vídeo en el canal, AEM crear algunas representaciones para él con inicio. Puede vista de los vídeos en Recursos.
 
-Para ver el vídeo:
+Para vista del vídeo:
 
 1. Vaya al vídeo, por ejemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
 1. Haga clic en el vídeo, expanda el menú superior izquierdo y haga clic en **Representaciones**.
 
 Debe haber distintas representaciones (MP4 o M4V).
 
-Si no hay ninguna representación, asegúrese de tener instalado ffmpeg en el sistema operativo en el que se está ejecutando AEM.
+Si no hay ninguna representación, asegúrese de que tiene instalado ffmpeg en el sistema operativo en el que se está ejecutando AEM.
 
 >[!CAUTION]
 >
->Si no hay ninguna representación, asegúrese de tener instalado ffmpeg en el sistema operativo en el que se está ejecutando AEM.
+>Si no hay ninguna representación, asegúrese de que tiene instalado ffmpeg en el sistema operativo en el que se está ejecutando AEM.
 >
 >Haga clic [aquí](https://www.ffmpeg.org/download.html) para instalar ffmpeg.
 
 ## Recursos de vídeo {#video-assets}
 
-Si no ve un atributo de origen en video, puede ser que el vídeo no se haya transcodificado. Si el vídeo se transcodifica correctamente, aparecerá en el tablero, como se muestra en la figura siguiente.
+Si no ve un atributo de origen en video, podría ser que el vídeo no se transcodificó. Si el vídeo está codificado correctamente, aparecerá en el panel, como se muestra en la figura siguiente.
 
-Check ffmpeg está instalado y los perfiles de vídeo.
+Compruebe que ffmpeg está instalado y los perfiles de vídeo.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Comprobación del perfil de vídeo {#checking-video-profile}
+### Comprobación del Perfil de vídeo {#checking-video-profile}
 
-1. Vaya al perfil **de** vídeo, es decir, `http://localhost:4502/etc/dam/video.html` y haga clic en **Cargar vídeo** de prueba.
+1. Vaya al Perfil **** Vídeo, es decir, `http://localhost:4502/etc/dam/video.html` y haga clic en **Cargar vídeo** de prueba.
 
    ![climage_1-3](assets/chlimage_1-3.png)
 
@@ -68,7 +71,7 @@ Check ffmpeg está instalado y los perfiles de vídeo.
    >
    >Asegúrese de dar tiempo suficiente para que el vídeo se transcodifique (debe mostrar la etiqueta nueva en lugar de procesarla) antes de agregarla a cualquier canal.
 
-### Comprobación de perfiles con un componente de vídeo {#checking-profile-with-a-video-component}
+### Comprobación de Perfiles con un componente de vídeo {#checking-profile-with-a-video-component}
 
 Compruebe la lista de perfiles del diseño de página si el componente de vídeo no está configurado correctamente.
 
@@ -78,9 +81,9 @@ Compruebe la lista de perfiles del diseño de página si el componente de vídeo
 
 1. Seleccione el vídeo y abra el cuadro de diálogo **Editar** . Open the **Profiles** tab.
 
-   Seleccione diferentes perfiles (debe estar presente al menos el perfil &quot;H.264 de alta calidad&quot;).
+   >[!NOTA
+   >Seleccione diferentes perfiles (debe haber al menos un perfil &quot;H.264 de alta calidad&quot;).
 
-   ![climage_1-7](assets/chlimage_1-7.png)
 
 ### Comprobación del vídeo en el reproductor web {#checking-the-video-in-the-web-player}
 
@@ -92,7 +95,7 @@ Siga estos pasos para utilizar un flujo de trabajo DAM para crear representacion
 
 1. Vaya al administrador *del modelo de* flujo de trabajo, es decir, `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Seleccione el modelo **de recursos** de actualización de pantallas.
-1. haga clic en **Iniciar flujo de trabajo** en la barra de acciones para abrir el cuadro de diálogo **Ejecutar flujo de trabajo** .
+1. haga clic en Flujo de trabajo **Inicio** en la barra de acciones para abrir el cuadro de diálogo **Ejecutar flujo de trabajo** .
 
 1. Seleccione el recurso de vídeo en la **carga útil**.
 1. Haga clic en **Ejecutar**.
@@ -103,11 +106,11 @@ Siga estos pasos para utilizar un flujo de trabajo DAM para crear representacion
 
 #### Resolución de problemas con el indicador de directiva de reproducción automática {#troubleshooting-autoplay-policy-flag}
 
-En caso de que el reproductor de AEM Screens recoja el vídeo pero no lo muestre, deberá solucionar los problemas del indicador de la política de reproducción automática.
+En caso de que el reproductor de AEM Screens recoja el vídeo pero no lo muestre, deberá solucionar los problemas del indicador de la directiva de reproducción automática.
 
 Siga los pasos a continuación para solucionar el problema del indicador de la política de reproducción automática de Google:
 
-1. Vaya a ***chrome://flags/#autoplay-policy ***
+1. Vaya a ***chrome://flags/#autoplay-policy***
 1. Cambiar la directiva **de** reproducción automática de **Predeterminado** a **no se requiere ningún gesto del usuario**
 
 1. Reinicie el explorador Web y actualice el reproductor
@@ -140,18 +143,17 @@ Siga los pasos a continuación para configurar una estrategia absoluta:
 1. Abra el cuadro de diálogo de configuración.
 1. Edite la **estrategia** y agregue absoluta.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->El SO de los jugadores debe tener el mismo reloj.
+   >[!NOTE]
+   >El SO de los jugadores debe tener el mismo reloj.
 
 **Alineación de bloqueos en OS X** Siga los pasos a continuación para alinear los relojes en OSX:
 
 1. Abrir preferencias **de fecha y hora** en cada cuadro OSX
 1. Marcar la fecha y la hora **establecidas automáticamente**
 1. Pegue el valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com en el menú desplegable o simplemente ejecute *sudo ntpdate -u -v 0.pool.ntp.org*
-1. Iniciar los reproductores de más de 2
+1. Inicio de los más de 2 reproductores
 
-Puede que pasen algún tiempo antes de que los reproductores inicien una nueva secuencia alineada.
+Es posible que tarde algún tiempo en que los reproductores inicio una nueva secuencia alineada.
 
