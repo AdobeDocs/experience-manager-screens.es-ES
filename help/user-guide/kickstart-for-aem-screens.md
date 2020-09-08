@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -168,7 +168,8 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
 1. En la opción **Configuración** , elija el canal **por ruta** y los Eventos **** admitidos como Carga **** inicial y Pantalla **inactiva**.
 
-   >[NOTA]
+   >[!NOTE]
+   >
    >Los métodos **Función de** Canal, **Prioridad** e **** Interrupción se rellenan de forma predeterminada. Consulte la sección Propiedades del [Canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
    ![image](assets/kickstart/demo-assign3.png)
