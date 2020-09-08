@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,9 @@ Siga los pasos a continuación para crear un nuevo canal para su proyecto:
 
    ![image](assets/kickstart/demo-4.png)
 
-Se crea *TestChannel* y se agrega a la carpeta canales, como se muestra en la figura siguiente.
+   Se crea *TestChannel* y se agrega a la carpeta canales, como se muestra en la figura siguiente.
 
-![image](assets/kickstart/demo-5.png)
+   ![image](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
@@ -144,9 +144,9 @@ Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la
 
    ![image](assets/kickstart/demo-disp3.png)
 
-Ahora se agrega una nueva pantalla titulada **TestDisplay** a su ubicación **TestLocation**, como se muestra en la figura siguiente.
+   Ahora se agrega una nueva pantalla titulada **TestDisplay** a su ubicación **TestLocation**, como se muestra en la figura siguiente.
 
-![image](assets/kickstart/demo-disp4.png)
+   ![image](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
@@ -182,7 +182,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
-### Registro de un dispositivo y asignación de un dispositivo a una pantalla{#registering-device}
+### Registro de un dispositivo y asignación de un dispositivo a una pantalla {#registering-device}
 
 Debe registrar el dispositivo mediante el panel de AEM.
 
