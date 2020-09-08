@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 6%
 
 ---
@@ -91,9 +91,9 @@ Una vez que haya colocado el canal, deberá añadir contenido al canal que mostr
 
 Siga los pasos a continuación para agregar contenido al canal (*TestChannel*) de su proyecto:
 
-1. Navigate to the *DemoProject* you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **Channels** folder.
 
-1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
    ![image](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ Una vez que haya colocado el canal, debe crear una ubicación.
 
 Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-Se crea *TestLocation* y se agrega a la carpeta **Locations** .
+Se crea **TestLocation** y se agrega a la carpeta **Locations** .
 
 
 ### Creación de una visualización para una ubicación {#creating-display}
@@ -136,51 +136,41 @@ Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la
 
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. Introduzca el **Título** (*PantallaDePresión*).
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. Haga clic en **Crear**.
-
-Se agrega una nueva pantalla (*TestDisplay*) a su ubicación *TestLocation)*, como se muestra en la figura siguiente.
+Ahora se agrega una nueva pantalla titulada **TestDisplay** a su ubicación **TestLocation**, como se muestra en la figura siguiente.
 
 ### Assigning a Channel {#assigning-channel}
 
-1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
+Una vez que se haya completado la configuración del proyecto, debe asignar el canal a una pantalla para vista del contenido.
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **Se abre el cuadro de diálogo Asignación** de canal.
+1. Tap/click **Assign Channel** from the action bar.
 
-1. Select **Reference Channel** by **path**
+   O bien,
 
-1. Enter the **Channel Role** as *LiveStream*.
+   Toque o haga clic en **Panel** en la barra de acciones y haga clic en **+Asignar Canal** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
 
-1. Seleccione la ruta **de** Canal (*Test_Project* —> *Canales* —> *TestChannel* ) en el **Canal**.
+1. The **Channel Assignment** dialog box opens.
 
-1. Select the **Priority** for this channel as *1*.
-
-1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
-
-1. Introduzca **Programar** y seleccione las fechas **activas desde** y **activas hasta**.
-
-1. Haga clic en **Guardar**.
-
-El canal se crea y se agrega al panel.
+1. En la opción **Configuración** , puede elegir el canal **por ruta** o **por nombre**, introducir la función **de** Canal, la **prioridad**********, los Eventos compatiblesy los métodos de interrupción. Además, puede activar la información de objeto de atracción desde este cuadro de diálogo.
 
 
+   >[!NOTE]
+   >Consulte la sección Propiedades del [Canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
+
+1. En la opción **Programar** , seleccione la Ventana **de** Activación y la Programación **de** periodicidad.
+
+1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
 ### Registro de un dispositivo {#registering-device}
 
 Debe registrar el dispositivo mediante el panel de AEM.
 
->[!NOTE]
->Puede abrir el reproductor de pantallas con la aplicación de AEM Screens que ha descargado o con el navegador web.
+### Visualización del contenido en Chrome Player {#viewing-content-output}
+
+Este ejemplo muestra la salida en un reproductor Chrome. Una vez que haya asignado el canal a la pantalla, debe registrar el dispositivo en un reproductor.
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-Una vez que haya agregado las configuraciones anteriores, el reproductor debería mostrar automáticamente el canal predeterminado para la visualización en el dispositivo.
-
-
-
-Consulte [AEM Screens Player](working-with-screens-player.md) para obtener información más detallada sobre AEM Screens Player.
