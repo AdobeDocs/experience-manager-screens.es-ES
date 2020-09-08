@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '985'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ Siga los pasos a continuación para crear un proyecto de muestra para AEM Screen
 
 ## Tutorial {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 El primer paso es crear un nuevo proyecto de AEM Screens.
 
@@ -64,7 +64,7 @@ El primer paso es crear un nuevo proyecto de AEM Screens.
    >Una vez creado el proyecto, vuelve a la página de inicio del proyecto Screens. Puede seleccionar el proyecto. En un proyecto, hay cinco carpetas diferentes tituladas **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones** y **Programaciones**.
 
 
-### Crear un nuevo canal {#creating-channel}
+### Crear un canal{#creating-channel} 
 
 Una vez que haya implementado el proyecto, deberá crear un nuevo canal en el que administrar el contenido.
 
@@ -91,73 +91,62 @@ Una vez que haya colocado el canal, deberá añadir contenido al canal que mostr
 
 Siga los pasos a continuación para agregar contenido al canal (*TestChannel*) de su proyecto:
 
-1. Navigate to the *Test_Project* you created and select the **Channels** folder.
+1. Navigate to the *DemoProject* you created and select the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+
+   ![image](assets/kickstart/demo-6.png)
 
 1. Haga clic en el icono que alterna el panel lateral del lado izquierdo de la barra de acciones para abrir los recursos y componentes.
 
 1. Arrastre los componentes que quiera añadir y colóquelos en el canal.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![image](assets/kickstart/demo-7.png)
 
-En este ejemplo, el editor muestra una imagen agregada al canal.
+### Creación de una ubicación{#creating-location} 
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+Una vez que haya colocado el canal, debe crear una ubicación.
 
-### Crear una nueva ubicación {#creating-location}
-
-Una vez que haya colocado el canal, deberá crear su ubicación.
-
-***Las ubicaciones*** compartimentan las distintas experiencias de señalización digital y contienen las configuraciones de las pantallas según dónde estén las distintas pantallas.
+>[!NOTE]
+>***Las ubicaciones*** compartimentan las distintas experiencias de señalización digital y contienen las configuraciones de las pantallas según dónde estén las distintas pantallas.
 
 Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
-1. Navigate to the *Test_Project* you created and select the **Locations** folder.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. Haga clic en **Crear** junto al icono del signo más en la barra de acciones (consulte la figura siguiente). Se abrirá un asistente.
+1. Click **+ Create** from the action bar.
+
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 Se crea *TestLocation* y se agrega a la carpeta **Locations** .
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Creación de una nueva visualización para TestLocation {#creating-display}
+### Creación de una visualización para una ubicación {#creating-display}
 
 Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la ubicación.
 
-***Las pantallas*** representan la experiencia digital que se ejecuta en una o varias pantallas.
+>[!NOTE]
+>***Las pantallas*** representan la experiencia digital que se ejecuta en una o varias pantallas.
 
-1. Vaya a la ubicación en la que desea crear la visualización (*Test_* Project —> **Ubicaciones** —> *TestLocation)* como se muestra en la figura de arriba y seleccione *TestLocation*.
+1. Vaya a **TestLocation** y selecciónelo.
 
 1. Haga clic en **Crear** en la barra de acciones.
+
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. Introduzca **Nombre** y **Título** para la ubicación de visualización (introduzca el título como *TestDisplay*).
+1. Introduzca el **Título** (*PantallaDePresión*).
 
-1. Under the **Display** tab, choose the details of the Layout.
-
-   1. Choose the **Resolution** as **Full HD**.
-
-   1. Choose the **Number of Devices Horizontally** as 1.
-
-   1. Choose the **Number of Devices Vertically** as 1.
-
-   1. Haga clic en **Crear**.
+1. Haga clic en **Crear**.
 
 Se agrega una nueva pantalla (*TestDisplay*) a su ubicación *TestLocation)*, como se muestra en la figura siguiente.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-### Asignación de un canal {#assigning-channel}
+### Assigning a Channel {#assigning-channel}
 
 1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
-1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **Se abre el cuadro de diálogo Asignación** de canal.
 
@@ -177,7 +166,7 @@ Se agrega una nueva pantalla (*TestDisplay*) a su ubicación *TestLocation)*, co
 
 El canal se crea y se agrega al panel.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Registro de un dispositivo {#registering-device}
 
@@ -192,6 +181,6 @@ Debe registrar el dispositivo mediante el panel de AEM.
 
 Una vez que haya agregado las configuraciones anteriores, el reproductor debería mostrar automáticamente el canal predeterminado para la visualización en el dispositivo.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Consulte [AEM Screens Player](working-with-screens-player.md) para obtener información más detallada sobre AEM Screens Player.
