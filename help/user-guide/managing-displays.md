@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 59%
 
 ---
 
@@ -27,7 +30,7 @@ En esta página se muestra cómo crear y administrar pantallas para Screens.
 
 * [Configurar e implementar Screens](configuring-screens-introduction.md)
 * [Crear y gestionar proyecto de pantallas](creating-a-screens-project.md)
-* [Crear y administrar canales](managing-channels.md)
+* [Crear y administrar Canales](managing-channels.md)
 * [Crear y administrar ubicaciones](managing-locations.md)
 
 ## Creación de una pantalla nueva {#creating-a-new-display}
@@ -88,7 +91,7 @@ Una vez que se ha establecido una configuración del dispositivo en la pantalla 
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
 >
->Antes de esto, debe haber entendido cómo crear y administrar canales. Consulte [Crear y administrar canales](managing-channels.md) para obtener más información.
+>Antes de esto, debe haber entendido cómo crear y administrar canales. Consulte [Crear y administrar Canales](managing-channels.md) para obtener más información.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -110,35 +113,30 @@ El tablero de la pantalla le proporciona distintos paneles para administrar disp
 
 El panel **INFORMACIÓN DE LA PANTALLA** proporciona las propiedades de la pantalla.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+Haga clic en (**…**) en la esquina superior derecha del panel **INFORMACIÓN DE LA PANTALLA** para ver las propiedades y obtener una vista previa de la pantalla.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Visualizar propiedades {#viewing-properties}
 
 Haga clic en **Propiedades** para ver o cambiar las propiedades de la pantalla.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. El valor predeterminado es *300 segundos*.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. El valor predeterminado es *300 segundos*.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Panel Canales asignados {#assigned-channels-panel}
 
 En el panel **CANALES ASIGNADOS** se muestran los canales asignados a este dispositivo.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Panel Dispositivos {#devices-panel}
 
 En el panel **DISPOSITIVOS** se proporciona información sobre las configuraciones del dispositivo.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-Además, haga clic en la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
+Además, haga clic en la configuración del dispositivo para asignar propiedades de vista, asignar un dispositivo o eliminarlo por completo.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
