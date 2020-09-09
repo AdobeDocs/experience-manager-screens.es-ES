@@ -5,9 +5,9 @@ description: Siga esta página para obtener información sobre la creación de p
 seo-description: Siga esta página para obtener información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
 
    | **Nombre del diseño** | **Descripción** |
    |---|---|
-   | Left20-LandscapeHD3Zone | Se refiere a un diseño horizontal de 3 zonas que permite crear 3 zonas con una zona 1 del 20 % de la pantalla horizontal y vertical desde la izquierda, una zona 2 del 80 % de la pantalla horizontal y un 20 % de la pantalla vertical hacia la derecha, una zona 3 del 100 % de la pantalla horizontal y un 80 % de la pantalla vertical con una proporción de aspecto de 16:9 |
+   | Left20-LandscapeHD3Zone | Se refiere a un diseño horizontal de 3 zonas que le permite crear 3 zonas con una zona 1 del 20 % de la pantalla horizontal y vertical desde la izquierda, una zona 2 del 80 % de la pantalla horizontal y un 20 % de la pantalla vertical hacia la derecha, una zona 3 del 100 % de la pantalla horizontal y un 80 % de la pantalla vertical con una proporción de aspecto de 16:9 |
    | Upper20-PortraitHD2Zone | Se refiere a una plantilla vertical de 2 zonas que cubre el 20 % de la pantalla desde la parte superior, con una proporción de aspecto de 16:9 |
    | Right20-LandscapeSD3Zone | Se refiere a una plantilla de 3 zonas que cubre el 20 % de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
 
@@ -60,7 +60,7 @@ El diseño Left20-LandscapeHD3Zone permite crear el siguiente diseño multizona 
 
 Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone para un proyecto de AEM Screens:
 
-1. Cree un proyecto de AEM Screens con el título de plantilla **personalizada**.
+1. Cree un proyecto de AEM Screens titulado como plantilla **personalizada**.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
@@ -73,7 +73,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
    >[!NOTE]
    >Se recomienda hacer clic en **Guardar todo** desde la barra de acciones del CRXDE Lite cada vez que cree, edite o copie contenido en cualquiera de los nodos; de lo contrario, no podrá confirmar las actualizaciones.
 
-1. Copie la plantilla de la izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
+1. Copie la plantilla de la barra izquierda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
 1. Cambie el nombre de la **barra izquierda** copiada (`/apps/customtemplate/template`) a **mi diseño**personalizado.
    ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
@@ -108,7 +108,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
 
 1. Vaya a `/apps/settings/wcm/designs/custom-template-designs` y cree un archivo static.css.
 
-1. Copie el contenido en el archivo static.css:
+1. Copie el contenido en el `static.css` archivo:
 
    ```shell
        /*my-custom-layout styles*/
@@ -138,7 +138,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
 
 ## Visualización del resultado {#viewing-result}
 
-Siga los pasos a continuación para utilizar la plantilla personalizada anterior en el proyecto de AEM Screens:
+Siga los pasos a continuación para utilizar la plantilla personalizada anterior en su proyecto de AEM Screens:
 
 1. Vaya al proyecto Pantallas que ha creado en el paso (1) y seleccione la carpeta de **Canales** .
 
