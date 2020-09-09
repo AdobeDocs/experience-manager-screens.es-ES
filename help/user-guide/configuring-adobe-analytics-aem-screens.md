@@ -1,8 +1,8 @@
 ---
 title: Configuración de Adobe Analytics con AEM Screens
 seo-title: Configuración de Adobe Analytics con AEM Screens
-description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados mediante el Analytics de Adobe sin conexión '
-seo-description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados mediante el Analytics de Adobe sin conexión '
+description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados mediante el uso de Adobe Analytics sin conexión '
+seo-description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados mediante el uso de Adobe Analytics sin conexión '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 11%
@@ -29,12 +29,12 @@ ht-degree: 11%
 
 Esta sección abarca los siguientes temas:
 
-* **Secuencia en Adobe Analytics con AEM Screens**
+* **Secuencias en Adobe Analytics con AEM Screens**
 * **Envío de Eventos personalizados mediante Adobe Analytics sin conexión**
 
-## Secuencia en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Secuencias en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-El proceso ***de secuenciación*** inicio con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido de Canal envía eventos de Analytics de Adobe con nómina, es decir, la captura de prueba de datos a la E/S de Windows y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
+El proceso ***de secuenciación*** inicio con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido de canal envía eventos de Adobe Analytics con nómina, es decir, la captura de prueba de datos a la E/S de Windows y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
 
 ### Diagrama de secuencia {#sequencing-diagram}
 
@@ -44,7 +44,7 @@ El siguiente diagrama de secuencias explica la integración de Adobe Analytics c
 
 ## Envío de Eventos personalizados mediante Adobe Analytics sin conexión {#sending-custom-events-using-offline-adobe-analytics}
 
-La siguiente tabla resume el modelo de datos estándar para eventos. lista todos los campos enviados a Adobe Analytics:
+La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos los campos enviados a Adobe Analytics:
 
 <table>
  <tbody>
@@ -59,7 +59,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
   </tr>
   <tr>
    <td><strong><em>Núcleo/Evento</em></strong></td> 
-   <td>GUID de Evento</td> 
+   <td>GUID de evento</td> 
    <td>event.guid</td> 
    <td>recomendado</td> 
    <td>Cadena</td> 
@@ -82,7 +82,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
    <td>recomendado</td> 
    <td>Cadena</td> 
    <td>timestamp - UTC</td> 
-   <td>Hora de fecha de inicio de Evento, si NO especifica esto, la hora de evento se asumirá como la hora en que el servidor la recibió</td> 
+   <td>Hora de fecha de inicio de evento, si NO especifica esto, la hora de evento se asumirá como la hora en que el servidor la recibió</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -91,7 +91,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
    <td>opcional</td> 
    <td>Cadena</td> 
    <td>timestamp - UTC</td> 
-   <td>Hora de la fecha de finalización del Evento</td> 
+   <td>Hora de la fecha de finalización del evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -122,12 +122,12 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
   </tr>
   <tr>
    <td> </td> 
-   <td>Tipo de Evento/acción</td> 
+   <td>Tipo de evento/acción</td> 
    <td>event.type</td> 
    <td>required</td> 
    <td>Cadena</td> 
    <td> </td> 
-   <td>Tipo de evento (procesar, hacer clic, pellizcar, hacer zoom): acción principal del usuario</td> 
+   <td>tipo de evento (procesar, hacer clic, pellizcar, hacer zoom): acción principal del usuario</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -136,7 +136,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
    <td>recomendado</td> 
    <td>Cadena</td> 
    <td> </td> 
-   <td>Subtipo de Evento (crear, actualizar, eliminar, publicar, etc.) - Detalles adicionales de la acción del usuario</td> 
+   <td>Subtipo de evento (crear, actualizar, eliminar, publicar, etc.) - Detalles adicionales de la acción del usuario</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -268,7 +268,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
    <td> </td> 
    <td>Dispositivo</td> 
    <td>source.device</td> 
-   <td>con excepciones requeridas</td> 
+   <td>w/excepciones requeridas</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Nombre del reproductor</td> 
@@ -277,7 +277,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. lista todos
    <td> </td> 
    <td>Versión del SO</td> 
    <td>source.os_version</td> 
-   <td>con excepciones requeridas</td> 
+   <td>w/excepciones requeridas</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Versión O/S</td> 
