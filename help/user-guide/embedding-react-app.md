@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Siga los pasos a continuación para utilizar el Editor de SPA de AEM:
 
    >[!NOTE]
    >
-   >Este arquetipo crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos de SPA. Las propiedades que deben proporcionarse al utilizar este arquetipo permiten asignar el nombre que desee a todas las partes de este proyecto.
+   >Este arquetipo crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos de SPA. Las propiedades que se deben proporcionar al utilizar este arquetipo permiten asignar el nombre que desee a todas las partes de este proyecto.
 
 1. Siga las instrucciones Léame para crear un proyecto de arquetipo de editor de SPA AEM:
 
@@ -61,7 +61,7 @@ Para editar el contenido en la aplicación REACT:
 
 ### Añadir la aplicación interactiva REACT a AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
-Siga los pasos a continuación para agregar la aplicación interactiva REACT a AEM Screens:
+Siga los pasos a continuación para añadir la aplicación interactiva REACT a AEM Screens:
 
 1. Cree un nuevo proyecto de AEM Screens. Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para obtener más detalles.
 
@@ -102,7 +102,7 @@ Siga los pasos que se describen a continuación para integrar el SPA con Adobe A
 
    Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener información sobre cómo realizar secuenciaciones en Adobe Analytics con AEM Screens y enviar eventos personalizados mediante Adobe Analytics sin conexión.
 
-1. Edite la aplicación de reacción en el IDE/editor de su elección (especialmente el componente de texto u otro componente que desee que emita eventos de inicio).
+1. Edite la aplicación de reacción en el IDE/editor de su elección (especialmente el componente de texto u otro componente que desee utilizar como inicio para emitir eventos).
 1. En el evento de clic u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.
 
    Consulte [Configuración de Adobe Analytics con](configuring-adobe-analytics-aem-screens.md)pantallas de AEM para obtener más detalles.
