@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 38%
+source-wordcount: '341'
+ht-degree: 42%
 
 ---
 
@@ -22,35 +22,22 @@ ht-degree: 38%
 
 Puede usar AEM Screens si selecciona el enlace de Adobe Experience Manager (en la parte superior izquierda) y, a continuación, la opción Screens.
 
-También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`
-![chlimage_1-14](assets/chlimage_1-14.png)
+También puede desplazarse directamente a: `http://localhost:4502/screens.html/content/screens`
 
-Diferentes proyectos podrían ser marcas, implementaciones, clientes, etc. diferentes.
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**Sugerencia de navegación:**
->
 >También puede utilizar las teclas de dirección para desplazarse por carpetas diferentes en AEM. Además, una vez seleccionada una entidad concreta, pulse en la barra espaciadora para editar o vista las propiedades de esa carpeta específica.
 
 ## Crear un nuevo proyecto de Screens{#creating-a-new-screens-project} 
 
 Siga los pasos a continuación para crear un nuevo proyecto de Screens:
 
-1. Seleccione **Screens** del panel de AEM.
-1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
+1. Seleccione **Pantallas** en la instancia de AEM.
 
-1. Select the **Screens** template and click **Next**.
+1. Haga clic en **Crear proyecto** de pantallas.
 
-1. Enter the properties (**Title** and **Name**) as required and click **Create**.
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Puede eliminar las opciones si las disponibles no son relevantes para el proyecto.
+1. Enter the title as **TestProject** and click **Create**.
 
 Se crea el proyecto y le lleva de nuevo a la consola del proyecto de Screens. Puede seleccionar el proyecto.
 
@@ -59,22 +46,26 @@ En un proyecto, hay cuatro tipo de carpetas, tal y como se muestra en la figura 
 * **Programas**
 * **Ubicaciones**
 * **Aplicaciones**
-* **Canales**
 * **Dispositivos**
+* **Canales**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### Visualizar propiedades {#viewing-properties}
+>[!NOTE]
+>
+>By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Puede eliminar las opciones si las disponibles no son relevantes para el proyecto.
 
-Once you create the Screens project, click **Properties** on the action bar to edit properties of an exiting AEM Screens project.
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## Visualizar propiedades {#viewing-properties}
 
-The following options allow you to edit/change properties of your *DemoProject*.
+Una vez creado el proyecto Pantallas, selecciónelo y haga clic en **Propiedades** en la barra de acciones para editar las propiedades del proyecto.
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+The following options allow you to edit/change properties of your **TestScreens**.
 
-### Crear una carpeta personalizada {#creating-a-custom-folder}
+![image](assets/create-project2.png)
+
+
+## Crear una carpeta personalizada {#creating-a-custom-folder}
 
 También puede crear su propia carpeta personalizada en **las páginas de formato Programaciones**, **Ubicaciones**, **Aplicaciones**, **Canales** y **Dispositivos** disponibles en el proyecto.
 
@@ -85,12 +76,11 @@ Para crear una carpeta personalizada:
 1. Haga clic en **Siguiente**. 
 1. Especifique las propiedades y haga clic en **Crear**.
 
-Los siguientes pasos muestran la creación de una carpeta de aplicaciones en la página de formato de **Aplicaciones** en *DemoProject*.
+Los pasos siguientes muestran la creación de una carpeta de aplicaciones en la página de formato de **Aplicaciones** en **TestScreens**.
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### Pasos siguientes {#the-next-steps}
 
 Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
 
-Además, puede crear su propia programación, aplicación, ubicación o dispositivo.
