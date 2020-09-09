@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 4%
@@ -48,7 +48,7 @@ Antes de inicio de implementar esta funcionalidad, asegúrese de tener conocimie
 
 Al crear un canal, puede utilizar distintas plantillas para crear zonas en el canal. Puede agregar una sola imagen, vídeo o un canal incrustado que permita mostrar varios recursos en una secuencia.
 
-**Creación del Canal**
+**Crear un canal** 
 
 1. Seleccione el vínculo de Adobe Experience Manager (superior izquierda) y, a continuación, **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Vaya a la carpeta **Canales** y haga clic en **Crear** en la barra de acciones.
