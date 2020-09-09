@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 45%
@@ -107,7 +107,6 @@ Siga los pasos a continuación para cargar los vídeos en el canal:
 1. Seleccione los **vídeos** en la opción Recursos y arrastre y suelte los vídeos necesarios.
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### Visualizar propiedades {#viewing-properties}
@@ -145,6 +144,7 @@ Puede vista del manifiesto desde el panel de canal.
 >Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 Siga estos pasos para activar esta opción desde el panel de canal:
+
 1. **Definir el Canal como sin conexión**
    1. Seleccione el canal y **Propiedades** en la barra de acciones
    1. Vaya a la ficha **Canal** y asegúrese de desmarcar la opción Modo **de desarrollador (forzar el canal para que esté en línea)**
