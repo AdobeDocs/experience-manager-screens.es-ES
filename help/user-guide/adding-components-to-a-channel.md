@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +33,7 @@ Cuando cree un proyecto de AEM Screens, verá una lista de componentes predeterm
 
 Para ver los componentes predeterminados del proyecto de Screens, siga los pasos que se describen a continuación:
 
-1. Seleccione el canal. Por ejemplo,**We.Retail In Store** --&gt; **Canales** --&gt; **Canal inactivo**.
+1. Seleccione el canal. Por ejemplo,**We.Retail In Store** --> **Canales** --> **Canal inactivo**.
 
 1. Haga clic en **Editar** en la barra de acciones para abrir el editor de AEM.
 1. Haga clic en el icono **+** en la barra lateral para abrir los componentes.
@@ -44,12 +47,12 @@ AEM proporciona otros componentes. También puede añadir otros componentes (no 
 
 En el siguiente ejemplo se muestra la forma de añadir el componente Livefyre a un proyecto de AEM Screens:
 
-1. Seleccione el canal en el que desee añadir un componente nuevo. Por ejemplo,**We.Retail In Store** --&gt; **Canales** --&gt; **Canal inactivo**.
+1. Seleccione el canal en el que desee añadir un componente nuevo. Por ejemplo,**We.Retail In Store** --> **Canales** --> **Canal inactivo**.
 
 1. Haga clic en **Editar** en la barra de acciones para abrir el editor.
 1. Seleccione el modo **Diseño**.
 1. Seleccione todo el editor de diseño que está a la derecha y haga clic en el símbolo de configuración para abrir el cuadro de diálogo **Diseño de ParSys**.
-1. Puede seleccionar los componentes que desee importar al proyecto AEM Screens. El siguiente ejemplo muestra la adición del componente **Livefyre** a un proyecto de AEM Screens.
+1. Puede seleccionar los componentes que desee importar al proyecto AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -74,9 +77,9 @@ El componente de la aplicación tiene las siguientes propiedades:
 | **Propiedad** | **Descripción** |
 |---|---|
 | ***Ruta de acceso de la aplicación*** | Seleccione la ruta de acceso absoluta donde está la aplicación. |
-| ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, una aplicación de una sola página). Si establece el valor de la duración como &gt;0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente. |
+| ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, una aplicación de una sola página). Si establece el valor de la duración como >0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente. |
 
-En el siguiente ejemplo se muestra cómo integrar un componente de aplicación con la vista previa de sus propiedades.
+El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la previsualización de sus propiedades:
 
 ![adding_components_application](assets/adding_componentsapplication.gif)
 
@@ -102,7 +105,7 @@ El componente Canal tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
  </tbody>
 </table>
@@ -120,12 +123,12 @@ La página integrada tiene las siguientes propiedades:
    <td><strong>Descripción</strong></td>
   </tr>
   <tr>
-   <td><strong><em>Ruta de acceso de página<br /> </em></strong></td>
+   <td><strong><em>página Ruta<br /> </em></strong></td>
    <td>Seleccione esta ruta de acceso absoluta que existe el canal.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
  </tbody>
 </table>
@@ -152,7 +155,7 @@ La secuencia integrada tiene las propiedades de página siguientes:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
@@ -181,7 +184,7 @@ La secuencia integrada dinámica tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
@@ -192,7 +195,7 @@ La secuencia integrada dinámica tiene las siguientes propiedades:
 
 ### Fragmento de experiencias {#experience-fragment}
 
-Un fragmento de experiencia permite añadir un fragmento de experiencia (grupo de uno o varios componentes, incluido el contenido y el diseño al que se puede hacer referencia en las páginas) al canal de pantallas de AEM. Arrastre y suelte el componente en el editor de AEM y seleccione el fragmento de experiencia.
+Un fragmento de experiencia le permite agregar un fragmento de experiencia (grupo de uno o varios componentes, incluido el contenido y el diseño al que se puede hacer referencia dentro de las páginas) a su canal de AEM Screens. Arrastre y suelte el componente en AEM editor y seleccione el fragmento de experiencia.
 
 Para obtener más información sobre cómo crear un fragmento de experiencia y utilizarlo en un proyecto de AEM Screens, consulte [Uso de fragmentos](experience-fragments-in-screens.md)de experiencia.
 
@@ -238,7 +241,7 @@ La siguiente imagen muestra el componente de transición (agregado mediante arra
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Seleccione el icono de transición y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo **Transición** . Este cuadro de diálogo incluye tres fichas:
+Seleccione el icono de transición y haga clic en el icono **Configurar** (llave inglesa) para abrir el cuadro de diálogo **Transición** . Este cuadro de diálogo incluye tres fichas:
 
 * **Transición**
 * **Secuencia**
@@ -246,7 +249,7 @@ Seleccione el icono de transición y haga clic en **Configurar** (icono de llave
 
 >[!NOTE]
 >
->De forma predeterminada, la secuencia se establece en 600 ms. Puede actualizar la secuencia de transición a otro valor mediante la ficha **Secuencia** .
+>De forma predeterminada, la secuencia se establece en 600 ms. Puede actualizar la secuencia de transiciones a otro valor mediante la ficha **Secuencia** .
 
 ![transición](assets/transition.gif)
 
@@ -292,11 +295,11 @@ El componente Transición tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Activo hasta</em></strong></td>
-   <td>Marca de hora que describe hasta cuándo puede estar activa la transición.</td>
+   <td>Marca de hora que describe hasta cuándo la transición puede estar activa.</td>
   </tr>
   <tr>
    <td><strong><em>Programa</em></strong></td>
-   <td>Agregue una programación predefinida.</td>
+   <td>Añada una programación predefinida.</td>
   </tr>
  </tbody>
 </table>
