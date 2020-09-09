@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -25,11 +25,11 @@ En esta sección se hace hincapié en la creación y administración de cambios 
 
 ## Términos clave {#key-terms}
 
-Antes de entrar en los detalles de la creación y administración de canales impulsados por el inventario en su proyecto de AEM Screens, debe conocer algunos de los términos clave que son importantes y relevantes para los distintos escenarios.
+Antes de entrar en los detalles de la creación y administración de canales impulsados por el inventario en su proyecto de AEM Screens, debe conocer algunos de los términos clave que son importantes y relevantes para los diferentes escenarios.
 
 **Marca** Se refiere a la descripción del proyecto de alto nivel.
 
-**Área** hace referencia al nombre de proyecto de AEM Screens, como la publicidad digital y la publicidad dinámica
+**Área** hace referencia al nombre del proyecto de AEM Screens, como la publicidad digital y la publicidad en pantalla
 
 **Actividad** Define la categoría de la regla, como por ejemplo, controlado por inventario, por el tiempo, por disponibilidad del departamento, etc.
 
@@ -55,7 +55,7 @@ Antes de dar inicio a la configuración de Context Hub Configurations para un pr
 
 Puede configurar el almacén de datos como un evento de E/S local o como un evento de base de datos local.
 
-El siguiente ejemplo de desencadenadores de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos como una hoja de Excel que le permite utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
+El siguiente ejemplo de desencadenadores de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos como una hoja de Excel que le permite utilizar las configuraciones de ContextHub y la ruta de segmentos a AEM Screens canal.
 
 Una vez configurada correctamente la hoja de Google, por ejemplo:
 
@@ -68,7 +68,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
+>El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
 
 ## Paso 2: Configuración de configuraciones de tienda {#step-setting-store-configurations}
 
@@ -98,9 +98,9 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
       >[!CAUTION]
       >Como parte de AEM 6.5 Feature Pack 4 o AEM 6.4 Feature Pack 8, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
       > 
-      >Siga los pasos a continuación:
+      >Complete los siguientes pasos:
       >
-      >1. Vaya a CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
+      >1. Vaya al CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
       >1. Compruebe si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si el `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
       > 1. Haga clic con el botón secundario en `/conf/screens/settings` y cree un nuevo nodo con el *nombre* como **cloudsettings1** y *Escriba* como **sling:Folder** y guarde los cambios.
       >1. Mueva todos los nodos debajo de `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
@@ -225,7 +225,7 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Haga clic en **Crear** > **Crear Actividad.** Se abre el Asistente para **configurar Actividades** .
 
-   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueCheck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
+   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueeck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -265,7 +265,7 @@ Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal co
    1. Introduzca el **valor** como **70**.
 
       >[!NOTE]
-      AEM valida los datos de la hoja de Google mostrando el segmento como verde.
+      El AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
@@ -296,7 +296,7 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
    1. Defina la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
 
-   1. Click **Save &amp; Close**.
+   1. Haga clic en **Guardar y cerrar**.
 
       >[!NOTE]
       Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
