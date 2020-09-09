@@ -3,7 +3,7 @@ title: Creación con activadores de datos
 seo-title: Creación con activadores de datos
 description: Siga esta página para aprender a crear con activadores de datos.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Esta sección resalta cómo habilitar la segmentación en los canales.
 
 ## Requisitos previos {#prereqs}
 
-Antes de seguir los pasos a continuación para habilitar la segmentación en canales, debe conocer los Términos [clave en Configuración en AEM Screens](configuring-context-hub.md) necesarios para comprender ContextHub y Targeting en AEM Screens.
+Antes de seguir los pasos a continuación para habilitar la segmentación en canales, debe conocer los términos [clave en Configuración en AEM Screens](configuring-context-hub.md) necesarios para comprender ContextHub y Targeting en AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Una vez que haya completado los pasos anteriores, estará listo para habilitar l
 
 Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
-1. Vaya al canal AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** *(canal de secuencia)* creado en un Canal de AEM Screens.
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** *(canal de secuencia)* creado en un Canal de AEM Screens.
 
 1. Seleccione canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
 
@@ -61,7 +61,7 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones. Arrastre y coloque los recursos en el editor de canal.
+1. Navegue y seleccione **DataDrivenRetail** en **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones. Arrastre los recursos y suéltelos en el editor de canal.
 
    >[!NOTE]
    >
@@ -75,9 +75,8 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
-Después de configurar ContextHub para el proyecto de AEM Screens, puede seguir los diferentes casos de uso para comprender cómo los recursos activados por datos desempeñan un papel vital en diferentes industrias:
+Después de configurar ContextHub para su proyecto de AEM Screens, puede seguir los diferentes casos de uso para comprender cómo los recursos activados por datos desempeñan un papel vital en diferentes industrias:
 
 1. **[Activación de objetivo de inventario comercial](retail-inventory-activation.md)**
 1. **[Activación de la temperatura del centro de viajes](local-temperature-activation.md)**
 1. **[Activación de reservación de hospitalidad](hospitality-reservation-activation.md)**
-
