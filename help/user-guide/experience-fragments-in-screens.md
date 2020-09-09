@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 8%
@@ -35,10 +35,9 @@ Un ***fragmento de experiencias*** es un grupo de uno o varios componentes que i
 ## Uso de fragmentos de experiencias en AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->El ejemplo siguiente utiliza **We.Retail** como proyecto de demostración desde el que se aprovecha el fragmento de experiencias desde una página de **sitios** a un proyecto de AEM Screens.
+>El ejemplo siguiente utiliza **We.Retail** como proyecto de demostración desde el que se aprovecha el fragmento de experiencias de una página de **sitios** a un proyecto de AEM Screens.
 
-Por ejemplo, el siguiente flujo de trabajo muestra el uso de fragmentos de experiencia de We.Retail en Sitios. Puede elegir una página web y aprovechar ese contenido en el canal de AEM Screens de uno de sus proyectos.
+Por ejemplo, el siguiente flujo de trabajo muestra el uso de fragmentos de experiencia de We.Retail en Sitios. Puede elegir una página web y aprovechar ese contenido en su canal de AEM Screens en uno de sus proyectos.
 
 ### Requisitos previos {#pre-requisites}
 
@@ -50,7 +49,7 @@ Por ejemplo, el siguiente flujo de trabajo muestra el uso de fragmentos de exper
 1. Introduzca **DemoProject** como título.
 1. Haga clic en **Guardar**.
 
-Se agregará **DemoProject** a sus pantallas de AEM.
+Se agregará un **DemoProject** a su AEM Screens.
 
 ***Crear un canal*** 
 
@@ -97,12 +96,12 @@ Siga los pasos a continuación para aprovechar el contenido de **We.Retail** a s
 
 1. **Creación de Live Copy del fragmento de experiencias**
 
-   1. Vaya a la página de inicio de AEM.
+   1. Vaya a la página de inicio AEM.
    1. Seleccione Fragmentos **de** experiencia, resalte el **fragmento** Pantallas y haga clic en **Variación como Live Copy**, como se muestra en la figura siguiente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Seleccione el** Fragmento de pantalla*** en el asistente **Crear Live Copy** y haga clic en **Siguiente**.
+   c. Seleccione **ScreensFragment** en el asistente **Crear Live Copy** y haga clic en **Siguiente**.
 
    d. Introduzca el **Título** y el **Nombre** como **Pantallas**.
 
@@ -165,7 +164,7 @@ Tras completar los pasos anteriores, puede validar el fragmento de experiencia e
 1. Navegación hasta **TestChannel**.
 1. Selección de la **Previsualización** en la barra de acciones.
 
-vista del contenido desde la página **Sitios** (Live Copy del fragmento de experiencia) en el canal, como se muestra en la figura siguiente:\
+Vista del contenido desde la página **Sitios** (Live Copy del fragmento de experiencia) en el canal, como se muestra en la figura siguiente:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Propagación de cambios en la página {#propagating-changes-from-the-master-page}
