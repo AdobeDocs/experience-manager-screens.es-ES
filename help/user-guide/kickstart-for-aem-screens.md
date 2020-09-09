@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 5%
 
 ---
@@ -187,7 +187,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 Debe registrar el dispositivo mediante el panel de AEM.
 
 >[!IMPORTANT]
->El reproductor ChromeOS se puede instalar como complemento Chrome Browser en el modo de desarrollador sin necesidad de un dispositivo de reproducción Chrome. Para la instalación, siga los pasos a continuación:
+>El reproductor de Chrome OS se puede instalar como complemento del navegador Chrome en el modo de desarrollador sin necesidad de un dispositivo de reproductor de Chrome. Para la instalación, siga los pasos a continuación:
 >
 >1. Haga clic [aquí](https://download.macromedia.com/screens/) para descargar la versión más reciente de Chrome Player.
 >1. Descomprima y guárdelo en el disco.
@@ -199,7 +199,7 @@ Debe registrar el dispositivo mediante el panel de AEM.
 >1. Haga clic en **AEM Screens** Plugin para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
 
 
-Una vez que el reproductor ChromeOS esté activado, siga los pasos a continuación para registrar un dispositivo Chrome.
+Una vez que el reproductor de Chrome OS esté activado, siga los pasos a continuación para registrar un dispositivo Chrome.
 
 1. Vaya a la carpeta **Dispositivos** del proyecto desde la instancia de AEM.
 
@@ -242,7 +242,7 @@ Una vez que el reproductor ChromeOS esté activado, siga los pasos a continuaci�
 
 ### Visualización del contenido en Chrome Player {#viewing-content-output}
 
-Todos los recursos del canal se están reproduciendo en el dispositivo Chrome.
+Todos los recursos del canal se reproducen ahora en el reproductor de Chrome OS.
 
 ¡Felicitaciones ahora está reproduciendo contenido en un canal de AEM Screens!
 
