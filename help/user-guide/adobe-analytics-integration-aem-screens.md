@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Esta sección abarca los siguientes temas:
 
 ## Información general {#overview}
 
-***Los AEM Screens*** aprovechan Adobe Analytics y con ello pueden lograr algo único en el mercado: análisis de canales cruzados que ayudan a correlacionar el contenido mostrado en la ubicación con otras fuentes de datos.
+***AEM Screens*** aprovecha Adobe Analytics y con ello puede lograr algo único en el mercado: análisis de canales cruzados que ayudan a correlacionar el contenido mostrado en la ubicación con otras fuentes de datos.
 
 AEM Screens proporciona una integración lista para usar con Adobe Analytics y le proporciona una prueba de reproducción.
 
@@ -57,7 +57,7 @@ La integración de Adobe Analytics con AEM Screens, por lo tanto, impone los sig
 
 ## Detalles de arquitectura {#architectural-details}
 
-Los clientes AEM Screens desean comprender qué contenido se mostró en qué momento y durante cuánto tiempo (agregado). Esta es una capacidad común de la solución de señalización. En lugar de crear nuestros propios análisis, los AEM Screens aprovecharán Adobe Analytics y con ello podremos lograr algo único en el mercado: análisis de canales cruzados que ayudan a correlacionar el contenido mostrado en la ubicación con otras fuentes de datos.
+Los clientes de AEM Screens desean saber qué contenido se mostró en qué momento y durante cuánto tiempo (agregado). Esta es una capacidad común de la solución de señalización. En lugar de crear nuestros propios análisis, AEM Screens aprovechará Adobe Analytics y con eso podremos lograr algo único en el mercado: análisis de canales cruzados que ayudan a correlacionar el contenido mostrado en la ubicación con otras fuentes de datos.
 
 El siguiente diagrama arquitectónico explica la integración de Adobe Analytics con AEM Screens:
 
@@ -71,11 +71,11 @@ Vaya a Configuración **de la consola web de** Adobe Experience Manager para con
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Pantallas de Analytics: Flujo de habilitación {#screens-analytics-enablement-flow}
+## Análisis de pantallas: Flujo de habilitación {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->Antes de configurar las propiedades, póngase en contacto con el administrador de relaciones de Adobe para crear un ticket con el fin de obtener una clave **de API de** Analytics y un proyecto **de** análisis para su uso con AEM Screens.
+>Antes de configurar las propiedades, póngase en contacto con el administrador de relaciones de Adobe para crear un ticket con el fin de obtener una clave **de API de** Analytics y un proyecto **de** Analytics para su uso con AEM Screens.
 
 ![]()
 
@@ -83,7 +83,7 @@ Vaya a Configuración **de la consola web de** Adobe Experience Manager para con
 
 >[!CAUTION]
 >
->Antes de configurar las propiedades, póngase en contacto con el administrador de relaciones de Adobe para crear un ticket con el fin de obtener una clave **de API de** Analytics y un proyecto **de** análisis para su uso con AEM Screens.
+>Antes de configurar las propiedades, póngase en contacto con el administrador de relaciones de Adobe para crear un ticket con el fin de obtener una clave **de API de** Analytics y un proyecto **de** Analytics para su uso con AEM Screens.
 
 La tabla siguiente resalta las propiedades con su descripción para configurar Adobe Analytics para AEM Screens:
 
@@ -103,8 +103,8 @@ La tabla siguiente resalta las propiedades con su descripción para configurar A
    <td>Clave de API para autenticarse en el servidor de Adobe Analytics (proporcionada por el Administrador de cuentas).</td>
   </tr>
   <tr>
-   <td><strong>Analytics Project</strong></td>
-   <td>El proyecto de AEM Screens configurado en el análisis para recibir datos (proporcionado por el Administrador de cuentas).</td>
+   <td><strong>Proyecto de Analytics</strong></td>
+   <td>Proyecto de AEM Screens configurado en el análisis para recibir datos (proporcionado por el Administrador de cuentas).</td>
   </tr>
   <tr>
    <td><strong>creación</strong></td>
@@ -121,11 +121,11 @@ La tabla siguiente resalta las propiedades con su descripción para configurar A
 >
 >De forma predeterminada, la frecuencia **de envío de** Analytics es de 15 minutos.
 
-#### Uso del servicio Adobe Analytics en AEM Screens {#using-adobe-analytics-service-in-aem-screens}
+#### Uso de Adobe Analytics Service en AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Este escenario invoca la API de Analytics a través de llamadas REST desde un servicio de análisis en el firmware y en los componentes fundamentales de las pantallas de instrumentos para crear y enviar eventos específicos de un caso de uso concreto, permitiendo al mismo tiempo la extensibilidad de los mensajes personalizados que se pueden enviar a Analytics desde un canal desarrollado personalizado.
+Este escenario invoca la API de Analytics a través de llamadas REST desde un servicio de análisis en el firmware y en los componentes básicos de pantallas de instrumentos para crear y enviar explícitamente eventos específicos de un caso de uso determinado, permitiendo al mismo tiempo la extensibilidad de los mensajes personalizados que se pueden enviar a Analytics desde un canal desarrollado personalizado.
 
-Los eventos de Analytics se almacenan sin conexión en la base de datos indexada y posteriormente se fragmentan y envían a la nube.
+Los eventos de Analytics se almacenan sin conexión en la base de datos indexada y, posteriormente, se fragmentan y se envían a la nube.
 
 >[!NOTE]
 >
