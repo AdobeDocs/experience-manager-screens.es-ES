@@ -5,9 +5,9 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
    >[!NOTE]
    >Para obtener información sobre cómo agregar una superposición de texto al recurso en un editor de canal, consulte [Superposición](/help/user-guide/text-overlay.md)de texto.
 
-1. Vaya al CRXDE Lite desde su instancia de AEM —> Herramientas —> **CRXDE Lite**.
+1. Vaya al CRXDE Lite desde su instancia de AEM —> herramientas —> **CRXDE Lite**.
 
 1. Debe crear un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`, por ejemplo, en este caso, navegue hasta `/apps/settings/wcm/designs/customstyle/`
 
@@ -73,7 +73,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >De forma predeterminada, el campo **Diseño** muestra la ruta que apunta a los diseños en la carpeta libs.
+   >Sea el valor predeterminado, el campo **Diseño** muestra la ruta que apunta a los diseños en la carpeta libs.
 
 1. Actualice el campo **Diseño** con la ruta a la carpeta del proyecto. En este caso, lo será, `/apps/settings/wcm/designs/customstyle`.
 
@@ -99,7 +99,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 Debe actualizar las ACL de estos diseños para que el reproductor pueda descargarlos.
 
-1. Vaya a useradmin, elija la ruta de diseño personalizada `screens-<project>-devices group` y asígnele permiso de lectura.
+1. Vaya al administrador del usuario, elija el `screens-<project>-devices group` y asígnele un permiso de lectura a la ruta de diseño personalizada.
 
 1. Proporcione permisos de lectura y modificación de `screens-<project>-administrators` grupos a esta ruta.
 
@@ -109,7 +109,7 @@ Una vez que haya completado los pasos anteriores, puede actualizar el archivo *s
 
 Siga los pasos a continuación para vista del diseño actualizado a la superposición de texto:
 
-1. Vaya a su proyecto AEM Screens titulado como **custom style** —> **Canales** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
+1. Vaya a su proyecto de AEM Screens titulado como **custom style** —> **Canales** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Dado que ahora ha agregado el diseño al campo **Diseños** , como se mencionó anteriormente, haga clic en **Previsualización** para vista del estilo actual de la imagen con una superposición de texto.
 
