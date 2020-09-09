@@ -4,9 +4,9 @@ seo-title: Activación de nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal para un intervalo de tiempo programado en la zona horaria local del reproductor.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ En esta sección se tratan los siguientes temas:
 * Ventana de activación
 * Reproducción de un solo Evento
 * Gestión de periodicidad en recursos
-   * Partición de días
+   * Partición de día
    * Partición de semana
-   * Partición de mes
+   * MonthParting
    * Combinación de asociaciones
 * Activación de varios recursos
 
@@ -82,7 +82,7 @@ Puede programar los recursos para que se repitan a determinados intervalos de fo
 
 Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Partición de días {#day-parting}
+### Partición de día {#day-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -120,7 +120,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
-#### Ejemplo de Expresiones para partición de semana {#example-two}
+#### Ejemplo de Expresiones para WeekParting {#example-two}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
@@ -134,7 +134,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 >También puede utilizar notación _completa_ (es decir, lunes, miércoles, viernes) en lugar de notación _manual_ (es decir, lunes, miércoles, viernes).
 
 
-### Partición de mes {#month-parting}
+### MonthParting {#month-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -145,7 +145,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
-#### Ejemplo de Expresiones para partición mensual {#example-three}
+#### Expresiones de ejemplo para MonthParting {#example-three}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
