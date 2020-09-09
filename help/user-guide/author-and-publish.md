@@ -4,9 +4,9 @@ seo-title: Configuración del autor y la publicación en AEM Screens
 description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
 seo-description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ El usuario y la contraseña del clúster de todas las instancias de publicación
 
 En cada instancia de publicación:
 
-1. En la consola OSGi, navegue a **MAIN** —> Compatibilidad con **criptografía** (*https://&lt;host>:&lt;puerto>/system/console/crypto*).
+1. En la consola OSGi, navegue a **MAIN** —> **Compatibilidad** con criptografía (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Escriba la contraseña de texto sin formato que desee (igual para todas las instancias) en **Texto sin formato**
 1. Haga clic en **Protect**.
 1. Copie el valor Texto **** protegido en el editor de texto o el bloc de notas. Este valor se utilizará en la configuración OSGi para ActiveMQ.
@@ -161,7 +161,7 @@ Dado que cada instancia de publicación tiene claves criptográficas únicas de 
 
 En cada instancia de publicación:
 
-1. Vaya al administrador de configuración OSGi *https://&lt;host>:&lt;puerto>/system/console/configMgr*
+1. Vaya al administrador de configuración OSGi `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Seleccione la configuración del proveedor **de JMS de** Apache ActiveMQ Artemis
 1. Actualice lo siguiente:
 
@@ -172,18 +172,18 @@ En cada instancia de publicación:
 
 Siga los pasos a continuación en cada instancia de Publish:
 
-1. Vaya a la Consola OSGi -> Principal > Artemis ActiveMQ `[https://localhost:4505/system/console/mq`.
+1. Vaya a la Consola OSGi -> Principal > Artemis ActiveMQ `https://localhost:4505/system/console/mq`.
 1. Compruebe y verifique la vista de los puertos de otras instancias en Información del clúster > Topología > nodos=2, miembros=2.
 1. Enviar un mensaje de prueba (en la parte superior de la pantalla, en Información del agente)
 1. Introduzca los siguientes cambios en los campos:
 
    1. **Destino**: /com.adobe.cq.screen/devTestTopic
    1. **Texto**: Hola a todos
-   1. Vista el error.log de cada instancia para ver que el mensaje se ha enviado y recibido en el clúster
+   1. Vista el error.log de cada instancia para ver que el mensaje se ha enviado y recibido en todo el clúster
 
 >[!NOTE]
 >
->La navegación a la consola OSGI puede tardar unos segundos después de guardar la configuración en el paso anterior. También puede consultar el archivo error.log para obtener más detalles.
+>La navegación a la consola OSGi puede tardar unos segundos después de guardar la configuración en el paso anterior. También puede consultar el archivo error.log para obtener más detalles.
 
 Por ejemplo, la siguiente imagen se muestra cuando se configura correctamente ActiveMQ Artemis Server.
 
@@ -240,7 +240,7 @@ Comprueba tu reproductor y verás el contenido que agregaste en tu canal.
 
 **Verificación del dispositivo**
 
-Antes de realizar los pasos a continuación, asegúrese de comprobar el ID del dispositivo. Para verificarlo, busque el ID del dispositivo en CRXDELite, con la ruta como */home/users/screen/we-Retail/devices*.
+Antes de realizar los pasos a continuación, asegúrese de comprobar el ID del dispositivo. Para comprobarlo, busque el ID del dispositivo en el CRXDE Lite, con la ruta como */inicio/usuarios/pantallas/venta al por menor/dispositivos*.
 
 Siga los pasos a continuación para replicar el usuario del dispositivo:
 
