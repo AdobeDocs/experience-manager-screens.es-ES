@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
@@ -29,18 +32,19 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
 
 >[!NOTE]
 >
->Una vez descargado el último Reproductor de Windows (*.exe*), desde la página Descargas [del Reproductor de](https://download.macromedia.com/screens/) AEM 6.4, siga los pasos del reproductor para completar la instalación ad-hoc:
+>Una vez que descargue la versión más reciente de Windows Player (*.exe*), desde [AEM página de descargas](https://download.macromedia.com/screens/) del reproductor 6.4, siga los pasos del reproductor para completar la instalación ad-hoc:
 >
 >1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. Vaya a **Configuración** en el menú de acción de la izquierda, introduzca la dirección de ubicación de la instancia de AEM en el **servidor** y haga clic en **Guardar**.
+>1. Vaya a **Configuración** en el menú de acción de la izquierda, introduzca la dirección de ubicación de la instancia de AEM en **Servidor** y haga clic en **Guardar**.
 >1. Haga clic en el vínculo **Registro** desde el menú de acción de la izquierda y en los pasos siguientes para completar el proceso de registro del dispositivo.
+
 >
 
 
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. En el dispositivo, inicie AEM Screens Player. Se muestra la interfaz de usuario de registro.
+1. En el dispositivo, inicio AEM Screens Player. Se muestra la interfaz de usuario de registro.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -48,7 +52,7 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la creación de un nuevo proyecto para pantallas en el panel de AEM, consulte [Crear y gestionar proyecto](creating-a-screens-project.md)de pantallas.
+   >Para obtener más información sobre la creación de un nuevo proyecto para Pantallas en el panel de AEM, consulte [Crear y gestionar proyecto](creating-a-screens-project.md)de pantallas.
 
 1. Toque o haga clic en el botón Administrador **de dispositivos** de la barra de acciones.
 
@@ -113,7 +117,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Además, puede ver el tablero de visualización al hacer clic en **Finalizar**.
+   Además, puede vista del panel de visualización al hacer clic en **Finalizar**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -135,6 +139,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Recursos adicionales {#additional-resources}
 
 Para obtener más información sobre AEM Screens Player, consulte [AEM Screens Player](working-with-screens-player.md).
