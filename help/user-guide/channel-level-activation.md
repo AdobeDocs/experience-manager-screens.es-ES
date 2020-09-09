@@ -1,6 +1,6 @@
 ---
-title: 'Activación de nivel de Canal: reproducción de un solo Evento'
-seo-title: 'Activación de nivel de Canal: reproducción de un solo Evento'
+title: 'Activación de nivel de canal: reproducción de un solo Evento'
+seo-title: 'Activación de nivel de canal: reproducción de un solo Evento'
 description: Siga esta guía para comprender la activación a nivel de canal mediante la reproducción de un solo evento.
 seo-description: Siga esta guía para comprender la activación a nivel de canal mediante la reproducción de un solo evento.
 uuid: 87230344-5f9a-42a4-a7a8-ae4203303612
@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 
-# Activación de nivel de Canal {#channel-level-activation-single-event-playback}
+# Activación de nivel de canal {#channel-level-activation-single-event-playback}
 
 En esta página se describe la activación de nivel de canal de los recursos utilizados en los Canales.
 
@@ -29,15 +29,15 @@ En esta sección se tratan los siguientes temas:
 * Ventana de activación
 * Uso de la Activación de nivel de Canal como una única reproducción de Evento
 * Gestión de periodicidad para recursos en un Canal
-   * Partición de días
+   * Partición de día
    * Partición de semana
-   * Partición de mes
+   * MonthParting
    * Combinación de asociaciones
 * Uso de la Activación de nivel de Canal como una única reproducción de Evento
 
 ## Información general {#overview}
 
-***La Activación*** de nivel de Canal permite que los canales cambien después de una programación establecida en particular. El canal de evento único reemplaza al canal principal después de una programación establecida y se reproduce durante un tiempo determinado, hasta que el canal principal vuelve a reproducir su contenido.
+***La Activación*** de nivel de canal permite que los canales cambien después de una programación establecida en particular. El canal de evento único reemplaza al canal principal después de una programación establecida y se reproduce durante un tiempo determinado, hasta que el canal principal vuelve a reproducir su contenido.
 
 El siguiente ejemplo proporciona una solución centrándose en los siguientes términos clave:
 
@@ -80,7 +80,7 @@ La siguiente imagen muestra el proyecto de Activación **de nivel de** Canal con
 
 ### Implementación {#implementation}
 
-La implementación de la Activación del nivel de Canal en un proyecto de AEM Screens implica tres tareas principales:
+La implementación de la Activación de nivel de Canal en un proyecto de AEM Screens implica tres tareas principales:
 
 1. **Configuración de la taxonomía del proyecto, incluidos Canales, ubicaciones y pantallas**
 1. **Asignación de Canales para mostrar**
@@ -90,7 +90,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Crear una ubicación**
 
-   Vaya a la carpeta **Ubicaciones** del proyecto AEM Screens y cree una ubicación como **Región**.
+   Vaya a la carpeta **Ubicaciones** del proyecto de AEM Screens y cree una ubicación como **Región**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -111,7 +111,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
    Para **MainAdChannel:**
 
    1. Vaya a Activación **de nivel de** Canal > **Ubicaciones** > **Región** > **RegiónVisualización** y haga clic en **Asignar Canal** en la barra de acciones.
-   1. **Se abre el cuadro de diálogo Asignación** de Canal.
+   1. **Se abre el cuadro de diálogo Asignación** de canal.
    1. Select **Reference Channel**.. by path.
    1. Seleccione la ruta **de** Canal como Activación **de nivel de** Canal —> ***Canales*** —> ***MainAdChannel***.
    1. La función **de** Canal se rellena como **mainadchannel**.
@@ -128,10 +128,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
    Del mismo modo, asigne canal **TargetedSinglePlay** para la visualización**:
 
    1. Vaya a la Activación **de nivel de** Canal —> **Ubicaciones** —> **Región** —> **RegiónVisualización** y haga clic en **Asignar Canal** en la barra de acciones.
-   1. **Se abre el cuadro de diálogo Asignación** de Canal.
+   1. **Se abre el cuadro de diálogo Asignación** de canal.
    1. Select **Reference Channel**.. by path.
    1. Seleccione la ruta **de** Canal como Activación **de nivel de** Canal* —> ***Canales*** —> ***TargetedSinglePlay***.
-   1. La función de **Canal** se rellena como **targetedsingleplay**.
+   1. El rol de **Canal** se rellena como **targetedsingleplay**.
    1. Establezca la **prioridad** como **2**.
    1. Seleccione los Eventos **** admitidos como Carga **** inicial, **Pantalla** inactiva y **Temporizador**, *como se muestra en la figura siguiente.
    1. Elija la fecha en **activo desde** el 27 de noviembre de 2018 a las 11:59 y en **activo hasta** el 28 de noviembre de 2018 a las 12:05.
@@ -155,18 +155,16 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 
 >[!NOTE]
 Para obtener más información sobre AEM reproductor de pantalla, consulte los siguientes recursos:
-* [Descargas de AEM Screens Player](https://download.macromedia.com/screens/)
-* [Uso de AEM Screens Player](working-with-screens-player.md)
+[AEM Screens Player descarga](https://download.macromedia.com/screens/)[Trabajar con AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Gestión de periodicidad para recursos en un Canal{#handling-recurrence-in-assets}
+## Gestión de periodicidad para recursos en un Canal {#handling-recurrence-in-assets}
 
 Puede programar los recursos de un canal para que se repitan en determinados intervalos, de forma diaria, semanal o mensual, según sus necesidades.
 
 Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Partición de días {#day-parting}
+### Partición de día {#day-parting}
 
 1. Seleccione el canal y haga clic en el **Panel** en la barra de acciones para abrir el panel de canal.
 
@@ -187,7 +185,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | después de las 2:00 pm | el canal juega a partir de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el canal juega cada día durante 30 minutos después de las 12:15 |
 | antes de las 12:15 también después de las 12:45 | el punto fuerte del canal se juega antes de las 12:15 todos los días y después de las 12:45 |
-| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | el 1 de enero después de las 14:00 también el 2 de enero también el 3 de enero antes de las 3:00 am | el recurso en los inicios de canal que se reproducen después de las 14:00 del 1 de enero continúa reproduciéndose durante todo el día el 2 de enero hasta las 3:00 del 3 de enero |
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el reproductor de inicios de canal después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego vuelve a inicio el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
@@ -205,13 +203,13 @@ Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar 
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
-#### Ejemplo de Expresiones para partición de semana {#example-two}
+#### Ejemplo de Expresiones para WeekParting {#example-two}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| Lun,Tue,Wed o Lun-Wed | el recurso se reproduce en el canal de lunes a miércoles |
+| Mon,Tue,Wed o Mon-Wed | el recurso se reproduce en el canal de lunes a miércoles |
 | antes de las 8:00 am | el canal juega antes de las 8:00 todos los días |
 | después de las 2:00 pm | el canal juega a partir de las 14:00 todos los días |
 | después de las 12:15 y antes de las 12:45 | el canal juega cada día durante 30 minutos después de las 12:15 |
@@ -221,7 +219,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
 
 
-### Partición de mes {#month-parting}
+### MonthParting {#month-parting}
 
 1. Seleccione el canal y haga clic en el **Panel** en la barra de acciones para abrir el panel de canal.
 
@@ -232,7 +230,7 @@ Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar 
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
-#### Ejemplo de Expresiones para partición mensual {#example-three}
+#### Expresiones de ejemplo para MonthParting {#example-three}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
