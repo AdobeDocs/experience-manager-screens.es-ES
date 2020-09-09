@@ -1,6 +1,6 @@
 ---
 title: Creación y administración de proyectos
-seo-title: Creación de un proyecto
+seo-title: 'Creación de un proyecto   '
 description: Vaya a esta página para obtener más información sobre la creación de un nuevo proyecto de Screens.
 seo-description: Vaya a esta página para obtener más información sobre la creación de un nuevo proyecto de Screens.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
@@ -10,18 +10,22 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 38%
 
 ---
 
 
-# Creación y administración de proyectos {#creating-and-managing-projects}
+# Creating and Managing Projects {#creating-and-managing-projects}
 
 Puede usar AEM Screens si selecciona el enlace de Adobe Experience Manager (en la parte superior izquierda) y, a continuación, la opción Screens.
 
-También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`![chlimage_1-14](assets/chlimage_1-14.png)
+También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`
+![chlimage_1-14](assets/chlimage_1-14.png)
 
-Los diferentes proyectos pueden ser diferentes marcas, implementaciones, clientes, etc.
+Diferentes proyectos podrían ser marcas, implementaciones, clientes, etc. diferentes.
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -29,14 +33,14 @@ Los diferentes proyectos pueden ser diferentes marcas, implementaciones, cliente
 >
 >**Sugerencia de navegación:**
 >
->También puede utilizar las teclas de dirección para desplazarse por carpetas diferentes en AEM. Además, una vez que seleccione una entidad en particular, pulse la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
+>También puede utilizar las teclas de dirección para desplazarse por carpetas diferentes en AEM. Además, una vez seleccionada una entidad concreta, pulse en la barra espaciadora para editar o vista las propiedades de esa carpeta específica.
 
-## Crear un nuevo proyecto de Screens {#creating-a-new-screens-project}
+## Crear un nuevo proyecto de Screens{#creating-a-new-screens-project} 
 
 Siga los pasos a continuación para crear un nuevo proyecto de Screens:
 
 1. Seleccione **Screens** del panel de AEM.
-1. Click **Create **--&gt;** Create Project **and **Create Screens Project** wizard will open.
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. Select the **Screens** template and click **Next**.
 
