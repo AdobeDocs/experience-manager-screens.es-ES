@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Siga los pasos a continuación para crear un nuevo proyecto de Screens:
 
 Se crea el proyecto y le lleva de nuevo a la consola del proyecto de Screens. Puede seleccionar el proyecto.
 
-En un proyecto, hay cuatro tipo de carpetas, tal y como se muestra en la figura siguiente:
+En un proyecto, hay cinco tipos de carpetas, como se muestra en la figura siguiente:
 
 * **Programas**
 * **Ubicaciones**
