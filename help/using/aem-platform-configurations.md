@@ -1,10 +1,10 @@
 ---
 title: Configuraciones de la plataforma AEM
 seo-title: Configuraciones de la plataforma AEM
-description: La página describe las configuraciones de AEM Platform
-seo-description: La página describe las configuraciones de AEM Platform
+description: La página describe AEM configuraciones de plataforma
+seo-description: La página describe AEM configuraciones de plataforma
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 21%
@@ -15,9 +15,9 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->El accionista habitual de esta actividad es un implementador de AEM.
+>El participante habitual de esta actividad es un implementador de AEM.
 
-Siga las secciones a continuación para configurar las configuraciones de la plataforma AEM y empezar a usar los AEM Screens.
+Siga las secciones a continuación para configurar AEM configuraciones de plataforma y comenzar con AEM Screens.
 
 ## Configuraciones del servidor {#server-configurations}
 
@@ -31,21 +31,21 @@ Para configurar la creación y publicación, consulte [Configuración de creaci�
 >
 >Si solo hay un autor y una publicación, solo tiene que seguir los pasos que se describen en **Configuración de agentes de replicación en Autor** en la página [Configuración de autor y publicación en AEM Screens](https://helpx.adobe.com/es/experience-manager/6-5/screens/using/author-and-publish.html).
 
-## Configuraciones de Dispatcher {#dispatcher-configurations}
+## Configuraciones del despachante {#dispatcher-configurations}
 
 Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carga de Adobe Experience Manager. El uso de Dispatcher de AEM también le permitirá proteger el servidor AEM de ataques. Por lo tanto, puede aumentar la seguridad de su instancia de AEM mediante Dispatcher y un servidor web de clase empresarial.
 
-Consulte Configuraciones de **[Dispatcher para AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**que resaltan las directrices para configurar el despachante de un proyecto de AEM Screens.
+Consulte Configuraciones de **[Dispatcher para AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** que resaltan las directrices para configurar el despachante para un proyecto de AEM Screens.
 
 ## Instalación de representaciones de FFMpeg y vídeo {#installing-ffmpeg}
 
 Instale FFMpeg siguiendo los pasos para el sistema operativo correspondiente (normalmente RHEL):
 
 1. Si realiza la instalación activando EPEL y RPMFusion, puede instalar todos los códecs de gstreaming para ampliar la compatibilidad con las conversiones de FFmpeg
-1. Si el códec AAC está marcado como experimental, las conversiones ffmpeg fallarán. Para evitar este complemento -estricto -2 a los perfiles de vídeo (/etc/dam/video en AEM 6.3 y movido a /libs/settings/dam/video en AEM 6.4)
+1. Si el códec AAC está marcado como experimental, las conversiones ffmpeg fallarán. Para evitar esta adición -estricta -2 a los perfiles de video (/etc/dam/video en AEM 6.3 y movido a /libs/settings/dam/video en AEM 6.4)
    >[!NOTE]
    >
-   > Tenga en cuenta que -estricto -2 debe ser el último parámetro en la lista de parámetros. Además, en AEM 6.4, debe copiar los nodos en */libs/settings/dam/video* en */conf/global/settings/dam/video* como se indica en Representaciones [de](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html)vídeo.
+   > Tenga en cuenta que -estricto -2 debe ser el último parámetro en la lista de parámetros. Además, en AEM 6.4, debe copiar los nodos en */libs/settings/dam/video* a */conf/global/settings/dam/video* como se indica en Representaciones [de](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html)vídeo.
 1. Compruebe que se están produciendo conversiones de vídeo y que se están creando representaciones.
 
 ## Restricciones de contraseña {#password-restrictions}
@@ -65,10 +65,10 @@ Instale los mismos paquetes de software en sus entornos de desarrollo locales. I
 
 >[!NOTE]
 >
->Para instalar el paquete de funciones más reciente para AEM Screens, consulte [Notas](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js)de la versión.
+>Para instalar el paquete de funciones más reciente para AEM Screens, consulte las [Notas](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js)de la versión.
 
 ## Configuración de ACL {#setting-up-acls}
 
 La configuración de las ACL explica cómo segregar proyectos para que cada individuo o equipo gestione su propio proyecto.
 
-Refer  to [Setting up ACLs](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) for more details.
+Consulte [Configuración de ACL](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) para obtener más detalles.
