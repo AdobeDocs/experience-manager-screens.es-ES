@@ -1,10 +1,13 @@
 ---
 title: Monitoreo de soporte
-seo-title: Supervisión de la compatibilidad con AEM Screens
-description: En la página se describe la Guía de prácticas recomendadas de supervisión de la compatibilidad con AEM Screens
-seo-description: En la página se describe la Guía de prácticas recomendadas de supervisión de la compatibilidad con AEM Screens
+seo-title: Monitoreo de soporte para AEM Screens
+description: La página describe la Guía de optimizaciones de supervisión de asistencia técnica para AEM Screens
+seo-description: La página describe la Guía de optimizaciones de supervisión de asistencia técnica para AEM Screens
 translation-type: tm+mt
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +27,15 @@ La supervisión del contenido le permite solucionar los problemas relacionados c
 
 1. Si se encuentra un problema con la pantalla en blanco:
 
-   * Compruebe la *vista previa* para ver si el canal muestra una pantalla negra
+   * Compruebe la *previsualización* para ver si el canal muestra una pantalla negra
    * Registre un reproductor *de cromo* local (como extensión) en su portátil para ver si se muestra una pantalla negra.
    * Haga clic con el botón derecho e inspeccione y compruebe los registros *aplicables*.
+
    Además, si esto no sucede en el reproductor local, sino solo en el dispositivo:
 
-   * Compruebe el tipo *de* medios (en uso) que puede tener problemas en ese dispositivo y confirme también si el contenido se ha descargado localmente correctamente (IU de administración: caché de canal transparente).
+   * Compruebe el tipo *de* medios (en uso) que puede tener problemas en ese dispositivo y confirme también si el contenido se ha descargado localmente correctamente (IU de administración borrar caché de canal).
    * Incluya todos los registros *de* dispositivos en el ticket para solucionar problemas rápidamente.
-   * *Recopilar registros* desde el dispositivo desde AEM.
+   * *Recopilar registros* del dispositivo desde AEM.
 
 
 ## Supervisión de dispositivos {#device-monitoring}
