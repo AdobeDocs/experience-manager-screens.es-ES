@@ -1,10 +1,10 @@
 ---
 title: Pruebas y control de calidad
-seo-title: Pruebas y garantía de calidad para AEM Screens
+seo-title: Comprobación y garantía de calidad para AEM Screens
 description: La página describe la Guía de optimizaciones de prueba y garantía de calidad para AEM Screens
 seo-description: La página describe la Guía de optimizaciones de prueba y garantía de calidad para AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,7 +15,6 @@ ht-degree: 2%
 # Pruebas y control de calidad {#testing-quality}
 
 >[!NOTE]
->
 >El accionista típico de esta actividad es un integrador A/V.
 
 A medida que nos acercamos a la implementación real de la red de publicidad dinámica, debemos crear un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.
@@ -52,10 +51,9 @@ Se recomiendan las siguientes consideraciones de software:
 
 ## 3. Consideraciones sobre la administración de dispositivos {#device-management-considerations}
 
-
 AEM Screens incluye un módulo de Device Control Center que permite la administración de los puntos finales de la aplicación del reproductor de pantallas.
 
-Esto hace referencia a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
+Esto se refiere a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
 Este módulo le permite:
 
 1. Monitorear registros de errores de la aplicación del reproductor
@@ -68,7 +66,6 @@ Para obtener información detallada sobre el Centro ***de control de*** disposit
 >[!CAUTION]
 >
 > No debe utilizar el Centro de control de dispositivos para:
->
 > 1. Instalar nuevas versiones de la aplicación del reproductor
 > 1. Supervisar los recursos de nivel del sistema
 > 1. Solucionar errores de nivel de sistema
