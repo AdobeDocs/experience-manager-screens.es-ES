@@ -1,10 +1,13 @@
 ---
 title: Participación de proveedores
 seo-title: Participación de proveedores para AEM Screens
-description: En la página se describe la Guía de prácticas recomendadas de la pantalla Participación de proveedores para AEM
-seo-description: En la página se describe la Guía de prácticas recomendadas de la pantalla Participación de proveedores para AEM
+description: La página describe la Guía de prácticas recomendadas de participación de proveedores para AEM Screens
+seo-description: La página describe la Guía de prácticas recomendadas de participación de proveedores para AEM Screens
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -12,15 +15,14 @@ source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 # Participación de proveedores {#vendor-engagement}
 
 >[!NOTE]
->
 >El accionista típico de esta actividad es un integrador A/V.
 
-En esta actividad, es importante identificar todos los proveedores clave que se necesitan para montar y entregar la red, así como las dependencias de los socios:
+En esta actividad, es importante identificar todos los proveedores clave necesarios para montar y suministrar la red, así como las dependencias de los socios:
 
 * Identifique a los proveedores de todo el hardware, incluyendo pantallas, PC del reproductor, montajes y periféricos relacionados.
 
-* Defina capacidades y tareas para cada proveedor en relación con la categoría de producto que admite.
+* Defina las capacidades y tareas de cada proveedor en relación con la categoría del producto que admite.
 
-* Confirme los *plazos* de entrega de todas las entregas y cree un plan de implementación que satisfaga todos los tiempos de espera que funcionen hacia atrás desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
+* Confirme los *plazos* de envío de todos los productos y cree un plan de implementación que se adapte a todos los tiempos de trabajo anteriores desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
 
 Al completar todos los pasos anteriores, ahora deberíamos tener listo un plan de implementación *del día 1* completo.
