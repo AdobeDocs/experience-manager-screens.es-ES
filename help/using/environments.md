@@ -1,17 +1,20 @@
 ---
-title: Entornos para pantallas [!UICONTROL AEM]
-seo-title: Entornos para pantallas [!UICONTROL AEM]
+title: Entornos para [!UICONTROL AEM Screens]
+seo-title: Entornos para [!UICONTROL AEM Screens]
 description: En esta página se describen los entornos de un proyecto de AEM Screens.
 seo-description: Esta página resalta los entornos de un proyecto de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 0d91aa653508969cf1f4ccfba23a570e22e6414c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 4%
 
 ---
 
 
 # Entornos {#environments}
 
-Determine de antemano qué entornos AEM tiene el cliente y qué espera que utilice, tanto para *desarrollo* como para *implementación*.
+Determine de antemano qué entornos de AEM tiene y espera que utilice el cliente, tanto para *desarrollo* como para *implementación*.
 
 >[!NOTE]
 >
@@ -21,12 +24,12 @@ Siga las directrices que se indican a continuación para configurar el entorno d
 
 1. Ejecute las versiones más recientes de los siguientes paquetes para su versión de Adobe Experience Manager:
 
-   * **AEM Service Pack**
+   * **Paquete de servicio de AEM**
    * **Paquete de funciones para pantallas**
-   * **AEM Cumulative Fix Pack**
+   * **Paquete de correcciones acumulativas de AEM**
 
-1. Identifique los paquetes de desarrollo (por ejemplo, componentes principales de WCM) o los juegos de herramientas de terceros (por ejemplo, híbridos de SAP) que sean necesarios.
+1. Identifique los paquetes de desarrollo (por ejemplo, componentes principales de WCM) o los kits de herramientas de terceros (por ejemplo, híbridos de SAP) que sean necesarios.
 
-1. Instale los mismos paquetes de software en los entornos de desarrollo locales.
+1. Instale los mismos paquetes de software en sus entornos de desarrollo locales.
 
-1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crean problemas al implementar y probar.
+1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes generarán problemas al implementar y probar.
