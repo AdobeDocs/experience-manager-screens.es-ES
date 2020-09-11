@@ -1,10 +1,13 @@
 ---
-title: Conceptos básicos de la señalización digital para pantallas [!UICONTROL AEM]
-seo-title: Conceptos básicos de la señalización digital para pantallas [!UICONTROL AEM]
+title: Conceptos básicos de la señalización digital para [!UICONTROL AEM Screens]
+seo-title: Conceptos básicos de la señalización digital para [!UICONTROL AEM Screens]
 description: La guía describe los conceptos básicos de un proyecto de publicidad dinámica
 seo-description: La guía describe los conceptos básicos de un proyecto de publicidad dinámica
 translation-type: tm+mt
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 1. **Hardware**
 
    El hardware define qué componentes de hardware son ideales para la implementación de proyectos de publicidad dinámica:
-   * ¿Dispone el dispositivo de espacio de almacenamiento suficiente para ejecutar todas las variaciones de las experiencias sin conexión?
+   * ¿Dispone el dispositivo de suficiente espacio en almacenamiento para ejecutar todas las variaciones de las experiencias sin conexión?
    * ¿Hemos permitido el tipo y la longitud del cable de vídeo? ¿Admite el dispositivo las dos resoluciones deseadas (HD, FullHD, 4K, etc.)? y los códecs de vídeo que planeo implementar (h.264, h.265, etc.)
    * Uso del alambre físico de cobre
    * Tamaño de las pantallas
@@ -52,7 +55,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
       * Tapa de la tapa
    * Compatibilidad con correcciones
    * Personal: encargado de instalar el equipo y conectarlo a la red
-   * ¿A qué distancia se encuentra la fuente de alimentación del aparato?
+   * ¿A qué distancia se encuentra la fuente de alimentación de la instalación?
    * ¿A qué distancia está el panel físico del dispositivo real?
 
 1. **Contenido**
@@ -75,16 +78,16 @@ La definición de los elementos clave es esencial antes de implementar un proyec
       * Envío/recepción de comandos de serie (cierre de contacto, PLC, etc.)
       * Los datos entrantes se muestran en la pantalla (RSS) o activan el contenido
       * RFID/NFC/Bluetooth/iBeacon
-      * Servicios externos (tiempo, tráfico, etc.)
+      * Servicios externos (tiempo, tráfico)
 
 1. **creación**
 
-   El entorno enfatiza en:
+   Entorno enfatiza en:
    * Ubicación de visualización?
       * Interior vs. Exterior
       * Fuera de alcance o directamente expuesto
    * Requisito de tiempo especial?
-   * ¿Prueba de Vandal?
+   * ¿prueba Vandal?
    * ¿Luz ambiental alta? ¿Fuertes contrastes?
 
 1. **Mantenimiento**
