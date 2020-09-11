@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ Siga los pasos a continuación para configurar ***DeviceServiceImpl***:
 
 1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
 
-1. **Configuración de la consola web de Adobe Experience Manager **se abre. Busque *deviceService*. Para buscar la propiedad, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Busque *deviceService*. Para buscar la propiedad, pulse **Comando+F** para macOS y **Control+F** para Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ Para obtener información sobre cómo configurar el despachante para un proyecto
 Establezca la codificación ****** Java en Unicode. Por ejemplo, *Dfile.encoding=Cp1252* no funcionará.
 
 >[!NOTE]
->
 >**Recomendación:**
->
 >Se recomienda utilizar HTTPS para AEM Screens Server en el uso de producción.
 
 
