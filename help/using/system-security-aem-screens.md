@@ -4,7 +4,7 @@ seo-title: Lista de comprobación de seguridad para AEM Screens
 description: La página describe la lista de comprobación de seguridad para AEM Screens
 seo-description: La página describe la lista de comprobación de seguridad para AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,22 +15,21 @@ ht-degree: 1%
 # Consideraciones de seguridad del sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->
 >Se trata de un recurso Git interno.
 
 Esta página resalta las consideraciones de seguridad del sistema para AEM Screens.
 
 
-## Documento técnico para la seguridad de los AEM Screens {#white-paper}
+## Documento técnico para la seguridad de AEM Screens {#white-paper}
 
 Esta sección describe el documento técnico. (Documento técnico pendiente adjunto)
 
 
-## Preguntas más frecuentes sobre seguridad para AEM Screens {#faqs-screens}
+## Preguntas más frecuentes sobre AEM Screens Security {#faqs-screens}
 
-Las siguientes preguntas más frecuentes suponen una arquitectura de reproductor autenticada y registrada que utiliza HTTPS como protocolo de comunicación entre el reproductor y AEM Server.
+Las siguientes preguntas más frecuentes asumen una arquitectura de reproductor autenticada y registrada usando HTTPS como protocolo de comunicación entre reproductor y AEM Server.
 
-### Preguntas más frecuentes 1 {#faq1}
+### FAQ 1 {#faq1}
 
 ¿Se puede volver a enrutar el tráfico del reproductor a un servidor malintencionado e indicar que descargue y reproduzca contenido multimedia malintencionado?
 
@@ -39,7 +38,7 @@ Las siguientes preguntas más frecuentes suponen una arquitectura de reproductor
 No es posible porque la conexión HTTP identifica ambos extremos de la conexión y la cifra. Si tratas de estar en el medio e interceptarlo, solo ves contenido cifrado, y si tratas de suplantar al servidor, el reproductor te rechazará porque tu certificado es diferente.
 
 
-### Preguntas más frecuentes 2 {#faq2}
+### FAQ 2 {#faq2}
 
 ¿Debo usar HTTP o HTTP?
 
@@ -48,7 +47,7 @@ No es posible porque la conexión HTTP identifica ambos extremos de la conexión
 Utilice HTTP. Esto es imprescindible si le preocupa la seguridad. Con HTTPs la comunicación se encripta entre reproductor y servidor, e interceptar el contenido o modificarlo será casi imposible.
 
 
-### Preguntas más frecuentes 3 {#faq3}
+### FAQ 3 {#faq3}
 
 En una descarga de contenido, ¿hay algún tipo de firma del contenido o hash?
 
@@ -58,7 +57,7 @@ Cada recurso está firmado (SHA) por el servidor y luego validado por el reprodu
 Si el hash no coincide, intentamos volver a validar 3 veces. Después de 3 intentos, consideramos que el comando download no es válido.
 
 
-### Preguntas más frecuentes 4 {#faq4}
+### FAQ 4 {#faq4}
 
 ¿AEM Server es seguro?
 
@@ -67,7 +66,7 @@ Si el hash no coincide, intentamos volver a validar 3 veces. Después de 3 inten
 Ans 4. Si está en AMS, nos encargamos de toda la seguridad del servidor utilizando las mismas funciones que Sitios o Recursos.
 
 
-### Preguntas más frecuentes 5 {#faq5}
+### FAQ 5 {#faq5}
 
 ¿Es seguro el dispositivo?
 
@@ -84,7 +83,7 @@ Si el sistema operativo del dispositivo no se actualiza con regularidad, el sist
 >Se recomienda instrumentar los dispositivos con capacidades de control y actualización remota decentes (escritorio remoto, solución MDM, etc.). También se recomienda utilizar una red privada, no expuesta a la WIFI pública, por ejemplo.
 
 
-### Preguntas más frecuentes 6 {#faq6}
+### FAQ 6 {#faq6}
 
 ¿Cómo intentaría un hacker comprometer a un jugador?
 
