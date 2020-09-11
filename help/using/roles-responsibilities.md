@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
-En un proyecto típico de AEM Screens, los roles se perfeccionan aún más, ya que cada uno de ellos sirve para fines importantes en el proyecto.
+En un proyecto típico de AEM Screens, las funciones se perfeccionan aún más, ya que cada una de ellas sirve para fines importantes en el proyecto.
 
 El diagrama a continuación muestra las funciones a las que nos referiremos en toda la guía.
 
@@ -32,7 +32,7 @@ La siguiente sección proporciona información general sobre la audiencia de des
 
 ### Adobe {#adobe-audience}
 
-Adobe incluye recursos de Adobes Managed Services como CSE (ingeniero de éxito del cliente) y asistencia técnica de Adobe.
+Adobe incluye recursos de servicios gestionados de Adobe como CSE (ingeniero de éxito del cliente) y asistencia técnica para Adobes.
 
 ### Implementadores de AEM {#aem-implementors}
 
@@ -40,7 +40,7 @@ Los implementadores de AEM son responsables de realizar tareas de desarrollo e i
 
 Las funciones personalizadas necesarias para abordar los parámetros UX (Experiencia del usuario) del cliente final también se capturan y se entregan a través de este proceso.
 
-Normalmente, los implementadores de AEM implementarán la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
+Los implementadores de AEM generalmente implementan la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
 
 ### Integradores audiovisuales {#av-integrators}
 
@@ -100,7 +100,7 @@ Para apoyar una implementación exitosa de Digital Signage, es habitual segmenta
 >[!NOTE]
 >
 >Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
-Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
+Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -108,7 +108,7 @@ A continuación se muestra un gráfico RACI de muestra con las definiciones de f
 
 >[!NOTE]
 >
->No se pretende que este gráfico se siga exactamente, sino que proporcione un ejemplo de tareas y consideraciones comunes en los proyectos de AEM Screens.
+>El objetivo de este gráfico no es que se siga exactamente, sino que proporcione un ejemplo de tareas y consideraciones comunes en los proyectos de AEM Screens.
 
 ### Definiciones de RACI {#raci-definitions}
 
@@ -124,51 +124,51 @@ El siguiente es un gráfico RACI de muestra que utiliza las definiciones de func
 
 La siguiente tabla resume el **Día cero: Consideraciones** previas a la venta:
 
-| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+| **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación de los objetivos estratégicos | CI | I | RA | RA |
-| Necesidades de Sistema de informes e identificación del ROI | I | C | RA | C |
+| Necesidades de sistema de informes e identificación del ROI | I | C | RA | C |
 | Visitas al sitio y requisitos de hardware | RA | I | C | C |
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
 
 La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño de la aplicación)**:
 
-| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+| **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y la programación del proyecto | RA | RA | C | C |
-| Evaluar Entornos actuales del servidor | I | RA | I | I |
+| Evaluar Entornos actuales del servidor | I | Técnico | I | I |
 | Requisitos de diseño de UX | I | RA | C | RA |
 | Validación de requisitos técnicos | I | RA | RA | C |
 | Diseño de arquitectura | I | RA | I | I |
 | Validación de la estructura de datos con el diseño de la interfaz de usuario | I | RA | C | C |
 | Desarrollo de aplicaciones | RA | RA | RA | RA |
-| Configuración del proyecto AEM Screens | I | RA | C | I |
+| Configuración del proyecto de AEM Screens | I | RA | C | I |
 | Implementación de Analytics | I | RA | C | - |
 | Pruebas e implementación | RA | C | RA | I |
 | Configuración del servidor | I | RA | I | I |
 | Plan de actualización de contenido | I | RA | C | C |
-| Plan de transición de la fase piloto a la fase de producción | RA | RA | I | I |
+| Plan de transición piloto-producción | RA | RA | I | I |
 | Transferencia de conocimientos | RA | RA | I | I |
 
 La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación para el comercio minorista)**:
 
-| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+| **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Pedidos y Almacenamientos de hardware | RA | I | I | I |
 | Programa de integración comercial | I | I | C | RA |
 | Prueba de aceptación del usuario de ensayo | I | C | RA |  |
-| Configuración masiva de hardware | RA | I | C | I |
+| Configuración masiva de hardware | Técnico | I | C | I |
 | Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
 
 La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
-| **Fase** | **Integrador A/V** | **Implementador de AEM** | **Estrategia comercial** | **Administración de contenido** |
+| **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
+| Acuerdo sobre funciones y responsabilidades | RA | RA | RA | Técnico |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
 | Selección de hardware del reproductor | RAC | - | - | - |
 | Administración de dispositivos del maestro | RA | I | - | - |
@@ -179,9 +179,9 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 >
 >Las funciones cambian durante el día dos (compatibilidad con el lanzamiento posterior).
 
-* **Autor**: Gestor de contenido + Estrategia
+* **Autor**: gestor de contenido + Estrategia
 
-* **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o entrega al equipo de desarrollo interno
+* **Desarrollador**: Normalmente, es miembro del equipo de implementación de AEM Screens o pasa al equipo de desarrollo interno
 
 * **Técnico**: Ya sea contratado por el integrador AV o es parte de la misma compañía.
 
