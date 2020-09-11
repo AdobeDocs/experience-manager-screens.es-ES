@@ -1,10 +1,10 @@
 ---
-title: Audiencia Destinatario
-seo-title: Audiencia de Destinatario para AEM Screens
-description: En la página se describe quién es la Guía de optimizaciones de la audiencia de destinatario para AEM Screens
-seo-description: En la página se describe quién es la Guía de optimizaciones de la audiencia de destinatario para AEM Screens
+title: Audiencia destinatario
+seo-title: Audiencia de destinatario para AEM Screens
+description: La página describe quiénes son la audiencia de destinatario para la Guía de optimizaciones de AEM Screens
+seo-description: La página describe quiénes son la audiencia de destinatario para la Guía de optimizaciones de AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 5%
@@ -12,18 +12,17 @@ ht-degree: 5%
 ---
 
 
-# Target Audience {#target-audience}
+# Audiencia destinatario {#target-audience}
 
 Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
-En un proyecto típico de AEM Screens, los roles se perfeccionan aún más, ya que cada uno de ellos sirve para fines importantes en el proyecto.
+En un proyecto típico de AEM Screens, las funciones se perfeccionan aún más, ya que cada una de ellas sirve para fines importantes en el proyecto.
 
 El diagrama a continuación muestra las funciones a las que nos referiremos en toda la guía.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
 >Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
 
 ## Definición de funciones {#roles}
@@ -32,7 +31,7 @@ La siguiente sección proporciona información general sobre la audiencia de des
 
 ### Adobe {#adobe-audience}
 
-Adobe incluye recursos de Adobes Managed Services como CSE (ingeniero de éxito del cliente) y asistencia técnica de Adobe.
+Adobe incluye recursos de servicios gestionados de Adobe como CSE (ingeniero de éxito del cliente) y asistencia técnica para Adobes.
 
 ### Implementadores de AEM {#aem-implementors}
 
@@ -40,7 +39,7 @@ Los implementadores de AEM son responsables de realizar tareas de desarrollo e i
 
 Las funciones personalizadas necesarias para abordar los parámetros UX (Experiencia del usuario) del cliente final también se capturan y se entregan a través de este proceso.
 
-Normalmente, los implementadores de AEM implementarán la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
+Los implementadores de AEM generalmente implementan la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
 
 ### Integradores audiovisuales {#av-integrators}
 
@@ -69,5 +68,4 @@ Los elementos creativos y el Gestor de contenido podrían ser uno de los siguien
 Los jefes de proyecto generalmente administran la implementación completa para la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
 
 >[!NOTE]
->
 >Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
