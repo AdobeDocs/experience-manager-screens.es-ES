@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** Canales, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -199,7 +199,7 @@ También se puede utilizar la notación de hora __ militar (es decir, 14:00) en 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** Canales, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -226,7 +226,7 @@ También se puede utilizar la notación de hora __ militar (es decir, 14:00) en 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** Canales, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
@@ -251,7 +251,7 @@ También se puede utilizar la notación de hora __ militar (es decir, 14:00) en 
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha desde el cuadro de diálogo Asignación **de** Canales, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
+   Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
 1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
 
