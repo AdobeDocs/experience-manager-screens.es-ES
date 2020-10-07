@@ -6,9 +6,9 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ La función de Canal es la abstracción del canal real que se ejecuta para que e
 
 Para las referencias ** estáticas, la resolución simplemente sigue la ruta especificada.
 
-En el caso de las referencias ** dinámicas, la resolución se produce una vez que el canal está asignado a la visualización (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
+En el caso de las referencias ** dinámicas, la resolución se produce una vez que el canal está asignado a la pantalla (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
 
 1. La pantalla tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 1. La pantalla tiene un nodo del mismo nivel que coincide con el nombre del canal al que se hace referencia
@@ -125,9 +125,23 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 1. Vaya a Opciones **de desarrollador**
 1. Habilitar **Permanecer despierto**
 
-### 4. ¿Cómo habilitar el modo de ventana para el reproductor de Windows?
+### 4. ¿Cómo habilitar el modo de ventana para el reproductor de Windows?{#enable-player}
 
 No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
+
+### 5. ¿Cómo solucionar problemas si un reproductor de Pantallas envía continuamente solicitudes de inicio de sesión?{#requests-login}
+
+Siga los pasos a continuación para solucionar problemas de un reproductor de AEM Screens que envía continuamente solicitudes a `/content/screens/svc.json` y `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. Cuando AEM Screens Player inicio, realiza una solicitud a `/content/screens/svc.json`, cuando el reproductor obtiene un código de estado 404 en la respuesta, el reproductor inicia una solicitud de autenticación para autenticarse `/libs/granite/core/content/login.validate/j_security_check` con la instancia de publicación. Si hay un controlador de error personalizado en la instancia de publicación, asegúrese de devolver el código de estado 404 para el usuario anónimo activado `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+
+1. Compruebe si la configuración del despachante permite estas solicitudes en la `/filters` sección. Consulte [Configuración de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de pantalla para obtener más información.
+
+1. Compruebe si las reglas de reescritura del despachante están reescribiendo cualquiera de las rutas de pantallas a una ruta diferente.
+
+1. Compruebe si tiene `/etc/map` reglas en la instancia de *autor* o de *publicación* y si las rutas de pantallas coinciden `sling:match` y se redirigen internamente a una ruta diferente. La resolución de la dirección URL exacta en /`system/console/jcrresolver` ayuda a identificar si la instancia de *publicación* está reescribiendo estas direcciones URL en cualquier otra ruta.
+
+1. Compruebe si tiene alguna configuración de Apache Sling Resource Resolver Factory que esté causando reescrituras internas.
 
 ## Sugerencias generales para la resolución de problemas {#general-troubleshooting-tips}
 
