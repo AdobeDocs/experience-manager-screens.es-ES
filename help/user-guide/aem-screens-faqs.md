@@ -6,7 +6,7 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 2%
@@ -36,7 +36,7 @@ La función de Canal es la abstracción del canal real que se ejecuta para que e
 
 Para las referencias ** estáticas, la resolución simplemente sigue la ruta especificada.
 
-En el caso de las referencias ** dinámicas, la resolución se produce una vez que el canal está asignado a la pantalla (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
+En el caso de las referencias ** dinámicas, la resolución se produce una vez que el canal está asignado a la visualización (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
 
 1. La pantalla tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 1. La pantalla tiene un nodo del mismo nivel que coincide con el nombre del canal al que se hace referencia
@@ -129,7 +129,7 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 
 No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
 
-### 5. ¿Cómo solucionar problemas si un reproductor de Pantallas envía continuamente solicitudes de inicio de sesión?{#requests-login}
+### 5. ¿Cómo solucionar problemas si un reproductor de AEM Screens envía continuamente solicitudes de inicio de sesión?{#requests-login}
 
 Siga los pasos a continuación para solucionar problemas de un reproductor de AEM Screens que envía continuamente solicitudes a `/content/screens/svc.json` y `/libs/granite/core/content/login.validate/j_security_check`:
 
