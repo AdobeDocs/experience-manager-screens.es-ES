@@ -3,7 +3,7 @@ title: Asignación de canales - Última publicación
 seo-title: Asignación de canales - Última publicación
 description: Siga esta página para conocer la asignación de Canales y la partición de días.
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 23%
@@ -14,6 +14,7 @@ ht-degree: 23%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >Esta sección resalta la asignación de canales y la programación de canales para AEM 6.5.5 Screens Feature Pack y versiones posteriores.
 
 Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
@@ -21,6 +22,7 @@ Una vez configurada la visualización, debe asignar un canal a una pantalla para
 Esta página muestra cómo asignar un canal a la visualización, comprender las propiedades del canal y DayParting.
 
 >[!NOTE]
+>
 >Puede asignar varios canales a una pantalla.
 
 
@@ -78,12 +80,14 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
 1. En la opción **Programar** , seleccione la Ventana **de** Activación y la Programación **de**periodicidad.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
@@ -137,6 +141,7 @@ El rol de canal define el contexto de la visualización. Varias acciones dirigen
 La prioridad se utiliza para solicitar las asignaciones en caso de que varias de ellas coincidan con los criterios de reproducción. Aquel elemento que tenga el valor más alto siempre tendrá prioridad sobre otros valores más bajos. Por ejemplo, si hay dos canales A y B, y A tiene una prioridad de 1 y B tiene una prioridad de 2, se muestra el canal B ya que tiene mayor prioridad que A.
 
 >[!NOTE]
+>
 >La prioridad de un canal se establece como un número (1 para indicar el mínimo) en el cuadro de diálogo **Asignación de canales**, tal como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
 ### Eventos admitidos {#supported-events-channel}
@@ -157,13 +162,14 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 
 * **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, puede cortar la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de que actualice o reproduzca el nuevo contenido
+
    >[!NOTE]
    >Esta opción está seleccionada de forma predeterminada.
+
 * **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelva al primer elemento para actualizar o reproducir el nuevo contenido
 
    >[!NOTE]
    >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se pospongan ligeramente, ya que el reproductor esperará el final del elemento o secuencia (después del tiempo especificado) antes de la actualización. El retraso dependerá de la duración de reproducción del elemento.
-
 
 Las siguientes propiedades se establecen desde la opción **Programar** del cuadro de diálogo Asignación de **Canal** .
 
@@ -220,4 +226,3 @@ Este ejemplo muestra la partición de día implementada en un casino donde el ev
 >[!NOTE]
 >
 >Además, puede definir la ***Prioridad*** de cada uno de los canales. Por ejemplo, si dos canales están establecidos para el mismo día y hora o para ese mismo mes, el canal con mayor prioridad se reproduce en primer lugar. El valor mínimo de la prioridad se puede establecer en 0.
-
