@@ -2,7 +2,7 @@
 title: Red móvil con enrutador de datos móvil y componentes de red activos
 description: La página describe la red móvil con el enrutador de datos móvil y los componentes de red activos
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ Al considerar qué red de datos debe utilizarse, se recomienda responder a las s
 >[!NOTE]
 >
 >El Paquete de datos necesario debe ser al menos:
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ Las siguientes tablas oferta una buena visión general de lo que significan los 
 >Toda la información se refiere al consumo de cada dispositivo de la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suman y extienden el tiempo de descarga.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
