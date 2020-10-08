@@ -4,7 +4,7 @@ seo-title: Funciones y responsabilidades del proyecto de AEM Screens
 description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 seo-description: La página describe las funciones y responsabilidades del proyecto de AEM Screens
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -92,15 +92,14 @@ Los jefes de proyecto generalmente administran la implementación completa para 
 Para apoyar una implementación exitosa de Digital Signage, es habitual segmentar el proyecto en 3 etapas.  Estas etapas se conocen comúnmente como **Días**. No se trata de días literales, sino de designaciones para cada etapa principal del proyecto.
 
 1. La primera etapa se denomina *Día cero*. Esta etapa incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir completamente el alcance del proyecto.
-
 1. La segunda etapa, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de implementación.
-
 1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y a los elementos de apoyo como parte de la solución total.
 
 >[!NOTE]
 >
 >Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
-Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
+>
+>Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -140,7 +139,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 |---|---|---|---|---|
 | Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y la programación del proyecto | RA | RA | C | C |
-| Evaluar Entornos actuales del servidor | I | Técnico | I | I |
+| Evaluar Entornos actuales del servidor | I | RA | I | I |
 | Requisitos de diseño de UX | I | RA | C | RA |
 | Validación de requisitos técnicos | I | RA | RA | C |
 | Diseño de arquitectura | I | RA | I | I |
@@ -161,14 +160,14 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (preparaci
 | Pedidos y Almacenamientos de hardware | RA | I | I | I |
 | Programa de integración comercial | I | I | C | RA |
 | Prueba de aceptación del usuario de ensayo | I | C | RA |  |
-| Configuración masiva de hardware | Técnico | I | C | I |
+| Configuración masiva de hardware | RA | I | C | I |
 | Acuerdo sobre la compatibilidad con el lanzamiento posterior | RA | C | RA | C |
 
 La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
 | **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
-| Acuerdo sobre funciones y responsabilidades | RA | RA | RA | Técnico |
+| Acuerdo sobre funciones y responsabilidades | RA | RA | RA | RA |
 | Diseño comercial incluye operaciones de cableado | - | - | - | - |
 | Selección de hardware del reproductor | RAC | - | - | - |
 | Administración de dispositivos del maestro | RA | I | - | - |
