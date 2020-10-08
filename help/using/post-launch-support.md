@@ -4,7 +4,7 @@ seo-title: Compatibilidad con Post Launch para AEM Screens
 description: La página describe la Guía de optimizaciones de la compatibilidad de postinicio con AEM Screens
 seo-description: La página describe la Guía de optimizaciones de la compatibilidad de postinicio con AEM Screens
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 7%
@@ -29,10 +29,12 @@ Además, para prepararse para el éxito a largo plazo, es primordial establecer 
 
 >[!NOTE]
 >
-> Debe definir los parámetros operativos incluidos en los presupuestos operativos con antelación, así como alinear las responsabilidades con el implementador de AEM y el integrador de AV.
-¿La implementación es una red de publicidad con muchos interesados y asociada a una red monetizada? Esto puede requerir plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas. 
-¿Es la aplicación altamente visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
-¿La aplicación es crítica para las operaciones comerciales, como los tableros de menús en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
+>Debe definir los parámetros operativos incluidos en los presupuestos operativos con antelación, así como alinear las responsabilidades con el implementador de AEM y el integrador de AV.
+>
+>* ¿La implementación es una red de publicidad con muchos interesados y asociada a una red monetizada? Esto puede requerir plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+>* ¿Es la aplicación altamente visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
+>* ¿La aplicación es crítica para las operaciones comerciales, como los tableros de menús en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
+
 
 ## Consideraciones y Consultas posteriores al lanzamiento {#considerations-queries}
 
