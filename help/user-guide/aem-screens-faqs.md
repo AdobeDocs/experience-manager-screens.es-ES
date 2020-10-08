@@ -6,7 +6,7 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 2%
@@ -136,7 +136,8 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 1. Cuando el reproductor de AEM Screens inicio, se lo solicita `/content/screens/svc.json`. Cuando el reproductor obtiene un código de estado 404 en la respuesta, inicia una solicitud de autenticación usando `/libs/granite/core/content/login.validate/j_security_check` la instancia de *publicación* . Si hay un controlador de error personalizado en la instancia de *publicación* , asegúrese de devolver el código de estado 404 para el usuario anónimo on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
 1. Compruebe si la configuración del despachante permite estas solicitudes en el `/filters`.
-Consulte [Configuración de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de pantalla para obtener más información.
+
+   Consulte [Configuración de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de pantalla para obtener más información.
 
 1. Compruebe si las reglas de reescritura del despachante están reescribiendo cualquiera de las rutas de pantallas a una ruta diferente.
 
