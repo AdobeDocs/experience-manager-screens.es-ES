@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
 
 ## Paso 2: Configuración de configuraciones de tienda {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Como parte de AEM 6.5 Feature Pack 4 o AEM 6.4 Feature Pack 8, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
-      > 
+      >
       >Complete los siguientes pasos:
       >
       >1. Vaya al CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
       >1. Compruebe si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si el `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
-      > 1. Haga clic con el botón secundario en `/conf/screens/settings` y cree un nuevo nodo con el *nombre* como **cloudsettings1** y *Escriba* como **sling:Folder** y guarde los cambios.
+      >1. Haga clic con el botón secundario en `/conf/screens/settings` y cree un nuevo nodo con el *nombre* como **cloudsettings1** y *Escriba* como **sling:Folder** y guarde los cambios.
       >1. Mueva todos los nodos debajo de `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
       >1. Eliminar `cloudsettings` y guardar.
       >1. Cambie el nombre `cloudsettings1` a `cloudsettings` y guarde.
       >1. Ahora debe observar que /conf/screen/settings/cloudsettings tiene `jcr:primaryType` as `sling:Folder`.
-Debe seguir estos pasos en la creación y publicación antes o después de la actualización.
 
+      >
+      >Debe seguir estos pasos en la creación y publicación antes o después de la actualización.
 
    1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
 
@@ -116,8 +119,6 @@ Debe seguir estos pasos en la creación y publicación antes o después de la ac
       >Si utiliza Adobe Experience Manager (AEM) 6.4, introduzca el Título **de** configuración como hojas de **Google** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
 
@@ -142,10 +143,11 @@ Debe seguir estos pasos en la creación y publicación antes o después de la ac
 
       >[!NOTE]
       En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
-Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
+      Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
 
       >[!CAUTION]
       Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
+
 
 1. **Configuración de la segmentación de tiendas**
 
