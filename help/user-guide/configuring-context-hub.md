@@ -90,6 +90,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
    1. **Vaya** a **ContextHubDemo** > **Crear** la configuración **de** ContentHub y haga clic en **Guardar**.
 
       >[!NOTE]
+      >
       > Después de hacer clic en **Guardar** , aparecerá en la pantalla de configuración **de** ContextHub.
 
    1. En la pantalla de configuración **de** ContextHub, haga clic en **Crear** > Configuración de la tienda de **ContentHub.**
@@ -109,13 +110,13 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
       >1. Eliminar `cloudsettings` y guardar.
       >1. Cambie el nombre `cloudsettings1` a `cloudsettings` y guarde.
       >1. Ahora debe observar que /conf/screen/settings/cloudsettings tiene `jcr:primaryType` as `sling:Folder`.
-
       >
       >Debe seguir estos pasos en la creación y publicación antes o después de la actualización.
 
    1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
 
       >[!CAUTION]
+      >
       >Si utiliza Adobe Experience Manager (AEM) 6.4, introduzca el Título **de** configuración como hojas de **Google** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -123,6 +124,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
    1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
 
       >[!IMPORTANT]
+      >
       >Asegúrese de reemplazar el código por su *&lt;ID de hoja>* y *&lt;Clave de API>*, que buscó al configurar las hojas de Google.
 
       ```
@@ -142,11 +144,13 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
       ```
 
       >[!NOTE]
-      En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
-      Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
+      >
+      >En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
+      >Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
 
       >[!CAUTION]
-      Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
+      >
+      >Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
 
 
 1. **Configuración de la segmentación de tiendas**
@@ -158,7 +162,8 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
    1. Click **Next** and then **Save**.
 
       >[!NOTE]
-Debe omitir el proceso de definición del archivo y dejarlo en blanco.
+      >
+      >Debe omitir el proceso de definición del archivo y dejarlo en blanco.
 
 
 ## Paso 3: Configuración de segmentos en Audiencia {#setting-up-audience}
@@ -200,7 +205,9 @@ Siga los pasos a continuación para crear una marca en sus actividades y en el �
 
 
       >[!CAUTION]
-      Problema conocido:
+      >
+      >Problema conocido:
+
 Para agregar un área, quite el patrón de la dirección URL, como
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -258,7 +265,8 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
    1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
 
       >[!NOTE]
-Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal como se rellenan en las hojas de Google en la figura siguiente:
+      >
+      >Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal como se rellenan en las hojas de Google en la figura siguiente:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -267,7 +275,8 @@ Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal co
    1. Introduzca el **valor** como **70**.
 
       >[!NOTE]
-      El AEM valida los datos de la hoja de Google mostrando el segmento como verde.
+      >
+      >El AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
@@ -301,14 +310,16 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
    1. Haga clic en **Guardar y cerrar**.
 
       >[!NOTE]
-      Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
+      >
+      >Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navegue y seleccione el canal **TargetChannel** y haga clic en **Editar** en la barra de acciones.
 
       >[!NOTE]
-      Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+      >
+      >Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
