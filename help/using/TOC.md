@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guía de prácticas recomendadas para proyectos de AEM Screens
-breadcrumb-title: AEM Screens Guide
+breadcrumb-title: Guía de AEM Screens
 solution-title: AEM Screens
 getting-started-title: Guía de prácticas recomendadas de AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
@@ -9,8 +9,8 @@ audience: end-user
 translation-type: tm+mt
 source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 74%
+source-wordcount: '136'
+ht-degree: 72%
 
 ---
 
