@@ -3,17 +3,10 @@ title: Crear y administrar canales
 seo-title: Administrar canales
 description: Siga esta página para obtener más información sobre la creación y administración de canales. También explica el portal del canal y el contenido de edición de un canal.
 seo-description: Siga esta página para obtener más información sobre la creación y administración de canales. También explica el portal del canal y el contenido de edición de un canal.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1326'
 ht-degree: 42%
 
 ---
@@ -21,9 +14,9 @@ ht-degree: 42%
 
 # Crear y administrar canales {#creating-and-managing-channels}
 
-Un Canal muestra una secuencia de contenido y muestra imágenes y vídeos, pero también puede mostrar un sitio web o una aplicación de una sola página.
+Un Canal muestra una secuencia de contenido (imágenes y vídeos) y también un sitio web o una aplicación de una sola página.
 
-En esta página se muestra la forma de crear y administrar canales para Screens.
+Esta página muestra cómo crear y administrar canales para AEM Screens.
 
 **Requisitos previos**:
 
@@ -34,7 +27,7 @@ En esta página se muestra la forma de crear y administrar canales para Screens.
 
 Una vez creado el proyecto para AEM Screens, siga los pasos a continuación para crear un nuevo Canal para el proyecto:
 
-1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y luego seleccione Screens. También puede desplazarse directamente a: `https://localhost:4502/screens.html/content/screens`.
+1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y luego seleccione Screens. También puede desplazarse directamente a `https://localhost:4502/screens.html/content/screens`.
 
 1. Vaya al proyecto Pantallas y seleccione la carpeta **Canales** .
 
@@ -80,9 +73,6 @@ Las opciones de plantilla siguientes están disponibles mientras utiliza el asis
 
 Puede editar, ver las propiedades y el panel, y copiar, acceder a la vista previa y eliminar un canal.
 
->[!NOTE]
->
->Seleccione el canal, como se muestra en la figura siguiente.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ Para añadir o editar contenido en un canal, siga los pasos que se indican a con
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. El editor que se abra le permitirá añadir recursos o componentes al canal que quiera publicar.
 
 >[!NOTE]
->
 >Puede agregar componentes al canal. Consulte **[Añadir componentes a un Canal](adding-components-to-a-channel.md)** para obtener más información.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 Puede vista del manifiesto desde el panel de canal.
 
 >[!IMPORTANT]
->
 >Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 Siga estos pasos para activar esta opción desde el panel de canal:
@@ -155,7 +143,7 @@ Siga estos pasos para activar esta opción desde el panel de canal:
    1. Vaya al panel **CANAL INFORMATION** y haga clic en *...*
    1. Haga clic en **Actualizar contenido sin conexión**
 
-Ahora debería poder ver la opción Manifiesto **de** Vista del panel INFORMACIÓN **** CANAL en el panel Canal.
+Debe ver la opción Manifiesto **de** Vista del panel INFORMACIÓN **** CANAL en el panel de Canal.
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ Ahora debería poder ver la opción Manifiesto **de** Vista del panel INFORMACI�
 ### Canales en línea y sin conexión {#online-and-offline-channels}
 
 >[!NOTE]
->
->De forma predeterminada, cuando se crea un canal, el canal está sin conexión.
+>De forma predeterminada, cuando se crea un canal, está sin conexión.
 
 Cuando cree un canal, podrá definirlo como un canal en línea o sin conexión.
 
@@ -197,7 +184,6 @@ Siga los pasos que se describen para crear el canal en línea:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Si desea volver a configurar el canal como sin conexión, desmarque la opción Modo de desarrollador de la ficha **Propiedades** (como se muestra en el paso (3)) y, a continuación, en el panel INFORMACIÓN **de** CANAL, haga clic en **Actualizar contenido** sin conexión, como se muestra en la figura siguiente.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,8 +237,7 @@ Las visualizaciones asociadas se incluirán en el panel **Visualizaciones asigna
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
->Para obtener información sobre cómo crear una visualización en una ubicación, consulte:
+>Para obtener información sobre la creación de una visualización en una ubicación, consulte:
 >
 >* [Crear y administrar ubicaciones](managing-locations.md)
 >* [Crear y administrar pantallas](managing-displays.md)
