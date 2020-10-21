@@ -3,12 +3,13 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Ayuda de Adobe Experience Manager Screens
-user-guide-description: Aprenda a utilizar AEM Screens para publicar experiencias digitales interactivas que impliquen distintos tipos de pantallas.
+breadcrumb-title: Guía de AEM Screens
+user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 18%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
