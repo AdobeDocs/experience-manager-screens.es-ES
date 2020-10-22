@@ -3,9 +3,9 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el reproductor de AEM Screens.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 5%
 
 # Guía de inicio rápido {#kickstart-guide}
 
-Esta sección es un inicio rápido para AEM Screens y muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos y/o vídeos a cada canal, y la posterior publicación del contenido en un reproductor de AEM Screens.
+El inicio rápido de AEM Screens muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos y/o vídeos a cada canal, y la posterior publicación del contenido en un reproductor de AEM Screens.
 
 >[!NOTE]
->Antes de comenzar a trabajar con los detalles del proyecto, asegúrese de haber instalado el último Feature Pack. Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.5 desde el portal [de distribución de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software con su Adobe ID.
+>Antes de comenzar a trabajar con los detalles del proyecto, asegúrese de haber instalado el último Feature Pack para AEM Screens. Puede descargar el paquete de funciones más reciente desde [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mediante su Adobe ID.
 
 ## Requisitos previos {#prerequisites}
 
@@ -47,12 +47,11 @@ Siga los pasos a continuación para crear un proyecto de muestra para AEM Screen
 
 1. Haga clic en **Guardar** para activar el filtro de Remitente del reenvío Sling de Apache Permitir vacío.
 
-
 ## Creación de una experiencia de señalización digital en 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-El primer paso es crear un nuevo proyecto de AEM Screens.
+El primer paso es crear un proyecto de AEM Screens.
 
 1. Vaya a la instancia de Adobe Experience Manager (AEM) y haga clic en **Pantallas**. También puede desplazarse directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ El primer paso es crear un nuevo proyecto de AEM Screens.
    >[!NOTE]
    >Una vez creado el proyecto, vuelve a la página de inicio del proyecto Screens. Puede seleccionar el proyecto. En un proyecto, hay cinco carpetas diferentes tituladas **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones** y **Programaciones**.
 
-
 ### Crear un canal{#creating-channel} 
 
-Una vez que haya implementado el proyecto, deberá crear un nuevo canal en el que administrar el contenido.
+Una vez creado el proyecto de AEM Screens, debe crear un nuevo canal en el que administrar el contenido.
 
 Siga los pasos a continuación para crear un nuevo canal para su proyecto:
 
-1. Una vez creado un proyecto, seleccione el proyecto **DemoScreens** y seleccione la carpeta **** Canales, como se muestra en la figura siguiente. Click **+ Create** from the action bar.
+1. Una vez creado un proyecto, seleccione el proyecto **DemoScreens** y seleccione la carpeta **Canales** , como se muestra en la figura siguiente. Click **+ Create** from the action bar.
 
    ![image](assets/kickstart/demo-2.png)
 
 1. Elija el Canal **** Secuencia en el asistente y haga clic en **Siguiente**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as *TestChannel* and click **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![image](assets/kickstart/demo-4.png)
 
-   Se crea *TestChannel* y se agrega a la carpeta canales, como se muestra en la figura siguiente.
+   Ahora, **TestChannel** se agrega a la carpeta de canales, como se muestra en la figura siguiente.
 
    ![image](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
-Una vez que haya colocado el canal, deberá añadir contenido al canal que mostrará el reproductor de Pantallas.
+Una vez que haya colocado el canal, debe agregar contenido al canal que mostrará AEM Screens Player.
 
-Siga los pasos a continuación para agregar contenido al canal (*TestChannel*) de su proyecto:
+Siga los pasos a continuación para agregar contenido al canal (**TestChannel**) de su proyecto:
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
@@ -118,7 +116,7 @@ Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**.
 
 Se crea **TestLocation** y se agrega a la carpeta **Locations** .
 
@@ -128,7 +126,7 @@ Se crea **TestLocation** y se agrega a la carpeta **Locations** .
 Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la ubicación.
 
 >[!NOTE]
->***Las pantallas*** representan la experiencia digital que se ejecuta en una o varias pantallas.
+>***La visualización*** representa la experiencia digital que se ejecuta en una o varias pantallas.
 
 1. Vaya a **TestLocation** y selecciónelo.
 
@@ -213,7 +211,7 @@ Una vez que el reproductor de Chrome OS esté activado, siga los pasos a continu
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Espere a que el dispositivo envíe su código de registro y, simultáneamente, compruebe el código **de** registro en el dispositivo Chrome.
+1. Espere a que el dispositivo envíe su código de registro y compruebe simultáneamente el código **de** registro en el dispositivo Chrome.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Si el código **de** registro es el mismo en ambos equipos, toque o haga clic en **Validar** en AEM.
@@ -234,9 +232,7 @@ Una vez que el reproductor de Chrome OS esté activado, siga los pasos a continu
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process.
-
-1. Debería poder realizar la vista del dispositivo registrado desde el panel de visualización.
+1. Tap/click **Finish** to complete the registration process. Debería poder realizar la vista del dispositivo registrado desde el panel de visualización.
 
    ![image](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Todos los recursos del canal se reproducen ahora en el reproductor de Chrome OS.
 ¡Felicitaciones ahora está reproduciendo contenido en un canal de AEM Screens!
 
 ![image](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
