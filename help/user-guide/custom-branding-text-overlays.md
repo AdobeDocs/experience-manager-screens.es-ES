@@ -5,9 +5,9 @@ description: Siga esta página para conocer cómo aplicar la personalización de
 seo-description: Siga esta página para conocer cómo aplicar la personalización de la marca y el estilo a las superposiciones de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Estilo y personalización de marca para superposiciones de texto {#creating-custom-branding-styling}
 
-Siga esta página para aprender a aplicar personalización de marca y estilo para las superposiciones de texto aplicadas a los recursos en un canal de pantallas.
+Siga esta página para aprender a aplicar personalización de marca y estilo para las superposiciones de texto aplicadas a los recursos en un canal de AEM Screens.
 
 ## Creación de personalización de marca y estilo para superposiciones de texto {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 1. Haga clic en **Guardar y cerrar** para actualizar la ruta de diseño.
 
->[!IMPORTANT]
->
->Tiene la opción de superponer las plantillas de Pantallas existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más detalles.
+   >[!IMPORTANT]
+   >Tiene la opción de superponer las plantillas de Pantallas existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más detalles.
 
 1. Para superponer las plantillas de pantallas existentes para insertar sus propios diseños de forma predeterminada:
 
@@ -99,7 +98,7 @@ Siga los pasos a continuación para crear una marca y un estilo personalizados p
 
 Debe actualizar las ACL de estos diseños para que el reproductor pueda descargarlos.
 
-1. Vaya al administrador del usuario, elija el `screens-<project>-devices group` y asígnele un permiso de lectura a la ruta de diseño personalizada.
+1. Vaya al administrador del usuario, elija el `screens-<project>-devices group` y asígnele un permiso de lectura en la ruta de diseño personalizada.
 
 1. Proporcione permisos de lectura y modificación de `screens-<project>-administrators` grupos a esta ruta.
 
@@ -129,7 +128,7 @@ Siga los pasos a continuación para vista del diseño actualizado a la superposi
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-En relación con el tutorial, ahora puede actualizar la marca y el estilo personalizado para las superposiciones de texto agregadas a los recursos.
+   Ahora puede actualizar su marca y el estilo personalizado para las superposiciones de texto agregadas a sus recursos.
 
 
 
