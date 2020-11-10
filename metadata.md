@@ -12,10 +12,10 @@ tutorials-title: Tutoriales
 tutorials-url: https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.es-ES
 translation-type: tm+mt
-source-git-commit: 6a65a187622ff95dce0a81b0a17d97893daf6625
+source-git-commit: 5be539930b26902d696c14b06c8c3700fdc8ccf8
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 7%
+source-wordcount: '82'
+ht-degree: 13%
 
 ---
 
@@ -23,13 +23,3 @@ ht-degree: 7%
 # Metadatos para uso interno
 
 El archivo metadata.md incluye metadatos de nivel de repos que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
-
-| metadata | lo que hace |
-|--- |--- |
-| solution-title | Se utiliza en el encabezado del artículo como vínculo |
-| solution-hub-url | Abre la página del concentrador de ayuda |
-| solution-icon | Muestra el icono de la solución junto al título de la solución. No implementado aún |
-| getting-started-url | Vínculo a la página de introducción de ayuda |
-| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de ayuda o tutoriales de KT |
-| niveles de mini toc | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación de la repo principal para uso interno |
