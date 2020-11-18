@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
@@ -36,11 +36,11 @@ Visite la página de descargas [**del reproductor**](https://download.macromedia
 >[!NOTE]
 >Debe configurar un entorno para el reproductor de Android si utiliza AEM Screens 6.5.5 Service Pack.
 
-Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None** desde **Adobe Experience Manager Web ConsoleConfiguration** en todas las instancias de creación y publicación AEM.
+Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None** desde Configuración **de la consola web de** Adobe Experience Manager en todas las instancias de creación y publicación AEM.
 
 Complete los siguientes pasos:
 
-1. Vaya a **Adobe Experience Manager Web ConsoleConfiguration** mediante `http://localhost:4502/system/console/configMgr`.
+1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante `http://localhost:4502/system/console/configMgr`.
 
 1. Busque el controlador de autenticación *Adobe Granite Token*.
 
