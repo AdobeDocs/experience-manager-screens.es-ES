@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
+source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,17 @@ Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
 1. Instale el archivo Tizen player (.zip) desde el equipo local.
 
+## Configuración del servidor local y extracción de archivos comprimidos {#setting-local-server}
+
+Siga los pasos a continuación para configurar el servidor local y copiar los archivos extraídos:
+
 1. Obtenga la dirección IP de su equipo local.
 
    >[!NOTE]
-   >En el Terminal del equipo, escriba los siguientes comandos para:
-   >**Mac** use, comando `ifconfig`
-   >**Windows**, usar comando `ipconfig`
+   >Puede obtener la dirección IP desde el terminal del equipo escribiendo los siguientes comandos:
+   >* **Mac**: `ifconfig`
+   >* **Windows**: `ipconfig`
+
 
 1. Desde Terminal, vaya al mismo directorio de la carpeta del instalador descomprimido y compruebe si el host local está funcionando.
 
@@ -36,14 +41,14 @@ Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
 1. Copie los dos archivos extraídos `AEMScreensPlayer.wgt` y `sssp_config.xml` en `/Library/WebServer/Documents`.
 
-### Actualizaciones de configuración del dispositivo SamSung {#config-updates}
+### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
 Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del reproductor de AEM Screens en el dispositivo:
 
-1. Haga clic en el botón **Inicio** desde el control remoto de Samsung.
-1. Seleccione **Iniciador** de URL en la **Configuración**.
-1. Seleccione **Remoto** en el modo de desarrollador.
-1. Instale Web App e introduzca la dirección IP de su equipo.
-AEM Screens Player debe instalarse automáticamente en el dispositivo Samsung.
+1. Vaya a su dispositivo Samsung y señale a su servidor local host.
+1. Seleccione Configuración **del iniciador de** URL en la **Configuración** e introduzca la dirección IP del servidor local host.
+1. Instalación de la aplicación web.
+1. Seleccione **Remoto** en el modo **de desarrollador**.
+1. Ahora, AEM Screens Player debe instalarse automáticamente en el dispositivo Samsung.
 
 
