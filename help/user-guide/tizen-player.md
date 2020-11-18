@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
+source-git-commit: 5275a4ff79404e946d5aa0806fc705ab3bce2fcd
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Siga los pasos a continuación para configurar el servidor local y copiar los ar
 Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del reproductor de AEM Screens en el dispositivo:
 
 1. Vaya a su dispositivo Samsung y señale a su servidor local host.
-1. Seleccione Configuración **del iniciador de** URL en la **Configuración** e introduzca la dirección IP del servidor local host.
+1. Seleccione Configuración **del iniciador de** URL e introduzca la dirección IP de su servidor localhost.
 1. Instalación de la aplicación web.
 1. Seleccione **Remoto** en el modo **de desarrollador**.
-1. Ahora, AEM Screens Player debe instalarse automáticamente en el dispositivo Samsung.
+1. El Reproductor de AEM Screens ahora debe realizar el inicio automático de la instalación en el dispositivo Samsung.
 
 
