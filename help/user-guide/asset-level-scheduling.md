@@ -44,7 +44,7 @@ Con esta función, no sólo puede especificar el inicio y la fecha y hora de fin
 
 ## Ventana de activación {#single-event-playback}
 
-La Activación de nivel de recurso se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
+La Activación del nivel de recurso se realiza configurando la ficha **Activación** al acceder a las propiedades de un recurso.
 
 Siga los pasos a continuación para realizar la programación de nivel de recursos:
 
@@ -60,29 +60,29 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
    >* Cree y agregue contenido a un canal, consulte [Administración de Canales](managing-channels.md).
 
 
-1. Haga clic en **Editar** para abrir el editor de canal y seleccionar el recurso al que desee aplicar la programación.
+1. Haga clic en **Editar** para abrir el editor de canal y seleccionar un recurso al que desee aplicar la programación.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Seleccione el recurso y haga clic en la parte superior izquierda **Configurar** (icono de llave inglesa) para abrir las propiedades de la imagen.
 
-   Click the **Activation** tab.
+   Haga clic en la ficha **Activación**.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-1. Puede especificar la fecha desde el selector de fechas mediante los campos **Activo desde** y **Activo hasta** .
+1. Puede especificar la fecha desde el selector de fechas mediante los campos **Activo desde** y **Activo hasta**.
 
-   Si selecciona **Activo desde** y **Activo hasta** fecha y hora, el recurso se mostrará y se reproducirá en bucle únicamente entre la fecha y hora del inicio y la fecha y hora de finalización, respectivamente.
+   Si selecciona la fecha y hora **Activo desde** y **Activo hasta**, el recurso se mostrará y se reproducirá únicamente entre esa fecha y hora de inicio y la fecha y hora de finalización, respectivamente.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## Gestión de periodicidad en recursos {#handling-recurrence-in-assets}
+## Gestión de la periodicidad en los recursos {#handling-recurrence-in-assets}
 
 Puede programar los recursos para que se repitan a determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
 
 Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede utilizar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
-### Partición de día {#day-parting}
+### Partición de días {#day-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -91,7 +91,7 @@ Supongamos que desea mostrar una imagen sólo los viernes de 1:00 a 22:00. Puede
    >[!NOTE]
    >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
-1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la **Programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
 #### Ejemplo de Expresiones para partición de día {#example-one}
 
@@ -107,7 +107,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 >[!NOTE]
 >
->También se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, a las 2:00 pm).
 
 ### Partición de semana {#week-parting}
 
@@ -118,7 +118,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
    >[!NOTE]
    >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
-1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la **Programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
 #### Ejemplo de Expresiones para WeekParting {#example-two}
 
@@ -131,7 +131,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 >[!NOTE]
 >
->También puede utilizar notación _completa_ (es decir, lunes, miércoles, viernes) en lugar de notación _manual_ (es decir, lunes, miércoles, viernes).
+>También puede utilizar la notación _completa_ (es decir, lunes, miércoles, viernes) en lugar de la notación _de mano corta_ (es decir, Mon,Wed,Fri).
 
 
 ### MonthParting {#month-parting}
@@ -143,9 +143,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
    >[!NOTE]
    >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
-1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la **Programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
-#### Expresiones de ejemplo para MonthParting {#example-three}
+#### Ejemplo de Expresiones para MonthParting {#example-three}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
@@ -157,7 +157,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 >[!NOTE]
 >Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.
 
-### Combinación de asociaciones {#combined-parting}
+### Combinación de elementos {#combined-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -166,7 +166,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
    >[!NOTE]
    >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus necesidades.
 
-1. Introduzca la expresión en la **programación** y se mostrará el recurso para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la **Programación** y el recurso se mostrará para el intervalo de día y hora concreto.
 
 #### Expresiones de ejemplo para la combinación de elementos {#example-four}
 
@@ -179,37 +179,37 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | del 1 al 2 de enero después de las 2:00 pm también del 2 al 3 de enero antes de las 3:00 am | el recurso en el reproductor de inicios de canal después de las 2:00 pm del 1 de enero, continúa reproduciéndose hasta las 3:00 am del 2 de enero, luego vuelve a inicio el 2 de enero a las 2:00 pm y continúa reproduciéndose hasta las 3:00 am del 3 de enero |
 
 >[!NOTE]
->Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también se puede utilizar la notación de hora __ militar (es decir, 14:00) en lugar de la notación de *am/pm* (es decir, 2:00 pm).
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Mon/Lunes y Ene/Enero.  Además, también puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, a las 2:00 pm).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La función de Activación **de** varios recursos solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
+>La función **Activación de varios recursos** solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
 
-***La Activación*** de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
+***La*** activación de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
 
 ### Requisitos previos {#prerequisites}
 
 Para utilizar la activación de varios recursos para los recursos, cree un proyecto de AEM Screens con un canal de secuencia. Por ejemplo, el siguiente caso de uso muestra la implementación de la función:
 
-* Creación de un proyecto de AEM Screens denominado **MultiAssetDemo**
+* Cree un proyecto de AEM Screens con el título **MultiAssetDemo**
 * Cree un canal con el título **MultiAssetChannel** y agregue contenido al canal, como se muestra en la figura siguiente
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
 Siga los pasos a continuación para seleccionar varios recursos y programar su visualización en un proyecto de AEM Screens:
 
-1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
+1. Seleccione **MultiAssetChannel** y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Seleccione varios recursos en el editor y haga clic en **Editar Activación** (icono superior izquierdo).
+1. Seleccione varios recursos del editor y haga clic en **Editar Activación** (icono superior izquierdo).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Seleccione la fecha y la hora en **Activo desde** y **Activo hasta** en el cuadro de diálogo Activación **de** componente. Haga clic en el icono de marca de verificación cuando haya terminado de seleccionar los programas.
+1. Seleccione la fecha y la hora en **Activo desde** y **Activo hasta** en el cuadro de diálogo **Activación de componentes**. Haga clic en el icono de marca de verificación cuando haya terminado de seleccionar los programas.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
