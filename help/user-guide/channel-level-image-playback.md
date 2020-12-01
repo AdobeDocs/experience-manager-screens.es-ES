@@ -19,7 +19,7 @@ ht-degree: 3%
 ---
 
 
-# Duración de la reproducción masiva de imágenes en el nivel de canal {#channel-level-bulk-image-playback-duration}
+# Duración de reproducción masiva de imágenes en el nivel de canal {#channel-level-bulk-image-playback-duration}
 
 ## Información general {#overview}
 
@@ -31,11 +31,11 @@ Antes de inicio de implementar esta funcionalidad, asegúrese de haber configura
 
 1. Cree un ejemplo de proyecto de AEM Screens, **ChannelLevelPlayback**.
 
-1. Cree un canal de secuencia como **PlaybackChannel** en la carpeta **Canales** .
+1. Cree un canal de secuencia como **PlaybackChannel** en la carpeta **Canales**.
 
 1. Añada contenido a **PlaybackChannel**.
 
-## Edición de la asignación de duración de reproducción de imágenes en el nivel de Canal {#editing-channel-level-image-playback-duration-assignment}
+## Edición de la asignación de duración de reproducción de imágenes de nivel de Canal {#editing-channel-level-image-playback-duration-assignment}
 
 En la sección siguiente se explica cómo editar la duración de la reproducción de contenido en un canal de AEM Screens.
 
@@ -43,7 +43,7 @@ En la sección siguiente se explica cómo editar la duración de la reproducció
 
 Siga los pasos a continuación para aprender a actualizar la asignación de duración de la reproducción de imágenes en el nivel de Canal:
 
-1. Vaya a la secuencia canal **PlaybackChannel**.
+1. Vaya al canal de secuencia **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
@@ -59,14 +59,14 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Se abre el cuadro de diálogo Página** .
+1. **Se abre el cuadro de diálogo** Pagedio.
 
    >[!NOTE]
    >De forma predeterminada, las imágenes de un canal se establecen en una duración de reproducción de 8 segundos.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite la **duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
+   Edite la **Duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
