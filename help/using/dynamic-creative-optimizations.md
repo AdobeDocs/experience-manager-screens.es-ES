@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >El participante habitual de esta actividad es un implementador de AEM.
 
-**Dynamic Creative Optimization** o DCO se utiliza para crear experiencias de señalización digital que reflejen las circunstancias únicas de una ubicación determinada en un momento dado y para un usuario determinado.
+**La** optimización creativa dinámica o DCO se utiliza para crear experiencias de señalización digital que reflejen las circunstancias únicas de una ubicación determinada en un momento dado y para un usuario determinado.
 
 Esto también se denomina acoplamiento del contenido en el lado del cliente.
 
