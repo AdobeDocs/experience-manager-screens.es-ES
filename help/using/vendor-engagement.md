@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Participación de proveedores {#vendor-engagement}
+# Participación del proveedor {#vendor-engagement}
 
 >[!NOTE]
 >El accionista típico de esta actividad es un integrador A/V.
@@ -23,6 +23,6 @@ En esta actividad, es importante identificar todos los proveedores clave necesar
 
 * Defina las capacidades y tareas de cada proveedor en relación con la categoría del producto que admite.
 
-* Confirme los *plazos* de envío de todos los productos y cree un plan de implementación que se adapte a todos los tiempos de trabajo anteriores desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
+* Confirme el envío *tiempos de entrega* para todos los productos y cree un plan de implementación que se adapte a todos los tiempos de trabajo anteriores desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
 
-Al completar todos los pasos anteriores, ahora deberíamos tener listo un plan de implementación *del día 1* completo.
+Al completar todos los pasos anteriores, ahora deberíamos tener un plan de implementación integral *Día 1* listo para ejecutarse.
