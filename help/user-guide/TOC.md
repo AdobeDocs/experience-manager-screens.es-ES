@@ -6,10 +6,10 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 19%
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + Publicación de autor {#author-publish}
       + [Descripción general de la arquitectura de creación y publicación](author-publish-architecture-overview.md)
       + [Configuración del autor y la publicación](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 19%
       + [Sincronización de comandos](using-command-sync.md)
       + [Creación con activadores de datos](authoring-data-triggers.md)
       + [Reconocimiento de voz](voice-recognition.md)
+      + [Informe de asignación de contenido](content-assignment-report.md)
    + Administración de actualizaciones de contenido {#content-updates}
       + [Actualización de contenido bajo demanda](on-demand-content.md)
       + [Actualización del contenido como servicio](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 19%
    + [Resolución de problemas del centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión de Feature Pack 202011](release-notes-fp-202011.md)
    + [Notas de la versión de Feature Pack 2008](release-notes-fp-202008.md)
    + [Notas de la versión de Feature Pack 2004](release-notes-fp-202004.md)
    + [Notas de la versión de Feature Pack 2001](release-notes-fp-202001.md)
