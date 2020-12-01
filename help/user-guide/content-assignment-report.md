@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Informe de asignación de contenido {#content-assignment-report}
 
-La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un informe *de asignación de* contenido en formato de hoja de cálculo.
+La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *informe de asignación de contenido* en formato de hoja de cálculo.
 
 ## Uso del informe Asignación de contenido {#using-content-assignment-report}
 
@@ -26,7 +26,7 @@ El informe Asignación de contenido no sólo permite una previsualización de to
 
 Siga los pasos a continuación para descargar el informe de asignación de contenido de un proyecto de AEM Screens:
 
-1. Cree un AEM Screens denominado **DemoScreens**.
+1. Cree un AEM Screens con el título **DemoScreens**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-1.png)
 
@@ -36,16 +36,16 @@ Siga los pasos a continuación para descargar el informe de asignación de conte
 
 1. Seleccione **ChannelOne** y haga clic en **Editar** en la barra de acciones. Añada algunos recursos (imágenes/vídeos) en este canal. Del mismo modo, agregue recursos a **ChannelTwo**.
 
-1. Vaya a la carpeta Locations desde **DemoScreens** —> **Ubicaciones** y cree tres ubicaciones diferentes denominadas **SanJosé**, **Dublín** y **SanFrancisco**.
+1. Vaya a la carpeta Ubicaciones desde **DemoScreens** —> **Ubicaciones** y cree tres ubicaciones diferentes con el título **SanJosé**, **Dublín** y **SanFrancisco**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-3.png)
 
-1. Navegue hasta cada una de las ubicaciones y cree una visualización para cada ubicación, como **SanJoséMain** en **SanJosé** , **DublínMain** en **Dublín** y **SanFranciscoMain** **** en la ubicación de SanFrancisco.
+1. Navegue hasta cada una de las ubicaciones y cree una visualización para cada ubicación, como **SanJoséMain** en **SanJosé** ubicación, **DublínMain** en **Dublín** ubicación y **SanFranciscoMain** en &lt;a100/>Ubicación de SanFrancisco **.**
 
 1. Asigne un dispositivo a cada una de las pantallas.
 
    >[!NOTE]
-   >Para obtener más información sobre la asignación de un canal a una pantalla, consulte Asignación de [Canales](/help/user-guide/channel-assignment.md).
+   >Para obtener más información sobre cómo asignar un canal a una pantalla, consulte [Asignación de Canal](/help/user-guide/channel-assignment.md).
 
 #### Descarga del informe Asignación de contenido {#downloading-content-assignment-report}
 
@@ -58,12 +58,12 @@ Siga las instrucciones siguientes para descargar el informe Asignación de conte
 
 1. Vaya a su proyecto de AEM Screens y seleccione el proyecto **DemoScreens**.
 
-1. Haga clic en Informe **de asignación de** contenido en la barra de acciones. Se debe descargar una hoja de Excel en el equipo local.
+1. Haga clic en **Informe de asignación de contenido** en la barra de acciones. Se debe descargar una hoja de Excel en el equipo local.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >La hoja de cálculo descargada consta de cuatro columnas, como **Canales**, **Recursos**, **Pantallas** y **Dispositivos** , que pueden utilizarse para investigar más a fondo estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
+   >La hoja de cálculo descargada consta de cuatro columnas, como **Canales**, **Recursos**, **Muestra** y **Dispositivos**, que pueden utilizarse para investigar más a fondo las cuatro entidades pertenecientes a su proyecto de AEM Screens.
 
 
 
