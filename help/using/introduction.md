@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # Introducción a AEM Screens {#introduction}
 
-**AEM Pantallas** (Adobe Experience Manager) es una solución de publicidad dinámica que le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas que incluyen distintos tipos de pantallas de visualización en el lugar, de manera concertada con una estrategia de marketing digital integral de canal.
+**AEM (Adobe Experience Manager)** Screensis a Digital Signage Solution le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas que incluyen distintos tipos de pantallas de visualización dentro del recinto, de manera concertada con una estrategia de marketing digital integral de canal.
 
 AEM Screens le permite crear:
 
