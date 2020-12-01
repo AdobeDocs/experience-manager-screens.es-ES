@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Un mapa de viajes de la experiencia del usuario está diseñado para proporcionar visibilidad sobre cómo y por qué los usuarios experimentarán el contenido digital proporcionado por la red.
 
-## Creación del mapa de viajes UX {#building-map}
+## Generación del mapa del viaje UX {#building-map}
 
 Tener una fuerte comprensión de cómo los consumidores interactuarán con una red de publicidad dinámica en un espacio físico es fundamental para el éxito y el valor que ofrece esa red. También ayuda a comprender cómo se consumen las experiencias digitales en el contexto de todos los demás canales que pueda encontrar un cliente.
 
