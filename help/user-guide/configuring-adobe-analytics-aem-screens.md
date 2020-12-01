@@ -32,9 +32,9 @@ Esta sección abarca los siguientes temas:
 * **Secuencias en Adobe Analytics con AEM Screens**
 * **Envío de Eventos personalizados mediante Adobe Analytics sin conexión**
 
-## Secuencias en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Secuencia en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-El proceso ***de secuenciación*** inicio con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido de canal envía eventos de Adobe Analytics con nómina, es decir, la captura de prueba de datos a la E/S de Windows y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
+El ***proceso de secuenciación*** inicio con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido de canal envía eventos de Adobe Analytics con nómina, es decir, la captura de prueba de datos a la E/S de Windows y se activan los eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan en el almacén de objetos. Según la programación, el administrador establece, corta los datos del almacén de objetos y los transfiere en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos cuando está conectado.
 
 ### Diagrama de secuencia {#sequencing-diagram}
 
@@ -109,7 +109,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td>required</td> 
    <td>Cadena</td> 
    <td> </td> 
-   <td>Categoría principal (ESCRITORIO, MÓVIL, WEB, PROCESO, SDK, SERVICIO, ECOSISTEMA) - Agrupación de tipos de evento - <strong>Enviamos reproductor</strong></td> 
+   <td>Categoría principal (ESCRITORIO, MÓVIL, WEB, PROCESO, SDK, SERVICIO, ECOSISTEMA) - Agrupación de tipos de evento - <strong>Enviamos Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -124,7 +124,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td> </td> 
    <td>Tipo de evento/acción</td> 
    <td>event.type</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>tipo de evento (procesar, hacer clic, pellizcar, hacer zoom): acción principal del usuario</td> 
@@ -241,7 +241,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td><strong><em>Origen/Producto original</em></strong></td> 
    <td>Nombre</td> 
    <td>source.name</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Nombre de la aplicación (AEM Screens)</td> 
@@ -250,7 +250,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td> </td> 
    <td>Versión</td> 
    <td>source.version</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Versión del firmware</td> 
@@ -259,7 +259,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td> </td> 
    <td>Plataforma</td> 
    <td>source.platform</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -286,7 +286,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td><strong><em>Contenido</em></strong></td> 
    <td>Acción</td> 
    <td>content.action</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Dirección URL del recurso, incluida la representación que se reprodujo</td> 
@@ -304,7 +304,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td><strong><em>Transacción</em></strong></td> 
    <td>Número de transacción</td> 
    <td>trn.number</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td>UUID</td> 
    <td>ID única que se adhiere preferentemente a UUID v4</td> 
@@ -313,7 +313,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td> </td> 
    <td>Descripción del producto</td> 
    <td>trn.product</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Dirección URL del recurso (excluida la representación)</td> 
@@ -322,7 +322,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Lista todos
    <td> </td> 
    <td>Cantidad</td> 
    <td>trn.quantity</td> 
-   <td>required</td> 
+   <td>requerido</td> 
    <td>Cadena</td> 
    <td> </td> 
    <td>Duración de la reproducción</td> 
