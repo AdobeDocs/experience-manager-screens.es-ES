@@ -27,12 +27,12 @@ Este proceso se puede aplicar a:
 
 Esto ayudará a acercar el proyecto de la fase de creación de prototipos a la fase de despliegue real.
 
-Desde una vista **de nivel de**recurso, debemos crear esquemas que definan diversas opciones de diseño de contenido y agrupaciones de contenido. Esto ayuda a definir el aspecto que pueden tener varias partes de contenido cuando se ensamblan como un grupo.
+Desde una **vista de nivel de recurso**, debemos crear esquemas que definan diversas opciones de diseño de contenido y agrupaciones de contenido. Esto ayuda a definir el aspecto que pueden tener varias partes de contenido cuando se ensamblan como un grupo.
 Normalmente, en esta actividad utilizaríamos gráficos, imágenes y vídeos listos para la producción.
 
-Desde una vista **de nivel de** Canal, debemos crear esquemas que muestren cómo se vinculan canales de contenido en la experiencia global, incluidas las estrategias de reproducción para canales incrustados. También podemos revisar las transiciones de canal que pueden producirse a medida que se activan los datos.
+A partir de una **vista de nivel de Canal**, debemos crear esquemas que muestren cómo se vinculan canales de contenido en la experiencia global, incluidas las estrategias de reproducción para canales incrustados. También podemos revisar las transiciones de canal que pueden producirse a medida que se activan los datos.
 
-A nivel **de** proyecto, podemos modelar cómo varias pantallas o experiencias pueden trabajar juntas en un espacio físico para proporcionar un viaje completo del usuario con varios puntos de contacto.
+En un **nivel de proyecto**, podemos tener el inicio de modelar cómo varias pantallas o experiencias pueden trabajar juntas en un espacio físico para proporcionar un viaje completo del usuario con varios puntos de contacto.
 
 Esto debe estar en línea con el mapa del viaje UX creado anteriormente.
 
