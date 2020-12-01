@@ -19,11 +19,11 @@ ht-degree: 1%
 ---
 
 
-# Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
+# Configuración e implementación de AEM Screens {#configuring-and-deploying-aem-screens}
 
 Esta página muestra cómo instalar y configurar los reproductores de Pantallas en sus dispositivos.
 
-## Server Configuration {#server-configuration}
+## Configuración del servidor {#server-configuration}
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ Permite al usuario comprobar las dos comprobaciones de configuración siguientes
 
 Siga los pasos a continuación para comprobar si estas dos configuraciones vitales están habilitadas para AEM Screens:
 
-1. Vaya a [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Vaya a [Comprobación del estado de Sling de la consola web de Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![activos](assets/health-check1.png)
 
 
-2. Haga clic en **Ejecutar las comprobaciones** de estado seleccionadas para ejecutar la validación de dos propiedades enumeradas arriba.
+2. Haga clic en **Ejecutar las comprobaciones de estado seleccionadas** para ejecutar la validación de dos propiedades enumeradas arriba.
 
-   Si ambos filtros están habilitados, el servicio **de mantenimiento de configuración de** pantallas muestra el **resultado** como **correcto** con ambas configuraciones como habilitadas.
+   Si ambos filtros están habilitados, el **Servicio de mantenimiento de configuración de pantallas** muestra el **Resultado** como **Aceptar** con ambas configuraciones como habilitadas.
 
    ![activos](assets/health-check2.png)
 
@@ -60,8 +60,8 @@ Siga los pasos a continuación para comprobar si estas dos configuraciones vital
 
 >[!NOTE]
 >
->* Para habilitar el filtro **de Remitente del reenvío Sling de** Apache, consulte [Permitir solicitudes](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)de Remitente del reenvío vacías.
->* Para habilitar el servicio **HTTP** , consulte Servicio [HTTP basado en](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)Apache Felix Jetty.
+>* Para habilitar el **Filtro de Remitente del reenvío Sling de Apache**, consulte [Permitir solicitudes de Remitente del reenvío vacías](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Para habilitar el servicio **HTTP**, consulte [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
 ### Requisitos previos {#prerequisites}
@@ -70,45 +70,45 @@ Los siguientes puntos clave ayudan a configurar y AEM el servidor para que esté
 
 #### Permitir solicitudes de Remitente del reenvío vacías {#allow-empty-referrer-requests}
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager** mediante AEM instancia —> icono de martillo —> **Operaciones** —> **Consola web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Buscar remitente del reenvío sling.
+1. **Se abre la** configuración de la consola web de Adobe Experience Manager. Buscar remitente del reenvío sling.
 
-   Para buscar la propiedad de remitente del reenvío sling, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+   Para buscar la propiedad de remitente del reenvío sling, presione **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
-1. Marque la opción **Permitir vacío** , como se muestra en la figura siguiente.
+1. Marque la opción **Permitir vacío**, como se muestra en la figura siguiente.
 
    ![image](assets/config/empty-ref2.png)
 
-1. Haga clic en **Guardar** para activar el filtro de Remitente del reenvío Sling de Apache Permitir vacío.
+1. Haga clic en **Guardar** para habilitar el filtro de Remitente del reenvío Sling de Apache para permitir que esté vacío.
 
 
-#### Servicio HTTP Apache Felix Jetty Basado en Jetty {#allow-apache-felix-service}
+#### Servicio HTTP Apache Felix Jetty basado en {#allow-apache-felix-service}
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager** mediante AEM instancia —> icono de martillo —> **Operaciones** —> **Consola web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Busque el servicio HTTP Apache Felix Jetty.
+1. **Se abre la** configuración de la consola web de Adobe Experience Manager. Busque el servicio HTTP Apache Felix Jetty.
 
-   Para buscar esta propiedad, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+   Para buscar esta propiedad, presione **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
-1. Marque la opción **HABILITAR HTTP** , como se muestra en la figura siguiente.
+1. Marque la opción **HABILITAR HTTP**, como se muestra en la figura siguiente.
 
    ![image](assets/config/config-1.png)
 
-1. Haga clic en **Guardar** para habilitar el servicio *http* .
+1. Haga clic en **Guardar** para habilitar el servicio *http*.
 
-#### Habilitar la IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
+#### Habilitar IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 
 AEM Screens requiere la IU TÁCTIL y no funcionará con la IU CLÁSICA de Adobe Experience Manager (AEM).
 
 1. Vaya a *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. Asegúrese de que el modo **predeterminado de la IU de creación esté establecido en** TOUCH ****, como se muestra en la figura siguiente
+1. Asegúrese de que el **modo de IU de creación predeterminado** está establecido en **TOUCH**, como se muestra en la figura siguiente
 
-También puede realizar la misma configuración con las herramientas *->* AuthorInstance (icono de martillo) -> **Operaciones** -> Consola **** web y buscar el servicio **de modo de IU de creación de** WCM.
+También puede realizar la misma configuración con las herramientas *->* de AuthorInstance (icono de martillo) -> **Operaciones** -> **Consola Web** y buscar **Servicio de modo de IU de creación de WCM**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -116,9 +116,9 @@ También puede realizar la misma configuración con las herramientas *->* Author
 >
 >Siempre puede habilitar la IU clásica para usuarios específicos mediante las preferencias de usuario.
 
-#### AEM en el modo de ejecución NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
+#### AEM en modo de ejecución NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-La ejecución de AEM en producción utiliza el modo de ejecución **NOSAMPLECONTENT** . Elimine el encabezado *X-Frame-Options=SAMEORIGIN* (en la sección de encabezado de respuesta adicional) de
+La ejecución de AEM en producción utiliza el modo de ejecución **NOSAMPLECONTENT**. Elimine el encabezado *X-Frame-Options=SAMEORIGIN* (en la sección del encabezado de respuesta adicional) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -126,27 +126,27 @@ Esto es necesario para que AEM Screens Player pueda reproducir canales en línea
 
 #### Restricciones de contraseña {#password-restrictions}
 
-Con los últimos cambios en ***DeviceServiceImpl***, no es necesario eliminar las restricciones de contraseña.
+Con los últimos cambios realizados en ***DeviceServiceImpl***, no es necesario eliminar las restricciones de contraseña.
 
-Puede configurar ***DeviceServiceImpl*** desde el vínculo siguiente para habilitar la restricción de contraseña al crear la contraseña para los usuarios de dispositivos de pantalla:
+Puede configurar ***DeviceServiceImpl*** desde el vínculo siguiente para habilitar la restricción de contraseña al crear la contraseña para los usuarios del dispositivo de pantallas:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Siga los pasos a continuación para configurar ***DeviceServiceImpl***:
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager** mediante AEM instancia —> icono de martillo —> **Operaciones** —> **Consola web**.
 
-1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Busque *deviceService*. Para buscar la propiedad, pulse **Comando+F** para macOS y **Control+F** para Microsoft Windows.
+1. **Se abre la** configuración de la consola web de Adobe Experience Manager. Busque *servicio de dispositivos*. Para buscar la propiedad, presione **Comando+F** para macOS y **Control+F** para Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcher Configuration {#dispatcher-configuration}
+#### Configuración del despachante {#dispatcher-configuration}
 
-Para obtener información sobre cómo configurar el despachante para un proyecto de AEM Screens, consulte [Configuración de Dispatcher para un proyecto](dispatcher-configurations-aem-screens.md)de AEM Screens.
+Para obtener información sobre cómo configurar el despachante para un proyecto de AEM Screens, consulte [Configuración de Dispatcher para un proyecto de AEM Screens](dispatcher-configurations-aem-screens.md).
 
 #### Codificación de Java {#java-encoding}
 
-Establezca la codificación ****** Java en Unicode. Por ejemplo, *Dfile.encoding=Cp1252* no funcionará.
+Establezca la ***codificación de Java*** en Unicode. Por ejemplo, *Dfile.encoding=Cp1252* no funcionará.
 
 >[!NOTE]
 >**Recomendación:**
