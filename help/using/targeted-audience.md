@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# Audiencia destinatario {#target-audience}
+# Audiencia de destinatario {#target-audience}
 
 Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
@@ -25,7 +25,7 @@ El diagrama a continuación muestra las funciones a las que nos referiremos en t
 >[!NOTE]
 >Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
 
-## Definición de funciones {#roles}
+## Definición de roles {#roles}
 
 La siguiente sección proporciona información general sobre la audiencia de destinatario:
 
@@ -47,7 +47,7 @@ El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocu
 
 Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
 
-### Estratega comercial {#business-strategist}
+### Estratega de negocios {#business-strategist}
 
 Los estrategas empresariales representan a los encargados de adoptar decisiones en la compañía. Esta función está muy involucrada en las etapas de descubrimiento y requisitos y es el principal impulsor del proyecto.
 
@@ -68,4 +68,4 @@ Los elementos creativos y el Gestor de contenido podrían ser uno de los siguien
 Los jefes de proyecto generalmente administran la implementación completa para la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
 
 >[!NOTE]
->Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite **[Funciones y responsabilidades del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
