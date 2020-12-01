@@ -37,21 +37,21 @@ En esta página se muestra cómo crear y administrar pantallas para Screens.
 
 >[!NOTE]
 >
->Debe crear una ubicación antes de crear una pantalla. To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>Debe crear una ubicación antes de crear una pantalla. Para ver cómo crear una ubicación, consulte [Crear y administrar ubicaciones](managing-locations.md) para obtener más información.
 
 Para crear una pantalla nueva en su ubicación, siga los pasos que se describen a continuación:
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. Se abrirá un asistente.
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. Vaya a la ubicación adecuada, por ejemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. Seleccione la carpeta de ubicación y toque o haga clic en **Crear** junto al icono del signo más en la barra de acciones. Se abrirá un asistente.
+1. Seleccione **Mostrar** en el asistente **Crear** y haga clic en **Siguiente**.
 
-1. Enter **Name** and **Title** for your display location.
+1. Escriba **Nombre** y **Título** para la ubicación de visualización.
 
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). Además, puede elegir el número de dispositivos horizontal y verticalmente.
+1. En la ficha **Mostrar**, elija los detalles del diseño. Elija la **Resolución** deseada (por ejemplo, como **Alta definición completa**). Además, puede elegir el número de dispositivos horizontal y verticalmente.
 
 1. Haga clic en **Crear**.
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+Se crea la pantalla (*StoreDisplay*) y se agrega a la ubicación (*SanJosé*).
 
 ![mostrar](assets/display.gif)
 
@@ -63,7 +63,7 @@ Una vez que tenga colocada la pantalla en su sitio, el paso siguiente es crear u
 >
 >Una vez que haya creado una pantalla para su ubicación, debe asignar un canal a la pantalla para utilizar el contenido.
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>Consulte la sección [Asignar Canales](channel-assignment.md) para obtener información sobre cómo asignar un canal a la pantalla.
 
 ## Creación de una nueva configuración del dispositivo {#creating-a-new-device-config}
 
@@ -72,14 +72,14 @@ Una configuración del dispositivo actúa como marcador de posición para un dis
 Siga los pasos que se indican a continuación para crear una nueva configuración del dispositivo:
 
 1. Vaya a la pantalla adecuada, por ejemplo, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Select your display folder and tap/click **View Dashboard** in the action bar.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. Seleccione la carpeta de visualización y toque/haga clic **Panel de Vista** en la barra de acciones.
+1. Toque o haga clic en **+ Añadir configuración del dispositivo** en la parte superior derecha del panel **Dispositivos**.
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. Seleccione **Configuración del dispositivo** como plantilla requerida y toque o haga clic **Siguiente**.
 
-1. Enter the properties as required and tap/click **Create**.
+1. Introduzca las propiedades según sea necesario y toque o haga clic en **Crear**.
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+La configuración del dispositivo se crea y se agrega a la pantalla actual (en la siguiente demostración, la nueva configuración del dispositivo es *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
@@ -89,9 +89,9 @@ Una vez que se ha establecido una configuración del dispositivo en la pantalla 
 >
 >Una vez que se ha establecido una configuración del dispositivo en la pantalla de la ubicación, el paso siguiente consiste en asignar un canal a la pantalla.
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>Como se muestra en la figura siguiente, si la configuración del dispositivo se muestra como no asignada en el panel **DISPOSITIVOS**, si no hay ningún canal asignado a esa configuración del dispositivo en particular.
 >
->Antes de esto, debe haber entendido cómo crear y administrar canales. Consulte [Crear y administrar Canales](managing-channels.md) para obtener más información.
+>Antes de esto, debe haber entendido cómo crear y administrar canales. Consulte [Crear y administrar Canales](managing-channels.md) para obtener más detalles.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -120,9 +120,9 @@ Haga clic en (**…**) en la esquina superior derecha del panel **INFORMACIÓN D
 
 Haga clic en **Propiedades** para ver o cambiar las propiedades de la pantalla.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. El valor predeterminado es *300 segundos*.
+Además, puede ajustar el valor del temporizador de evento para el canal interactivo en la propiedad **Tiempo de espera de inactividad** de la ficha **Mostrar**. El valor predeterminado es *300 segundos*.
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Utilice **CRXDE Lite** para obtener acceso a la propiedad **timeoutinactividad**, es decir, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panel Canales asignados {#assigned-channels-panel}
@@ -134,7 +134,7 @@ En el panel **CANALES ASIGNADOS** se muestran los canales asignados a este dispo
 
 En el panel **DISPOSITIVOS** se proporciona información sobre las configuraciones del dispositivo.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+Haga clic en (**...**) en la esquina superior derecha del panel **DISPOSITIVOS** para agregar configuraciones de dispositivos y actualizar dispositivos.
 
 Además, haga clic en la configuración del dispositivo para asignar propiedades de vista, asignar un dispositivo o eliminarlo por completo.
 
@@ -144,4 +144,4 @@ Además, haga clic en la configuración del dispositivo para asignar propiedades
 
 Una vez que haya completado la creación de una pantalla para la ubicación, debe asignar un canal para la pantalla.
 
-See [Assign Channels](channel-assignment.md) for more details.
+Consulte [Asignar Canales](channel-assignment.md) para obtener más información.
