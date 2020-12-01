@@ -25,11 +25,11 @@ Esta página resalta las consideraciones de seguridad del sistema para AEM Scree
 Esta sección describe el documento técnico. (Documento técnico pendiente adjunto)
 
 
-## Preguntas más frecuentes sobre AEM Screens Security {#faqs-screens}
+## Preguntas más frecuentes sobre la seguridad de AEM Screens {#faqs-screens}
 
 Las siguientes preguntas más frecuentes asumen una arquitectura de reproductor autenticada y registrada usando HTTPS como protocolo de comunicación entre reproductor y AEM Server.
 
-### FAQ 1 {#faq1}
+### Preguntas más frecuentes 1 {#faq1}
 
 ¿Se puede volver a enrutar el tráfico del reproductor a un servidor malintencionado e indicar que descargue y reproduzca contenido multimedia malintencionado?
 
@@ -38,7 +38,7 @@ Las siguientes preguntas más frecuentes asumen una arquitectura de reproductor 
 No es posible porque la conexión HTTP identifica ambos extremos de la conexión y la cifra. Si tratas de estar en el medio e interceptarlo, solo ves contenido cifrado, y si tratas de suplantar al servidor, el reproductor te rechazará porque tu certificado es diferente.
 
 
-### FAQ 2 {#faq2}
+### Preguntas más frecuentes 2 {#faq2}
 
 ¿Debo usar HTTP o HTTP?
 
@@ -47,7 +47,7 @@ No es posible porque la conexión HTTP identifica ambos extremos de la conexión
 Utilice HTTP. Esto es imprescindible si le preocupa la seguridad. Con HTTPs la comunicación se encripta entre reproductor y servidor, e interceptar el contenido o modificarlo será casi imposible.
 
 
-### FAQ 3 {#faq3}
+### Preguntas más frecuentes 3 {#faq3}
 
 En una descarga de contenido, ¿hay algún tipo de firma del contenido o hash?
 
@@ -57,7 +57,7 @@ Cada recurso está firmado (SHA) por el servidor y luego validado por el reprodu
 Si el hash no coincide, intentamos volver a validar 3 veces. Después de 3 intentos, consideramos que el comando download no es válido.
 
 
-### FAQ 4 {#faq4}
+### Preguntas más frecuentes 4 {#faq4}
 
 ¿AEM Server es seguro?
 
@@ -66,7 +66,7 @@ Si el hash no coincide, intentamos volver a validar 3 veces. Después de 3 inten
 Ans 4. Si está en AMS, nos encargamos de toda la seguridad del servidor utilizando las mismas funciones que Sitios o Recursos.
 
 
-### FAQ 5 {#faq5}
+### Preguntas más frecuentes 5 {#faq5}
 
 ¿Es seguro el dispositivo?
 
@@ -83,7 +83,7 @@ Si el sistema operativo del dispositivo no se actualiza con regularidad, el sist
 >Se recomienda instrumentar los dispositivos con capacidades de control y actualización remota decentes (escritorio remoto, solución MDM, etc.). También se recomienda utilizar una red privada, no expuesta a la WIFI pública, por ejemplo.
 
 
-### FAQ 6 {#faq6}
+### Preguntas más frecuentes 6 {#faq6}
 
 ¿Cómo intentaría un hacker comprometer a un jugador?
 
