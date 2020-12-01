@@ -10,13 +10,13 @@ ht-degree: 2%
 ---
 
 
-# Directrices de selección de hardware para el dispositivo reproductor {#hardware-selection}
+# Pautas de selección de hardware para el dispositivo reproductor {#hardware-selection}
 
-En la sección siguiente se proporcionan las directrices de selección de hardware para un reproductor de AEM Screens.
+La siguiente sección proporciona las directrices de selección de hardware para un reproductor de AEM Screens.
 
 ## Consideraciones importantes {#important-considerations}
 
-* Utilice siempre componentes de ***categoría comercial*** o ***industrial*** tanto para el reproductor de PC como para el panel de visualización o el proyector.
+* Utilice siempre ***Componentes comerciales*** o ***industriales*** de categoría para PC Player y Display Panel o Proyector.
 
 * Siempre interactúes con proveedores que sirven al mercado de la publicidad dinámica.
 * Consideremos siempre factores ambientales como la temperatura ambiente y la humedad relativa.
@@ -25,7 +25,7 @@ En la sección siguiente se proporcionan las directrices de selección de hardwa
 
 ## Configuraciones de hardware {#hardware-configurations}
 
-La siguiente tabla resume las configuraciones de hardware con casos de uso típicos de un proyecto de AEM Screens:
+La siguiente tabla resume las configuraciones de hardware con casos de uso típicos para un proyecto de AEM Screens:
 
 <table>
  <tbody>
@@ -34,7 +34,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td><strong>Configuración del reproductor</strong></td>
    <td><strong>Procesador</strong></td>
    <td><strong>Memoria</strong></td>
-   <td><strong>SSD de Almacenamiento</strong></td>
+   <td><strong>SSD de almacenamiento</strong></td>
    <td><strong>GPU</strong></td>
    <td><strong>Mostrar</strong></td>
    <td><strong>E/S</strong></td>
@@ -47,11 +47,11 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920x1080</td>
-   <td>DVI,<br /> Ethernet/inalámbrico,<br /> 2 x USB</td>
+   <td>DVI,<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Bucle estándar de pantalla completa<br /> </li>
-     <li>Partición de días</li>
+     <li>Partición de día</li>
     </ul> </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840 x 2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/inalámbrico,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Contenido dinámico de origen único</li>
@@ -76,7 +76,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>256 GB</td>
    <td>GPU de gráficos dedicados</td>
    <td>3840 x 2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet / inalámbrico,<br /> 4 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 o más zonas de contenido, reproducción de vídeo simultáneo</li>
