@@ -23,7 +23,7 @@ Esta página muestra cómo asignar un canal a la pantalla.
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
 
-## Assigning a Channel {#assign-a-channel}
+## Asignación de un Canal {#assign-a-channel}
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
@@ -31,15 +31,15 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. Toque o haga clic **Asignar Canal** en la barra de acciones
 
    O bien,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
+   Toque o haga clic en **Panel** y haga clic en **+Asignar Canal** en el panel **CANALES ASIGNADOS** para abrir el cuadro de diálogo **Asignación de Canal**.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Puede configurar las propiedades desde el cuadro de diálogo Asignación **de** Canal en la sección siguiente. Consulte la sección Propiedades del [Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   Puede configurar las propiedades desde el cuadro de diálogo **Asignación de Canal** de la sección siguiente. Consulte la sección [Propiedades del Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
 
 
 ## Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
@@ -50,7 +50,7 @@ El canal de referencia le permite proporcionar una referencia al canal deseado, 
 
 * **por ruta de acceso**: proporcione una referencia explícita mediante la ruta de acceso absoluta del canal.
 
-* **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero aún así tendrá la función de canal cuerdo en todas las pantallas.
 
 ### Rol del canal {#role-channel}
 
@@ -78,7 +78,7 @@ La prioridad se utiliza para solicitar las asignaciones en caso de que varias de
 
 Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
 
-Seleccione una de las siguientes opciones disponibles para establecer el método de interrupción en el cuadro de diálogo Asignación de **Canal** :
+Seleccione una de las siguientes opciones disponibles para establecer el método de interrupción en el cuadro de diálogo **Asignación de Canal**:
 
 * **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, puede cortar la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de que actualice o reproduzca el nuevo contenido
@@ -99,7 +99,7 @@ La opción de mostrar la información sobre herramientas de atracción define si
 
 ### DayParting {#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Las programaciones, combinadas con **DayParting**, le permiten establecer una programación global con varios canales que se ejecutan en horas específicas del día y reutilizar esa configuración para todas las visualizaciones a la vez.
 
 La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
 
