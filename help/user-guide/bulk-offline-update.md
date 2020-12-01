@@ -12,6 +12,9 @@ discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +34,7 @@ Esta sección trata los siguientes temas sobre Actualización masiva sin conexi�
 
 ## Información general {#overview}
 
-Actualización masiva sin conexión, le permite actualizar todos los canales de forma masiva. Evita la molestia de desplazarse a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido en los canales para un proyecto específico en un instante.
+Actualización masiva sin conexión, le permite actualizar todos los canales de forma masiva. Evita la molestia de desplazarse a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido en canales para un proyecto específico en un instante.
 
 También puede programar esta actividad para un tiempo de tráfico de red menor.
 
@@ -45,25 +48,25 @@ Puede utilizar manualmente la actualización sin conexión masiva desde la inter
 
 ### Uso de la interfaz de usuario de AEM Screens {#using-aem-screens-user-interface}
 
-Siga los pasos a continuación para utilizar la actualización masiva sin conexión para un proyecto de AEM Screens:
+Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Vaya a su proyecto de AEM Screens.
-1. Seleccione el proyecto y haga clic en **Actualizar contenido** sin conexión en la barra de acciones para actualizar manualmente el contenido del canal.
+1. Seleccione el proyecto y haga clic en **Actualizar contenido sin conexión** en la barra de acciones para actualizar manualmente el contenido de canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configuración de la consola web de Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configuración de Adobe Experience Manager Web Console {#adobe-experience-manager-web-console-configuration}
 
-Siga los pasos a continuación para utilizar la actualización masiva sin conexión para un proyecto de AEM Screens:
+Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
-1. Configuración de la consola web de Adobe Experience Manager.
+1. Configuración de Adobe Experience Manager Web Console.
 1. Busque servicios de actualización sin conexión masiva.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
-1. Agregue las siguientes propiedades:
+1. Añada las siguientes propiedades:
 
-   **Ruta** del proyecto Especifique la ruta del proyecto de AEM Screens. La ruta suele ser `/content/screens/<Name of your project>`.
+   **Ruta** del proyectoEspecifique la ruta del proyecto de AEM Screens. La ruta suele ser `/content/screens/<Name of your project>`.
 
    *Por ejemplo*, `/content/screens/we-retail`. Puede encontrar esta ruta en la URL seleccionando cualquier proyecto en AEM Screens (no haga clic en el icono).
 
@@ -71,7 +74,7 @@ Siga los pasos a continuación para utilizar la actualización masiva sin conexi
    >
    >Especifique la ruta del proyecto en relación con el canal.
 
-   **Frecuencia** de programación Especifique una hora, por ejemplo, 5:00 pm o 17:00, en la que este servicio debe actualizar el contenido sin conexión.
+   **Frecuencia** de programaciónEspecifique una hora, por ejemplo, 5:00 pm o 17:00, en la que este servicio debe actualizar el contenido sin conexión.
 
 1. Haga clic en **Guardar** para guardar la configuración y el contenido se actualizará a la hora especificada.
 
