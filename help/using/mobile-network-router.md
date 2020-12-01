@@ -59,7 +59,7 @@ La configuración de red se puede separar lógicamente en dos bloques:
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de red ya descrita, tiene que proporcionar un ancho de banda suficiente para realizar descargas de contenido de AEM Screens sin problemas.
 
-*Suficiente* depende de la cantidad de dispositivos de pantalla AEM conectados y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi invitadas.
+** Suficiente depende de la cantidad de dispositivos de pantalla AEM conectados y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi invitadas.
 Tenga en cuenta que todos los dispositivos tienen un acceso simultáneo a la conexión a Internet y que el ancho de banda suele disminuir linealmente mientras se agregan más consumidores/equipos a la red.
 Además de la conexión de red teórica específica, hay que garantizar que la cobertura del router móvil sea al menos &quot;buena&quot;. Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda suficiente para atender a todos los clientes conectados dentro de la LAN conectada.
 
@@ -94,7 +94,7 @@ El rendimiento de la LAN, además de la accesibilidad de red ya descrita, tiene 
 
 Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
 
-En caso de que se prevea una solución Wi-Fi para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo estándares Wi-Fi modernos como IEEE 802.11g. Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *más reciente* como 802.11h-n es de mejor calidad. Si se requiere un repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de punto de acceso Wi-Fi de malla como Google Nest Mesh Wi-Fi o similar.
+En caso de que se prevea una solución Wi-Fi para conectar la pantalla a Internet Link, se recomienda utilizar como mínimo estándares Wi-Fi modernos como IEEE 802.11g. Este estándar admite conexiones de hasta 54 Mbps. Cualquier *nuevo* estándar como 802.11h-n es de mejor calidad. Si se requiere un repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de punto de acceso Wi-Fi de malla como Google Nest Mesh Wi-Fi o similar.
 
 ## Descarga de medios y recursos {#download}
 
