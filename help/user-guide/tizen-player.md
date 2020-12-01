@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
-1. Vaya a la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5 para descargar Tizen Player.
+1. Vaya a la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/) para descargar Tizen Player.
 
 1. Instale el archivo Tizen player (.zip) desde el equipo local.
 
@@ -40,13 +40,13 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
 
 1. Vaya a su dispositivo Samsung.
 
-1. Haga clic en el botón **Inicio** mediante el control remoto del dispositivo y seleccione Configuración **del iniciador de** URL.
+1. Haga clic en el botón **Inicio** mediante el control remoto del dispositivo y seleccione **Configuración del iniciador de URL**.
 
 1. Introduzca la dirección IP de su servidor localhost.
 
-1. Seleccione **Remoto** en el modo **de desarrollador**.
+1. Seleccione **Remoto** en el **Modo de desarrollador**.
 
-1. Haga clic en el botón **Inicio** del dispositivo remoto y seleccione Iniciador **de** URL.
+1. Haga clic en el botón **Inicio** desde el dispositivo remoto y seleccione **Iniciador de URL**.
 
 1. Ahora, AEM Screens Player debe instalar e iniciar automáticamente en el dispositivo Samsung.
 
