@@ -39,7 +39,7 @@ Se recomiendan las siguientes consideraciones mecánicas:
 * administración de cables
 * red de dispositivos
 
-## 2. Consideraciones sobre el software {#software-considerations}
+## 2. Consideraciones de software {#software-considerations}
 
 Se recomiendan las siguientes consideraciones de software:
 
@@ -49,11 +49,11 @@ Se recomiendan las siguientes consideraciones de software:
 * dependencias de base de datos (definidas previamente)
 
 
-## 3. Consideraciones sobre la administración de dispositivos {#device-management-considerations}
+## 3. Consideraciones de administración de dispositivos {#device-management-considerations}
 
 AEM Screens incluye un módulo de Device Control Center que permite la administración de los puntos finales de la aplicación del reproductor de pantallas.
 
-Esto se refiere a cualquier dispositivo de hardware de *reproductor* que tenga instalada la aplicación de reproductor de Screens y esté registrado en una instancia de AEM.
+Esto hace referencia a cualquier dispositivo de hardware *reproductor* que tenga instalada la aplicación de reproductor de Pantallas y esté registrado en una instancia de AEM.
 Este módulo le permite:
 
 1. Monitorear registros de errores de la aplicación del reproductor
@@ -61,7 +61,7 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de la aplicación
 
-Para obtener información detallada sobre el Centro ***de control de*** dispositivos, consulte [Resolución de problemas del centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de control de dispositivos en la Guía **del usuario de** AEM Screens.
+Para obtener información detallada sobre ***Device Control Center***, consulte [Resolución de problemas del Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) en **Guía del usuario de AEM Screens**.
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ Para obtener información detallada sobre el Centro ***de control de*** disposit
 >
 > Adobe recomienda que las plataformas de administración de dispositivos de terceros dedicadas se utilicen en todas las implementaciones.
 
-La plataforma específica elegida depende de una serie de factores, incluidos el sistema ***operativo*** destinatario, los requisitos ***de*** proyecto y el ***número de puntos*** finales.
+La plataforma específica elegida depende de una serie de factores, como el ***sistema operativo destinatario***, los ***requisitos del proyecto*** y el ***número de puntos finales***.
 
 Algunos ejemplos son:
 
 * Administración de dispositivos de Google Chrome
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42 engranajes
 * Portátil de integración de AV propietario
