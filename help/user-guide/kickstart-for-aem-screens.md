@@ -16,7 +16,7 @@ ht-degree: 5%
 El inicio rápido de AEM Screens muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos y/o vídeos a cada canal, y la posterior publicación del contenido en un reproductor de AEM Screens.
 
 >[!NOTE]
->Antes de comenzar a trabajar con los detalles del proyecto, asegúrese de haber instalado el último Feature Pack para AEM Screens. Puede descargar el paquete de funciones más reciente desde [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mediante su Adobe ID.
+>Antes de comenzar a trabajar con los detalles del proyecto, asegúrese de haber instalado el último Feature Pack para AEM Screens. Puede descargar el paquete de funciones más reciente desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID.
 
 ## Requisitos previos {#prerequisites}
 
@@ -28,34 +28,34 @@ Siga los pasos a continuación para crear un proyecto de muestra para AEM Screen
 >[!IMPORTANT]
 >**Configuración de OSGi**
 >Debe habilitar el remitente del reenvío vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad de remitente del reenvío vacía está deshabilitada, el dispositivo no puede publicar una captura de pantalla de nuevo. Actualmente, algunas de estas funciones solo están disponibles si el filtro Remitente del reenvío Sling de Apache Permitir vacío está habilitado en la configuración OSGi. El panel puede mostrar una advertencia de que la configuración de seguridad puede impedir que algunas de estas funciones funcionen.
->Siga los pasos a continuación para habilitar el filtro de Remitente del reenvío Sling de ***Apache para permitir que esté vacío***:
+>Siga los pasos a continuación para habilitar el ***filtro de Remitente del reenvío Sling de Apache para permitir que esté vacío***:
 
 
 ## Permitir solicitudes de Remitente del reenvío vacías {#allow-empty-referrer-requests}
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante AEM instancia —> icono de martillo —> **Operaciones** —> Consola **** web.
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager** mediante AEM instancia —> icono de martillo —> **Operaciones** —> **Consola web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. **Se abre la Configuración** de Adobe Experience Manager Web Console. Buscar remitente del reenvío sling.
+1. **Se abre la** configuración de la consola web de Adobe Experience Manager. Buscar remitente del reenvío sling.
 
-   Para buscar la propiedad de remitente del reenvío sling, pulse **Comando+F** para **Mac** y **Control+F** para **Windows**.
+   Para buscar la propiedad de remitente del reenvío sling, presione **Comando+F** para **Mac** y **Control+F** para **Windows**.
 
-1. Marque la opción **Permitir vacío** , como se muestra en la figura siguiente.
+1. Marque la opción **Permitir vacío**, como se muestra en la figura siguiente.
 
    ![image](assets/config/empty-ref2.png)
 
-1. Haga clic en **Guardar** para activar el filtro de Remitente del reenvío Sling de Apache Permitir vacío.
+1. Haga clic en **Guardar** para habilitar el filtro de Remitente del reenvío Sling de Apache para permitir que esté vacío.
 
 ## Creación de una experiencia de señalización digital en 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
-### Creating an AEM Screens Project {#creating-project}
+### Creación de un proyecto de AEM Screens {#creating-project}
 
 El primer paso es crear un proyecto de AEM Screens.
 
-1. Vaya a la instancia de Adobe Experience Manager (AEM) y haga clic en **Pantallas**. También puede desplazarse directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Vaya a la instancia de Adobe Experience Manager (AEM) y haga clic en **Pantallas**. También puede navegar directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Click **Create Screens Project** to create a new Screens project. Enter the title as **DemoScreens** and click **Save**.
+1. Haga clic en **Crear proyecto de pantallas** para crear un nuevo proyecto de pantallas. Escriba el título como **DemoScreens** y haga clic en **Guardar**.
 
    ![image](assets/kickstart/demo-1.png)
 
@@ -68,30 +68,30 @@ Una vez creado el proyecto de AEM Screens, debe crear un nuevo canal en el que a
 
 Siga los pasos a continuación para crear un nuevo canal para su proyecto:
 
-1. Una vez creado un proyecto, seleccione el proyecto **DemoScreens** y seleccione la carpeta **Canales** , como se muestra en la figura siguiente. Click **+ Create** from the action bar.
+1. Una vez creado un proyecto, seleccione el proyecto **DemoScreens** y seleccione la carpeta **Canales**, como se muestra en la figura siguiente. Haga clic en **+ Crear** en la barra de acciones.
 
    ![image](assets/kickstart/demo-2.png)
 
-1. Elija el Canal **** Secuencia en el asistente y haga clic en **Siguiente**.
+1. Elija el **Canal de secuencia** del asistente y haga clic en **Siguiente**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as **TestChannel** and click **Create**.
+1. Escriba el **Título** como **TestChannel** y haga clic en **Crear**.
 
    ![image](assets/kickstart/demo-4.png)
 
-   Ahora, **TestChannel** se agrega a la carpeta de canales, como se muestra en la figura siguiente.
+   El **TestChannel** ahora se agrega a la carpeta de canales, como se muestra en la figura siguiente.
 
    ![image](assets/kickstart/demo-5.png)
 
-### Adding Content to a Channel {#adding-content}
+### Añadir contenido a un Canal {#adding-content}
 
 Una vez que haya colocado el canal, debe agregar contenido al canal que mostrará AEM Screens Player.
 
 Siga los pasos a continuación para agregar contenido al canal (**TestChannel**) de su proyecto:
 
-1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
+1. Vaya a **DemoProject** que ha creado y seleccione **TestChannel** en la carpeta **Canales**.
 
-1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
+1. Haga clic en **Editar** en la barra de acciones (ver la figura a continuación). Se abre el editor para **TestChannel**.
 
    ![image](assets/kickstart/demo-6.png)
 
@@ -110,23 +110,23 @@ Una vez que haya colocado el canal, debe crear una ubicación.
 
 Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 
-1. Navigate to the **DemoProject** you created and select the **Locations** folder.
+1. Vaya a la carpeta **DemoProject** que ha creado y seleccione la carpeta **Ubicaciones**.
 
-1. Click **+ Create** from the action bar.
+1. Haga clic en **+ Crear** en la barra de acciones.
 
-1. Select **Location** from the wizard and click **Next**.
+1. Seleccione **Ubicación** en el asistente y haga clic en **Siguiente**.
 
-1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**.
+1. Escriba el **Nombre** de la ubicación (escriba el título como **TestLocation**) y haga clic en **Crear**.
 
-Se crea **TestLocation** y se agrega a la carpeta **Locations** .
+Se crea **TestLocation** y se agrega a su carpeta **Ubicaciones**.
 
 
-### Creación de una visualización para una ubicación {#creating-display}
+### Creación de una visualización para la ubicación {#creating-display}
 
 Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la ubicación.
 
 >[!NOTE]
->***La visualización*** representa la experiencia digital que se ejecuta en una o varias pantallas.
+>***Display*** representa la experiencia digital que se ejecuta en una o varias pantallas.
 
 1. Vaya a **TestLocation** y selecciónelo.
 
@@ -134,51 +134,51 @@ Una vez que haya creado una ubicación, deberá crear una nueva pantalla para la
 
    ![image](assets/kickstart/demo-disp1.png)
 
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. Seleccione **Mostrar** en el asistente **Crear** y haga clic en **Siguiente**.
 
    ![image](assets/kickstart/demo-disp2.png)
 
-1. Enter the **Title** as **LobbyDisplay** and click **Create**.
+1. Introduzca el **Título** como **Pantalla de vestíbulo** y haga clic en **Crear**.
 
    ![image](assets/kickstart/demo-disp3.png)
 
-   Ahora se agrega una nueva pantalla titulada **TestDisplay** a su ubicación **TestLocation**, como se muestra en la figura siguiente.
+   Ahora se agrega una nueva visualización titulada **TestDisplay** a su ubicación **TestLocation**, como se muestra en la figura siguiente.
 
    ![image](assets/kickstart/demo-disp4.png)
 
-### Assigning a Channel {#assigning-channel}
+### Asignación de un Canal {#assigning-channel}
 
 Una vez que se haya completado la configuración del proyecto, debe asignar el canal a una pantalla para vista del contenido.
 
-1. Vaya a la pantalla requerida desde **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
+1. Vaya a la pantalla requerida desde **DemoScreens** —> **Ubicaciones** —> **TestLocation** —> **Pantalla de vestíbulo**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Toque o haga clic **Asignar Canal** desde la barra de acciones.
 
    ![image](assets/kickstart/demo-assign1.png)
 
    O bien,
 
-   Toque o haga clic en **Panel** en la barra de acciones y haga clic en **+Asignar Canal** en el panel CANALES y PROGRAMAS **ASIGNADOS** .
+   Toque o haga clic **Panel** en la barra de acciones y haga clic en **+Asignar Canal** en el panel **CANALES y PROGRAMAS ASIGNADOS**.
 
    ![image](assets/kickstart/demo-assign2.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. Se abre el cuadro de diálogo **Asignación de Canal**.
 
-1. En la opción **Configuración** , elija el canal **por ruta** y los Eventos **** admitidos como Carga **** inicial y Pantalla **inactiva**.
+1. En la opción **Configuración**, elija el canal **por ruta** y **Eventos admitidos** como **Carga inicial** y **Pantalla inactiva**.
 
    >[!NOTE]
    >
-   >Los métodos **Función de** Canal, **Prioridad** e **** Interrupción se rellenan de forma predeterminada. Consulte la sección Propiedades del [Canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canales.
+   >La **Función de Canal**, **Prioridad** y **Métodos de interrupción** se rellenan de forma predeterminada. Consulte la sección [Propiedades de Canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
 
    ![image](assets/kickstart/demo-assign3.png)
 
-   Además, también puede seleccionar la Ventana **de** Activación y la Programación **de** periodicidad.
+   Además, también puede seleccionar la **Ventana de Activación** y **Programación de periodicidad**.
 
    >[!NOTE]
-   >La programación *de* periodicidad le permite establecer una programación recurrente para su canal. Puede configurar varios programas de periodicidad para un canal.
-   >Consulte Programación [de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más detalles.
+   >La *programación de periodicidad* le permite establecer una programación recurrente para su canal. Puede configurar varios programas de periodicidad para un canal.
+   >Consulte [Programación de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más detalles.
 
-1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
+1. Haga clic en **Guardar** una vez que haya configurado sus preferencias.
 
 ### Registro de un dispositivo y asignación de un dispositivo a una pantalla {#registering-device}
 
@@ -190,41 +190,41 @@ Debe registrar el dispositivo mediante el panel de AEM.
 >1. Haga clic [aquí](https://download.macromedia.com/screens/) para descargar la versión más reciente de Chrome Player.
 >1. Descomprima y guárdelo en el disco.
 >1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o navegue directamente a ***chrome://extensions***.
->1. Encienda el modo **de** desarrollador desde la esquina superior derecha.
+>1. Encienda el **modo de desarrollador** desde la esquina superior derecha.
 >1. Haga clic en **Cargar sin empaquetar** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
->1. Compruebe **AEM Screens Chrome Player** plugin si está disponible en la lista de extensiones.
->1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** en la esquina superior izquierda o navegue directamente a ***chrome://apps***.
->1. Haga clic en **AEM Screens** Plugin para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
+>1. Compruebe el complemento **AEM Screens Chrome Player** si está disponible en la lista de extensiones.
+>1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** desde la esquina superior izquierda, o bien navegue directamente a ***chrome://apps***.
+>1. Haga clic en **Complemento de AEM Screens** para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
 
 
 Una vez que el reproductor de Chrome OS esté activado, siga los pasos a continuación para registrar un dispositivo Chrome.
 
-1. Vaya a la carpeta **Dispositivos** del proyecto desde la instancia de AEM.
+1. Vaya a la carpeta **Devices** del proyecto desde la instancia de AEM.
 
-1. Tap/click the **Device Manager** from the action bar.
+1. Toque o haga clic en el **Administrador de dispositivos** desde la barra de acciones.
 
    ![image](assets/kickstart/demo-register1.png)
 
-1. Toque o haga clic en el Registro **del** dispositivo desde la parte superior derecha.
+1. Toque o haga clic en el **Registro del dispositivo** desde la parte superior derecha.
 
-1. Seleccione el dispositivo requerido y toque o haga clic en **Registrar dispositivo**.
+1. Seleccione el dispositivo requerido y toque/haga clic **Registrar dispositivo**.
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Espere a que el dispositivo envíe su código de registro y compruebe simultáneamente el código **de** registro en el dispositivo Chrome.
+1. Espere a que el dispositivo envíe su código de registro y compruebe simultáneamente el **Código de registro** desde el dispositivo Chrome.
    ![image](assets/kickstart/demo-register3.png)
 
-1. Si el código **de** registro es el mismo en ambos equipos, toque o haga clic en **Validar** en AEM.
+1. Si el **Código de registro** es el mismo en ambos equipos, toque o haga clic **Validar** en AEM.
 
-1. Defina el nombre que desee como **ChromeDeviceForDemo** para el dispositivo y haga clic en **Registrar**.
+1. Defina el nombre que desee como **ChromeDevice paraDemo** para el dispositivo y haga clic en **Registrar**.
 
    ![image](assets/kickstart/demo-register4.png)
 
-1. Haga clic en **Asignar visualización** en el cuadro de diálogo Registro correcto **del** dispositivo.
+1. Haga clic en **Asignar visualización** en el cuadro de diálogo **Registro del dispositivo correcto**.
 
    ![image](assets/kickstart/demo-register5.png)
 
-1. Seleccione la ruta de la pantalla como **DemoScreens** —> **Ubicaciones** —> **TestLocation** —> **Pantalla** del vestíbulo y haga clic en **Asignar**.
+1. Seleccione la ruta de la pantalla como **DemoScreens** —> **Ubicaciones** —> **TestLocation** —> **Pantalla de vestíbulo** y haga clic en **Asignar**.
 
    ![image](assets/kickstart/demo-device6.png)
 
@@ -232,7 +232,7 @@ Una vez que el reproductor de Chrome OS esté activado, siga los pasos a continu
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process. Debería poder realizar la vista del dispositivo registrado desde el panel de visualización.
+1. Toque o haga clic **Finalizar** para completar el proceso de registro. Debería poder realizar la vista del dispositivo registrado desde el panel de visualización.
 
    ![image](assets/kickstart/demo-register9.png)
 
