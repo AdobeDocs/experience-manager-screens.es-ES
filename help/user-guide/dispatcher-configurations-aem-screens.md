@@ -36,7 +36,7 @@ Siga los pasos a continuación para configurar el despachante de un proyecto de 
 
 ### Activación de sesiones adhesivas {#enable-sticky-session}
 
-Si desea utilizar más de una instancia de publicación con dispatcher, deberá actualizar el `dispatcher.any` archivo.
+Si desea utilizar más de una instancia de publicación con dispatcher, deberá actualizar el archivo `dispatcher.any`.
 
 ```xml
 /stickyConnections {
@@ -51,7 +51,7 @@ Si desea utilizar más de una instancia de publicación con dispatcher, deberá 
 
 ### Paso 1: Configuración de encabezados de cliente {#step-configuring-client-headers}
 
-Añada lo siguiente a la `/clientheaders`sección:
+Añada lo siguiente a la sección `/clientheaders`:
 
 **X-Requested-With**
 
@@ -82,16 +82,16 @@ Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Paso 3: Desactivación de la caché del despachante {#step-disabling-dispatcher-cache}
+### Paso 3: Deshabilitando la caché de Dispatcher {#step-disabling-dispatcher-cache}
 
-Deshabilite el almacenamiento en caché del despachante para la ruta ****** de contenido/pantallas.
+Deshabilite el almacenamiento en caché del despachante para ***/ruta de contenido/pantallas***.
 
 Los reproductores de pantallas utilizan una sesión autenticada, por lo que el despachante no almacena en caché ninguna de las solicitudes de reproductores de pantallas para `channels/assets`.
 
 Para habilitar la caché de los recursos para que se proporcionen desde la caché del despachante, debe:
 
-* Añadir `/allowAuthorization 1` en la `/cache` sección
-* Añadir las siguientes reglas a la sección `/rules` de `/cache`
+* Añadir `/allowAuthorization 1` en la sección `/cache`
+* Añada las siguientes reglas a la sección `/rules` de `/cache`
 
 ```xml
 /0000
