@@ -32,6 +32,6 @@ Entre los productos principales que se pueden entregar en esta etapa se incluyen
 
 >[!NOTE]
 >
->Identifique lo antes posible los datos que serán necesarios para la aplicación y de dónde provienen. Si bien se realizará una exploración más profunda durante la implementación, dedique tiempo durante el *Día cero* a averiguar qué datos pretende utilizar el cliente, dónde se almacenan actualmente los datos y cómo puede acceder a ellos la aplicación que se está creando. Notificar al equipo de desarrollo con antelación los desafíos que puedan surgir ayudará a que la implementación se lleve a cabo con mayor fluidez.
+>Identifique lo antes posible los datos que serán necesarios para la aplicación y de dónde provienen. Aunque se realizará una exploración más profunda durante la implementación, dedique tiempo durante *Día cero* para averiguar qué datos se propone utilizar el cliente, dónde se almacenan actualmente esos datos y cómo se puede acceder a ellos mediante la aplicación que se está creando. Notificar al equipo de desarrollo con antelación los desafíos que puedan surgir ayudará a que la implementación se lleve a cabo con mayor fluidez.
 
-Consulte el tutorial en vídeo sobre [Consideraciones a medida que se programan](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) los proyectos para obtener más información.
+Consulte el tutorial de vídeo sobre [Consideraciones mientras los proyectos están programados](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obtener más información.
