@@ -18,9 +18,9 @@ Antes de sumergirse en las optimizaciones de implementación de AEM Screens, es 
 
 Esta sección proporciona recomendaciones sobre los principales elementos clave que son críticos antes de la implementación de un proyecto de AEM Screens.
 
-## Elementos clave de la publicidad dinámica {#key-elements}
+## Elementos clave en la publicidad dinámica {#key-elements}
 
-Los elementos *clave* de un proyecto de publicidad dinámica son:
+Los *elementos clave* de un proyecto de publicidad dinámica son:
 
 ![](/help/assets/Elements-Revised.png)
 
