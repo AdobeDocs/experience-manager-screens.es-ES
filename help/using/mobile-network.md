@@ -69,10 +69,10 @@ Como seguimiento, el Paquete de datos necesario debe ser al menos:
 
 
 >[!IMPORTANT]
->Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un aumento del tiempo de descarga, que se reflejará en los supuestos anteriores. Una red 4G con *buena* cobertura y datos *ilimitados* debe coincidir con las instalaciones más comunes de esta configuración de red.
+>Para la carga inicial de archivos multimedia, por ejemplo, mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un aumento del tiempo de descarga, que se reflejará en los supuestos anteriores. Una red 4G con *buena* cobertura y *ilimitada* datos debe coincidir con las instalaciones más comunes de esta configuración de red.
 
 >[!NOTE]
->Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor de AEM Screens. Si sólo hay una cobertura justa disponible en una ubicación específica, debe tener en cuenta el cambio de la configuración de red general a la red [móvil con enrutador de datos móvil y componentes](/help/using/mobile-network-router.md)de red activos.
+>Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor de AEM Screens. Si sólo hay una cobertura justa disponible en una ubicación específica, debe tener en cuenta cambiar la configuración de red general a [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).
 
 
 ### Red de área local {#lan-connection}
