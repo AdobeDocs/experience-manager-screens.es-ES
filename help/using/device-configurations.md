@@ -5,6 +5,9 @@ description: La página describe las especificaciones del dispositivo
 seo-description: La página describe las especificaciones del dispositivo
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >El accionista típico de esta actividad es un integrador A/V.
 
-Según la información recopilada durante el *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
+Según la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
 
-* ¿Cuál es la orientación, las dimensiones y la resolución de las pantallas utilizadas?
+* ¿Cuál es la orientación, las dimensiones y la resolución de las pantallas que se utilizan?
 
 * ¿Cuántas pantallas se instalan por ubicación y en qué configuración?
 
@@ -29,9 +32,9 @@ Según la información recopilada durante el *Día cero*, confirme la siguiente 
 
 * Si está ejecutando vídeos, asegúrese de comprender las especificaciones del dispositivo para que el contenido se muestre correctamente.
 
-* En base a las consideraciones ambientales anteriores, ¿es más adecuado el estado sólido o el almacenamiento en disco duro?
+* En base a las consideraciones ambientales anteriores, ¿es más apropiado el estado sólido o el almacenamiento del disco duro?
 
-* Determinar la cantidad de capacidad de almacenamiento que necesita y cuáles son los requerimientos de performance del almacenamiento de información. Algunos ejemplos:
+* Determinar la capacidad de almacenamiento que necesita y cuáles son los requisitos de rendimiento del almacenamiento. Algunos ejemplos:
    * ¿Tiene alguna consideración de almacenamiento especial (múltiples unidades, dispositivos de arranque vs. almacenamiento masivo)?
    * ¿Cuáles son los requisitos de capacidad de RAM?
 
