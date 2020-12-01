@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 # Guía del usuario de AEM Screens {#user-guide}
 
 + [Introducción a las pantallas](aem-screens-introduction.md)
-+ Información general y guía de inicio rápido {#overview}
++ Guía general y de inicio rápido {#overview}
    + [Guía de inicio rápido](kickstart-for-aem-screens.md)
    + [Guía de prácticas recomendadas de pantallas](https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html)
    + [Términos clave](screens-glossary.md)
@@ -43,13 +43,13 @@ ht-degree: 14%
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
-   + Author Publish {#author-publish}
+   + Publicación de autor {#author-publish}
       + [Descripción general de la arquitectura de creación y publicación](author-publish-architecture-overview.md)
       + [Configuración del autor y la publicación](author-and-publish.md)
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Creación y ejemplos de casos de uso {#authoring}
++ Ejemplos de casos de uso y creación {#authoring}
    + Configuración de un proyecto de pantallas {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Crear y administrar canales](managing-channels.md)
