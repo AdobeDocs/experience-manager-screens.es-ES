@@ -22,7 +22,7 @@ AEM Screens oferta la capacidad de capturar localmente todos los eventos rastrea
 
 Existen dos razones fundamentales por las que es posible que deseemos capturar estos datos.
 
-El primero se refiere a **circuitos de retroalimentación y aprendizaje** automático, mientras que el segundo se refiere a la **creación de gráficos, paneles e informes** destinados al consumo humano.
+La primera implica **bucles de retroalimentación y aprendizaje automático** mientras que la segunda implica la **creación de gráficos, paneles e informes** que están destinados al consumo humano.
 
 En el caso de uso del bucle de retroalimentación, no nos preocupan los informes o paneles visuales, sino que queremos definir reglas en las que AEM ejecutar para la modificación de contenido. Al consumir y procesar todos los datos de evento del reproductor de Pantallas desde un período de tiempo determinado, podemos definir una regla que evalúe la efectividad de image1 frente a image2. Al combinar los datos de ventas con los datos de reproducción, AEM puede determinar que image1 tiene un impacto muy bueno en las ventas e indicar automáticamente a todos los reproductores que utilicen image1.
 
