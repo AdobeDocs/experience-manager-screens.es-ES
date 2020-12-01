@@ -28,13 +28,13 @@ AEM componentes se utilizan para mantener, dar formato y procesar el contenido d
 
 ## Creación de Canales {#authoring-channels}
 
-El canal es el objeto central del contenido enviado a un conjunto de pantallas. Por lo tanto, un autor de contenido generalmente abre un canal en el editor para agregar o modificar contenido. Dado que el Canal es ***cq:Page*** , seguirá el mismo patrón UX tradicional para agregar y cambiar componentes en el canal.
+El canal es el objeto central del contenido enviado a un conjunto de pantallas. Por lo tanto, un autor de contenido generalmente abre un canal en el editor para agregar o modificar contenido. Dado que el Canal es ***cq:Page***, seguirá el mismo patrón UX tradicional para agregar y cambiar componentes en el canal.
 
 Sin embargo, como los componentes de un canal suelen representarse a pantalla completa, la experiencia de creación se verá afectada al intentar editar componentes únicos o al componer nuevos pedidos. Por lo tanto, el canal recurrirá a los selectores para presentar distintas vistas de los componentes. El entorno de creación aprovechará el selector de edición para activar el procesamiento de canales personalizado.
 
 Por ejemplo, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-El usuario no tiene que preocuparse de agregar el selector a la URL mientras edita. Una lógica del lado del cliente está escuchando el evento del conmutador de capas y agrega el selector si un canal tiene el tipo de recurso dedicado *pantallas/núcleo/componentes/canal.*
+El usuario no tiene que preocuparse de agregar el selector a la URL mientras edita. Una lógica de cliente está escuchando el evento del conmutador de capas y agrega el selector si un canal tiene el tipo de recurso dedicado *pantallas/núcleo/componentes/canal.*
 
 ## Representación de componentes {#rendering-components}
 
@@ -55,5 +55,5 @@ Los componentes integrados aprovechan las siguientes categorías de biblioteca d
 
 >[!NOTE]
 >
->Para desarrollar componentes personalizados, utilice la plantilla[***](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)AEM Screens de componentes de muestra***.
+>Para desarrollar componentes personalizados, utilice la plantilla de componente de muestra de AEM Screens ***[a1/>***.](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)
 
