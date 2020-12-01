@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# Compatibilidad con postinicio {#post-launch-support}
+# Compatibilidad con poslanzamiento {#post-launch-support}
 
 
 No se debe pasar por alto la compatibilidad posterior al inicio en las primeras etapas.
@@ -31,7 +31,7 @@ Además, para prepararse para el éxito a largo plazo, es primordial establecer 
 >
 >Debe definir los parámetros operativos incluidos en los presupuestos operativos con antelación, así como alinear las responsabilidades con el implementador de AEM y el integrador de AV.
 >
->* ¿La implementación es una red de publicidad con muchos interesados y asociada a una red monetizada? Esto puede requerir plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+>* ¿Es la implementación una red de publicidad con muchos interesados conectados a una red monetizada?  Esto puede imponer plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
 >* ¿Es la aplicación altamente visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
 >* ¿La aplicación es crítica para las operaciones comerciales, como los tableros de menús en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
 
@@ -40,7 +40,7 @@ Además, para prepararse para el éxito a largo plazo, es primordial establecer 
 
 A continuación se indican algunas consideraciones y preguntas que le ayudan a definir la compatibilidad posterior al inicio:
 
-1. ¿La implementación es una red de publicidad con muchos interesados y asociada a una red monetizada? Esto puede requerir plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+1. ¿Es la implementación una red de publicidad con muchos interesados conectados a una red monetizada?  Esto puede imponer plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
  
    >[!NOTE]
    >
