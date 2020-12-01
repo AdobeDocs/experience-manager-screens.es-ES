@@ -21,7 +21,7 @@ Esta sección resalta cómo habilitar la segmentación en los canales.
 
 ## Requisitos previos {#prereqs}
 
-Antes de seguir los pasos a continuación para habilitar la segmentación en canales, debe conocer los términos [clave en Configuración en AEM Screens](configuring-context-hub.md) necesarios para comprender ContextHub y Targeting en AEM Screens.
+Antes de seguir los pasos a continuación para habilitar la segmentación en canales, debe conocer los [Términos clave en Configuración en AEM Screens](configuring-context-hub.md) requeridos para comprender ContextHub y Targeting en AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -38,21 +38,21 @@ Una vez que haya completado los pasos anteriores, estará listo para habilitar l
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## Habilitar la determinación de objetivos en un Canal de AEM Screens {#enabling-targeting}
+## Habilitar el objetivo en un Canal de AEM Screens {#enabling-targeting}
 
 Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
 1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenRetail** *(canal de secuencia)* creado en un Canal de AEM Screens.
 
-1. Seleccione canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
+1. Seleccione el canal **DataDrivenRetail** y haga clic en **Propiedades** en la barra de acciones.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Seleccione la ficha **Personalización** para configurar las configuraciones de ContextHub y seleccione la ruta de ContextHub y Segments.
 
-   1. Seleccione la Ruta **de** ContextHub como **bibliotecas** > **configuración** > **configuración** de nube > **predeterminada** **** ****> Configuraciones de ContextHub y haga clic enSeleccionar.
+   1. Seleccione la **ruta de ContextHub** como **configuración** > **configuración** > **configuración de nube** > **predeterminada** > **Configuraciones de ContextHub** y haga clic en **Seleccione**.
 
-   1. Seleccione la Ruta **de** segmentos como **conf** > **We.Retail** > **configuración** > **wcm** **** ****> segmentosy haga clic en Seleccionar.
+   1. Seleccione la **Ruta de segmentos** como **conf** > **We.Retail** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar&lt;a11 3/>.**
 
    1. Haga clic en **Guardar y cerrar**.
    >[!NOTE]
@@ -65,13 +65,13 @@ Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
    >[!NOTE]
    >
-   >Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+   >Si ha configurado todo correctamente, verá la opción **Objetivo** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
 1. Haga clic en **Objetivo**.
 
-1. Seleccione **Marca** y la **Actividad** en el menú desplegable y haga clic en Objetivo de **Inicio**.
+1. Seleccione **Marca** y la **Actividad** en el menú desplegable y haga clic en **Objetivo de Inicio**.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
