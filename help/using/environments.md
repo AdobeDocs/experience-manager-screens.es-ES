@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Entornos {#environments}
 
-Determine de antemano qué entornos de AEM tiene y espera que utilice el cliente, tanto para *desarrollo* como para *implementación*.
+Determine de antemano qué entornos de AEM tiene el cliente y qué espera que utilice, tanto para *desarrollo* como para *implementación*.
 
 >[!NOTE]
 >
