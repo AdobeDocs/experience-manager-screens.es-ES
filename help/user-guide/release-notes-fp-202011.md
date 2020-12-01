@@ -2,10 +2,10 @@
 title: Notas de la versión de Feature Pack 202011
 description: La página describe las Notas de la versión de Feature Pack 2011.
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,13 +30,13 @@ La fecha de versión de AEM Screens Feature Pack 202011 es el 30 de noviembre de
 * **Informe de asignación de contenido**
 
    La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *informe de asignación de contenido* que podría tener formato de hoja de cálculo.
-Consulte **Informe de asignación de contenido** para obtener más detalles.
+Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más detalles.
 
 
 * **Tizen Player**
 
    Se ha introducido un nuevo reproductor denominado Tizen Player con el último paquete de funciones de la versión 6.5.6 de AEM Screens.
-Consulte **Implementación de Tizen Player** para obtener más detalles.
+Consulte [Implementación de Tizen Player](/help/user-guide/tizen-player.md) para obtener más detalles.
 
 * **Funcionalidad de búsqueda desde el Administrador de dispositivos**
 
@@ -46,17 +46,15 @@ Consulte **Implementación de Tizen Player** para obtener más detalles.
 
    El intervalo de ping predeterminado ahora está establecido en 30 segundos para esta versión.
 
-### Problemas y correcciones conocidos {#known-issues}
-
-
-
 ### Reproductores de AEM Screens lanzados {#released-aem-screens-players}
 
-Se lanzan los siguientes reproductores de AEM Screens para AEM Screens
+Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feature Pack 6:
 
 * Chrome OS
 * Windows
 * Android
+* Tizen
+* Linux
 
 #### Descargas de AEM Screens Player {#aem-screens-player-downloads}
 
