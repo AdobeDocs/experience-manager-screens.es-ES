@@ -25,37 +25,37 @@ Antes de utilizar esta función, asegúrese de configurar un proyecto como requi
 
 1. Crear un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**)
 
-1. Creación de un canal de secuencia como **PlayBackChannel** en la carpeta **Canales**
+1. Cree un canal de secuencia como **PlayBackChannel** en la carpeta **Canales**
 
 1. Añadir contenido a **PlayBackChannel**
 
    ![activos](assets/image_playback1.png)
 
-   Por ejemplo, la siguiente imagen muestra las imágenes agregadas al editor **PlayBackChannel** :
+   Por ejemplo, la siguiente imagen muestra las imágenes agregadas al editor **PlayBackChannel**:
 
    ![activos](assets/image_playback2.png)
 
 ## Edición de la asignación de duración de reproducción de imágenes de nivel de proyecto {#editing-project-level-image-playback-duration-assignment}
 
-En la sección siguiente se explica cómo editar la duración de la reproducción de contenido en un proyecto de AEM Screens.
+En la sección siguiente se explica cómo editar la duración de reproducción del contenido en un proyecto de AEM Screens.
 
 ### Actualización de la duración de reproducción de imágenes a nivel de proyecto {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
 >
->Si desea actualizar la duración de una reproducción de imagen o canal, consulte Duración [de reproducción de imagen a nivel de](channel-level-image-playback.md)Canal.
+>Si desea actualizar la duración de una reproducción de imagen o canal, consulte [Duración de reproducción de imagen a nivel de Canal](channel-level-image-playback.md).
 
 Siga los pasos a continuación para aprender a actualizar la duración de la reproducción de imágenes en el nivel de proyecto:
 
-1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
+1. Vaya a su proyecto **ProjectLevelPlayback** y haga clic en **Propiedades** en la barra de acciones.
    ![activos](assets/image_playback3.png)
 
 1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa de la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de Canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Se abre el cuadro de diálogo Página** .
+1. **Se abre el cuadro de diálogo** Pagedio.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de la rep
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite la **duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
+   Edite la **Duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
