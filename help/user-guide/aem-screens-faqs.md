@@ -6,15 +6,15 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 2%
+source-wordcount: '1542'
+ht-degree: 1%
 
 ---
 
 
-# Preguntas más frecuentes sobre AEM Screens {#aem-screens-faqs}
+# Preguntas más frecuentes de AEM Screens {#aem-screens-faqs}
 
 La siguiente sección proporciona respuestas a algunas de las preguntas más frecuentes más frecuentes relacionadas con un proyecto de AEM Screens.
 
@@ -26,7 +26,7 @@ Un ***canal en línea*** mostrará el contenido actualizado en el entorno en tie
 
 ### 2. ¿Cómo hago un canal en línea? {#how-do-i-make-a-channel-online}
 
-Seleccione el canal y vaya a las propiedades del canal desde la barra de acciones. Marque el modo **de desarrollador (forzar el canal a estar en línea)** en la ficha **Canal** para que el canal esté en línea.
+Seleccione el canal y vaya a las propiedades del canal desde la barra de acciones. Seleccione **Modo de desarrollador (forzar el canal a estar en línea)** en la ficha **Canal** para que el canal esté en línea.
 
 ### 3. ¿Cuál es el uso del campo Función de Canal? {#what-is-the-use-of-the-channel-role-field}
 
@@ -34,9 +34,9 @@ La función de Canal es la abstracción del canal real que se ejecuta para que e
 
 ### 4. ¿Cómo se produce la resolución real del canal? {#how-does-actual-channel-resolution-happen}
 
-Para las referencias ** estáticas, la resolución simplemente sigue la ruta especificada.
+Para *referencias estáticas*, la resolución simplemente sigue la ruta especificada.
 
-En el caso de las referencias ** dinámicas, la resolución se produce una vez que el canal está asignado a la pantalla (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
+Para *referencias dinámicas*, la resolución se produce una vez que el canal se asigna a la visualización (no a la programación). La ruta de visualización se convierte en el contexto del canal y la resolución se produce de la siguiente manera (de la prioridad más alta a la más baja):
 
 1. La pantalla tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 1. La pantalla tiene un nodo del mismo nivel que coincide con el nombre del canal al que se hace referencia
@@ -61,7 +61,7 @@ Se recomienda obtener el ID del dispositivo de la sesión en lugar de pasarlo co
 
 ### 3. ¿Existe alguna forma de rechazar una solicitud de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
-No puede rechazar las solicitudes de registro. En su lugar, las solicitudes de registro deben caducar después de un tiempo de espera configurado en la consola [web de](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl)Adobe Experience Manager. De forma predeterminada, este valor se establece en un día y se almacena en una caché de memoria.
+No puede rechazar las solicitudes de registro. En su lugar, las solicitudes de registro deben caducar después de un tiempo de espera configurado en [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). De forma predeterminada, este valor se establece en un día y se almacena en una caché de memoria.
 
 ## Informes de estado y supervisión de dispositivos {#device-monitoring-and-health-reports}
 
@@ -77,8 +77,8 @@ Compruebe las siguientes posibilidades para solucionar el problema de la pantall
 
 Debe activar el filtro Remitente del reenvío Sling de Apache para permitir que esté vacío. Esto es necesario para el funcionamiento óptimo del protocolo de control entre AEM Screens Player y el servidor AEM Screens.
 
-1. Vaya a Configuración de la consola web de **Adobe Experience Manager**
-1. Marque la opción **allow.empty** .
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager**
+1. Marque la opción **allow.empty**.
 1. Haga clic en **Guardar**.
 
 ### 3. ¿Cómo solucionar problemas si al registrar un reproductor de AEM Screens, el dispositivo muestra FALLO y los registros de la consola muestran el error ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
@@ -89,13 +89,13 @@ Este problema puede producirse si el reproductor no puede encontrar el DNS del s
 
 Un organismo de control de Android multiplataforma que utiliza API de Android puras ya forma parte del paquete. No se necesita ningún software adicional, pero en función del dispositivo que utilice, es posible que tenga que renunciar al apk para obtener privilegios del sistema para un ciclo de alimentación completo (PowerManager api). Si no se renuncia usando las claves del fabricante, se cerrará y reiniciará la aplicación pero no el ciclo de alimentación.
 
-Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación de dicho Reproductor**](implementing-android-player.md).
+Para obtener más información acerca de cómo implementar el Reproductor de Android, consulte [**Implementación del Reproductor de Android**](implementing-android-player.md).
 
 ### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomienda Adobe/AMS para monitorear cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 En función de lo que desee de la supervisión y las alertas, un nuevo servicio de notificaciones de AEM Screens le notifica si un dispositivo no ha pasado un tiempo por el ping. Las herramientas de terceros dependerán del sistema operativo (SO), sus capacidades y las necesidades específicas del cliente.
 
-Para obtener más información acerca de dónde puede supervisar la actividad de dispositivos, consulte el servicio [**de notificaciones de**](screens-notifications-service.md) AEM Screens.
+Para obtener más información sobre dónde puede supervisar la actividad de dispositivos, consulte [**Servicio de notificaciones de AEM Screens**](screens-notifications-service.md).
 
 ## Reproductor de AEM Screens {#aem-screens-player}
 
@@ -106,23 +106,23 @@ El reproductor ChromeOS se puede instalar como complemento Chrome Browser en el 
 1. Haga clic [aquí](https://download.macromedia.com/screens/) para descargar la versión más reciente de Chrome Player.
 1. Descomprima y guárdelo en el disco.
 1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o navegue directamente a ***chrome://extensions***.
-1. Encienda el modo **de** desarrollador desde la esquina superior derecha.
+1. Encienda el **modo de desarrollador** desde la esquina superior derecha.
 1. Haga clic en **Cargar sin empaquetar** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
-1. Compruebe **AEM Screens Chrome Player** plugin si está disponible en la lista de extensiones.
-1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** en la esquina superior izquierda o navegue directamente a ***chrome://apps***.
-1. Haga clic en **AEM Screens** Plugin para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
+1. Compruebe el complemento **AEM Screens Chrome Player** si está disponible en la lista de extensiones.
+1. Abra una nueva ficha y haga clic en el icono **Aplicaciones** desde la esquina superior izquierda, o bien navegue directamente a ***chrome://apps***.
+1. Haga clic en **Complemento de AEM Screens** para iniciar Chrome Player. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
 
 ### 2. ¿Cómo solucionar problemas si el reproductor de Pantallas no puede autenticarse mediante la instancia de publicación con un controlador de error personalizado? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Cuando AEM Screens Player inicio, realiza una solicitud a ***/content/screens/svc.ping.json***, cuando el reproductor recibe un error 404. El reproductor inicia una solicitud de autenticación para autenticarse con la instancia de publicación. Si hay un controlador de error personalizado en la instancia de publicación, asegúrese de devolver el código de estado 404 para un usuario anónimo en ***/content/screens/svc.ping.json***.
+Cuando el reproductor de AEM Screens inicio, realiza una solicitud a ***/content/screens/svc.ping.json***, cuando el reproductor recibe un error 404. El reproductor inicia una solicitud de autenticación para autenticarse con la instancia de publicación. Si hay un controlador de error personalizado en la instancia de publicación, asegúrese de devolver el código de estado 404 para un usuario anónimo en ***/content/screens/svc.ping.json***.
 
 ### 3. ¿Cómo configurar la permanencia de la pantalla del dispositivo en un reproductor de Android? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Siga los pasos a continuación para activar Permanecer despierto en cualquier reproductor de Android:
 
 1. Vaya a la configuración del reproductor de Android —> **Acerca de**
-1. Toque 7 veces en el número de compilación para habilitar las opciones **de** desarrollador en **Configuración**
-1. Vaya a Opciones **de desarrollador**
+1. Toque 7 veces en el número de compilación para habilitar **Opciones de desarrollador** en **Configuración**
+1. Vaya a **Opciones de desarrollador**
 1. Habilitar **Permanecer despierto**
 
 ### 4. ¿Cómo habilitar el modo de ventana para el reproductor de Windows?{#enable-player}
@@ -133,15 +133,15 @@ No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de 
 
 Siga los pasos a continuación para solucionar problemas de un reproductor de AEM Screens que envía continuamente solicitudes a `/content/screens/svc.json` y `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Cuando el reproductor de AEM Screens inicio, se lo solicita `/content/screens/svc.json`. Cuando el reproductor obtiene un código de estado 404 en la respuesta, inicia una solicitud de autenticación usando `/libs/granite/core/content/login.validate/j_security_check` la instancia de *publicación* . Si hay un controlador de error personalizado en la instancia de *publicación* , asegúrese de devolver el código de estado 404 para el usuario anónimo on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. Cuando el reproductor de AEM Screens inicio, solicita `/content/screens/svc.json`. Cuando el reproductor obtiene un código de estado 404 en la respuesta, inicia una solicitud de autenticación mediante `/libs/granite/core/content/login.validate/j_security_check` en la instancia *publish*. Si hay un controlador de error personalizado en la instancia *publish*, asegúrese de devolver el código de estado 404 para el usuario anónimo en `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
-1. Compruebe si la configuración del despachante permite estas solicitudes en el `/filters`.
+1. Compruebe si la configuración del despachante permite estas solicitudes en `/filters`.
 
-   Consulte [Configuración de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de pantalla para obtener más información.
+   Consulte [Configuración de Filtros de pantalla](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) para obtener más información.
 
 1. Compruebe si las reglas de reescritura del despachante están reescribiendo cualquiera de las rutas de pantallas a una ruta diferente.
 
-1. Compruebe si tiene `/etc/map` reglas en la instancia de *autor* o de *publicación* y si las rutas de pantallas coinciden `sling:match` y se redirigen internamente a una ruta diferente. La resolución de la dirección URL exacta `/system/console/jcrresolver` ayuda a identificar si la instancia de *publicación* está reescribiendo estas direcciones URL en cualquier otra ruta.
+1. Compruebe si tiene `/etc/map` reglas en la instancia *de* o *publicación* y si las rutas de pantallas coinciden con `sling:match` y se redirigen internamente a una ruta diferente. La resolución de la dirección URL exacta en `/system/console/jcrresolver` ayuda a identificar si la instancia *publish* está reescribiendo estas direcciones URL en cualquier otra ruta.
 
 1. Compruebe si la configuración de Apache Sling Resource Resolver Factory está causando reescrituras internas.
 
@@ -159,7 +159,15 @@ Para deshabilitar Livefyre para evitar errores de registro:
 
 1. ***Deshabilitar el sondeo de Livefyre:***
 
-   * En CRXDE Lite, navegue hasta `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Añadir una nueva propiedad *habilitada* tipo *Boolean*
-   * Establecer la propiedad **** enabled en **false**
+   * En CRXDE Lite, navegue a `/etc/importers/polling/livefyre-poller/jcr:content`
+   * Añadir una nueva propiedad *enabled* tipo *Boolean*
+   * Establezca **propiedad habilitada** en **false**
+
+### 2. ¿Cómo Añadir la información del índice Oak? {#add-oak-index-info}
+
+AEM Screens crea definiciones de índice para las consultas utilizadas por el producto.
+Si hay alguna *ADVERTENCIA de Consulta Traversal* en la `error.log`, cree un índice personalizado para su consulta. Consulte [Configuración de los índices](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) para obtener más detalles.
+
+También puede consultar un recurso adicional en [Documentación de Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
 
