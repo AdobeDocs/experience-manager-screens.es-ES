@@ -26,7 +26,7 @@ El diagrama a continuación muestra las funciones a las que nos referiremos en t
 >
 > Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
 
-## Definición de funciones {#roles}
+## Definición de roles {#roles}
 
 La siguiente sección proporciona información general sobre la audiencia de destinatario:
 
@@ -48,7 +48,7 @@ El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocu
 
 Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
 
-#### Consideración de un socio de hardware {#selecting-hardware-partner}
+#### Consideración del socio de hardware {#selecting-hardware-partner}
 
 Es fundamental seleccionar el socio de hardware adecuado. Deben tenerse en cuenta las siguientes cuestiones:
 
@@ -84,7 +84,7 @@ Los jefes de proyecto generalmente administran la implementación completa para 
 
 >[!NOTE]
 >
->Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite Funciones y responsabilidades **[del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite **[Funciones y responsabilidades del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Etapas del proyecto {#project-stages}
@@ -93,13 +93,13 @@ Para apoyar una implementación exitosa de Digital Signage, es habitual segmenta
 
 1. La primera etapa se denomina *Día cero*. Esta etapa incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir completamente el alcance del proyecto.
 1. La segunda etapa, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de implementación.
-1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y a los elementos de apoyo como parte de la solución total.
+1. La tercera y última etapa *Día dos* se refiere a todas las operaciones en curso y a todos los elementos de soporte como parte de la solución total.
 
 >[!NOTE]
 >
 >Aunque esta guía pone énfasis principalmente en el *Día uno* y el *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
 >
->Siga un vídeo adicional sobre Administración **[de proyectos e Implementación](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de proyectos.
+>Siga un vídeo adicional sobre **[Administración e implementación de proyectos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para obtener más información sobre la preproducción de proyectos, el inicio de proyectos y la progresión de los mismos.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -121,7 +121,7 @@ A continuación se muestra un gráfico RACI de muestra con las definiciones de f
 
 El siguiente es un gráfico RACI de muestra que utiliza las definiciones de funciones y proporciona un ejemplo de tareas y consideraciones comunes en un proyecto de AEM Screens.
 
-La siguiente tabla resume el **Día cero: Consideraciones** previas a la venta:
+La siguiente tabla resume el **Día cero: Consideraciones previas a la venta**:
 
 | **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
@@ -153,7 +153,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 | Plan de transición piloto-producción | RA | RA | I | I |
 | Transferencia de conocimientos | RA | RA | I | I |
 
-La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación para el comercio minorista)**:
+La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación comercial)**:
 
 | **Fase** | **Integrador A/V** | **AEM implementador** | **Estrategia comercial** | **Administración de contenido** |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 
 * **Técnico**: Ya sea contratado por el integrador AV o es parte de la misma compañía.
 
-La siguiente tabla resume el **Día dos: Gráfico** RACI de compatibilidad con postinicio:
+La siguiente tabla resume el **Día dos: Post Launch Support RACI Chart**:
 
 | **Fase** | **Autor** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
