@@ -53,7 +53,7 @@ La configuración de red corporativa adjunta puede separarse lógicamente en dos
 ### Red de área amplia {#wan-connection}
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, tiene que proporcionar un ancho de banda suficiente para que el contenido de AEM Screens se actualice sin problemas.
-*El ancho de banda* suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi invitadas.
+*El ancho de* banda suficiente depende de la cantidad de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi invitadas.
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ La red LAN dentro de las organizaciones corporativas es generalmente de al menos
 
 Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por la especificación de acceso a Internet/enrutador.
 
-### Otros aspectos específicos de las redes corporativas {#other-networks}
+### Otras redes corporativas específicas {#other-networks}
 
 Las redes corporativas tienen una serie de dispositivos conectados, están separados en varias subredes y tienen conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para miles de accesos simultáneos.
 Este esquema se simplifica y se adapta a la mayoría de los casos a los entornos disponibles para el cliente.
 
-En caso de que se prevea una solución Wi-Fi para conectar Pantallas a Internet Link, se recomienda usar como mínimo estándares de Wi-Fi modernos `IEEE 802.11g` . Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad. Si se requiere un Repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de puntos de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similar.
+En caso de que se prevea una solución Wi-Fi para conectar Pantallas a Internet Link, se recomienda utilizar como mínimo estándares Wi-Fi modernos como `IEEE 802.11g`. Este estándar admite conexiones de hasta 54 Mbps. Cualquier *nuevo* estándar como `802.11h-n` es de mejor calidad. Si se requiere un Repetidor Wi-Fi, recomendamos encarecidamente las tecnologías de puntos de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similar.
 Otras tecnologías de repetición Wi-Fi acaban en una pérdida masiva de ancho de banda en toda la red.
 
 ## Descarga de medios y recursos {#download}
