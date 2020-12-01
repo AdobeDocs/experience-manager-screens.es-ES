@@ -9,6 +9,9 @@ contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -30,18 +33,18 @@ Los eventos impulsados por datos se clasifican en cuatro categorías diferentes:
 * Datos de salida procesables
 * Datos de salida para presentaciones
 
-#### Datos de entrada operativos {#data-in-operational}
+#### Datos de entrada operativos  {#data-in-operational}
 
 Esto se puede seguir clasificando en Interrupción de canal y Marcador de posición.
 
-#### Datos de entrada para presentaciones {#data-in-presentation}
+#### Datos de entrada para presentaciones  {#data-in-presentation}
 
 Los datos se ejecutan en el canal temporal y, tras la intervención de un activador, cambia un recurso dentro de un canal.
 
-#### Datos de salida procesables {#data-out-actionable}
+#### Datos de salida procesables  {#data-out-actionable}
 
 Cuando se envía un comando a la pantalla LCD para activarla y desactivarla. Ejemplo, brillo o volumen de la pantalla.
 
-#### Datos de salida para presentaciones {#data-out-presentational}
+#### Datos de salida para presentaciones  {#data-out-presentational}
 
 Gráfico que agrega la información en el bucle de retroalimentación. Utiliza la analítica para evaluar y advertir eventos.
