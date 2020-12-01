@@ -28,7 +28,7 @@ Antes de implementar la solución de publicidad dinámica de AEM Screens, asegú
 * **Programación**
 * **Vista previa del contenido**
 
-Para obtener más información sobre estos términos, consulte el [Glosario](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Para obtener más información sobre estos términos, consulte [Glosario](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -58,4 +58,4 @@ Un autor suele comenzar un proyecto de AEM Screens por:
 * [visualización de contenido en un reproductor de AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->Además, también puede importar de forma masiva un conjunto de ubicaciones desde una hoja de cálculo CSV/XLS a su proyecto de AEM Screens. Siga al [nuevo importador de proyectos desde archivo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obtener más información.
+>Además, también puede importar de forma masiva un conjunto de ubicaciones desde una hoja de cálculo CSV/XLS a su proyecto de AEM Screens. Siga [Nuevo importador de proyectos desde archivo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obtener más detalles.
