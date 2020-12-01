@@ -24,15 +24,15 @@ Esto incluirá la asignación de las configuraciones específicas de la platafor
 
 Algunos ejemplos serían cómo y cuándo usar:
 
-* **Fragmentos** de experiencia para crear agrupaciones de contenido
+* **Fragmentos de** experiencia para crear agrupaciones de contenido
 * **Fragmentos** de contenido para crear variaciones de texto
-* **Context Hub** para crear almacenes de datos externos, SPA para experiencias interactivas
-* **Servicios** OSGi para alertas de red
-* **Vínculo** de recursos para el abastecimiento de Creative Cloud
-* **Carpetas** de red para la asignación de recursos
-* **Superposición** de texto para datos en tiempo real
-* **Programaciones** para grupos de visualización/canales
-* **Flujos de trabajo** para ediciones de contenido automatizadas.
+* **Context** Hubfor crear almacenes de datos externos, SPA para experiencias interactivas
+* **Servicios OSGi** para alertas de red
+* **Asset** Linkfor Creative Cloud sourcing
+* **Carpetas de red** para asignación de recursos
+* **Superposición de** texto para datos en tiempo real
+* **** Programaciones para grupos de visualización/canales
+* **Flujos** de trabajo para ediciones de contenido automatizadas.
 
 En esta fase, es importante examinar todas las tareas y actividades necesarias que requerirán atención y los documentos adecuados para que las tareas asignadas puedan rastrearse correctamente en la fase de despliegue.
 
