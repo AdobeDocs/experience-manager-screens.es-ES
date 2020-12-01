@@ -43,7 +43,7 @@ La siguiente tabla describe los diferentes tipos de configuraciones de red con v
 
 | Configuración de red | Ventajas | Desventajas |
 |--- |--- |--- |
-| **Red de Internet directa (cableada/inalámbrica)** | Fácil y directo a<br>SetUpBuena opción para<br>instalaciones de tamaño medio o mayorLa red dedicada se puede<br>encapsularPocos puntos de<br>falloRelativamente<br>barataBuena escalabilidad | Plan de datos de Internet obligatorio |
-| **Red móvil directa** | Fácil de<br>configurarBuena opción para<br>instalaciones de tamaño medio o más grandesBuena<br>escalabilidadPantallas encapsuladas | Conexión a Internet obligatoria |
-| **Red móvil con enrutador de datos móvil y componentes de red activos** | Fácil de<br>configurarBuena opción para<br>instalaciones de tamaño medio o grandesLa red dedicada se puede<br>encapsular pocos puntos de<br>fallaRelativamente<br>barataBuena escalabilidad | Plan de datos de Internet obligatorio |
-| **Red corporativa cerrada (cableada/inalámbrica)** | Alta flexibilidad y<br>escalabilidadAlta seguridad debido a las diferentes líneas de<br>defensa<br>Redes encapsuladasFácil de monitorear y<br>mantenerConfiable | Complicado y<br>costosoRecomendado para especialistas en redes o integradores de sistemas |
+| **Red de Internet directa (cableada/inalámbrica)** | Fácil y directo a SetUp<br>La buena opción para instalaciones de tamaño mediano o mayores<br>Red dedicada se puede encapsular<br>Pocos puntos de falla<br>Relativamente baratas<br>Buena escalabilidad | Plan de datos de Internet obligatorio |
+| **Red móvil directa** | Fácil de configurar<br>Buena opción para instalaciones de tamaño medio o mayores<br>Buena escalabilidad<br>Pantallas encapsuladas | Conexión a Internet obligatoria |
+| **Red móvil con enrutador de datos móvil y componentes de red activos** | Fácil de configurar<br>Buena opción para instalaciones de tamaño medio o mayores<br>La red dedicada se puede encapsular<br>Pocos puntos de falla<br>Relativamente baratas<br>Buena escalabilidad | Plan de datos de Internet obligatorio |
+| **Red corporativa cerrada (cableada/inalámbrica)** | Alta flexibilidad y escalabilidad<br>Alta seguridad debido a las diferentes líneas de defensa<br>redes encapsuladas<br>Fácil de monitorear y mantener<br>Fiable | Complicado y costoso<br>recomendado para especialistas en redes o integradores de sistemas |
