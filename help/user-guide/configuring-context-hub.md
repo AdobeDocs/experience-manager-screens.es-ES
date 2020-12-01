@@ -27,21 +27,21 @@ En esta sección se hace hincapié en la creación y administración de cambios 
 
 Antes de entrar en los detalles de la creación y administración de canales impulsados por el inventario en su proyecto de AEM Screens, debe conocer algunos de los términos clave que son importantes y relevantes para los diferentes escenarios.
 
-**Marca** Se refiere a la descripción del proyecto de alto nivel.
+**** MarcaSe refiere a la descripción del proyecto de alto nivel.
 
-**Área** hace referencia al nombre del proyecto de AEM Screens, como la publicidad digital y la publicidad en pantalla
+**** AreaSe refiere al nombre del proyecto de AEM Screens, como la publicidad digital y la publicidad dinámica
 
-**Actividad** Define la categoría de la regla, como por ejemplo, controlado por inventario, por el tiempo, por disponibilidad del departamento, etc.
+**** ActividadDefine la categoría de la regla, como por ejemplo, controlado por inventario, por el tiempo, por disponibilidad del departamento, etc.
 
-**Audiencia** Define la regla.
+**** AudienciaDefine la regla.
 
-**Segmento** Se refiere a la versión del recurso que se va a reproducir para la regla dada, como si la temperatura es inferior a 50 grados centígrados, la pantalla muestra una imagen de un café caliente o una bebida fría.
+**** SegmentoSe refiere a la versión del recurso que se reproducirá para la regla dada, como si la temperatura es inferior a 50 grados centígrados, la pantalla muestra una imagen de un café caliente o, de lo contrario, una bebida fría.
 
 El diagrama siguiente muestra cómo las configuraciones de ContextHub coinciden con la Actividad, la Audiencia y los Canales.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
-## Condiciones previas {#preconditions}
+## Precondiciones {#preconditions}
 
 Antes de dar inicio a la configuración de Context Hub Configurations para un proyecto de AEM Screens, debe configurar Google Sheets (para fines de demostración).
 
@@ -49,7 +49,7 @@ Antes de dar inicio a la configuración de Context Hub Configurations para un pr
 >
 >Google Sheets se utiliza en el siguiente ejemplo como sistema de bases de datos de muestra desde donde se recuperan los valores y se utiliza únicamente con fines educativos. Adobe no aprueba el uso de Google Sheets para entornos de producción.
 >
->Para obtener más información, consulte [Obtener clave](https://developers.google.com/maps/documentation/javascript/get-api-key) de API en la documentación de Google.
+>Para obtener más información, consulte [Obtener clave de API](https://developers.google.com/maps/documentation/javascript/get-api-key) en la documentación de Google.
 
 ## Paso 1: Configuración de un almacén de datos {#step-setting-up-a-data-store}
 
@@ -61,7 +61,7 @@ Una vez configurada correctamente la hoja de Google, por ejemplo:
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-La siguiente validación es lo que vista al comprobar la conexión introduciendo los dos valores, ID *de hoja de* Google y clave *de* API en el formato siguiente:
+La siguiente validación es lo que vista al comprobar la conexión introduciendo los dos valores *id. de hoja de Google* y *clave de API* en el formato siguiente:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -71,7 +71,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 >
 >El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
 
-## Paso 2: Configuración de configuraciones de tienda {#step-setting-store-configurations}
+## Paso 2: Configuración de configuraciones de almacenamiento {#step-setting-store-configurations}
 
 1. **Navegación a ContextHub**
 
@@ -81,51 +81,49 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 
 1. **Creación de una nueva configuración de la Tienda ContextHub**
 
-   1. Vaya al contenedor de configuración titulado como **pantallas**.
+   1. Vaya al contenedor de configuración titulado **screen**.
 
-   1. Haga clic en **Crear** > **Crear Contenedor** de configuración e introduzca el título como **ContextHubDemo**.
+   1. Haga clic en **Crear** > **Crear Contenedor de configuración** e introduzca el título como **Demostración de ContextHub**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Vaya** a **ContextHubDemo** > **Crear** la configuración **de** ContentHub y haga clic en **Guardar**.
+   1. **** Navegue hasta  **ContextHubDemo** >  **** **Configuración** de CreateContentHub y haga clic en  **Guardar**.
 
       >[!NOTE]
-      >
-      > Después de hacer clic en **Guardar** , aparecerá en la pantalla de configuración **de** ContextHub.
+      > Después de hacer clic en **Guardar**, aparecerá en la pantalla **Configuración de ContextHub**.
 
-   1. En la pantalla de configuración **de** ContextHub, haga clic en **Crear** > Configuración de la tienda de **ContentHub.**
+   1. En la pantalla **Configuración de ContextHub**, haga clic en **Crear** > **Configuración de ContentHub Store...**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
       >
-      >Como parte de AEM 6.5 Feature Pack 4 o AEM 6.4 Feature Pack 8, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
+      >Como parte de AEM Feature Pack 4 o AEM 6.4 Feature Pack 8 de 6.5, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
       >
       >Complete los siguientes pasos:
       >
-      >1. Vaya al CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
-      >1. Compruebe si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si el `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
-      >1. Haga clic con el botón secundario en `/conf/screens/settings` y cree un nuevo nodo con el *nombre* como **cloudsettings1** y *Escriba* como **sling:Folder** y guarde los cambios.
+      >1. Vaya al CRXDE Lite y luego a `/conf/screens/settings/cloudsettings`.
+      >1. Compruebe si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
+      >1. Haga clic con el botón derecho en `/conf/screens/settings` y cree un nuevo nodo con *nombre* como **configuración de nube1** y *Escriba* como **sling:Folder** y guarde los cambios.
       >1. Mueva todos los nodos debajo de `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
-      >1. Eliminar `cloudsettings` y guardar.
+      >1. Elimine `cloudsettings` y guarde.
       >1. Cambie el nombre `cloudsettings1` a `cloudsettings` y guarde.
-      >1. Ahora debe observar que /conf/screen/settings/cloudsettings tiene `jcr:primaryType` as `sling:Folder`.
+      >1. Ahora debe observar que /conf/screen/settings/cloudsettings tiene `jcr:primaryType` como `sling:Folder`.
+
       >
       >Debe seguir estos pasos en la creación y publicación antes o después de la actualización.
 
-   1. Introduzca el **Título** como Hojas **de** Google, Nombre **de** la tienda como **hojas de cálculo** y Tipo **de** **** **** tienda como contexthub.generic-jsonpy haga clic en Siguiente.
+   1. Escriba el **Título** como **Hojas de Google**, **Nombre de la tienda** como **hojas de Google** y **Tipo de tienda** como **contexthub.generic-jsonp** y haga clic en &lt;a9 12/>Siguiente **.**
 
       >[!CAUTION]
-      >
-      >Si utiliza Adobe Experience Manager (AEM) 6.4, introduzca el Título **de** configuración como hojas de **Google** y el Tipo **de** tienda como **contexthub.generic-jsonp**.
+      >Si utiliza Adobe Experience Manager (AEM) 6.4, introduzca el **Título de configuración** como **hojas de administración** y el **Tipo de almacén** como **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** , y verá la configuración de la tienda titulada como Hojas de **Google** en la configuración de ContextHub.
+   1. Introduzca la configuración de json específica. Por ejemplo, puede utilizar el siguiente json para fines de demostración y hacer clic en **Guardar** y verá la configuración de la tienda titulada como **Hojas de Google** en la configuración de ContextHub.
 
       >[!IMPORTANT]
-      >
-      >Asegúrese de reemplazar el código por su *&lt;ID de hoja>* y *&lt;Clave de API>*, que buscó al configurar las hojas de Google.
+      >Asegúrese de reemplazar el código por su *&lt;Id. de hoja>* y *&lt;Clave de API>* que buscó al configurar las hojas de Google.
 
       ```
        {
@@ -144,48 +142,45 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
       ```
 
       >[!NOTE]
-      >
-      >En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
-      >Reemplace el código por el *&lt;ID de hoja>* y *&lt;clave de API>* que buscó al configurar las hojas de Google.
+      En el código de muestra anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
+      Reemplace el código por el *&lt;Id. de hoja>* y *&lt;Clave de API>* que buscó al configurar las hojas de Google.
 
       >[!CAUTION]
-      >
-      >Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
+      Si crea las configuraciones del almacén de Google Sheets fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), la segmentación no funcionará de forma predeterminada.
 
 
 1. **Configuración de la segmentación de tiendas**
 
-   1. Vaya a Configuración de **ContentHub Store.** y cree otra configuración de almacén en el contenedor de configuración de pantallas y defina el **Título** como **segmentación-contexto**, Nombre **de** tienda como **segmentación** y Tipo **de** **** almacén como aem.segmentation.
+   1. Vaya a **Configuración de ContentHub Store.** y cree otra configuración de almacén en el contenedor de configuración de pantallas y establezca  **** Titleas  **segmentation-contexthub**,  **Store** Nameas  **** segmentationy  **Store** Typeas  **aem.segmentation**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Click **Next** and then **Save**.
+   1. Haga clic en **Siguiente** y luego **Guardar**.
 
       >[!NOTE]
-      >
-      >Debe omitir el proceso de definición del archivo y dejarlo en blanco.
+Debe omitir el proceso de definición del archivo y dejarlo en blanco.
 
 
-## Paso 3: Configuración de segmentos en Audiencia {#setting-up-audience}
+## Paso 3: Configuración de segmentos en la Audiencia {#setting-up-audience}
 
 1. **Creación de segmentos en Audiencias**
 
    1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **pantallas**.
 
-   1. Haga clic en **Crear** > **Crear segmento de Context Hub.** Se abre el cuadro de diálogo **Nuevo segmento** de ContextHub.
+   1. Haga clic en **Crear** > **Crear segmento de Context Hub.** Se abre el cuadro de diálogo  **Nuevo** segmento de ContextHub.
 
-   1. Enter the **Title** as **Higherthan50** and click **Create**. Del mismo modo, cree otro segmento con el título **Menos que 50**.
+   1. Escriba el **Título** como **Higherthan50** y haga clic en **Crear**. Del mismo modo, cree otro segmento titulado **Inferior a 50**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Seleccione el segmento **Higherthan50** y haga clic en **Propiedades** en la barra de acciones.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Seleccione la ficha **Personalización** en Propiedades **del segmento**. Configure la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**, como se muestra en la figura siguiente.
+   1. Seleccione la ficha **Personalización** en **Propiedades del segmento**. Configure la **Ruta de ContextHub** en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y **Ruta de segmentos** en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**, como se muestra en la figura siguiente.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. Del mismo modo, configure también la ruta **y la ruta** de **segmentos de** ContextHub para el segmento **menor que50** .
+   1. Del mismo modo, configure también la **Ruta de acceso de ContextHub** y **Ruta de segmentos** para el segmento **Menor que50**.
 
 ## Paso 4: Configuración de marca y área {#setting-brand-area}
 
@@ -197,17 +192,15 @@ Siga los pasos a continuación para crear una marca en sus actividades y en el �
 
    1. Haga clic en **Crear** > **Crear marca**.
 
-   1. Select **Brand** from the **Create Page** wizard and click **Next**.
+   1. Seleccione **Marca** en el asistente para **Crear página** y haga clic en **Siguiente**.
 
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Su marca ahora se crea como se muestra a continuación.
+   1. Introduzca el **Título** como **Marca de pantalla** y haga clic en **Crear**. Su marca ahora se crea como se muestra a continuación.
 
       ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
       >[!CAUTION]
-      >
-      >Problema conocido:
-
+      Problema conocido:
 Para agregar un área, quite el patrón de la dirección URL, como
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -215,13 +208,13 @@ Para agregar un área, quite el patrón de la dirección URL, como
 
    Siga los pasos a continuación para crear un área en la marca:
 
-   1. Haga clic en **Crear** y, a continuación, en **Crear área**.
+   1. Haga clic en **Crear** y luego **Crear área**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Select **Area** from the **Create Page** wizard and click **Next**.
+   1. Seleccione **Área** en el asistente para **Crear página** y haga clic en **Siguiente**.
 
-   1. Enter the **Title** as **ScreensValue** and click **Create**.
+   1. Introduzca el **Título** como **ValorPantallas** y haga clic en **Crear**.
 Se creará un área en su marca.
 
 ## Paso 5: Creación de segmentos en una Actividad {#step-setting-up-audience-segmentation}
@@ -230,23 +223,23 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
 1. **Creación de segmentos en Actividades**
 
-   1. Vaya de la instancia de AEM a **Personalización** > **Actividades** > **PantallasMarca** >**ValorDePantallas**.
+   1. Vaya de la instancia de AEM a **Personalización** > **Actividades** > **ScreensBrand** >**ScreensValue**.
 
-   1. Haga clic en **Crear** > **Crear Actividad.** Se abre el Asistente para **configurar Actividades** .
+   1. Haga clic en **Crear** > **Crear Actividad.** Se abre el  **Asistente para** configurar Actividades.
 
-   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valueeck50**. Seleccione el motor **de** Targeting como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
+   1. Introduzca el **Título** como **ValueCheck50** y **Nombre** como **valorCheck50**. Seleccione el **motor de objetivo** como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Haga clic en **Añadir experiencia** en el Asistente para **configurar Actividades**.
+   1. Haga clic en **Añadir experiencia** en el **Asistente para configurar Actividades**.
 
-   1. En las **Audiencias**, seleccione la opción **Más alto50** y haga clic en **Añadir experiencia** e introduzca el **título** como **más alto que50** Nombrecomo más alto que **** **** 00. Click **Ok**.
+   1. En las **Audiencias**, seleccione **Higherthan50** y haga clic en **Añadir experiencia** e introduzca el **Título** como **mayor que50** **Nombre** como &lt;a> a12/>más que50 **.** Haga clic en **Aceptar**.
 
-   1. En las **Audiencias**, seleccione la opción **Más bajo que50** y haga clic en **Añadir experiencia** e introduzca el **Título** como **menor que50** **** **** Nombre500. Click **Ok**.
+   1. En las **Audiencias**, seleccione **Inferior50** y haga clic en **Añadir experiencia** e introduzca el **título** como **inferior50** **Nombre&lt;a 111/> como>** menor que50 **.** Haga clic en **Aceptar**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Click **Next** and then **Save**. **La actividad ValueCheck50** ahora se crea y configura.
+   1. Haga clic en **Siguiente** y luego **Guardar**. **La** actividad ValueCheck50 ahora se crea y configura.
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -256,17 +249,16 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
    1. Vaya de la instancia de AEM a **Personalización** > **Audiencias** > **pantallas**.
 
-   1. Seleccione el segmento **Superior50** y haga clic en **Editar** en la barra de acciones.
+   1. Seleccione el segmento **Higherthan50** y haga clic **Editar** en la barra de acciones.
 
-   1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
+   1. Arrastre y suelte la **Comparación: Propiedad: componente Value** al editor.
 
-   1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor** .
+   1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor**.
 
-   1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
+   1. Seleccione **googlesheets/value/1/0** en la lista desplegable en **Nombre de propiedad**.
 
       >[!NOTE]
-      >
-      >Las **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal como se rellenan en las hojas de Google en la figura siguiente:
+Las  **hojas de googleets/value/1/0** se refieren a la fila 2 y la columna tal como se rellenan en las hojas de Google en la figura siguiente:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -275,17 +267,16 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
    1. Introduzca el **valor** como **70**.
 
       >[!NOTE]
-      >
-      >El AEM valida los datos de la hoja de Google mostrando el segmento como verde.
+      El AEM valida los datos de la hoja de Google mostrando el segmento como verde.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
-   Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
+   Del mismo modo, edite los valores de propiedad a **Inferior a 50**.
 
-   1. Arrastre y suelte la **comparación: Propiedad: componente de valor** al editor.
+   1. Arrastre y suelte la **Comparación: Propiedad: componente Value** al editor.
 
-   1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor** .
+   1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Comparación de una propiedad con valor**.
 
-   1. Seleccione **googlesheets/value/1/0** en el menú desplegable del nombre **de** propiedad.
+   1. Seleccione **googlesheets/value/1/0** en la lista desplegable en **Nombre de propiedad**.
 
    1. Seleccione el **Operador** como **menor que** en el menú desplegable.
 
@@ -293,33 +284,31 @@ Una vez que haya configurado un almacén de datos y definido la actividad (marca
 
 
 
-## Habilitar la determinación de objetivos en Canales {#step-enabling-targeting-in-channels}
+## Habilitación de la determinación de objetivos en Canales {#step-enabling-targeting-in-channels}
 
 Siga los pasos a continuación para habilitar la segmentación en sus canales.
 
 1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación mediante **DataDrivenChannel** creado en un Canal de AEM Screens.
 
-1. Seleccione el **TargetChannel** de canal y haga clic en **Propiedades** en la barra de acciones.
+1. Seleccione el canal **TargetChannel** y haga clic en **Propiedades** en la barra de acciones.
 
    ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Seleccione la ficha **Personalización** para configurar las configuraciones de ContextHub.
 
-   1. Defina la ruta **de** ContextHub en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la ruta **de** segmentos en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
+   1. Configure la **Ruta de ContextHub** en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y **Ruta de segmentos** en `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
 
    1. Haga clic en **Guardar y cerrar**.
 
       >[!NOTE]
-      >
-      >Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
+      Utilice ContextHub y la ruta de segmentos, donde inicialmente guardó las configuraciones y los segmentos del concentrador de contexto.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navegue y seleccione el canal **TargetChannel** y haga clic en **Editar** en la barra de acciones.
 
       >[!NOTE]
-      >
-      >Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+      Si ha configurado todo correctamente, verá la opción **Objetivo** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
