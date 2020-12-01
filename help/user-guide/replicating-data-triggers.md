@@ -28,15 +28,15 @@ Básicamente, esto se reduce a la publicación manual:
 
 Siga los pasos a continuación para replicar los activadores de datos en el servidor de publicación.
 
-### Paso 1: Replicar configuraciones de ContextHub {#replicating-contexthub-configurations}
+### Paso 1: Replicando configuraciones de ContextHub {#replicating-contexthub-configurations}
 
-1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Publicar agente** y haga clic en el agente de publicación para configurar la configuración.
+1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de publicación** y haga clic en el agente de publicación para configurar la configuración.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!NOTE]
    >
-   >Como alternativa, puede utilizar `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para desplazarse directamente a la pantalla para configurar y probar la conexión.
+   >Como alternativa, puede utilizar `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para navegar directamente a la pantalla para configurar y probar la conexión.
 
 1. Haga clic en **Probar conexión** en la barra de acciones para validar la comunicación del autor con la instancia de publicación, como se muestra en la figura siguiente.
 
@@ -44,9 +44,9 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
    >[!NOTE]
    >
-   >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de prueba para obtener más información.
+   >Si la prueba falla, debe corregir la configuración del agente de replicación entre la instancia de creación y la de publicación. Consulte [Resolución de problemas de conexión de prueba](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) para obtener más detalles.
 
-1. Seleccione **Añadir** en el árbol de pantalla **Agente** de distribución y seleccione la ruta de configuración del proyecto, por ejemplo `/conf/screens/settings/cloudsettings/configuration`.
+1. Seleccione **Añadir** en el árbol de pantalla **Agente de distribución** y seleccione la ruta de configuración del proyecto, por ejemplo, `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Haga clic en **Enviar**.
 
@@ -64,11 +64,11 @@ Siga los pasos a continuación para replicar los activadores de datos en el serv
 
 1. Haga clic en **Siguiente** y **Publicar**.
 
-### Replicar las Actividades  {#replicating-activities}
+### Replicar las Actividades {#replicating-activities}
 
 1. Vaya a la instancia de AEM > **Personalización** > **Actividades** o utilice `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para desplazarse directamente.
 
-1. Explore en la carpeta del proyecto, es decir, `/content/campaigns/screens/…`.
+1. Explore en su carpeta de proyecto, es decir, `/content/campaigns/screens/…`.
 
 1. Seleccione todas las actividades en la interfaz de usuario.
 
@@ -92,28 +92,28 @@ Si la replicación se realiza correctamente, debe vista de la siguiente estructu
 
 Si la conexión de prueba falla al replicar las configuraciones de ContextHub, siga la sección siguiente para solucionar el problema:
 
-1. Vaya a Herramientas > **Implementación** > **Distribución** > **Agente** de publicación.
+1. Vaya a Herramientas > **Implementación** > **Distribución** > **Agente de publicación**.
 
-1. Haga clic en **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en el campo Extremos **del** importador también apunta a la dirección URL del servidor de publicación en el agente de distribución.
+1. Haga clic en **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en el campo **Extremos del importador** también apunta a la dirección URL del servidor de publicación en el agente de distribución.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Si no utiliza las credenciales de administrador predeterminadas, deberá configurar el agente de distribución con un nombre de usuario y una contraseña diferentes.
 
    Complete los siguientes pasos:
 
-   1. Vaya a Herramientas > **Operaciones** > Consola **** web `http://localhost:4502/system/console/configMgr`para abrir la pantalla **de la consola web de** Adobe Experience Manager.
-   1. Buscar las credenciales de transporte de **Apache Sling Distribution - User Credentials based DistributionTransportSecretProvider**
+   1. Vaya a Herramientas > **Operaciones** > **Consola Web** `http://localhost:4502/system/console/configMgr`para abrir la pantalla **Consola Web de Adobe Experience Manager**.
+   1. Buscar **Credenciales de transporte de distribución de Apache Sling - Credenciales de usuario basadas en DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. Cree una configuración rellenando **Nombre**, Nombre **** de usuario y **contraseña**, por ejemplo, *slingTransportSecretProvider*.
+   1. Cree una configuración rellenando **Name**, **User name** y **password**, por ejemplo, *slingTransportSecretProvider*.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Haga clic en **Guardar**
-   1. Utilice `Cmd +F` para buscar **Apache Sling Distribution Agent - Forward Agent Factory** para abrir las configuraciones y buscar **Transport Secret Provider**.
+   1. Utilice `Cmd +F` para buscar **Agente de distribución Apache Sling: fábrica de agentes de reenvío** para abrir las configuraciones y buscar **Proveedor de secretos de transporte**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Actualice el `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla Agente **de** distribución de la instancia de AEM.
+   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla **Agente de distribución** de la instancia de AEM.
