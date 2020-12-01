@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 AEM Screens ha lanzado AEM 6.5 Feature Pack 6.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.6 desde el portal [de distribución de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software con su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.6 de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mediante su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
 
 ## Fecha de la versión {#release-date}
 
@@ -29,14 +29,14 @@ La fecha de versión de AEM Screens Feature Pack 202011 es el 30 de noviembre de
 
 * **Informe de asignación de contenido**
 
-   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un informe *de asignación de* contenido que puede tener formato de hoja de cálculo.
-Refer to **Content Assignment Report** for more details.
+   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *informe de asignación de contenido* que podría tener formato de hoja de cálculo.
+Consulte **Informe de asignación de contenido** para obtener más detalles.
 
 
 * **Tizen Player**
 
    Se ha introducido un nuevo reproductor denominado Tizen Player con el último paquete de funciones de la versión 6.5.6 de AEM Screens.
-Refer to **Implementing Tizen Player** for more details.
+Consulte **Implementación de Tizen Player** para obtener más detalles.
 
 * **Funcionalidad de búsqueda desde el Administrador de dispositivos**
 
@@ -58,6 +58,6 @@ Se lanzan los siguientes reproductores de AEM Screens para AEM Screens
 * Windows
 * Android
 
-#### Descargas de AEM Screens Player  {#aem-screens-player-downloads}
+#### Descargas de AEM Screens Player {#aem-screens-player-downloads}
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte Descargas **[de](https://download.macromedia.com/screens/index.html)** AEM Screens Player.
+Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas de AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
