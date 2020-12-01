@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 En esta página se describe la creación y la gestión de las copias activas de canales.
 
-A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. Esta relación en directo permite que la Live Copy herede contenido y propiedades de página del origen.
+Una ***Live Copy*** es una copia del contenido específico del sitio para el cual se mantiene una relación activa con la fuente original. Esta relación en directo permite que la Live Copy herede contenido y propiedades de página del origen.
 
 En esta página se describe cómo crear una copia activa de un canal, ver las propiedades, comprobar el estado y propagar cambios de un canal a su copia activa.
 
@@ -28,10 +31,10 @@ En esta página se describe cómo crear una copia activa de un canal, ver las pr
 
 Siga los pasos que se indican a continuación para crear una copia activa de un canal en la carpeta del proyecto.
 
-1. Seleccione el vínculo de Adobe Experience Manager (superior izquierda) y, a continuación, **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Seleccione el vínculo de Adobe Experience Manager (superior izquierda) y, a continuación, **Screens**. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
 
 1. Vaya al proyecto Screens y haga clic en **Canales**.
-1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+1. Haga clic en **Crear** y seleccione **Live Copy** para crear una Live Copy del canal.
 
 1. Seleccione el destino y haga clic en **Siguiente**.
 1. Seleccione la ubicación en la que residirá la copia activa.
@@ -41,7 +44,7 @@ Siga los pasos que se indican a continuación para crear una copia activa de un 
 
 Como alternativa, siga los pasos que se explican a continuación sobre la representación visual para crear una copia activa nueva de un canal.
 
-The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+En el ejemplo siguiente, se muestra la creación de una copia activa (***IdleLiveCopy***) para el ***canal inactivo*** en que la carpeta de destino es ***Canales***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +54,7 @@ Una copia activa es una copia de un canal que ya existe.
 
 Para ver el contenido de la copia activa, siga los pasos que se indican a continuación:
 
-1. Vaya al proyecto de Screens y haga clic en la ubicación en la que ha creado originalmente la copia activa, tal y como se muestra en la sección anterior. (Here, the location was chosen as **Channels** folder)
+1. Vaya al proyecto de Screens y haga clic en la ubicación en la que ha creado originalmente la copia activa, tal y como se muestra en la sección anterior. (Aquí, la ubicación se eligió como carpeta **Canales**)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -75,11 +78,11 @@ Además, puede ver las propiedades del canal de la copia activa.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
-### Estado de Live Copy {#live-copy-status}
+### Estado de Live Copy    {#live-copy-status}
 
 El modo **Estado de copia activa**, tal y como se muestra en la figura siguiente, le permite ver el estado de la relación de todos los recursos del canal.
 
-1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. Haga clic en **Editar** para elegir el **Estado de Live Copy** y vista la asociación del contenido de su canal al canal original (desde el cual se genera la Live Copy).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -123,9 +126,9 @@ Siga los pasos que se describen a continuación para asegurarse de que los cambi
 
 1. Seleccione la pestaña **Copia activa** y haga clic en **Sincronizar** en la barra de acciones.
 
-   ![chlimage_1-29](assets/chlimage_1-29.png)
+   ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. Haga clic en **Sincronizar** para confirmar los cambios. Click **Save &amp; Close** to navigate back to the AEM dashboard.
+1. Haga clic en **Sincronizar** para confirmar los cambios. Haga clic en **Guardar y cerrar** para volver al panel de AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
