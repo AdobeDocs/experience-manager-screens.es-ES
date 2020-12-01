@@ -6,9 +6,9 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 1%
 # Preguntas más frecuentes de AEM Screens {#aem-screens-faqs}
 
 La siguiente sección proporciona respuestas a algunas de las preguntas más frecuentes más frecuentes relacionadas con un proyecto de AEM Screens.
+
+## Problema de pantalla en blanco {#blank-screen}
+
+>[!NOTE]
+>Las comprobaciones obligatorias enumeradas que deben probarse con la asistencia primaria o la asistencia del cliente antes de plantear un problema:
+
+### 1. ¿Cuáles deben ser los pasos de solución de problemas de primeros auxilios para cualquier cliente que se encuentre frente a una pantalla negra o que no reproduzca contenido? {#troubleshooting-blank-screen}
+
+* Compruebe si la previsualización del canal está funcionando.
+* Compruebe si la previsualización de visualización funciona
+* Intente registrar el reproductor como una extensión de navegador en su portátil para ver la misma pantalla y compruebe si funciona.
+* Con el reproductor funcionando en su sistema, navegue a `http://localhost:24502`. Compruebe si todo el contenido se ha descargado correctamente.
+* Compruebe los recursos que se han creado las representaciones adecuadas y que se está reproduciendo la representación correcta.
+* Compruebe si hay contenido programado y si las horas son correctas. Compruebe que la hora configurada en el reproductor es correcta.
+* Compruebe los registros de la consola del reproductor y compruebe si hay algún error? Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si utiliza el reproductor de Windows, presione `CTRL + ALT +I` para que aparezca la consola dev para vista de los registros.
 
 ## Administración de canales {#channel-management}
 
