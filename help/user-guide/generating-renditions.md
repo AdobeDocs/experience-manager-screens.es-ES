@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 64%
 
 ---
 
@@ -31,11 +34,11 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
 1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
 
-   Click **Models** to enter the workflow models management.
+   Haga clic en **Modelos** para ingresar a la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
+1. Seleccione el modelo **Recurso de actualización de DAM** y haga clic en Editar en la barra de acciones para abrir la ventana **Recurso de actualización de DAM**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -43,7 +46,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Seleccione la ficha **Proceso** para editar los argumentos de proceso. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. Seleccione la ficha **Proceso** para editar los argumentos de proceso. Introduzca los perfiles HD completos en la lista en **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** y haga clic en **Aceptar**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -55,7 +58,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Open **Renditions** from the side rail.
+1. Abra **Representaciones** desde el carril lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
@@ -69,15 +72,15 @@ Siga los pasos a continuación para generar manualmente representaciones en Full
 
 1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
 
-   Click **Models** to enter the workflow models management.
+   Haga clic en **Modelos** para ingresar a la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. Seleccione el modelo **Recurso de actualización de pantalla** y haga clic en **Flujo de trabajo de Inicio** para abrir el cuadro de diálogo **Ejecutar flujo de trabajo**.
 
-   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![step5_-_inicio_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click **Run**.
+1. Seleccione el vídeo que desee en la **Carga útil** y haga clic en **Ejecutar**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
