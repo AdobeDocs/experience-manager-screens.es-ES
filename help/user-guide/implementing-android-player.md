@@ -23,28 +23,28 @@ ht-degree: 1%
 
 En esta sección se describe cómo configurar el reproductor de Android. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre las opciones que se utilizarán para el desarrollo y la prueba.
 
-Además, **Watchdog** es una solución para recuperar al jugador de los bloqueos. Una aplicación debe registrarse en el servicio de vigilancia y luego enviar periódicamente mensajes al servicio de que está viva. En caso de que el servicio de vigilancia no reciba un mensaje de mantenimiento en el plazo estipulado, el servicio intentará reiniciar el dispositivo para una recuperación limpia (si tiene los privilegios suficientes) o reiniciar la aplicación.
+Además, **Watchdog** es una solución para recuperar el reproductor de los bloqueos. Una aplicación debe registrarse en el servicio de vigilancia y luego enviar periódicamente mensajes al servicio de que está viva. En caso de que el servicio de vigilancia no reciba un mensaje de mantenimiento en el plazo estipulado, el servicio intentará reiniciar el dispositivo para una recuperación limpia (si tiene los privilegios suficientes) o reiniciar la aplicación.
 
 ## Instalación de Android Player {#installing-android-player}
 
 Para implementar el Reproductor de Android para AEM Screens, instale el Reproductor de Android para AEM Screens.
 
-Visite la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5.
+Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
 
 ### Configuración de Entorno para AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Debe configurar un entorno para el reproductor de Android si utiliza AEM Screens 6.5.5 Service Pack.
 
-Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None** desde Configuración **de la consola web de** Adobe Experience Manager en todas las instancias de creación y publicación AEM.
+Establezca el atributo **SameSite para las cookies de inicio de sesión-token** de **Lax** a **None** de **Adobe Experience Manager Web Console Configuration** en todas las instancias de publicación y creación de AEM.
 
 Complete los siguientes pasos:
 
-1. Vaya a Configuración **de la consola web de** Adobe Experience Manager mediante `http://localhost:4502/system/console/configMgr`.
+1. Vaya a **Configuración de la consola web de Adobe Experience Manager** mediante `http://localhost:4502/system/console/configMgr`.
 
-1. Busque el controlador de autenticación *Adobe Granite Token*.
+1. Busque *Controlador de autenticación de token granito de Adobe*.
 
-1. Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None**.
+1. Establezca el atributo **SameSite para las cookies de inicio de sesión-token** de **Lax** a **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Haga clic en **Guardar**.
@@ -52,20 +52,20 @@ Complete los siguientes pasos:
 
 ### Método ad-hoc {#ad-hoc-method}
 
-El método Ad-Hoc permite instalar el último reproductor de Android (*.exe*). Visite [**AEM página de descargas**](https://download.macromedia.com/screens/) del reproductor 6.5.
+El método Ad-Hoc le permite instalar el último reproductor de Android (*.exe*). Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** desde el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM con la que desea conectarse y haga clic en **Guardar**.
+1. Vaya a **Configuration** desde el menú de acción de la izquierda e introduzca la ubicación (dirección) de la instancia de AEM con la que desea conectarse y haga clic en **Save**.
 
-1. Vaya al vínculo **Registro del** dispositivo **** desde el menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
+1. Vaya al vínculo **Device** **Registro** del menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
 
 >[!NOTE]
 >
->Si el **estado** está **REGISTRADO**, verá que se rellenará el campo ID **del** dispositivo.
+>Si el **estado** es **REGISTRADO**, verá que se rellenará el campo **ID del dispositivo**.
 >
->Si el **estado** es **NO REGISTRADO**, puede utilizar el **testigo** para registrar el dispositivo.
+>Si **State** es **UNREGISTERED**, puede utilizar el **Token** para registrar el dispositivo.
 
 ## Implementación de Android Watchdog {#implementing-android-watchdog}
 
@@ -73,7 +73,7 @@ Debido a la arquitectura de Android, el reinicio del dispositivo requiere que la
 
 ### Señalización de los apks de Android mediante claves de fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
-Para acceder a algunas de las API privilegiadas de Android, como *PowerManager* o *HDMIControlServices*, debe firmar el apk android con las claves del fabricante.
+Para acceder a algunas de las API privilegiadas de Android, como *PowerManager* o *HDMIControlServices*, debe firmar el apk androide con las claves del fabricante.
 
 >[!CAUTION]
 >
@@ -83,14 +83,14 @@ Para acceder a algunas de las API privilegiadas de Android, como *PowerManager* 
 
 Siga los pasos a continuación para firmar el apk androide con las claves del fabricante:
 
-1. Descargue el paquete desde Google Play o desde la página de descargas [de](https://download.macromedia.com/screens/) AEM Screens Player
-1. Obtenga las claves de plataforma del fabricante para obtener un *pk8* y un archivo *pem*
+1. Descargue el paquete de Google Play o de la página [Descargas de AEM Screens Player](https://download.macromedia.com/screens/)
+1. Obtenga las claves de plataforma del fabricante para obtener un *archivo pk8* y un *archivo pem*
 
 1. Localice la herramienta apksigner en el sdk android usando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
-1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
+1. &lt;pathto> /apksigner Signo —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. Busque la ruta a la herramienta de alineación de código postal en el sdk android
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
-1. Instalar ***aemscreensalign.apk*** mediante la instalación de adb en el dispositivo
+1. Instale ***aemscreensalign.apk*** mediante la instalación de adb en el dispositivo
 
 ## Implementación de Android Watchdog {#android-watchdog-implementation}
 
@@ -102,10 +102,10 @@ El siguiente diagrama muestra la implementación del servicio de vigilancia:
 
 **1. Inicialización** En el momento de la inicialización del complemento de cordova, se comprueban los permisos para ver si tenemos privilegios del sistema y, por lo tanto, el permiso de reinicio. Si se cumplen estos dos criterios, se crea una intención de reinicio pendiente; de lo contrario, se crea una intención pendiente de reiniciar la aplicación (según su Actividad de inicio).
 
-**2. Mantener activo Temporizador** Se utiliza un temporizador de mantenimiento para activar un evento cada 15 segundos. En ese evento, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
+**2. Mantener activo temporizador** Se utiliza un temporizador de mantenimiento para activar un evento cada 15 segundos. En ese evento, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
 
 >[!NOTE]
 >
->En Android, *AlarmManager* se utiliza para registrar las *intenciones* pendientes que se pueden ejecutar aunque la aplicación se haya bloqueado y el envío de alarma no sea exacto de la API 19 (Kitkat). Mantenga cierto espacio entre el intervalo del temporizador y la alarma del *AlarmManager* *pendingIntent* .
+>En Android, el *AlarmManager* se utiliza para registrar los *pendingIntents* que se pueden ejecutar aunque la aplicación se haya bloqueado y su envío de alarma no sea exacto de la API 19 (Kitkat). Mantenga cierto espacio entre el intervalo del temporizador y la *alarma de AlarmManager* *pendingIntent&#39;s*.
 
-**3. Bloqueo** de la aplicación En caso de bloqueo, el parámetro pendingIntent para el reinicio registrado con AlarmManager ya no se restablece y, por tanto, ejecuta un reinicio o reinicio de la aplicación (según los permisos disponibles en el momento de la inicialización del complemento de Cordova).
+**3. Bloqueo de la aplicación** En caso de que se produzca un bloqueo, el parámetro pendingIntent para el reinicio registrado con AlarmManager ya no se restablece y, por tanto, ejecuta un reinicio o reinicio de la aplicación (según los permisos disponibles en el momento de la inicialización del complemento de Cordova).
