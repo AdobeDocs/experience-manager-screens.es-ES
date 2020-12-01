@@ -1,8 +1,8 @@
 ---
 title: API de REST
 seo-title: API REST
-description: AEM Screens proporciona una sencilla API RESTful que sigue las especificaciones de Siren. Siga esta página para conocer cómo navegar por la estructura de contenido y enviar comandos a los dispositivos del entorno.
-seo-description: AEM Screens proporciona una sencilla API RESTful que sigue las especificaciones de Siren. Siga esta página para conocer cómo navegar por la estructura de contenido y enviar comandos a los dispositivos del entorno.
+description: AEM Screens proporciona una sencilla API RESTful que sigue la especificación de Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
+seo-description: AEM Screens proporciona una sencilla API RESTful que sigue la especificación de Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,19 +11,22 @@ topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # API de REST{#rest-apis}
 
-AEM Screens proporciona una sencilla API RESTful que sigue las especificaciones de [Siren](https://github.com/kevinswiber/siren) . Permite desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
+AEM Screens proporciona una sencilla API RESTful que sigue la especificación [Siren](https://github.com/kevinswiber/siren). Permite desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
 
 Se puede acceder a la API en [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
-## Navegación por la estructura de contenido {#navigating-content-structure}
+## Navegación de la estructura de contenido {#navigating-content-structure}
 
-El JSON devuelto por las llamadas de API enumera las entidades relacionadas con el recurso actual. Después del autovínculo enumerado, se vuelve a acceder a cada una de estas entidades como recurso REST.
+El JSON devuelto por la API llama a listas de las entidades relacionadas con el recurso actual. Después del autovínculo enumerado, se vuelve a acceder a cada una de estas entidades como recurso REST.
 
 Por ejemplo, para acceder a las pantallas de nuestra ubicación de señalización de demostración, puede llamar a:
 
@@ -101,9 +104,9 @@ Host: http://localhost:4502
 
 ## Ejecución de acciones en el recurso {#executing-actions-on-the-resource}
 
-El JSON devuelto por las llamadas de API puede contener una lista de acciones disponibles en el recurso.
+El JSON devuelto por las llamadas de API puede contener una lista de acciones que están disponibles en el recurso.
 
-La pantalla, por ejemplo, muestra una acción *broadcast-command* que permite enviar un comando a todos los dispositivos asignados a esa pantalla.
+La pantalla, por ejemplo, lista una acción *broadcast-command* que permite enviar un comando a todos los dispositivos asignados a esa pantalla.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
