@@ -1,19 +1,22 @@
 ---
-title: Dependencias de UX para pantallas de [!UICONTROL AEM]
-seo-title: Dependencias de UX para pantallas de [!UICONTROL AEM]
-description: En la guía se describen las dependencias de UX para pantallas de [!UICONTROL AEM]
-seo-description: En la guía se describen las dependencias de UX para pantallas de [!UICONTROL AEM]
+title: Dependencias UX para [!UICONTROL AEM Screens]
+seo-title: Dependencias UX para [!UICONTROL AEM Screens]
+description: La guía describe las dependencias UX para [!UICONTROL AEM Screens]
+seo-description: La guía describe las dependencias UX para [!UICONTROL AEM Screens]
 translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
 
-# Dependencias de UX {#ux-dependencies}
+# Dependencias de experiencia de usuario {#ux-dependencies}
 
 >[!NOTE]
 >
->El accionista típico de esta actividad es un estratega comercial/de marketing.
+>Los interesados habituales en esta actividad son los especialistas en marketing y estrategias empresariales.
 
 Las dependencias UX definen dónde y cómo se establece una estrategia del contenido para que tenga el mayor impacto.
 
