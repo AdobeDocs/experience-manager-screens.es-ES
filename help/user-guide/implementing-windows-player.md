@@ -27,7 +27,7 @@ Esta sección describe cómo configurar el reproductor AEM Screens Windows 10. P
 
 Para implementar Windows Player para AEM Screens, instale Windows Player para AEM Screens.
 
-Visite la página de descargas [**del reproductor**](https://download.macromedia.com/screens/) AEM 6.5.
+Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
@@ -37,34 +37,36 @@ Visite la página de descargas [**del reproductor**](https://download.macromedia
 >[!NOTE]
 >Debe configurar un entorno para el reproductor de Windows si utiliza AEM Screens 6.5.5 Service Pack.
 
-Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None** desde **Adobe Experience Manager Web ConsoleConfiguration** en todas las instancias de creación y publicación AEM.
+Configure el atributo **SameSite para las cookies de inicio de sesión-token** de **Lax** a **None** de **Adobe Experience Manager Web Console
+Configuración** en todas las instancias de creación y publicación de AEM.
 
 Complete los siguientes pasos:
 
-1. Vaya a **Adobe Experience Manager Web ConsoleConfiguration** mediante `http://localhost:4502/system/console/configMgr`.
+1. Vaya a **Adobe Experience Manager Web Console
+Configuración** mediante `http://localhost:4502/system/console/configMgr`.
 
-1. Busque el controlador de autenticación *Adobe Granite Token*.
+1. Busque *Controlador de autenticación de token granito de Adobe*.
 
-1. Establezca el atributo **SameSite para las cookies** de inicio de sesión de **Lax** a **None**.
+1. Establezca el atributo **SameSite para las cookies de inicio de sesión-token** de **Lax** a **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Haga clic en **Guardar**.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-El método ad-hoc permite instalar el último Reproductor de Windows (*.exe*). Visite [**AEM página de descargas**](https://download.macromedia.com/screens/) del reproductor 6.5.
+El método ad-hoc le permite instalar el último Reproductor de Windows (*.exe*). Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** desde el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM con la que desea conectarse y haga clic en **Guardar**.
-1. Vaya al vínculo **Registro del** dispositivo **** desde el menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
+1. Vaya a **Configuration** desde el menú de acción de la izquierda e introduzca la ubicación (dirección) de la instancia de AEM con la que desea conectarse y haga clic en **Save**.
+1. Vaya al vínculo **Device** **Registro** del menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
 
 >[!NOTE]
 >
->Si el **estado** está **REGISTRADO**, verá que se rellenará el campo ID **del** dispositivo.
+>Si el **estado** es **REGISTRADO**, verá que se rellenará el campo **ID del dispositivo**.
 >
->Si el **estado** es **NO REGISTRADO**, puede utilizar el **testigo** para registrar el dispositivo.
+>Si **State** es **UNREGISTERED**, puede utilizar el **Token** para registrar el dispositivo.
 
 ### Configuración del servidor masivo: Registro de varios reproductores de Windows 10 con una configuración {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
@@ -97,7 +99,7 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 | enableOSD | Habilite la interfaz de usuario del conmutador de canal para que los usuarios puedan cambiar de canal en el dispositivo. Considere establecer en false una vez que esté completamente configurado y en producción. |
 | enableActivityUI | Active esta opción para mostrar el progreso de actividades como la descarga y la sincronización. Habilite la solución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
 
-#### Ejemplo de archivo JSON de política {#example-policy-json-file}
+#### Ejemplo de archivo JSON de directiva {#example-policy-json-file}
 
 ```
 {
@@ -110,7 +112,7 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 }
 ```
 
-## Activación del modo de kiosco {#enabling-kiosk-mode}
+## Activación del modo de kiosko {#enabling-kiosk-mode}
 
 Al implementar el reproductor de Windows, es importante habilitar un modo de kiosco para que otras aplicaciones o la barra de tareas no aparezcan en el escritorio de Windows.
 
@@ -126,11 +128,11 @@ Siga los pasos a continuación para habilitar el modo de kiosco:
 
 1. Habilitar el iniciador de shell.
 
-   Consulte la sección ***Configurar el iniciador*** de shell en la página **[del iniciador](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de shell de Microsoft Windows para obtener más información.
+   Consulte la sección ***Configurar el iniciador de shell*** en la página **[Iniciador de shell](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de soporte técnico de Microsoft Windows para obtener información adicional.
 
 1. Cree un usuario que no sea administrativo (si ya no tiene uno) para utilizarlo en Kiosk. Puede ser un usuario local o de dominio.
-1. Instale Windows Player para ese usuario de Kiosk desde la página de descargas [de](https://download.macromedia.com/screens/) AEM Screens Player.
-1. Consulte [Uso del iniciador de shell para crear un quiosco](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) de Windows 10 para modificar el script de PowerShell para obtener más información.
+1. Instale el reproductor de Windows para ese usuario de Kiosk desde la página [Descargas](https://download.macromedia.com/screens/) de AEM Screens Player.
+1. Consulte [Utilice Shell Launcher para crear un quiosco de Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) para modificar el script de PowerShell para obtener más información.
 
    Modifique la secuencia de comandos de PowerShell para reemplazar el nombre de usuario por el que ha creado. Asegúrese de que la ruta de acceso al archivo ejecutable de la aplicación es correcta. Esto establecerá el shell personalizado como la aplicación de Windows Player para el usuario del quiosco y establecerá el valor predeterminado como explorer.exe para otros usuarios.
 
@@ -151,9 +153,9 @@ La secuencia de comandos de ejemplo de los vínculos habilitará y deshabilitar�
 >
 >En algunos entornos de Windows, los scripts de PowerShell pueden estar restringidos por políticas (especialmente los scripts sin firmar). Para ejecutar la secuencia de comandos, es posible que tenga que deshabilitar y volver a habilitar temporalmente esta restricción para ejecutar la secuencia de comandos. Abra una ventana de PowerShell y utilice estos comandos.
 >
->*set-execute policy sin restricciones* - para eliminar restricciones temporalmente
+>*set-execute policy sin restricciones* - para eliminar temporalmente las restricciones
 >
->*set-execute policy restringido* : para volver a habilitar la restricción después de ejecutar la secuencia de comandos
+>*set-executePolicy restringido* - para volver a habilitar la restricción después de ejecutar la secuencia de comandos
 
 ```
 # Remove the new custom shells.
