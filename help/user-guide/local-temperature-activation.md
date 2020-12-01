@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Activación de la temperatura del centro de viajes {#travel-center-temperature-activation}
+# Activación de temperatura del centro de viajes {#travel-center-temperature-activation}
 
 El siguiente caso de uso muestra el uso de la activación de temperatura local del centro de viajes en función de los valores rellenados en las hojas de Google.
 
@@ -27,9 +27,9 @@ El siguiente caso de uso muestra el uso de la activación de temperatura local d
 
 Para este caso de uso, si las hojas de Google tienen un valor inferior a 50, se mostrará una imagen con bebidas calientes y si el valor es bueno o igual a 50, se mostrará la imagen con bebidas frías. En el caso de algún otro valor o ninguno, el reproductor mostrará una imagen predeterminada.
 
-## Condiciones previas {#preconditions}
+## Precondiciones {#preconditions}
 
-Antes de realizar el inicio de implementación de la activación de temperatura local del centro de viajes, debe aprender a configurar el almacén ***de*** datos, la segmentación ***de*** Audiencias y ***habilitar el objetivo para Canales*** en un proyecto de AEM Screens.
+Antes de realizar el inicio de implementar la activación de temperatura local del centro de viajes, debe aprender a configurar ***Almacén de datos***, ***Segmentación de Audiencia*** y ***Habilitar objetivo para Canales*** en un proyecto de AEM Screens.
 
 Consulte [Configuración de ContextHub en AEM Screens](configuring-context-hub.md) para obtener información detallada.
 
@@ -46,23 +46,23 @@ Siga los pasos a continuación para implementar el caso de uso de la Activación
 
 1. **Configuración de segmentos en Audiencias según los requisitos**
 
-   1. Vaya a los segmentos de la audiencia (consulte el ***paso 2: Configuración de la segmentación*** de Audiencias en la página **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
+   1. Vaya a los segmentos de la audiencia (consulte ***Paso 2: Configuración de la segmentación por Audiencia*** en **[Configuración de ContextHub en la página AEM Screens](configuring-context-hub.md)** para obtener más información).
 
-   1. Seleccione las **hojas A1 1** y haga clic en **Editar**.
+   1. Seleccione las **Hojas A1 1** y haga clic en **Editar**.
 
    1. Seleccione la propiedad de comparación y haga clic en el icono de configuración para editar las propiedades.
-   1. Seleccione **googlesheets/value/1/0** en la lista desplegable del nombre de la **propiedad**
+   1. Seleccione **googlesheets/value/1/0** en la lista desplegable en **Nombre de propiedad**
 
    1. Seleccione el **Operador** como **bueno o igual** en el menú desplegable
 
    1. Introduzca el **valor** como **50**
 
-   1. Del mismo modo, seleccione las **hojas A1 2** y haga clic en **Editar**.
+   1. Del mismo modo, seleccione las **Hojas A1 2** y haga clic en **Editar**.
 
-   1. Seleccione Propiedad de **comparación - Valor** y haga clic en el icono de configuración para editar las propiedades.
-   1. Seleccione **googlesheets/value/1/0** en la lista desplegable del nombre de la **propiedad**
+   1. Seleccione la **Propiedad de comparación - Valor** y haga clic en el icono de configuración para editar las propiedades.
+   1. Seleccione **googlesheets/value/1/0** en la lista desplegable en **Nombre de propiedad**
 
-   1. Seleccione el **operador** como **menor que** en el menú desplegable
+   1. Seleccione el **Operador** como **menor que** en el menú desplegable
 
    1. Introduzca el **valor** como **50**
 
@@ -70,17 +70,17 @@ Siga los pasos a continuación para implementar el caso de uso de la Activación
 
    >[!NOTE]
    >
-   >El canal ya debe tener una imagen predeterminada y las Audiencias deben preconfigurarse como se describe en [Configuración de ContextHub en AEM Screens](configuring-context-hub.md).
+   >El canal ya debe tener una imagen predeterminada y las Audiencias deben estar preconfiguradas como se describe en [Configuración de ContextHub en AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
-   >Debería haber configurado las **** configuraciones **de ContextHub** mediante la ficha **Propiedades** de canal —> **Personalización** .
+   >Debería haber configurado su **ContextHub** **Configuraciones** mediante la ficha canal **Propiedades** —> **Personalización**.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Seleccione **Objetivo** en el editor y seleccione **Marca** y la **Actividad** en el menú desplegable y haga clic en Objetivo de **Inicio**.
+1. Seleccione **Objetivo** en el editor y seleccione **Marca** y la **Actividad** en el menú desplegable y haga clic en **Objetivo de Inicio**.
 
    ![new_actividad3](assets/new_activity3.gif)
 
