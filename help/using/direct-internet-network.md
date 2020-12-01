@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Red de Internet directa (cableada/inalámbrica) {#direct-internet-access}
 
-La Red de Internet directa contiene un punto de acceso de entrada para el acceso a Internet a fin de llegar a los AEM cloud services a los que los AEM Screens deben conectarse.
+La red de Internet directa contiene un punto de acceso de entrada para el acceso a Internet a fin de llegar a los servicios de nube de AEM a los que AEM Screens debe conectarse.
 
-Las comunicaciones estándar de puertos para AEM Screens son:
+Los puertos estándar para la comunicación con AEM Screens son:
 * `ssl-secured https (TCP Port 443)`
 
    <br>O bien,</br>
 
 * `http (TCP Port 80)`, si su caso de uso particular no requiere ese nivel de seguridad.
 
-Los puertos pueden variar debido a la configuración de la configuración dedicada de AEM. Dentro de este SetUp, todos los dispositivos están conectados directamente a su router de Internet como se muestra en la figura a continuación.
+Los puertos pueden variar debido a la configuración de la configuración de AEM dedicada. Dentro de este SetUp, todos los dispositivos están conectados directamente a su router de Internet como se muestra en la figura a continuación.
 
 ![](/help/assets/direct-access-2.png)
 
@@ -29,9 +29,9 @@ La configuración también incluye un acceso a Internet por parte de cualquier P
 
 ## Conexión de AEM Screens Player a Direct Internet Access {#connecting-aem-screens-players}
 
-Siga los pasos que se describen a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
+Siga los pasos a continuación para garantizar la conexión adecuada de los reproductores de pantalla AEM en esta configuración:
 
-1. Asegúrese de que cada uno de los reproductores de pantalla de AEM está conectado a la red del router.
+1. Asegúrese de que cada uno de los reproductores de pantalla AEM está conectado a la red del router.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el navegador del sistema.
 
    >[!NOTE]
@@ -43,11 +43,11 @@ Siga los pasos que se describen a continuación para garantizar la conexión ade
 1. Asegúrese de que la configuración del adaptador de red coincide con la configuración del enrutador y compruebe si no se alcanza la cantidad máxima de direcciones IP disponibles en la red.
 
 1. Compruebe si el router está correctamente conectado a la red de área amplia ISP (enlace de Internet). Esto también se puede identificar mediante un LED de señal en los routers estándar.
-1. Si la llamada mediante URL se realiza correctamente, puede continuar instalando los AEM Screens y registrándose. AEM Screens de Inicio.
+1. Si la llamada mediante URL se realiza correctamente, puede continuar instalando el AEM Screens y registrarse. Inicio AEM Screens.
 
    >[!NOTE]
    >**Sugerencia para la resolución de problemas**
-   >Si los AEM Screens no se conectan correctamente y no se muestra el contenido esperado:
+   >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe el servidor de seguridad del enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
    >1. Asegúrese de que todos los puertos necesarios están permitidos.
@@ -65,7 +65,7 @@ La Red de Internet Directa está lógicamente separada en dos bloques:
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, es proporcionar un ancho de banda suficiente para operar AEM Screens.
 
-*Suficiente* depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
+** Suficiente depende del número de pantallas de AEM conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi de invitados.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 El rendimiento de la Red de área local (LAN), además de la accesibilidad de la red, proporciona suficiente ancho de banda para operar AEM Screens.
 
 La red LAN suele coincidir al menos con una red de 100 Mbps, por lo que hay suficiente ancho de banda para conectar muchos dispositivos con un buen rendimiento al sistema.
-En caso de que se prevea una solución Wi-Fi para conectar a los AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares de conexión Wi-Fi modernos `IEEE 802.11g` . Este estándar admite conexiones de hasta 54 Mbps. Cualquier norma *nueva* como `802.11h-n` es de mejor calidad.
+En caso de que se prevea una solución Wi-Fi para conectar AEM Screens a Internet Link, se recomienda utilizar como mínimo estándares Wi-Fi modernos como `IEEE 802.11g`. Este estándar admite conexiones de hasta 54 Mbps. Cualquier *nuevo* estándar como `802.11h-n` es de mejor calidad.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ En caso de que se prevea una solución Wi-Fi para conectar a los AEM Screens a I
 
 ## Descarga de medios y recursos {#download}
 
-Los AEM Screens ofrecen una gran ventaja a los usuarios de publicidad dinámica. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo que se muestra en una pantalla específica.
+AEM Screens ofrece una gran ventaja a los usuarios de publicidad dinámica. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo que se muestra en una pantalla específica.
 
 Para operaciones normales, por ejemplo, una lista de reproducción definida que se actualiza con frecuencia durante el día: oferta una operación cercana a una red independiente, una vez que todos los archivos se hayan guardado en el reproductor.
 
