@@ -19,11 +19,11 @@ ht-degree: 0%
 ---
 
 
-# Actualización de contenido con Screens Launch {#launches}
+# Actualización de contenido mediante Screens Launch {#launches}
 
-Los autores de contenido pueden crear versiones futuras de los canales, conocidas como **Pantallas** , y establecer la fecha de lanzamiento de este lanzamiento. Esto permite que el contenido esté activo en dispositivos o reproductores en la fecha de lanzamiento especificada.
+Los autores de contenido pueden crear versiones futuras de los canales, conocidas como **Screens Launch** y establecer la fecha de lanzamiento para este lanzamiento. Esto permite que el contenido esté activo en dispositivos o reproductores en la fecha de lanzamiento especificada.
 
-Con la ayuda de ***Screens Launch***, los autores pueden realizar previsualizaciones de cada canal durante el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo Aprobadores recibirá una notificación y puede aprobar o rechazar la solicitud. Cuando se alcanza la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
+Con la ayuda de ***Screens Launch***, los autores pueden realizar previsualizaciones de cada canal en el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo Aprobadores recibirá una notificación y puede aprobar o rechazar la solicitud. Cuando se alcanza la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
 
 Por ejemplo, si el autor desea crear versiones futuras de c1, c2 (canales), se crea un lanzamiento y se establece una fecha de lanzamiento (por ejemplo, 10 de noviembre a las 8:00 a.m.). Cualquier otra actualización del contenido se envía para su revisión.
 
@@ -49,7 +49,7 @@ La ejecución de una experiencia en la fecha de lanzamiento establecida en el re
 
 Para que el reproductor pueda reproducir en inicio el contenido en la fecha de lanzamiento establecida, necesitamos inicios de las actividades anteriores antes de la fecha de lanzamiento.
 
-Si la fecha de lanzamiento es *24 de noviembre, 9:00 AM* y el período de gracia es de *24 horas*, la secuencia de acciones anterior se inicio en (fecha de lanzamiento - período de gracia), es decir, 23 de noviembre, 9:00 AM hora del servidor. Esto da 24 horas de tiempo para completar todas las acciones mencionadas anteriormente y el contenido llegará a los jugadores. Los jugadores comprenderán que se trata de un contenido de inicio, por lo que el contenido no se reproducirá inmediatamente, pero los reproductores almacenarán este contenido como una versión futura y tendrán el inicio de reproducirse exactamente en la fecha de lanzamiento establecida en el huso horario del reproductor.
+Si la fecha de lanzamiento es *24 de noviembre, 9:00 AM* y el período de gracia es *24 horas*, la secuencia de acciones anterior se inicio en (fecha de lanzamiento - período de gracia), es decir, 23 de noviembre, 9:00 AM hora del servidor. Esto da 24 horas de tiempo para completar todas las acciones mencionadas anteriormente y el contenido llegará a los jugadores. Los jugadores comprenderán que se trata de un contenido de inicio, por lo que el contenido no se reproducirá inmediatamente, pero los reproductores almacenarán este contenido como una versión futura y tendrán el inicio de reproducirse exactamente en la fecha de lanzamiento establecida en el huso horario del reproductor.
 
 Por ejemplo: supongamos que el servidor está en PST y que los dispositivos están en EST, la diferencia máxima de tiempo es de 3 horas en este caso y supongamos que la promoción tardará 1 minuto y que la publicación del autor tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. Entonces período de gracia = diferencia de tiempo (3 horas) + tiempo para promocionar el lanzamiento (1 min) + tiempo para publicar el lanzamiento (10 min) + tiempo para descargar en el reproductor (10-15 min) + buffer (para ser seguro, digamos 30 min) = 3 horas 56 min = 14160 segundos.
 
@@ -57,16 +57,16 @@ Así que, cada vez que programamos un lanzamiento en vivo, el inicio de la promo
 
 >[!NOTE]
 >
->De forma predeterminada, el período de gracia para el lanzamiento de pantallas se establece en 24 horas, lo que significa que cuando se establece la fecha de lanzamiento de cualquier inicio para los recursos en */contenido/pantallas*, la promoción contraerá este desplazamiento.
+>De forma predeterminada, el período de gracia para el lanzamiento de pantallas se establece en 24 horas, lo que significa que cuando se establece la fecha de lanzamiento para cualquier inicio de los recursos en */content/screen*, la promoción contraerá este inicio.
 
-### Actualización del período de gracia listo para usar {#updating-out-of-the-box-grace-period}
+### Actualización del período de gracia predeterminado {#updating-out-of-the-box-grace-period}
 
 En esta sección se explica cómo puede actualizar un período de gracia predeterminado a 10 minutos.
 
-1. Vaya al CRXDE Lite y, a continuación, a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Vaya al CRXDE Lite y luego a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Haga clic con el botón derecho y copie el archivo.
-3. Vaya a `/apps/system/config` y haga clic con el botón secundario y péguelo.
-4. Haga clic en el doble `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir el archivo en el editor de CRXDE Lite. Debe mostrar el período de gracia para la ruta */contenido/pantallas/* como **86400**. Cambie ese valor a **600**.
+3. Vaya a `/apps/system/config` y haga clic con el botón derecho y pegue.
+4. Doble haga clic en `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir el archivo en el editor en CRXDE Lite. Debe mostrar el período de gracia para la ruta */content/screen/* como **86400**. Cambie ese valor a **600**.
 
 Ahora, el contenido del archivo de texto debe tener un aspecto similar a:
 
@@ -76,7 +76,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Dado que el período de gracia se ha establecido en 10 minutos en el ejemplo anterior, cuando se establece la fecha de lanzamiento de cualquier inicio para los recursos en */contenido/pantallas*, la promoción contraerá este inicio.
+Dado que el período de gracia se ha establecido en 10 minutos en el ejemplo anterior, cuando se establece la fecha de lanzamiento para cualquier inicio de los recursos en */content/screen*, la promoción contraerá este desplazamiento.
 
 Por ejemplo, si la fecha de lanzamiento se establece como 24 de noviembre, 9:00 AM y el período de gracia es de 600 segundos, el trabajo de promoción se inicio el 24 de noviembre a las 8:50 AM.
 
@@ -96,20 +96,20 @@ Siga los pasos que se describen a continuación para implementar la funcionalida
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Seleccione canal **FutureLaunch** y haga clic en **Crear lanzamiento** en la barra de acciones.
+1. Seleccione el canal **FutureLaunch** y haga clic en **Crear lanzamiento** en la barra de acciones.
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. Se abre el asistente **Crear inicio** . Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Añadir Canales** para agregar el canal para el que desea crear el lanzamiento.
+1. Se abre el asistente **Crear inicio**. Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Añadir Canales** para agregar el canal para el que desea crear el lanzamiento.
 
-1. Haga clic en **Siguiente** en el asistente **Crear inicio** . La opción **Incluir subpáginas** está seleccionada de forma predeterminada.
+1. Haga clic en **Siguiente** desde el asistente **Crear inicio**. La opción **Incluir subpáginas** está seleccionada de forma predeterminada.
 
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Puede utilizar la opción **+ Añadir Canales** para agregar otro canal para el que desee crear el lanzamiento.
+   >Puede utilizar la opción **+ Añadir Canales** para agregar otro canal para el cual desee crear el lanzamiento.
 
-   Para utilizar la opción **Añadir Canales** , vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
+   Para utilizar la opción **Añadir Canales**, desplácese hasta el canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
 
    La opción **Seleccionar** se desactivará si intenta seleccionar varios canales o una carpeta para agregar el lanzamiento.
 
@@ -118,14 +118,14 @@ Siga los pasos que se describen a continuación para implementar la funcionalida
    Una vez que haya seleccionado el canal o los canales, haga clic en **Siguiente**.
 
 
-1. Introduzca el título **de** lanzamiento como **promociones** de verano y no necesita establecer la fecha **de** lanzamiento, como se muestra en la figura siguiente. Haga clic en **Crear**.
+1. Escriba el **Título de inicio** como **Promociones de verano** y no necesita establecer la **Fecha de inicio**, como se muestra en la figura siguiente. Haga clic en **Crear**.
 
    >[!NOTE]
    >
-   >*Al habilitar o comprobar* la opción **Heredar datos** activos de la página de origen, los canales se pueden crear como copias en directo en el lanzamiento. Si se realizan cambios en el canal original, dichos cambios se aplican automáticamente a los canales de inicio.
+   >*Al habilitar o* comprobar la opción  **Heredar** datos activos de la página de origen, los canales se pueden crear como copias en vivo en el lanzamiento. Si se realizan cambios en el canal original, dichos cambios se aplican automáticamente a los canales de inicio.
    >
    >
-   >*Al deshabilitar o desmarcar* **Heredar datos** activos de la página de origen, los canales se pueden copiar sin ninguna relación activa durante el lanzamiento. Por lo tanto, si se realizan cambios en el canal original, esos cambios no se aplican a los canales de inicio.
+   >*Deshabilitar o* **desmarcarHeredar** datos activos de la página de origen permite copiar los canales sin ninguna relación activa durante el lanzamiento. Por lo tanto, si se realizan cambios en el canal original, esos cambios no se aplican a los canales de inicio.
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-c.png)
 
@@ -143,18 +143,18 @@ Siga los pasos que se describen a continuación para implementar la funcionalida
       >
       >Iniciar la fecha de lanzamiento respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
 
-1. Verá que se ha creado el lanzamiento. Puede hacer clic en **Abrir** para vista de las páginas en el editor o en **Hecho** para volver al proyecto.
+1. Verá que se ha creado el lanzamiento. Puede hacer clic en **Abrir** para vista de las páginas en el editor o en **Listo** para volver al proyecto.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Al hacer clic en **Listo** , podrá volver al canal **FutureLaunch** .
+   Al hacer clic en **Listo** puede volver al canal **FutureLaunch**.
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### Edición de las propiedades de inicio para establecer la fecha de lanzamiento y el ámbito {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Una vez creado el lanzamiento, puede actualizar las propiedades como la fecha de lanzamiento, el título de inicio y el ámbito de promoción mediante las propiedades **de** inicio.
+Una vez creado el lanzamiento, puede actualizar las propiedades como fecha de lanzamiento, título de inicio y ámbito de promoción mediante **Propiedades de inicio**.
 
 * **Fecha** de lanzamiento, hace referencia a la fecha de lanzamiento, es decir, la fecha o hora en que el contenido se reproducirá en el reproductor de pantallas según la zona horaria del reproductor.
 * **Listo** para producción, permite que los canales se publiquen después de promocionarlos, ya que está activado, por lo que no es necesario cambiarlos.
@@ -163,44 +163,44 @@ Una vez creado el lanzamiento, puede actualizar las propiedades como la fecha de
 
 Siga los pasos a continuación para editar las propiedades de inicio:
 
-1. Vaya a canal **FutureLaunch***(es decir, el lanzamiento pendiente)* y seleccione el canal, como se muestra en la figura siguiente.
+1. Vaya al canal **FutureLaunch**, *(que es el lanzamiento pendiente)* y seleccione el canal, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Haga clic en el **Panel** en la barra de acciones y verá el panel **PENDIENTES LAUNCHES** desde el panel canal.
+1. Haga clic en **Panel** desde la barra de acciones y verá el panel **INICIOS PENDIENTES** desde el panel de canal.
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Seleccione el inicio y haga clic en **Iniciar propiedades** en el panel **PENDIENTES LAUNCHES** .
+1. Seleccione el inicio y haga clic en **Propiedades de inicio** en el panel **INICIOS PENDIENTES**.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Edición del lanzamiento de pantallas para Añadir o eliminar Canales  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edición del lanzamiento de pantallas para Añadir o eliminar Canales {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Una vez creado el lanzamiento, puede agregar o quitar canales al lanzamiento existente mediante la opción **Editar inicio** .
+Después de crear el lanzamiento, puede agregar o quitar canales al inicio existente mediante la opción **Editar inicio**.
 
-Una vez que haya terminado, haga clic en **Guardar** para volver al canal **FutureLaunch** .
+Una vez que haya terminado, haga clic en **Guardar** para volver al **canal de FutureLaunch**.
 
 ### Promoción manual del lanzamiento de pantallas{#promote-the-screens-launch-manually}
 
-Puede promocionar el lanzamiento manualmente mediante la opción **Promocionar lanzamiento** del panel **PENDIENTES DE INICIO** .
+Puede promocionar el lanzamiento manualmente mediante la opción **Promote Launch** del panel **PENDING LAUNCHES**.
 
-Puede elegir los recursos que desea promocionar como parte de esta promoción manual en el Asistente para **iniciar promoción**.
+Puede elegir los recursos que desee promocionar como parte de esta promoción manual en el **Asistente para promoción de inicio**.
 
 ![image](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Puede activar o desactivar la opción para eliminar el lanzamiento después de la producción.
-1. Puede definir el **ámbito** del lanzamiento con las siguientes opciones:
+1. Puede configurar el **Ámbito** del lanzamiento, con las siguientes opciones:
    1. **Promocione el lanzamiento** completo: Todos los canales del lanzamiento se promocionan en la fecha de lanzamiento establecida.
    1. **Promocione las páginas** modificadas: Solo se promocionarán los recursos de inicio modificados. Se recomienda utilizar esta opción cuando no se requiera la revisión del inicio.
    1. **Promocione las páginas** aprobadas: Esta opción requiere que el flujo de trabajo de aprobación de inicio se ejecute en los canales de inicio. Solo se promocionarán las páginas aprobadas en la fecha de lanzamiento establecida.
    1. **Promocione la página** actual: Esta opción requiere que el flujo de trabajo de aprobación de inicio se ejecute solamente para la página actual.
-1. Haga clic en **Siguiente** en el asistente **Promote Launch** .
+1. Haga clic en **Siguiente** en el asistente **Promote Launch**.
 1. Haga clic en **Promocionar** para promocionar el lanzamiento.
 
 ### Eliminación del lanzamiento de pantallas {#deleting-the-screens-launch}
 
-Puede eliminar el inicio mediante la opción **Eliminar inicio** del panel **PENDIENTES LAUNCHES** .
+Puede eliminar el lanzamiento mediante la opción **Eliminar inicio** del panel **INICIOS PENDIENTES**.
 
 >[!CAUTION]
 >
