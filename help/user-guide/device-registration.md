@@ -32,10 +32,10 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
 
 >[!NOTE]
 >
->Una vez que descargue la versión más reciente de Windows Player (*.exe*), desde [AEM página de descargas](https://download.macromedia.com/screens/) del reproductor 6.4, siga los pasos del reproductor para completar la instalación ad-hoc:
+>Una vez que descargue el último Reproductor de Windows (*.exe*), desde la página [Descargas del Reproductor de AEM 6.4](https://download.macromedia.com/screens/), siga los pasos del reproductor para completar la instalación ad-hoc:
 >
 >1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. Vaya a **Configuración** en el menú de acción de la izquierda, introduzca la dirección de ubicación de la instancia de AEM en **Servidor** y haga clic en **Guardar**.
+>1. Vaya a **Configuration** desde el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de AEM en **Server** y haga clic en **Save**.
 >1. Haga clic en el vínculo **Registro** desde el menú de acción de la izquierda y en los pasos siguientes para completar el proceso de registro del dispositivo.
 
 >
@@ -48,21 +48,21 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. En AEM, vaya a la carpeta **Dispositivos** del proyecto.
+1. En AEM, vaya a la carpeta **Devices** del proyecto.
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la creación de un nuevo proyecto para Pantallas en el panel de AEM, consulte [Crear y gestionar proyecto](creating-a-screens-project.md)de pantallas.
+   >Para obtener más información sobre la creación de un nuevo proyecto para Pantallas en el panel de AEM, consulte [Crear y administrar proyecto de pantallas](creating-a-screens-project.md).
 
-1. Toque o haga clic en el botón Administrador **de dispositivos** de la barra de acciones.
+1. Toque o haga clic en el botón **Administrador de dispositivos** de la barra de acciones.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Toque o haga clic en el botón Registro **del** dispositivo en la parte superior derecha.
+1. Toque o haga clic en el botón **Registro del dispositivo** en la parte superior derecha.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Seleccione el dispositivo requerido (igual que el paso 1) y toque o haga clic en **Registrar dispositivo**.
+1. Seleccione el dispositivo requerido (igual que el paso 1) y toque/haga clic **Registrar dispositivo**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -70,24 +70,24 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. En el dispositivo, compruebe el código **de registro**.
+1. En el dispositivo, compruebe el **Código de registro**.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Si el código **de** registro es el mismo en ambos equipos, toque o haga clic en el botón **Validar** en AEM, como se muestra en el paso (6).
+1. Si el **Código de registro** es el mismo en ambos equipos, toque o haga clic en el botón **Validar** en AEM, como se muestra en el paso (6).
 1. Defina el nombre que desee para el dispositivo y haga clic en **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. Toque o haga clic **Finalizar** para completar el proceso de registro.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >El **Registro de nuevo** le permite registrar un nuevo dispositivo.
+   >El **Registro nuevo** le permite registrar un nuevo dispositivo.
    >
-   >La pantalla **Asignar** permite agregar directamente el dispositivo a una pantalla.
+   >El **Asignar visualización** permite agregar directamente el dispositivo a una pantalla.
 
    Si hace clic en **Finalizar**, deberá asignar el dispositivo a una pantalla.
 
@@ -97,7 +97,7 @@ El proceso de registro del dispositivo se realiza en dos equipos distintos:
    >
    >Para obtener más información sobre la creación y administración de una pantalla para su proyecto de Pantallas, consulte [Creación y administración de pantallas](managing-displays.md).
 
-### Asignación de un dispositivo a una pantalla {#assigning-device-to-a-display}
+### Asignación del dispositivo a una pantalla {#assigning-device-to-a-display}
 
 Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación para asignar el dispositivo a una pantalla del proyecto de AEM Screens:
 
@@ -105,7 +105,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Seleccione la ruta de la pantalla en Ruta **de** visualización/configuración del dispositivo.
+1. Seleccione la ruta de acceso de la pantalla en **Ruta de visualización/configuración del dispositivo**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
@@ -117,7 +117,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Además, puede vista del panel de visualización al hacer clic en **Finalizar**.
+   Además, puede realizar la vista del panel de visualización al hacer clic en **Finalizar**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -125,7 +125,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
 Las restricciones de contraseña de usuario para todo el sistema podrían provocar un error en el registro del dispositivo. El registro del dispositivo utiliza una contraseña generada al azar para crear el usuario del dispositivo.
 
-Si la configuración *AuthorizableActionProvider* restringe la contraseña, es posible que se produzca un error al crear el usuario del dispositivo.
+Si la contraseña está restringida por la configuración *AuthorizableActionProvider*, la creación del usuario del dispositivo podría fallar.
 
 >[!NOTE]
 >
