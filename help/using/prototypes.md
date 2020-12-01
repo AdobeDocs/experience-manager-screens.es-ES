@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Creación de prototipos de experiencia del usuario {#prototypes}
+# Prototipos de experiencia del usuario {#prototypes}
 
 >[!NOTE]
 >
