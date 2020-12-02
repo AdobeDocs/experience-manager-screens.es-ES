@@ -2,10 +2,10 @@
 title: Notas de la versión de Feature Pack 202011
 description: La página describe las Notas de la versión de Feature Pack 2011.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 AEM Screens ha lanzado AEM 6.5 Feature Pack 6.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.6 de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mediante su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.5.6 de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mediante su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el último paquete de funciones titulado como **AEM 6.5 Pantallas FP6**.
 
 ## Fecha de la versión {#release-date}
 
@@ -41,10 +41,11 @@ Consulte [Implementación de Tizen Player](/help/user-guide/tizen-player.md) par
 * **Funcionalidad de búsqueda desde el Administrador de dispositivos**
 
    Ahora hay una nueva funcionalidad de búsqueda disponible en la interfaz de usuario del Administrador de dispositivos con el paquete de funciones más reciente de la versión 6.5.6 de AEM Screens.
+Consulte [Búsqueda en un dispositivo desde el Administrador de dispositivos](/help/user-guide/device-registration.md#search-device) para obtener más detalles.
 
 * **Intervalo de ping predeterminado**
 
-   El intervalo de ping predeterminado ahora está establecido en 30 segundos para esta versión.
+   El intervalo de ping predeterminado ahora se establece en 30 segundos en esta versión.
 
 ### Reproductores de AEM Screens lanzados {#released-aem-screens-players}
 
