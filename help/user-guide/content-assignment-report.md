@@ -2,10 +2,10 @@
 title: Informe de asignación de contenido
 description: Esta página describe la descarga y el uso del informe de asignación de contenido.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 7%
+source-wordcount: '332'
+ht-degree: 6%
 
 ---
 
@@ -45,10 +45,14 @@ Siga las instrucciones siguientes para descargar el informe Asignación de conte
 
 1. Vaya a su proyecto de AEM Screens y seleccione el proyecto **DemoScreens**.
 
-1. Haga clic en **Informe de asignación de contenido** en la barra de acciones. Se debe descargar una hoja de Excel en el equipo local.
+1. Haga clic en **Informe de asignación de contenido** en la barra de acciones.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >La hoja de cálculo descargada consta de cuatro columnas, como **Canales**, **Recursos**, **Muestra** y **Dispositivos**, que pueden utilizarse para investigar más a fondo las cuatro entidades pertenecientes a su proyecto de AEM Screens.
+
+1. Se descarga una hoja de Excel en el equipo local con el nombre idéntico al nombre del proyecto de AEM Screens. Por ejemplo: si el nombre del proyecto es **DemoScreens**, el nombre de archivo descargado será **demoscreen-content-Assignment-report.xlxs**.
+
+   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
