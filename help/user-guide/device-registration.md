@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Una vez que haya registrado los dispositivos en su reproductor, puede realizar l
 
 * Comodín, `*` se admite para la búsqueda. Si desea buscar todos los dispositivos con nombres que empiecen por *boston*, puede utilizar *boston**.
 
-1. Si el nombre del dispositivo es *BostonStoreLobby* y la búsqueda de *boston* no devolverá el resultado en lugar de utilizar *boston** en los criterios de búsqueda devolverá el resultado.
+* Si el nombre del dispositivo es *BostonStoreLobby* y la búsqueda de *boston* no devolverá el resultado en lugar de utilizar *boston** en los criterios de búsqueda devolverá el resultado.
 
 ## Limitaciones en el registro del dispositivo {#limitations-on-device-registration}
 
