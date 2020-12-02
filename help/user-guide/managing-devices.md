@@ -38,19 +38,19 @@ Para asignar un dispositivo a una pantalla, siga estos pasos:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. Se muestran los dispositivos asignados y sin asignar.
+1. Seleccione la carpeta **Dispositivos** y toque o haga clic en **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y sin asignar.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Seleccione un dispositivo sin asignar de la lista y toque o haga clic en **Asignar dispositivo** en la barra de acciones.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Seleccione la pantalla a la que desea asignar el dispositivo desde la lista y toque o haga clic en **Asignar**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Toque o haga clic en **Finalizar** para completar el proceso de asignación.
 
 
    El tablero de la pantalla muestra el dispositivo asignado en el panel **DISPOSITIVOS**.
@@ -64,7 +64,7 @@ Para asignar un dispositivo a una pantalla, siga estos pasos:
 >[!NOTE]
 >
 >Cada vez que el primer dispositivo se añade a un nuevo proyecto Pantallas, se crea un grupo de usuarios.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screen-we-Retail-devices*.
 >Este grupo se añadirá como miembro del grupo **Colaboradores**, tal y como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
