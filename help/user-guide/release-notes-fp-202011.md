@@ -2,10 +2,10 @@
 title: Notas de la versión de Feature Pack 202011
 description: La página describe las Notas de la versión de Feature Pack 2011.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ La fecha de versión de AEM Screens Feature Pack 202011 es el 30 de noviembre de
 
 * **Informe de asignación de contenido**
 
-   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *informe de asignación de contenido* que podría tener formato de hoja de cálculo.
+   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *informe de asignación de contenido* en formato de hoja de cálculo.
 Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más detalles.
 
 
