@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -102,10 +102,72 @@ El siguiente diagrama muestra la implementación del servicio de vigilancia:
 
 **1. Inicialización** En el momento de la inicialización del complemento de cordova, se comprueban los permisos para ver si tenemos privilegios del sistema y, por lo tanto, el permiso de reinicio. Si se cumplen estos dos criterios, se crea una intención de reinicio pendiente; de lo contrario, se crea una intención pendiente de reiniciar la aplicación (según su Actividad de inicio).
 
-**2. Mantener activo temporizador** Se utiliza un temporizador de mantenimiento para activar un evento cada 15 segundos. En ese evento, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
+**2. Mantener activo temporizador** Se utiliza un temporizador de mantenimiento para el déclencheur de un evento cada 15 segundos. En ese evento, debe cancelar la intención pendiente existente (para reiniciar o reiniciar la aplicación) y registrar una nueva intención pendiente durante los mismos 60 segundos en el futuro (principalmente posponiendo el reinicio).
 
 >[!NOTE]
 >
 >En Android, el *AlarmManager* se utiliza para registrar los *pendingIntents* que se pueden ejecutar aunque la aplicación se haya bloqueado y su envío de alarma no sea exacto de la API 19 (Kitkat). Mantenga cierto espacio entre el intervalo del temporizador y la *alarma de AlarmManager* *pendingIntent&#39;s*.
 
 **3. Bloqueo de la aplicación** En caso de que se produzca un bloqueo, el parámetro pendingIntent para el reinicio registrado con AlarmManager ya no se restablece y, por tanto, ejecuta un reinicio o reinicio de la aplicación (según los permisos disponibles en el momento de la inicialización del complemento de Cordova).
+
+## Aprovisionamiento masivo de Android Player {#bulk-provision-android-player}
+
+Al desplegar el reproductor de Android de forma masiva, es necesario aprovisionar el reproductor para que apunte a una instancia de AEM, así como configurar otras propiedades sin introducir manualmente las de la interfaz de usuario del administrador.
+
+>[!NOTE]
+>Esta función está disponible en el reproductor de Android 42.0.372.
+
+Siga los pasos a continuación para permitir el aprovisionamiento masivo en el reproductor de Android:
+
+1. Cree un archivo JSON de configuración con el nombre `player-config.default.json`.
+Consulte una [Política JSON de ejemplo](#example-json), así como una tabla que describe el uso de los distintos [Atributos de política](#policy-attributes).
+
+1. Use un explorador de archivos MDM, ADB o Android Studio para colocar este archivo JSON de directiva en la carpeta *sdcard* del dispositivo Android.
+
+1. Una vez implementado el archivo, utilice MDM para instalar la aplicación del reproductor.
+
+1. Cuando se inicie la aplicación del reproductor, leerá este archivo de configuración y señalará al servidor de AEM correspondiente, donde se podrá registrar y controlar posteriormente.
+
+   >[!NOTE]
+   >Este archivo es *de sólo lectura* la primera vez que se inicia la aplicación y no se puede utilizar para configuraciones posteriores. Si el reproductor se inicia antes de que se descargue el archivo de configuración, simplemente desinstale y vuelva a instalar la aplicación en el dispositivo.
+
+### Atributos de directiva {#policy-attributes}
+
+La siguiente tabla resume los atributos de política con un JSON de política de ejemplo para referencia:
+
+| **Nombre de directiva** | **Función** |
+|---|---|
+| *server* | Dirección URL del servidor de Adobe Experience Manager. |
+| *resolución* | La resolución del dispositivo. |
+| *RestartSchedule* | La programación para reiniciar se aplica a todas las plataformas. |
+| *enableAdminUI* | Habilite la interfaz de usuario del administrador para configurar el dispositivo en el sitio. Establezca *false* una vez que esté completamente configurado y en producción. |
+| *enableOSD* | Habilite la interfaz de usuario del conmutador de canal para que los usuarios puedan cambiar de canal en el dispositivo. Considere la opción *false* una vez que esté completamente configurado y en producción. |
+| *enableActivityUI* | Active esta opción para mostrar el progreso de actividades como la descarga y la sincronización. Habilite la solución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| *enableNativeVideo* | Active esta opción para utilizar la aceleración de hardware nativa para la reproducción de vídeo (solo Android). |
+
+### Ejemplo de directiva JSON {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Todos los dispositivos Android tienen una carpeta *sdcard* tanto si se inserta un *sdcard* como si no. Cuando se implementa, este archivo se encuentra en el mismo nivel que la carpeta de descargas. Algunos MDM, como Samsung Knox, pueden hacer referencia a esta *ubicación de carpeta sdcard* como *almacenamiento interno*.
