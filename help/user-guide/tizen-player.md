@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
+source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 1. Vaya a la página [Descargas del reproductor de AEM 6.5](https://download.macromedia.com/screens/) para descargar Tizen Player.
 
 1. Instale el archivo Tizen player *(.zip)* desde el equipo local.
+
+## Exención de los agentes de usuario con el problema de cookie de Samesite {#exempting-user-agents}
+
+>[!IMPORTANT]
+>**Esta sección se aplica a AEM 6.5.5 a AEM 6.5.7**
+>Hay algunos motores de navegador que son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la versión más reciente disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados. Para eximir a estos clientes incompatibles cuando usen SameSite=None, siga los pasos a continuación.
+
+1. Descargue el parche *jar file* de `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`.
+
+1. Vaya a `/system/console/bundles` en AEM y haga clic en el botón `install/update`.
+
+1. Instale el archivo jar `crx-auth-token`. Es posible que deba apagar y reiniciar AEM después de instalar este tarro porque está relacionado con la autenticación.
+
+1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token granito de Adobe**. Establezca el valor de SameSite en None.
+
+1. Debe ver una nueva opción *Agentes de usuario para quedar exentos del mismo atributo*. Rellene esto con un regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
+   >[!NOTE]
+   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información.
+
+1. Para el reproductor Tizen utilice el regex: `(.*)Tizen (4|5)(.*)` Registre el reproductor Tizen en su instancia de AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
+
 
 ## Configuración del servidor local y extracción de archivos comprimidos {#setting-local-server}
 
@@ -46,7 +67,7 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
 1. Haga clic en el botón **MENU** del mando a distancia del dispositivo y desplácese hacia abajo hasta **System** desde la barra de navegación izquierda.
 
 1. Desplácese hacia abajo y seleccione la opción **Reproducir mediante el iniciador de URL**.
-   ![image](/help/user-guide/assets/tizen/url-launcher.png)
+   ![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Pulse el botón **Inicio** desde el mando a distancia.
 
@@ -86,34 +107,31 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 
    >[!NOTE]
    >Compruebe que la pantalla está configurada para reproducir mediante el iniciador de URL.
+   >![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Vaya a Dirección del servidor, escriba en el acceso a la URL de MagicInfo y pulse Listo.
 
-1. Configurar TLS para usar o no usar según el caso
-   1. Vaya al puerto y seleccione el número de puerto en el servidor.
-   1. Pulse Guardar cuando las opciones estén listas.
+1. Configure TLS, si es necesario. Vaya al puerto y seleccione el número de puerto en el servidor. Haga clic en **Guardar**.
 
-1. Vaya a la ficha Dispositivo una vez que haya iniciado sesión en MIS
-   1. Busque el dispositivo que acaba de configurar mirando la dirección IP o su dirección Mac.
-   1. Una vez encontrado el dispositivo, haga clic en la casilla de verificación y seleccione Aprobar.
+1. Vaya a la ficha Dispositivo y busque el dispositivo que acaba de configurar.
 
-1. Una vez que se haya hecho clic en el botón Aprobado, aparecerá la siguiente ventana emergente
-   1. Rellene la información requerida
-   1. seleccionar un grupo de dispositivos
-   1. Haga clic en el botón Aceptar para finalizar el proceso de aprobación.
+1. Una vez encontrado el dispositivo, haga clic en la casilla de verificación y seleccione **Aprobar**.
 
-1. Una vez aprobado el dispositivo, debe aparecer como sigue en la Lista del dispositivo.
-   1. Haga clic en el botón Información ubicado en el cuadro &quot;i&quot; del dispositivo
+1. Rellene la información necesaria y seleccione un grupo de dispositivos. Haga clic en **Aceptar** para completar el proceso de aprobación.
 
-1. La ventana emergente Información del dispositivo aparecerá como sigue y haga clic en el botón Editar.
+   >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Edite las opciones de Dispositivo y seleccione la ficha **Configuración**.
+1. Una vez aprobado el dispositivo, debe aparecer en la Lista del dispositivo. Haga clic en el botón *Información* ubicado en el cuadro del dispositivo **i**.
 
-1. Vaya a la sección **Iniciador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para instalar una aplicación `SSSP`, como se muestra en la figura siguiente.
+   >![image](/help/user-guide/assets/tizen/rms-6.png)
+
+1. Aparece el cuadro de diálogo Información del dispositivo. Seleccione la ficha **Información del dispositivo** y haga clic en **Editar**.
+
+1. Edite las opciones del dispositivo y seleccione la ficha **Configuración**. Vaya a la sección **Iniciador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para instalar una aplicación `SSSP`, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Haga clic en **Guardar** para que los cambios surtan efecto en la pantalla de visualización.
+1. Haga clic en **Guardar** para que los cambios aparezcan en la pantalla de visualización.
 
 
 
