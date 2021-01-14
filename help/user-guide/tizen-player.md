@@ -2,10 +2,10 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles al uti
 
 1. Actualice a Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Si va a instalar AEM 6.5.8, puede omitir los pasos 2 y 3 siguientes.
+
 1. Vaya a `/system/console/bundles` en AEM y haga clic en el botón `install/update`.
 
 1. Instale el archivo jar `crx-auth-token`. Es posible que deba apagar y reiniciar AEM después de instalar este tarro porque está relacionado con la autenticación.
@@ -38,27 +41,23 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles al uti
 
 1. Debe ver una nueva opción *Agentes de usuario para quedar exentos del mismo atributo*. Rellene esto con un regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
    >[!NOTE]
-   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen utilice el regex: `(.*)Tizen (4|5)(.*)`.
+   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen utilice el regex: `(.*)Tizen(.*)`.
 
 1. Registre el reproductor Tizen en su instancia de AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
 
 
 ## Configuración del servidor local y extracción de archivos comprimidos {#setting-local-server}
 
-Siga los pasos a continuación para configurar el servidor local y copiar los archivos extraídos:
-
-1. Obtenga la dirección IP de su equipo local.
-   >[!NOTE]
-   >Revise la documentación oficial para saber cómo habilitar el servidor local en su plataforma.
-
-1. Desde Terminal, vaya al mismo directorio de la carpeta del instalador descomprimido y compruebe si el host local está funcionando.
-
-1. El reproductor Tizen descargará el instalador desde el servidor local.
+Complete los siguientes pasos:
 
 1. Copie los dos archivos extraídos como `AEMScreensPlayer.wgt` y `sssp_config.xml` en el directorio raíz del servidor Web Apache local.
 
    >[!NOTE]
    >La `AEMScreensPlayer.wgt`es la aplicación real del reproductor Tizen y `sssp_config.xml` contiene información sobre este mapa que le ayuda a instalarlo en el dispositivo Tizen.
+
+1. Obtenga la dirección IP o URL del servidor HTTP local (y la ruta a la carpeta que contiene los archivos extraídos en el paso 2 si se extraen en una subcarpeta y no en una carpeta raíz)
+
+1. El reproductor Tizen descargará el instalador desde el servidor local.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
@@ -73,7 +72,9 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
 
 1. Una vez configurado el iniciador de URL, presione el botón **Inicio** desde el control remoto.
 
-1. Vaya a la **configuración del iniciador de URL** e introduzca la dirección IP del servidor host local.
+1. Vaya a la **Configuración del iniciador de URL** e introduzca la dirección IP del servidor host local y haga clic en **Listo**.
+   >[!NOTE]
+   >El reproductor Tizen debe poder conectarse al servidor http.
 
 1. Ahora, AEM Screens Player debe instalar e iniciar automáticamente en el dispositivo Samsung.
 
@@ -115,6 +116,8 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 1. Configure TLS, si es necesario. Vaya al puerto y seleccione el número de puerto en el servidor y haga clic en **Guardar**.
 
 1. Vaya a la ficha **Dispositivo** y busque el dispositivo que acaba de configurar. Una vez encontrado el dispositivo, haga clic en la casilla de verificación y seleccione **Aprobar**.
+
+   >![image](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Rellene la información necesaria y seleccione un grupo de dispositivos. Haga clic en **Aceptar** para completar el proceso de aprobación.
 
