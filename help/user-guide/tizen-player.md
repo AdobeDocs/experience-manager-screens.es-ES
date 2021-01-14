@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Siga los pasos que se describen a continuación para aprovisionar la aplicación
 
 ### Incorporación del dispositivo Tizen al servicio de administración remota de Samsung (RMS) {#enroll-tizen-device-rms}
 
-Siga los pasos que se describen a continuación para inscribir el dispositivo Tizen en el servicio de administración remota de Samsung (RMS) y configurar de forma remota el iniciador de URL:
+Siga los pasos a continuación para inscribir el dispositivo Tizen en el servicio de administración remota de Samsung (RMS) y configurar de forma remota el iniciador de URL:
 
 >[!NOTE]
 >Compruebe la configuración de red y el monitor.
@@ -107,9 +107,13 @@ Siga los pasos que se describen a continuación para inscribir el dispositivo Ti
 
 1. La ventana emergente Información del dispositivo aparecerá como sigue y haga clic en el botón Editar.
 
-1. Las opciones Editar dispositivo aparecerán como se indica a continuación y seleccione la ficha Configuración.
+1. Edite las opciones de Dispositivo y seleccione la ficha **Configuración**.
 
-1. Busque la sección del iniciador de URL e introduzca la dirección URL que aloja el wgt y `SSSP config file` para instalar una aplicación SSSP.
+1. Vaya a la sección **Iniciador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para instalar una aplicación `SSSP`, como se muestra en la figura siguiente.
+
+   ![image](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Haga clic en **Guardar** para que los cambios surtan efecto en la pantalla de visualización.
 
 
 
