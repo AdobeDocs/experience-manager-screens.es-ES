@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
+source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
-1. Vaya a la página [Descargas del reproductor de AEM 6.5](https://download.macromedia.com/screens/) para descargar Tizen Player.
+1. Vaya a la página [Descargas](https://download.macromedia.com/screens/) de AEM Screens Player para descargar Tizen Player.
 
 1. Instale el archivo Tizen player *(.zip)* desde el equipo local.
 
