@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
+source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -20,33 +20,10 @@ Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
 1. Instale el archivo Tizen player *(.zip)* desde el equipo local.
 
-## Exención de los agentes de usuario con el problema de cookie de Samesite {#exempting-user-agents}
-
->[!IMPORTANT]
->**Esta sección se aplica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
->Hay algunos motores de navegador que son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la versión más reciente disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
-
-Siga los pasos a continuación para eximir a estos clientes incompatibles al utilizar *SameSite=None*:
-
-1. Actualice a Adobe Experience Manager (AEM) Service Pack 6.5.8.
-
-   >[!NOTE]
-   >Si va a instalar AEM 6.5.8, puede omitir los pasos 2 y 3 siguientes.
-
-1. Vaya a `/system/console/bundles` en AEM y haga clic en el botón `install/update`.
-
-1. Instale el archivo jar `crx-auth-token`. Es posible que deba apagar y reiniciar AEM después de instalar este tarro porque está relacionado con la autenticación.
-
-1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token granito de Adobe**. Establezca el valor del valor **SameSite** en **None**.
-
-1. Debe ver una nueva opción *Agentes de usuario para quedar exentos del mismo atributo*. Rellene esto con un regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
-   >[!NOTE]
-   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen utilice el regex: `(.*)Tizen(.*)`.
-
-1. Registre el reproductor Tizen en su instancia de AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
-
-
 ## Configuración del servidor local y extracción de archivos comprimidos {#setting-local-server}
+
+>[!NOTE]
+> Extraiga el archivo zip y haga que el reproductor Tizen esté disponible a través de `http server`. (El `http server` no es necesario para ser un servidor Local o Apache).
 
 Complete los siguientes pasos:
 
@@ -81,6 +58,25 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
    >[!NOTE]
    >Tanto el dispositivo Tizen como el servidor `http` deben poder conectarse entre sí, es decir, el servidor debe estar disponible para el reproductor Tizen.
 
+
+## Exención de los agentes de usuario con el problema de cookie del mismo sitio {#exempting-user-agents}
+
+>[!IMPORTANT]
+>**Esta sección se aplica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
+>Hay algunos motores de navegador que son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la versión más reciente disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
+
+Siga los pasos a continuación para eximir a estos clientes incompatibles al utilizar *SameSite=None*:
+
+1. Actualice a Adobe Experience Manager (AEM) Service Pack 6.5.8.
+
+1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token granito de Adobe**. Establezca el valor del valor **SameSite** en **None**.
+
+1. Debe ver una nueva opción *Agentes de usuario para quedar exentos del mismo atributo*. Rellene esto con un regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
+   >[!NOTE]
+   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen utilice el regex: `(.*)Tizen(.*)`.
+
+1. Registre el reproductor Tizen en su instancia de AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
+
 ## Aprovisionamiento masivo de Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
@@ -96,7 +92,7 @@ Siga los pasos que se describen a continuación para aprovisionar la aplicación
    >[!NOTE]
    >Es posible que deba crear o configurar un certificado de firma.
 
-1. Implemente este nuevo archivo RMS `wgt` y cuando el reproductor se inicie, deberá apuntar automáticamente a su servidor para que no necesite introducirlo manualmente en todos los dispositivos.
+1. Implemente este nuevo archivo `wgt` mediante RMS o el iniciador de URL y, cuando se inicie el reproductor, deberá apuntar automáticamente a su servidor para que no necesite introducirlo manualmente en todos los dispositivos.
 
 ### Incorporación del dispositivo Tizen al servicio de administración remota de Samsung (RMS) {#enroll-tizen-device-rms}
 
@@ -136,7 +132,4 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Haga clic en **Guardar** para que los cambios aparezcan en la pantalla de visualización.
-
-
-
 
