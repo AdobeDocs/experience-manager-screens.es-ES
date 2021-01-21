@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -102,10 +102,6 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 >Compruebe la configuración de red y el monitor.
 
 1. Vaya a **Menú** -> **Red** -> **Configuración de red del servidor** y pulse **Intro**.
-
-   >[!NOTE]
-   >Compruebe que la pantalla está configurada para reproducir mediante el iniciador de URL.
-   >![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Vaya a la dirección del servidor y escriba en el acceso a la dirección URL de MagicInfo y presione **Listo**.
 
