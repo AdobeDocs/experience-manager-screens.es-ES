@@ -33,7 +33,7 @@ La fecha de la versión de AEM Screens Feature Pack 201907 es el 31 de julio de 
 
 ### Novedades {#what-s-new}
 
-* **El activador de datos impulsa el cambio de recursos en un canal AEM Screens**
+* **El Déclencheur de datos impulsa el cambio de recursos en un canal AEM Screens**
 
 El jugador cambia a un canal que muestra la información de emergencia al recibir un evento disparado por el sistema de emergencia. El canal juega exclusivamente hasta que termina la situación de emergencia.
 
