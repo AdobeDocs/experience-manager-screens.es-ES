@@ -8,8 +8,8 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 translation-type: tm+mt
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
    + [Lista de comprobación de seguridad de AEM Screens](security-checklist.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
    + [Nuevo importador de proyectos a partir de archivo](project-importer.md)
-   + [Replicar activadores de datos en servidores de publicación](replicating-data-triggers.md)
+   + [Replicar Déclencheur de datos en servidores de publicación](replicating-data-triggers.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
@@ -77,7 +77,7 @@ ht-degree: 0%
       + [Secuencia integrada dinámica](dynamic-embedded-sequences.md)
       + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
       + [Sincronización de comandos](using-command-sync.md)
-      + [Creación con activadores de datos](authoring-data-triggers.md)
+      + [Creación con Déclencheur de datos](authoring-data-triggers.md)
       + [Reconocimiento de voz](voice-recognition.md)
       + [Informe de asignación de contenido](content-assignment-report.md)
    + Administración de actualizaciones de contenido {#content-updates}
