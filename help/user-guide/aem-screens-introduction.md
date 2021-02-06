@@ -31,7 +31,7 @@ Para comprender las terminologías clave asociadas con AEM Screens, consulte [Gl
 
 El siguiente diagrama muestra la arquitectura general de un reproductor de AEM Screens:
 
-![chlimage_1-29](assets/chlimage_1-29.png)
+![chlimage_1-21](assets/chlimage_1-29.png)
 
 ### Crear una experiencia de señalización digital en 5 minutos {#create-a-digital-signage-experience-in-minutes}
 
