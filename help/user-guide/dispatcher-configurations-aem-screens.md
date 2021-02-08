@@ -4,10 +4,10 @@ seo-title: Configuraciones de Dispatcher para AEM Screens
 description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 seo-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,9 @@ Si desea utilizar varias instancias de publicación delante de un único despach
  }
 ```
 
-Si tiene una instancia de publicación delante de un despachante, la activación del adhesivo en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud al despachante. En este caso, debe activar la adherencia en el nivel de equilibrador de carga.
+Si tiene una instancia de publicación delante de un despachante, la activación del adhesivo en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud al despachante. En este caso, haga clic en **Habilitar** en el campo **Fiabilidad** para habilitarlo a nivel de equilibrador de carga, como se muestra en la figura siguiente:
+
+![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Por ejemplo, si está utilizando ALB de AWS, consulte [Grupos destinatarios para los equilibradores de carga de la aplicación](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para habilitar la permanencia en el nivel ALB. Habilite la permanencia durante 1 día.
 
