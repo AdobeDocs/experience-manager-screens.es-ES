@@ -4,10 +4,10 @@ seo-title: Configuraciones de Dispatcher para AEM Screens
 description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 seo-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 9%
+source-wordcount: '380'
+ht-degree: 6%
 
 ---
 
@@ -32,22 +32,26 @@ Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-E
 
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
+Los reproductores y dispositivos de AEM Screens utilizan una sesión autenticada para acceder también a los recursos de las instancias de publicación. Por lo tanto, cuando tenga varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de reproductores o dispositivos AEM Screens.
+
 Siga los pasos a continuación para configurar el despachante de un proyecto de AEM Screens.
 
 ### Activación de sesiones adhesivas {#enable-sticky-session}
 
-Si desea utilizar más de una instancia de publicación con dispatcher, deberá actualizar el archivo `dispatcher.any`.
+Si desea utilizar varias instancias de publicación delante de un único despachante, deberá actualizar el archivo `dispatcher.any` para habilitar la permanencia
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Si tiene una instancia de publicación delante de un despachante, la activación del adhesivo en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud al despachante. En este caso, debe activar la adherencia en el nivel de equilibrador de carga.
+
+Por ejemplo, si está utilizando ALB de AWS, consulte [Grupos destinatarios para los equilibradores de carga de la aplicación](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para habilitar la permanencia en el nivel ALB. Habilite la permanencia durante 1 día.
 
 ### Paso 1: Configuración de encabezados de cliente {#step-configuring-client-headers}
 
