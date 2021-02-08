@@ -4,9 +4,9 @@ seo-title: Configuración del autor y la publicación en AEM Screens
 description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
 seo-description: La arquitectura de AEM Screens se asemeja a la arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor de AEM y, a continuación, se reenvía a varias instancias de publicación. Siga esta página para obtener información sobre cómo configurar el autor y la publicación para AEM Screens.
 translation-type: tm+mt
-source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
+source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1905'
 ht-degree: 2%
 
 ---
@@ -165,8 +165,8 @@ En cada instancia de publicación:
 1. Seleccione **Configuración del proveedor de JMS Apache ActiveMQ Artemis**
 1. Actualice lo siguiente:
 
-   * ***Contraseña*** del clúster: (utilice un valor cifrado del paso anterior por instancia respectiva)
-   * ***Temas***: {name: &#39;comandos&#39;, dirección: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
+   * ***Contraseña*** del clúster: usar valor cifrado del paso anterior por instancia respectiva
+   * ***Temas***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Verificar el clúster de artemis ActiveMQ {#verify-activemq-artemis-cluster}
 
