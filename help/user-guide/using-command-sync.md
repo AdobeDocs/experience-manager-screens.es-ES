@@ -4,9 +4,9 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Cree una visualización en la carpeta **Ubicaciones**, como se muestra en la figura siguiente.
+1. Cree una ubicación **Punto de encuentro** y, a continuación, una visualización titulada **Pantalla de vestíbulo** en la carpeta **Ubicaciones**, como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Asigne el canal **ChannelLobby** a su **LobbyDisplay**.
+1. Asigne el canal **ChannelLobby** a su **LobbyDisplay**. Ahora puede vista del canal asignado a la pantalla desde el panel de visualización.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md)
+   >Para obtener información sobre cómo registrar un dispositivo, consulte [Registro del dispositivo](/help/user-guide/device-registration.md)
 
 1. Para fines de demostración, este ejemplo muestra un dispositivo cromado y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
    ![image1](assets/command-sync6.png)
