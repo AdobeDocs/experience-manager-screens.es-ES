@@ -6,8 +6,8 @@ seo-description: Esta página resalta las directrices para configurar el despach
 translation-type: tm+mt
 source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
