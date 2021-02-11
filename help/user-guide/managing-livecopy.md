@@ -76,7 +76,7 @@ Además, puede ver las propiedades del canal de la copia activa.
 
 1. Seleccione la pestaña **Copia activa** para ver los detalles del canal.
 
-   ![chlimage_1-21](assets/chlimage_1-21.png)
+   ![chlimage_1-29](assets/chlimage_1-21.png)
 
 ### Estado de Live Copy    {#live-copy-status}
 
