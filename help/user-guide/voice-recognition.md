@@ -33,7 +33,7 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 >[!IMPORTANT]
 > La función de reconocimiento de voz solo está disponible en reproductores Chrome OS y Windows.
 
-Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para activar una transición de canal.
+Para implementar el reconocimiento de voz en su proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la visualización y asociar cada canal con una etiqueta única para el déclencheur de una transición de canal.
 
 En la sección siguiente se describe cómo habilitar y utilizar la función de reconocimiento de voz en un proyecto de AEM Screens.
 
@@ -77,7 +77,7 @@ Antes de utilizar la función de reconocimiento de voz, asegúrese de que tiene 
 
 ### Configuración de etiquetas para Canales {#setting-tags}
 
-Una vez que haya agregado contenido a sus canales, debe desplazarse a cada uno de los canales y agregar las etiquetas apropiadas que activarían el reconocimiento de voz.
+Una vez que haya agregado contenido a sus canales, deberá desplazarse a cada uno de los canales y agregar las etiquetas apropiadas que podrían dar déclencheur al reconocimiento de voz.
 
 Siga los pasos a continuación para agregar etiquetas a su canal:
 
