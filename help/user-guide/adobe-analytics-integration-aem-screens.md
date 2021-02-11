@@ -129,5 +129,5 @@ Los eventos de Analytics se almacenan sin conexión en la base de datos indexada
 
 >[!NOTE]
 >
->Para obtener más información sobre el ***Modelo de datos estándar para Eventos*** y ***de secuencia&lt;a1/>, consulte **[Configuración de Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.***
+>Para obtener más información sobre el ***Modelo de datos estándar para Eventos*** y ***de secuencia***, consulte **[Configuración de Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
