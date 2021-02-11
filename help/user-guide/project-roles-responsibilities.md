@@ -43,7 +43,7 @@ Un **Implementador de AEM** es responsable de realizar tareas de desarrollo e in
 
 Las funciones personalizadas necesarias para abordar los parámetros UX (Experiencia del usuario) del cliente final también se capturan y se entregan a través de este proceso.
 
-Los implementadores de AEM generalmente implementan la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir habilitar la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, activadores dinámicos, etc.
+Los implementadores de AEM generalmente implementan la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir la habilitación de la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, déclencheur dinámicos, etc.
 
 #### Integradores audiovisuales {#av-integrators}
 
