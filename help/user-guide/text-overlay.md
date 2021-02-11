@@ -131,7 +131,7 @@ Una vez que haya configurado las configuraciones necesarias para su proyecto, si
    >[!NOTE]
    >Si no ha configurado las configuraciones de ContextHub, esta opción se desactivará para su proyecto.
 
-1. Escriba **Valor** en el campo **Marcador de posición**, seleccione la fila que desee obtener del valor de la hoja de Google en **Variable de ContextHub** (en este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google) e introduzca el **Valor predeterminado** como &lt;a8>/>20 **, como se muestra en la figura siguiente.** Una vez que haya terminado, haga clic en la marca de verificación.
+1. Escriba **Valor** en el campo **Marcador de posición**, seleccione la fila que desee obtener del valor de la hoja de Google en **Variable de ContextHub** (en este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google) e introduzca el **Valor predeterminado** como **/>20**, como se muestra en la figura siguiente. Una vez que haya terminado, haga clic en la marca de verificación.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
