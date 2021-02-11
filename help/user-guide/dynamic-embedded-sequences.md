@@ -153,7 +153,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
    >[!CAUTION]
    >
    >Es importante cuando crea un canal de secuencia, el **Título** del canal puede ser el requerido, pero el **Nombre** debe ser el mismo en todos los canales locales.
-   >En este ejemplo, los canales de **Región A** y **Región B** comparten el mismo **Nombre** que **región** y canales de **Tienda 1**, **Tienda 2**, &lt;a11/> 2/>Almacenar 3 **y** Almacenar 4 **comparten el mismo** Nombre **que** almacenar **.**
+   >En este ejemplo, los canales de **Región A** y **Región B** comparten el mismo **Nombre** que **región** y canales de **Tienda 1**, **Tienda 2**, **2/>Almacenar 3** y **Almacenar 4** comparten el mismo **Nombre** que **almacenar**.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
