@@ -76,7 +76,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
       * Gesto
    * ¿Activación de datos (E/S)?
       * Envío/recepción de comandos de serie (cierre de contacto, PLC, etc.)
-      * Los datos entrantes se muestran en la pantalla (RSS) o activan el contenido
+      * Los datos entrantes se muestran en la pantalla (RSS) o en el contenido del déclencheur
       * RFID/NFC/Bluetooth/iBeacon
       * Servicios externos (tiempo, tráfico)
 
