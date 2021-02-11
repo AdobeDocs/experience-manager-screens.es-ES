@@ -92,7 +92,7 @@ Una vez configurada la configuración para las notificaciones por correo electr�
 
 El acceso a ese vínculo le llevará directamente al panel del dispositivo.
 
-Los correos electrónicos solo se enviarán si hay al menos un dispositivo que no haya ping para el tiempo de espera de ping dado y que aún no esté sonando en el momento de generar el correo electrónico.
+Los correos electrónicos solo se enviarán si hay al menos un dispositivo que no haya anidado durante el tiempo de espera de ping dado y que aún no esté sonando en el momento de generar el correo electrónico.
 
 ### Casos de uso de ejemplo {#example-use-cases}
 
