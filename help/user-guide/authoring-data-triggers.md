@@ -1,7 +1,7 @@
 ---
-title: Creación con activadores de datos
-seo-title: Creación con activadores de datos
-description: Siga esta página para aprender a crear con activadores de datos.
+title: Creación con Déclencheur de datos
+seo-title: Creación con Déclencheur de datos
+description: Siga esta página para aprender a crear con déclencheur de datos.
 translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
@@ -11,13 +11,13 @@ ht-degree: 1%
 ---
 
 
-# Creación con activadores de datos {#authoring-with-data-triggers}
+# Creación con Déclencheur de datos {#authoring-with-data-triggers}
 
 Esta sección resalta cómo habilitar la segmentación en los canales.
 
 >[!IMPORTANT]
 >
->La versión mínima que admite activadores de datos en un canal de AEM Screens es AEM 6.5.3 Feature Pack 3.
+>La versión mínima que admite déclencheur de datos en un canal de AEM Screens es AEM 6.5.3 Feature Pack 3.
 
 ## Requisitos previos {#prereqs}
 
@@ -34,7 +34,7 @@ Siga los vínculos siguientes para obtener más información:
 
 Una vez que haya completado los pasos anteriores, estará listo para habilitar la segmentación en sus canales.
 
-## Información general sobre la creación con activadores de datos {#author-targeting}
+## Información general sobre la creación con Déclencheur de datos {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
