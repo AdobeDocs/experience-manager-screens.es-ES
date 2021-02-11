@@ -74,7 +74,7 @@ Siga los pasos a continuación para configurar un proyecto:
    >[!NOTE]
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte **[Asignación de Canal](channel-assignment.md)**.
 
-1. Rellene los campos (**Ruta de Canal**, **Prioridad** y **Eventos admitidos**) del cuadro de diálogo **Asignación de Canal** y haga clic en **Guardar** para asignar el **CanalDePublicidad Principal&lt;a1111/>/> en la pantalla.**
+1. Rellene los campos (**Ruta de Canal**, **Prioridad** y **Eventos admitidos**) del cuadro de diálogo **Asignación de Canal** y haga clic en **Guardar** para asignar el **CanalDePublicidad Principal**/> en la pantalla.
 
    * **Ruta** de canal: Seleccione la ruta de acceso al canal  **** MainAdChannelchannel
    * **Prioridad**: Establezca la prioridad de este canal como 1.
