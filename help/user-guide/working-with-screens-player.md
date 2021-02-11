@@ -210,7 +210,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
     <ul>
      <li>4 o más zonas de contenido, reproducción de vídeo simultáneo</li>
      <li>Interactivo de varias páginas</li>
-     <li>Desencadenadores de datos de varias fuentes</li>
+     <li>Déclencheur de datos de varias fuentes</li>
     </ul> </td>
   </tr>
  </tbody>
