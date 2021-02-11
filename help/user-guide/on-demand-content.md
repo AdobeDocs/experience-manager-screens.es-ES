@@ -83,11 +83,11 @@ Por ejemplo, la siguiente imagen permite administrar y actualizar solo las pági
 
    >[!NOTE]
    >
-   >Una vez que haya completado el flujo de trabajo de administración de publicación y si hay un reproductor que apunta a la instancia de creación, debe activar la actualización de contenido sin conexión en el autor, lo que creará la actualización sin conexión en la instancia de creación.
+   >Una vez que haya completado el flujo de trabajo de administración de publicación y si hay un reproductor que apunta a la instancia de creación, debe realizar el déclencheur del contenido sin conexión de la actualización en el autor, que creará la actualización sin conexión en la instancia de creación.
 
    >[!CAUTION]
    >
-   >Debe activar el contenido sin conexión de actualización en la instancia de autor, si tiene un reproductor registrado en el servidor de creación. No es necesario actualizar el contenido sin conexión para el reproductor registrado en la instancia de publicación.
+   >Si tiene un reproductor registrado en el servidor de creación, debe realizar el déclencheur del contenido sin conexión de la actualización en la instancia de creación. No es necesario actualizar el contenido sin conexión para el reproductor registrado en la instancia de publicación.
 
 ### Administración de publicación para un Canal {#managing-publication-for-a-channel}
 
@@ -114,13 +114,13 @@ Siga los pasos que se describen a continuación para enviar actualizaciones de c
    >
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
 
-1. El activador **Actualizar contenido sin conexión** en canal panel solo insertará el contenido sin conexión en la instancia de creación, pero no en la instancia de publicación. Los pasos 1 a 4 sirven para insertar contenido sin conexión en una instancia de publicación.
+1. Déclencheur **Actualizar contenido sin conexión** en canal panel solo insertará el contenido sin conexión en la instancia de creación, pero no en la instancia de publicación. Los pasos 1 a 4 sirven para insertar contenido sin conexión en una instancia de publicación.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Primero debe publicar y, a continuación, activar la actualización de contenido sin conexión, tal como se resume en los pasos anteriores.
+   >Primero debe publicar y, a continuación, déclencheur el contenido sin conexión de la actualización, tal como se resume en los pasos anteriores.
 
 ### Reasignación de canal y dispositivo: {#channel-and-device-re-assignment}
 
