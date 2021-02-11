@@ -75,7 +75,7 @@ Una vez que se haya completado la configuración del proyecto, debe asignar el c
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. En la opción **Configuración**, puede elegir el canal **por ruta** o **por nombre**, ingresar la **Función de Canal**, **Prioridad**, **Eventos admitidos** y &lt;a11>. 2/>Métodos de interrupción **.** Además, puede activar la información de objeto de atracción desde este cuadro de diálogo.
+1. En la opción **Configuración**, puede elegir el canal **por ruta** o **por nombre**, ingresar la **Función de Canal**, **Prioridad**, **Eventos admitidos** y **. 2/>Métodos de interrupción**. Además, puede activar la información de objeto de atracción desde este cuadro de diálogo.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
