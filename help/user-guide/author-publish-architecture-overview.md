@@ -88,7 +88,7 @@ Por lo tanto, la instancia de creación envía el mensaje a todas las instancias
 En muchos casos, después de un comando, se espera que el dispositivo Screens envíe algún tipo de respuesta a la instancia del autor. Para lograr este AEM ***replicación inversa*** se utiliza.
 
 * Cree un agente de replicación inversa para cada instancia de publicación, similar a los agentes de replicación estándar y a los agentes de replicación de pantallas.
-* Una configuración del iniciador de flujo de trabajo escucha los nodos modificados en la instancia de publicación y, a su vez, activa un flujo de trabajo para colocar la respuesta del dispositivo en la bandeja de salida de la instancia de publicación.
+* Una configuración del iniciador de flujo de trabajo escucha los nodos modificados en la instancia de publicación y, a su vez, déclencheur un flujo de trabajo para colocar la respuesta del dispositivo en la bandeja de salida de la instancia de publicación.
 * Una replicación inversa en este contexto solo se utiliza para datos binarios (como archivos de registro y capturas de pantalla) proporcionados por los dispositivos. Los datos no binarios se recuperan mediante sondeo.
 * La replicación inversa sondeada desde la instancia de creación de AEM recupera la respuesta y la guarda en la instancia de creación.
 
