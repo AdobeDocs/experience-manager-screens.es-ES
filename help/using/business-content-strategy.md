@@ -20,7 +20,7 @@ ht-degree: 0%
 
 El contenido es un factor importante para impulsar la participación y, en la fase de preventa, es importante definir una estrategia de contenido empresarial que considere cómo la aplicación aprovechará los recursos de hardware, software y conectividad para ofrecer con éxito el valor deseado a los clientes de su cliente.
 
-Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el viaje del comprador y los puntos de contacto de marketing en el canal de ventas. Es fundamental que se envíe el mensaje correcto al cliente adecuado en el momento adecuado.
+Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador y los puntos de contacto de marketing en el canal de ventas. Es fundamental que se envíe el mensaje correcto al cliente adecuado en el momento adecuado.
 
 Considere cómo la aplicación Screens puede ayudar a conseguirlo y determine los KPI para ayudar a medir el éxito de la aplicación en la entrega de dicho contenido.
 
