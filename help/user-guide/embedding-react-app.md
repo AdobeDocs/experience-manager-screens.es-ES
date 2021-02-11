@@ -30,7 +30,7 @@ Siga los pasos a continuación para utilizar el Editor de SPA de AEM:
 
    >[!NOTE]
    >
-   >Este arquetipo crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos de SPA. Las propiedades que se deben proporcionar al utilizar este arquetipo permiten asignar el nombre que desee a todas las partes de este proyecto.
+   >Este arquetipo crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos de SPA. Las propiedades que deben proporcionarse al utilizar este arquetipo permiten asignar el nombre que desee a todas las partes de este proyecto.
 
 1. Siga las instrucciones Léame para crear un proyecto de arquetipo de editor de SPA AEM:
 
