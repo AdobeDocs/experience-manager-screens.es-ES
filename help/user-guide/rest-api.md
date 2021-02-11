@@ -151,7 +151,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Para activar esta acción, se llamaría a:
+Para déclencheur de esta acción, se llamaría a:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
