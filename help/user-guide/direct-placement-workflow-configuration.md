@@ -23,7 +23,7 @@ Esta sección abarca los siguientes temas:
 
 ## Información general {#overview}
 
-La configuración de flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de recursos y permite colocar cualquier recurso en dicha carpeta. Se recomienda activar una actualización masiva sin conexión para completar la publicación.
+La configuración de flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de recursos y permite colocar cualquier recurso en dicha carpeta. Se recomienda realizar un déclencheur de la actualización sin conexión masiva para completar la publicación.
 
 Como autor de contenido, también puede hacer clic manualmente en **Actualizar contenido sin conexión**.
 
