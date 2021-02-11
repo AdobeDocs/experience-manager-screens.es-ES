@@ -1,8 +1,8 @@
 ---
-title: Activadores de datos
-seo-title: Activadores de datos
-description: La página describe los desencadenantes de datos
-seo-description: La página describe los desencadenantes de datos
+title: Déclencheur de datos
+seo-title: Déclencheur de datos
+description: La página describe déclencheur de datos
+seo-description: La página describe déclencheur de datos
 translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
@@ -37,8 +37,8 @@ Todo esto y más se puede utilizar para proporcionar un mayor nivel de contexto 
 
 Tener una estrategia de comercialización visual que incluya DCO puede aumentar considerablemente la audiencia de la red.
 
-Existen dos tipos principales de activadores de datos:
+Existen dos tipos principales de déclencheur de datos:
 
-* **Desencadenadores** de datos locales: Estos activadores de datos son locales en el dispositivo. Por ejemplo, si ha tocado la pantalla, se activa un sensor que activa un conmutador de canal o recurso de datos local.
-* **Activadores** de datos remotos: Esto implicaba un cambio de canal de datos activado o un cambio de recurso basado en valores devueltos por una API de servicio Web.
+* **Déclencheur** de datos locales: Estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si ha tocado la pantalla, se activa un sensor que déclencheur el recurso de datos local o el conmutador de canal.
+* **Déclencheur** de datos remotos: Esto implicaba un cambio de canal de datos activado o un cambio de recurso basado en valores devueltos por una API de servicio Web.
 
