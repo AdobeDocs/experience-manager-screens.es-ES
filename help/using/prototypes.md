@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >Los interesados habituales en esta actividad son los especialistas en marketing y estrategias empresariales.
 
-Es importante probar las ideas, suposiciones y dependencias previamente definidas en el Mapa del Viaje de UX mediante el uso de prototipos de UX.
+Es importante probar las ideas, suposiciones y dependencias previamente definidas en el mapa de Recorrido UX mediante el uso de prototipos UX.
 
 En esta fase del proyecto, nos preocupa más la funcionalidad básica y menos refinar el UX real.
 
-Normalmente, el contenido de muestra o FPO se utiliza en esta etapa para ayudar al administrador del proyecto y a los principales interesados a identificar cualquier vacío importante en el flujo UX, así como cualquier problema de temporización con la reproducción y los eventos de activación relacionados.
+Normalmente, el contenido de muestra o FPO se utiliza en esta etapa para ayudar al administrador del proyecto y a los principales interesados a identificar cualquier laguna importante en el flujo UX, así como cualquier problema de temporización con la reproducción y los eventos de déclencheur relacionados.
 Esta fase también puede revelar problemas potenciales con la colocación, escala y tamaño de los recursos.
 
 Al crear un prototipo de la experiencia, podemos simular varios escenarios para saber cómo se consumirá el contenido, qué interacciones pueden producirse y qué dependencias de datos externos pueden causar una interrupción del flujo deseado de la experiencia.
