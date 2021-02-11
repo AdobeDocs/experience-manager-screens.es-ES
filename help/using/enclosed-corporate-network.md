@@ -81,7 +81,7 @@ AEM Screens ofrece una gran ventaja a los usuarios de publicidad dinámica. Desc
 
 Para operaciones normales, por ejemplo, una lista de reproducción definida que se actualiza con frecuencia durante el día: oferta una operación cercana a una red independiente, una vez que todos los archivos se hayan guardado en el reproductor.
 
-En situaciones en las que hay más interacciones con sensores o activadores y contenido dinámico, es esencial una conexión de red rápida y fiable para una reacción inmediata a la pantalla a fin de garantizar la mejor experiencia posible para el cliente.
+En los escenarios en los que hay más interacciones con sensores o déclencheur y contenido dinámico, es esencial una conexión de red rápida y fiable para una reacción inmediata a la pantalla a fin de garantizar la mejor experiencia posible para el cliente.
 
 La siguiente tabla proporciona información general sobre los datos clave de conectividad de red.
 
