@@ -1,8 +1,8 @@
 ---
 title: Configuración de ContextHub en AEM Screens
 seo-title: Configuración de ContextHub en AEM Screens
-description: Siga esta página para obtener información sobre ContextHub en el motor de determinación de objetivos y definir el almacén de datos con el fin de cambiar el contenido del activador de datos.
-seo-description: Siga esta página para obtener información sobre ContextHub en el motor de determinación de objetivos y definir el almacén de datos con el fin de cambiar el contenido del activador de datos.
+description: Siga esta página para conocer ContextHub en el motor de determinación de objetivos y definir el almacén de datos con el fin de cambiar el contenido del déclencheur de datos.
+seo-description: Siga esta página para conocer ContextHub en el motor de determinación de objetivos y definir el almacén de datos con el fin de cambiar el contenido del déclencheur de datos.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -55,7 +55,7 @@ Antes de dar inicio a la configuración de Context Hub Configurations para un pr
 
 Puede configurar el almacén de datos como un evento de E/S local o como un evento de base de datos local.
 
-El siguiente ejemplo de desencadenadores de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos como una hoja de Excel que le permite utilizar las configuraciones de ContextHub y la ruta de segmentos a AEM Screens canal.
+El siguiente ejemplo de déclencheur de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos como una hoja de Excel que le permite utilizar configuraciones de ContextHub y rutas de segmentos a AEM Screens canal.
 
 Una vez configurada correctamente la hoja de Google, por ejemplo:
 
@@ -69,7 +69,7 @@ La siguiente validación es lo que vista al comprobar la conexión introduciendo
 
 >[!NOTE]
 >
->El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que activará el cambio de recurso si el valor es mayor que 100 o menor que 50.
+>El ejemplo específico que se muestra a continuación muestra las hojas de Google como un almacén de datos que déclencheur el cambio de recursos si el valor es superior a 100 o inferior a 50.
 
 ## Paso 2: Configuración de configuraciones de almacenamiento {#step-setting-store-configurations}
 
