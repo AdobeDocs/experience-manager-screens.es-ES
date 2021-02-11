@@ -1,8 +1,8 @@
 ---
-title: Replicar activadores de datos en servidores de publicación
-seo-title: Replicar activadores de datos en el servidor de publicación
-description: Replicar activadores de datos en el servidor de publicación.
-seo-description: Replicar activadores de datos en el servidor de publicación.
+title: Replicar déclencheur de datos en servidores de publicación
+seo-title: Replicar déclencheur de datos en el servidor de publicación
+description: Replicar déclencheur de datos en el servidor de publicación.
+seo-description: Replicar déclencheur de datos en el servidor de publicación.
 translation-type: tm+mt
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
@@ -12,9 +12,9 @@ ht-degree: 2%
 ---
 
 
-# Replicar activadores de datos en servidores de publicación {#replicating-data-triggers}
+# Replicar Déclencheur de datos en servidores de publicación {#replicating-data-triggers}
 
-Al utilizar ContextHub y AEM motor de objetivo para personalizar el contenido en función de los desencadenantes de datos en una configuración de creación/publicación, todas las configuraciones relacionadas con ContextHub y Personalización no se replican automáticamente con los canales cuando se publican.
+Al utilizar ContextHub y AEM motor de objetivo para personalizar el contenido en función de los déclencheur de datos de una configuración de creación/publicación, todas las configuraciones relacionadas con ContextHub y Personalización no se replican automáticamente con los canales cuando se publican.
 
 Siga esta página para conocer los pasos necesarios para publicar estas configuraciones por separado.
 
@@ -24,9 +24,9 @@ Básicamente, esto se reduce a la publicación manual:
 1. Audiencias de personalización
 1. Actividades de personalización
 
-## Pasos para replicar activadores de datos en el servidor de publicación {#replicating-data-triggers-publish}
+## Pasos para replicar Déclencheur de datos en el servidor de publicación {#replicating-data-triggers-publish}
 
-Siga los pasos a continuación para replicar los activadores de datos en el servidor de publicación.
+Siga los pasos a continuación para replicar los déclencheur de datos en el servidor de publicación.
 
 ### Paso 1: Replicando configuraciones de ContextHub {#replicating-contexthub-configurations}
 
