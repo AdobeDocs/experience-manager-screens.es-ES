@@ -100,7 +100,7 @@ En caso de que se prevea una solución Wi-Fi para conectar la pantalla a Interne
 
 AEM Screens ofrece una gran ventaja a los usuarios de publicidad dinámica. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeo. Debido a este concepto, el tráfico de red principal se produce en caso de que haya contenido nuevo para mostrarse en una pantalla específica.
 Para una operación normal, por ejemplo, una vez definida la lista de reproducción que no se actualiza con frecuencia durante el día, se oferta una operación cercana a la red independiente, una vez que todos los archivos se han guardado en el reproductor.
-Para aquellos casos de uso en los que hay más interacciones con Sensores u otros Triggers y el contenido es muy dinámico, una conexión de red rápida y confiable es esencial para una reacción de pantalla inmediata a fin de garantizar la mejor experiencia posible para el cliente.
+Para aquellos casos de uso en los que hay más interacciones con Sensores u otros Déclencheur y el contenido es muy dinámico, una conexión de red rápida y confiable es esencial para una reacción inmediata a la pantalla a fin de garantizar la mejor experiencia posible del cliente.
 Las siguientes tablas oferta una buena visión general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los posibles tiempos de espera.
 
 >[!NOTE]
