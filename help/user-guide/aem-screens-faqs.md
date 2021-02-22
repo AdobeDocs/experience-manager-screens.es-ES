@@ -6,7 +6,7 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 1%
@@ -33,7 +33,7 @@ La siguiente sección proporciona respuestas a algunas de las preguntas más fre
 * Compruebe si hay contenido programado y si las horas son correctas. Compruebe si la hora configurada en el reproductor es correcta.
 * Inspect registra la consola del reproductor y compruebe si hay algún error. Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si utiliza el reproductor de Windows, presione `CTRL + ALT +I` para que aparezca la consola dev para vista de los registros.
 
-### 2. ¿Cómo resolver el problema de pantalla en blanco en AEM Screens mediante la creación de un Canal o programa predeterminado?
+### 2. ¿Cómo resolver el problema de la pantalla gris en AEM Screens mediante la creación de un Canal o programa predeterminado?
 
 Para evitar las pantallas en blanco o gris del campo, cree un programa o canal global predeterminado, asignado a cada visualización con la menor prioridad 1. En caso de que algo salga mal con las actualizaciones de contenido (debido a la red, el reproductor, el servidor o la replicación), ya que los reproductores ya tienen este contenido almacenado en caché en el disco, lo que debería funcionar bien y evitar las pantallas grises.
 
