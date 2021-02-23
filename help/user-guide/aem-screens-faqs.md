@@ -6,9 +6,9 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,24 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 1. Compruebe si tiene `/etc/map` reglas en la instancia *de* o *publicación* y si las rutas de pantallas coinciden con `sling:match` y se redirigen internamente a una ruta diferente. La resolución de la dirección URL exacta en `/system/console/jcrresolver` ayuda a identificar si la instancia *publish* está reescribiendo estas direcciones URL en cualquier otra ruta.
 
 1. Compruebe si la configuración de Apache Sling Resource Resolver Factory está causando reescrituras internas.
+
+### ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
+
+Existen dos maneras de obtener los detalles a través de:
+
+* **una API de JS interna**
+* **una tienda** de ContextHub: Se definen tres almacenes de ContextHub en  `/libs/screens/clientlibs/contexthub` para mostrar canales, dispositivos e información de visualización.
+
+   Siga los pasos a continuación para utilizar estos valores de almacén de ContentHub:
+
+   * Edite las propiedades de canal y establezca la ruta de ContextHub en la ficha Personalización en el valor (como se mencionó anteriormente)
+   * En canal JS, puede utilizar:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Sugerencias generales para la resolución de problemas {#general-troubleshooting-tips}
 
