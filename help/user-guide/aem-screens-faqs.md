@@ -6,9 +6,9 @@ seo-description: Siga esta página para obtener respuestas a las preguntas más 
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 
 1. Compruebe si la configuración de Apache Sling Resource Resolver Factory está causando reescrituras internas.
 
-### ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
+### 6. ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
 
-Existen dos maneras de obtener los detalles a través de:
+Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
 * **una API de JS interna**
 * **una tienda** de ContextHub: Se definen tres almacenes de ContextHub en  `/libs/screens/clientlibs/contexthub` para mostrar canales, dispositivos e información de visualización.
