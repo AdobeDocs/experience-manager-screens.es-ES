@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 >Si el **estado** es **REGISTRADO**, verá que se rellenará el campo **ID del dispositivo**.
 >
 >Si **State** es **UNREGISTERED**, puede utilizar el **Token** para registrar el dispositivo.
+
+## Cambio de las opciones predeterminadas en Windows Installer {#changing-default-options}
+
+Siga esta sección para aprender a cambiar las opciones predeterminadas en Windows Installer y la lista de las personalizaciones disponibles.
 
 ## Instalación mediante CLI (PowerShell) {#install-powershell}
 
