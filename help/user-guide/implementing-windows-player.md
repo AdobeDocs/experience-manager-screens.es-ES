@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,6 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 >Si el **estado** es **REGISTRADO**, verá que se rellenará el campo **ID del dispositivo**.
 >
 >Si **State** es **UNREGISTERED**, puede utilizar el **Token** para registrar el dispositivo.
-
-### Configuración del servidor masivo: Registro de varios reproductores de Windows 10 con una configuración {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Una vez que haya instalado el reproductor de Windows, puede registrar varios reproductores con una configuración.
 
 ## Instalación mediante CLI (PowerShell) {#install-powershell}
 
