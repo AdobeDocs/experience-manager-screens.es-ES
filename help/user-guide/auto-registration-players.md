@@ -3,9 +3,9 @@ title: Registro automático de reproductores
 seo-title: Registro automático de reproductores
 description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ El registro masivo de miles de jugadores manualmente puede volverse muy complica
 Siga los pasos a continuación para implementar el registro automático de reproductores:
 
 1. Inicie sesión en la instancia de AEM, seleccione el proyecto de AEM screens y haga clic en **Propiedades** en la barra de acciones.
-1. Seleccione la pestaña **Advanced** para ver la sección **Device registration** como se muestra a continuación.
-
-   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Seleccione la pestaña **Advanced** para ver la sección **Device registration** .
 
 1. Especifique un código de registro automático en el campo **Bulk registration code** y una visualización predeterminada opcional en **Default display assign** para asignarlo al reproductor que se registró automáticamente.
    >[!NOTE]
    >Introduzca un código de su elección y seleccione una visualización predeterminada si es necesario.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Proporcione a sus reproductores la URL del servidor y el código de registro adecuados mediante un MDM o un archivo JSON de configuración.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Siga esta sección para considerar algunas de las prácticas recomendadas de seg
 
 * Para garantizar que el código de registro no se vea comprometido, configure el código en AEM justo antes de iniciar el registro masivo y, cuando termine, borre ese campo y guárdelo en AEM.
 
-* Se puede configurar que la ruta de registro `/bin/screens/`solo se puede acceder desde rangos de IP conocidos si es posible.
+* Puede configurar la ruta `/bin/screens/registration` para que solo sea accesible desde intervalos de IP conocidos si es posible.
 
 * Considere utilizar un MDM para aprovisionar el reproductor con la configuración .
 
