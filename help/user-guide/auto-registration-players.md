@@ -3,9 +3,9 @@ title: Registro automático de reproductores
 seo-title: Registro automático de reproductores
 description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ El registro masivo de miles de jugadores manualmente puede volverse muy complica
 
 Siga los pasos a continuación para implementar el registro automático de reproductores:
 
-1. Inicie sesión en la instancia de AEM, seleccione el proyecto de AEM screens y haga clic en las propiedades y en la pestaña Avanzadas .
-1. Debería ver una sección de registro masivo en la que puede especificar un código de registro masivo y una pantalla predeterminada opcional para asignarlo al reproductor que se registró por lotes
-1. Introduzca un código de su elección y seleccione una pantalla predeterminada si es necesario
-1. Proporcione a sus reproductores la URL del servidor y el código de registro adecuados mediante un MDM o un archivo JSON de configuración. Consulte la página de implementación del reproductor específico de su sistema operativo para obtener detalles exactos. También puede utilizar la IU de administrador para introducir el código de registro.
+1. Inicie sesión en la instancia de AEM, seleccione el proyecto de AEM screens y haga clic en **Propiedades** en la barra de acciones.
+1. Seleccione la pestaña **Advanced** para ver la sección **Device registration** como se muestra a continuación.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. Especifique un código de registro automático en el campo **Bulk registration code** y una visualización predeterminada opcional en **Default display assign** para asignarlo al reproductor que se registró automáticamente.
+   >[!NOTE]
+   >Introduzca un código de su elección y seleccione una visualización predeterminada si es necesario.
+1. Proporcione a sus reproductores la URL del servidor y el código de registro adecuados mediante un MDM o un archivo JSON de configuración.
+
+   >[!NOTE]
+   >Consulte la página de implementación del reproductor específico de su sistema operativo (OS) para obtener más información. También puede utilizar la IU de administrador para introducir el código de registro.
+
 1. Si el atributo `registrationKey` coincide con el configurado en AEM, el reproductor se registrará automáticamente y si se configura una visualización predeterminada, el contenido se descargará y reproducirá.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Prácticas recomendadas de seguridad {#security-best-practices}
 
