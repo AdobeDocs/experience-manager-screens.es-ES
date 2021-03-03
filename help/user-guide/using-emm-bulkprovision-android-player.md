@@ -3,9 +3,9 @@ title: Uso de MDM o EMM para aprovisionar de forma masiva Android Player
 seo-title: Aprovisionamiento masivo de Android Player mediante EMM o MDM
 description: Siga esta página para obtener más información sobre el aprovisionamiento masivo de Reproductor de Android mediante EMM o MDM
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Siga los pasos a continuación para permitir el aprovisionamiento masivo en Andr
    >[!NOTE]
    >Los dispositivos deben recibir la aplicación junto con la configuración y apuntar al servidor AEM correcto con la configuración seleccionada. Si decide configurar el código de registro masivo y lo mantiene igual que configurado en AEM, el reproductor debe poder registrarse automáticamente. Si ha configurado una visualización predeterminada, también puede descargar y mostrar algún contenido predeterminado (que se puede cambiar posteriormente según sea conveniente).
 
-Además, debe consultar al proveedor de EMM acerca de la compatibilidad con AppConfig . Los más populares, como [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) y [Samsung Knox&lt;a> 11/> admiten este estándar del sector.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
+Además, debe consultar al proveedor de EMM acerca de la compatibilidad con AppConfig . Los más populares, como [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) y [Samsung Knox&lt;a> 11/> entre otros, admiten este estándar del sector.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
 
 
