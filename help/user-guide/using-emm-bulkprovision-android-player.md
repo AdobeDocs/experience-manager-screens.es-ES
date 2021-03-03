@@ -3,9 +3,9 @@ title: Uso de MDM o EMM para aprovisionar de forma masiva Android Player
 seo-title: Aprovisionamiento masivo de Android Player mediante EMM o MDM
 description: Siga esta página para obtener más información sobre el aprovisionamiento masivo de Reproductor de Android mediante EMM o MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#bulk-provisioning}
 
-Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente cada reproductor con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor Android de AEM Screens es compatible con la configuración de la aplicación EMM estándar del sector para permitir el aprovisionamiento remoto. Siga los siguientes pasos para aprovisionar sus reproductores de forma masiva.
+Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente cada reproductor con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor Android de AEM Screens es compatible con la configuración de la aplicación EMM estándar del sector para permitir el aprovisionamiento remoto.
 
 ## Implementación del aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#implementation}
 
