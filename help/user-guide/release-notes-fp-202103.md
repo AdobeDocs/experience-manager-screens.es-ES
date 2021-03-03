@@ -2,10 +2,10 @@
 title: Notas de la versión para Feature Pack 202103
 description: La página resalta las notas de la versión del Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 8%
 
 ---
 
@@ -46,6 +46,15 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 8 de m
 * La migración de SmartSync dañaría el reproductor si la caché no se invalida.
 
 * No se crearon cachés sin conexión si la asignación tenía *OfflineConfig*.
+
+* Se han actualizado los problemas del reproductor Tizen porque no se admite la directiva del referente &quot;origen estricto cuando origen cruzado&quot;.
+
+* Si se cambiaba el campo &quot;Repeticiones&quot; de la programación del canal asignado, se dañaba la IU.
+
+* La actualización del contenido sin conexión fallaba con excepciones de consulta.
+
+* La migración de SmartSync dañaba el reproductor si la caché no se invalidaba
+
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
