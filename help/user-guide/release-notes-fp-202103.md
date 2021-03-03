@@ -2,10 +2,10 @@
 title: Notas de la versión para Feature Pack 202103
 description: La página resalta las notas de la versión del Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,10 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 8 de m
 * **Registro y asignación masivos de AEM Screens**
 
    El registro masivo de miles de jugadores manualmente es muy complicado y añade tiempo y costo. Para simplificar este proceso, la función Registro masivo le permite especificar una clave previamente compartida en AEM que se puede aprovisionar en un reproductor a través de un archivo de configuración o una solución de Administración de dispositivos móviles (MDM).
+
+* **Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management**
+
+   Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente cada reproductor con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor Android de AEM Screens es compatible con la configuración de la aplicación EMM estándar del sector para permitir el aprovisionamiento remoto.
 
 * **Bloquear página en un canal de AEM Screens**
 
