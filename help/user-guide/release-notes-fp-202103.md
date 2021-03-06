@@ -2,9 +2,9 @@
 title: Notas de la versión para Feature Pack 202103
 description: La página resalta las notas de la versión del Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
+source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -23,17 +23,22 @@ Puede descargar el último paquete de funciones para la versión 6.5.7 de AEM Sc
 
 ## Fecha de la versión {#release-date}
 
-La fecha de versión del paquete de funciones 202103 de AEM Screens es el 8 de marzo de 2021.
+La fecha de versión del paquete de funciones 202103 de AEM Screens es el 5 de marzo de 2021.
 
 ### Novedades {#what-is-new}
 
-* **Registro y asignación masivos de AEM Screens**
+* **Registro automático de reproductores en AEM Screens**
 
    El registro masivo de miles de jugadores manualmente es muy complicado y añade tiempo y costo. Para simplificar este proceso, la función Registro masivo le permite especificar una clave previamente compartida en AEM que se puede aprovisionar en un reproductor a través de un archivo de configuración o una solución de Administración de dispositivos móviles (MDM).
+
+   Consulte [Registro automático de reproductores](/help/user-guide/auto-registration-players.md) para obtener más información.
+
 
 * **Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management**
 
    Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente cada reproductor con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor de Android de AEM Screens es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+
+   Consulte [Aprovisionamiento masivo de Reproductor de Android mediante Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) para obtener más información.
 
 
 ### Corrección de errores {#bug-fixes}
@@ -45,8 +50,6 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 8 de m
 * No se crearon cachés sin conexión si la asignación tenía *OfflineConfig*.
 
 * Actualizaciones en el reproductor Tizen que se han interrumpido porque no se admite la directiva de referente &quot;origen estricto cuando origen cruzado&quot;.
-
-* Registrar el error subyacente cuando falla la descarga de SmartSync.
 
 * El cambio del campo *Repeats* de programación del canal asignado dañaba la interfaz de usuario.
 
@@ -62,7 +65,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 
 * Sistema operativo Chrome
 * Windows
-* Android
 * Tizen
 * Linux
 
