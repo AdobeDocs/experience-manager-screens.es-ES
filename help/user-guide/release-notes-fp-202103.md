@@ -2,9 +2,9 @@
 title: Notas de la versión para Feature Pack 202103
 description: La página resalta las notas de la versión del Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 
 * Sistema operativo Chrome
 * Windows
-* Tizen
 * Linux
 
 #### Descargas del reproductor de AEM Screens {#aem-screens-player-downloads}
