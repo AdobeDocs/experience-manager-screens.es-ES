@@ -2,9 +2,9 @@
 title: Notas de la versión para Feature Pack 202103
 description: La página resalta las notas de la versión del Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 5 de m
 
 * **Registro automático de reproductores en AEM Screens**
 
-   El registro masivo de miles de jugadores manualmente es muy complicado y añade tiempo y costo. Para simplificar este proceso, la función Registro masivo le permite especificar una clave previamente compartida en AEM que se puede aprovisionar en un reproductor a través de un archivo de configuración o una solución de Administración de dispositivos móviles (MDM).
+   El registro masivo de miles de jugadores manualmente es muy complicado y añade tiempo y costo. Para simplificar este proceso, la función Registro automático de reproductores permite especificar una clave previamente compartida en AEM que se puede aprovisionar en un reproductor a través de un archivo de configuración o una solución de Administración de dispositivos móviles (MDM).
 
    Consulte [Registro automático de reproductores](/help/user-guide/auto-registration-players.md) para obtener más información.
 
