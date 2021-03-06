@@ -6,7 +6,7 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 translation-type: tm+mt
-source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
+source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 19%
@@ -42,10 +42,10 @@ ht-degree: 19%
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Reproductor de Android](implementing-android-player.md)
+      + [Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
-      + [Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
    + Publicación de autor {#author-publish}
       + [Información general sobre la arquitectura de creación y publicación](author-publish-architecture-overview.md)
       + [Configuración de autor y publicación](author-and-publish.md)
