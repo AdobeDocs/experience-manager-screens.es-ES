@@ -1,39 +1,42 @@
 ---
-title: Aplicación de Transiciones
-seo-title: Aplicación de Transiciones
-description: Siga esta página para conocer cómo aplicar transiciones a sus proyectos de Pantallas.
-seo-description: Siga esta página para conocer cómo aplicar transiciones a sus proyectos de Pantallas.
+title: Aplicación de transiciones
+seo-title: Aplicación de transiciones
+description: Siga esta página para aprender a aplicar transiciones a sus proyectos de Screens.
+seo-description: Siga esta página para aprender a aplicar transiciones a sus proyectos de Screens.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 1%
+source-wordcount: '292'
+ht-degree: 2%
 
 ---
 
 
-# Aplicación de Transiciones {#applying-transitions}
+# Aplicación de transiciones {#applying-transitions}
 
-En esta sección se describe cómo puede aplicar el componente **Transición** entre diferentes recursos (imágenes y vídeos) y secuencias incrustadas en un canal.
+En esta sección se describe cómo aplicar el componente **Transición** entre distintos recursos (imágenes y vídeos) y secuencias incrustadas en un canal.
 
 
 >[!CAUTION]
 >
->Para obtener información detallada sobre las propiedades del componente **Transición**, consulte [Transiciones](adding-components-to-a-channel.md#transition).
+>Para obtener más información sobre las propiedades del componente **Transición**, consulte [Transiciones](adding-components-to-a-channel.md#transition).
 
-## Añadir componente de Transición a recursos en un Canal {#adding-transition}
+## Adición de un componente de transición a los recursos en un canal {#adding-transition}
 
-Siga los pasos a continuación para agregar un componente de transición a su proyecto de AEM Screens:
+Siga los pasos a continuación para añadir un componente de transición al proyecto de AEM Screens:
 
 >[!NOTE]
 >
 >**Requisitos previos**
 >
->Cree un proyecto de AEM Screens **TestProject** con un canal **TestTransition**. Además, configure una ubicación y una pantalla para la vista de la salida.
+>Cree un proyecto de AEM Screens **TestProject** con un canal **TestTransition**. Además, configure una ubicación y una visualización para ver el resultado.
 
-1. Vaya al Canal **TestTransition** y haga clic en **Editar** desde la barra de acciones.
+1. Vaya al Canal **TestTransition** y haga clic **Edit** en la barra de acciones.
 
    ![image1](assets/transitions1.png)
 
@@ -47,15 +50,15 @@ Siga los pasos a continuación para agregar un componente de transición a su pr
 1. Arrastre y suelte el componente **Transición** en el editor.
    >[!CAUTION]
    >
-   >Antes de agregar la transición a los recursos del canal, asegúrese de no agregar transición antes del primer recurso del canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
+   >Antes de añadir la transición a los recursos en el canal , asegúrese de no añadir transición antes del primer recurso en el canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
 
    ![image3](assets/transitions3.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, las propiedades del componente de transición, como **Type**, se establecen en **Fade** y **Duration**, en *1600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición que sea más largo que el recurso al que se está aplicando.
+   >De forma predeterminada, las propiedades del componente de transición como **Type** se establecen en **Fade** y **Duration** se establecen en *1600 ms*.  Además, no es aconsejable establecer un tiempo de duración de transición mayor que el recurso al que se aplica.
 
-1. Además, si agrega un componente **Secuencia integrada** (que incluye un canal de secuencia) a este editor de canal, puede agregar un componente de transición al final, de modo que el contenido se reproduzca en orden, como se muestra en la figura siguiente:
+1. Además, si agrega un componente **Secuencia integrada** (que incluye un canal de secuencia) a este editor de canales, puede agregar un componente de transición al final, de modo que el contenido se reproduzca en orden, como se muestra en la figura siguiente:
 
    ![image3](assets/transitions5.png)
 
