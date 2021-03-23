@@ -1,12 +1,15 @@
 ---
 title: Uso de la sincronización de comandos
 seo-title: Uso de la sincronización de comandos
-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
-seo-description: Siga esta página para conocer cómo utilizar la sincronización de comandos.
+description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
+seo-description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -14,23 +17,23 @@ ht-degree: 2%
 
 # Sincronización de comandos {#command-sync}
 
-En la página siguiente se describe cómo utilizar la sincronización de comandos. La sincronización de comandos permite la reproducción sincronizada entre distintos reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
+En la siguiente página se describe cómo utilizar la sincronización de comandos. La sincronización de comandos permite la reproducción sincronizada entre diferentes reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
 
 >[!IMPORTANT]
 >
->Esta función no admite secuencias incrustadas, secuencias incrustadas dinámicas, Canales de aplicaciones o Transiciones.
+>Esta función no es compatible con Secuencias integradas, Secuencias integradas dinámicas, Canales de aplicación o Transiciones.
 
 ## Información general {#overview}
 
-Las soluciones de señalización digital necesitan admitir paredes de vídeo y reproducción sincronizada para admitir escenarios como las cuentas regresivas de Año Nuevo o los vídeos de gran tamaño divididos para reproducirse en varias pantallas, y aquí es donde entra en juego la sincronización de comandos.
+Las soluciones de señalización digital necesitan admitir paredes de vídeo y reproducción sincronizada para admitir escenarios como cuenta atrás de Año Nuevo o vídeo de gran tamaño cortado para reproducirse en varias pantallas, y aquí es donde entra en juego la sincronización de comandos.
 
-Para utilizar la sincronización de comandos, un reproductor actúa como *maestro* y envía el comando y todos los demás reproductores actúan como *clientes* y se reproducen cuando reciben el comando.
+Para utilizar la sincronización de comandos, un reproductor actúa como *master* y envía el comando y todos los demás reproductores actúan como *clientes* y juegan cuando reciben el comando.
 
-El *maestro* envía un comando a todos los clientes registrados cuando está a punto de inicio la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir y/o el HTML externo del elemento que se va a reproducir.
+El *master* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir o el html externo del elemento que se va a reproducir.
 
 ## Implementación de sincronización de comandos {#using-command-sync}
 
-En la sección siguiente se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
+En la siguiente sección se describe cómo puede utilizar la sincronización de comandos en un proyecto de AEM Screens.
 
 >[!NOTE]
 >
@@ -40,29 +43,29 @@ En la sección siguiente se describe cómo puede utilizar la sincronización de 
 
 Antes de utilizar la función de sincronización de comandos, asegúrese de que tiene un proyecto y un canal con contenido configurado para el proyecto.
 
-1. El siguiente ejemplo muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
+1. En el siguiente ejemplo se muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
 
    ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de Canales](/help/user-guide/managing-channels.md)
+   >Para obtener información sobre cómo crear un canal o añadir contenido a un canal, consulte [Creación y administración de canales](/help/user-guide/managing-channels.md)
 
-   El canal contiene el siguiente contenido, como se muestra en la figura a continuación.
+   El canal contiene el siguiente contenido, como se muestra en la figura siguiente.
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Cree una ubicación **Punto de encuentro** y, a continuación, una visualización titulada **Pantalla de vestíbulo** en la carpeta **Ubicaciones**, como se muestra en la figura siguiente.
+1. Cree una ubicación **Lobby** y luego una visualización titulada **LobbyDisplay** en la carpeta **Ubicaciones**, como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Asigne el canal **ChannelLobby** a su **LobbyDisplay**. Ahora puede vista del canal asignado a la pantalla desde el panel de visualización.
+1. Asigne el canal **ChannelLobby** a su **LobbyDisplay**. Ahora puede ver el canal asignado a la visualización desde el panel de visualización.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de visualizaciones](/help/user-guide/managing-displays.md).
 
-1. Vaya a la carpeta **Dispositivos** y haga clic en **Administrador de dispositivos** en la barra de acciones para registrar los dispositivos.
+1. Vaya a la carpeta **Devices** y haga clic en **Device Manager** en la barra de acciones para registrar los dispositivos.
 
    ![image1](assets/command-sync5.png)
 
@@ -70,12 +73,12 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
    >
    >Para obtener información sobre cómo registrar un dispositivo, consulte [Registro del dispositivo](/help/user-guide/device-registration.md)
 
-1. Para fines de demostración, este ejemplo muestra un dispositivo cromado y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
+1. Para fines de demostración, este ejemplo muestra un dispositivo Chrome y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma visualización.
    ![image1](assets/command-sync6.png)
 
-### Actualización de la configuración de Canal
+### Actualización de la configuración de canal
 
-1. Vaya a **ChannelLobby** y haga clic en **Editar** desde la barra de acciones para actualizar la configuración del canal.
+1. Vaya a **ChannelLobby** y haga clic en **Editar** en la barra de acciones para actualizar la configuración del canal.
 
 1. Seleccione todo el canal como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync7-1.png)
@@ -83,40 +86,40 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
 1. Haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo **Página**.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Escriba la palabra clave *sincronizada* en el campo **Estrategia**.
+1. Introduzca la palabra clave *synced* en el campo **Strategy**.
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Configuración de un patrón {#setting-up-master}
+### Configuración de un maestro {#setting-up-master}
 
-1. Vaya al panel de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Punto de encuentro** —> **Pantalla de vestíbulo** y haga clic en **Panel** en la barra de acciones.
-Verá los dos dispositivos (cromado y Windows Player) en el panel **DISPOSITIVOS**, como se muestra en la figura siguiente.
+1. Vaya al panel de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Lobby** —> **LobbyDisplay** y haga clic en **Panel** en la barra de acciones.
+Verá los dos dispositivos (cromo y reproductor de Windows) en el panel **DISPOSITIVOS**, como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. En el panel **DISPOSITIVOS**, seleccione el dispositivo que desee configurar como maestro. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como maestro. Haga clic en **Configurar como dispositivo maestro**.
+1. En el panel **DISPOSITIVOS**, seleccione el dispositivo que desee configurar como maestro. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como maestro. Haga clic en **Set as master device**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Escriba la dirección IP en **Configurar como dispositivo maestro** y haga clic en **Guardar**.
+1. Introduzca la dirección IP en **Set as master device** y haga clic en **Save**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->Puede configurar varios dispositivos como principales.
+>Puede configurar varios dispositivos como maestro.
 
-### Sincronizando con Master {#sync-up-master}
+### Sincronización con Master {#sync-up-master}
 
-1. Una vez que haya configurado el dispositivo Chrome como maestro, puede sincronizar el otro dispositivo (en este caso, el reproductor de Windows) para sincronizarlo con el maestro.
-Seleccione el otro dispositivo (en este caso, Windows Player) en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo maestro**, como se muestra en la figura siguiente.
+1. Una vez que haya configurado el dispositivo Chrome como maestro, puede sincronizar el otro dispositivo (en este caso, el reproductor de windows) para sincronizarlo con el maestro.
+Seleccione el otro dispositivo (en este caso, el reproductor de windows) en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo maestro**, como se muestra en la figura siguiente.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Seleccione el dispositivo en la lista y haga clic en **Guardar**.
+1. Seleccione el dispositivo de la lista y haga clic en **Save**.
 
    >[NOTA:]
-   > El cuadro de diálogo **Sincronizar con el dispositivo maestro** mostrará la lista de los dispositivos maestros. Puede seleccionar una de sus preferencias.
+   > El cuadro de diálogo **Sincronizar con el dispositivo maestro** mostrará la lista de dispositivos maestros. Puede seleccionar la que desee.
 
 1. Una vez que el dispositivo (reproductor de Windows) se sincronice con el maestro (reproductor de Chrome), verá el dispositivo sincronizado en el panel **DISPOSITIVOS**.
 
@@ -128,17 +131,17 @@ Una vez que haya sincronizado un dispositivo o dispositivos con un maestro, pued
 
 >[!NOTE]
 >
->Si desincroniza un dispositivo maestro, también desvinculará todos los dispositivos cliente asociados a dicho dispositivo maestro.
+>Si desincroniza un dispositivo maestro, también desvinculará todos los dispositivos cliente asociados a ese dispositivo maestro.
 
-Para quitar la sincronización del dispositivo maestro, siga los pasos a continuación:
+Para eliminar la sincronización del dispositivo maestro, siga los pasos a continuación:
 
-1. Vaya al panel **DISPOSITIVOS** y seleccione el dispositivo.
+1. Vaya al panel **DEVICES** y seleccione el dispositivo.
 
-1. Haga clic en **Dessincronizar los dispositivos** para anular la sincronización del cliente desde el dispositivo maestro.
+1. Haga clic en **Desincronizar dispositivo(s)** para anular la sincronización del cliente desde el dispositivo maestro.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Haga clic en **Confirmar** para anular la sincronización del dispositivo seleccionado desde el maestro.
+1. Haga clic en **Confirm** para anular la sincronización del dispositivo seleccionado desde el maestro.
 
    >[NOTA:]
    > Si selecciona el dispositivo maestro y utiliza la opción de desincronización, todos los dispositivos conectados al maestro se dessincronizarán en un solo paso.
