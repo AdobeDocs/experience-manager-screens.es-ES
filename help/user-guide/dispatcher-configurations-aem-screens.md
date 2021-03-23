@@ -1,12 +1,15 @@
 ---
 title: Configuraciones de Dispatcher para AEM Screens
 seo-title: Configuraciones de Dispatcher para AEM Screens
-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
-seo-description: Esta página resalta las directrices para configurar el despachante de un proyecto de AEM Screens.
+description: Esta página resalta las directrices para configurar Dispatcher para un proyecto de AEM Screens.
+seo-description: Esta página resalta las directrices para configurar Dispatcher para un proyecto de AEM Screens.
+feature: Administración de Screens
+role: Desarrollador, profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 6%
 
 ---
@@ -16,29 +19,29 @@ ht-degree: 6%
 
 Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carga de Adobe Experience Manager.
 
-La página siguiente proporciona las directrices para configurar el despachante para un proyecto de AEM Screens.
+La siguiente página proporciona las directrices para configurar Dispatcher para un proyecto de AEM Screens.
 
 >[!NOTE]
 >
->Si hay un despachante disponible, las conexiones al servlet de registro se pueden evitar filtrando las reglas del despachante.
+>Si dispatcher está disponible, las conexiones al servlet de registro se pueden prevenir filtrando en las reglas de Dispatcher.
 >
->Si no hay ningún distribuidor, deshabilite el servlet de registro en la lista de componentes OSGi.
+>Si no hay Dispatcher, deshabilite el servlet de registro en la lista de componentes de OSGi.
 
 ## Requisitos previos {#pre-requisites}
 
-Antes de configurar el despachante para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
+Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
 
-Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más detalles.
+Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
 
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
-Los reproductores y dispositivos de AEM Screens utilizan una sesión autenticada para acceder también a los recursos de las instancias de publicación. Por lo tanto, cuando tenga varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de reproductores o dispositivos AEM Screens.
+Los reproductores o dispositivos de AEM Screens utilizan una sesión autenticada para acceder a los recursos de las instancias de publicación. Por lo tanto, cuando tiene varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de los reproductores o dispositivos de AEM Screens.
 
-Siga los pasos a continuación para configurar el despachante de un proyecto de AEM Screens.
+Siga los pasos a continuación para configurar Dispatcher para un proyecto de AEM Screens.
 
-### Activación de sesiones adhesivas {#enable-sticky-session}
+### Habilitación de sesiones adhesivas {#enable-sticky-session}
 
-Si desea utilizar varias instancias de publicación delante de un único despachante, deberá actualizar el archivo `dispatcher.any` para habilitar la permanencia
+Si desea utilizar varias instancias de publicación frontadas por un solo Dispatcher, deberá actualizar el archivo `dispatcher.any` para habilitar la permanencia
 
 ```xml
 /stickyConnections {
@@ -49,15 +52,15 @@ Si desea utilizar varias instancias de publicación delante de un único despach
  }
 ```
 
-Si tiene una instancia de publicación delante de un despachante, la activación del adhesivo en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud al despachante. En este caso, haga clic en **Habilitar** en el campo **Fiabilidad** para habilitarlo a nivel de equilibrador de carga, como se muestra en la figura siguiente:
+Si tiene una instancia de publicación delante de un despachante, habilitar la permanencia en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud a Dispatcher. En este caso, haga clic en **Enable** en el campo **Stickiness** para habilitarlo a nivel de equilibrador de carga, como se muestra en la figura siguiente:
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Por ejemplo, si está utilizando ALB de AWS, consulte [Grupos destinatarios para los equilibradores de carga de la aplicación](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para habilitar la permanencia en el nivel ALB. Habilite la permanencia durante 1 día.
+Por ejemplo, si está utilizando ALB de AWS, consulte [Grupos de destino para sus equilibradores de carga de aplicaciones](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para habilitar la permanencia en el nivel ALB. Habilite la permanencia durante 1 día.
 
 ### Paso 1: Configuración de encabezados de cliente {#step-configuring-client-headers}
 
-Añada lo siguiente a la sección `/clientheaders`:
+Agregue lo siguiente a la sección `/clientheaders`:
 
 **X-Requested-With**
 
@@ -65,9 +68,9 @@ Añada lo siguiente a la sección `/clientheaders`:
 
 **X-REQUEST-COMMAND**
 
-### Paso 2: Configuración de Filtros de pantalla {#step-configuring-screens-filters}
+### Paso 2: Configuración de filtros de Screens {#step-configuring-screens-filters}
 
-Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter***.
+Para configurar los filtros de Screens, agregue lo siguiente a ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -88,16 +91,16 @@ Para configurar filtros de Pantallas, agregue lo siguiente a ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Paso 3: Deshabilitando la caché de Dispatcher {#step-disabling-dispatcher-cache}
+### Paso 3: Desactivación de la caché de Dispatcher {#step-disabling-dispatcher-cache}
 
-Deshabilite el almacenamiento en caché del despachante para ***/ruta de contenido/pantallas***.
+Deshabilite el almacenamiento en caché de Dispatcher para ***/content/screens path***.
 
-Los reproductores de pantallas utilizan una sesión autenticada, por lo que el despachante no almacena en caché ninguna de las solicitudes de reproductores de pantallas para `channels/assets`.
+Los reproductores de Screens utilizan una sesión autenticada, por lo que Dispatcher no almacena en caché ninguna de las solicitudes de reproductores de pantallas para `channels/assets`.
 
-Para habilitar la caché de los recursos para que se proporcionen desde la caché del despachante, debe:
+Para habilitar la caché para los recursos de modo que se proporcionen los recursos desde la caché de Dispatcher, debe:
 
-* Añadir `/allowAuthorization 1` en la sección `/cache`
-* Añada las siguientes reglas a la sección `/rules` de `/cache`
+* Agregar `/allowAuthorization 1` en la sección `/cache`
+* Agregue las siguientes reglas a la sección `/rules` de `/cache`
 
 ```xml
 /0000
