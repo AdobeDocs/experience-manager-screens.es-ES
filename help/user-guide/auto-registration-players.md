@@ -2,10 +2,13 @@
 title: Registro automático de reproductores
 seo-title: Registro automático de reproductores
 description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
+feature: Administración de pantallas, reproductores
+role: Administrador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,7 +22,7 @@ El registro masivo de miles de jugadores manualmente puede volverse muy complica
 
 Siga los pasos a continuación para implementar el registro automático de reproductores:
 
-1. Inicie sesión en la instancia de AEM, seleccione el proyecto de AEM screens y haga clic en **Propiedades** en la barra de acciones.
+1. Inicie sesión en la instancia de AEM, seleccione el proyecto de pantallas de AEM y haga clic en **Propiedades** en la barra de acciones.
 1. Seleccione la pestaña **Advanced** para ver la sección **Device registration** .
 
 1. Especifique un código de registro automático en el campo **Bulk registration code** y una visualización predeterminada opcional en **Default display assign** para asignarlo al reproductor que se registró automáticamente.
@@ -40,7 +43,7 @@ Siga los pasos a continuación para implementar el registro automático de repro
 
 Siga esta sección para considerar algunas de las prácticas recomendadas de seguridad:
 
-* Para garantizar que el código de registro no se vea comprometido, configure el código en AEM justo antes de iniciar el registro masivo y, cuando termine, borre ese campo y guárdelo en AEM.
+* Para garantizar que el código de registro no se vea comprometido, configúrelo en AEM justo antes de iniciar el registro masivo y, cuando termine, borre ese campo y guarde en AEM.
 
 * Puede configurar la ruta `/bin/screens/registration` para que solo sea accesible desde intervalos de IP conocidos si es posible.
 
