@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1469'
 ht-degree: 60%
 
 ---
@@ -54,7 +57,7 @@ En el siguiente ejemplo se muestra la forma de añadir el componente Livefyre a 
 1. Seleccione todo el editor de diseño que está a la derecha y haga clic en el símbolo de configuración para abrir el cuadro de diálogo **Diseño de ParSys**.
 1. Puede seleccionar los componentes que desee importar al proyecto AEM Screens. El siguiente ejemplo muestra la adición del componente **Livefyre** a un proyecto de AEM Screens.
 
-![adding_components](assets/adding_components.gif)
+![add_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -77,9 +80,9 @@ El componente de la aplicación tiene las siguientes propiedades:
 | **Propiedad** | **Descripción** |
 |---|---|
 | ***Ruta de acceso de la aplicación*** | Seleccione la ruta de acceso absoluta donde está la aplicación. |
-| ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, una aplicación de una sola página). Si establece el valor de la duración como >0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente. |
+| ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración está configurada en -1, lo que significa que el elemento se ejecuta para siempre (es decir, una aplicación de una sola página). Si establece el valor de la duración como >0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente. |
 
-El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la previsualización de sus propiedades:
+El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la vista previa de sus propiedades:
 
 ![adding_components_application](assets/adding_componentsapplication.gif)
 
@@ -105,7 +108,7 @@ El componente Canal tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indicará que el canal integrado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
  </tbody>
 </table>
@@ -128,7 +131,7 @@ La página integrada tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indicará que el canal integrado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
  </tbody>
 </table>
@@ -137,7 +140,7 @@ La página integrada tiene las siguientes propiedades:
 
 >[!NOTE]
 >
->Consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas, para obtener información detallada sobre secuencias incrustadas.
+>Consulte [Secuencias integradas](embedded-sequences.md) en la sección Creación de Screens , para obtener información detallada sobre las secuencias integradas.
 
 Una secuencia integrada le permite añadir un canal de secuencia integrada en el canal existente (con otros recursos).
 
@@ -155,11 +158,11 @@ La secuencia integrada tiene las propiedades de página siguientes:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indicará que el canal integrado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
-   <td>Configúrelo en <strong>original</strong> o <strong>único</strong>. Establecer el valor en <strong>original</strong> significa que la subsecuencia se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>single</strong> y que solo mostrará un elemento de la subsiguiente en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.).</td>
+   <td>Configúrelo en <strong>original</strong> o <strong>simple</strong>. Si establece el valor en <strong>original</strong> significa que la secuencia secundaria se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>single</strong> y que solo mostrará un elemento de la secuencia secundaria en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.)</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +171,7 @@ La secuencia integrada tiene las propiedades de página siguientes:
 
 Una secuencia integrada de forma dinámica permite añadir una secuencia similar al que se mencionó anteriormente, excepto en el rol del canal.
 
-Consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas, para obtener información detallada sobre secuencias incrustadas.
+Consulte [Secuencias integradas](embedded-sequences.md) en la sección Creación de Screens , para obtener información detallada sobre las secuencias integradas.
 
 La secuencia integrada dinámica tiene las siguientes propiedades:
 
@@ -184,20 +187,20 @@ La secuencia integrada dinámica tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si se define la duración como -1, se indica que el canal incrustado ejecutará toda su longitud en un canal determinado.</td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indicará que el canal integrado ejecutará toda su longitud en un canal determinado.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
-   <td>Configúrelo en <strong>original</strong> o <strong>único</strong>. Establecer el valor en <strong>original</strong> significa que la subsecuencia se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>single</strong> y que solo mostrará un elemento de la subsiguiente en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.).</td>
+   <td>Configúrelo en <strong>original</strong> o <strong>simple</strong>. Si establece el valor en <strong>original</strong> significa que la secuencia secundaria se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>single</strong> y que solo mostrará un elemento de la secuencia secundaria en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.)</td>
   </tr>
  </tbody>
 </table>
 
 ### Fragmento de experiencias {#experience-fragment}
 
-Un fragmento de experiencia le permite agregar un fragmento de experiencia (grupo de uno o varios componentes, incluido el contenido y el diseño al que se puede hacer referencia dentro de las páginas) a su canal de AEM Screens. Arrastre y suelte el componente en AEM editor y seleccione el fragmento de experiencia.
+Un fragmento de experiencia le permite añadir un fragmento de experiencia (grupo de uno o varios componentes, incluido el contenido y el diseño al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. Arrastre y suelte el componente en AEM editor y seleccione el fragmento de experiencia.
 
-Para obtener más información sobre cómo crear un fragmento de experiencia y aprovecharlo en un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencia](experience-fragments-in-screens.md).
+Para obtener más información sobre cómo crear un fragmento de experiencia y aprovecharlo en un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
@@ -205,14 +208,14 @@ Para obtener más información sobre cómo crear un fragmento de experiencia y a
 |---|---|
 | **Fragmento de experiencias** |
 | ***Fragmento de experiencias*** | Seleccione el fragmento de experiencia. |
-| ***Duración*** | Seleccione la duración completa del fragmento de experiencia que se reproduce en el canal. |
+| ***Duración*** | Seleccione toda la duración del fragmento de experiencia que se reproduce en el canal. |
 | **Configuración sin conexión** |
-| ***Bibliotecas del lado cliente*** | Archivos Javascript y CSS. |
+| ***Bibliotecas del lado cliente*** | Archivos JavaScript y CSS. |
 | ***Archivos estáticos*** | Archivos estáticos que se pueden agregar como configuraciones sin conexión al fragmento de experiencia. |
 
 >[!NOTE]
 >
->Las **bibliotecas del lado del cliente** y los **archivos estáticos** que agregue de este componente se sumarán a las **bibliotecas del lado del cliente** ya configuradas y a los archivos estáticos que se agregan desde las **propiedades** del fragmento de experiencia.
+>Las **Bibliotecas del lado del cliente** y los **Archivos estáticos** que agregue de este componente se sumarán a las **Bibliotecas del lado del cliente** ya configuradas y a los archivos estáticos que se agregan de las **Propiedades** del fragmento de experiencia.
 
 ### Imagen {#image}
 
@@ -231,17 +234,17 @@ El recurso de imagen tiene tres fichas denominadas **Imagen**, **Accesibilidad**
 | **Accesibilidad** |
 | ***Texto alternativo*** | Texto alternativo a la imagen. |
 | **Secuencia** |
-| ***Duración*** | De forma predeterminada, la duración se establece en *8000 ms*. Si desea cambiar la duración de reproducción de la imagen, actualice el campo **Duración**. |
+| ***Duración*** | De forma predeterminada, la duración está configurada en *8000 ms*. Si desea cambiar la duración de reproducción de la imagen, actualice el campo **Duration**. |
 
 ### Transición {#transition}
 
 El componente Transición permite añadir una transición al proyecto de Screens.
 
-La siguiente imagen muestra el componente de transición (agregado mediante arrastrar y soltar) en el editor.
+La siguiente imagen muestra el componente de transición (añadido mediante arrastrar y soltar) al editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Seleccione el icono de transición y haga clic en el **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo **Transición**. Este cuadro de diálogo incluye tres fichas:
+Seleccione el icono de transición y haga clic en **Configure** (icono de llave inglesa) para abrir el cuadro de diálogo **Transición**. Este cuadro de diálogo incluye tres fichas:
 
 * **Transición**
 * **Secuencia**
@@ -249,7 +252,7 @@ Seleccione el icono de transición y haga clic en el **Configurar** (icono de ll
 
 >[!NOTE]
 >
->De forma predeterminada, la secuencia se establece en 600 ms. Puede actualizar la secuencia de transiciones a otro valor mediante la ficha **Secuencia**.
+>De forma predeterminada, la secuencia se establece en 600 ms. Puede actualizar la secuencia de transición a otro valor utilizando la pestaña **Sequence**.
 
 ![transición](assets/transition.gif)
 
@@ -291,11 +294,11 @@ El componente Transición tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Activo desde</em></strong></td>
-   <td>Marca de hora que describe desde cuándo puede estar activa la transición.<br /> </td>
+   <td>Marca de tiempo que describe desde cuándo puede estar activa la transición.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Activo hasta</em></strong></td>
-   <td>Marca de hora que describe hasta cuándo la transición puede estar activa.</td>
+   <td>Marca de tiempo que describe hasta cuándo puede estar activa la transición.</td>
   </tr>
   <tr>
    <td><strong><em>Programa</em></strong></td>
@@ -322,7 +325,7 @@ El componente Vídeo tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><em><strong>Duración</strong></em></td>
-   <td>Seleccione la duración del vídeo. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre. Si establece el valor de la duración como &gt;0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente.<br />  </td>
+   <td>Seleccione la duración del vídeo. De forma predeterminada, la duración está configurada en -1, lo que significa que el elemento se ejecuta para siempre. Si establece el valor de la duración como &gt;0, se mostrará el elemento de una duración específica y, a continuación, pasará al siguiente.<br />  </td>
   </tr>
   <tr>
    <td><em><strong>Procesamiento</strong></em></td>
