@@ -14,9 +14,9 @@ feature: Administración de Screens, Reproductor de Android
 role: Administrador
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1441'
 ht-degree: 1%
 
 ---
@@ -174,3 +174,23 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 
 >[!NOTE]
 >Todos los dispositivos Android tienen una carpeta *sdcard* tanto si se ha insertado una *sdcard* como si no. Cuando se implementa, este archivo se encuentra en el mismo nivel que la carpeta Descargas . Algunos MDM, como Samsung Knox, pueden hacer referencia a esta ubicación de carpeta *sdcard* como *Internal storage*.
+
+## Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#bulk-provisioning}
+
+Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+
+### Implementación del aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#implementation}
+
+Siga los pasos a continuación para permitir el aprovisionamiento masivo en Android Player:
+
+1. Asegúrese de que su dispositivo Android sea compatible con los servicios de Google Play.
+1. Inscríbase sus dispositivos de reproductor Android con su solución EMM favorita que admita AppConfig.
+1. Inicie sesión en la consola de EMM y extraiga la aplicación AEM Screens Player de Google Play.
+1. Seleccione la configuración administrada (u opción relacionada).
+1. Ahora debería ver una lista de las opciones del reproductor que se pueden configurar (como servidor y código de registro masivo).
+1. Configure estos parámetros, guarde e implemente la directiva en los dispositivos.
+
+   >[!NOTE]
+   >Los dispositivos deben recibir la aplicación junto con la configuración y apuntar al servidor de AEM correcto con la configuración seleccionada. Si elige configurar el código de registro masivo y lo mantiene igual que configurado en AEM, el reproductor debería poder registrarse automáticamente. Si ha configurado una visualización predeterminada, también puede descargar y mostrar algún contenido predeterminado (que se puede cambiar posteriormente según sea conveniente).
+
+Además, debe consultar al proveedor de EMM acerca de la compatibilidad con AppConfig . Los más populares, como [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) y [Samsung Knox&lt;a> 11/> entre otros, admiten este estándar del sector.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
