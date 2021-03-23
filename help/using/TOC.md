@@ -4,10 +4,11 @@ breadcrumb-title: Guía de prácticas recomendadas de AEM Screens
 solution-title: AEM Screens
 getting-started-title: Guía de prácticas recomendadas de AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 78%
@@ -40,10 +41,10 @@ ht-degree: 78%
    + [Taxonomía e implementación del proyecto](project-taxonomy-implementation.md)
    + Administración del tráfico de red {#manage-network-traffic}
       + [Administración del tráfico de red](/help/using/managing-network-traffic.md)
-      + [Red de Internet directa (cableada/inalámbrica)](/help/using/direct-internet-network.md)
+      + [Red directa de Internet (cableada/inalámbrica)](/help/using/direct-internet-network.md)
       + [Red móvil directa](/help/using/mobile-network.md)
-      + [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)
-      + [Red corporativa cerrada (cableada/inalámbrica)](/help/using/enclosed-corporate-network.md)
+      + [Red móvil con enrutador de datos móvil y componentes de red activa](/help/using/mobile-network-router.md)
+      + [Red corporativa cerrada (inalámbrica/cableada)](/help/using/enclosed-corporate-network.md)
    + [Configuraciones de dispositivos](device-configurations.md)
    + [Pruebas y control de calidad](testing-quality-assurance.md)
    + [Estrategia de participación del proveedor](vendor-engagement.md)
