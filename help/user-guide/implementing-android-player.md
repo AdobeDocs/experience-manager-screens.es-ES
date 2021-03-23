@@ -14,7 +14,7 @@ feature: Administración de Screens, Reproductor de Android
 role: Administrador
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 1%
@@ -186,8 +186,8 @@ Siga los pasos a continuación para permitir el aprovisionamiento masivo en Andr
 1. Asegúrese de que su dispositivo Android sea compatible con los servicios de Google Play.
 1. Inscríbase sus dispositivos de reproductor Android con su solución EMM favorita que admita AppConfig.
 1. Inicie sesión en la consola de EMM y extraiga la aplicación AEM Screens Player de Google Play.
-1. Seleccione la configuración administrada (u opción relacionada).
-1. Ahora debería ver una lista de las opciones del reproductor que se pueden configurar (como servidor y código de registro masivo).
+1. Seleccione la configuración administrada o la opción relacionada.
+1. Ahora debería ver una lista de las opciones del reproductor que se pueden configurar, como servidor y código de registro masivo.
 1. Configure estos parámetros, guarde e implemente la directiva en los dispositivos.
 
    >[!NOTE]
