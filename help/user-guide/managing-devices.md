@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 70%
+source-wordcount: '273'
+ht-degree: 69%
 
 ---
 
@@ -38,7 +41,7 @@ Para asignar un dispositivo a una pantalla, siga estos pasos:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Seleccione la carpeta **Dispositivos** y toque o haga clic en **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y sin asignar.
+1. Seleccione la carpeta **Devices** y pulse o haga clic en **Device Manager** en la barra de acciones. Se muestran los dispositivos asignados y sin asignar.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
@@ -46,11 +49,11 @@ Para asignar un dispositivo a una pantalla, siga estos pasos:
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Seleccione la pantalla a la que desea asignar el dispositivo desde la lista y toque o haga clic en **Asignar**.
+1. Seleccione la pantalla a la que desee asignar el dispositivo en la lista y pulse o haga clic en **Asignar**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Toque o haga clic en **Finalizar** para completar el proceso de asignación.
+1. Toque o haga clic en **Finish** para completar el proceso de asignación.
 
 
    El tablero de la pantalla muestra el dispositivo asignado en el panel **DISPOSITIVOS**.
@@ -64,7 +67,7 @@ Para asignar un dispositivo a una pantalla, siga estos pasos:
 >[!NOTE]
 >
 >Cada vez que el primer dispositivo se añade a un nuevo proyecto Pantallas, se crea un grupo de usuarios.
->Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screen-we-Retail-devices*.
+>Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-device*.
 >Este grupo se añadirá como miembro del grupo **Colaboradores**, tal y como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
