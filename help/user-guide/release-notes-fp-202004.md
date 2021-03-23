@@ -1,78 +1,81 @@
 ---
-title: Notas de la versión de Feature Pack 2004
-seo-title: Notas de la versión de Feature Pack 2004
-description: Siga esta página para obtener información sobre AEM Screens Feature Pack 2004 publicado el 20 de abril de 2020.
-seo-description: Siga esta página para obtener información sobre AEM Screens Feature Pack 2004 publicado el 20 de abril de 2020.
+title: Notas de la versión del Feature Pack 202004
+seo-title: Notas de la versión del Feature Pack 202004
+description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
+seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
+feature: Paquete de funciones
+role: Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 3%
+source-wordcount: '396'
+ht-degree: 6%
 
 ---
 
 
-# Notas de la versión de Feature Pack 2004 {#release-notes-for-feature-pack}
+# Notas de la versión para Feature Pack 202004 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la versión más reciente de Adobe Experience Manager (AEM). Pantallas proporciona soporte de mantenimiento para la plataforma de pantallas AEM 6.3.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager (AEM). Screens proporciona compatibilidad con el mantenimiento de AEM plataforma Screens 6.3.
 
 ## Disponibilidad {#availability}
 
-AEM Screens lanzó AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4.
+AEM Screens ha publicado el paquete de funciones 8 de AEM 6.4 y el paquete de funciones 4 de AEM 6.5.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID. Vaya a la ficha **Adobe Experience Manager** y busque **Pantallas** para obtener el paquete de funciones más reciente.
+Puede descargar el último paquete de funciones para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el paquete de funciones más reciente.
 
 ## Fecha de la versión {#release-date}
 
-La fecha de la versión de AEM Screens Feature Pack 2004 es el 20 de abril de 2020.
+La fecha de versión del Feature Pack 202004 de AEM Screens es el 20 de abril de 2020.
 
 ### Novedades {#what-s-new}
 
 * **Opciones de estrategia de interrupción de reproducción**
 
-   Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
+   Como autor de contenido, debería poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tenga la opción de permitir que el contenido importante se reproduzca completamente antes de interrumpir la reproducción debido a la programación.
 
-   Consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)** para obtener más información sobre las opciones disponibles en el cuadro de diálogo **Asignación de Canal** para implementar esta función en su proyecto de AEM Screens.
+   Consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)** para obtener más información sobre las opciones disponibles en el cuadro de diálogo **Asignación de canales** para implementar esta función en su proyecto de AEM Screens.
 
-* **Lanzamientos de pantallas**
+* **Lanzamientos de Screens**
 
-   Se ha mejorado el flujo de experiencia del usuario autor del contenido y se ha reducido el número de clics para utilizar la publicación futura.
+   El flujo de experiencia de usuario de creación de contenido se ha mejorado y ha reducido el número de clics para usar futuras publicaciones.
 
-   Consulte **[Actualización de contenido mediante Screens Launch](launches.md)** para obtener más detalles.
+   Consulte **[Content Update using Screens Launch](launches.md)** para obtener más información.
 
 * **Tablero de canal**
 
-   Refleja las actualizaciones de las instrucciones del panel de canal en el panel **INFORMACIÓN DE CANAL**.
+   Refleja actualizaciones de las instrucciones del panel de canales en el panel **INFORMACIÓN DEL CANAL**.
 
 
 * **Ver manifiesto**
 
-   Ahora puede vista del archivo de manifiesto desde el panel de canal.
+   Ahora puede ver el archivo de manifiesto desde el panel del canal.
 
    Consulte **[Visualización del manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposición de texto**
 
-   Al agregar una prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
+   Al añadir una prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
 
-   Consulte **[Superposición de texto](text-overlay.md)** para crear una experiencia atractiva en un Canal de secuencia proporcionando un título o una descripción superpuestos sobre una imagen.
+   Consulte **[Superposición de texto](text-overlay.md)** para crear una experiencia atractiva en un canal de secuencia proporcionando un título o una descripción superpuestos sobre una imagen.
 
 * **Mejoras en la sincronización de comandos**
 
-   Con esta versión del paquete de funciones, se reflejan las mejoras en el retraso de sincronización de comandos entre los cambios de recursos.
+   Con esta versión del paquete de características, se reflejan las mejoras en el retraso en la sincronización de comandos entre los cambios de recursos.
 
-   Consulte **[Sincronización de comandos](using-command-sync.md)** para obtener más detalles.
+   Consulte **[Sincronización de comandos](using-command-sync.md)** para obtener más información.
 
-### Reproductores de AEM Screens lanzados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens se han lanzado para AEM Screens con AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4:
+Los siguientes reproductores de AEM Screens están disponibles para AEM Screens versión AEM 6.4 Feature Pack 8 y AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Descargas de AEM Screens Player {#aem-screens-player-downloads}
+#### Descargas del reproductor de AEM Screens {#aem-screens-player-downloads}
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas de AEM Screens Player](https://download.macromedia.com/screens/)**.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor de AEM Screens](https://download.macromedia.com/screens/)**.
