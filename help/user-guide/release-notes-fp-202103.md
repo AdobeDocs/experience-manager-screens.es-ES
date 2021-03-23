@@ -1,11 +1,14 @@
 ---
 title: Notas de la versión para Feature Pack 202103
-description: La página resalta las notas de la versión del Feature Pack 202103.
+description: '"Siga esta página para obtener información sobre el paquete de funciones 202103 de AEM Screens, publicado el 5 de marzo de 2021".'
+feature: Paquete de funciones
+role: Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '398'
+ht-degree: 3%
 
 ---
 
@@ -13,7 +16,7 @@ ht-degree: 2%
 # Notas de la versión para Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la versión más reciente de Adobe Experience Manager (AEM). Screens proporciona compatibilidad con el mantenimiento de la plataforma AEM 6.3 Screens.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager (AEM). Screens proporciona compatibilidad con el mantenimiento de AEM plataforma Screens 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -27,7 +30,7 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 5 de m
 
 ### Novedades {#what-is-new}
 
-* **Registro automático de reproductores en AEM Screens**
+* **Registro automático de reproductores de AEM Screens**
 
    El registro masivo de miles de jugadores manualmente es muy complicado y añade tiempo y costo. Para simplificar este proceso, la función Registro automático de reproductores permite especificar una clave previamente compartida en AEM que se puede aprovisionar en un reproductor a través de un archivo de configuración o una solución de Administración de dispositivos móviles (MDM).
 
@@ -36,7 +39,7 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 5 de m
 
 * **Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management**
 
-   Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente cada reproductor con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor de Android de AEM Screens es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+   Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
    Consulte [Aprovisionamiento masivo de Reproductor de Android mediante Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) para obtener más información.
 
