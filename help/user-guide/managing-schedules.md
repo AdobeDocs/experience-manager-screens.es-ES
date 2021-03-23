@@ -1,18 +1,21 @@
 ---
 title: Crear y administrar programaciones
 seo-title: Administración de programas
-description: Siga esta página para conocer las programaciones, que le permite organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
-seo-description: Siga esta página para conocer las programaciones, que le permite organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
+description: Siga esta página para obtener más información sobre los programas, que le permiten organizar los canales en grupos reutilizables de modo que no tenga que repetir la asignación individualmente para cada pantalla en la que desee mostrar el contenido.
+seo-description: Siga esta página para obtener más información sobre los programas, que le permiten organizar los canales en grupos reutilizables de modo que no tenga que repetir la asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '427'
 ht-degree: 48%
 
 ---
@@ -20,9 +23,9 @@ ht-degree: 48%
 
 # Crear y administrar programaciones {#creating-and-managing-schedules}
 
-**Las programaciones**, en AEM Screens, le permiten organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada pantalla en la que desee mostrar su contenido.
+**Los programas**, en AEM Screens, permiten organizar los canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 
-Las programaciones, combinadas con ***DayParting***, le permiten establecer una programación global con varios canales que se ejecutan en horas específicas del día y reutilizar esa configuración para todas las visualizaciones a la vez.
+Cuando los programas se combinan con ***DayParting***, le permite establecer una programación global con varios canales que se ejecutan en momentos específicos del día y reutilizar esa configuración para todas las pantallas a la vez.
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Puede crear un programa para su proyecto Screens, que administrará todas las ac
 Siga los pasos a continuación para crear un programa para el canal:
 
 1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y luego seleccione Screens. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya al proyecto Pantallas y haga clic en **Programaciones**.
+1. Vaya al proyecto Screens y haga clic en **Programas**.
 1. Haga clic en **Crear** en la barra de acciones.
 1. Seleccione **Programa** en el asistente **Crear** y haga clic en **Siguiente**.
 
@@ -52,17 +55,17 @@ Siga los pasos que se describen a continuación para ver el panel de programas. 
 
 1. Vaya a la carpeta **Programas** del proyecto Screens (por ejemplo, We.Retail).
 
-   ![chlimage_1](assets/chlimage_1.png)
+   ![imagen_1](assets/chlimage_1.png)
 
 1. Haga clic en **Tablero** de la barra de acciones para abrir el tablero del programa.
 
    Puede ver tres paneles diferentes, como **Información de programa**, **Canales asignados** y **Pantallas asignadas**.
 
-   ![chlimage_1-1](assets/chlimage_1-1.png)
+   ![Chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panel de información de programaciónHaga clic en Propiedades en la esquina superior derecha del panel de información de programación para cambiar las propiedades de vista o cambio de la programación.** 
+   **Panel de información de programaciónHaga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para ver o cambiar las propiedades de la programación.** 
 
-   **Panel Canales asignados** Haga clic en +Asignar Canal en la esquina superior derecha del panel CANALES asignados para abrir el cuadro de diálogo Asignación de Canal.
+   **Panel Canales asignados** Haga clic en +Asignar canal en la esquina superior derecha del panel Canales asignados para abrir el cuadro de diálogo Asignación de canales .
 
-   **Panel de visualizaciones asignadasSeleccione cualquiera de las** visualizaciones del panel PANTALLAS ASIGNADAS para abrir el panel de visualización.
+   **Panel Pantallas asignadas** Seleccione cualquiera de las visualizaciones del panel Pantallas asignadas para abrir el tablero de visualización.
 
