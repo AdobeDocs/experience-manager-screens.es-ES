@@ -5,8 +5,9 @@ audience: end-user
 user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
+feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 19%
@@ -37,7 +38,7 @@ ht-degree: 19%
    + [Lista de comprobación de seguridad de AEM Screens](security-checklist.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
    + [Nuevo Importador de proyectos desde archivo](project-importer.md)
-   + [Duplicación de activadores de datos en servidores de publicación](replicating-data-triggers.md)
+   + [Duplicación de Déclencheur de datos en servidores de publicación](replicating-data-triggers.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
@@ -52,7 +53,7 @@ ht-degree: 19%
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Ejemplos de casos de uso y creación {#authoring}
++ Ejemplos de casos de autor y uso {#authoring}
    + Configuración de un proyecto de Screens {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Crear y administrar canales](managing-channels.md)
@@ -62,7 +63,7 @@ ht-degree: 19%
       + [Administración de dispositivos](managing-devices.md)
       + Asignar canales{#assigning-channels} 
          + [Asignación de canales](channel-assignment-latest-fp.md)
-         + [Asignación de canales: Paquetes de funciones antiguos de AEM Screens](channel-assignment.md)
+         + [Asignación de canales: Feature Packs AEM Screens antiguos](channel-assignment.md)
    + Uso de las funciones principales del producto {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización masiva sin conexión](bulk-offline-update.md)
@@ -79,7 +80,7 @@ ht-degree: 19%
       + [Secuencia integrada dinámica](dynamic-embedded-sequences.md)
       + [Duración de la reproducción masiva de imágenes en el nivel de canal](channel-level-image-playback.md)
       + [Sincronización de comandos](using-command-sync.md)
-      + [Creación con activadores de datos](authoring-data-triggers.md)
+      + [Creación con Déclencheur de datos](authoring-data-triggers.md)
       + [Reconocimiento de voz](voice-recognition.md)
       + [Informe de asignación de contenido](content-assignment-report.md)
    + Administración de actualizaciones de contenido {#content-updates}
@@ -101,7 +102,7 @@ ht-degree: 19%
    + [Canales sin conexión](offline-channels.md)
    + [Ampliación de un componente de AEM Screens](extending-component-tutorial-develop.md)
    + [Creación de componentes](creating-components.md)
-   + [Incrustación de una aplicación REACT mediante AEM SPA Editor &amp; Integración con AEM Screens Analytics](embedding-react-app.md)
+   + [Incrustación de una aplicación REACT mediante AEM SPA Editor e Integración con AEM Screens Analytics](embedding-react-app.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de personalización de marca y estilo para superposiciones de texto](custom-branding-text-overlays.md)
