@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
+feature: Creación en Screens
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '430'
 ht-degree: 64%
 
 ---
@@ -34,11 +37,11 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
 1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
 
-   Haga clic en **Modelos** para ingresar a la administración de modelos de flujo de trabajo.
+   Haga clic en **Modelos** para entrar en la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Seleccione el modelo **Recurso de actualización de DAM** y haga clic en Editar en la barra de acciones para abrir la ventana **Recurso de actualización de DAM**.
+1. Seleccione el modelo **DAM Update Asset** y haga clic en Editar en la barra de acciones para abrir la ventana **DAM Update Asset**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -46,7 +49,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Seleccione la ficha **Proceso** para editar los argumentos de proceso. Introduzca los perfiles HD completos en la lista en **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** y haga clic en **Aceptar**.
+1. Seleccione la ficha **Proceso** para editar los argumentos de proceso. Introduzca todos los perfiles HD en la lista en **Arguments** como: ***,profile:fullhd-bp,profile:fullhd-hp*** y haga clic en **Aceptar**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -54,11 +57,11 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Vaya a **Recursos** y cargue un nuevo vídeo. Haga clic en el vídeo y abra la barra lateral Representaciones y verá los dos vídeos HD completos.
+1. Vaya a **Recursos** y cargue un nuevo vídeo. Haga clic en el vídeo y abra el carril lateral Representaciones. Verá los dos vídeos en Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Abra **Representaciones** desde el carril lateral.
+1. Abra **Representaciones** en el carril lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
@@ -72,21 +75,21 @@ Siga los pasos a continuación para generar manualmente representaciones en Full
 
 1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
 
-   Haga clic en **Modelos** para ingresar a la administración de modelos de flujo de trabajo.
+   Haga clic en **Modelos** para entrar en la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Seleccione el modelo **Recurso de actualización de pantalla** y haga clic en **Flujo de trabajo de Inicio** para abrir el cuadro de diálogo **Ejecutar flujo de trabajo**.
+1. Seleccione el modelo **Screens Update Asset** y haga clic en **Start Workflow** para abrir el cuadro de diálogo **Run Workflow**.
 
-   ![step5_-_inicio_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Seleccione el vídeo que desee en la **Carga útil** y haga clic en **Ejecutar**.
+1. Seleccione el vídeo deseado en **Payload** y haga clic en **Run**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. Vaya a **Recursos**, desplácese hasta el recurso y haga clic en él. 
 
-   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
+   ![step7_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
 1. Abra el carril lateral **Representaciones**. Verá nuevas representaciones en Full HD. 
 
