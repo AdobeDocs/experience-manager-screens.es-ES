@@ -7,10 +7,10 @@ breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 19%
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Reproductor de Android](implementing-android-player.md)
-      + [Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
@@ -53,7 +52,7 @@ ht-degree: 19%
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Ejemplos de casos de autor y uso {#authoring}
++ Ejemplos de casos de uso y creación {#authoring}
    + Configuración de un proyecto de Screens {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Crear y administrar canales](managing-channels.md)
