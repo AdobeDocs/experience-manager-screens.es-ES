@@ -1,10 +1,13 @@
 ---
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
+feature: Administración de pantallas, reproductores
+role: Administrador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -16,116 +19,116 @@ ht-degree: 1%
 
 Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
 
-1. Vaya a la página [Descargas](https://download.macromedia.com/screens/) de AEM Screens Player para descargar Tizen Player.
+1. Vaya a la página [AEM Screens Player Downloads](https://download.macromedia.com/screens/) para descargar el reproductor Tizen.
 
-1. Instale el archivo Tizen player *(.zip)* desde el equipo local.
+1. Instale el archivo del reproductor Tizen *(.zip)* desde el equipo local.
 
 ## Configuración del servidor local y extracción de archivos comprimidos {#setting-local-server}
 
 >[!NOTE]
-> Extraiga el archivo zip y haga que el reproductor Tizen esté disponible a través de `http server`. (El `http server` no es necesario para ser un servidor Local o Apache).
+> Extraiga el archivo zip y haga que el reproductor Tizen esté disponible a través de `http server`. (No es necesario que el `http server` sea un servidor Local o Apache).
 
 Complete los siguientes pasos:
 
-1. Copie los dos archivos extraídos como `AEMScreensPlayer.wgt` y `sssp_config.xml` en el directorio raíz del servidor Web Apache local.
+1. Copie los dos archivos extraídos como `AEMScreensPlayer.wgt` y `sssp_config.xml` en el directorio raíz del servidor web Apache local.
 
    >[!NOTE]
-   >La `AEMScreensPlayer.wgt`es la aplicación real del reproductor Tizen y `sssp_config.xml` contiene información sobre este mapa que le ayuda a instalarlo en el dispositivo Tizen.
+   >El `AEMScreensPlayer.wgt`es la aplicación real del reproductor Tizen y `sssp_config.xml` contiene información sobre este mapa que le ayuda a instalarlo en el dispositivo Tizen.
 
 1. Obtenga la dirección IP o URL del servidor HTTP local (y la ruta a la carpeta que contiene los archivos extraídos en el paso 2 si se extraen en una subcarpeta y no en una carpeta raíz)
 
-1. El reproductor Tizen descargará el instalador desde el servidor local.
+1. El reproductor Tizen descargará el instalador del servidor local.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
-Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del reproductor de AEM Screens en el dispositivo:
+Siga los pasos que se indican a continuación en el dispositivo Samsung para completar la instalación del reproductor AEM Screens en el dispositivo:
 
-1. Navegue hasta su dispositivo Samsung y encienda.
+1. Vaya a su dispositivo Samsung y active.
 
 1. Haga clic en el botón **MENU** del mando a distancia del dispositivo y desplácese hacia abajo hasta **System** desde la barra de navegación izquierda.
 
-1. Desplácese hacia abajo y seleccione la opción **Reproducir mediante** y cámbiela a **Iniciador de URL**.
+1. Desplácese hacia abajo y seleccione la opción **Reproducir mediante** y cambie a la opción **Iniciador de URL**.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Una vez configurado el iniciador de URL, presione el botón **Inicio** desde el control remoto.
+1. Una vez configurado el Iniciador de URL, pulse el botón **Home** desde el control remoto.
 
-1. Vaya a la **Configuración del iniciador de URL** e introduzca la dirección IP del servidor host local y haga clic en **Listo**.
+1. Vaya a **URL Launcher Settings**, introduzca la dirección IP de su servidor host local y haga clic en **Listo**.
    >[!NOTE]
    >El reproductor Tizen debe poder conectarse al servidor http.
 
-1. Ahora, AEM Screens Player debe instalar e iniciar automáticamente en el dispositivo Samsung.
+1. El Reproductor de AEM Screens debe instalar e iniciar automáticamente en su dispositivo Samsung.
 
    >[!NOTE]
-   >Tanto el dispositivo Tizen como el servidor `http` deben poder conectarse entre sí, es decir, el servidor debe estar disponible para el reproductor Tizen.
+   >Tanto el dispositivo Tizen como el servidor `http` deben poder conectarse entre sí, es decir, el servidor debe ser accesible para el reproductor Tizen.
 
 
-## Exención de los agentes de usuario con el problema de cookie del mismo sitio {#exempting-user-agents}
+## Exención de agentes de usuario con el problema de cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**Esta sección se aplica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
->Hay algunos motores de navegador que son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la versión más reciente disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
+>Algunos motores de navegador son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la última versión disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
 
-Siga los pasos a continuación para eximir a estos clientes incompatibles al utilizar *SameSite=None*:
+Siga los pasos a continuación para eximir a estos clientes incompatibles cuando utilice *SameSite=None*:
 
 1. Actualice a Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token granito de Adobe**. Establezca el valor del valor **SameSite** en **None**.
+1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token de Granite de Adobe**. Establezca el valor del valor **SameSite** en **None**.
 
-1. Debe ver una nueva opción *Agentes de usuario para quedar exentos del mismo atributo*. Rellene esto con un regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
+1. Debería ver una nueva opción *Agente de usuario a eximir del atributo samesite*. Rellene esto con una regex correspondiente a los agentes de usuario que sea(n) incompatible con el atributo *SameSite=None*.
    >[!NOTE]
-   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen utilice el regex: `(.*)Tizen(.*)`.
+   >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen use la regex: `(.*)Tizen(.*)`.
 
-1. Registre el reproductor Tizen en su instancia de AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
+1. Registre el reproductor Tizen en su instancia AEM 6.5.5 y superior y debe registrar y mostrar el contenido normalmente.
 
 ## Aprovisionamiento masivo de Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->Puede ser un tedioso esfuerzo introducir manualmente la dirección de su servidor AEM en la interfaz de usuario de administración de todos y cada uno de los dispositivos para un gran número de dispositivos. Se recomienda utilizar la solución de administración remota de Samsung (RMS) para implementar y administrar soluciones más grandes. Consulte [Incorporación del dispositivo Tizen al servicio de administración remota de Samsung (RMS)](#enroll-tizen-device-rm) para obtener más detalles.
+>Puede ser un esfuerzo tedioso introducir manualmente la dirección de su servidor AEM en la IU de administración de todos y cada uno de los dispositivos para un gran número de dispositivos. Se recomienda utilizar la solución de administración remota de Samsung (RMS) para implementar y administrar soluciones más grandes. Para obtener más información, consulte [Incorporación del dispositivo Tizen al servicio de administración remota de Samsung (RMS)](#enroll-tizen-device-rm) .
 
-Siga los pasos que se describen a continuación para aprovisionar la aplicación de forma masiva para que apunte a la instancia de creación de AEM cuando se inicie:
+Siga los pasos a continuación para aprovisionar la aplicación de forma masiva para que apunte a la instancia de autor de AEM cuando se inicie:
 
-1. Descargue e instale el [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
-1. Abra el archivo `wgt` con Tizen studio.
-1. Abra el archivo `firmware-platform.js`, busque `DEFAULT_PREFERENCES` y cambie la dirección URL del servidor a la dirección URL del autor AEM y guárdela.
+1. Descargue e instale [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
+1. Abra el archivo `wgt` utilizando Tizen studio.
+1. Abra el archivo `firmware-platform.js`, busque `DEFAULT_PREFERENCES`, cambie la URL del servidor a la URL del autor AEM y guárdela.
 1. Cree el nuevo archivo `wgt`.
 
    >[!NOTE]
    >Es posible que deba crear o configurar un certificado de firma.
 
-1. Implemente este nuevo archivo `wgt` mediante RMS o el iniciador de URL y, cuando se inicie el reproductor, deberá apuntar automáticamente a su servidor para que no necesite introducirlo manualmente en todos los dispositivos.
+1. Implemente este nuevo archivo `wgt` utilizando RMS o URL Launcher y cuando el reproductor inicie, debería apuntar automáticamente a su servidor para que no necesite introducirlo manualmente en todos los dispositivos.
 
 ### Incorporación del dispositivo Tizen al servicio de administración remota de Samsung (RMS) {#enroll-tizen-device-rms}
 
-Siga los pasos a continuación para inscribir el dispositivo Tizen en el servicio de administración remota de Samsung (RMS) y configurar de forma remota el iniciador de URL:
+Siga los pasos a continuación para inscribir el dispositivo Tizen en el Servicio de administración remota de Samsung (RMS) y configurar de forma remota el iniciador de URL:
 
 >[!NOTE]
 >Compruebe la configuración de red y el monitor.
 
-1. Vaya a **Menú** -> **Red** -> **Configuración de red del servidor** y pulse **Intro**.
+1. Vaya a **Menú** -> **Red** -> **Configuración de red del servidor** y pulse **Entrar**.
 
-1. Vaya a la dirección del servidor y escriba en el acceso a la dirección URL de MagicInfo y presione **Listo**.
+1. Vaya a la dirección del servidor, escriba la dirección URL de MagicInfo y presione **Listo**.
 
-1. Configure TLS, si es necesario. Vaya al puerto y seleccione el número de puerto en el servidor y haga clic en **Guardar**.
+1. Configure TLS, si es necesario. Vaya al puerto, seleccione el número de puerto del servidor y haga clic en **Save**.
 
-1. Vaya a la ficha **Dispositivo** y busque el dispositivo que acaba de configurar. Una vez encontrado el dispositivo, haga clic en la casilla de verificación y seleccione **Aprobar**.
+1. Vaya a la pestaña **Device** y compruebe el dispositivo que acaba de configurar. Una vez que se encuentra un dispositivo, haga clic en la casilla de verificación y seleccione **Aprobar**.
 
    >![image](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Rellene la información necesaria y seleccione un grupo de dispositivos. Haga clic en **Aceptar** para completar el proceso de aprobación.
+1. Rellene la información necesaria y seleccione un grupo de dispositivos. Haga clic en **OK** para completar el proceso de aprobación.
 
    >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Una vez aprobado el dispositivo, debe aparecer en la Lista del dispositivo. Haga clic en el botón *Información* ubicado en el cuadro del dispositivo, es decir, **i**, como se muestra en la figura siguiente.
+1. Una vez aprobado el dispositivo, debe aparecer en la lista de dispositivos. Haga clic en el botón *Information* situado en el cuadro del dispositivo, es decir, **i**, como se muestra en la figura siguiente.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Aparece el cuadro de diálogo Información del dispositivo. Seleccione la ficha **Información del dispositivo** y haga clic en **Editar**.
+1. Aparece el cuadro de diálogo de información del dispositivo. Seleccione la pestaña **Device Info** y haga clic en **Edit**.
 
    >![image](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Edite las opciones del dispositivo y seleccione la ficha **Configuración**. Vaya a la sección **Iniciador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para instalar una aplicación `SSSP`, como se muestra en la figura siguiente.
+1. Edite las opciones del dispositivo y seleccione la pestaña **Setup**. Vaya a la sección **URL Launcher** e introduzca la URL que aloja el wgt y `SSSP config file` para instalar una aplicación `SSSP`, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Haga clic en **Guardar** para que los cambios aparezcan en la pantalla de visualización.
+1. Haga clic en **Save** para que los cambios aparezcan en la pantalla de visualización.
 
