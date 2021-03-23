@@ -1,13 +1,16 @@
 ---
-title: Instalación de Screens Player
-seo-title: Instalación de Screens Player
-description: Instalación de Screens Player
-seo-description: Instalación de Screens Player
+title: Instalación del reproductor Screens
+seo-title: Instalación del reproductor Screens
+description: Siga esta página para obtener más información sobre la instalación del reproductor AEM Screens disponible.
+seo-description: Instalación del reproductor Screens
 contentOwner: jsyal
+feature: Administración de Screens
+role: Administrador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -15,29 +18,29 @@ ht-degree: 1%
 
 # Instalación de AEM Screens Player {#installing-player}
 
-En esta página se describe cómo instalar AEM Screens Player.
+En esta página se describe cómo instalar el reproductor AEM Screens.
 
-## Reproductor de pantallas disponible {#available-players}
+## Reproductor de Screens disponible {#available-players}
 
-El reproductor de AEM Screens está disponible para Android, Chrome OS y Windows.
+El reproductor AEM Screens está disponible para Android, Chrome OS y Windows.
 
-Para descargar **AEM Screens Player**, visite la página [Descargas del reproductor de AEM 6.5](https://download.macromedia.com/screens/).
+Para descargar **AEM Screens Player**, visite la página [AEM 6.5 Descargas del reproductor](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >
->Una vez que descargue el último reproductor (*.exe*), siga los pasos del reproductor para completar la instalación ad-hoc:
+>Una vez que descargue el último reproductor (*.exe*), siga los pasos del reproductor para completar la instalación ad hoc:
 >
->1. Presione largo tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. Vaya a **Configuration** desde el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de AEM en **Server** y haga clic en **Save**.
->1. Haga clic en el vínculo **Registro** desde el menú de acción de la izquierda y en los pasos siguientes para completar el proceso de registro del dispositivo.
+>1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
+>1. Vaya a **Configuration** en el menú de acción de la izquierda, introduzca la dirección de ubicación de la instancia de AEM en **Server** y haga clic en **Save**.
+>1. Haga clic en el enlace **Registration** del menú de acción de la izquierda y en los pasos siguientes para completar el proceso de registro del dispositivo.
 
 
 ### Recursos adicionales {#additional-resources}
 
 Consulte los siguientes temas para obtener información detallada:
 
-* Para descargar Android Player, visite **Google Play**. Para obtener más información sobre la implementación de Android Watchdog, consulte [Implementación de un reproductor de Android](implementing-android-player.md).
+* Para descargar el Reproductor de Android, visite **Google Play**. Para obtener más información sobre la implementación de Android Watchdog, consulte [Implementación del reproductor Android](implementing-android-player.md).
 
-* Para implementar Chrome OS Player, consulte [Chrome Management Console](implementing-chrome-os-player.md) para obtener más información.
+* Para implementar el Reproductor de Chrome OS, consulte [Consola de administración de Chrome](implementing-chrome-os-player.md) para obtener más información.
 
-* Para configurar AEM Screens Windows Player, consulte [Implementación de Windows Player](implementing-windows-player.md).
+* Para configurar el reproductor AEM Screens Windows, consulte [Implementación del reproductor Windows](implementing-windows-player.md).
