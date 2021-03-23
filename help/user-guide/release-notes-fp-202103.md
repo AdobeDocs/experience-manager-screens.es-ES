@@ -5,7 +5,7 @@ feature: Paquete de funciones
 role: Desarrollador
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -41,7 +41,7 @@ La fecha de versión del paquete de funciones 202103 de AEM Screens es el 5 de m
 
    Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
-   Consulte [Aprovisionamiento masivo de Reproductor de Android mediante Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) para obtener más información.
+   Consulte [Aprovisionamiento masivo de Reproductor de Android mediante Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obtener más información.
 
 
 ### Corrección de errores {#bug-fixes}
