@@ -1,12 +1,15 @@
 ---
 title: Asignación de canales
 seo-title: Asignación de canales
-description: Siga esta página para conocer la asignación de Canales y la partición de días.
+description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
+feature: Creación en Screens, asignación de canales
+role: Administrador, Desarrollador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 43%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -14,35 +17,35 @@ ht-degree: 43%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
->Esta sección resalta la asignación de Canales y la programación de canales para los paquetes de funciones anteriores a AEM versión 6.5.5 de Pantallas.
+>Esta sección resalta la asignación de canales y la programación de canales para los Feature packs anteriores a AEM versión 6.5.5 de Screens.
 
-Una vez configurada la visualización, debe asignar un canal a una pantalla para la vista del contenido.
+Una vez configurada la visualización, debe asignar un canal a una pantalla para ver el contenido.
 
-Esta página muestra cómo asignar un canal a la pantalla.
+Esta página muestra la asignación de un canal a la pantalla.
 
 >[!NOTE]
 >Puede asignar varios canales a una pantalla.
 
-## Asignación de un Canal {#assign-a-channel}
+## Asignación de un canal {#assign-a-channel}
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
-1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
+1. Vaya a la visualización requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **SanJosé** —> **StoreDisplay**.
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Toque o haga clic **Asignar Canal** en la barra de acciones
+1. Toque o haga clic **Asignar canal** en la barra de acciones
 
    O bien,
 
-   Toque o haga clic en **Panel** y haga clic en **+Asignar Canal** en el panel **CANALES ASIGNADOS** para abrir el cuadro de diálogo **Asignación de Canal**.
+   Pulse o haga clic en **Panel** y haga clic en **+Asignar canal** en el panel **CANALES ASIGNADOS** para abrir el cuadro de diálogo **Asignación de canales**.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Puede configurar las propiedades desde el cuadro de diálogo **Asignación de Canal** de la sección siguiente. Consulte la sección [Propiedades del Canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   Puede configurar las propiedades desde el cuadro de diálogo **Asignación de canales** de la sección siguiente. Consulte la sección [Propiedades del canal](#channel-properties) para obtener más información sobre las propiedades del canal.
 
 
-## Explicación de las propiedades de Canal de la asignación de Canales {#channel-properties}
+## Explicación de las propiedades de canal de la asignación de canales {#channel-properties}
 
 ### Canal de referencia {#ref-channel}
 
@@ -50,7 +53,7 @@ El canal de referencia le permite proporcionar una referencia al canal deseado, 
 
 * **por ruta de acceso**: proporcione una referencia explícita mediante la ruta de acceso absoluta del canal.
 
-* **por nombre**: Escriba el nombre del canal que se resolverá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero aún así tendrá la función de canal cuerdo en todas las pantallas.
+* **por nombre**: Introduzca el nombre del canal que se convertirá en un canal real por contexto. Esta característica le permite crear la versión local de un canal, para así resolver de forma dinámica el contenido de una ubicación específica. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero aún así tendrá la función de canal en todas las pantallas.
 
 ### Rol del canal {#role-channel}
 
@@ -76,18 +79,18 @@ La prioridad se utiliza para solicitar las asignaciones en caso de que varias de
 >
 > Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
-Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar el contenido no crítico, pero tener la opción de permitir que el contenido importante se reproduzca completamente antes de cortar la reproducción debido a la programación.
+Como autor de contenido, debería poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tenga la opción de permitir que el contenido importante se reproduzca completamente antes de interrumpir la reproducción debido a la programación.
 
-Seleccione una de las siguientes opciones disponibles para establecer el método de interrupción en el cuadro de diálogo **Asignación de Canal**:
+Seleccione una de las siguientes opciones disponibles para configurar el método de interrupción en el cuadro de diálogo **Asignación de canales**:
 
-* **Inmediatamente**: cada vez que se activa la programación o se recibe una actualización, puede cortar la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
+* **Inmediatamente**: cuando la programación se activa o se recibe una actualización, puede cortar la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Al final del elemento** actual: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de que actualice o reproduzca el nuevo contenido
    >[!NOTE]
    >Esta opción está seleccionada de forma predeterminada.
-* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelva al primer elemento para actualizar o reproducir el nuevo contenido
+* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y justo antes de la secuencia deseada, vuelve al primer elemento para actualizar o reproducir el nuevo contenido
 
    >[!NOTE]
-   >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se pospongan ligeramente, ya que el reproductor esperará el final del elemento o secuencia (después del tiempo especificado) antes de la actualización. El retraso dependerá de la duración de reproducción del elemento.
+   >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se posterguen ligeramente, ya que el reproductor esperará el final del elemento o secuencia (después del tiempo especificado) antes de la actualización. El retraso dependerá de la duración de reproducción del elemento.
 
 ### Programa {#schedule-channel}
 
@@ -99,11 +102,11 @@ La opción de mostrar la información sobre herramientas de atracción define si
 
 ### DayParting {#dayparting}
 
-Las programaciones, combinadas con **DayParting**, le permiten establecer una programación global con varios canales que se ejecutan en horas específicas del día y reutilizar esa configuración para todas las visualizaciones a la vez.
+Cuando los programas se combinan con **DayParting**, le permite establecer una programación global con varios canales que se ejecutan en momentos específicos del día y reutilizar esa configuración para todas las pantallas a la vez.
 
-La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según lo requiera.
+La parrilla de programación es el proceso de dividir un día en franjas horarias y especificar qué tipo de contenido se reproducirá en una hora concreta. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según sea necesario.
 
-Los siguientes ejemplos explican la partición de día en canales en tres escenarios diferentes:
+Los siguientes ejemplos explican la partición de día en los canales en tres escenarios diferentes:
 
 #### Reproducir contenido en un único día que esté dividido en varias franjas horarias {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
@@ -114,12 +117,12 @@ Aquí dividiremos cada día en tres franjas de tiempo diferentes, para que el co
 | **Canal** | **Función** | **Prioridad** | **Programa** |
 |---|---|---|---|
 | Menu_A | Desayuno |  | después de las 6:00 y antes de las 11:00 |
-| Menu_B | Almuerzo |  | después de las 11:00 y antes de las 15:00 |
-| Menu_C | Cena |  | después de las 15:00 y antes de las 20:00 |
+| Menú_B | Almuerzo |  | después de las 11:00 y antes de las 15:00 |
+| Menú_C | Cena |  | después de las 15:00 y antes de las 20:00 |
 
 #### Reproducir contenido en un día específico de la semana {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra la partición de día que se logra en un casino donde el evento en vivo se produce todos los fines de semana de 20:00 a 22:00 y las especialidades están disponibles para el menú de la cena después de las 22:00 hasta la 01:00.
+En este ejemplo se muestra el DayParting logrado en un casino en el que se celebra un evento en directo todos los fines de semana de 20:00 a 22:00 y hay disponibles especiales para el menú de la cena después de las 22:00 hasta la 01:00.
 
 <table>
  <tbody>
@@ -136,7 +139,7 @@ En este ejemplo se muestra la partición de día que se logra en un casino donde
    <td>21 de octubre de 2017 - 22 de octubre de 2017 <br /> después de las 20:00 antes de las 22:00</td>
   </tr>
   <tr>
-   <td>Ofertas especialesCena</td>
+   <td>Cena especial</td>
    <td>Fin de semana</td>
    <td> </td>
    <td>21 de octubre de 2017 - 22 de octubre de 2017 <br /> después de las 22:00 antes de la 1:00</td>
@@ -146,14 +149,14 @@ En este ejemplo se muestra la partición de día que se logra en un casino donde
 
 #### Reproducir contenido para un mes o meses en particular {#playing-content-for-a-particular-month-months}
 
-En este ejemplo se muestra DayParting para una tienda que muestra su colección de verano de los meses de junio a agosto y de otoño de septiembre a finales de octubre.
+En este ejemplo se muestra DayParting para una tienda que muestra su colección de verano desde los meses de junio hasta agosto y la colección de otoño desde septiembre hasta finales de octubre.
 
-Aquí, creará partición de día según los meses para que el contenido del canal se reproduzca según los meses especificados del año.
+Aquí, creará partición de día según los meses, de modo que el contenido del canal se reproduzca según los meses especificados del año.
 
 | **Canal** | **Función** | **Prioridad** | **Programa** |
 |---|---|---|---|
-| SummerCollection | Verano |  | 1 de junio de 2017 - 31 de agosto de 2017 |
-| FallCollection | Otoño |  | 01 de septiembre de 2017 - 30 de octubre de 2017 |
+| Colección de verano | Verano |  | 1 de junio de 2017 - 31 de agosto de 2017 |
+| Colección de visitas en el orden previsto | Otoño |  | Del 1 de septiembre de 2017 al 30 de octubre de 2017 |
 
 >[!NOTE]
 >
@@ -161,11 +164,11 @@ Aquí, creará partición de día según los meses para que el contenido del can
 
 #### Reproducir contenido de canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
 
-Este ejemplo muestra la partición de día de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
+En este ejemplo se muestra DayParting para una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero, dado que el canal B tiene un conjunto de prioridad como 2, durante esa semana el canal B reproduce su contenido en lugar del canal A.
 
 | **Canal** | **Función** | **Prioridad** | **Programa** |
 |---|---|---|---|
-| A | Invierno | 1 | 01 de diciembre de 2017 - 31 de diciembre de 2017 |
+| A | Invierno | 1 | 1 de diciembre de 2017 - 31 de diciembre de 2017 |
 | B | Navidad | 2 | 24 de diciembre de 2017 - 31 de diciembre de 2017 |
 
 
@@ -173,7 +176,7 @@ Este ejemplo muestra la partición de día de una tienda que muestra su colecci�
 >
 > Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
->* [Gestión de periodicidad en recursos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
->* [Gestión de periodicidad para recursos en un Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+>* [Gestión de la periodicidad en Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Gestión de la periodicidad para los recursos de un canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 
