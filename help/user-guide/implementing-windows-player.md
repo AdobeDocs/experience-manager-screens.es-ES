@@ -1,8 +1,8 @@
 ---
 title: Implementación del Reproductor de Windows 10
 seo-title: Implementación del Reproductor de Windows 10
-description: Siga esta página para obtener más información sobre la configuración del reproductor de Windows 10 de AEM Screens.
-seo-description: Siga esta página para obtener más información sobre la configuración del reproductor de Windows 10 de AEM Screens.
+description: Siga esta página para obtener más información sobre la configuración del reproductor AEM Screens Windows 10.
+seo-description: Siga esta página para obtener más información sobre la configuración del reproductor AEM Screens Windows 10.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
+feature: Administración de Screens, Reproductor de Windows
+role: Administrador
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -21,13 +24,13 @@ ht-degree: 1%
 
 # Implementación del Reproductor de Windows 10 {#implementing-windows-player}
 
-En esta sección se describe la configuración del reproductor de Windows 10 de AEM Screens. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre qué configuración utilizar para el desarrollo y las pruebas.
+En esta sección se describe la configuración del reproductor AEM Screens Windows 10. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre qué configuración utilizar para el desarrollo y las pruebas.
 
 ## Instalación del Reproductor de Windows {#installing-windows-player}
 
-Para implementar Windows Player para AEM Screens, instale Windows Player para AEM Screens.
+Para implementar el Reproductor de Windows para AEM Screens, instale el Reproductor de Windows para AEM Screens.
 
-Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
+Visite la página [**AEM 6.5 Descargas del reproductor**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
@@ -35,17 +38,17 @@ Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.ma
 ### Configuración del entorno para AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Debe configurar un entorno para el reproductor Windows si utiliza el paquete de servicio de AEM Screens 6.5.5.
+>Debe configurar un entorno para el reproductor de Windows si utiliza AEM Screens 6.5.5 Service Pack.
 
 Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None** de la **Consola web de Adobe Experience Manager
-Configuración** en todas las instancias de AEM Author y Publish.
+Configuración** en todas AEM instancias de autor y publicación.
 
 Complete los siguientes pasos:
 
-1. Vaya a la **Consola web de Adobe Experience Manager
+1. Vaya a **Adobe Experience Manager Web Console
 Configuración** mediante `http://localhost:4502/system/console/configMgr`.
 
-1. Busque *Controlador de autenticación de tokens de Adobe Granite*.
+1. Busque *Controlador de autenticación de token de Granite de Adobe*.
 
 1. Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
@@ -54,12 +57,12 @@ Configuración** mediante `http://localhost:4502/system/console/configMgr`.
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método ad-hoc le permite instalar el último Reproductor de Windows (*.exe*). Visite la página [**Descargas del reproductor de AEM 6.5**](https://download.macromedia.com/screens/).
+El método ad-hoc le permite instalar el último Reproductor de Windows (*.exe*). Visite la página [**AEM 6.5 Descargas del reproductor**](https://download.macromedia.com/screens/).
 
 Una vez descargada la aplicación, siga los pasos del reproductor para completar la instalación ad hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuration** en el menú de acciones de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM a la que desea conectarse y haga clic en **Save**.
+1. Vaya a **Configuration** en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de AEM a la que desea conectarse y haga clic en **Save**.
 1. Vaya al enlace **Device** **Registration** del menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
 
 >[!NOTE]
