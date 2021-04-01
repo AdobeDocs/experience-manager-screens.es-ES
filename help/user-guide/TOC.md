@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Ayuda de Adobe Experience Manager Screens
@@ -7,7 +7,7 @@ breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
+source-git-commit: a231de201a67a585907687cfd3ed10395a640096
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 20%
