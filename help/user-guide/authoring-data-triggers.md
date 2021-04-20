@@ -2,9 +2,9 @@
 title: Creación con Déclencheur de datos
 seo-title: Creación con Déclencheur de datos
 description: Siga esta página para aprender a crear con déclencheur de datos.
-feature: Creación en Screens
-role: Administrador, Desarrollador
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

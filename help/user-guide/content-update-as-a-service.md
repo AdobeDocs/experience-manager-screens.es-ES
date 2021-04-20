@@ -5,9 +5,9 @@ description: Siga esta página para obtener más información sobre la actualiza
 seo-description: Siga esta página para obtener más información sobre la actualización de contenido como servicio.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: Creación en Screens
-role: Administrador, Desarrollador
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

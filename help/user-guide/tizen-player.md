@@ -1,9 +1,9 @@
 ---
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
-feature: Administración de pantallas, reproductores
-role: Administrador
-level: Intermedio
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

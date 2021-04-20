@@ -3,9 +3,9 @@ title: Uso de la sincronización de comandos
 seo-title: Uso de la sincronización de comandos
 description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
-feature: Creación en Screens
-role: Administrador, Desarrollador
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

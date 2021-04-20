@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión para Feature Pack 202008
 description: '"Siga esta página para obtener información sobre el Feature Pack 202008 de AEM Screens publicado el 3 de septiembre de 2020".'
-feature: Paquete de funciones
-role: Desarrollador
-level: Intermedio
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

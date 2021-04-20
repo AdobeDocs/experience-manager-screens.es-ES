@@ -3,9 +3,9 @@ title: Notas de la versión del Feature Pack 202004
 seo-title: Notas de la versión del Feature Pack 202004
 description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
 seo-description: Siga esta página para obtener información sobre el paquete de funciones 2004 de AEM Screens publicado el 20 de abril de 2020.
-feature: Paquete de funciones
-role: Desarrollador
-level: Intermedio
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

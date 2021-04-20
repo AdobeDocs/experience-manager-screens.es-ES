@@ -5,9 +5,9 @@ description: Siga esta página para obtener respuestas a las preguntas más frec
 seo-description: Siga esta página para obtener respuestas a las preguntas más frecuentes relacionadas con un proyecto de AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Señalización digital, contenido
-role: Desarrollador
-level: Intermedio
+feature: Digital Signage, Content
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

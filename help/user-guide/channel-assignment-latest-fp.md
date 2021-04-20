@@ -2,9 +2,9 @@
 title: 'Asignación de canales: última versión de FP'
 seo-title: 'Asignación de canales: última versión de FP'
 description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
-feature: Creación en Screens, asignación de canales
-role: Administrador, Desarrollador
-level: Intermedio
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

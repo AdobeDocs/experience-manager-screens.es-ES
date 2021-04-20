@@ -4,9 +4,9 @@ seo-title: Creación de plantillas personalizadas en diseños de varias zonas
 description: Siga esta página para obtener más información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 seo-description: Siga esta página para obtener más información sobre la creación de plantillas personalizadas en diseños de varias zonas.
 contentOwner: Jyotika Syal
-feature: Desarrollo de pantallas
-role: Desarrollador
-level: Intermedio
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
