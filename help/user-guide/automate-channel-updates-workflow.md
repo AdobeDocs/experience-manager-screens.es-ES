@@ -9,18 +9,17 @@ topic-tags: developing
 feature: Desarrollo de pantallas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
 # Utilizar el flujo de trabajo para automatizar las actualizaciones de recursos para un canal de AEM Screens {#automate-channel-updates-workflow}
 
-Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos de forma dinámica a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una marca de agua dinámica y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
+Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos de forma dinámica a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una superposición de texto dinámico (proceso de marca de agua) y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
 
 ## Requisitos previos {#prerequisites}
 
