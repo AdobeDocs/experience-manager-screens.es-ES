@@ -4,13 +4,12 @@ seo-title: Canal TakeOver de un solo uso
 description: Siga este caso de uso para crear un canal TakeOver de un solo uso.
 seo-description: Siga este caso de uso para crear un canal TakeOver de un solo uso.
 contentOwner: jsyal
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 2%
 
 ---
@@ -26,7 +25,7 @@ En la página siguiente se muestra un caso de uso que hace hincapié en la confi
 Este caso de uso explica cómo crear un canal que *se haga cargo* del canal que se está reproduciendo normalmente para una visualización o un grupo de pantallas. La adquisición solo se producirá una vez y durante un tiempo específico.
 Por ejemplo, hay un canal Single TakeOver que se reproduce el viernes de 9:00 a 10:00. Durante este tiempo, no se debe reproducir ningún otro canal. Antes y después de este tiempo, no se reproducirá el canal de adquisición de un solo uso. El siguiente ejemplo muestra la creación de un único canal de adquisición que se reproduce y permite que el contenido se reproduzca durante 2 minutos antes de las 12:00 am del 31 de diciembre hasta las 12:01 am.
 
-### Precondiciones {#preconditions}
+### Condiciones previas {#preconditions}
 
 Antes de comenzar este caso de uso, asegúrese de comprender cómo:
 
