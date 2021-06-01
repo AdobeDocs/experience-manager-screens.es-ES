@@ -9,14 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 81%
+source-wordcount: '724'
+ht-degree: 82%
 
 ---
 
@@ -129,7 +128,7 @@ Siga los pasos que se describen a continuación para asegurarse de que los cambi
 
 1. Seleccione la pestaña **Copia activa** y haga clic en **Sincronizar** en la barra de acciones.
 
-   ![imagen_1-21](assets/chlimage_1-29.png)
+   ![chlimage_1-29](assets/chlimage_1-29.png)
 
 1. Haga clic en **Sincronizar** para confirmar los cambios. Haga clic en **Guardar y cerrar** para volver al tablero de AEM.
 
