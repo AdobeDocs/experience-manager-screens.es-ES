@@ -5,13 +5,12 @@ description: Siga esta página para obtener respuestas a las preguntas más frec
 seo-description: Siga esta página para obtener respuestas a las preguntas más frecuentes relacionadas con un proyecto de AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: Señalización digital, contenido
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -115,7 +114,7 @@ Un control de Android multiplataforma que utiliza API de Android puras ya forma 
 
 Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación del Reproductor de Android**](implementing-android-player.md).
 
-### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para monitorizar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para supervisar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Dependiendo de lo que desee de la supervisión y las alertas, una nueva función que el servicio de notificaciones de AEM Screens le notifica si un dispositivo no ha pasado un rato por el ping. Las herramientas de terceros dependerán del sistema operativo (OS), de sus capacidades y de las necesidades específicas del cliente.
 
