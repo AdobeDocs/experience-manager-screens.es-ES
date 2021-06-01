@@ -10,13 +10,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1466'
 ht-degree: 60%
 
 ---
@@ -71,7 +70,7 @@ En la siguiente sección se explican los componentes de AEM Screens que puede ut
 >
 >Para ver las propiedades de los componentes, seleccione un componente y haga clic en el icono con forma de martillo para abrir o ver las propiedades.
 
-### Aplicación  {#application}
+### Aplicación {#application}
 
 El componente **Aplicación** le permite añadir una aplicación al canal.
 
@@ -90,7 +89,7 @@ El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto 
 >
 >Consulte el ejemplo anterior para ver las propiedades de cada uno de los componentes que se describen a continuación.
 
-### Canal  {#channel}
+### Canal {#channel}
 
 El componente **Canal** le permite añadir todo un canal al proyecto.
 
