@@ -1,13 +1,12 @@
 ---
 title: Informe de asignación de contenido
 description: En esta página se describe la descarga y el uso del informe de asignación de contenido.
-feature: Authoring Screens
+feature: Creación en Screens
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 7%
 
 ---
@@ -34,7 +33,7 @@ Consulte los siguientes recursos para obtener más información:
 1. [Crear y administrar ubicaciones](/help/user-guide/managing-locations.md)
 1. [Crear y administrar visualizaciones](/help/user-guide/managing-displays.md)
 1. [Creación de dispositivos](/help/user-guide/managing-devices.md)
-1. [Asignar canales](/help/user-guide/channel-assignment-latest-fp.md) 
+1. [Asignar canales ](/help/user-guide/channel-assignment-latest-fp.md)
 
 
 ## Descarga del informe de asignación de contenido {#downloading-content-assignment-report-fp}
