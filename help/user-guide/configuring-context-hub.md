@@ -10,13 +10,12 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-feature: Developing Screens
+feature: Desarrollo de pantallas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 1%
 
 ---
@@ -44,7 +43,7 @@ El diagrama siguiente proporciona una representación visual de cómo coinciden 
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
-## Precondiciones {#preconditions}
+## Condiciones previas {#preconditions}
 
 Antes de empezar a configurar las configuraciones de ContextHub para un proyecto de AEM Screens, debe configurar Google Sheets (con fines de demostración).
 
