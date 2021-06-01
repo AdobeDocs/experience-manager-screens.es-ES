@@ -1,13 +1,12 @@
 ---
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -153,8 +152,8 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
    |---|---|---|
    | Principal | 2 | Carga inicial, Pantalla inactiva, Temporizador |
    | HotDrinks | 1 | Interacción del usuario |
-   | ColdDrinks | 3 | Interacción del usuario |
-   | SplitScreen | 3 | Interacción del usuario |
+   | ColdDrinks | 1 | Interacción del usuario |
+   | SplitScreen | 1 | Interacción del usuario |
 
    >[!NOTE]
    >
