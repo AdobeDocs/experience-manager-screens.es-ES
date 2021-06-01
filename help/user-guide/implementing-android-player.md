@@ -10,14 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administering Screens, Android Player
+feature: Administración de Screens, Reproductor de Android
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 1%
+source-wordcount: '1439'
+ht-degree: 0%
 
 ---
 
@@ -179,7 +178,7 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 
 Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
-### Implementación del aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#implementation}
+### Implementación del aprovisionamiento masivo de Reproductor de Android mediante la administración de movilidad empresarial {#implementation}
 
 Siga los pasos a continuación para permitir el aprovisionamiento masivo en Android Player:
 
