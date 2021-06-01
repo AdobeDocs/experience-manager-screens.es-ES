@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring Screens, Channel Level Activation
+feature: Creación en Screens, activación a nivel de canal
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -73,11 +72,8 @@ La imagen siguiente muestra el proyecto **Channel Level Activation** con los can
 >Para obtener información adicional sobre cómo crear un proyecto y cómo crear un canal de secuencia, consulte los recursos a continuación:
 >
 >* [Creación y administración de proyectos](creating-a-screens-project.md)
-   >
-   >
-* [Administración de un canal](managing-channels.md)
 
->
+* [Administración de un canal](managing-channels.md)
 
 
 
@@ -98,8 +94,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Para aprender a crear una ubicación, consulte **[Creación y administración de ubicaciones](managing-locations.md)**.
+   Para aprender a crear una ubicación, consulte **[Creación y administración de ubicaciones](managing-locations.md)**.
 
 1. **Crear visualización en Ubicación**
 
@@ -125,8 +120,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >También puede asignar canales desde el panel de visualización navegando a **Activación de nivel de canal** —> **Ubicaciones** —> **Región** —> **Visualización de región** y haciendo clic en **Panel** en la barra de acciones. Haga clic en **+ Asignar canal** en el panel **CANALES Y PROGRAMAS ASIGNADOS**.
+   También puede asignar canales desde el panel de visualización navegando a **Activación de nivel de canal** —> **Ubicaciones** —> **Región** —> **Visualización de región** y haciendo clic en **Panel** en la barra de acciones. Haga clic en **+ Asignar canal** en el panel **CANALES Y PROGRAMAS ASIGNADOS**.
 
    Del mismo modo, asigne el canal **TargetedSinglePlay** para la visualización**:
 
