@@ -1,13 +1,12 @@
 ---
 title: Notas de la versión del Feature Pack 202011
 description: '"Siga esta página para obtener información sobre el Feature Pack 202011 de AEM Screens, publicado el 30 de noviembre de 2020".'
-feature: Feature Pack
+feature: Paquete de funciones
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '283'
 ht-degree: 4%
 
 ---
