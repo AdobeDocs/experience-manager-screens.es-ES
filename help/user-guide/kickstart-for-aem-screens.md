@@ -2,14 +2,13 @@
 title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital que comience desde la instalación y a configurar un nuevo proyecto para ver el contenido en el reproductor AEM Screens.
-feature: Overview, Digital Signage
+feature: Información general, señalización digital
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 6%
+source-wordcount: '1320'
+ht-degree: 5%
 
 ---
 
