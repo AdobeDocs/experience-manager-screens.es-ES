@@ -3,13 +3,12 @@ title: Caso de uso de transiciones de varias zonas a una sola zona
 description: Siga esta página para conocer el caso de uso de MultiZone to SingleZone Transitions .
 seo-description: Caso de uso de MultiZone a SingleZone Transitions .
 contentOwner: Jyotika Syal
-feature: Authoring Screens
+feature: Creación en Screens
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 3%
 
 En esta sección se describe un ejemplo de uso que hace hincapié en cómo configurar un canal de diseño de varias zonas que alterne con un canal de diseño de una sola zona. El canal de varias zonas tiene una secuenciación de recursos de imagen/vídeo y muestra cómo se puede configurar un proyecto que alterne de varias zonas a una sola zona y viceversa.
 
-### Precondiciones {#preconditions}
+### Condiciones previas {#preconditions}
 
 Antes de comenzar este caso de uso, asegúrese de comprender cómo:
 
