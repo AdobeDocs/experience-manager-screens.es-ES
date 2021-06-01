@@ -1,10 +1,9 @@
 ---
-title: Conceptos básicos de la señalización digital para [!UICONTROL AEM Screens]
-seo-title: Conceptos básicos de la señalización digital para [!UICONTROL AEM Screens]
-description: La guía describe los conceptos básicos de un proyecto de publicidad dinámica
-seo-description: La guía describe los conceptos básicos de un proyecto de publicidad dinámica
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+title: Aspectos básicos de la señalización digital para [!UICONTROL AEM Screens]
+seo-title: Aspectos básicos de la señalización digital para [!UICONTROL AEM Screens]
+description: La guía describe los conceptos básicos de un proyecto de señalización digital
+seo-description: La guía describe los conceptos básicos de un proyecto de señalización digital
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 2%
@@ -12,25 +11,25 @@ ht-degree: 2%
 ---
 
 
-# Conceptos básicos de un proyecto de comunicación digital {#basics-digital-signage}
+# Aspectos básicos de un proyecto de señalización digital {#basics-digital-signage}
 
-Antes de sumergirse en las optimizaciones de implementación de AEM Screens, es importante considerar el proyecto como un proyecto de publicidad dinámica, en lugar de un desarrollo de software tradicional.
+Antes de sumergirse en las prácticas recomendadas de implementación de AEM Screens, es importante considerar el proyecto como un proyecto de señalización digital, en lugar de como un desarrollo de software tradicional.
 
-Esta sección proporciona recomendaciones sobre los principales elementos clave que son críticos antes de la implementación de un proyecto de AEM Screens.
+En esta sección se ofrecen recomendaciones sobre los principales elementos clave que son esenciales antes de la implementación de un proyecto de AEM Screens.
 
-## Elementos clave en la publicidad dinámica {#key-elements}
+## Elementos clave en la señalización digital {#key-elements}
 
-Los *elementos clave* de un proyecto de publicidad dinámica son:
+Los *elementos clave* de un proyecto de señalización digital son:
 
 ![](/help/assets/Elements-Revised.png)
 
-La definición de los elementos clave es esencial antes de implementar un proyecto de publicidad dinámica:
+La definición de los elementos clave es esencial antes de implementar un proyecto de señalización digital:
 
 1. **Hardware**
 
-   El hardware define qué componentes de hardware son ideales para la implementación de proyectos de publicidad dinámica:
-   * ¿Dispone el dispositivo de suficiente espacio en almacenamiento para ejecutar todas las variaciones de las experiencias sin conexión?
-   * ¿Hemos permitido el tipo y la longitud del cable de vídeo? ¿Admite el dispositivo las dos resoluciones deseadas (HD, FullHD, 4K, etc.)? y los códecs de vídeo que planeo implementar (h.264, h.265, etc.)
+   El hardware define qué componentes de hardware son ideales para la implementación de su proyecto de señalización digital:
+   * ¿Tiene el dispositivo suficiente espacio de almacenamiento para ejecutar todas las variaciones de las experiencias sin conexión?
+   * ¿Hemos permitido el tipo y longitud del cable de vídeo? ¿Admite el dispositivo las dos resoluciones deseadas (HD, FullHD, 4K, etc.) y códecs de vídeo que planeo implementar (h.264, h.265, etc.)
    * Uso del alambre físico de cobre
    * Tamaño de las pantallas
    * Número de pantallas
@@ -41,61 +40,61 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 1. **Conectividad**
 
    La conectividad hace hincapié en las siguientes preguntas:
-   * ¿Conectado en red (móvil o wi-fi) o independiente?
-      * ¿Necesitamos permitir actualizaciones de contenido USB?
-      * ¿Necesitamos permitir la recopilación de datos de uso?
+   * ¿Conectado en red (celda o wi-fi) o independiente?
+      * ¿necesitamos permitir actualizaciones de contenido USB?
+      * ¿necesitamos permitir la recopilación de datos de uso?
 
 1. **Instalación**
 
    La instalación incluye:
    * Muestra: horizontal o vertical
    * ¿Cómo se montará la pantalla?
-      * Vertical vs. horizontal
+      * Vertical frente a horizontal
       * Vivienda completa
-      * Tapa de la tapa
+      * Tapa
    * Compatibilidad con correcciones
-   * Personal: encargado de instalar el equipo y conectarlo a la red
-   * ¿A qué distancia se encuentra la fuente de alimentación de la instalación?
+   * Personal: responsable de instalar el equipo y conectarlo a la red
+   * ¿A qué distancia está la fuente de alimentación de la instalación?
    * ¿A qué distancia está el panel físico del dispositivo real?
 
 1. **Contenido**
 
    El contenido incluye:
    * ¿Zona única o Zona múltiple?
-      * ¿Cuántos recursos de medios están en pantalla al mismo tiempo?
+      * ¿Cuántos recursos de medios hay en la pantalla al mismo tiempo?
       * ¿Cuántas páginas para aplicaciones interactivas?
       * Definición del bucle de interfaz de usuario
-      * ¿Contenido gobernado por datos?
+      * ¿Contenido impulsado por datos?
    * Control de versión
 
 1. **Interactivo**
 
    Interactivo incluye:
-   * ¿Tipo de pantalla táctil preferido?(resistible, capacitivo, multitáctil)?
+   * ¿Tipo de pantalla táctil preferido? (resistivo, capacitivo, multitáctil)?
       * Pulsación de botón
       * Gesto
    * ¿Activación de datos (E/S)?
-      * Envío/recepción de comandos de serie (cierre de contacto, PLC, etc.)
-      * Los datos entrantes se muestran en la pantalla (RSS) o en el contenido del déclencheur
+      * Envío/recepción de comandos seriales (cierre de contacto, PLC, etc.)
+      * Los datos entrantes se muestran en la pantalla (RSS) o en el contenido de déclencheur
       * RFID/NFC/Bluetooth/iBeacon
-      * Servicios externos (tiempo, tráfico)
+      * Servicios externos (clima, tráfico)
 
 1. **creación**
 
-   Entorno enfatiza en:
+   El entorno enfatiza en:
    * Ubicación de visualización?
-      * Interior vs. Exterior
+      * Dentro vs. Fuera
       * Fuera de alcance o directamente expuesto
-   * Requisito de tiempo especial?
-   * ¿prueba Vandal?
-   * ¿Luz ambiental alta? ¿Fuertes contrastes?
+   * Requisito temporal especial?
+   * ¿Prueba de vandal?
+   * ¿Alta luz ambiental? ¿Fuertes contrastes?
 
 1. **Mantenimiento**
 
    El mantenimiento enfatiza en:
 
-   * ¿Se requieren guías de instalación o guías de usuario detalladas?
-   * ¿Estamos configurando (programando) el dispositivo antes del envío?
+   * ¿Se requieren guías detalladas de instalación o guías del usuario?
+   * ¿Configuramos (programamos) el dispositivo antes del envío?
    * ¿Es necesario capturar cada número de serie con fines de seguimiento?
    * ¿Existen requisitos de alimentación de reserva (fuente de alimentación ininterrumpida)?
-   * ¿Cómo se implementan las actualizaciones del sistema? ¿Y cómo se monitorean los dispositivos de forma remota? ¿Se requiere una solución MDM?
+   * ¿Cómo se implementan las actualizaciones del sistema? ¿Y cómo se supervisan los dispositivos de forma remota? ¿Se requiere una solución MDM?
