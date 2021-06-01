@@ -3,13 +3,12 @@ title: Replicar déclencheur de datos en servidores de publicación
 seo-title: Replicar déclencheur de datos en el servidor de publicación
 description: Siga esta página para aprender a duplicar déclencheur de datos en el servidor de publicación.
 seo-description: Replicar déclencheur de datos en el servidor de publicación.
-feature: Administering Screens, Data Trigger
+feature: Administración de Screens, Déclencheur de datos
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
