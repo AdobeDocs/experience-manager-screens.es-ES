@@ -3,8 +3,7 @@ title: Introducción a [!UICONTROL AEM Screens]
 seo-title: Guía de prácticas recomendadas para proyectos de [!UICONTROL AEM Screens]
 description: Esta página es una sección introductoria de AEM Screens
 seo-description: Esta página ofrece una introducción a AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 83%
@@ -14,7 +13,7 @@ ht-degree: 83%
 
 # Introducción a AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager)** Screensis a Digital Signage Solution le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas que incluyen distintos tipos de pantallas de visualización dentro del recinto, de manera concertada con una estrategia de marketing digital integral de canal.
+**AEM (Adobe Experience Manager)** Screensis es una solución de señalización digital que le permite crear, publicar y reproducir experiencias digitales dinámicas e interactivas que impliquen distintos tipos de pantallas de visualización in situ de forma conjunta con una estrategia de marketing digital omnicanal integral.
 
 AEM Screens le permite crear:
 
@@ -53,11 +52,11 @@ AEM Screens proporciona una plataforma unificada de creación y reproducción pa
 
 * **Segmentación de bucles de medios**: configurar cada dispositivo de reproducción para que tenga su propio segmento de bucle garantiza que el contenido localizado se pueda crear, publicar y reproducir fácilmente dentro de la experiencia digital global. Los activos de medios incluidos en los canales de secuencias incrustadas se agregan al segmento de bucle anterior y ofrecen la oportunidad de segmentar un segmento de bucle de medios para cada grupo de ubicaciones.
 
-* **Experiencias interactivas**: se puede crear y publicar una aplicación táctil y de quiosco en un canal de Screens con AEM y el editor de SPA. Se recomienda aplicar propiedades de diseño de omni-canal coherentes, un temporizador de inactividad para restablecer la experiencia y una clara llamada a acción para las tareas que la aplicación puede ejecutar. La página de destino debe constar de elementos digitales clave diseñados para transmitir valor, atraer al usuario a la pantalla y pedirle que interactúe con esta.
+* **Experiencias interactivas**: se puede crear y publicar una aplicación táctil y de quiosco en un canal de Screens con AEM y el editor de SPA. Se recomienda aplicar propiedades de diseño omnicanal coherentes, un temporizador de inactividad para restablecer la experiencia y una llamada a la acción clara para las tareas que la aplicación puede ejecutar. La página de destino debe constar de elementos digitales clave diseñados para transmitir valor, atraer al usuario a la pantalla y pedirle que interactúe con esta.
 
-AEM Screens proporciona un marco para implementar contenido en dispositivos físicos. El contenido se asigna a los canales en Screens, que pueden contener contenido multimedia o aplicaciones de pantalla táctil. Dentro de este marco, una aplicación de AEM Sites podría entregarse como contenido a través de un Canal.
+AEM Screens proporciona un marco para implementar contenido en dispositivos físicos. El contenido se asigna a los canales en Screens, que pueden contener contenido multimedia o aplicaciones de pantalla táctil. Dentro de este marco, una aplicación de AEM Sites podría entregarse como contenido a través de un canal.
 
-Antes de colocarse en un Canal en Pantallas, se debe dar formato a un AEM Sites para que se pueda utilizar en las dimensiones del dispositivo de visualización para el que está destinado.
+Antes de colocarse en un canal en Screens, se debe dar formato a una AEM Sites para que se utilice en las dimensiones del dispositivo de visualización para el que está diseñada.
 
 >[!NOTE]
 >Muchos componentes de AEM Sites no son compatibles con AEM Screens. AEM Screens incluye muchos de sus propios componentes de forma predeterminada, lo que le permite crear experiencias digitales sin necesidad de recurrir a la personalización. Si los requisitos del proyecto lo permiten, utilice la funcionalidad integrada de AEM Screens siempre que sea posible.
