@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Desarrollo de pantallas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
@@ -49,7 +48,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
 1. Descargue e instale los siguientes paquetes utilizando [CRX package manager](http://localhost:4502/crx/packmgr/index.jsp):
 
-   [Obtener archivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[Obtener archivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtener archivo](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **** Opcionalmente, si trabaja con Eclipse u otro IDE, descargue el siguiente paquete de origen. Implemente el proyecto en una instancia de AEM local mediante el comando Maven:
@@ -58,7 +57,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
    Inicio de HelloWorld SRC Screens de We.Retail Run Project
 
-   [Obtener archivo](assets/src-screens-weretail-run.zip)
+[Obtener archivo](assets/src-screens-weretail-run.zip)
 
 1. En [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) verifique que estén instalados los dos paquetes siguientes:
 
@@ -273,7 +272,7 @@ AEM Screens tiene algunas restricciones interesantes que no son necesariamente c
 
    Hello World: cuadro de diálogo completado
 
-## Crear bibliotecas del lado del cliente {#clientlibs}
+## Creación de bibliotecas del lado del cliente {#clientlibs}
 
 Las bibliotecas del lado del cliente proporcionan un mecanismo para organizar y administrar los archivos CSS y JavaScript necesarios para una implementación de AEM.
 
