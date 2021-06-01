@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Desarrollo de pantallas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 2%
+source-wordcount: '1854'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +52,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
 1. Descargue e instale los siguientes paquetes utilizando **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Obtener archivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Obtener archivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtener archivo](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Opcionalmente,** si trabaja con Eclipse u otro IDE, descargue el siguiente paquete de origen. Implemente el proyecto en una instancia de AEM local mediante el comando Maven:
@@ -62,7 +61,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
    Proyecto de ejecución de We.Retail en Screens de inicio de SRC
 
-   [Obtener archivo](assets/start-poster-screens-weretail-run.zip)
+[Obtener archivo](assets/start-poster-screens-weretail-run.zip)
 
 1. En **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` se instalan los dos paquetes siguientes:
 
@@ -317,7 +316,7 @@ El componente Póster se representa en pantalla completa en modo de vista previa
 
    Se añade `aem-Screens-editWrapper`para que el componente no se muestre en pantalla completa en el editor. El atributo `data-emptytext` garantiza que se muestre un marcador de posición cuando no se haya rellenado ninguna imagen o contenido.
 
-## Crear bibliotecas del lado del cliente {#clientlibs}
+## Creación de bibliotecas del lado del cliente {#clientlibs}
 
 Las bibliotecas del lado del cliente proporcionan un mecanismo para organizar y administrar los archivos CSS y JavaScript necesarios para una implementación de AEM. Puede encontrar más información sobre el uso de [bibliotecas del lado del cliente aquí.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
