@@ -9,13 +9,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: '2537'
 ht-degree: 3%
 
 ---
@@ -309,8 +308,7 @@ Los privilegios se asignan a cada grupo de la siguiente manera:
 #### Pasos para crear grupos de usuarios, usuarios y configurar ACL {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Para aprender en detalle cómo segregar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto, consulte **Configuración de ACL**.
+Para aprender en detalle cómo segregar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto, consulte **Configuración de ACL**.
 
 Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL según los permisos:
 
@@ -337,7 +335,7 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
    Del mismo modo, cree otros dos usuarios, como **Region-User** y **Store-User**, y agréguelos a **Region-Author** y **Store-Author** respectivamente.
 
    >[!NOTE]
-   >Se recomienda agregar usuarios a un grupo y luego asignar permisos a cada grupo de usuarios en particular.
+Se recomienda agregar usuarios a un grupo y luego asignar permisos a cada grupo de usuarios en particular.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -407,6 +405,5 @@ Siga los pasos a continuación para crear grupos, usuarios y modificar las ACL s
    ![almacenar](assets/store.gif)
 
 >[!NOTE]
->
->Para obtener más información sobre la configuración de permisos, consulte [Configuración de ACL](setting-up-acls.md).
+Para obtener más información sobre la configuración de permisos, consulte [Configuración de ACL](setting-up-acls.md).
 
