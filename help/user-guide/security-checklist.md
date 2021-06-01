@@ -3,13 +3,12 @@ title: Lista de comprobación de seguridad
 seo-title: Lista de comprobación de seguridad
 description: La página describe las áreas de seguridad clave con una lista de comprobación de preguntas y consideraciones.
 seo-description: La página describe la lista de comprobación de seguridad
-feature: Administering Screens
+feature: Administración de Screens
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
