@@ -2,13 +2,12 @@
 title: 'Asignación de canales: última versión de FP'
 seo-title: 'Asignación de canales: última versión de FP'
 description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
-feature: Authoring Screens, Channel Assignment
+feature: Creación en Screens, asignación de canales
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1475'
 ht-degree: 23%
 
 ---
@@ -199,7 +198,7 @@ Puede establecer las siguientes opciones:
    * **Tiempo**: La programación finalizará a una hora especificada.
    * **Duración**: La programación se ejecuta durante un tiempo determinado en horas o minutos.
 
-### DayParting {#dayparting}
+### Partición de día {#dayparting}
 
 DayParting hace referencia a dividir un día en franjas horarias y a especificar qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de partición de día dentro de un día, una semana o un mes según sea necesario.
 
