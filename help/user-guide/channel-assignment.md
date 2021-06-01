@@ -2,13 +2,12 @@
 title: Asignación de canales
 seo-title: Asignación de canales
 description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
-feature: Authoring Screens, Channel Assignment
+feature: Creación en Screens, asignación de canales
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1219'
 ht-degree: 42%
 
 ---
@@ -100,7 +99,7 @@ La programación le permite proporcionar una descripción de texto que indique c
 
 La opción de mostrar la información sobre herramientas de atracción define si esta opción (&quot;*Pulse donde quiera para comenzar*&quot;) debe mostrarse (o no) no mientras el canal se está ejecutando.
 
-### DayParting {#dayparting}
+### Partición de día {#dayparting}
 
 Cuando los programas se combinan con **DayParting**, le permite establecer una programación global con varios canales que se ejecutan en momentos específicos del día y reutilizar esa configuración para todas las pantallas a la vez.
 
