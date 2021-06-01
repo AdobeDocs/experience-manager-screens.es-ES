@@ -1,10 +1,9 @@
 ---
-title: Participación de proveedores
-seo-title: Participación de proveedores para AEM Screens
-description: La página describe la Guía de prácticas recomendadas de participación de proveedores para AEM Screens
-seo-description: La página describe la Guía de prácticas recomendadas de participación de proveedores para AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+title: Participación del proveedor
+seo-title: Participación del proveedor para AEM Screens
+description: En la página se describe la Guía de prácticas recomendadas de participación del proveedor para AEM Screens
+seo-description: En la página se describe la Guía de prácticas recomendadas de participación del proveedor para AEM Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -17,12 +16,12 @@ ht-degree: 0%
 >[!NOTE]
 >El accionista típico de esta actividad es un integrador A/V.
 
-En esta actividad, es importante identificar todos los proveedores clave necesarios para montar y suministrar la red, así como las dependencias de los socios:
+En esta actividad, es importante identificar todos los proveedores clave necesarios para ensamblar y entregar la red, así como las dependencias de los socios:
 
-* Identifique a los proveedores de todo el hardware, incluyendo pantallas, PC del reproductor, montajes y periféricos relacionados.
+* Identifique proveedores para todo el hardware, incluidas pantallas, PC del reproductor, montículos y periféricos relacionados.
 
-* Defina las capacidades y tareas de cada proveedor en relación con la categoría del producto que admite.
+* Defina capacidades y tareas para cada proveedor en relación con la categoría de producto que admiten.
 
-* Confirme el envío *tiempos de entrega* para todos los productos y cree un plan de implementación que se adapte a todos los tiempos de trabajo anteriores desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
+* Confirme el envío *posibles clientes* para todos los envíos y cree un plan de implementación que se adapte a todas las oportunidades de trabajo anteriores desde las fechas de instalación deseadas de las primeras instalaciones requeridas.
 
-Al completar todos los pasos anteriores, ahora deberíamos tener un plan de implementación integral *Día 1* listo para ejecutarse.
+Al completar todos los pasos anteriores, ahora deberíamos tener un plan de implementación *Día 1* completo listo para ejecutarse.
