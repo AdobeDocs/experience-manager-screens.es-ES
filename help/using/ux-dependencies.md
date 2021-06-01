@@ -1,10 +1,9 @@
 ---
-title: Dependencias UX para [!UICONTROL AEM Screens]
-seo-title: Dependencias UX para [!UICONTROL AEM Screens]
-description: La guía describe las dependencias UX para [!UICONTROL AEM Screens]
-seo-description: La guía describe las dependencias UX para [!UICONTROL AEM Screens]
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+title: Dependencias de experiencia de usuario para [!UICONTROL AEM Screens]
+seo-title: Dependencias de experiencia de usuario para [!UICONTROL AEM Screens]
+description: La guía describe dependencias de experiencia de usuario para [!UICONTROL AEM Screens]
+seo-description: La guía describe dependencias de experiencia de usuario para [!UICONTROL AEM Screens]
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -16,29 +15,29 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Los interesados habituales en esta actividad son los especialistas en marketing y estrategias empresariales.
+>El accionista típico de esta actividad es un estratega de marketing/negocios.
 
-Las dependencias UX definen dónde y cómo se establece una estrategia del contenido para que tenga el mayor impacto.
+Dependencias de experiencia de usuario define dónde y cómo se diseña el contenido para que sea más impactante.
 
-Al definir la estrategia de contenido de hardware se deben tener en cuenta las siguientes preguntas:
+Las siguientes preguntas deben tenerse en cuenta al definir la estrategia de contenido de hardware:
 
 1. ¿Cómo se debe alinear el diseño comercial con la estrategia de contenido?
 
-1. ¿Se requieren interacciones (es decir, pantalla táctil, detección de movimiento)?
+1. ¿Serán necesarias las interacciones (es decir, la pantalla táctil, la detección de movimiento)?
 
 1. ¿Cuál es el propósito de la publicidad dinámica?
 
    * ¿Es para la configuración del producto?
    * ¿Es para encontrar el camino?
-   * ¿Muestra publicidad?
+   * ¿Muestra anuncios?
 
 1. ¿Cómo se configuran las conexiones y el cableado de red?
 
-1. ¿Con qué frecuencia se encienden y apagan los equipos y la conexión?
+1. ¿Con qué frecuencia se activarán y apagarán los equipos y la conexión?
 
 1. ¿Admite el diseño de la estructura la accesibilidad?
 
-1. ¿Se necesitan varios dispositivos para una sola pantalla (como, por ejemplo, multizonas o tableros de gran tamaño)?
+1. ¿Se necesitan varios dispositivos para una pantalla (como, por ejemplo, multizonas o tableros de gran tamaño)?
 
 1. ¿Cuáles son las consideraciones ambientales como el brillo, la temperatura y la temporada?
 
