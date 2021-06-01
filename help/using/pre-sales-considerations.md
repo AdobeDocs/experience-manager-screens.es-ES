@@ -1,10 +1,9 @@
 ---
 title: Consideraciones a tener en cuenta a medida que se definen los proyectos
 seo-title: Consideraciones a tener en cuenta a medida que se definen los proyectos
-description: En la página se describen las consideraciones a medida que los proyectos están programados
-seo-description: En la página se describen las consideraciones a medida que los proyectos están programados
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: La página describe Consideraciones a medida que se definen los proyectos
+seo-description: La página describe Consideraciones a medida que se definen los proyectos
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 4%
@@ -15,23 +14,23 @@ ht-degree: 4%
 # Consideraciones a tener en cuenta a medida que se definen los proyectos {#pre-sales-considerations}
 
 >[!NOTE]
->Los interesados habituales en esta actividad son los especialistas en marketing y estrategias empresariales.
+>El accionista típico de esta actividad es un estratega de marketing/negocios.
 
-Esta etapa incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir completamente el alcance del proyecto. El trabajo realizado durante el Día cero establece el tono del resto del proyecto e influye en el éxito general de la aplicación que se está generando.
-En esta etapa se identifican y reúnen a los principales proveedores para ayudar a formular el plan del proyecto. Durante esta etapa, es importante que la participación en el programa también se establezca con los principales interesados en el proyecto dentro de la compañía del cliente, como los ejecutivos de ventas, los gerentes de marketing y los equipos de TI, ya que todos ellos tendrán un papel importante que desempeñar en el desarrollo de la aplicación y en su mantenimiento continuo.
+Esta etapa incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir completamente el alcance del proyecto. El trabajo realizado durante el Día cero establece el tono para el resto del proyecto e influye en el éxito general de la aplicación que se está creando.
+En esta etapa, se identifican los principales proveedores y se reúnen para ayudar a formular el plan del proyecto. Es importante que durante esta fase también se establezca la adquisición con las partes interesadas clave del proyecto dentro de la empresa cliente, como los ejecutivos de ventas, los administradores de marketing y los equipos de TI, ya que todos ellos tendrán un papel importante que desempeñar en el desarrollo de la aplicación y su mantenimiento continuo.
 
-## Entregables clave {#key-deliverables}
+## Resultados clave {#key-deliverables}
 
-Entre los productos principales que se pueden entregar en esta etapa se incluyen:
+Los resultados clave en esta fase incluyen:
 
 * Plan de proyecto aprobado (incluido el ámbito de trabajo, el calendario de proyectos y el presupuesto) con la participación de los principales interesados.
 * Equipos definidos con funciones y responsabilidades claras.
 * Estrategia de contenido definida con objetivos a corto y medio plazo y una visión a largo plazo.
-* Lista de las necesidades de sistema de informes e indicadores clave de rendimiento (KPI).
-* Planee y programe la implementación.
+* Lista de necesidades de informes e indicadores clave de rendimiento (KPI).
+* Planificar y programar la implementación.
 
 >[!NOTE]
 >
->Identifique lo antes posible los datos que serán necesarios para la aplicación y de dónde provienen. Aunque se realizará una exploración más profunda durante la implementación, dedique tiempo durante *Día cero* para averiguar qué datos se propone utilizar el cliente, dónde se almacenan actualmente esos datos y cómo se puede acceder a ellos mediante la aplicación que se está creando. Notificar al equipo de desarrollo con antelación los desafíos que puedan surgir ayudará a que la implementación se lleve a cabo con mayor fluidez.
+>Identifique los datos que se necesitarán para la aplicación y de dónde provienen tan pronto como sea posible. Aunque se realizará una exploración más profunda durante la implementación, dedique un tiempo durante el *Día cero* para averiguar qué datos pretende utilizar el cliente, dónde se almacenan actualmente esos datos y cómo se puede acceder a ellos mediante la aplicación que se está creando. Notificar al equipo de desarrollo de antemano los desafíos que pueden tener por delante ayudará a que la implementación avance con mayor fluidez.
 
-Consulte el tutorial de vídeo sobre [Consideraciones mientras los proyectos están programados](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obtener más información.
+Consulte el tutorial de vídeo sobre [Consideraciones a medida que se definen los proyectos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obtener más información.
