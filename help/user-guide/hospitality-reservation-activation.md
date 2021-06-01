@@ -10,13 +10,12 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Para este caso de uso, la hoja de Google se rellena con un porcentaje de reserva
 
 Si el valor de **Restaurant1** > **Restaurant2**, se asigna **AdTarget** al valor **1** de lo contrario **AdTarget** se asigna al valor **2**. El valor 1 genera la opción *Steak food* y el valor 2 resulta en la visualización de la opción *Thai food* en la pantalla de visualización.
 
-## Precondiciones {#preconditions}
+## Condiciones previas {#preconditions}
 
 Antes de empezar a implementar la activación de reservas, debe aprender a configurar ***Data Store***, ***Segmentación de audiencias*** y ***Habilitar segmentación para canales*** en un proyecto de AEM Screens.
 
