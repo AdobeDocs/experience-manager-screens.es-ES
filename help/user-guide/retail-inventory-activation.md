@@ -1,7 +1,7 @@
 ---
 title: Activación de destino de inventario comercial
 seo-title: Activación de destino de inventario comercial
-description: Este caso de uso muestra el inventario de existencias para tres sudaderas de color diferentes. Dependiendo del número de suéters disponibles en existencias que se registren en Google Sheets, la imagen (camisa roja, verde o azul) con el número más alto se muestra en la pantalla.
+description: Este caso de uso muestra el inventario de existencias de venta para tres sudaderas de colores diferentes. Dependiendo del número de suéters disponibles en existencias que se registren en Google Sheets, la imagen (camisa roja, verde o azul) con el número más alto se muestra en la pantalla.
 seo-description: Este caso de uso muestra el inventario de existencias para tres sudaderas de color diferentes. Dependiendo del número de suéters disponibles en existencias que se registren en Google Sheets, la imagen (camisa roja, verde o azul) con el número más alto se muestra en la pantalla.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
@@ -10,13 +10,12 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Authoring Screens
+feature: Creación en Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Este caso de uso muestra el inventario de existencias para tres sudaderas de col
 
 Para este caso de uso, el suéter rojo, verde o azul se mostrará en la pantalla en función del valor más alto del número de suéters disponible.
 
-## Precondiciones {#preconditions}
+## Condiciones previas {#preconditions}
 
 Antes de empezar a implementar la activación de la segmentación de inventario minorista, debe aprender a configurar ***Data Store***, ***Segmentación de audiencia*** y ***Habilitar segmentación para canales*** en un proyecto de AEM Screens.
 
