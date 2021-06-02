@@ -4,10 +4,10 @@ description: '"Siga esta página para obtener información sobre el Feature Pack
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,13 @@ La fecha de versión del paquete de funciones 202105 de AEM Screens es el 1 de j
 
 ### Novedades {#what-is-new}
 
-* **Registro automático de reproductores de AEM Screens**
-
-   El reproductor se muestra como una pantalla negra al cambiar al canal contiene una secuencia integrada dinámica
+* Bloquear página
 
 ### Corrección de errores {#bug-fixes}
 
-* El reproductor se muestra como pantalla negra cuando se cambia a canal contiene secuencia integrada dinámica.
-
-
+* El reproductor mostraba una pantalla negra al cambiar al canal contenía una secuencia integrada dinámica.
+* Se han mejorado los resultados de generación de manifiestos de canal.
+* Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evite aún más el error 404 o una página con un mensaje de error.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
