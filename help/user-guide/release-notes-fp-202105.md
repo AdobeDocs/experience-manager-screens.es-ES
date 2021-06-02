@@ -4,9 +4,9 @@ description: '"Siga esta página para obtener información sobre el Feature Pack
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 13%
 
 ---
@@ -36,10 +36,8 @@ La fecha de versión del paquete de funciones 202105 de AEM Screens es el 3 de j
 
    Generación más rápida de manifiestos de canal con un rendimiento mejorado, como la asignación de menos recursos al servidor.
 
-
 ### Corrección de errores {#bug-fixes}
 
-* Se han mejorado los resultados de generación de manifiestos de canal.
 * El reproductor mostraba una pantalla negra al cambiar al canal contenía una secuencia integrada dinámica.
 * Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evite aún más el error 404 o una página con un mensaje de error.
 
