@@ -4,10 +4,10 @@ description: '"Siga esta página para obtener información sobre el Feature Pack
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Puede descargar el último paquete de funciones para la versión 6.5.8 de AEM Sc
 
 ## Fecha de la versión {#release-date}
 
-La fecha de versión del paquete de funciones 202105 de AEM Screens es el 1 de junio de 2021.
+La fecha de versión del paquete de funciones 202105 de AEM Screens es el 3 de junio de 2021.
 
 ### Novedades {#what-is-new}
 
@@ -32,8 +32,8 @@ La fecha de versión del paquete de funciones 202105 de AEM Screens es el 1 de j
 
 ### Corrección de errores {#bug-fixes}
 
-* El reproductor mostraba una pantalla negra al cambiar al canal contenía una secuencia integrada dinámica.
 * Se han mejorado los resultados de generación de manifiestos de canal.
+* El reproductor mostraba una pantalla negra al cambiar al canal contenía una secuencia integrada dinámica.
 * Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evite aún más el error 404 o una página con un mensaje de error.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
@@ -45,7 +45,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### Descargas del reproductor de AEM Screens {#aem-screens-player-downloads}
 
