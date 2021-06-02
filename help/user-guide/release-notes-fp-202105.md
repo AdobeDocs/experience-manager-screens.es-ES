@@ -4,10 +4,10 @@ description: '"Siga esta página para obtener información sobre el Feature Pack
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,10 @@ La fecha de versión del paquete de funciones 202105 de AEM Screens es el 3 de j
 
 ### Novedades {#what-is-new}
 
-* Bloquear página
+* **Bloquear página en un canal de AEM Screens**
+
+   AEM Screens ahora admite el *Bloqueo de una página*, como ya se ha implementado en AEM Sites. Adobe Experience Manager (AEM) le permite bloquear páginas para que nadie más pueda modificar su contenido. Esta función es útil cuando realice muchas ediciones en una página concreta o cuando tenga que congelar una página durante un rato.
+
 
 ### Corrección de errores {#bug-fixes}
 
