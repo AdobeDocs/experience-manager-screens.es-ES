@@ -4,10 +4,10 @@ description: '"Siga esta página para obtener información sobre el Feature Pack
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 9%
+source-wordcount: '378'
+ht-degree: 10%
 
 ---
 
@@ -39,11 +39,11 @@ De forma predeterminada, cuando se utiliza el registro masivo para registrar un 
 
    Consulte la siguiente documentación para aprender a configurar el nombre en cada sistema operativo compatible:
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Sistema operativo Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **Generación de manifiestos**
 
    Generación más rápida de manifiestos de canal con un rendimiento mejorado, como la asignación de menos recursos al servidor.
