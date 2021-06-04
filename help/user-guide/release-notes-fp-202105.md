@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión para Feature Pack 202105
-description: '"Siga esta página para obtener información sobre el Feature Pack 202105 de AEM Screens publicado el 1 de junio de 2021".'
+description: '"Siga esta página para obtener información sobre el Feature Pack 202105 de AEM Screens publicado el 4 de junio de 2021".'
 feature: Paquete de funciones
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 13%
+source-wordcount: '394'
+ht-degree: 9%
 
 ---
 
@@ -24,21 +24,33 @@ Puede descargar el último paquete de funciones para la versión 6.5.8 de AEM Sc
 
 ## Fecha de la versión {#release-date}
 
-La fecha de versión del paquete de funciones 202105 de AEM Screens es el 3 de junio de 2021.
+La fecha de versión del Feature Pack 202105 de AEM Screens es el 4 de junio de 2021.
 
 ### Novedades {#what-is-new}
 
-* **Bloquear página en un canal de AEM Screens**
+* **Bloqueo de páginas en un canal de AEM Screens**
 
    AEM Screens ahora admite el *Bloqueo de una página*, como ya se ha implementado en AEM Sites. Adobe Experience Manager (AEM) le permite bloquear páginas para que nadie más pueda modificar su contenido. Esta función es útil cuando realice muchas ediciones en una página concreta o cuando tenga que congelar una página durante un rato.
 
+* **Asignación de nombre al dispositivo del reproductor AEM Screens**
+
+   Los reproductores de AEM Screens ahora incluyen la capacidad de enviar un nombre de dispositivo a Adobe Experience Manager (AEM).
+De forma predeterminada, cuando se utiliza el registro masivo para registrar un dispositivo, se introduce un nombre de usuario generado por el sistema en el campo title . Como alternativa, un cliente puede utilizar una etiqueta de recurso u otro nombre descriptivo para que sea visible en AEM y más fácil asignar el contenido adecuado.
+
+   Consulte la siguiente documentación para aprender a configurar el nombre en cada sistema operativo compatible:
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **Generación de manifiestos**
 
    Generación más rápida de manifiestos de canal con un rendimiento mejorado, como la asignación de menos recursos al servidor.
 
 ### Corrección de errores {#bug-fixes}
 
-* El reproductor mostraba una pantalla negra al cambiar al canal contenía una secuencia integrada dinámica.
+* El reproductor mostraba una pantalla negra al cambiar al canal que contenía una secuencia integrada dinámica.
 * Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evite aún más el error 404 o una página con un mensaje de error.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
