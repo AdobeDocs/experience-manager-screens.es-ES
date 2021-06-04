@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administración de Screens
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ Siga los pasos a continuación para configurar la consola de administración de 
 >[!NOTE]
 >
 >Se recomienda una solución de administración de dispositivos como la Consola de administración de Chrome para la implementación y administración de dispositivos del sistema operativo Chrome. Aunque este documento proporciona implementación para la Consola de administración de Chrome, hay otros proveedores que afirman proporcionar una funcionalidad similar. Póngase en contacto con el proveedor del software de administración de dispositivos.
+
+## Nombrar el reproductor de Chrome OS {#name-chrome}
+
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Chrome, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
+
+Siga los pasos a continuación para configurar el nombre en el reproductor Chrome:
+
+1. Si lo desea, puede permitir que los integradores de AV o los administradores de TI establezcan el ID y la ubicación del recurso como parte de la inscripción empresarial.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. Se le presentarán las opciones cuando pueda inscribir el dispositivo.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. Puede configurar el ID de recurso como parte de la inscripción empresarial, así como en la consola de administración de Chrome.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Los reproductores de Chrome deben inscribirse en la inscripción empresarial y el reproductor de Chrome debe implementarse a través de la consola de administración de Chrome; de lo contrario, el ID del recurso devolverá un espacio en blanco (por ejemplo, Chrome como extensión). El nombre del dispositivo solo se registra en el momento del registro. Adobe Experience Manager (AEM) no recogerá los cambios futuros.
 
 ### Activación del modo de quiosco {#enabling-kiosk-mode}
 
