@@ -13,9 +13,9 @@ docset: aem65
 feature: Administración de Screens, Reproductor de Android
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 ## Aprovisionamiento masivo de Android Player mediante Enterprise Mobility Management {#bulk-provisioning}
 
 Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con AEM. Es muy recomendable utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar su implementación de forma remota. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+
+## Asignación de nombre al reproductor Android {#name-android}
+
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Android, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor de Android, sino que también le permite asignar fácilmente el contenido adecuado.
+
+Siga los pasos a continuación para configurar el nombre en el reproductor Android:
+
+1. Vaya a **settings** —> **Acerca del dispositivo**
+1. Edite y configure el nombre del dispositivo para que asigne un nombre al reproductor Android.
 
 ### Implementación del aprovisionamiento masivo de Reproductor de Android mediante la administración de movilidad empresarial {#implementation}
 
