@@ -13,9 +13,9 @@ docset: aem65
 feature: Administración de Screens, Reproductor de Windows
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,16 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 >Si **State** es **REGISTER**, verá que se rellenará el campo **Device id**.
 >
 >Si **State** es **UNREGISTER**, puede utilizar el **Token** para registrar el dispositivo.
+
+## Nombre del Reproductor de Windows {#name-windows}
+
+Puede asignar un nombre de dispositivo fácil de usar al reproductor de Windows, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor de Windows, sino que también le permite asignar fácilmente el contenido adecuado.
+
+Siga los pasos a continuación para configurar el nombre en el reproductor de Windows:
+
+1. Haga clic en **start** —> **run**
+1. Escriba `system.cpl`
+1. Utilice la ficha nombre del equipo para establecer el nombre de host del equipo
 
 ## Cambio de las opciones predeterminadas en Windows Installer {#changing-default-options}
 
