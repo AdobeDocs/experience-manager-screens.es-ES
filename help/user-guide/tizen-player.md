@@ -4,9 +4,9 @@ description: Esta página describe la instalación y el funcionamiento de Tizen 
 feature: Administración de pantallas, reproductores
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ Complete los siguientes pasos:
 1. Obtenga la dirección IP o URL del servidor HTTP local (y la ruta a la carpeta que contiene los archivos extraídos en el paso 2 si se extraen en una subcarpeta y no en una carpeta raíz)
 
 1. El reproductor Tizen descargará el instalador del servidor local.
+
+### Nomenclatura del reproductor Tizen {#name-tizen}
+
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar a su reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
+
+Siga los pasos a continuación para configurar el nombre en el reproductor Tizen:
+
+1. Haga clic en el botón de menú del control remoto.
+1. Vaya a **network** —> **Device Name** para asignar un nombre al reproductor.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
