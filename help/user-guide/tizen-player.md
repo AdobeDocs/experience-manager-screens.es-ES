@@ -4,9 +4,9 @@ description: Esta página describe la instalación y el funcionamiento de Tizen 
 feature: Administración de pantallas, reproductores
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -124,9 +124,9 @@ La siguiente tabla resume las políticas con sus funciones.
 | resolución | Resolución del dispositivo. |
 | restartSchedule | La programación para reiniciar el reproductor. |
 | enableAdminUI | Active la IU de administración para configurar el dispositivo en el sitio. Configúrelo en false una vez que esté completamente configurado y en producción. |
-| enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false una vez que esté completamente configurado y en producción. |
+| enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
 | enableActivityUI | Habilita para mostrar el progreso de actividades como descarga y sincronización. Habilite para solucionar problemas y deshabilite una vez que esté completamente configurado y en producción. |
-| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a pantallas como un servicio en la nube. false para conectarse a AMS o a la AEM onPrem. |
+| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a Screens como Cloud Service. Configúrelo en false para conectarse a AMS o a AEM local. |
 | cloudToken | Token de registro para registrarse en Screens como Cloud Service. |
 
 
