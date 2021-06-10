@@ -4,9 +4,9 @@ description: Esta página describe la instalación y el funcionamiento de Tizen 
 feature: Administración de pantallas, reproductores
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Complete los siguientes pasos:
 
 1. Obtenga la dirección IP o URL del servidor HTTP local (y la ruta a la carpeta que contiene los archivos extraídos en el paso 2 si se extraen en una subcarpeta y no en una carpeta raíz)
 
-1. El reproductor Tizen descargará el instalador del servidor local.
+1. El reproductor Tizen descarga el instalador desde el servidor local.
 
 ### Nomenclatura del reproductor Tizen {#name-tizen}
 
@@ -74,7 +74,7 @@ Siga los pasos que se indican a continuación en el dispositivo Samsung para com
 
 >[!IMPORTANT]
 >**Esta sección se aplica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
->Algunos motores de navegador son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. En la mayoría de los casos, el problema se puede resolver actualizando el explorador a la última versión disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
+>Algunos motores de navegador son incompatibles con el atributo *SameSite=None* utilizado en el token de inicio de sesión emitido por AEM 6.5 a AEM 6.7. Normalmente, el problema se puede resolver actualizando el explorador a la última versión disponible. En algunos casos, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, cuadros superiores establecidos u otros dispositivos con motores de navegación integrados.
 
 Siga los pasos a continuación para eximir a estos clientes incompatibles cuando utilice *SameSite=None*:
 
@@ -82,7 +82,7 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles cuando
 
 1. Después de reiniciar AEM vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token de Granite de Adobe**. Establezca el valor del valor **SameSite** en **None**.
 
-1. Debería ver una nueva opción *Agente de usuario a eximir del atributo samesite*. Rellene esto con una regex correspondiente a los agentes de usuario que sea(n) incompatible con el atributo *SameSite=None*.
+1. Debería ver una nueva opción *Agente de usuario a eximir del atributo samesite*. Rellene esto con una regex correspondiente al agente de usuario que sea(es) incompatible con el atributo *SameSite=None*.
    >[!NOTE]
    >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen use la regex: `(.*)Tizen(.*)`.
 
