@@ -3,15 +3,15 @@ title: Guía de inicio rápido
 seo-title: Guía de inicio rápido
 description: Siga esta página para crear un proyecto de demostración de AEM Screens. Le ayuda a crear una experiencia de señalización digital que comience desde la instalación y a configurar un nuevo proyecto para ver el contenido en el reproductor AEM Screens.
 feature: Información general, señalización digital
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 5%
 
 ---
-
 
 # Guía de inicio rápido {#kickstart-guide}
 
@@ -64,7 +64,7 @@ El primer paso es crear un proyecto de AEM Screens.
    >[!NOTE]
    >Una vez creado el proyecto, vuelve a la página de inicio del proyecto Screens. Puede seleccionar el proyecto. En un proyecto, hay cinco carpetas diferentes tituladas **Applications**, **Channels**, **Devices**, **Locations** y **Schedules**.
 
-### Crear un canal{#creating-channel} 
+### Crear un canal  {#creating-channel}
 
 Una vez creado el proyecto de AEM Screens, debe crear un nuevo canal en el que administrar el contenido.
 
@@ -103,7 +103,7 @@ Siga los pasos a continuación para agregar contenido al canal (**TestChannel**)
 
    ![image](assets/kickstart/demo-7.png)
 
-### Creación de una ubicación{#creating-location} 
+### Creación de una ubicación  {#creating-location}
 
 Una vez que haya configurado el canal, debe crear una ubicación.
 
@@ -123,7 +123,7 @@ Siga los pasos a continuación para crear una nueva ubicación para el proyecto:
 Se crea **TestLocation** y se agrega a la carpeta **Ubicaciones**.
 
 
-### Creación de una visualización para la ubicación {#creating-display}
+### Creación de una visualización para una ubicación {#creating-display}
 
 Una vez creada una ubicación, debe crear una nueva visualización para la ubicación.
 
@@ -182,7 +182,7 @@ Una vez completada la configuración del proyecto, debe asignar el canal a una p
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
-### Registro de un dispositivo y asignación del dispositivo a una pantalla {#registering-device}
+### Registro de un dispositivo y asignación de un dispositivo a una pantalla {#registering-device}
 
 Debe registrar el dispositivo mediante el panel de AEM.
 
@@ -238,7 +238,7 @@ Una vez que el reproductor Chrome OS esté activado, siga los pasos a continuaci
 
    ![image](assets/kickstart/demo-register9.png)
 
-### Visualización del contenido en Chrome Player {#viewing-content-output}
+### Visualización del contenido en el reproductor Chrome {#viewing-content-output}
 
 Todos los recursos del canal se están reproduciendo en el reproductor Chrome OS.
 
