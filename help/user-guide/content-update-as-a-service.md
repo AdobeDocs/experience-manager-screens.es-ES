@@ -6,15 +6,15 @@ seo-description: Siga esta página para obtener más información sobre la actua
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
-
 
 # Actualización de contenido como servicio {#content-update-as-a-service}
 
@@ -74,4 +74,3 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
    **Frecuencia** de programaciónEspecifique una hora, por ejemplo, a las 17:00 o a las 17:00, en la que este servicio debe actualizar el contenido sin conexión.
 
 1. Haga clic en **Guardar** para guardar la configuración y el contenido se actualizará a la hora especificada.
-
