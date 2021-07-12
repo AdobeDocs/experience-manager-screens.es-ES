@@ -4,15 +4,15 @@ description: Siga esta página para conocer el caso de uso de MultiZone to Singl
 seo-description: Caso de uso de MultiZone a SingleZone Transitions .
 contentOwner: Jyotika Syal
 feature: Creación en Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
 
 ---
-
 
 # Transición de varias zonas a una sola zona {#multizone-to-singlezone-use-case}
 
