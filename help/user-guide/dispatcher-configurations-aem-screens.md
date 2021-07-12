@@ -4,15 +4,15 @@ seo-title: Configuraciones de Dispatcher para AEM Screens
 description: Esta página resalta las directrices para configurar Dispatcher para un proyecto de AEM Screens.
 seo-description: Esta página resalta las directrices para configurar Dispatcher para un proyecto de AEM Screens.
 feature: Administración de Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 6%
 
 ---
-
 
 # Configuraciones de Dispatcher para AEM Screens{#dispatcher-configurations-for-aem-screens}
 
@@ -38,7 +38,7 @@ Los reproductores o dispositivos de AEM Screens utilizan una sesión autenticada
 
 Siga los pasos a continuación para configurar Dispatcher para un proyecto de AEM Screens.
 
-### Habilitación de sesiones adhesivas {#enable-sticky-session}
+### Habilitar sesiones adhesivas {#enable-sticky-session}
 
 Si desea utilizar varias instancias de publicación frontadas por un solo Dispatcher, deberá actualizar el archivo `dispatcher.any` para habilitar la permanencia
 
