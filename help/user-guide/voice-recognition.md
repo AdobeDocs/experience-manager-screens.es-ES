@@ -2,15 +2,15 @@
 title: Reconocimiento de voz en AEM Screens
 description: La página describe la función de reconocimiento de voz en AEM Screens.
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
-
 
 # Reconocimiento de voz en AEM Screens {#voice-recognition}
 
@@ -184,8 +184,3 @@ Del mismo modo, si usa palabra con una palabra clave **fría** como *Me gustarí
 **Salida deseada para el canal Dividir Screens**
 
 El canal **Principal** está reproduciendo su contenido, pero cuando usa palabras con las palabras clave **hot** y **fría** juntas, como *Me gustaría ver el menú para bebidas calientes y frías*, el canal comienza a reproducir el contenido del canal **SplitScreen**. Si vuelve a *volver al menú principal*, vuelve al canal principal.
-
-
-
-
-
