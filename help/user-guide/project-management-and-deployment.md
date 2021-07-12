@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Información general
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Parte 4: Administración e implementación de proyectos {#part-project-management-and-deployment}
 
@@ -37,11 +37,11 @@ Es importante que todos los interesados comprendan de qué es responsable el int
 >
 >Los socios que adoptan un enfoque holístico en la administración de las fases de &quot;preproducción&quot;, inicio y progresión del proyecto ayudarán a garantizar que sus clientes finales estén posicionados para obtener el máximo valor de su inversión
 
-## Resumen de las tres fases de la Administración de proyectos {#summary-of-all-three-phases-in-project-management}
+## Resumen de las tres fases de la gestión de proyectos {#summary-of-all-three-phases-in-project-management}
 
 Para admitir una implementación correcta de la señalización digital, es habitual segmentar el proyecto en 3 etapas. Estas etapas suelen denominarse ***días***.
 
-### Actividades de Día cero {#day-zero-activities}
+### Actividades del día cero {#day-zero-activities}
 
 La primera etapa se denomina ***Día cero***. Esta etapa incluye todos los esfuerzos de pre-ventas y descubrimiento necesarios para definir completamente el alcance de los proyectos. La segunda etapa, Día uno, se refiere a todas las actividades incluidas en el esfuerzo de implementación. Por último, el Día dos se refiere a todas las operaciones en curso y a los elementos de apoyo como parte de la solución total.
 
@@ -78,7 +78,7 @@ La última parte de una iniciativa de Día uno es completar una entrega de NOC. 
 
 Esta reunión consiste principalmente en representantes de AV Integrator de la Administración de Cuentas, Operaciones de Red, Logística de Campo, Servicios de Contenido y Contabilidad. Los representantes de la administración de proyectos de Adobe, el implementador de AEM y el cliente final suelen participar en conjunto con el programa de definición, cadencia y portadas de AV Integrator. Por lo general, los administradores de proyectos son los que mejor coordinan las deliberaciones para asegurar la alineación de las partes apropiadas y elaborar la documentación necesaria para la reunión de entrega de NOC. Es probable que la documentación de soporte crítico provenga de TI y/o AV Engineering, además de los recursos de Ventas y Administración de Cuentas en todas las partes involucradas. Para los clientes que necesiten asistencia de asistencia técnica de un NOC, se deberá proporcionar documentación a los supervisores de NOC para que la carguen en una plataforma de la Base de conocimientos.
 
-## Parte 4: Tutorial de vídeo sobre administración e implementación de proyectos {#part-video-tutorial-on-project-management-and-deployment}
+## Parte 4: Tutorial en vídeo sobre administración e implementación de proyectos {#part-video-tutorial-on-project-management-and-deployment}
 
 Siga este tutorial para obtener información sobre la administración y preparación de la implementación de proyectos y definir los factores clave por los que AV Integrator es responsable de la gestión de proyectos y la preparación de la implementación.
 
@@ -93,4 +93,3 @@ Siga este tutorial para obtener información sobre la administración y preparac
 Una vez que haya terminado con las consideraciones clave sobre la administración de proyectos para implementaciones de AEM Screens;
 
 Vaya a **[Parte 5: Consideraciones de soporte](support-considerations.md)** para comprender el soporte de día 2 y los procesos involucrados.
-
