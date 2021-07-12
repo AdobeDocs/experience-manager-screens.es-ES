@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Información general
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 1%
 
 ---
-
 
 # Parte 2: Consideraciones a tener en cuenta a medida que se definen los proyectos {#part-considerations-as-projects-are-scoped}
 
@@ -42,7 +42,7 @@ Los componentes principales de un programa de señalización digital necesarios 
 >
 >Es importante definir una estrategia de contenido que considere cómo la aplicación utilizará los recursos de software, hardware y conectividad para ofrecer correctamente el valor deseado.
 
-## Resumen de consideraciones del proyecto en una señalización digital {#summary-of-project-considerations-in-a-digital-signage}
+## Resumen de consideraciones del proyecto en una señalización digital  {#summary-of-project-considerations-in-a-digital-signage}
 
 Al desarrollar una estrategia de contenido, existen varias consideraciones, incluidas las capas de E/S, los tipos de recursos, las segmentaciones de audiencia y los requisitos de programación de partición de día.
 
@@ -63,11 +63,11 @@ Se considera que los siguientes puntos comprenden la intención del cliente fina
 * ¿Serán necesarios los muros de vídeo multipantalla y, en caso afirmativo, cuáles son las configuraciones?
 * ¿El contenido está vinculado a los ingresos operativos o publicitarios que requieren estrategias de conmutación por error para evitar tiempos de inactividad?
 
-### Segmentación de audiencia, elementos de día {#audience-segmentation-day-parts}
+### Segmentación de audiencia, partes de día {#audience-segmentation-day-parts}
 
 La inclusión de estrategias de partición de día puede permitir a los clientes finales segmentar su contenido y dirigir los mensajes a la audiencia adecuada en el momento adecuado. Esto es especialmente efectivo para redes publicitarias o minoristas, donde muchos colaboradores de contenido forman la lista de reproducción completa.
 
-### Requisitos de Operaciones de Negocio {#business-operations-requirements}
+### Requisitos de las operaciones comerciales {#business-operations-requirements}
 
 Las operaciones comerciales también son importantes de definir en las conversaciones de la estrategia de contenido. La formalización de los requisitos de soporte de los clientes finales ayudará a administrar las expectativas después de la implementación, asegurándose de que los esfuerzos de soporte se midan adecuadamente.
 
@@ -79,7 +79,7 @@ Los escenarios de montaje también necesitan definición, al igual que las consi
 
 El paso final en el proceso de preventa es determinar la preparación del sitio. Esto se puede facilitar mediante encuestas del sitio que recopilen detalles del sitio, proyecto y progreso. La preparación del sitio captura esencialmente el estado actual de una ubicación antes de la instalación, llamando a cualquier artículo que el cliente necesite preparar o planear abordar antes de que llegue un técnico. Normalmente, esto incluye elementos como alimentación, datos, eliminación de muebles y eliminación de polvo.
 
-## Parte 2: Tutorial de vídeo sobre consideraciones a medida que se definen los proyectos {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Parte 2: Tutorial en vídeo sobre consideraciones a medida que se definen los proyectos {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 Siga el tutorial siguiente para conocer la estrategia de contenido, las capas de E/S, los tipos de recursos, la segmentación de audiencias, las partes del día, los requisitos de operaciones comerciales y las consideraciones de preparación del sitio.
 
