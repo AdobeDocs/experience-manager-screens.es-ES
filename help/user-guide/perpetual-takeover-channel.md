@@ -5,17 +5,17 @@ description: Siga este caso de uso para crear un canal TakeOver perpetuo.
 seo-description: Siga este caso de uso para configurar un proyecto que cree un canal TakeOver perpetuo que se reproduzca durante un día y hora específicos de forma continua.
 contentOwner: jsyal
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
 
 ---
 
-
-# Canal de apropiación perpetua {#perpetual-takeover-channel}
+# Canal Takover perpetuo {#perpetual-takeover-channel}
 
 En la página siguiente se muestra un caso de uso que hace hincapié en la configuración de un proyecto sobre cómo crear un canal de aceptación permanente que se reproduce para un día y hora específicos de forma continua.
 
