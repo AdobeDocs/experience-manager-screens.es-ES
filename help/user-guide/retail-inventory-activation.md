@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
-
 
 # Activación de destino de inventario comercial {#retail-inventory-targeted-activation}
 
@@ -123,6 +123,4 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
    1. Haga clic en **Preview.** Además, abra la hoja de Google y actualice su valor.
    1. Cambie el valor de las tres columnas diferentes y verá las actualizaciones de la imagen de visualización según el valor más alto del inventario.
-
    ![retail_result](assets/retail_result.gif)
-
