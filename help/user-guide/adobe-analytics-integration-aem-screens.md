@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administración de Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
-
 
 # Integración de Adobe Analytics con AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
@@ -65,7 +65,7 @@ En el siguiente diagrama arquitectónico se explica la integración de Adobe Ana
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## Activación de Adobe Analytics en AEM Screens {#enabling-adobe-analytics-in-aem-screens}
+## Habilitar Adobe Analytics en AEM Screens {#enabling-adobe-analytics-in-aem-screens}
 
 La configuración de Adobe Analytics se puede configurar desde la consola OSGi.
 
@@ -123,7 +123,7 @@ La tabla siguiente resalta las propiedades con su descripción para la configura
 >
 >De forma predeterminada, la **Frecuencia de envío de Analytics** es de 15 minutos.
 
-#### Uso del servicio Adobe Analytics en AEM Screens {#using-adobe-analytics-service-in-aem-screens}
+#### Uso del servicio de Adobe Analytics en AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
 Este escenario invoca la API de Analytics a través de llamadas REST de un servicio de análisis en el firmware y los componentes principales de pantallas de instrumentos para crear y enviar eventos específicos de un caso de uso determinado, permitiendo al mismo tiempo la extensibilidad en la que se puede enviar cualquier mensaje personalizado a Analytics desde un canal desarrollado personalizado.
 
@@ -132,4 +132,3 @@ Los eventos de Analytics se almacenan sin conexión en indexedDB y posteriorment
 >[!NOTE]
 >
 >Para obtener más información sobre el ***Modelo de datos estándar*** y el ***Modelo de datos estándar para eventos***, consulte **[Configuración de Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-
