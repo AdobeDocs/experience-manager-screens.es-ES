@@ -6,15 +6,15 @@ seo-description: Siga esta página para aprender a aplicar transiciones a sus pr
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
 
 ---
-
 
 # Aplicación de transiciones {#applying-transitions}
 
@@ -25,7 +25,7 @@ En esta sección se describe cómo aplicar el componente **Transición** entre d
 >
 >Para obtener más información sobre las propiedades del componente **Transición**, consulte [Transiciones](adding-components-to-a-channel.md#transition).
 
-## Adición de un componente de transición a los recursos en un canal {#adding-transition}
+## Adición de componentes de transición a recursos en un canal {#adding-transition}
 
 Siga los pasos a continuación para añadir un componente de transición al proyecto de AEM Screens:
 
@@ -60,4 +60,3 @@ Siga los pasos a continuación para añadir un componente de transición al proy
 1. Además, si agrega un componente **Secuencia integrada** (que incluye un canal de secuencia) a este editor de canales, puede agregar un componente de transición al final, de modo que el contenido se reproduzca en orden, como se muestra en la figura siguiente:
 
    ![image3](assets/transitions5.png)
-
