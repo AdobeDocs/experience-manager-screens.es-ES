@@ -4,15 +4,15 @@ seo-title: Administrar canales
 description: Siga esta página para obtener más información sobre la creación y administración de canales. También explica el portal del canal y el contenido de edición de un canal.
 seo-description: Siga esta página para obtener más información sobre la creación y administración de canales. También explica el portal del canal y el contenido de edición de un canal.
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 42%
 
 ---
-
 
 # Crear y administrar canales {#creating-and-managing-channels}
 
@@ -259,4 +259,3 @@ Consulte los recursos siguientes para ver los pasos siguientes:
 * [Crear y administrar canales](managing-channels.md)
 * [Crear y administrar ubicaciones](managing-locations.md)
 * [Crear y administrar visualizaciones](managing-displays.md)
-
