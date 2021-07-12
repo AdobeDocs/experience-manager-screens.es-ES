@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
-
 
 # Activación de reserva de hospitalidad {#hospitality-reservation-activation}
 
@@ -86,6 +86,4 @@ Siga los pasos a continuación para implementar el caso de uso de activación de
 
    1. Haga clic en **Preview.** Además, abra las hojas de Google y actualice su valor.
    1. Actualice el valor en las columnas **Restaurant1** y **Restaurant2**. Si **Restaurant1** > **Restaurant2,** debería poder ver una imagen de *Steak* food de lo contrario, la imagen de comida *Thai* se muestra en la pantalla.
-
    ![result5](assets/result5.gif)
-
