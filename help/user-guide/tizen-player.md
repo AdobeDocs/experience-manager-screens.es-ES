@@ -2,15 +2,15 @@
 title: Tizen Player
 description: Esta página describe la instalación y el funcionamiento de Tizen Player.
 feature: Administración de pantallas, reproductores
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
 
 ---
-
 
 # Implementación de Tizen Player {#tizen-player}
 
@@ -98,7 +98,7 @@ Asegúrese de haber configurado la dirección del iniciador de URL en el disposi
 En el servidor `HTTP` que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el archivo `wgt`. El nombre del archivo debe ser `config.json`.
 El reproductor Tizen se instalará y al inicio (y cada reinicio) comprobará y aplicará la configuración en el archivo `config.json`.
 
-### Ejemplo de directiva JSON {#example-json}
+### Ejemplo de política JSON {#example-json}
 
 ```java
 {
@@ -110,7 +110,7 @@ El reproductor Tizen se instalará y al inicio (y cada reinicio) comprobará y a
 }
 ```
 
-### Atributos de política y propósito {#policy-attributes}
+### Atributos y propósito de la política {#policy-attributes}
 
 La siguiente tabla resume las políticas con sus funciones.
 
@@ -164,4 +164,3 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el Servici
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Haga clic en **Save** para que los cambios aparezcan en la pantalla de visualización.
-
