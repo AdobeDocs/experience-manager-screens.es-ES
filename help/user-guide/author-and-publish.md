@@ -4,15 +4,15 @@ seo-title: Configuración de autor y publicación en AEM Screens
 description: La arquitectura de AEM Screens se parece a una arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor AEM y luego se rereplica en varias instancias de publicación. Siga esta página para aprender a configurar la creación y publicación para AEM Screens.
 seo-description: La arquitectura de AEM Screens se parece a una arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor AEM y luego se rereplica en varias instancias de publicación. Siga esta página para aprender a configurar la creación y publicación para AEM Screens.
 feature: Administración de Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
 
 ---
-
 
 # Configuración de autor y publicación en AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -103,7 +103,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
    >También puede copiar y cambiar el nombre de un agente de replicación predeterminado existente.
 
 
-#### Creación de agentes de replicación estándar {#creating-standard-replication-agents}
+#### Creación de agentes de replicación estándar  {#creating-standard-replication-agents}
 
 1. Crear un agente de replicación estándar para pub1 (el agente predeterminado listo para usar ya debe estar configurado) (por ejemplo, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Cree un agente de replicación estándar para pub2. Puede copiar el agente de rep para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -120,7 +120,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 
 ## Configuración de la topología de publicación {#setting-up-publish-topology}
 
-### Paso 1: Configurar Apache Sling Oak Based Discovery {#step-configure-apache-sling-oak-based-discovery}
+### Paso 1: Configuración de Apache Sling Oak Based Discovery {#step-configure-apache-sling-oak-based-discovery}
 
 Configurar el descubrimiento basado en Apache Sling Oak para todas las instancias de publicación en la topología
 
@@ -140,7 +140,7 @@ La configuración debe ser idéntica para cada instancia de publicación y el bu
 
 Para cualquiera de las instancias de publicación, vaya a `https://:/system/console/topology`. Debería ver cada instancia de publicación representada en la topología en **Conectores de topología salientes**.
 
-#### Paso 3: Configuración del clúster de artemis ActiveMQ {#step-setup-activemq-artemis-cluster}
+#### Paso 3: Configuración del clúster de artemis de ActiveMQ {#step-setup-activemq-artemis-cluster}
 
 Este paso le permite crear una contraseña cifrada para el clúster de ActiveMQ Artemis.
 El usuario y la contraseña del clúster de todas las instancias de publicación de la topología deben ser idénticos. La contraseña de la configuración de ActiveMQ Artemis debe cifrarse. Dado que cada instancia tiene su propia clave de cifrado, es necesario utilizar el soporte técnico de Crypto para crear una cadena de contraseña cifrada. A continuación, la contraseña cifrada se utilizará en la configuración OSGi para ActiveMQ.
@@ -159,7 +159,7 @@ Dado que cada instancia de publicación tiene de forma predeterminada claves cri
 >La contraseña debe comenzar y terminar con llaves. Por ejemplo:
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
-#### Paso 4: Activar el clúster de ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
+#### Paso 4: Activar el clúster de artemis de ActiveMQ {#step-activate-activemq-artemis-cluster}
 
 En cada instancia de publicación:
 
@@ -170,7 +170,7 @@ En cada instancia de publicación:
    * ***Contraseña*** del clúster: usar valor cifrado del paso anterior por cada instancia respectiva
    * ***Temas***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
-#### Verificar el clúster de ActiveMQ Artemis {#verify-activemq-artemis-cluster}
+#### Comprobar clúster de artemis ActiveMQ {#verify-activemq-artemis-cluster}
 
 Siga los pasos a continuación en cada instancia de publicación:
 
@@ -229,7 +229,7 @@ Una vez configurada la topología de publicación, debe configurar las instancia
 1. Compruebe el código de registro y haga clic en **Validar**.
 1. Introduzca un título para el dispositivo y haga clic en **Register**.
 
-#### Paso 3: Asignación del dispositivo para mostrar {#step-assigning-the-device-to-display}
+#### Paso 3: Asignación del dispositivo a la visualización {#step-assigning-the-device-to-display}
 
 1. Haga clic **Asignar pantalla** en el cuadro de diálogo del paso anterior.
 1. Seleccione la ruta de visualización del canal en la carpeta **Ubicaciones**.
@@ -268,7 +268,7 @@ También puede activar el dispositivo desde la consola de administración de dis
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### Lista de comprobación de publicación {#publishing-check-list}
+### Lista de comprobación de publicaciones {#publishing-check-list}
 
 Los siguientes puntos resumen la lista de comprobación de publicaciones:
 
@@ -290,7 +290,7 @@ Siga los pasos a continuación para comprobar el comportamiento de autor/publica
 1. Repita estos pasos con una instancia de publicación diferente
 
 
-#### Paso 5: Señalar el dispositivo para publicar la instancia en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Paso 5: Indicar el dispositivo para publicar una instancia en el panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Vea la IU de administración desde el reproductor Screens, pulse durante mucho tiempo en la esquina superior izquierda para abrir el menú Administración, en el reproductor AEM Screens táctil o con un ratón.
 1. Haga clic en la opción **Configuration** del panel lateral.
@@ -307,5 +307,3 @@ También puede actualizar o editar la URL del servidor desde la consola de admin
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La función **Administrar publicación** le permite enviar actualizaciones de contenido del autor para publicarlas en el dispositivo. Puede publicar/cancelar la publicación de contenido para todo el proyecto de AEM Screens o solo para uno de sus canales, ubicación, dispositivo, aplicación o programación. Para obtener más información sobre esta función, consulte [Actualización de contenido bajo demanda](on-demand-content.md).
-
-
