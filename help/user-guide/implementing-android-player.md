@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Administración de Screens, Reproductor de Android
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
-
 
 # Implementación del reproductor Android {#implementing-android-player}
 
@@ -52,7 +52,7 @@ Complete los siguientes pasos:
 1. Haga clic en **Guardar**.
 
 
-### Método ad hoc {#ad-hoc-method}
+### Método Ad Hoc {#ad-hoc-method}
 
 El método ad-hoc le permite instalar la última versión de Android Player (*.exe*). Visite la página [**AEM 6.5 Descargas del reproductor**](https://download.macromedia.com/screens/).
 
@@ -73,7 +73,7 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 
 Debido a la arquitectura de Android, el reinicio del dispositivo requiere que la aplicación tenga privilegios del sistema. Para ello, debe firmar el apk utilizando las claves de firma del fabricante; de lo contrario, watchdog reiniciará la aplicación del reproductor y no reiniciará el dispositivo.
 
-### Señal de apks de Android que utilizan claves de fabricante {#signage-of-android-apks-using-manufacturer-keys}
+### Señalización de apks de Android mediante claves de fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
 Para acceder a algunas de las API privilegiadas de Android, como *PowerManager* o *HDMIControlServices*, debe firmar el apk de android con las claves del fabricante.
 
@@ -147,7 +147,7 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 | *enableActivityUI* | Habilita para mostrar el progreso de actividades como descarga y sincronización. Habilite para solucionar problemas y deshabilite una vez que esté completamente configurado y en producción. |
 | *enableNativeVideo* | Habilite para utilizar la aceleración de hardware nativa para la reproducción de vídeo (solo Android). |
 
-### Ejemplo de directiva JSON {#example-json}
+### Ejemplo de política JSON {#example-json}
 
 ```java
 {
