@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Información general
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Parte 5: Consideraciones de compatibilidad {#part-support-considerations}
 
@@ -45,7 +45,7 @@ La planificación incluye:
 * Identificación del mejor método para volver a mediar problemas en la red.
 * Conducción de la alineación entre el implementador de AEM y el integrador de AV para establecer planes de soporte de día 2
 
-## Resumen de consideraciones clave involucradas en el soporte del día 2 {#summary-of-key-considerations-involved-in-day-support}
+## Resumen de las consideraciones clave relacionadas con la compatibilidad con el día 2 {#summary-of-key-considerations-involved-in-day-support}
 
 A continuación se indican algunas consideraciones clave para la compatibilidad con el día 2:
 
@@ -59,7 +59,7 @@ A continuación se indican algunas consideraciones clave para la compatibilidad 
 * Algunos fabricantes de pantallas ofrecen la capacidad de supervisar las pantallas independientemente de los reproductores de contenidos, mientras que otros requieren un dispositivo externo.
 * Los integradores AV aprovechan una combinación de tecnologías, por lo que las soluciones siguen siendo flexibles para satisfacer mejor las necesidades del cliente final.
 
-## Parte 5: Tutorial de vídeo sobre consideraciones de compatibilidad {#part-video-tutorial-on-support-considerations}
+## Parte 5: Tutorial en vídeo sobre consideraciones de compatibilidad {#part-video-tutorial-on-support-considerations}
 
 Siga este tutorial final a un tutorial de serie de 5 partes que se destaca a continuación sobre cómo asegurar la alineación y la transición sin problemas de la implementación al soporte operativo. También explica cómo un implementador de AEM debe trabajar con el integrador de AV para garantizar secuencias de comandos de soporte adecuadas que se definan como parte del plan de soporte de Day 2.
 
@@ -72,4 +72,3 @@ Siga este tutorial final a un tutorial de serie de 5 partes que se destaca a con
 ## Conclusión {#conclusion}
 
 Estas 5 series de partes se centran en consideraciones fundamentales para garantizar el éxito del proyecto. Consulte otras secciones de la Guía del usuario de AEM Screens para obtener más información sobre la implementación.
-
