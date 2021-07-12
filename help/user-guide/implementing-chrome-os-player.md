@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administración de Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# Implementación del reproductor del sistema operativo Chrome {#implementing-chrome-os-player}
+# Implementación del reproductor Chrome OS  {#implementing-chrome-os-player}
 
 En esta sección se describe cómo implementar el reproductor del sistema operativo Chrome mediante la consola de administración de Chrome.
 
@@ -36,7 +36,7 @@ Siga los pasos a continuación para configurar la consola de administración de 
 >
 >Se recomienda una solución de administración de dispositivos como la Consola de administración de Chrome para la implementación y administración de dispositivos del sistema operativo Chrome. Aunque este documento proporciona implementación para la Consola de administración de Chrome, hay otros proveedores que afirman proporcionar una funcionalidad similar. Póngase en contacto con el proveedor del software de administración de dispositivos.
 
-## Nombrar el reproductor de Chrome OS {#name-chrome}
+## Asignación del nombre al reproductor Chrome OS {#name-chrome}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor Chrome, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
 
@@ -133,7 +133,7 @@ Siga los pasos a continuación para configurar las distintas opciones del reprod
 }
 ```
 
-### Atributos de política y propósito {#policy-attributes-and-purpose}
+### Atributos y propósito de la política {#policy-attributes-and-purpose}
 
 La siguiente tabla resume las políticas con sus funciones.
 
