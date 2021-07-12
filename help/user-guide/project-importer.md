@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administración de Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
 
 ---
 
-
-# Nuevo Importador de proyectos del archivo {#new-project-importer-from-file}
+# Nuevo Importador de proyectos desde archivo {#new-project-importer-from-file}
 
 En esta sección se describe una funcionalidad para importar de forma masiva un conjunto de ubicaciones desde una hoja de cálculo CSV/XLS a su proyecto de AEM Screens.
 
@@ -95,7 +95,7 @@ Para fines de demostración, puede descargar un archivo excel desde la sección 
 
 [Obtener archivo](assets/minimal-file.xls)
 
-### Importación del archivo con un mínimo de campos obligatorios {#importing-the-file-with-minimum-required-fields}
+### Importación del archivo con el mínimo de campos obligatorios {#importing-the-file-with-minimum-required-fields}
 
 Siga los pasos a continuación para importar un archivo a la carpeta de ubicaciones con los campos mínimos requeridos:
 
@@ -126,4 +126,3 @@ Siga los pasos a continuación para importar un archivo a la carpeta de ubicacio
 1. Como resultado, ahora podrá ver todas las ubicaciones importadas al proyecto.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
