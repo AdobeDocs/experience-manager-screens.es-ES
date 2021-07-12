@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 48%
 
 ---
-
 
 # Crear y administrar programaciones {#creating-and-managing-schedules}
 
@@ -67,4 +67,3 @@ Siga los pasos que se describen a continuación para ver el panel de programas. 
    **Panel Canales asignados** Haga clic en +Asignar canal en la esquina superior derecha del panel Canales asignados para abrir el cuadro de diálogo Asignación de canales .
 
    **Panel Pantallas asignadas** Seleccione cualquiera de las visualizaciones del panel Pantallas asignadas para abrir el tablero de visualización.
-
