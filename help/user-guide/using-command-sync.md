@@ -4,15 +4,15 @@ seo-title: Uso de la sincronización de comandos
 description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
 seo-description: Siga esta página para obtener información sobre cómo utilizar la sincronización de comandos.
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
-
 
 # Sincronización de comandos {#command-sync}
 
@@ -90,7 +90,7 @@ Antes de utilizar la función de sincronización de comandos, asegúrese de que 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Configuración de un maestro {#setting-up-master}
+### Configuración de un patrón {#setting-up-master}
 
 1. Vaya al panel de visualización desde **CommandSyncDemo** —> **Ubicaciones** —> **Lobby** —> **LobbyDisplay** y haga clic en **Panel** en la barra de acciones.
 Verá los dos dispositivos (cromo y reproductor de Windows) en el panel **DISPOSITIVOS**, como se muestra en la figura siguiente.
