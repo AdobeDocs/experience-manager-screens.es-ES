@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 38%
 
 ---
-
 
 # Creación y administración de proyectos {#creating-and-managing-projects}
 
@@ -31,7 +31,7 @@ También puede navegar directamente a: `http://localhost:4502/screens.html/conte
 >**Sugerencia de navegación:**
 >También puede utilizar las teclas de dirección para desplazarse por carpetas diferentes en AEM. Además, una vez seleccionada una entidad en particular, pulse la barra de espacio para editar o ver las propiedades de esa carpeta en concreto.
 
-## Crear un nuevo proyecto de Screens{#creating-a-new-screens-project} 
+## Crear un nuevo proyecto de Screens {#creating-a-new-screens-project}
 
 Siga los pasos a continuación para crear un nuevo proyecto de Screens:
 
@@ -85,4 +85,3 @@ Los siguientes pasos muestran la creación de una carpeta de aplicaciones en la 
 ### Pasos siguientes {#the-next-steps}
 
 Una vez que haya creado su propio proyecto, consulte [Administración de canales](managing-channels.md) para crear y administrar el contenido del canal.
-
