@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: Creación en Screens, activación a nivel de canal
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
-
 
 # Activación a nivel de canal {#channel-level-activation-single-event-playback}
 
@@ -156,7 +156,7 @@ Para obtener más información sobre AEM reproductor de pantalla, consulte los s
 [Trabajo con AEM Screens Player](working-with-screens-player.md)
 
 
-## Gestión de la periodicidad para los recursos en un canal {#handling-recurrence-in-assets}
+## Gestión de la periodicidad para los recursos de un canal {#handling-recurrence-in-assets}
 
 Puede programar los recursos de un canal para que se repitan a intervalos determinados de forma diaria, semanal o mensual, según sus necesidades.
 
@@ -190,7 +190,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 >[!NOTE]
 También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
 
-### División por semana {#week-parting}
+### División Semana {#week-parting}
 
 1. Seleccione el canal y haga clic en **Dashboard** en la barra de acciones para abrir el panel del canal.
 
@@ -242,7 +242,7 @@ Al definir los días de la semana y los meses, puede utilizar las anotaciones de
 >[!NOTE]
 También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
 
-### Combinación de elementos {#combined-parting}
+### Combinación de asociaciones {#combined-parting}
 
 1. Seleccione el canal y haga clic en **Dashboard** en la barra de acciones para abrir el panel del canal.
 
@@ -253,7 +253,7 @@ También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar d
 
 1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
 
-#### Expresiones de ejemplo para la combinación de elementos {#example-four}
+#### Ejemplos de expresiones para la combinación de elementos {#example-four}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
@@ -265,4 +265,3 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 >[!NOTE]
 Al definir los días de la semana y los meses, puede utilizar las anotaciones de nombre corto y completo, como Lunes/Lunes y Enero/Enero.  Además, también puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
-
