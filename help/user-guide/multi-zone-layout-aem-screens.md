@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 5%
 
 ---
-
 
 # Diseño de varias zonas {#multi-zone-layout}
 
@@ -76,7 +76,7 @@ Puede utilizar recursos únicos, como una imagen o un vídeo, en todas las zonas
 
    ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
-### Uso de contenido secuencial en una o más zonas {#using-sequenced-content-in-one-or-more-zones}
+### Uso de contenido secuencial en una o varias zonas {#using-sequenced-content-in-one-or-more-zones}
 
 Si desea que las zonas muestren la secuencia de imágenes y un vídeo en las diferentes zonas, siga los pasos a continuación para obtener más información.
 
@@ -192,5 +192,3 @@ Compruebe el reproductor Screens para ver la salida que muestra el contenido en 
 La zona izquierda es un canal de secuencia y la zona derecha incluye un vídeo.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
