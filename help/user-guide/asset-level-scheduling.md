@@ -4,17 +4,17 @@ seo-title: Activación en el nivel de recurso
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
 feature: Creación en Screens, activación en el nivel de recurso
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 2%
 
 ---
 
-
-# Activación a nivel de recurso {#asset-level-scheduling}
+# Activación en el nivel de recurso {#asset-level-scheduling}
 
 Esta página describe la activación a nivel de recurso para los recursos utilizados en los canales.
 
@@ -111,7 +111,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 >
 >También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
 
-### División por semana {#week-parting}
+### División Semana {#week-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -159,7 +159,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 >[!NOTE]
 >Al definir los días de la semana y los meses, puede utilizar las anotaciones de nombre corto y completo, como Lunes/Lunes y Enero/Enero.
 
-### Combinación de elementos {#combined-parting}
+### Combinación de asociaciones {#combined-parting}
 
 1. Seleccione el recurso y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo de propiedades.
 
@@ -170,7 +170,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
 
-#### Expresiones de ejemplo para la combinación de elementos {#example-four}
+#### Ejemplos de expresiones para la combinación de elementos {#example-four}
 
 En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden agregar a la programación al asignar canales a una visualización.
 
@@ -222,4 +222,3 @@ Siga los pasos a continuación para seleccionar varios recursos y programar su v
    >El icono de programación está visible en la esquina superior derecha de los recursos que tienen activación de varios recursos.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
