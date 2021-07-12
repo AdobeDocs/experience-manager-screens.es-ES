@@ -3,15 +3,15 @@ title: '"Parte 1: Funciones y responsabilidades del proyecto"'
 seo-title: '"Parte 1: Funciones y responsabilidades del proyecto"'
 description: Siga este tutorial para comprender mejor las funciones, las responsabilidades y las líneas de tiempo necesarias durante los ciclos de ventas y de vida del proyecto para un proyecto de publicidad dinámica.
 feature: Información general
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
 
 ---
-
 
 # Parte 1: Funciones y responsabilidades del proyecto {#part-project-roles-and-responsibilities}
 
