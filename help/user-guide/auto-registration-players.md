@@ -3,15 +3,15 @@ title: Registro automático de reproductores
 seo-title: Registro automático de reproductores
 description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
 feature: Administración de pantallas, reproductores
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
-
 
 # Registro automático de reproductores {#auto-registration}
 
