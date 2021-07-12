@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Administración de Screens, Reproductor de Windows
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 
 ---
-
 
 # Implementación del Reproductor de Windows 10 {#implementing-windows-player}
 
@@ -70,7 +70,7 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 >
 >Si **State** es **UNREGISTER**, puede utilizar el **Token** para registrar el dispositivo.
 
-## Nombre del Reproductor de Windows {#name-windows}
+## Nombre del reproductor de Windows {#name-windows}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor de Windows, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor de Windows, sino que también le permite asignar fácilmente el contenido adecuado.
 
@@ -84,7 +84,7 @@ Siga los pasos a continuación para configurar el nombre en el reproductor de Wi
 
 Siga esta sección para aprender a cambiar las opciones predeterminadas de Windows Installer y la lista de personalizaciones disponibles.
 
-## Instalación utilizando CLI (PowerShell) {#install-powershell}
+## Instalación mediante CLI (PowerShell) {#install-powershell}
 
 1. Cree una ubicación personalizada **dedicada** para Screens Player, por ejemplo:
    `C:\Users\User\screens-player`)
@@ -103,7 +103,7 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
-## Registro masivo del Reproductor de Windows {#bulk-registration}
+## Registro masivo de Windows Player {#bulk-registration}
 
 Al implementar el reproductor de windows no es necesario configurar manualmente cada reproductor. En su lugar, puede actualizar el archivo JSON de configuración después de probarlo y de que esté listo para la implementación.
 
@@ -128,7 +128,7 @@ La siguiente tabla resume los atributos de política con un JSON de política de
 | enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false una vez que esté completamente configurado y en producción. |
 | enableActivityUI | Habilita para mostrar el progreso de actividades como descarga y sincronización. Habilite para solucionar problemas y deshabilite una vez que esté completamente configurado y en producción. |
 
-#### Ejemplo de archivo JSON de directiva {#example-policy-json-file}
+#### Archivo JSON de política de ejemplo {#example-policy-json-file}
 
 ```
 {
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
