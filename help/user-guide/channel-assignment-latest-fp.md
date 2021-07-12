@@ -3,15 +3,15 @@ title: 'Asignación de canales: última versión de FP'
 seo-title: 'Asignación de canales: última versión de FP'
 description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
 feature: Creación en Screens, asignación de canales
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 23%
 
 ---
-
 
 # Asignación de canales {#channel-assignment}
 
@@ -57,7 +57,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Asignación de canales a una visualización {#assigning-channel-to-display}
+### Asignación de canales a una pantalla {#assigning-channel-to-display}
 
 Una vez completada la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
 
@@ -94,7 +94,7 @@ Una vez completada la configuración del proyecto, debe asignar el canal a una p
 
 1. Haga clic en **Guardar** una vez que haya configurado las preferencias.
 
-### Visualización del contenido en Chrome Player {#viewing-content-output}
+### Visualización del contenido en el reproductor Chrome {#viewing-content-output}
 
 Este ejemplo muestra la salida en un reproductor Chrome. Una vez asignado el canal a la pantalla, debe registrar el dispositivo en un reproductor.
 
