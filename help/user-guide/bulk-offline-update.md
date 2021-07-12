@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 8%
 
 ---
-
 
 # Actualización masiva sin conexión {#bulk-offline-update}
 
@@ -79,4 +79,3 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
    **Frecuencia** de programaciónEspecifique una hora, por ejemplo, a las 17:00 o a las 17:00, en la que este servicio debe actualizar el contenido sin conexión.
 
 1. Haga clic en **Guardar** para guardar la configuración y el contenido se actualizará a la hora especificada.
-
