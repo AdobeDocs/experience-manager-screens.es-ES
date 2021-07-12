@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
 
 ---
-
 
 # Servicio de notificaciones de AEM Screens{#aem-screens-notifications-service}
 
@@ -88,7 +88,7 @@ Siga los pasos a continuación para configurar las opciones de notificación por
 
 1. Haga clic en **Save** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
 
-## Notificación de correo electrónico {#email-notification}
+## Notificación por correo electrónico {#email-notification}
 
 Una vez configurada la configuración para las notificaciones por correo electrónico, recibirá una notificación por correo electrónico que contendrá el vínculo al dispositivo real del que se informa la inactividad.
 
