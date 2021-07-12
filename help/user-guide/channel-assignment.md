@@ -3,15 +3,15 @@ title: Asignación de canales
 seo-title: Asignación de canales
 description: Siga esta página para obtener más información sobre Asignación de canales y Partición de días.
 feature: Creación en Screens, asignación de canales
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 42%
 
 ---
-
 
 # Asignación de canales {#channel-assignment}
 
@@ -44,7 +44,7 @@ Siga los pasos a continuación para asignar un canal a una visualización:
    Puede configurar las propiedades desde el cuadro de diálogo **Asignación de canales** de la sección siguiente. Consulte la sección [Propiedades del canal](#channel-properties) para obtener más información sobre las propiedades del canal.
 
 
-## Explicación de las propiedades de canal de la asignación de canales {#channel-properties}
+## Explicación de las propiedades de canal a partir de la asignación de canales {#channel-properties}
 
 ### Canal de referencia {#ref-channel}
 
@@ -177,5 +177,4 @@ En este ejemplo se muestra DayParting para una tienda que muestra su colección 
 >
 >* [Gestión de la periodicidad en Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestión de la periodicidad para los recursos de un canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
