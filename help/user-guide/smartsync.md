@@ -10,15 +10,15 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administración de Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
 
 ---
-
 
 # Transición de ContentSync a SmartSync {#transitioning-from-contentsync-to-smartsync}
 
@@ -39,7 +39,7 @@ Se ejecuta en el lado del servidor y en el lado del cliente.
 
 * El reproductor actualiza su contenido en función del manifiesto generado anteriormente.
 
-### Beneficios del uso de SmartSync {#benefits-of-using-smartsync}
+### Ventajas del uso de SmartSync {#benefits-of-using-smartsync}
 
 La función SmartSync ofrece una serie de ventajas a su proyecto de AEM Screens. Permite
 
