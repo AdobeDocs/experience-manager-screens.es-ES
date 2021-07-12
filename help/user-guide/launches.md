@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Creación en Screens, lanzamientos
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Actualización de contenido con Screens Launch {#launches}
 
@@ -47,7 +47,7 @@ La ejecución de una experiencia en la fecha de lanzamiento establecida en el re
 
 * diferencias temporales entre el servidor y el reproductor
 
-### Explicación del período de gracia {#understanding-grace-period}
+### Comprender el período de gracia {#understanding-grace-period}
 
 Para que el reproductor pueda comenzar a reproducir el contenido en la fecha de lanzamiento establecida, debemos iniciar las actividades anteriores antes de la fecha de lanzamiento.
 
@@ -61,7 +61,7 @@ Así que, cada vez que programemos un lanzamiento en vivo, la promoción comenza
 >
 >De forma predeterminada, el período de gracia para Screens Launch se establece en 24 horas, lo que significa que, cuando establecemos la fecha de lanzamiento para cualquier lanzamiento de los recursos en */content/screens*, la promoción comenzará con este desplazamiento.
 
-### Actualización del período de gracia predeterminado {#updating-out-of-the-box-grace-period}
+### Actualización del período de gracia listo para usar {#updating-out-of-the-box-grace-period}
 
 En esta sección se explica cómo actualizar un período de gracia predeterminado a 10 minutos.
 
@@ -177,7 +177,7 @@ Siga los pasos a continuación para editar las propiedades del lanzamiento:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Edición del lanzamiento de Screens para añadir o eliminar canales {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edición del lanzamiento de Screens para añadir o eliminar canales  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Después de crear el lanzamiento, puede agregar o quitar canales al lanzamiento existente mediante la opción **Editar lanzamiento**.
 
@@ -200,11 +200,10 @@ Puede elegir los recursos que desea promocionar como parte de esta promoción ma
 1. Haga clic en **Siguiente** en el asistente **Promocionar lanzamiento**.
 1. Haga clic en **Promocionar** para promocionar el lanzamiento.
 
-### Eliminación de Screens Launch {#deleting-the-screens-launch}
+### Eliminación del lanzamiento de Screens {#deleting-the-screens-launch}
 
 Puede eliminar el lanzamiento utilizando la opción **Delete Launch** del panel **PENDING LAUNCHES**.
 
 >[!CAUTION]
 >
 >Esta acción también elimina todos los descendientes (lanzamientos anidados).
-
