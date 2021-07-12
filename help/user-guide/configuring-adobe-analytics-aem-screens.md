@@ -1,8 +1,8 @@
 ---
 title: Configuración de Adobe Analytics con AEM Screens
 seo-title: Configuración de Adobe Analytics con AEM Screens
-description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados con Adobe Analytics sin conexión '
-seo-description: 'Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados con Adobe Analytics sin conexión '
+description: Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados con Adobe Analytics sin conexión
+seo-description: Siga esta sección para obtener más información sobre la secuenciación y el envío de eventos personalizados con Adobe Analytics sin conexión
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administración de Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 11%
 
 ---
-
 
 # Configuración de Adobe Analytics con AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
@@ -38,7 +38,7 @@ Esta sección cubre los siguientes temas:
 
 El ***proceso de secuenciación*** comienza con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido del canal envía eventos de Adobe Analytics con nómina, es decir, captura de prueba de datos a Windows I/O y se activan eventos de estadía. Los eventos se guardan en la base de datos de índice y se colocan más adelante en el almacén de objetos. Según la programación, el administrador lo establece, corta los datos del almacén de objetos y los transfiere aún más en el almacén de bloques. Cuando está conectado, intenta enviar la máxima cantidad de datos.
 
-### Diagrama de secuencia {#sequencing-diagram}
+### Diagrama de secuencias {#sequencing-diagram}
 
 En el diagrama de secuenciación siguiente se explica la integración de Adobe Analytics con AEM Screens:
 
@@ -331,4 +331,3 @@ La siguiente tabla resume el modelo de datos estándar para los eventos. Enumera
   </tr>
  </tbody>
 </table>
-
