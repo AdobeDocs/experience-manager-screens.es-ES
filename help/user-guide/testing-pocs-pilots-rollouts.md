@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Información general
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
-
 
 # Parte 3: Pruebas, POC, programas piloto y lanzamientos {#part-testing-pocs-pilots-rollouts}
 
@@ -41,7 +41,7 @@ Este tutorial trata los siguientes puntos relevantes para una implementación co
 
 Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un entorno de venta minorista podrían ser: Marketing en tienda, Entorno de almacenamiento o Comercialización visual, Operaciones de almacenamiento, Seguridad de TI, Soporte de TI, la categoría de producto Comerciante y su Proveedor, que pueden estar cofinanciando la solución.
 
-## Resumen de los términos clave involucrados en un plan de proyecto general {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Resumen de términos clave involucrados en un plan de proyecto general {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 En la siguiente sección se ofrece una descripción general de los términos clave involucrados en un plan de proyecto general, como ciclo de proyecto, acciones relacionadas con las pruebas de hardware, Prueba de concepto, pilotos y lanzamientos.
 
@@ -62,7 +62,7 @@ Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de 
 * Conectividad
 * Flujos de trabajo de implementación de contenido, incluidas implementaciones manuales, automatizadas y condicionales.
 
-## Parte 3: Tutorial de vídeo sobre pruebas, puntos de interés, programas piloto y lanzamientos {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
+## Parte 3: Tutorial en vídeo sobre pruebas, puntos de interés, programas piloto y lanzamientos {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
 Siga el tutorial siguiente para comprender las pruebas, pruebas de concepto, programas piloto y lanzamientos.
 
