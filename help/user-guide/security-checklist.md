@@ -4,17 +4,17 @@ seo-title: Lista de comprobación de seguridad
 description: La página describe las áreas de seguridad clave con una lista de comprobación de preguntas y consideraciones.
 seo-description: La página describe la lista de comprobación de seguridad
 feature: Administración de Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# Lista de comprobación de seguridad de AEM Screens {#security-checklist}
+# Lista de comprobación de seguridad de AEM Screens  {#security-checklist}
 
 La página Lista de comprobación de seguridad de AEM Screens describe las áreas de seguridad clave con una lista de preguntas y consideraciones.
 
