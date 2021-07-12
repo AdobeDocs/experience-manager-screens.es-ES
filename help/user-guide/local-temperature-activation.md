@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
-
-# Activación de temperatura del centro de viajes {#travel-center-temperature-activation}
+# Activación de la temperatura del centro de viajes {#travel-center-temperature-activation}
 
 El siguiente caso de uso demuestra el uso de la activación de la temperatura local del centro de viajes en función de los valores rellenados en Google Sheets.
 
@@ -90,6 +90,4 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
 
    1. Haga clic en **Preview.** Además, abra la hoja de Google y actualice su valor.
    1. Si cambia el valor a menos de 50, debería poder ver la imagen de las bebidas del verano. Si el valor de la hoja de Google es 50 o bueno, debería poder ver una imagen de bebida caliente.
-
    ![result3](assets/result3.gif)
-
