@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Administración de Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
 
 ---
-
 
 # Información general sobre la arquitectura de creación y publicación {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ Hay cinco componentes arquitectónicos que facilitan esta solución:
 * ****** Mensajería entre instancias de publicación para sincronizar actualizaciones y comandos de información del dispositivo
 * ****** Polinización por parte del autor de instancias de publicación para obtener información del dispositivo a través de API de REST específicas
 
-### Replicación (reenvío) de contenido y configuraciones {#replication-forward-of-content-and-configurations}
+### Replicación (reenvío) de contenido y configuraciones  {#replication-forward-of-content-and-configurations}
 
 Los agentes de replicación estándar se utilizan para replicar el contenido del canal de pantallas, las configuraciones de ubicación y las configuraciones de dispositivos. Esto permite a los autores actualizar el contenido de un canal y, opcionalmente, pasar por algún tipo de flujo de trabajo de aprobación antes de publicar actualizaciones del canal. Se debe crear un agente de replicación para cada instancia de publicación en el conjunto de servidores de publicación.
 
@@ -73,13 +73,13 @@ El diagrama siguiente ilustra el proceso de replicación:
 >
 >Se debe crear un agente de replicación para cada instancia de publicación en el conjunto de servidores de publicación.
 
-### Comandos y agentes de replicación de Screens {#screens-replication-agents-and-commands}
+### Comandos y agentes de replicación de Screens  {#screens-replication-agents-and-commands}
 
 Se crean agentes de replicación específicos de Screens personalizados para enviar comandos desde la instancia Autor al dispositivo AEM Screens. Las instancias de AEM Publish sirven como intermediario para reenviar estos comandos al dispositivo.
 
 Esto permite a los autores seguir administrando el dispositivo, como, por ejemplo, enviar actualizaciones del dispositivo y tomar capturas de pantalla del entorno de creación. Los agentes de replicación de AEM Screens tienen una configuración de transporte personalizada, como los agentes de replicación estándar.
 
-### Mensajería entre instancias de publicación {#messaging-between-publish-instances}
+### Mensajería entre instancias de publicación  {#messaging-between-publish-instances}
 
 En muchos casos, un comando solo está pensado para enviarse a un dispositivo una sola vez. Sin embargo, en una arquitectura de publicación equilibrada de carga es desconocido a qué instancia de publicación se está conectando el dispositivo.
 
@@ -94,7 +94,7 @@ En muchos casos, tras un comando, se espera algún tipo de respuesta del disposi
 * Una replicación inversa en este contexto solo se utiliza para datos binarios (como, archivos de registro y capturas de pantalla) proporcionados por los dispositivos. Los datos no binarios se recuperan mediante sondeo.
 * La replicación inversa sondeada desde la instancia de autor de AEM recupera la respuesta y la guarda en la instancia de autor.
 
-### Encuesta de instancias publicadas {#polling-of-publish-instances}
+### Sondeo de instancias publicadas  {#polling-of-publish-instances}
 
 La instancia de autor debe poder sondear los dispositivos para obtener un latido y conocer el estado de un dispositivo conectado.
 
