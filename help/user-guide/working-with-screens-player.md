@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administración de Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 43%
 
 ---
-
 
 # Uso de AEM Screens Player {#working-with-aem-screens-player}
 
@@ -112,7 +112,7 @@ Para ver el conmutador de canales del reproductor, pulse de forma prolongada la 
 >
 >(Consulte *Cambiar preferencias del reproductor Screens* tal como se indica en la sección siguiente).
 
-### Preferencias de administración del reproductor AEM Screens  {#managing-preferences-from-the-aem-screens-player}
+### Preferencias de administración del reproductor AEM Screens {#managing-preferences-from-the-aem-screens-player}
 
 También puede cambiar las opciones de configuración de la administración de IU y el conmutador de canales desde el mismo reproductor.
 
