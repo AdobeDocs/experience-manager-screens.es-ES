@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: Creación en Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 4%
 
 ---
-
 
 # Duración de la reproducción masiva de imágenes en el nivel de canal {#channel-level-bulk-image-playback-duration}
 
@@ -37,7 +37,7 @@ Antes de empezar a implementar esta funcionalidad, asegúrese de que ha configur
 
 1. Añada contenido a **PlaybackChannel**.
 
-## Edición de la asignación de duración de la reproducción de imagen en el nivel de canal {#editing-channel-level-image-playback-duration-assignment}
+## Edición de la asignación de la duración de la reproducción de imagen en el nivel de canal {#editing-channel-level-image-playback-duration-assignment}
 
 En la sección siguiente se explica cómo editar la duración de la reproducción del contenido en un canal de AEM Screens.
 
@@ -77,4 +77,3 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 Una vez que haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), verá que las imágenes ahora se reproducirán durante 3 segundos en lugar de 8 segundos (valor predeterminado).
 
 ![channel_preview](assets/channel_preview.gif)
-
