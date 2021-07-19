@@ -6,9 +6,9 @@ feature: Información general, señalización digital
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 8%
 **Pantallas AEM (Adobe Experience Manager)** : una solución de señalización digital que le permite publicar interacciones y experiencias digitales dinámicas e interactivas que implican distintos tipos de pantallas junto con una plataforma de marketing digital completa.
 
 Empiece a trabajar con una experiencia de señalización digital sencilla, utilizando [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
+
+Para aprender a configurar y crear su proyecto de AEM Screens en AEM como Cloud Service, consulte [aquí](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Información general {#overview}
 
