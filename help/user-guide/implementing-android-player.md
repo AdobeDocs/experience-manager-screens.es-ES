@@ -14,9 +14,9 @@ feature: Administración de Screens, Reproductor de Android
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ Al implementar el reproductor de Android de forma masiva, resulta tedioso regist
 ## Asignación de nombre al reproductor Android {#name-android}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor Android, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor de Android, sino que también le permite asignar fácilmente el contenido adecuado.
+
+>[!NOTE]
+>Puede elegir el nombre del Jugador sólo antes de registrarse. Una vez registrado el Jugador, el nombre del Jugador ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Android:
 
