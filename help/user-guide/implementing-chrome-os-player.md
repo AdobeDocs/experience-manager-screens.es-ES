@@ -13,9 +13,9 @@ feature: Administración de Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ Siga los pasos a continuación para configurar la consola de administración de 
 ## Asignación del nombre al reproductor Chrome OS {#name-chrome}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor Chrome, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
+
+>[!NOTE]
+>Puede elegir el nombre del Jugador sólo antes de registrarse. Una vez registrado el Jugador, el nombre del Jugador ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Chrome:
 
