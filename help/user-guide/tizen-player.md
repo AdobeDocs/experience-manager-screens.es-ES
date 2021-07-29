@@ -5,9 +5,9 @@ feature: Administración de pantallas, reproductores
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,9 @@ Complete los siguientes pasos:
 ### Nomenclatura del reproductor Tizen {#name-tizen}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar a su reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
+
+>[!NOTE]
+>Puede elegir el nombre del Jugador sólo antes de registrarse. Una vez registrado el Jugador, el nombre del Jugador ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Tizen:
 
