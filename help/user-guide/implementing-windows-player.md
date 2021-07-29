@@ -14,9 +14,9 @@ feature: Administración de Screens, Reproductor de Windows
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,9 @@ Una vez descargada la aplicación, siga los pasos del reproductor para completar
 ## Nombre del reproductor de Windows {#name-windows}
 
 Puede asignar un nombre de dispositivo fácil de usar al reproductor de Windows, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite nombrar su reproductor de Windows, sino que también le permite asignar fácilmente el contenido adecuado.
+
+>[!NOTE]
+>Puede elegir el nombre del Jugador sólo antes de registrarse. Una vez registrado el Jugador, el nombre del Jugador ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor de Windows:
 
