@@ -7,7 +7,7 @@ feature: Administración de Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -135,7 +135,7 @@ Para habilitar la caché para los recursos de modo que se proporcionen los recur
 
 Asegúrese de permitir estos filtros y reglas de caché en los distribuidores que se encuentran delante de las instancias de publicación para el funcionamiento de Screens.
 
-## Requisitos previos para la versión v3 de manifiesto{#prerequisites3}
+### Requisitos previos para la versión v3 de manifiesto{#prerequisites3}
 
 Asegúrese de cumplir estos dos requisitos previos antes de configurar Dispatcher (versión de manifiesto v3) para AEM Screens:
 
