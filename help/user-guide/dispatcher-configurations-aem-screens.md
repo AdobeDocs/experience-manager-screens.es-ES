@@ -7,10 +7,10 @@ feature: Administración de Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -26,11 +26,19 @@ La siguiente página proporciona las directrices para configurar Dispatcher para
 >
 >Si no hay Dispatcher, deshabilite el servlet de registro en la lista de componentes de OSGi.
 
-## Requisitos previos {#pre-requisites}
+## Requisitos previos {#prerequisites}
 
-Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
+>[!IMPORTANT]
+>Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
+>Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
 
-Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
+Asegúrese de cumplir estos dos requisitos previos antes de utilizar la configuración de Dispatcher para AEM Screens:
+
+* Asegúrese de que está utilizando `v3 manifests`. Vaya a `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` y asegúrese de que `Enable ContentSync Cache` está desmarcada.
+
+* Asegúrese de que el agente de vaciado de Dispatcher esté configurado en `/etc/replication/agents.publish/dispatcher1useast1Agent` en la instancia de publicación.
+
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
