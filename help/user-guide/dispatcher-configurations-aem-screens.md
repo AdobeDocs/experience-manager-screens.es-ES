@@ -7,9 +7,9 @@ feature: Administración de Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ La siguiente página proporciona las directrices para configurar Dispatcher para
 Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
 Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
 
-## Configuración de Dispatcher {#configuring-dispatcher}
+## Configuración de Dispatcher para la versión de manifiesto v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >Las siguientes configuraciones de Dispatcher solo se aplican a la versión v2 de Manifiesto. Consulte [Configuraciones de Dispatcher para la versión de manifiesto v3](#configuring-dispatcherv3) para la versión v3 de manifiesto.
