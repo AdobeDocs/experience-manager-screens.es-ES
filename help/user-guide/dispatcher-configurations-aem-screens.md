@@ -7,9 +7,9 @@ feature: Administración de Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 4%
 
 ---
@@ -28,14 +28,13 @@ La siguiente página proporciona las directrices para configurar Dispatcher para
 
 ## Requisitos previos {#prerequisites}
 
->[!IMPORTANT]
->Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
->Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
+Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
+Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
 
 ## Configuración de Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Las siguientes configuraciones de Dispatcher solo se aplican a la versión v2 de Manifiesto. Consulte [Configuraciones de Dispatcher para la versión de manifiesto v3]{#configuring-dispatcherv3} para la versión V3 de manifiesto.
+>Las siguientes configuraciones de Dispatcher solo se aplican a la versión v2 de Manifiesto. Consulte [Configuraciones de Dispatcher para la versión de manifiesto v3](#configuring-dispatcherv3) para la versión v3 de manifiesto.
 
 Los reproductores o dispositivos de AEM Screens utilizan una sesión autenticada para acceder a los recursos de las instancias de publicación. Por lo tanto, cuando tiene varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de los reproductores o dispositivos de AEM Screens.
 
@@ -138,7 +137,7 @@ Asegúrese de permitir estos filtros y reglas de caché en los distribuidores qu
 
 ## Requisitos previos para la versión v3 de manifiesto{#prerequisites3}
 
-Asegúrese de cumplir estos dos requisitos previos antes de utilizar la configuración de Dispatcher para AEM Screens:
+Asegúrese de cumplir estos dos requisitos previos antes de configurar Dispatcher (versión de manifiesto v3) para AEM Screens:
 
 * Asegúrese de que está utilizando `v3 manifests`. Vaya a `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` y asegúrese de que `Enable ContentSync Cache` está desmarcada.
 
