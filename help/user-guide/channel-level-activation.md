@@ -3,13 +3,13 @@ title: 'Activación a nivel de canal: reproducción de un solo evento'
 seo-title: 'Activación a nivel de canal: reproducción de un solo evento'
 description: Siga esta guía para comprender la activación a nivel de canal mediante la reproducción de un solo evento.
 topic-tags: authoring
-feature: Creación en Screens, activación a nivel de canal
+feature: Creación en Screens, canales
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 72352b9ece8fde2d02b9fa0ccd25c6dfd7d602fd
+source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
