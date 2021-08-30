@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -90,13 +90,12 @@ Siga los pasos a continuación para añadir la aplicación interactiva REACT a A
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Asignar el canal a una pantalla
+1. Asigne el canal a una pantalla.
 
    >[!NOTE]
    >Asegúrese de añadir el evento de interacción del usuario al asignar el canal a la pantalla.
 
-1. 
-   1. Registre un reproductor en este proyecto y asígnelo a la pantalla. Ahora debería poder ver la aplicación interactiva que se ejecuta en AEM Screens.
+1. Registre un reproductor en este proyecto y asígnelo a la pantalla. Ahora debería poder ver la aplicación interactiva que se ejecuta en AEM Screens.
 
    Consulte [Registro de dispositivos](device-registration.md) para obtener información detallada sobre cómo registrar un dispositivo.
 
