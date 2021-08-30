@@ -1,26 +1,24 @@
 ---
 title: Preguntas frecuentes sobre AEM Screens
-seo-title: Preguntas frecuentes sobre AEM Screens
+seo-title: AEM Screens FAQs
 description: Siga esta página para obtener respuestas a las preguntas más frecuentes relacionadas con un proyecto de AEM Screens.
-seo-description: Siga esta página para obtener respuestas a las preguntas más frecuentes relacionadas con un proyecto de AEM Screens.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Señalización digital, contenido
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 1%
 
 ---
 
-
-# Preguntas más frecuentes de AEM Screens {#aem-screens-faqs}
+# Preguntas frecuentes sobre AEM Screens {#aem-screens-faqs}
 
 La siguiente sección proporciona respuestas a algunas de las preguntas frecuentes más frecuentes relacionadas con un proyecto de AEM Screens.
 
-## Problema de pantalla en blanco {#blank-screen}
+## Problema con la pantalla en blanco {#blank-screen}
 
 >[!NOTE]
 >Las comprobaciones obligatorias enumeradas que deben ser probadas por el soporte principal o por el soporte del lado del cliente antes de plantear un problema.
@@ -84,9 +82,9 @@ Se recomienda obtener el ID de dispositivo de la sesión en lugar de pasarlo com
 
 ### 3. ¿Existe alguna forma de rechazar una solicitud de registro de dispositivos? {#is-there-a-way-to-decline-a-device-registration-request}
 
-No puede rechazar las solicitudes de registro. En su lugar, las solicitudes de registro deben caducar después de un tiempo de espera configurado en [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). De forma predeterminada, este valor se establece en un día y se almacena en una caché de memoria.
+No puede rechazar las solicitudes de registro. En su lugar, las solicitudes de registro deben caducar después de un tiempo de espera configurado en `Adobe Experience Manager Web Console`. De forma predeterminada, este valor se establece en un día y se almacena en una caché de memoria.
 
-## Informes de estado y monitorización de dispositivos {#device-monitoring-and-health-reports}
+## Monitorización de dispositivos e informes de estado {#device-monitoring-and-health-reports}
 
 ### 1. ¿Cómo puedo solucionar problemas si mi reproductor AEM Screens muestra una pantalla en blanco? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
@@ -114,7 +112,7 @@ Un control de Android multiplataforma que utiliza API de Android puras ya forma 
 
 Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación del Reproductor de Android**](implementing-android-player.md).
 
-### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para supervisar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para monitorizar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Dependiendo de lo que desee de la supervisión y las alertas, una nueva función que el servicio de notificaciones de AEM Screens le notifica si un dispositivo no ha pasado un rato por el ping. Las herramientas de terceros dependerán del sistema operativo (OS), de sus capacidades y de las necesidades específicas del cliente.
 
@@ -148,7 +146,7 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 1. Vaya a **Opciones de desarrollador**
 1. Habilitar **Permanecer despierto**
 
-### 4. ¿Cómo habilitar el modo de ventana para el reproductor de Windows?{#enable-player}
+### 4. ¿Cómo habilitar el modo de ventana para el reproductor Windows?{#enable-player}
 
 No hay ningún modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
 
@@ -186,7 +184,7 @@ Puede obtener los detalles de la pantalla y el dispositivo mediante:
          ContextHub.getStore('screens-channels');
       ```
 
-## Consejos generales para la resolución de problemas {#general-troubleshooting-tips}
+## Sugerencias generales para la resolución de problemas {#general-troubleshooting-tips}
 
 ### 1. ¿Cómo deshabilitar Livefyre para evitar un error de Screens A/P? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
@@ -210,5 +208,3 @@ AEM Screens crea definiciones de índice para las consultas utilizadas por el pr
 Si hay *Query Traversal WARNs* en el `error.log`, cree un índice personalizado para la consulta. Consulte [Configuración de los índices](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) para obtener más información.
 
 También puede consultar un recurso adicional en [Documentación Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
