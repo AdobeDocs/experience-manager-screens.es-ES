@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 10%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
@@ -29,30 +29,23 @@ La fecha de versión del Feature Pack 202109 de AEM Screens es el 9 de septiembr
 
 ### Novedades {#what-is-new}
 
-* **Bloqueo de páginas en un canal de AEM Screens**
+* **Compatibilidad con miniaturas para vídeos**
 
-   AEM Screens ahora admite el *Bloqueo de una página*, como ya se ha implementado en AEM Sites. Adobe Experience Manager (AEM) le permite bloquear páginas para que nadie más pueda modificar su contenido. Esta función es útil cuando realice muchas ediciones en una página concreta o cuando tenga que congelar una página durante un rato.
+   Compatibilidad con miniaturas para vídeos en ahora se admite en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y el destino del contenido, mientras el equipo adecuado está finalizando el vídeo en sí. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
+Consulte Compatibilidad con miniaturas para vídeos para obtener más información.
 
-* **Asignación de nombre al dispositivo del reproductor AEM Screens**
+* **Monitorización de reproducción básica**
 
-   Los reproductores de AEM Screens ahora incluyen la capacidad de enviar un nombre de dispositivo a Adobe Experience Manager (AEM).
-De forma predeterminada, cuando se utiliza el registro masivo para registrar un dispositivo, se introduce un nombre de usuario generado por el sistema en el campo title . Como alternativa, un cliente puede utilizar una etiqueta de recurso u otro nombre descriptivo para que sea visible en AEM y más fácil asignar el contenido adecuado.
+   AEM Screens ahora es compatible con la monitorización de reproducción básica. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, proporciona la capacidad de detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo contenido correctamente, mejora la reacción a pantallas en blanco o experiencias rotas en el campo y disminuye el riesgo de mostrar una experiencia rota al usuario final.
+Consulte Supervisión de reproducción básica para obtener más información.
 
-   Consulte la siguiente documentación para aprender a configurar el nombre en cada sistema operativo compatible:
+* **Actualizaciones del informe de asignación de contenido**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Sistema operativo Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Generación de manifiestos**
-
-   Generación más rápida de manifiestos de canal con un rendimiento mejorado, como la asignación de menos recursos al servidor.
 
 ### Corrección de errores {#bug-fixes}
 
-* El reproductor mostraba una pantalla negra al cambiar al canal que contenía una secuencia integrada dinámica.
-* Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evite aún más el error 404 o una página con un mensaje de error.
+
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
