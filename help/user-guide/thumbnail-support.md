@@ -2,7 +2,7 @@
 title: Compatibilidad con miniaturas para vídeos en AEM Screens
 description: En esta página se describe cómo agregar compatibilidad con miniaturas para vídeos en Screens.
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ La compatibilidad con miniaturas le permite:
 Siga los pasos a continuación para usar miniaturas en vídeos:
 
 1. Vaya a un canal Screens existente o cree un canal nuevo.
-
 
 1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
