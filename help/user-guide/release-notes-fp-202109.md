@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ Consulte Compatibilidad con miniaturas para vídeos para obtener más informaci�
 Consulte Supervisión de reproducción básica para obtener más información.
 
 * **Actualizaciones del informe de asignación de contenido**
+
+   El informe de asignación de contenido ahora se optimiza y mejora con la experiencia del usuario mejorada. El informe descargable muestra las entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos, en una ficha de hoja de cálculo, así como la información del proveedor de contenido, como los canales y los recursos, en otra ficha.
 
 * **Compatibilidad con los manifiestos V3**
 
