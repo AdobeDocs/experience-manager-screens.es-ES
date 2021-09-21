@@ -2,10 +2,10 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,7 @@ Por lo tanto, si ha implementado una variedad de dispositivos, el uso de esta fu
 
 Las representaciones adaptables se basan en la idea de tener varias representaciones de recursos con el nombre según una convención de nombres específica. La decisión de reproducir una representación específica se toma al evaluar las expresiones de consulta de medios que solo se pueden resolver en dispositivos con capacidades esperadas. La capacidad de tener un patrón de nomenclatura de representación asociado define una regla de asignación de representación. Después de calcular todas las expresiones disponibles, el reproductor Screens recopilará los patrones de nomenclatura correspondientes a las reglas coincidentes. Los patrones se utilizan para encontrar las representaciones correctas durante la reproducción de la secuencia buscando los patrones en los nombres de representación.
 
+![image](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## Configuración del uso de representaciones adaptables {#setup-adaptive-renditions}
 
@@ -36,27 +37,36 @@ Para habilitar la función Representaciones adaptables, las reglas de asignació
    >[!NOTE]
    >Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
 
+   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
 1. Asegúrese de que el proyecto Screens tenga asociada la configuración de asignación de representación.
 
    * Cada nuevo proyecto creado con el asistente de proyecto Screens contendrá una referencia que señala a la configuración de asignación de representación.
 
+      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+
    * En una versión anterior de los proyectos de Screens, se requiere que la asociación se defina explícitamente añadiendo la propiedad `sling:configRef` que señala `/conf/screens` al nodo de contenido del proyecto.
+
+      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Estrategia de migración {#migration-strategy}
 
 >[!IMPORTANT]
 >Para las redes grandes, se recomienda que la migración se realice gradualmente para mitigar los riesgos, ya que la función introducirá cambios en el formato de manifiesto y almacenamiento de archivos.
 
-Para habilitar la función, agregue al menos una regla de asignación y asegúrese de que la configuración de asignación de representación se pueda resolver en el contexto de visualizaciones y canales:
+En el diagrama siguiente se describe la estrategia de migración para las redes grandes:
 
-1. Agregar reglas de asignación de representación.
+![image](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+Para habilitar la función, agregue al menos una regla de asignación y asegúrese de que la configuración de asignación de representación se pueda resolver en el contexto de las visualizaciones y los canales. Siga los pasos a continuación para migrar:
+
+1. Agregar [Reglas de asignación de representación](#adding-rendition-mapping-rules).
 1. Cree una carpeta para nuevos canales y añada una referencia que señale a la configuración de asignación de representaciones.
 1. Cree nuevos canales reemplazando los antiguos y cargando representaciones.
 1. Vuelva a asignar pantallas a los nuevos canales.
-1. Agregue una referencia a las visualizaciones/ubicaciones migradas que apunten a la configuración de asignación de representación.
+1. Agregue una referencia a las visualizaciones migradas o a las ubicaciones que apunten a la configuración de asignación de representación.
 1. Repita los pasos 3, 4 y 5 para todos los canales y pantallas restantes.
-1. Después de terminar con la migración, elimine todas las referencias de configuración de canales, visualizaciones/ubicaciones y agregue una sola al nodo de contenido del proyecto.
+1. Después de completar la migración, elimine todas las referencias de configuración de los canales, las pantallas y las ubicaciones y agregue una sola al nodo de contenido del proyecto.
 
 ## Configuración de autor y publicación {#setup-author-publish}
 
@@ -66,7 +76,7 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 * Las representaciones de recursos no se replican de forma predeterminada. Todos los recursos relevantes deben replicarse manualmente.
 
-## Adición de reglas de asignación de representación {#adding-rendition-mapping-rules}
+## Adición de reglas de asignación de representación {#add-rendition-mapping-rules}
 
 1. Para añadir una regla de asignación, debe crear un nodo de tipo `nt:unstructured` en el nodo de asignación de representación.
 
@@ -77,6 +87,9 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 1. Agregue la propiedad pattern con el valor que contiene el patrón de nomenclatura de representación que se seleccionará, si la expresión se evalúa como verdadera.
 
+   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+
+
 ## Carga de representaciones {#upload-renditions}
 
 1. Cree una versión del recurso que se adapte mejor a la visualización de señalización, por ejemplo, `portrait orientation`.
@@ -85,8 +98,9 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 1. Cambie el nombre del archivo de recursos para que contenga el patrón, por ejemplo, `my_asset_portrait.png`.
 
-1. Cargue la representación haciendo clic en el botón Añadir representación de la barra de herramientas.
+1. Haga clic en **Add Rendition** para cargar la representación, como se muestra en la figura siguiente.
 
+   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## Pasos siguientes {#next-steps}
 
