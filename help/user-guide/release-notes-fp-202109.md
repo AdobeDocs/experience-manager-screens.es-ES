@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -59,17 +59,15 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * Ahora puede configurar alertas de demora basadas en registros de fragmento.
 
-* Mejore el ping para volver a autenticarse si la respuesta no es JSON válido.
+* ping mejorado para volver a autenticarse si la respuesta no es JSON válida.
 
 * Los nombres y roles de canales numéricos provocaron una pantalla en blanco.
 
 * Descargue representaciones optimizadas mediante SmartSync.
 
-* Transforme la asignación en una lista de claves de representación.
+* Se ha transformado la asignación en una lista de claves de representación.
 
-* Elimine el acceso a cmd.exe y reg.exe en el reproductor de windows.
-
-* Limite llamadas de token csrf.
+* Se ha eliminado el acceso a `cmd.exe` y `reg.exe` en el reproductor de windows.
 
 * Un reproductor debe informar de su último evento de reproducción exitoso.
 
@@ -83,7 +81,7 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * Si el reproductor se vuelve a cargar mientras se descarga la actualización del canal, el reproductor ignora la actualización.
 
-* El componente de página integrada no respeta el evento táctil.
+* El componente de página integrada ahora respeta el evento táctil.
 
 * Ahora se admite el aprovisionamiento remoto del reproductor Tizen.
 
@@ -100,13 +98,11 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * Actualice automáticamente el manifiesto de canal si se publica la página a la que se hace referencia.
 
-* Canales JSON no incluye canales personalizados (#942)
-
 * Los dispositivos eliminados ahora no bloquean la cola de replicación de Screens.
 
-* El manifiesto no contiene contenido de destino ni páginas incrustadas en Sitios.
+* El manifiesto no contenía contenido de destino ni páginas incrustadas de Sites. Esto se ha corregido.
 
-* El nuevo componente de imagen principal no se ha agregado al manifiesto del canal.
+* El nuevo componente de imagen principal ahora se agrega al manifiesto del canal.
 
 * Ahora se admite la descarga de representaciones optimizadas mediante SmartSync.
 
@@ -118,14 +114,11 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * Manifiesto sin conexión utilizando el parámetro de solicitud `wcmmode` para la entrada html, lo que hace que no se pueda almacenar en caché.
 
-* La secuencia integrada dinámica vacía a veces causa una pantalla en blanco.
+* La secuencia integrada dinámica vacía a veces causaba una pantalla en blanco.
 
-* Un reproductor debe informar de su estado de reproducción.
+* El reproductor ahora informa de su estado de reproducción.
 
-* El vídeo se está reproduciendo en `Tiny mode` y no se reproduce como vídeo de pantalla completa en el dispositivo.
-
-* Las contraseñas de OSGi se pueden ver como texto sin formato.
-
+* El vídeo se estaba reproduciendo en `Tiny mode` y no se reproduciendo como vídeo de pantalla completa en el dispositivo, por lo que el problema se ha solucionado ahora.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
