@@ -2,10 +2,10 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: En esta página se describe cómo utilizar las representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,13 @@ Por lo tanto, si ha implementado una variedad de dispositivos, el uso de esta fu
 ## Requisitos previos {#pre-reqs}
 
 >[!IMPORTANT]
->Antes de empezar a utilizar Representaciones adaptables, en un canal de AEM Screens, se recomienda conocer la Información general de arquitectura y la configuración de esta función. Consulte Representaciones adaptables para obtener más información.
+>Antes de empezar a utilizar Representaciones adaptables, en un canal de AEM Screens, se recomienda conocer la Información general de arquitectura y la configuración de esta función. Consulte Representaciones adaptables: Información general de arquitectura y configuraciones para obtener más información.
 
-## Uso de representaciones adaptables {#using-adaptive-renditions}
+## Uso de representaciones adaptables en un canal de AEM Screens {#using-adaptive-renditions}
+
+Una vez que haya añadido reglas de asignación y cargado representaciones, ahora puede utilizar Representaciones adaptables en sus recursos en un canal de AEM Screens.
+
+Complete los siguientes pasos:
+
+
 
