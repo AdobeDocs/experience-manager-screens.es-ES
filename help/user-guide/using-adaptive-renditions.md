@@ -2,14 +2,14 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: En esta página se describe cómo utilizar las representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# Uso de representaciones adaptables {#adaptive-renditions}
+# Uso de representaciones adaptables en AEM Screens {#adaptive-renditions}
 
 ## Introducción {#introduction}
 

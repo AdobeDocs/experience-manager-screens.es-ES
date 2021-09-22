@@ -2,7 +2,7 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Las representaciones adaptables se basan en la idea de tener varias representaci
 
 ## Configuración del uso de representaciones adaptables {#setup-adaptive-renditions}
 
-Para habilitar la función Representaciones adaptables, las reglas de asignación deben estar presentes y la configuración de CA debe resolverse para los canales y visualizaciones:
+Para habilitar la función Representaciones adaptables, las reglas de asignación deben estar presentes y la Configuración según el contexto debe resolverse para los canales y muestra:
 
 1. Compruebe si la configuración de asignación de representación existe en `JCR`. Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
 
