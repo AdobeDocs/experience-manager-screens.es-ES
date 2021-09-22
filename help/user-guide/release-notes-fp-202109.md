@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '842'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens ha lanzado AEM 6.5 Feature Pack 9.
 
-Puede descargar el último paquete de funciones para la versión 6.5.9 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último feature pack titulado como **AEM 6.5 Screens FP9**.
+Puede descargar el último paquete de funciones para la versión 6.5.9 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último feature pack titulado como **AEM 6.5 Screens FP9**.
 
 ## Fecha de la versión {#release-date}
 
@@ -42,6 +42,14 @@ Consulte Supervisión de reproducción básica para obtener más información.
 * **Actualizaciones del informe de asignación de contenido**
 
    El informe de asignación de contenido ahora se optimiza y mejora con la experiencia del usuario mejorada. El informe descargable muestra las entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos, en una ficha de hoja de cálculo, así como la información del proveedor de contenido, como los canales y los recursos, en otra ficha.
+
+* **Representaciones adaptables**
+
+   Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
+
+   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte Representaciones adaptables: Información general de arquitectura y configuraciones para obtener más información.
+
+   Además, como autor de contenido de AEM Screens, ahora puede utilizar Representaciones adaptables en su proyecto de AEM Screens y aplicar también una estrategia de migración para redes grandes. Consulte Uso de representaciones adaptables para obtener más información.
 
 * **Compatibilidad con los manifiestos V3**
 
