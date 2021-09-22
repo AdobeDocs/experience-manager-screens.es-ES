@@ -2,10 +2,10 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ La capacidad de tener un patrón de nomenclatura de representación asociado def
 
 ![image](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Configuración del uso de representaciones adaptables {#setup-adaptive-renditions}
+## Adición de una propiedad de asignación de representación al proyecto Screens {#rendition-mapping-new}
 
 Para habilitar la función Representaciones adaptables, deben estar presentes las siguientes reglas de asignación y la configuración según el contexto (CA) debe resolverse para canales y pantallas.
 
@@ -37,22 +37,22 @@ Para habilitar la función Representaciones adaptables, deben estar presentes la
 
 Siga los pasos a continuación para configurar la configuración:
 
-1. Vaya a **CRXDE Lite**. Compruebe si la configuración **rendition-mapping** existe en `JCR`, como se muestra en la figura siguiente.
+1. Vaya a **CRXDE Lite**. Compruebe si la configuración **rendition-mapping** existe en `/conf/screens/sling:configs/rendition-mapping`, como se muestra en la figura siguiente.
 
-   >[!NOTE]
-   >Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
+   >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Si ha instalado el último Feature Pack 202109, verá **rendition-mapping** estructura de nodos previamente rellenada en `/conf/screens/sling:configs/rendition-mapping` en el CRXDE Lite. Consulte [Notas de la versión para Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) para obtener más información sobre el paquete de funciones más reciente.
+   >Para los proyectos existentes, asegúrese de que el proyecto Screens tenga asociada la configuración **rendition-mapping**. Consulte [Adición de asignaciones de representación a un proyecto existente](#rendition-mapping-existing) para obtener más información.
 
-1. Asegúrese de que el proyecto Screens tenga asociada la configuración de asignación de representación.
+### Adición de una propiedad de asignación de representación a un proyecto existente {#rendition-mapping-existing}
 
-   * Cada nuevo proyecto creado con el asistente de proyecto Screens contendrá una referencia que señala a la configuración de **rendition-mapping**.
+1. Vaya a **CRXDE Lite**.
 
-      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Defina explícitamente la asociación de asignación de representación añadiendo la propiedad `sling:configRef` que señala `/conf/screens` al nodo de contenido del proyecto, como se muestra en la figura siguiente.
 
-   * En una versión anterior de los proyectos de Screens, debe definir explícitamente la asociación añadiendo la propiedad `sling:configRef` que señala `/conf/screens` al nodo de contenido del proyecto.
+   ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Configuración de autor y publicación {#setup-author-publish}
 
