@@ -2,10 +2,10 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
+source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -18,26 +18,26 @@ Las representaciones adaptables permiten a los dispositivos seleccionar automát
 
 ## Objetivo {#objective}
 
-Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Debe configurar las representaciones adaptables para que un autor de contenido pueda utilizar esta función en un canal de AEM Screens.
-
-Por lo tanto, si ha implementado una variedad de dispositivos, el uso de esta función permitirá que el dispositivo descargue y reproduzca automáticamente la representación más adecuada de un recurso en función de las reglas.
+Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Debe configurar las Representaciones adaptables para que un autor de contenido pueda utilizar esta función en un canal de AEM Screens.
 
 ## Información general de arquitectura {#architectural-overview}
 
-Las representaciones adaptables se basan en la idea de tener varias representaciones de recursos con el nombre según una convención de nombres específica. La decisión de reproducir una representación específica se toma al evaluar las expresiones de consulta de medios que solo se pueden resolver en dispositivos con capacidades esperadas. La capacidad de tener un patrón de nomenclatura de representación asociado define una regla de asignación de representación. Después de calcular todas las expresiones disponibles, el reproductor Screens recopilará los patrones de nomenclatura correspondientes a las reglas coincidentes. Los patrones se utilizan para encontrar las representaciones correctas durante la reproducción de la secuencia buscando los patrones en los nombres de representación.
+Las representaciones adaptables se basan en la idea de tener varias representaciones de recursos con el nombre según una convención de nombres específica. La decisión de reproducir una representación específica se toma al evaluar las expresiones de consulta de medios que solo se pueden resolver en dispositivos con capacidades esperadas.
+
+La capacidad de tener un patrón de nomenclatura de representación asociado define una regla de asignación de representación, como vertical u horizontal, como se muestra en la figura siguiente. Después de calcular todas las expresiones disponibles, el reproductor Screens recopilará los patrones de nomenclatura correspondientes a las reglas coincidentes. Los patrones se utilizan para encontrar las representaciones correctas durante la reproducción de la secuencia buscando los patrones en los nombres de representación.
 
 ![image](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## Configuración del uso de representaciones adaptables {#setup-adaptive-renditions}
 
-Para habilitar la función Representaciones adaptables, las reglas de asignación deben estar presentes y la configuración según el contexto (CA) debe resolverse para canales y pantallas.
+Para habilitar la función Representaciones adaptables, deben estar presentes las siguientes reglas de asignación y la configuración según el contexto (CA) debe resolverse para canales y pantallas.
 
 >[!NOTE]
 >Para obtener más información sobre las configuraciones según el contenido, consulte [aquí](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Siga los pasos a continuación para configurar la configuración:
 
-1. Compruebe si la configuración de asignación de representación existe en `JCR`. Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
+1. Vaya a **CRXDE Lite**. Compruebe si la configuración **rendition-mapping** existe en `JCR`, como se muestra en la figura siguiente.
 
    >[!NOTE]
    >Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
@@ -46,11 +46,11 @@ Siga los pasos a continuación para configurar la configuración:
 
 1. Asegúrese de que el proyecto Screens tenga asociada la configuración de asignación de representación.
 
-   * Cada nuevo proyecto creado con el asistente de proyecto Screens contendrá una referencia que señala a la configuración de asignación de representación.
+   * Cada nuevo proyecto creado con el asistente de proyecto Screens contendrá una referencia que señala a la configuración de **rendition-mapping**.
 
       ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
 
-   * En una versión anterior de los proyectos de Screens, se requiere que la asociación se defina explícitamente añadiendo la propiedad `sling:configRef` que señala `/conf/screens` al nodo de contenido del proyecto.
+   * En una versión anterior de los proyectos de Screens, debe definir explícitamente la asociación añadiendo la propiedad `sling:configRef` que señala `/conf/screens` al nodo de contenido del proyecto.
 
       ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
@@ -64,7 +64,7 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 ## Adición de reglas de asignación de representación {#add-rendition-mapping-rules}
 
-1. Para añadir una regla de asignación, debe crear un nodo de tipo `nt:unstructured` en el nodo de asignación de representación.
+1. Para añadir una regla de asignación, debe crear un nodo de tipo `nt:unstructured` en el nodo **rendition-mapping**.
 
 1. Agregue la propiedad expression con el valor que contiene la expresión de consulta.
 
@@ -74,7 +74,6 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 1. Agregue la propiedad pattern con el valor que contiene el patrón de nomenclatura de representación que se seleccionará, si la expresión se evalúa como verdadera.
 
    ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
-
 
 
 ## Pasos siguientes {#next-steps}
