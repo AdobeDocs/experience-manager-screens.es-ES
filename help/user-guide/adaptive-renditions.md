@@ -2,10 +2,10 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,12 @@ Las representaciones adaptables se basan en la idea de tener varias representaci
 
 ## Configuración del uso de representaciones adaptables {#setup-adaptive-renditions}
 
-Para habilitar la función Representaciones adaptables, las reglas de asignación deben estar presentes y la Configuración según el contexto debe resolverse para los canales y muestra:
+Para habilitar la función Representaciones adaptables, las reglas de asignación deben estar presentes y la configuración según el contexto (CA) debe resolverse para canales y pantallas.
+
+>[!NOTE]
+>Para obtener más información sobre las configuraciones según el contenido, consulte [aquí](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Siga los pasos a continuación para configurar la configuración:
 
 1. Compruebe si la configuración de asignación de representación existe en `JCR`. Todos los paquetes de funciones más recientes tienen esta estructura de nodos previamente rellenada.
 
@@ -74,4 +79,4 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 ## Pasos siguientes {#next-steps}
 
-Una vez que haya configurado y cargado las representaciones, como Autor de contenido, ahora puede utilizar Representaciones adaptables y también migrar los dispositivos para aplicar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+Una vez que haya configurado y cargado las representaciones, como Autor de contenido, ahora puede utilizar Representaciones adaptables y también migrar los dispositivos de redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
