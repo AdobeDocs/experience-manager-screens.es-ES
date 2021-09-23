@@ -2,9 +2,9 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: En esta página se describe cómo utilizar las representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
+source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,7 @@ Las representaciones adaptables permiten a los dispositivos seleccionar automát
 ## Objetivo {#objective}
 
 Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
-
-Por lo tanto, si ha implementado una variedad de dispositivos, el uso de esta función permitirá que el dispositivo descargue y reproduzca automáticamente la representación más adecuada de un recurso en función de las reglas.
+Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, ya está listo para aplicar la asignación de representación a los recursos y, posteriormente, incluirlos en un canal de AEM Screens.
 
 >[!IMPORTANT]
 >Antes de empezar a utilizar Representaciones adaptables, en un canal de AEM Screens, se recomienda conocer la Información general de arquitectura y la configuración de esta función. Consulte Representaciones adaptables: Información general de arquitectura y configuraciones para obtener más información.
