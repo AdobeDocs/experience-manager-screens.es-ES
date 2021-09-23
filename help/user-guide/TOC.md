@@ -6,9 +6,9 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '460'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 19%
    + [Transición de ContentSync a SmartSync](smartsync.md)
    + [Nuevo Importador de proyectos desde archivo](project-importer.md)
    + [Duplicación de Déclencheur de datos en servidores de publicación](replicating-data-triggers.md)
-   + [Compatibilidad con miniaturas para vídeos](thumbnail-support.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso de Chrome Player como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
@@ -52,7 +51,7 @@ ht-degree: 19%
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Ejemplos de casos de autor y uso {#authoring}
++ Ejemplos de casos de uso y creación {#authoring}
    + Configuración de un proyecto de Screens {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Crear y administrar canales](managing-channels.md)
@@ -82,6 +81,7 @@ ht-degree: 19%
       + [Creación con Déclencheur de datos](authoring-data-triggers.md)
       + [Reconocimiento de voz](voice-recognition.md)
       + [Informe de asignación de contenido](content-assignment-report.md)
+      + [Compatibilidad con miniaturas para vídeos](thumbnail-support.md)
    + Administración de actualizaciones de contenido {#content-updates}
       + [Actualización de contenido bajo demanda](on-demand-content.md)
       + [Actualización del contenido como servicio](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 19%
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Creación de plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de personalización de marca y estilo para superposiciones de texto](custom-branding-text-overlays.md)
+   + [Representaciones adaptables: Información general y configuraciones de arquitectura](/help/user-guide/adaptive-renditions.md)
 + Resolución de problemas y preguntas más frecuentes {#troubleshooting}
    + [Preguntas frecuentes sobre AEM Screens](aem-screens-faqs.md)
    + [Resolución de problemas del centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión para Feature Pack 202109](release-notes-fp-202109.md)
    + [Notas de la versión para Feature Pack 202105](release-notes-fp-202105.md)
    + [Notas de la versión para Feature Pack 202103](release-notes-fp-202103.md)
    + [Notas de la versión del Feature Pack 202011](release-notes-fp-202011.md)

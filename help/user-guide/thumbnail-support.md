@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con miniaturas para vídeos en AEM Screens
 description: En esta página se describe cómo agregar compatibilidad con miniaturas para vídeos en Screens.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Siga los pasos a continuación para usar miniaturas en vídeos:
 
 1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Añada o edite un componente de vídeo existente, como se muestra en la figura siguiente.
+
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Seleccione el vídeo y haga clic en el icono *llave inglesa* para abrir las propiedades del vídeo.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. Se abre el cuadro de diálogo **Vídeo** donde verá la zona de colocación **Miniatura**.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Arrastre y suelte una imagen del selector de recursos en la zona de colocación **Miniatura** y haga clic en **Listo**.
+
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Haga clic en **Preview**.
 

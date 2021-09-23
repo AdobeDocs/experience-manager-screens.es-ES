@@ -1,10 +1,9 @@
 ---
-title: Representaciones adaptables en AEM Screens
-description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Descripción general y configuraciones de la arquitectura de representaciones adaptables
+description: Esta página describe la Información general de arquitectura y las configuraciones de CRXDE Lite para representaciones adaptables en AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -54,14 +53,6 @@ Siga los pasos a continuación para configurar la configuración:
    ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Configuración de autor y publicación {#setup-author-publish}
-
-Considere las siguientes recomendaciones en Autor y Publicación antes de utilizar Representaciones adaptables:
-
-* La asignación de representación debe duplicarse manualmente.
-
-* Las representaciones de recursos no se replican de forma predeterminada. Todos los recursos relevantes deben replicarse manualmente.
-
 ## Adición de reglas de asignación de representación {#add-rendition-mapping-rules}
 
 Siga los pasos a continuación para agregar un nodo en Asignación de representación:
@@ -102,4 +93,4 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
 ## Pasos siguientes {#next-steps}
 
-Una vez añadidas las propiedades y reglas de asignación de representaciones, ahora como Autor de contenido, puede configurar los recursos para que utilicen Representaciones adaptables y también migrar los dispositivos de grandes redes para que utilicen esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+Una vez añadidas las propiedades y reglas de asignación de representaciones, ahora como Autor de contenido, puede configurar los recursos para que utilicen Representaciones adaptables y también migrar los dispositivos de grandes redes para que utilicen esta función en los canales de AEM Screens.

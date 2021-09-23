@@ -2,7 +2,7 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: En esta página se describe cómo utilizar las representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ Para habilitar la función, agregue al menos una regla de asignación y asegúre
 
    >[!NOTE]
    >Después de completar la migración, asegúrese de eliminar todas las referencias de configuración de los canales, las pantallas y las ubicaciones y de agregar una sola al nodo de contenido del proyecto.
-
 
 ## Carga de representaciones y uso de representaciones adaptables en un canal de AEM Screens {#upload-renditions}
 
