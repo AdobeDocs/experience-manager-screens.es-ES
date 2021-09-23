@@ -1,16 +1,16 @@
 ---
 title: Informe de asignación de contenido
 description: En esta página se describe la descarga y el uso del informe de asignación de contenido.
-feature: Creación en Screens
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
-
 
 # Informe de asignación de contenido {#content-assignment-report}
 
@@ -51,10 +51,13 @@ Siga las instrucciones que se indican a continuación para descargar el informe 
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. La hoja de cálculo descargada consta de dos fichas, como **Ubicaciones** y **Contenido**. La ficha Ubicación muestra cuatro columnas, como **Ubicaciones**, **Muestra**, **Canales** y **Dispositivos**, que pueden utilizarse para investigar más a fondo estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
+
+   ![image](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >La hoja de cálculo descargada consta de cuatro columnas, como **Channels**, **Assets**, **Display** y **Devices**, que pueden utilizarse para investigar más a fondo estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
+   >Los datos mostrados en la hoja de cálculo se ordenan alfabéticamente en un formato fácil de leer.
 
-1. Se descarga una hoja de Excel al equipo local con el nombre idéntico al nombre del proyecto de AEM Screens con el prefijo . Por ejemplo, si el nombre del proyecto es **DemoScreens**, el nombre de archivo descargado será **demoscreens-content-assign-report.xlxs**.
+1. Puede hacer clic en cualquiera de los canales en la columna **Channels** para abrir la pestaña **Content** que le conducirá directamente a ese canal y también le proporcionará información sobre los recursos (imágenes y vídeos) asociados a ese canal específico, como se muestra en la figura siguiente.
 
-   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

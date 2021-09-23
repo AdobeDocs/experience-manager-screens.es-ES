@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -32,24 +32,25 @@ La fecha de versión del Feature Pack 202109 de AEM Screens es el 23 de septiemb
 * **Compatibilidad con miniaturas para vídeos**
 
    Compatibilidad con miniaturas para vídeos en ahora se admite en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y el destino del contenido, mientras el equipo adecuado está finalizando el vídeo en sí. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
-Consulte Compatibilidad con miniaturas para vídeos para obtener más información.
+Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obtener más información.
 
 * **Monitorización de reproducción básica**
 
    AEM Screens ahora es compatible con la monitorización de reproducción básica. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, proporciona la capacidad de detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo contenido correctamente, mejora la reacción a pantallas en blanco o experiencias rotas en el campo y disminuye el riesgo de mostrar una experiencia rota al usuario final.
-Consulte Supervisión de reproducción básica para obtener más información.
+Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obtener más información.
 
 * **Actualizaciones del informe de asignación de contenido**
 
    El informe de asignación de contenido ahora se optimiza y mejora con la experiencia del usuario mejorada. El informe descargable muestra las entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos, en una ficha de hoja de cálculo, así como la información del proveedor de contenido, como los canales y los recursos, en otra ficha.
+Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 * **Representaciones adaptables**
 
    Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
-   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte Representaciones adaptables: Información general de arquitectura y configuraciones para obtener más información.
+   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
 
-   Además, como autor de contenido de AEM Screens, ahora puede utilizar Representaciones adaptables en su proyecto de AEM Screens y aplicar también una estrategia de migración para redes grandes. Consulte Uso de representaciones adaptables para obtener más información.
+   Además, como autor de contenido de AEM Screens, ahora puede utilizar Representaciones adaptables en su proyecto de AEM Screens y aplicar también una estrategia de migración para redes grandes.
 
 * **Compatibilidad con los manifiestos V3**
 
