@@ -2,9 +2,9 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -102,4 +102,4 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
 ## Pasos siguientes {#next-steps}
 
-Una vez que haya configurado y cargado las representaciones, como Autor de contenido, ahora puede utilizar Representaciones adaptables y también migrar los dispositivos de redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+Una vez añadidas las propiedades y reglas de asignación de representaciones, ahora como Autor de contenido, puede configurar los recursos para que utilicen Representaciones adaptables y también migrar los dispositivos de grandes redes para que utilicen esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
