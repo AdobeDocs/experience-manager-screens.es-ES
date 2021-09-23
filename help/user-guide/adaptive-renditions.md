@@ -2,9 +2,9 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -86,9 +86,10 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Agregue la propiedad pattern con el valor que contiene el patrón de nomenclatura de la representación.
 
-
-1. Agregue la propiedad pattern con el valor que contiene el patrón de nomenclatura de representación que se seleccionará, si la expresión se evalúa como verdadera.
+   >[!NOTE]
+   >El valor definido en la propiedad pattern coincidirá con la nueva representación de recursos y se seleccionará, si la expresión se evalúa como verdadera.
 
    Para añadir la propiedad pattern , haga clic en **rule1** que ha creado e introduzca **pattern** en **Name** y **horizontal** en **Value**, como se muestra a continuación. Haga clic en **Add**.
 
