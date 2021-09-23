@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 * Se han resuelto errores de almacenamiento en caché de archivos al reemplazar recursos por representaciones.
 
 * Los reproductores ahora solo muestran las representaciones de recursos si está presente la asignación de representación.
-
-* Ahora puede configurar alertas de demora basadas en registros de fragmento.
 
 * ping mejorado para volver a autenticarse si la respuesta no es JSON válida.
 

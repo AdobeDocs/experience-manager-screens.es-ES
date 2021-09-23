@@ -2,9 +2,9 @@
 title: Representaciones adaptables en AEM Screens
 description: Esta página describe la Información general de arquitectura y las configuraciones para representaciones adaptables en AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -64,16 +64,39 @@ Considere las siguientes recomendaciones en Autor y Publicación antes de utiliz
 
 ## Adición de reglas de asignación de representación {#add-rendition-mapping-rules}
 
-1. Para añadir una regla de asignación, debe crear un nodo de tipo `nt:unstructured` en el nodo **rendition-mapping**.
+Siga los pasos a continuación para agregar un nodo en Asignación de representación:
 
-1. Agregue la propiedad expression con el valor que contiene la expresión de consulta.
+1. Vaya a esta ruta `/conf/screens/sling:configs/rendition-mapping` desde **CRXDE Lite**.
+
+1. Cree un nodo en **rendition-mapping**. Haga clic con el botón derecho en **rendition-mapping** y haga clic en **Create** —> **Create Node**, como se muestra en la figura siguiente.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Introduzca el **Name** de la regla de asignación como **rule1** y el nodo **Type** como **nt:unstructured** en el cuadro de diálogo **Crear nodo**. Haga clic en **OK**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. Debe añadir la propiedad expression con el valor que contiene la expresión de consulta.
 
    >[!NOTE]
    >Consulte [Uso de sintaxis de consulta de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) para obtener más información.
 
+   Haga clic en **rule1** que ha creado e introduzca **expression** en **Name** y **(orientation:horizontal)** en **Value**, como se muestra a continuación. Haga clic en **Add**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Agregue la propiedad pattern con el valor que contiene el patrón de nomenclatura de representación que se seleccionará, si la expresión se evalúa como verdadera.
 
-   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Para añadir la propiedad pattern , haga clic en **rule1** que ha creado e introduzca **pattern** en **Name** y **horizontal** en **Value**, como se muestra a continuación. Haga clic en **Add**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Haga clic en **Guardar todo** y verá las propiedades bajo el nodo que creó en **rendition-mapping**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Pasos siguientes {#next-steps}
