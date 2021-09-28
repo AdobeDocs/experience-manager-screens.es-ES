@@ -4,7 +4,8 @@ description: Siga esta página para obtener información sobre el paquete de fun
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 238d53377acdad857d722c2c53f74f3a29868b57
+exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
+source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -47,7 +48,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
    Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
-   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información
+   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
    Además, como autor de contenido de AEM Screens, ahora puede utilizar Representaciones adaptables en su proyecto de AEM Screens y aplicar también una estrategia de migración para redes grandes.
 
