@@ -1,9 +1,9 @@
 ---
 title: Uso de representaciones adaptables en AEM Screens
 description: En esta página se describe cómo utilizar las representaciones adaptables en AEM Screens.
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ Siga los pasos a continuación para aplicar representaciones a los recursos que 
 
 1. Elija el patrón de nomenclatura de la representación, por ejemplo,`landscape`, similar al definido en la propiedad **pattern** en **CRXDE Lite**. Consulte [Añadir reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
 
-1. Cambie el nombre del archivo de recursos para que contenga el patrón (definido en el paso 3), por ejemplo, `seahorse_landscape.png`.
+1. Cambie el nombre del archivo de recursos para que contenga el patrón (definido en el paso 3), por ejemplo, `seahorse-landscape.png`.
 
 1. Haga clic en **Add Rendition** para cargar la representación, como se muestra en la figura siguiente.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. Una vez agregado el recurso, selecciónelo y haga clic en **Administrar publicación** en la barra de acciones para publicarlo.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) para obtener más información sobre la administración de la publicación y el envío de actualizaciones de contenido de Autor a Publicación en el dispositivo.
 
 
 ## Estrategia de migración {#migration-strategy}
