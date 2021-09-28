@@ -1,13 +1,13 @@
 ---
 title: Descripción general y configuraciones de la arquitectura de representaciones adaptables
 description: Esta página describe la Información general de arquitectura y las configuraciones de CRXDE Lite para representaciones adaptables en AEM Screens.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
-
 
 # Representaciones adaptables: Información general y configuraciones de arquitectura {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
 ## Pasos siguientes {#next-steps}
 
-Una vez añadidas las propiedades y reglas de asignación de representaciones, ahora como Autor de contenido, puede configurar los recursos para que utilicen Representaciones adaptables y también migrar los dispositivos de grandes redes para que utilicen esta función en los canales de AEM Screens.
+Una vez añadidas las propiedades y reglas de asignación de representaciones, ahora como Autor de contenido, puede configurar los recursos para que utilicen Representaciones adaptables y también migrar los dispositivos de grandes redes para que utilicen esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
