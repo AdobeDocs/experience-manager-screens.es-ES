@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,17 @@ Para *referencias dinámicas*, la resolución se produce una vez que el canal se
 1. La ubicación principal de la pantalla tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 
 Y así sucesivamente, hasta que llegue a la carpeta de ubicaciones y se detenga allí en ese momento (por lo que no puede hacer referencia a un canal que estaría en la carpeta de canales, por ejemplo, solo los canales en el subárbol de ubicaciones).
+
+### 5. ¿Cómo configurar la configuración sin conexión de clientlib personalizada en AEM Screens Channel?
+
+Cuando se utiliza un código personalizado `clientlib` incorporado en el lado del cliente en un canal de AEM Screens, es necesario realizar los siguientes pasos para asegurarse de que los archivos `clientlib` se cargan correctamente en el canal (`manifest.json`) y contengan la ruta de acceso de `clientlib`.
+
+Siga los pasos a continuación desde el editor de canales:
+
+1. Seleccione un canal y haga clic en **Editar** en la barra de acciones para abrir el editor de canales.
+1. Seleccione el componente en el que desea agregar el `clientlib` personalizado.
+1. Haga clic en el botón configurar (el icono de llave inglesa).
+1. Vaya a la pestaña **Offline Config** y añada la ruta a su clientlib personalizada en **Bibliotecas del lado del cliente**.
 
 ## Registro de dispositivos {#device-registration}
 
@@ -192,7 +203,7 @@ Para deshabilitar Livefyre y evitar errores de registro :
 
 1. ***Desactive el paquete Livefyre:***
 
-   * Ir a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * Vaya a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Busque el paquete AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
    * Haga clic en **Stop**
 
