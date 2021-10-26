@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens ha lanzado AEM 6.5 Feature Pack 9.
 
-Puede descargar el último paquete de funciones para la versión 6.5.9 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último feature pack titulado como **AEM 6.5 Screens FP9**.
+Puede descargar el último paquete de funciones para la versión 6.5.9 de AEM Screens desde la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) usar su Adobe ID. Vaya a **Adobe Experience Manager** y busque **Pantallas** para obtener el último feature pack titulado como **AEM 6.5 Screens FP9**.
 
 ## Fecha de la versión {#release-date}
 
@@ -48,14 +48,17 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
    Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
-   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
+   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general y configuraciones de arquitectura](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
    Además, como autor de contenido de AEM Screens, puede configurar los recursos para que utilicen representaciones adaptables y también migrar los dispositivos de redes grandes para que utilicen esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
 
 * **Compatibilidad con los manifiestos V3**
 
-   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
-Además, si está utilizando componentes personalizados como parte de manifiestos v3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe configurar: * Actualizar Dispatcher * Actualizar componente personalizado * Desactivar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+* Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
+Además, si utiliza componentes personalizados como parte de manifiestos v3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Corrección de errores {#bug-fixes}
@@ -80,7 +83,7 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * Un reproductor debe informar de su estado de reproducción.
 
-* El reproductor no vuelve a descargar Assets cuando se borra la caché `ALL`.
+* El reproductor no vuelve a descargar Assets cuando `ALL` La caché se borra.
 
 * Como administrador del reproductor, ahora puede elegir un nombre de reproductor.
 
@@ -119,13 +122,13 @@ Además, si está utilizando componentes personalizados como parte de manifiesto
 
 * La estrategia de reproducción de secuencias incrustadas se ha interrumpido y esto se ha corregido.
 
-* Manifiesto sin conexión utilizando el parámetro de solicitud `wcmmode` para la entrada html, lo que hace que no se pueda almacenar en caché.
+* Manifiesto sin conexión con el parámetro de solicitud `wcmmode` para la entrada html, haciendo que no se pueda almacenar en caché.
 
 * La secuencia integrada dinámica vacía a veces causaba una pantalla en blanco.
 
 * El reproductor ahora informa de su estado de reproducción.
 
-* El vídeo se estaba reproduciendo en `Tiny mode` y no se reproduciendo como vídeo de pantalla completa en el dispositivo, por lo que el problema se ha solucionado ahora.
+* Se estaba reproduciendo el vídeo `Tiny mode` y no se reproduce como vídeo de pantalla completa en el dispositivo, y el problema se ha corregido ahora.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
