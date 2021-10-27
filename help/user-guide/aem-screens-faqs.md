@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2061'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Un control de Android multiplataforma que utiliza API de Android puras ya forma 
 
 Para obtener más información sobre cómo implementar el Reproductor de Android, consulte [**Implementación del reproductor Android**](implementing-android-player.md).
 
-### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para monitorizar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. ¿Qué herramientas (software) de supervisión y alerta remota de terceros recomiendan Adobe/AMS para supervisar cada dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Dependiendo de lo que desee de la supervisión y las alertas, una nueva función que el servicio de notificaciones de AEM Screens le notifica si un dispositivo no ha pasado un rato por el ping. Las herramientas de terceros dependerán del sistema operativo (OS), de sus capacidades y de las necesidades específicas del cliente.
 
@@ -234,3 +234,9 @@ Consulte [Plantilla para controladores personalizados](https://experienceleague.
 * Desactivar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* Editar `channel/experience fragment/page components`.
+
+* Vaya a la **Configuración sin conexión** pestaña .
+
+* Entrar `clientlibs `y carpetas para archivos estáticos que deben agregarse al manifiesto.
