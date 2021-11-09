@@ -3,9 +3,9 @@ title: Configurar el agente de replicación de Screens
 description: Siga esta página para obtener información sobre cómo configurar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 6%
 
 ---
@@ -82,3 +82,29 @@ Siga la sección siguiente para actualizar la configuración en el agente de rep
 1. Haga clic en las herramientas —> **Implementación** —> **Replicación**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Haga clic en **Agentes en autor**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Haga clic en el vínculo, como se muestra en la figura siguiente.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Haga clic en **Editar**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Marque **Habilitado** de la variable **Configuración** pestaña .
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Vaya a **Transporte** en la ficha **Configuración del agente** e introduzca la misma contraseña que definió anteriormente en el paso (8) de [Activación de usuarios y actualización de la contraseña](#enable-users). Haga clic en **OK**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. Una vez completados los pasos anteriores, puede hacer clic en **Probar conexión** para verificar la conexión.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   Si la verificación de la conexión se ha realizado correctamente, ha completado la configuración del agente de replicación de Screens.
