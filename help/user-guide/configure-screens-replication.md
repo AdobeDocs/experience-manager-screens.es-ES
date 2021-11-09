@@ -3,9 +3,9 @@ title: Configurar agentes de replicación de Screens
 description: Siga esta página para obtener información sobre cómo configurar los agentes de replicación de Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 >[!NOTE]
 >Por motivos de seguridad, se recomienda evitar el uso de la contraseña de administrador para screens-Recei-user.
 
-1. Vaya a la instancia de AEM.
+1. Vaya a la instancia de autor de AEM.
 
 1. Haga clic en las herramientas —> **Seguridad** —> **Usuarios**.
 
@@ -65,7 +65,7 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 1. Escriba una contraseña nueva en la **Cambiar contraseña** y haga clic en **Guardar**.
 
    >[!NOTE]
-   >Debe especificar **admin** en **Su contraseña** campo .
+   >Debe introducir la contraseña de usuario administrador existente en **Su contraseña** campo .
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 
 Siga la sección siguiente para actualizar la configuración en el agente de replicación de Screens:
 
+>[!IMPORTANT]
+>Debe completar los siguientes pasos en TODOS los agentes de replicación de pantallas existentes.
+
 1. Vaya a la instancia de AEM.
 
 1. Haga clic en las herramientas —> **Implementación** —> **Replicación**.
@@ -117,9 +120,11 @@ Siga la sección siguiente para actualizar la configuración en el agente de rep
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Vaya a **Transporte** en la ficha **Configuración del agente** e introduzca la misma contraseña que definió anteriormente en el paso (8) de [Activación de usuarios y actualización de la contraseña](#enable-users). Haga clic en **OK**.
+1. Vaya a **Transporte** en la ficha **Configuración del agente** y actualice la variable **Usuario** a **screens-receptor-user** e introduzca la misma contraseña que definió anteriormente en el paso (8) de [Activación de usuarios y actualización de la contraseña](#enable-users).
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Haga clic en **OK**.
 
 1. Una vez completados los pasos anteriores, puede hacer clic en **Probar conexión** para verificar la conexión.
 
