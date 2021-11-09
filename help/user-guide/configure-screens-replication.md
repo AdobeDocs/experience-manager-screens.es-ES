@@ -3,17 +3,17 @@ title: Configurar el agente de replicación de Screens
 description: Siga esta página para obtener información sobre cómo configurar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '417'
 ht-degree: 5%
 
 ---
 
 
-# Configuración del agente de replicación de Screens {#configuring-screens-replication-agent}
+# Configuración de agentes de replicación de Screens {#configuring-screens-replication-agent}
 
-En esta página siguiente se describe cómo configurar el agente de replicación de Screens.
+En esta página siguiente se describe cómo configurar los agentes de replicación de Screens.
 
 >[!NOTE]
 >Para obtener más información sobre los agentes de replicación de Screens, consulte [Comandos y agentes de replicación de Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ En esta página siguiente se describe cómo configurar el agente de replicación
 Debe completar ambas secciones para completar la configuración de Screens Replication Agent:
 
 1. [Activación de usuarios y actualización de la contraseña](#enable-users)
-1. [Actualización del agente de replicación de Screens](#replicate-agent)
+1. [Actualización de la configuración del agente de replicación de Screens](#replicate-agent)
 
 ## Activación de usuarios y actualización de la contraseña {#enable-users}
 
@@ -81,7 +81,7 @@ Complete los siguientes pasos:
 
 1. Haga clic en **OK** para confirmar.
 
-## Actualización del agente de replicación de Screens {#replicate-agent}
+## Actualización de la configuración del agente de replicación de Screens {#replicate-agent}
 
 Siga la sección siguiente para actualizar la configuración en el agente de replicación de Screens:
 
@@ -95,7 +95,10 @@ Siga la sección siguiente para actualizar la configuración en el agente de rep
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Busque el vínculo con la letra **S** y haga clic en ella, como se muestra en la figura siguiente.
+1. Busque el agente de replicación de Screens en el autor y haga clic en el vínculo , como se muestra en la figura siguiente.
+
+   >[!NOTE]
+   >Busque el agente de replicación de Screens con la letra **S** incluido en el nombre del autor.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
