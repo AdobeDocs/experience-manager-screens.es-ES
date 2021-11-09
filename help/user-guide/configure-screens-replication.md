@@ -3,9 +3,9 @@ title: Configurar agentes de replicación de Screens
 description: Siga esta página para obtener información sobre cómo configurar los agentes de replicación de Screens.
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ En esta página siguiente se describe cómo configurar los agentes de replicaci�
 
 ## Objetivo {#objective}
 
-El agente de replicación de Screens es responsable de traer los datos de ping de la publicación al autor. Es esencial configurarlo para que el autor pueda mostrar el ping del dispositivo.
+El agente de replicación de Screens es responsable de obtener datos de ping como, por ejemplo, *usuario*, *password*, *restartSchedule*, *maxNumberOfLogFilesToKeep*, y muchos más de estos valores de publicación a autor. Es esencial configurarlo para que el autor pueda mostrar el ping del dispositivo.
 
 >[!NOTE]
 >Para obtener más información sobre los agentes de replicación de Screens, consulte [Comandos y agentes de replicación de Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
