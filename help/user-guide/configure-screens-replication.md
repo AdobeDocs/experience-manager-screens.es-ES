@@ -3,9 +3,9 @@ title: Configurar agentes de replicación de Screens
 description: Siga esta página para obtener información sobre cómo configurar los agentes de replicación de Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Siga la sección siguiente para actualizar la configuración en el agente de rep
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Busque el agente de replicación de Screens en el autor y haga clic en el vínculo , como se muestra en la figura siguiente.
+1. Busque todos los agentes de replicación de Screens en el autor y haga clic en el vínculo , como se muestra en la figura siguiente.
 
    >[!NOTE]
-   >Busque el agente de replicación de Screens con la letra **S** incluido en el nombre del autor.
+   >Busque todos los agentes de replicación de Screens. El nombre del agente de replicación de Screens incluirá una letra **S** en el título.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
