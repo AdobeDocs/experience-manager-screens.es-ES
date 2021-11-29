@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2120'
 ht-degree: 1%
 
 ---
@@ -201,7 +201,7 @@ Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
 Para deshabilitar Livefyre y evitar errores de registro :
 
-1. ***Desactive el paquete Livefyre:***
+1. ***Deshabilite el paquete Livefyre:***
 
    * Vaya a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Busque el paquete AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
@@ -240,3 +240,7 @@ Consulte [Plantilla para controladores personalizados](https://experienceleague.
 * Vaya a la **Configuración sin conexión** pestaña .
 
 * Entrar `clientlibs `y carpetas para archivos estáticos que deben agregarse al manifiesto.
+
+### 4. ¿Qué debe hacer si, después del paquete screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 y los paquetes principales de pantallas están instalados pero no están activos?
+
+Debe instalar una versión mínima de AEM 6.5 Feature Pack 8 AMS para que funcione el conector AMS. Consulte la [Disponibilidad](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) para obtener la versión mínima del feature pack.
