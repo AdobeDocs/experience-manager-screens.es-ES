@@ -1,13 +1,14 @@
 ---
 title: Notas de la versión para Feature Pack 202105
 description: '"Siga esta página para obtener información sobre el Feature Pack 202105 de AEM Screens publicado el 4 de junio de 2021".'
-feature: Paquete de funciones
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 10%
+source-wordcount: '399'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,10 @@ ht-degree: 10%
 
 AEM Screens ha lanzado AEM 6.5 Feature Pack 8.
 
-Puede descargar el último paquete de funciones para la versión 6.5.8 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último feature pack titulado como **AEM 6.5 Screens FP8**.
+Puede descargar el último paquete de funciones para la versión 6.5.8 de AEM Screens desde la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) usar su Adobe ID. Vaya a **Adobe Experience Manager** y busque **Pantallas** para obtener el último feature pack titulado como **AEM 6.5 Screens FP8**.
+
+>[!IMPORTANT]
+>Debe instalar una versión mínima del conector AEM 6.5 Feature Pack 8 para AMS para que funcione una vez que haya instalado los paquetes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` y `screens core bundles`.
 
 ## Fecha de la versión {#release-date}
 
@@ -30,7 +34,7 @@ La fecha de versión del Feature Pack 202105 de AEM Screens es el 4 de junio de 
 
 * **Bloqueo de páginas en un canal de AEM Screens**
 
-   AEM Screens ahora admite el *Bloqueo de una página*, como ya se ha implementado en AEM Sites. Adobe Experience Manager (AEM) le permite bloquear páginas para que nadie más pueda modificar su contenido. Esta función es útil cuando realice muchas ediciones en una página concreta o cuando tenga que congelar una página durante un rato.
+   AEM Screens ahora es compatible *Bloquear una página*, tal y como se ha implementado en AEM Sites. Adobe Experience Manager (AEM) le permite bloquear páginas para que nadie más pueda modificar su contenido. Esta función es útil cuando realice muchas ediciones en una página concreta o cuando tenga que congelar una página durante un rato.
 
 * **Asignación de nombre al dispositivo del reproductor AEM Screens**
 
@@ -63,6 +67,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 * Android
 * Linux
 
-#### Descargas del reproductor de AEM Screens {#aem-screens-player-downloads}
+#### Descargas del reproductor de AEM Screens  {#aem-screens-player-downloads}
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.
