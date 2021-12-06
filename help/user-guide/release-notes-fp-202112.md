@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión para Feature Pack 202112
-description: Siga esta página para obtener información sobre el paquete de funciones 202112 de AEM Screens, publicado el 3 de diciembre de 2021.
+description: Siga esta página para obtener información sobre el paquete de funciones 202112 de AEM Screens, publicado el 6 de diciembre de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
+source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Puede descargar el último paquete de funciones para la versión 6.5.10 de AEM S
 
 ## Fecha de la versión {#release-date}
 
-La fecha de versión del Feature Pack 202112 de AEM Screens es el 3 de diciembre de 2021.
+La fecha de versión del Feature Pack 202112 de AEM Screens es el 6 de diciembre de 2021.
 
 ### Novedades {#what-is-new}
 
