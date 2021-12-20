@@ -4,7 +4,7 @@ description: Siga esta página para obtener información sobre el paquete de fun
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
+source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Puede descargar el último paquete de funciones para la versión 6.5.10 de AEM S
 
 ## Fecha de la versión {#release-date}
 
-La fecha de versión del Feature Pack 202112 de AEM Screens es el 6 de diciembre de 2021.
+La fecha de versión del Feature Pack 202112 de AEM Screens es el 17 de diciembre de 2021.
 
 ### Novedades {#what-is-new}
 
