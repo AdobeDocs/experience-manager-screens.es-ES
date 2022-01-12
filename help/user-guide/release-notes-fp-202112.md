@@ -4,13 +4,13 @@ description: Siga esta página para obtener información sobre el paquete de fun
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 6%
+source-wordcount: '291'
+ht-degree: 5%
 
 ---
-
 
 # Notas de la versión para Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ La fecha de versión del Feature Pack 202112 de AEM Screens es el 17 de diciembr
 
 * El reproductor no actualizaba la versión del firmware después de la actualización. Esto se ha solucionado.
 
+* La vista previa de la pantalla está atascada en la configuración anterior del reproductor.
+
+* La vista previa de la pantalla no se está procesando en algunas condiciones.
+
+* Corrija errores de descarga concurrentes en SmartSync.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
