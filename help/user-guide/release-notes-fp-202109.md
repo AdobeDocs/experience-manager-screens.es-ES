@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -54,18 +54,31 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * **Compatibilidad con los manifiestos V3**
 
-   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe configurar:
+   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para activar el manifiesto v3, debe:
+
+   * Borre los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación
+
+      * Vaya a crx/de en author y publish
+
+      * Haga clic en Herramientas —> Consulta
+
+      * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * Se enumerarán todos los trabajos de contenido sin conexión que estén en ejecución o pendientes en la cola
+
+      * Espere hasta que no se devuelvan más trabajos de contenido sin conexión de la consulta
+   * Desactivar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Actualizar Dispatcher
 
    * Actualizar componente personalizado
 
-   * Desactivar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
    * Si utiliza componentes personalizados como parte de manifiestos v3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### Corrección de errores {#bug-fixes}
