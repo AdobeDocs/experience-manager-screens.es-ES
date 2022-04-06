@@ -1,41 +1,41 @@
 ---
 title: ¿Qué es AEM Screens?
-seo-title: ¿Qué es AEM Screens?
-description: '"AEM Screens: una solución de señalización digital que le permite publicar interacciones y experiencias digitales dinámicas e interactivas que implican distintos tipos de pantallas junto con una plataforma de marketing digital completa".'
-feature: Información general, señalización digital
+seo-title: What is AEM Screens?
+description: Aprenda a utilizar AEM Screens, una solución de señalización digital, que le permite publicar interacciones y experiencias digitales dinámicas e interactivas que implican distintos tipos de pantallas junto con una plataforma de marketing digital completa.
+feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
+source-git-commit: 52778cf4c62b079576b1f84db2f27925042db3e6
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '580'
 ht-degree: 8%
 
 ---
 
 # ¿Qué es AEM Screens?{#what-is-aem-screens}
 
-**Pantallas AEM (Adobe Experience Manager)** : una solución de señalización digital que le permite publicar interacciones y experiencias digitales dinámicas e interactivas que implican distintos tipos de pantallas junto con una plataforma de marketing digital completa.
+**AEM (Adobe Experience Manager) Screens** : una solución de señalización digital que le permite publicar experiencias e interacciones digitales dinámicas e interactivas que implican distintos tipos de pantallas junto con una plataforma de marketing digital completa.
 
-Empiece a trabajar con una experiencia de señalización digital sencilla, utilizando [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
+Empiece a utilizar una sencilla experiencia de señalización digital mediante [Inicio rápido para AEM Screens](kickstart-for-aem-screens.md).
 
-Para aprender a configurar y crear su proyecto de AEM Screens en AEM como Cloud Service, consulte [aquí](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
+Para obtener información sobre cómo configurar y crear un proyecto de AEM Screens en AEM as a Cloud Service, consulte [here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Información general {#overview}
 
-**AEM** Screensis se basa en los sólidos fundamentos de  ***AEM*** Sitios y permite a los especialistas en marketing y al personal de TI crear y administrar experiencias en varias pantallas digitales que afectan a los objetivos de las tiendas e instalaciones para aumentar la demanda de marca e impulsar la demanda. La integración de AEM Screens con Sites le permite reutilizar contenido ya existente y ofrecer de forma eficaz una solución coherente y coherente para los clientes. Esto proporciona un flujo de trabajo optimizado para crear experiencias digitales dedicadas que sean muy rentables y útiles. También ayuda a influir en la percepción de la marca y en las decisiones de impacto que llevan a una mejora en la compra y la participación.
+**AEM Screens** está construido sobre la base sólida de ***AEM Sites*** y permite a los especialistas en marketing y al personal de TI crear y administrar experiencias en varias pantallas digitales que influyen en los objetivos de las tiendas e instalaciones para aumentar la demanda de marca e impulsar la demanda. La integración de AEM Screens con Sites le permite reutilizar contenido ya existente y ofrecer de forma eficaz una solución coherente y coherente para los clientes. Esto proporciona un flujo de trabajo optimizado para crear experiencias digitales dedicadas que sean muy rentables y útiles. También ayuda a influir en la percepción de la marca y en las decisiones de impacto que llevan a una mejora en la compra y la participación.
 
 AEM Screens es una potente solución basada en la web que le permite crear tableros de menús digitales, recomendaciones de productos e imágenes de estilo de vida de fondo dedicados a expandir la interacción de los clientes y ofrecer experiencias de marca útiles y unificadas en lugares físicos, como tiendas, hoteles, bancos, instituciones educativas y de salud, entre otros, desde la misma plataforma de AEM. Las pantallas proporcionan muchas aplicaciones únicas, como visualizaciones interactivas, búsqueda de soluciones, promoción de la marca y adición de ambiente a su entorno para clientes y empleados en función del dominio en el que se implementen.
 
-La creación y administración de una aplicación mediante AEM Screens es sencilla e intuitiva. Una *aplicación* aloja páginas web creadas para AEM Screens por clientes o socios de implementación. ** Ubicaciones: administre la jerarquía predefinida y contiene  *pantallas*. Cada pantalla tiene un panel que muestra diferentes dispositivos y pantallas. El contenido de AEM Screens se administra en *canales*. El reproductor de AEM Screens procesa el contenido presente en los canales y lo muestra en pantallas.
+La creación y administración de una aplicación mediante AEM Screens es sencilla e intuitiva. Un *aplicación* aloja páginas web creadas para AEM Screens por clientes o socios de implementación. *Ubicaciones* administrar jerarquía predefinida y contiene *display*. Cada pantalla tiene un panel que muestra diferentes dispositivos y pantallas. El contenido de AEM Screens se administra en *canales*. El reproductor de AEM Screens procesa el contenido presente en los canales y lo muestra en pantallas.
 
-Para entender la terminología clave asociada a AEM Screens, consulte [Glosario](screens-glossary.md).
+Para comprender las terminologías clave asociadas a AEM Screens, consulte [Glosario](screens-glossary.md).
 
 ### Arquitectura de Screens Player {#architecture-of-screens-player}
 
 El diagrama siguiente muestra la arquitectura general de un reproductor AEM Screens:
 
-![imagen_1-21](assets/chlimage_1-29.png)
+![chlimage_1-29](assets/chlimage_1-29.png)
 
 ### Crear una experiencia de señalización digital en 5 minutos {#create-a-digital-signage-experience-in-minutes}
 
@@ -58,12 +58,12 @@ En la siguiente ilustración se definen los personajes y sus funciones para AEM 
 
 * **Elementos esenciales de la implementación guiada**
 
-   Siga la ruta de aprendizaje guiado **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que cubre las funciones básicas y avanzadas admitidas en AEM Screens.
+   Siga la ruta de aprendizaje guiado **[Aspectos básicos de la implementación de AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que cubre funciones básicas y avanzadas compatibles con AEM Screens.
 
 * **Guía de prácticas recomendadas para proyectos de AEM Screens**
 
-   Siga la **[Guía de prácticas recomendadas para proyectos de AEM Screens](https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html)** que está diseñada para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en las funciones y responsabilidades del proyecto, el gráfico RACI para diferentes funciones AEM configuraciones de plataforma y el soporte y supervisión.
+   Seguir **[Guía de prácticas recomendadas para proyectos de AEM Screens](https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html)** que está diseñado para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en las funciones y responsabilidades del proyecto, el gráfico RACI para diferentes funciones AEM configuraciones de plataforma y el soporte y supervisión.
 
 * **Nueva experiencia de asistencia al cliente de Adobe**
 
-   Siga **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** para obtener más información sobre los tickets de asistencia al Admin Console.
+   Seguir **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** para obtener más información sobre los tickets de asistencia al Admin Console.
