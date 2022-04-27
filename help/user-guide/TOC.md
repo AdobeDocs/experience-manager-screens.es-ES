@@ -6,10 +6,10 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
-source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
+source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 18%
+source-wordcount: '480'
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 + Configuración y administración {#administering}
    + [Configuraciones del servidor de Screens](configuring-screens-introduction.md)
    + [Configuración de configuraciones de Dispatcher](dispatcher-configurations-aem-screens.md)
-   + [Instalación del reproductor Screens](installing-screens-player.md)
+   + [Instalación del reproductor de Screens](installing-screens-player.md)
    + [Conexión del reproductor Screens](working-with-screens-player.md)
    + [Registro de dispositivos](device-registration.md)
    + [Configuración de ACL](setting-up-acls.md)
@@ -113,6 +113,7 @@ ht-degree: 18%
    + [Resolución de problemas del centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión para Feature Pack 202204](release-notes-fp-202204.md)
    + [Notas de la versión para Feature Pack 202112](release-notes-fp-202112.md)
    + [Notas de la versión para Feature Pack 202109](release-notes-fp-202109.md)
    + [Notas de la versión para Feature Pack 202105](release-notes-fp-202105.md)
