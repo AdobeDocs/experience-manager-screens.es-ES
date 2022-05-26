@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ El diagrama siguiente ilustra el uso de claves en un remoto de Samsung:
 >[!NOTE]
 >Si establece los valores de configuración del dispositivo enableAdminUI y/o enableOSD en false, el control remoto no cambiará la IU de administración ni el conmutador de canales. Tampoco podrá utilizar las teclas de flecha para navegar por la IU o los canales de administración. Sin embargo, aún puede borrar la caché y volver a cargar el reproductor. Puede desactivar la función de control remoto si alguna de las combinaciones de teclas entra en conflicto con el contenido interactivo mediante este código:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
