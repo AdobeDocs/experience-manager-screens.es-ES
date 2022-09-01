@@ -6,9 +6,9 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 + [Introducción a Screens](aem-screens-introduction.md)
 + Información general y Guía de inicio rápido {#overview}
    + [Guía de inicio rápido](kickstart-for-aem-screens.md)
-   + [Guía de prácticas recomendadas de Screens](https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html)
+   + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=es)
    + [Términos clave](screens-glossary.md)
 + Conceptos básicos de la red de publicidad dinámica {#digital-signage-network}
    + [Parte 1: Funciones y responsabilidades del proyecto](project-roles-responsibilities.md)
@@ -64,7 +64,7 @@ ht-degree: 20%
       + Asignar canales{#assigning-channels} 
          + [Asignación de canales](channel-assignment-latest-fp.md)
          + [Asignación de canales: Feature Packs AEM Screens antiguos](channel-assignment.md)
-   + Uso de las funciones principales del producto {#product-features}
+   + Uso de funciones de producto de código {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización masiva sin conexión](bulk-offline-update.md)
       + [Servicio de notificaciones de AEM Screens](screens-notifications-service.md)

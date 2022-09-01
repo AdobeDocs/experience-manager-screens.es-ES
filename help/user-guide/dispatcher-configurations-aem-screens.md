@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '643'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ La siguiente página proporciona las directrices para configurar Dispatcher para
 >Si no hay Dispatcher, deshabilite el servlet de registro en la lista de componentes de OSGi.
 
 Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
-Consulte [Configuración de Dispatcher](https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obtener más información.
+Consulte [Configuración de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=es) para obtener más información.
 
 ## Configuración de Dispatcher para la versión de manifiesto v2 {#configuring-dispatcher}
 
@@ -53,7 +53,7 @@ Si desea utilizar varias instancias de publicación frontadas por un solo Dispat
 
 Si tiene una instancia de publicación delante de un despachante, habilitar la permanencia en el despachante no ayudará, ya que el equilibrador de carga puede enviar cada solicitud a Dispatcher. En este caso, haga clic en **Habilitar** en **Permanencia** para habilitarlo a nivel de equilibrador de carga, como se muestra en la figura siguiente:
 
-![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
+![imagen](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Por ejemplo, si está utilizando AWS ALB, consulte [Grupos de destino de sus equilibradores de carga de aplicaciones](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para permitir la adherencia en el nivel ALB. Habilite la permanencia durante 1 día.
 
@@ -141,9 +141,9 @@ Asegúrese de cumplir estos dos requisitos previos antes de configurar Dispatche
 
 * Asegúrese de que el agente de vaciado de Dispatcher esté configurado en `/etc/replication/agents.publish/dispatcher1useast1Agent` en la instancia de publicación.
 
-   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+   ![imagen](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
-   ![image](/help/user-guide/assets/dispatcher/dispatcher-3.png)
+   ![imagen](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### Filtros  {#filter-v3}
 
