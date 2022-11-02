@@ -1,15 +1,15 @@
 ---
 title: Activación en el nivel de recurso
-seo-title: Activación en el nivel de recurso
+seo-title: Asset Level Activation
 description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
-seo-description: Siga esta página para aprender a activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor.
-feature: Creación en Screens, activación en el nivel de recurso
+seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,7 @@ En esta sección se tratan los temas siguientes:
    * MonthParting
    * Combinación de asociaciones
 * Activación de varios recursos
+* Anulación Global Para La Hora De Inicio Universal
 
 >[!CAUTION]
 >
@@ -38,15 +39,15 @@ En esta sección se tratan los temas siguientes:
 
 ## Información general {#overview}
 
-***Activación de nivel de recurso***, le permite activar un recurso específico en un canal durante un intervalo de tiempo programado en la zona horaria local del reproductor. Esta opción está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
+***Activación en el nivel de recurso***, le permite activar un recurso específico en un canal para un lapso de tiempo programado en la zona horaria local del reproductor. Esta opción está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
 
-*Por ejemplo*, desea que una promoción especial se muestre solo durante la hora feliz (de 2 p. m. a 5 p. m.) los lunes y miércoles.
+*Por ejemplo*, desea que una promoción especial se muestre solamente durante la hora feliz (de 2pm a 5pm) los lunes y miércoles.
 
 Con esta función, no solo puede especificar la fecha y la hora de inicio y finalización, sino también un patrón de periodicidad.
 
 ## Ventana de activación {#single-event-playback}
 
-La activación del nivel de recurso se realiza configurando la pestaña **Activation** al acceder a las propiedades de un recurso.
+La activación del nivel de recurso se realiza configurando la variable **Activation** al acceder a las propiedades de un recurso.
 
 Siga los pasos a continuación para realizar la programación de nivel de recurso:
 
@@ -58,31 +59,31 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
    >
    >Para obtener información detallada sobre cómo
    >
-   >* Cree un proyecto, consulte [Creación de un nuevo proyecto](creating-a-screens-project.md).
+   >* Crear un proyecto, consulte [Creación de un nuevo proyecto](creating-a-screens-project.md).
    >* Cree y añada contenido a un canal; consulte [Administración de canales](managing-channels.md).
 
 
 1. Haga clic en **Editar** para abrir el editor de canales y seleccionar un recurso al que desee aplicar la programación.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![imagen](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Seleccione el recurso y haga clic en **Configure** (icono de llave inglesa) en la parte superior izquierda para abrir las propiedades de la imagen.
+1. Seleccione el recurso y haga clic en en la parte superior izquierda **Configurar** (icono de llave inglesa) para abrir las propiedades de la imagen.
 
-   Haga clic en la pestaña **Activation**.
+   Haga clic en el **Activation** pestaña .
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![imagen](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-1. Puede especificar la fecha desde el selector de fechas utilizando los campos **Activo desde** y **Activo hasta**.
+1. Puede especificar la fecha desde el selector de fechas utilizando **Activo desde** y **Activo hasta** campos.
 
-   Si selecciona **Activo desde** y **Activo hasta** fecha y hora, el recurso solo se mostrará y se reproducirá en bucle entre esa fecha y hora de inicio y la fecha y hora de finalización, respectivamente.
+   Si selecciona la opción **Activo desde** y **Activo hasta** fecha y hora, el recurso solo se mostrará y se reproducirá en bucle entre la fecha y la hora de inicio y la fecha y hora de finalización, respectivamente.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![imagen](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Gestión de la periodicidad en Assets {#handling-recurrence-in-assets}
 
 Puede programar que los recursos se repitan a intervalos determinados de forma diaria, semanal o mensual, según sus necesidades.
 
-Supongamos que desea mostrar una imagen solo los viernes de 13:00 a 22:00. Puede utilizar la pestaña **Activation** para establecer el intervalo recurrente deseado para el recurso.
+Supongamos que desea mostrar una imagen solo los viernes de 13:00 a 22:00. Puede usar la variable **Activation** para establecer el intervalo recurrente deseado para el recurso.
 
 ### Partición de día {#day-parting}
 
@@ -91,9 +92,9 @@ Supongamos que desea mostrar una imagen solo los viernes de 13:00 a 22:00. Puede
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programas según sus necesidades.
+   >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules según sus necesidades.
 
-1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo de día y hora en particular.
 
 #### Ejemplo de expresiones para partición de día {#example-one}
 
@@ -109,7 +110,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 >[!NOTE]
 >
->También puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
+>También puede utilizar _hora militar_ notación (es decir, 14:00) en lugar de *am/pm* notación (es decir, a las 2 de la tarde).
 
 ### División Semana {#week-parting}
 
@@ -118,9 +119,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programas según sus necesidades.
+   >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules según sus necesidades.
 
-1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo de día y hora en particular.
 
 #### Ejemplo de expresiones para WeekParting {#example-two}
 
@@ -133,7 +134,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 
 >[!NOTE]
 >
->También puede utilizar la notación _full_ (es decir, lunes, miércoles, viernes) en lugar de la notación _short-hand_ (es decir, Mon,Wed,Fri).
+>También puede utilizar _full_ notación (es decir, lunes, miércoles, viernes) en lugar de _mano corta_ notación (es decir, Mon, Wed, Fri).
 
 
 ### MonthParting {#month-parting}
@@ -143,9 +144,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programas según sus necesidades.
+   >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules según sus necesidades.
 
-1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo de día y hora en particular.
 
 #### Expresiones de ejemplo para MonthParting {#example-three}
 
@@ -166,9 +167,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 1. Después de introducir la fecha/hora de inicio y la hora de finalización/fecha, puede utilizar una expresión o una versión de texto natural para especificar el programa de periodicidad.
 
    >[!NOTE]
-   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programas según sus necesidades.
+   >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules según sus necesidades.
 
-1. Introduzca la expresión en **Schedule** y el recurso se mostrará para el intervalo de día y hora concreto.
+1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo de día y hora en particular.
 
 #### Ejemplos de expresiones para la combinación de elementos {#example-four}
 
@@ -181,29 +182,29 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden ag
 | el día 1-2 de enero después de las 2:00 pm también el día 2-3 de enero antes de las 3:00 am | el recurso en el canal inicia el reproductor después de las 2:00 pm del 1 de enero, continúa reproduciendo hasta las 3:00 am del 2 de enero, y luego vuelve a empezar el 2 de enero a las 2:00 pm y continúa reproduciendo hasta las 3:00 am del 3 de enero |
 
 >[!NOTE]
->Al definir los días de la semana y los meses, puede utilizar las anotaciones de nombre corto y completo, como Lunes/Lunes y Enero/Enero.  Además, también puede utilizar la notación _hora militar_ (es decir, 14:00) en lugar de la notación *am/pm* (es decir, las 2:00 pm).
+>Al definir los días de la semana y los meses, puede utilizar las anotaciones de nombre corto y completo, como Lunes/Lunes y Enero/Enero.  Además, también puede utilizar _hora militar_ notación (es decir, 14:00) en lugar de *am/pm* notación (es decir, a las 2 de la tarde).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La función **Multi-Asset Activation** solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
+>La variable **Activación de varios recursos** esta función solo está disponible si ha instalado AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
 
-***La*** activación de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
+***Activación de varios recursos*** permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
 
 ### Requisitos previos {#prerequisites}
 
 Para utilizar la activación a nivel de recursos múltiples para los recursos, cree un proyecto de AEM Screens con un canal de secuencia. Por ejemplo, el siguiente caso de uso muestra la implementación de la función:
 
-* Cree un proyecto de AEM Screens con el título **MultiAssetDemo**
+* Crear un proyecto de AEM Screens con el título **MultiAssetDemo**
 * Cree un canal con el título **MultiAssetChannel** y añada contenido al canal, como se muestra en la figura siguiente
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
 Siga los pasos a continuación para seleccionar varios recursos y programar su visualización en un proyecto de AEM Screens:
 
-1. Seleccione **MultiAssetChannel** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Select **MultiAssetChannel** y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
@@ -211,7 +212,7 @@ Siga los pasos a continuación para seleccionar varios recursos y programar su v
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Seleccione la fecha y la hora en **Activo desde** y **Activo hasta** en el cuadro de diálogo **Activación de componentes**. Haga clic en el icono de marca de verificación cuando haya terminado de seleccionar las programaciones.
+1. Seleccione la fecha y la hora en **Activo desde** y **Activo hasta** de la variable **Activación de componentes** para abrir el Navegador. Haga clic en el icono de marca de verificación cuando haya terminado de seleccionar las programaciones.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
@@ -222,3 +223,25 @@ Siga los pasos a continuación para seleccionar varios recursos y programar su v
    >El icono de programación está visible en la esquina superior derecha de los recursos que tienen activación de varios recursos.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
+## Anulación Global Para La Hora De Inicio Universal {#global-override-scheduling}
+
+***Anulación global para la hora de inicio universal***, es un ajuste que permite al autor del contenido definir la reproducción de una imagen o un recurso de vídeo en función de un tiempo específico. No se utiliza la configuración de zona horaria/horaria de ningún reproductor individual.
+
+Normalmente, la reproducción está determinada por la hora local de un reproductor determinado, pero con la anulación global, se puede utilizar un tiempo de inicio universal específico para iniciar la reproducción del recurso.
+
+Esto permite al autor del contenido designar la reproducción de un recurso específico como si se produjera en una fecha y hora específicas, independientemente del reloj local en cualquier reproductor que tenga asignado el contenido.
+
+La anulación global del tiempo de inicio universal se realiza configurando la variable **Activation** al acceder a las propiedades de un recurso. Siga los pasos a continuación para realizar una anulación global de la programación de recursos:
+
+1. Seleccione cualquier canal y haga clic en **Editar** en la barra de acciones para añadir o editar contenido en el canal.
+
+   ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
+
+1. Haga clic en **Editar** para abrir el editor de canales y seleccionar un recurso al que desee aplicar la programación.
+
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+
+1. Para una anulación global, introduzca el tiempo de activación en la variable **Anulación de zona horaria** para el recurso. Si no introduce nada en esta área, la zona horaria aplicada será la zona horaria del reproductor.
+
+
