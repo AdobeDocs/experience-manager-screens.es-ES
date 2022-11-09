@@ -2,7 +2,7 @@
 title: Configuración de autor y publicación en AEM Screens
 description: La arquitectura de AEM Screens se parece a una arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor AEM y luego se rereplica en varias instancias de publicación. Siga esta página para aprender a configurar la creación y publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 2%
@@ -102,20 +102,20 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 #### Creación de agentes de replicación estándar  {#creating-standard-replication-agents}
 
 1. Crear un agente de replicación estándar para pub1 (el agente predeterminado listo para usar ya debería estar configurado) (por ejemplo, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Cree un agente de replicación estándar para pub2. Puede copiar el agente de rep para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Cree un agente de replicación estándar para pub2. Puede copiar como agente de replicación para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. (por ejemplo, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creación de agentes de replicación de Screens {#creating-screens-replication-agents}
 
-1. Cree el agente de replicación de AEM Screens para pub1. De serie, existe un agente de replicación Screens llamado Screens que apunta al puerto 4503. Debe habilitarse.
-1. Cree un agente de replicación de AEM Screens para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto para que apunte a 4504 para pub2.
+1. Cree un agente de replicación de pantallas para pub1. De serie, hay un agente de replicación Screens llamado Screens que apunta al puerto 4503. Debe habilitarse.
+1. Cree un agente de replicación de pantallas para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto para que apunte a 4504 para pub2.
 
    >[!NOTE]
    >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Creación de agentes de replicación inversa de Screens {#creating-screens-reverse-replication-agents}
 
-1. Cree un agente de replicación inversa estándar para pub1.
-1. Cree un agente de replicación inversa estándar para pub2. Puede copiar el agente de rep inverso para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte.
+1. Cree un agente de replicación inversa para pub1.
+1. Cree un agente de replicación inversa para pub2. Puede copiar el agente de replicación inversa para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte.
 
 ## Configuración de la topología de publicación {#setting-up-publish-topology}
 
