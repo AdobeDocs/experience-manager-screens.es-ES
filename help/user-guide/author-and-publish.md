@@ -2,9 +2,9 @@
 title: Configuración de autor y publicación en AEM Screens
 description: La arquitectura de AEM Screens se parece a una arquitectura tradicional de AEM Sites. El contenido se crea en una instancia de autor AEM y luego se rereplica en varias instancias de publicación. Siga esta página para aprender a configurar la creación y publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 2%
 
 ---
@@ -128,9 +128,10 @@ Para cada instancia de publicación:
 1. Vaya a `https://<host>:<port>/system/console/configMgr`
 1. Select **Servicio de descubrimiento basado en Apache Sling Oak** Configuración.
 1. Actualizar URL del conector de topología: agregue direcciones URL de todas las instancias de publicación de participación que sean:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Lista de lista blanca del conector de topología**: adaptarse a direcciones IP o subredes que abarcan instancias de publicación de participación
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Lista de lista blanca del conector de topología**: Adaptarse a las direcciones IP o subredes que abarcan todas las instancias de publicación. Asegúrese de incluir en la lista blanca la IP/el nombre de host de todas las instancias de publicación sin el número de puerto.
+
 1. Habilitar **Bucles locales de parada automática**
 
 La configuración debe ser idéntica para cada instancia de publicación y el bucle local de parada automática evita un bucle infinito.
