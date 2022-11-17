@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión para Feature Pack 202112
-description: Siga esta página para obtener información sobre el paquete de funciones 202112 de AEM Screens, publicado el 17 de diciembre de 2021.
+description: Siga esta página para obtener información sobre el paquete de funciones 202112 de AEM Screens, publicado el 12 de enero de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '313'
 ht-degree: 5%
 
 ---
@@ -23,17 +23,23 @@ AEM Screens ha lanzado AEM 6.5 Feature Pack 10.
 
 Puede descargar el último paquete de funciones para la versión 6.5.10 de AEM Screens desde la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) usar su Adobe ID. Vaya a **Adobe Experience Manager** y busque **Pantallas** para obtener el último feature pack titulado como **AEM 6.5 Screens FP10**.
 
-## Fecha de la versión {#release-date}
+## Fecha de lanzamiento {#release-date}
 
-La fecha de versión del Feature Pack 202112 de AEM Screens es el 17 de diciembre de 2021.
+La fecha de versión del Feature Pack 202112 de AEM Screens es el 12 de enero de 2022.
 
 ### Novedades {#what-is-new}
 
 * Las actualizaciones de la aplicación de Android ahora se dirigen a Android 11 (nivel de API 30). Actualmente, el reproductor de Android está en el nivel 29 de la API de destino.
 
+* La vista previa de la pantalla está atascada en la configuración anterior del reproductor
+
+* La vista previa de la pantalla no se representa en algunas condiciones
+
+* Corrección de errores de descarga concurrentes en SmartSync
+
 * Como desarrollador, ahora verá las representaciones de recursos que se enumeren solo como entradas de representación en los recursos correspondientes del manifiesto para garantizar la extensibilidad, claridad y facilidad de gestión del manifiesto.
 
-### Corrección de errores {#bug-fixes}
+### Correcciones de errores {#bug-fixes}
 
 * Ahora puede filtrar los eventos de análisis en función del tipo de evento.
 

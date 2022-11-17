@@ -6,9 +6,9 @@ user-guide-title: Ayuda de Adobe Experience Manager Screens
 breadcrumb-title: Guía de AEM Screens
 user-guide-description: Aprenda a utilizar una solución de señalización digital que le permita publicar interacciones y experiencias digitales dinámicas e interactivas.
 feature-set: Experience Manager Screens
-source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
@@ -115,6 +115,7 @@ ht-degree: 20%
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
    + [Notas de la versión para Feature Pack 202204](release-notes-fp-202204.md)
+   + [Notas de la versión para Feature Pack 202203](release-notes-fp-202203.md)
    + [Notas de la versión para Feature Pack 202112](release-notes-fp-202112.md)
    + [Notas de la versión para Feature Pack 202109](release-notes-fp-202109.md)
    + [Notas de la versión para Feature Pack 202105](release-notes-fp-202105.md)

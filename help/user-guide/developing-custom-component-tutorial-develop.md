@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -395,7 +395,7 @@ Debajo se crea una página de diseño de ejecución de We.Retail que almacenará
 1. Cree un nuevo nodo debajo de la carpeta de diseños, con el nombre `we-retail-run` con un tipo de `cq:Page`.
 1. Debajo de la variable `we-retail-run` página, agregue otro nodo denominado `jcr:content` de tipo `nt:unstructured`. Agregue las siguientes propiedades al `jcr:content` nodo:
 
-   | Nombre | Tipo | Value |
+   | Nombre | Tipo | Valor |
    |---|---|---|
    | jcr:title | Cadena | Ejecución de We.Retail |
    | sling:resourceType | Cadena | wcm/core/components/designer |
@@ -553,6 +553,15 @@ El siguiente código proporciona los requisitos mínimos en la variable `pom.xml
 El siguiente vídeo muestra el componente terminado y cómo se puede añadir a un canal de secuencia. A continuación, el canal se agrega a la visualización Ubicación y, finalmente, se asigna a un reproductor Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Consideraciones adicionales sobre los componentes personalizados que incrustan otras páginas o fragmentos {#additional-considerations}
+
+Si el componente personalizado que está desarrollando está pensado para incluir otras páginas o fragmentos de experiencia, y si desea que el reproductor recoja automáticamente los cambios en el contenido incrustado sin tener que volver a publicar el canal, debe tener en cuenta estas dos restricciones:
+
+1. En lugar de ampliar directamente `foundation/components/parbase`, tendrá que ampliar `screens/core/components/content/page` o `screens/core/components/content/experiencefragment`
+2. El nombre de la propiedad que utiliza para hacer referencia al contenido incrustado debe ser `pagePath`
+
+El uso de estos 2 componentes principales de Screens también incluye la ventaja añadida de que pueden encargarse de empaquetar algunas de las dependencias que necesita (bibliotecas del lado del cliente, fuentes, etc.) a través de sus opciones de configuración sin conexión en el cuadro de diálogo del componente, que luego reduce la responsabilidad de cualquier controlador sin conexión personalizado que tendría que usar para esto, a veces incluso eliminando completamente la necesidad de usar uno en primer lugar.
 
 ## Código finalizado {#finished-code}
 
