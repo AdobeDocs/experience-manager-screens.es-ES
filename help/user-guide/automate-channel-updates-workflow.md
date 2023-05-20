@@ -1,58 +1,58 @@
 ---
-title: Utilizar el flujo de trabajo para automatizar las actualizaciones de recursos para un canal de AEM Screens
-seo-title: Utilizar el flujo de trabajo para automatizar las actualizaciones de recursos para un canal de AEM Screens
-description: Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos de forma dinámica a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una marca de agua dinámica y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
-seo-description: Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos de forma dinámica a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una marca de agua dinámica y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
+title: Usar el flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens
+seo-title: Use workflow to automate asset updates for an AEM Screens channel
+description: Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos dinámicamente a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una marca de agua dinámica y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
+seo-description: Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel. In this example when an image is added to a specific folder, a workflow is triggered that applies a dynamic watermark and assigns the image to a Screens channel. Lessons learned from this example can be applied to a wide variety of automation scenarios.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
-feature: Desarrollo de pantallas
+feature: Developing Screens
 role: Developer
 level: Intermediate
 source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '456'
+ht-degree: 5%
 
 ---
 
 
-# Utilizar el flujo de trabajo para automatizar las actualizaciones de recursos para un canal de AEM Screens {#automate-channel-updates-workflow}
+# Usar el flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens {#automate-channel-updates-workflow}
 
-Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos de forma dinámica a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una superposición de texto dinámico (proceso de marca de agua) y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
+Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos dinámicamente a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una superposición de texto dinámico (proceso de marca de agua) y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
 
 ## Requisitos previos {#prerequisites}
 
 Para completar este tutorial, es necesario lo siguiente:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65.html?lang=es)
-1. [AEM Service Pack 8 o bueno](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=es)
-1. [AEM 6.5 Screens FP7 o bueno](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103.html)
+1. [AEM Paquete de servicio 8 o bueno](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=es)
+1. [AEM Pantallas 6.5 FP7 o bueno](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103.html?lang=es)
 
 ## Configuración rápida {#quick-setup}
 
-El siguiente vídeo ilustra cómo instalar un paquete de código de ejemplo que introduce un nuevo flujo de trabajo en Adobe Experience Manager. Esta función permite al usuario actualizar las propiedades de una carpeta en AEM Assets para que apunte a un canal de Screens. Siempre que se añada una imagen a esa carpeta, se agregará al canal de pantallas especificado.
+El siguiente vídeo ilustra cómo instalar un paquete de código de ejemplo que introducirá un nuevo flujo de trabajo en Adobe Experience Manager. Esta función permite al usuario actualizar las propiedades de una carpeta en AEM Assets para que apunten a un canal de Screens. Cada vez que se añada una imagen a esa carpeta, se agregará al canal de pantallas especificado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333174/?quality=12&learn=on)
 
 1. Descargue el paquete de código compilado: **[screens-demo.all-2.0.0-SNAPSHOT.zip](./assets/screens-demo.all-2.0.0-SNAPSHOT.zip)**
-1. Instale el paquete anterior mediante AEM Administrador de paquetes.
+1. AEM Instale el paquete anterior mediante el Administrador de paquetes de la.
 
 ## Modelo de flujo de trabajo {#workflow-model}
 
-Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal Screens de destino en el que se deben añadir imágenes. Se utilizan dos modelos de flujos de trabajo para automatizar el procesamiento de recursos. El flujo de trabajo **DAM Update Asset** se modifica para llamar a un flujo de trabajo personalizado, **Screens Demo Asset Processing** que inspeccionará la carpeta contenedora del recurso para determinar el canal Screens de destino. El flujo de trabajo **Screens Demo Asset Processing** también es responsable de aplicar la marca de agua a la imagen.
+Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal de Screens de destino al que se deben agregar imágenes. Se utilizan dos modelos de flujos de trabajo para automatizar el procesamiento de recursos. El **Recurso de actualización DAM** flujo de trabajo se modifica para llamar a un flujo de trabajo personalizado, **Procesamiento de recursos de demostración de Screens** que inspeccionará la carpeta contenedora del recurso para determinar el canal de Screens de destinatario. El **Procesamiento de recursos de demostración de Screens** El flujo de trabajo de también es responsable de aplicar la marca de agua a la imagen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
-## Pasos personalizados del proceso de flujo de trabajo {#workflow-process-step}
+## Pasos del proceso de flujo de trabajo personalizado {#workflow-process-step}
 
-Inspect realiza dos pasos personalizados de proceso de flujo de trabajo que se utilizan como parte del flujo de trabajo **Screens Demo Asset Processing**.
+Inspect cuenta con dos pasos de proceso de flujo de trabajo personalizados que se utilizan como parte del **Procesamiento de recursos de demostración de Screens** flujo de trabajo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-`AssetProcessingCheck.java` es un proceso de flujo de trabajo personalizado que realiza una comprobación en la carga útil del flujo de trabajo para determinar si la carga útil es un recurso y si la carpeta contenedora está configurada para apuntar a un canal de Screens. Si se cumplen los requisitos, el paso del proceso mantiene dos propiedades, `screen-channel` y `asset-path`, en los metadatos del flujo de trabajo.
+`AssetProcessingCheck.java` es un proceso de flujo de trabajo personalizado que realiza una comprobación de la carga útil del flujo de trabajo para determinar si la carga útil es un recurso y si la carpeta contenedora está configurada para señalar a un canal de Screens. Si se cumplen los requisitos, el paso del proceso conserva dos propiedades, `screen-channel` y `asset-path`, a los metadatos del flujo de trabajo.
 
-`AddAssetToChannel.java` es un paso de proceso de flujo de trabajo personalizado que inspecciona los metadatos del flujo de trabajo y actualiza el canal de Screens para hacer referencia a la imagen.
+`AddAssetToChannel.java` es un paso del proceso de flujo de trabajo personalizado que inspecciona los metadatos del flujo de trabajo y actualiza el canal de Screens para hacer referencia a la imagen.
 
 1. Descargue el código fuente: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. Descomprima y vea el código usando su IDE favorito.

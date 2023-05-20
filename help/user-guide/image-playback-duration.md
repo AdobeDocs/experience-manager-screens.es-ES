@@ -1,14 +1,13 @@
 ---
-title: Duración de reproducción de imágenes
-seo-title: Duración de reproducción de imágenes
-description: Siga esta página para conocer la duración de la reproducción de imágenes.
-seo-description: Siga esta página para conocer la duración de la reproducción de imágenes.
+title: Duración de reproducción de imagen
+seo-title: Image Playback Duration
+description: Siga esta página para obtener más información sobre la duración de la reproducción de la imagen.
+seo-description: Follow this page to learn about image playback duration.
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 4%
+source-wordcount: '329'
+ht-degree: 1%
 
 ---
 
@@ -17,43 +16,43 @@ ht-degree: 4%
 
 ## Información general {#overview}
 
-Una vez creado un canal de secuencia y agregado imágenes, de forma predeterminada, todas las imágenes asumirán la duración de reproducción definida en la configuración de nivel de Canal. Cualquier imagen individual puede omitir el valor predeterminado y tener una duración de reproducción diferente; esto se logra editando la duración de reproducción del componente de imagen específico.
+Una vez que cree un canal de secuencia y le añada imágenes, de forma predeterminada, todas las imágenes asumirán la duración de reproducción definida en la configuración de nivel de canal. Cualquier imagen individual puede seguir anulando el valor predeterminado y tener una duración de reproducción diferente; esto se consigue editando la duración de reproducción del componente de imagen específico.
 
 ### Requisitos previos {#prerequisites}
 
-Antes de inicio de implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para que inicio implemente esta funcionalidad. Por ejemplo,
+Antes de comenzar a implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para comenzar a implementarlo. Por ejemplo,
 
-1. Crear un proyecto de AEM Screens (en este ejemplo, **ChannelLevelPlayback**)
+1. Cree un proyecto de AEM Screens (en este ejemplo, **ChannelLevelPlayback**)
 
-1. Cree un canal de secuencia como **PlaybackChannel** en **Canales** carpeta
+1. Crear un canal de secuencia como **CanalDeReproducción** bajo **Canales** carpeta
 
-1. Añadir contenido a **PlaybackChannel**
+1. Añadir contenido a **CanalDeReproducción**
 
-## Edición de la asignación de duración de reproducción de imágenes de nivel de Canal {#editing-channel-level-image-playback-duration-assignment}
+## Edición de asignación de duración de reproducción de imagen a nivel de canal {#editing-channel-level-image-playback-duration-assignment}
 
-En la sección siguiente se explica cómo editar la duración de la reproducción de contenido en un canal de AEM Screens.
+En la sección siguiente se explica cómo editar la duración de reproducción del contenido en un canal de AEM Screens.
 
-### Actualización de la duración de reproducción de imágenes en un Canal {#updating-the-playback-duration-for-images-in-a-channel}
+### Actualización de la duración de reproducción de las imágenes de un canal {#updating-the-playback-duration-for-images-in-a-channel}
 
-Siga los pasos a continuación para aprender a actualizar la asignación de duración de la reproducción de imágenes en el nivel de Canal:
+Siga los pasos a continuación para aprender a actualizar la asignación de duración de reproducción de imagen a nivel de canal:
 
-1. Vaya al canal de secuencia **PlaybackChannel**.
+1. Vaya al canal de secuencia **CanalDeReproducción**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Clic **Editar** en la barra de acciones para abrir el editor.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
-1. Añada dos o más imágenes en el editor de canal, como se muestra en la figura siguiente.
+1. Añada dos o más imágenes en el editor de canales, como se muestra en la figura siguiente.
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa de la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de Canal.
+1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Se abre el cuadro de diálogo** Pagedio.
+1. **Página** se abre el cuadro de diálogo.
 
    >[!NOTE]
    >
@@ -61,13 +60,13 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite la **Duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
+   Edite el **Duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha del **Página** para guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualización del resultado {#viewing-the-result}
 
-Una vez que haya actualizado la duración de la reproducción del canal (en este ejemplo, las tres imágenes), notará que las imágenes se reproducirán durante 3 segundos en lugar de 8 segundos (valor predeterminado).
+Una vez que haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), verá que las imágenes se reproducirán durante 3 segundos en lugar de 8 segundos (valor predeterminado).
 
-![canal_previsualización](assets/channel_preview.gif)
+![channel_preview](assets/channel_preview.gif)
 

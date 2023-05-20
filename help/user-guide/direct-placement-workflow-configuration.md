@@ -1,45 +1,44 @@
 ---
-title: 'Configuración del flujo de trabajo de colocación directa '
-seo-title: Configuración del flujo de trabajo de colocación directa
+title: Configuración del flujo de trabajo de ubicación directa
+seo-title: Direct Placement Workflow Configuration
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-seo-description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-translation-type: tm+mt
+seo-description: This page highlights Direct Placement Workflow Configuration.
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 
-# Configuración del flujo de trabajo de colocación directa {#direct-placement-workflow}
+# Configuración del flujo de trabajo de ubicación directa {#direct-placement-workflow}
 
-Siga esta página para obtener información sobre la configuración de un flujo de trabajo de recursos que le permite insertar mediante programación un recurso en un canal de AEM Screens predefinido.
+Siga esta página para obtener más información sobre la configuración de un flujo de trabajo de recursos que le permite insertar mediante programación un recurso en un canal de AEM Screens predefinido.
 
-Esta sección abarca los siguientes temas:
+Esta sección trata los siguientes temas:
 
 * Información general
-* Configuración del flujo de trabajo de colocación directa
+* Configuración del flujo de trabajo Direct Placement
 
 ## Información general {#overview}
 
-La configuración de flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de recursos y permite colocar cualquier recurso en dicha carpeta. Se recomienda realizar un déclencheur de la actualización sin conexión masiva para completar la publicación.
+La configuración del flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de los recursos y permite colocar cualquier recurso en esa carpeta. Se recomienda almacenar en déclencheur la actualización sin conexión masiva para completar la publicación.
 
 Como autor de contenido, también puede hacer clic manualmente en **Actualizar contenido sin conexión**.
 
 >[!NOTE]
 >
->Para obtener información sobre cómo utilizar la actualización sin conexión masiva, consulte [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
+>Para aprender a utilizar la actualización sin conexión masiva, consulte [Actualización de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
 
-## Configuración del flujo de trabajo de colocación directa {#configuring-workflow}
+## Configuración del flujo de trabajo Direct Placement {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Antes de realizar el inicio de la configuración, debe instalar el [paquete de demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Una vez que haya instalado el paquete, debería poder vista y acceder a él desde su instancia de AEM —> Herramientas (icono) —> **Flujo de trabajo** —> **Modelos de flujo de trabajo**.
+>Antes de iniciar la configuración, debe instalar el [Paquete de demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde la instancia de la aplicación —> Herramientas (icono) —> **Flujo de trabajo** —> **Modelos de flujo de trabajo**.
 
-Siga los pasos a continuación para configurar el flujo de trabajo de colocación directa:
+Siga los pasos a continuación para configurar el flujo de trabajo de ubicación directa:
 
-1. Vaya a AEM Screens desde su instancia de AEM y cree un proyecto de Pantallas denominado **Flujo de trabajo de recursos**.
+1. Navegue hasta AEM Screens AEM desde la instancia de su y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
 
-1. Cree un canal con el título **Workflow-Assets** en **Canales**.
+1. Cree un canal con el título **Workflow-Assets** bajo **Canales** carpeta.
 

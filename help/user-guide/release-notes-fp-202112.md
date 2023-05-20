@@ -1,6 +1,6 @@
 ---
-title: Notas de la versión para Feature Pack 202112
-description: Siga esta página para obtener información sobre el paquete de funciones 202112 de AEM Screens, publicado el 12 de enero de 2022.
+title: Notas de la versión del paquete de funciones 202112
+description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202112 lanzado el 12 de enero de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,54 +12,54 @@ ht-degree: 5%
 
 ---
 
-# Notas de la versión para Feature Pack 202112 {#release-notes-for-feature-pack}
+# Notas de la versión del paquete de funciones 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager (AEM). Screens proporciona compatibilidad con el mantenimiento de AEM plataforma Screens 6.3.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
-AEM Screens ha lanzado AEM 6.5 Feature Pack 10.
+AEM Screens AEM ha lanzado el paquete de funciones 10 de la versión 6.5.
 
-Puede descargar el último paquete de funciones para la versión 6.5.10 de AEM Screens desde la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) usar su Adobe ID. Vaya a **Adobe Experience Manager** y busque **Pantallas** para obtener el último feature pack titulado como **AEM 6.5 Screens FP10**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.10 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas FP10 de 6.5**.
 
 ## Fecha de lanzamiento {#release-date}
 
-La fecha de versión del Feature Pack 202112 de AEM Screens es el 12 de enero de 2022.
+La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 de enero de 2022.
 
 ### Novedades {#what-is-new}
 
-* Las actualizaciones de la aplicación de Android ahora se dirigen a Android 11 (nivel de API 30). Actualmente, el reproductor de Android está en el nivel 29 de la API de destino.
+* Las actualizaciones de la aplicación de Android ahora se dirigen a Android 11 (nivel de API 30). Actualmente, el reproductor Android está en el nivel 29 de la API de Target.
 
-* La vista previa de la pantalla está atascada en la configuración anterior del reproductor
+* La previsualización de la pantalla está atascada en la configuración anterior del reproductor
 
-* La vista previa de la pantalla no se representa en algunas condiciones
+* La vista previa de visualización no se está representando en algunas condiciones
 
-* Corrección de errores de descarga concurrentes en SmartSync
+* Corrección de errores de descarga simultánea en SmartSync
 
-* Como desarrollador, ahora verá las representaciones de recursos que se enumeren solo como entradas de representación en los recursos correspondientes del manifiesto para garantizar la extensibilidad, claridad y facilidad de gestión del manifiesto.
+* Como desarrollador, ahora verá las representaciones de recursos para que se incluyan únicamente como entradas de representación en los recursos correspondientes del manifiesto, a fin de garantizar la extensibilidad, claridad y facilidad de la administración del manifiesto.
 
 ### Correcciones de errores {#bug-fixes}
 
-* Ahora puede filtrar los eventos de análisis en función del tipo de evento.
+* Ahora puede filtrar eventos de análisis basados en el tipo de evento.
 
-* Recopile los registros locales del reproductor y analícelos para detectar la pantalla negra.
+* Recopile registros del reproductor local y analícelos en busca de pantallas en negro.
 
 * El reproductor que muestra la pantalla en blanco con el canal de pantalla dividida ahora está fijo
 
-* Se han corregido los documentos de controlador personalizados añadiendo el paquete principal en el dominio público.
+* Se han corregido documentos de controladores personalizados al agregar un paquete principal en Maven público.
 
-* El reproductor no actualizaba la versión del firmware después de la actualización. Esto se ha solucionado.
+* El reproductor no actualizaba la versión de firmware después de la actualización. Esto ya está solucionado.
 
 * La vista previa de la pantalla está atascada en la configuración anterior del reproductor.
 
-* La vista previa de la pantalla no se está procesando en algunas condiciones.
+* La vista previa de visualización no se está representando en algunas condiciones.
 
-* Corrija errores de descarga concurrentes en SmartSync.
+* Corrija los errores de descarga simultánea en SmartSync.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feature Pack 10:
+Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 10 de la versión 6.5 de:
 
 * ChromeOS
 * Windows
@@ -67,6 +67,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 * Android
 * Linux
 
-#### Descargas del reproductor de AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

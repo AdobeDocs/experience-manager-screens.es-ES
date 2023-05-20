@@ -1,23 +1,23 @@
 ---
-title: Asistencia y mantenimiento del Día dos
-seo-title: Asistencia y mantenimiento del Día dos para AEM Screens
-description: En la página se describe la asistencia y el mantenimiento del día dos
-seo-description: En la página se describe la asistencia y el mantenimiento del día dos
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: Asistencia y mantenimiento para el segundo día
+seo-title: Day Two Support and Maintenance for AEM Screens
+description: La página describe la asistencia y el mantenimiento del segundo día
+seo-description: The page describes Day Two Support and Maintenance
+exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '139'
+ht-degree: 9%
 
 ---
-
 
 # Asistencia y mantenimiento de plataforma de la fase Día dos {#day-two-support-maintenance}
 
 AEM Screens requiere varios paquetes para que los proyectos funcionen. Todos los entornos deben ejecutar la misma versión de Adobe Experience Manager.
 
-Siga las directrices como apoyo y mantenimiento para el segundo día de la fase de desarrollo del proyecto:
+Siga las directrices como soporte y mantenimiento para el segundo día de la fase de desarrollo del proyecto:
 
-1. Ejecute las versiones más recientes de los siguientes paquetes para su versión de Adobe Experience Manager:
+1. Ejecute las versiones más actuales de los siguientes paquetes para su versión de Adobe Experience Manager:
 
    * **Paquete de servicio de AEM**
    * **Paquete de funciones de Screens**
@@ -27,4 +27,4 @@ Siga las directrices como apoyo y mantenimiento para el segundo día de la fase 
 
 1. Instale los mismos paquetes de software en los entornos de desarrollo local.
 
-1. Indique al cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crearán problemas al implementar y probar.
+1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Si las configuraciones del servidor no coinciden, se crearán problemas al implementar y probar.

@@ -1,49 +1,49 @@
 ---
 title: API de REST
-seo-title: API de REST
-description: AEM Screens proporciona una API RESTful simple que sigue la especificación Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
-seo-description: AEM Screens proporciona una API RESTful simple que sigue la especificación Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
+seo-title: REST API
+description: AEM Screens proporciona una API RESTful simple que sigue la especificación de Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
+seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Desarrollo de pantallas
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 2%
 
 ---
 
-
 # API de REST{#rest-apis}
 
-AEM Screens proporciona una API RESTful simple que sigue la especificación [Siren](https://github.com/kevinswiber/siren). Permite desplazarse por la estructura de contenido y enviar comandos a dispositivos en el entorno.
+AEM Screens proporciona una API RESTful simple que sigue al [Sirena](https://github.com/kevinswiber/siren) especificación. Permite navegar por la estructura de contenido y enviar comandos a dispositivos del entorno.
 
 Se puede acceder a la API en [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
-## Navegación por la estructura de contenido {#navigating-content-structure}
+## Navegación por estructura de contenido {#navigating-content-structure}
 
-El JSON devuelto por las llamadas a la API enumera las entidades relacionadas con el recurso actual. Después del autovínculo enumerado, se vuelve a acceder a cada una de estas entidades como recurso REST.
+El JSON devuelto por las llamadas de API enumera las entidades relacionadas con el recurso actual. Después del autovínculo enumerado, cada una de estas entidades vuelve a ser accesible como recurso REST.
 
-Por ejemplo, para acceder a las pantallas de nuestra ubicación de señalización de demostración, puede llamar a:
+Por ejemplo, para acceder a las pantallas de nuestra ubicación de buque insignia de demostración, puede llamar a:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-O utilizando curl:
+O con curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
 ```
 
-El resultado sería el siguiente:
+El resultado tendría este aspecto:
 
 ```xml
 {
@@ -97,7 +97,7 @@ El resultado sería el siguiente:
 }
 ```
 
-A continuación, para acceder a la visualización de una sola pantalla, puede llamar a:
+Y luego, para acceder a la pantalla única, puede llamar a:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -106,16 +106,16 @@ Host: http://localhost:4502
 
 ## Ejecución de acciones en el recurso {#executing-actions-on-the-resource}
 
-El JSON devuelto por las llamadas a la API puede contener una lista de acciones disponibles en el recurso.
+El JSON devuelto por las llamadas de API puede contener una lista de acciones disponibles en el recurso.
 
-La pantalla, por ejemplo, enumera una acción *broadcast-command* que permite enviar un comando a todos los dispositivos asignados a esa pantalla.
+La visualización, por ejemplo, enumera una *broadcast-command* acción que permite enviar un comando a todos los dispositivos asignados a esa pantalla.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-O utilizando curl:
+O con curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
@@ -153,7 +153,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Para almacenar en déclencheur esta acción, se llamaría a:
+Para almacenar en déclencheur esta acción se llamaría a:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -162,9 +162,8 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-O utilizando curl:
+O con curl:
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-

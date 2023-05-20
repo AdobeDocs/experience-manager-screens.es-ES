@@ -1,43 +1,43 @@
 ---
 title: Especificaciones del dispositivo
-seo-title: Especificaciones del dispositivo
+seo-title: Device Specifications
 description: La página describe las especificaciones del dispositivo
-seo-description: La página describe las especificaciones del dispositivo
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Configuraciones de dispositivos {#device-configurations}
 
 >[!NOTE]
 >
->El accionista típico de esta actividad es un integrador A/V.
+>La parte interesada habitual de esta actividad es un integrador A/V.
 
-En función de la información recopilada durante *Day Zero*, confirme la siguiente información antes de comenzar el desarrollo:
+Basado en la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
 
 * ¿Cuál es la orientación, las dimensiones y la resolución de las pantallas que se utilizan?
 
-* ¿Cuántas pantallas se instalan por ubicación y en qué configuración?
+* ¿Cuántas pantallas se están instalando por ubicación y en qué configuración?
 
 * ¿Qué software y sistema operativo deben instalarse en los dispositivos de visualización?
 
-* ¿Será necesaria una conexión a Internet en los reproductores para sincronizar las pantallas con AEM servidores?
+* AEM ¿Se necesitará una conexión a Internet en los reproductores para sincronizar las pantallas con los servidores de la?
 
-* ¿Cuándo se actualizará el contenido en los reproductores?
+* ¿Cuándo se actualizará el contenido de los reproductores?
 
 * Si está ejecutando vídeos, asegúrese de comprender las especificaciones de su dispositivo para que el contenido se muestre correctamente.
 
-* En base a las consideraciones ambientales anteriores, ¿es más apropiado el estado sólido o el almacenamiento en disco duro?
+* En función de las consideraciones medioambientales anteriores, ¿es más apropiado el almacenamiento en estado sólido o en disco duro?
 
-* Determine cuánta capacidad de almacenamiento de información necesita y cuáles son sus requerimientos de performance de almacenamiento de información. Algunos ejemplos:
-   * ¿Tiene alguna consideración especial de almacenamiento (múltiples unidades, dispositivos de arranque vs. almacenamiento masivo)?
+* Determine cuánta capacidad de almacenamiento necesita y cuáles son sus requisitos de rendimiento del almacenamiento. Algunos ejemplos:
+   * ¿Tiene alguna consideración de almacenamiento especial (varias unidades, dispositivos de arranque o almacenamiento masivo)?
    * ¿Cuáles son sus requisitos de capacidad de RAM?
 
 
 >[!NOTE]
 >
->También es importante validar las especificaciones para el hardware seleccionado para garantizar que pueda soportar la aplicación que se está desarrollando. Por ejemplo, si la aplicación está pensada para ejecutar cinco vídeos HD a la vez, ¿el hardware los admitirá?
+>También es importante validar las especificaciones del hardware seleccionado para garantizar que admite la aplicación que se está desarrollando. Por ejemplo, si la aplicación está pensada para ejecutar cinco vídeos HD a la vez, ¿lo admitirá el hardware?

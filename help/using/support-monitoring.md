@@ -1,49 +1,48 @@
 ---
-title: Supervisión del soporte
-seo-title: Supervisión de la compatibilidad con AEM Screens
-description: En la página se describe la Guía de prácticas recomendadas de supervisión de la compatibilidad con AEM Screens
-seo-description: En la página se describe la Guía de prácticas recomendadas de supervisión de la compatibilidad con AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: Monitorización de soporte
+seo-title: Support Monitoring for AEM Screens
+description: En la página se describe la Guía de prácticas recomendadas de supervisión de soporte para AEM Screens
+seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
+# Monitorización de soporte {#support-monitoring}
 
-# Supervisión de soporte {#support-monitoring}
+En esta sección se describen las prácticas recomendadas relacionadas con la administración de anomalías de dispositivos y contenido en un proyecto de señalización digital.
 
-En esta sección se ofrecen prácticas recomendadas relacionadas con la administración de anomalías de contenido y dispositivos en un proyecto de publicidad dinámica.
-
-La supervisión de la compatibilidad incluye:
+La monitorización de soporte incluye:
 
 * **Monitorización de dispositivos**
-* **Supervisión del contenido**
+* **Monitorización de contenido**
 
-## Supervisión de contenido {#content-monitoring}
+## Monitorización de contenido {#content-monitoring}
 
-La monitorización de contenido permite solucionar los problemas relacionados con el contenido que no se muestra correctamente en la pantalla:
+La monitorización de contenido le permite solucionar los problemas relacionados con el contenido que no se muestra correctamente en la pantalla:
 
-1. Si se encuentra un problema con la pantalla en blanco:
+1. Si se encuentra un problema de pantalla en blanco:
 
-   * Compruebe *preview* para ver si el canal está mostrando una pantalla negra
-   * Registre un *reproductor local de Chrome* (como extensión) en su portátil en esa pantalla y compruebe si se muestra una pantalla negra.
-   * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.
+   * Marque *previsualización* para ver si el canal muestra una pantalla en negro
+   * Registre un *reproductor local de chrome* (como extensión) en su portátil a esa pantalla y ver si se muestra una pantalla en negro.
+   * Haga clic con el botón derecho e inspeccione y compruebe *registros aplicables*.
 
-   Además, si esto no está ocurriendo en el reproductor local sino solo en el dispositivo:
+   Además, si esto no sucede en el reproductor local, sino solo en el dispositivo:
 
-   * Compruebe el *tipo de medio* (en uso) que pueda tener problemas en ese dispositivo y confirme también si el contenido se descargó localmente correctamente (interfaz de usuario de administración borra la caché del canal).
-   * Incluya todos los *registros de dispositivo* en el ticket para una solución rápida de problemas.
-   * *Recopile* registros del dispositivo desde AEM.
+   * Marque *tipo de medios* (en uso) que pueden tener problemas en ese dispositivo y también confirmar si el contenido se descargó correctamente localmente (IU del administrador para borrar la caché del canal).
+   * Incluir cualquiera *registros de dispositivo* en el ticket para una solución rápida de problemas.
+   * *Recopilar registros* AEM desde el dispositivo desde el punto de vista de la.
 
 
 ## Monitorización de dispositivos {#device-monitoring}
 
-Monitorización de dispositivos relacionada con la monitorización del dispositivo físico si se produce un problema con la pantalla en blanco:
+Supervisión del dispositivo relacionada con la supervisión del dispositivo físico si se produce un problema de pantalla en blanco:
 
-1. Si se encuentra un problema con la pantalla en blanco:
+1. Si se encuentra un problema de pantalla en blanco:
 
-   * Compruebe si la *pantalla* está activada.
-   * Compruebe si el *equipo* está encendido y está enviando una señal.
-   * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.
-
+   * Compruebe si la variable *exhibición* está encendido.
+   * Compruebe si la variable *ordenador* está encendido y está enviando señal.
+   * Clic derecho, inspeccionar y comprobar *registros aplicables*.

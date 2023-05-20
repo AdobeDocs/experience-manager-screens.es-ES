@@ -1,67 +1,66 @@
 ---
-title: Compatibilidad con postinicio
-seo-title: Compatibilidad con Post Launch para AEM Screens
-description: La página describe la Guía de optimizaciones de la compatibilidad de postinicio con AEM Screens
-seo-description: La página describe la Guía de optimizaciones de la compatibilidad de postinicio con AEM Screens
-translation-type: tm+mt
+title: Compatibilidad posterior al inicio
+seo-title: Post Launch Support for AEM Screens
+description: En la página se describe la compatibilidad posterior al inicio de la Guía de prácticas recomendadas de AEM Screens
+seo-description: The page describes Post Launch Support for AEM Screens Best Practices Guide
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 7%
+source-wordcount: '395'
+ht-degree: 8%
 
 ---
 
 
-# Compatibilidad con poslanzamiento {#post-launch-support}
+# Compatibilidad posterior al inicio {#post-launch-support}
 
 
-No se debe pasar por alto la compatibilidad posterior al inicio en las primeras etapas.
+La compatibilidad posterior al inicio no debe pasarse por alto en la fase inicial.
 
 Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. El **integrador A/V** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios en diferentes aspectos.
-Tenga en cuenta los siguientes requisitos durante la compatibilidad con el postinicio:
+Tenga en cuenta los siguientes requisitos durante la compatibilidad con la versión posterior al lanzamiento:
 
-* administración remota de dispositivos
-* disponibilidad del centro de soporte
-* soporte técnico in situ
+* administración de dispositivos remotos
+* disponibilidad del centro de asistencia
+* asistencia técnica in situ
 * administración de dispositivos (soporte de garantía y almacenamiento de dispositivos de repuesto)
 
-Además, para prepararse para el éxito a largo plazo, es primordial establecer un acuerdo de nivel de servicio (SLA) de día 2 en colaboración con el integrador de AV. El SLA debería detallar todos los servicios de soporte posteriores a la implementación para ayudar a establecer con precisión las expectativas de los clientes.
+Además, para prepararse para el éxito a largo plazo, es fundamental establecer un acuerdo de nivel de servicio (SLA) de día 2 en colaboración con el integrador de AV. El SLA debe detallar todos los servicios de asistencia posteriores a la implementación para ayudar a establecer con precisión las expectativas de los clientes.
 
 >[!NOTE]
 >
->Debe definir los parámetros operativos incluidos en los presupuestos operativos con antelación, así como alinear las responsabilidades con el implementador de AEM y el integrador de AV.
+>AEM Debe definir los parámetros operativos en una fase inicial incluidos en los presupuestos operativos, así como alinear las responsabilidades con el implementador de la aplicación y con el integrador de AV.
 >
->* ¿Es la implementación una red de publicidad con muchos interesados conectados a una red monetizada?  Esto puede imponer plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
->* ¿Es la aplicación altamente visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
->* ¿La aplicación es crítica para las operaciones comerciales, como los tableros de menús en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
+>* ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada?  Esto puede implicar periodos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+>* ¿La aplicación es altamente visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
+>* ¿Es la aplicación crítica para las operaciones empresariales, como los tableros de menú en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
 
 
-## Consideraciones y Consultas posteriores al lanzamiento {#considerations-queries}
+## Consideraciones y consultas posteriores al lanzamiento {#considerations-queries}
 
-A continuación se indican algunas consideraciones y preguntas que le ayudan a definir la compatibilidad posterior al inicio:
+Algunas consideraciones y preguntas que le ayudan a definir la compatibilidad posterior al inicio son las siguientes:
 
-1. ¿Es la implementación una red de publicidad con muchos interesados conectados a una red monetizada?  Esto puede imponer plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+1. ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada?  Esto puede implicar periodos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
  
    >[!NOTE]
    >
-   > Esto exige plazos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
+   > Esto exige periodos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.
 
-1. ¿Es la aplicación altamente visible para el liderazgo ejecutivo del cliente final?
+1. ¿La aplicación es altamente visible para el liderazgo ejecutivo del cliente final?
 
    >[!NOTE]
    >
-   > Esto exige intervalos de tiempo de resolución mucho más cortos en comparación con una red de comunicaciones corporativas.Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
+   > Esto exige periodos de resolución mucho más cortos en comparación con una red de comunicaciones corporativas. Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
 
-1. ¿La aplicación es crítica para las operaciones comerciales, como los tableros de menús en las cadenas de comida rápida?
+1. ¿Es la aplicación crítica para las operaciones empresariales, como los tableros de menú en las cadenas de comida rápida?
 
    >[!NOTE]
    >
    > En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta muy cortos, así como redundancia en el hardware de reproducción.
 
-1. ¿Quién será el principal punto de contacto para la asistencia?
+1. ¿Quién será el principal punto de contacto para obtener asistencia?
 
 1. ¿Quién responderá a las solicitudes de asistencia?
 
-1. ¿Cuáles de sus ubicaciones de venta minorista requieren supervisión las 24 horas del día, los 7 días de la semana?
+1. ¿Cuál de sus establecimientos comerciales requiere monitorización las 24 horas del día, los 7 días de la semana?
 
-1. ¿Son las pantallas una parte integral de su negocio? (es decir, configuración del automóvil, alertas de ventas)
+1. ¿Son las pantallas una parte integral de su negocio? (es decir, configuración de coche, alertas de ventas)

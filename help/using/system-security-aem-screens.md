@@ -1,12 +1,11 @@
 ---
 title: Lista de comprobación de seguridad para AEM Screens
-seo-title: Lista de comprobación de seguridad para AEM Screens
-description: La página describe la lista de comprobación de seguridad para AEM Screens
-seo-description: La página describe la lista de comprobación de seguridad para AEM Screens
-translation-type: tm+mt
+seo-title: Security Checklist for AEM Screens
+description: En la página se describe la lista de comprobación de seguridad de AEM Screens
+seo-description: The page describes Security Checklist for AEM Screens
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -15,89 +14,89 @@ ht-degree: 1%
 # Consideraciones de seguridad del sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Se trata de un recurso Git interno.
+>Este es un recurso de Git interno.
 
-Esta página resalta las consideraciones de seguridad del sistema para AEM Screens.
-
-
-## Documento técnico para la seguridad de AEM Screens {#white-paper}
-
-Esta sección describe el documento técnico. (Documento técnico pendiente adjunto)
+Esta página resalta las Consideraciones de seguridad del sistema para AEM Screens.
 
 
-## Preguntas más frecuentes sobre la seguridad de AEM Screens {#faqs-screens}
+## Documentación técnica sobre la seguridad de AEM Screens {#white-paper}
 
-Las siguientes preguntas más frecuentes asumen una arquitectura de reproductor autenticada y registrada usando HTTPS como protocolo de comunicación entre reproductor y AEM Server.
+En esta sección se describe el documento técnico. (Documento adjunto a la documentación técnica pendiente)
 
-### Preguntas más frecuentes 1 {#faq1}
 
-¿Se puede volver a enrutar el tráfico del reproductor a un servidor malintencionado e indicar que descargue y reproduzca contenido multimedia malintencionado?
+## Preguntas frecuentes sobre la seguridad de AEM Screens {#faqs-screens}
+
+AEM Las siguientes preguntas frecuentes suponen una arquitectura de reproductor autenticada y registrada que utiliza HTTPS como protocolo de comunicación entre el reproductor y el servidor de la.
+
+### FAQ 1 {#faq1}
+
+¿Se puede redirigir el tráfico del reproductor a un servidor malintencionado e instruirlo para que descargue y reproduzca contenido multimedia malintencionado?
 
 **Respuesta**
 
-No es posible porque la conexión HTTP identifica ambos extremos de la conexión y la cifra. Si tratas de estar en el medio e interceptarlo, solo ves contenido cifrado, y si tratas de suplantar al servidor, el reproductor te rechazará porque tu certificado es diferente.
+No es posible porque la conexión HTTP identifica ambos extremos de la conexión y la cifra. Si intenta estar en el medio e interceptarlo, solo verá contenido encriptado y, si intenta suplantar al servidor, el reproductor le rechazará porque su certificado es diferente.
 
 
-### Preguntas más frecuentes 2 {#faq2}
+### FAQ 2 {#faq2}
 
 ¿Debo usar HTTP o HTTP?
 
 **Respuesta**
 
-Utilice HTTP. Esto es imprescindible si le preocupa la seguridad. Con HTTPs la comunicación se encripta entre reproductor y servidor, e interceptar el contenido o modificarlo será casi imposible.
+Utilice HTTP. Esto es imprescindible si le preocupa la seguridad. Con HTTP la comunicación se cifra entre el reproductor y el servidor, e interceptar el contenido o modificarlo será prácticamente imposible.
 
 
-### Preguntas más frecuentes 3 {#faq3}
+### FAQ 3 {#faq3}
 
 En una descarga de contenido, ¿hay algún tipo de firma del contenido o hash?
 
 **Respuesta**
 
-Cada recurso está firmado (SHA) por el servidor y luego validado por el reproductor para el mismo hash para garantizar la integridad.
-Si el hash no coincide, intentamos volver a validar 3 veces. Después de 3 intentos, consideramos que el comando download no es válido.
+El servidor firma todos los recursos (SHA) y, a continuación, el reproductor los valida para obtener el mismo hash a fin de garantizar la integridad.
+Si el hash no coincide, intentamos volver a validarlo 3 veces. Tras 3 intentos, consideramos que el comando de descarga no es válido.
 
 
-### Preguntas más frecuentes 4 {#faq4}
+### PREGUNTAS FRECUENTES 4 {#faq4}
 
-¿AEM Server es seguro?
+AEM ¿Es seguro el servidor?
 
 **Respuesta**
 
-Ans 4. Si está en AMS, nos encargamos de toda la seguridad del servidor utilizando las mismas funciones que Sitios o Recursos.
+Ans 4. Si está en AMS, nos encargamos de toda la seguridad del servidor mediante las mismas funciones que Sites o Assets.
 
 
-### Preguntas más frecuentes 5 {#faq5}
+### PREGUNTAS FRECUENTES 5 {#faq5}
 
 ¿Es seguro el dispositivo?
 
 **Respuesta**
 
-Un reproductor físicamente comprometido puede ser teóricamente manipulado para reproducir cualquier contenido. También se puede conectar el reproductor y conectar un dispositivo USB/HDMI.
+En teoría, un reproductor físicamente comprometido puede manipularse para reproducir cualquier contenido. También podría simplemente enchufar el reproductor y enchufar una memoria USB/HDMI.
 
-Por lo tanto, se recomienda poner los dispositivos fuera del alcance, preferiblemente en un contenedor seguro, con el cableado también asegurado. También deshabilite los puertos remotos IR.
+Por lo tanto, se recomienda poner los dispositivos fuera del alcance, preferiblemente en un contenedor seguro, con el cableado asegurado también. Deshabilite también cualquier puerto remoto IR.
 
 Si el sistema operativo del dispositivo no se actualiza con regularidad, el sistema operativo puede quedar expuesto a agujeros de seguridad y permitir ataques remotos a través de la red.
 
 >[!NOTE]
 >
->Se recomienda instrumentar los dispositivos con capacidades de control y actualización remota decentes (escritorio remoto, solución MDM, etc.). También se recomienda utilizar una red privada, no expuesta a la WIFI pública, por ejemplo.
+>Se recomienda instrumentar los dispositivos con capacidades decentes de actualización y control remoto (escritorio remoto, solución MDM, etc.). También se recomienda utilizar una red privada, no expuesta al WIFI público, por ejemplo.
 
 
-### Preguntas más frecuentes 6 {#faq6}
+### PREGUNTAS FRECUENTES 6 {#faq6}
 
 ¿Cómo intentaría un hacker comprometer a un jugador?
 
 **Respuesta**
 
-La única forma de poner en peligro un dispositivo reproductor es:
+La única manera de comprometer un dispositivo de reproducción es:
 
-1. comprometa el DNS a suplantar el servidor en su nombre de host, y
-1. compromiso
-   1. el servidor de certificados para suplantar el servidor
-   1. y suplantar el certificado en el lado del cliente
+1. comprometer el DNS para suplantar al servidor en su nombre de host, y,
+1. avenencia
+   1. el certificado del lado del servidor para suplantar al servidor
+   1. y suplantar el certificado del lado del cliente
 
 >[!IMPORTANT]
->Incluso si un dispositivo está en peligro, puede revocar fácilmente sus credenciales para que ya no pueda conectarse a AEM.
+>AEM Incluso si un dispositivo está en peligro, puede revocar fácilmente sus credenciales para que ya no se pueda conectar a la red de manera que no se pueda volver a conectar a la red de manera más rápida y segura.
 
 
 

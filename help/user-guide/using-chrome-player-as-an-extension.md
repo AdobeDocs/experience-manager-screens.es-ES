@@ -1,70 +1,70 @@
 ---
-title: Uso de Chrome Player como extensión
-seo-title: Uso de Chrome Player como extensión
-description: Siga esta página para obtener más información sobre la instalación del reproductor Chrome como extensión del explorador.
-seo-description: nulo
-feature: Administración de Screens
+title: Uso del reproductor Chrome como extensión
+seo-title: Using Chrome Player as an Extension
+description: Siga esta página para obtener más información sobre la instalación del reproductor de Chrome como extensión del explorador.
+seo-description: null
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
-# Uso de Chrome Player como extensión {#using-chrome-player}
+# Uso del reproductor Chrome como extensión {#using-chrome-player}
 
-El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin necesidad de un dispositivo de reproducción Chrome.
+El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin requerir el dispositivo de reproductor Chrome real.
 
 >[!CAUTION]
 >
-> Se recomienda utilizar Chrome Player como extensión para solucionar problemas en demostraciones rápidas, depuración y también para solucionar problemas de clientes. Este mecanismo no debe utilizarse para implementaciones de producción que requieran el modo de quiosco y la administración central.
+> Se recomienda utilizar el reproductor Chrome como extensión para solucionar problemas en demostraciones rápidas, depuraciones y también para solucionar problemas de los clientes. Este mecanismo no debe utilizarse para implementaciones de producción que requieran modo de quiosco y administración central.
 
-Siga esta página para obtener más información sobre la instalación del reproductor Chrome como extensión del explorador.
+Siga esta página para obtener más información sobre la instalación del reproductor de Chrome como extensión del explorador.
 
-1. Haga clic [aquí](https://download.macromedia.com/screens/) para descargar la última versión de Chrome Player.
+1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 
 1. Descomprima y guárdelo en el disco.
 
-1. Abra el explorador Chrome, haga clic en el menú de 3 puntos y seleccione **Más herramientas** en **Extensiones**, en la esquina superior derecha, o navegue directamente a `chrome://extensions`.
+1. Abra el navegador Chrome, haga clic en el menú de 3 puntos y seleccione **Más herramientas** de **Extensiones** situado en la esquina superior derecha o navegue directamente a `chrome://extensions`.
 
-1. Active el modo **Developer** desde la esquina superior derecha.
+1. Encienda el **Desarrollador** modo desde la esquina superior derecha.
 
-1. Haga clic en **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
+1. Haga clic en **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
 
-1. Compruebe el complemento de AEM Screens Chrome Player si está disponible en la lista de extensiones.
+1. Compruebe el complemento AEM Screens Chrome Player si está disponible en la lista de extensiones.
 
-1. Abra una nueva pestaña y haga clic en el icono Aplicaciones en la esquina superior izquierda, o navegue directamente a `chrome://apps`.
+1. Abra una pestaña nueva y haga clic en el icono Aplicaciones desde la esquina superior izquierda o navegue directamente a `chrome://apps`.
 
-1. Haga clic en **AEM Screens Plugin** para iniciar Chrome Player.
+1. Haga clic en **Complemento de AEM Screens** para iniciar Chrome Player.
    >[!NOTE]
    >
-   > De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Pulse **esc** para salir del modo de pantalla completa.
+   > De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **esc** para salir del modo de pantalla completa.
 
 
-## Sugerencias de depuración avanzadas {#advanced-debugging-tips}
+## Sugerencias de depuración avanzada {#advanced-debugging-tips}
 
-1. Una vez que el reproductor haya descargado contenido localmente, puede examinar el contenido descargado localmente en `http://localhost:24502`.
+1. Una vez que el reproductor ha descargado contenido localmente, puede examinar el contenido descargado localmente accediendo a `http://localhost:24502`.
 
    >[!NOTE]
    >
-   > Si la URL mencionada anteriormente no funciona, significa que al reproductor no se le asigna una pantalla o que el contenido no se ha descargado correctamente. Compruebe la pestaña red para ver si el JSON de configuración del reproductor ha obtenido los detalles correctos y si hay algún problema de red en la descarga.
+   > Si la URL mencionada anteriormente no funciona, significa que el reproductor no tiene asignada una pantalla o que el contenido no se ha descargado correctamente. Compruebe la pestaña de red del JSON de configuración del reproductor para ver si el reproductor obtiene los detalles correctos y para cualquier problema de red en la descarga.
 
-1. Puede hacer clic con el botón derecho e inspeccionar tres capas del reproductor de Chrome
-   **Depurar contenido**: Haga clic con el botón derecho e inspeccione el contenido para depurar el contenido en ejecución (debe haber un solo elemento llamado &quot;Inspect&quot; en el menú contextual)
+1. Puede hacer clic con el botón derecho e inspeccionar tres capas del reproductor cromado
+   **Depuración de contenido**: haga clic con el botón derecho e inspeccione el contenido para depurar el contenido en ejecución (debe haber un solo elemento llamado &quot;Inspect&quot; en el menú contextual)
 
-   **firmware** de depuración: Acceda a la interfaz de usuario de administración y haga clic con el botón derecho e inspeccione para depurar el código de firmware (reproductor) (debe haber una opción para inspeccionar e inspeccionar la página de fondo y simular el reinicio del explorador)
+   **Depurar firmware**: abra la interfaz de usuario de administración y, a continuación, haga clic con el botón derecho e inspeccione para depurar el código del firmware (reproductor) (debe haber una opción para inspeccionar la página en segundo plano y simular el reinicio del explorador)
 
-   **Depurar página** de fondo: Acceda a la interfaz de usuario de administración y haga clic con el botón derecho e inspeccione la página de fondo (para servicios en segundo plano como el servidor http)
+   **Depurar página de fondo**: abra la IU de administración, haga clic con el botón derecho e inspeccione la página de fondo (para servicios en segundo plano como el servidor http)
 
 ## Actualización de la extensión del reproductor {#upgrading-player}
 
-Siga los pasos a continuación para actualizar la extensión del reproductor si se lanza una nueva versión del mismo. También puede seguir las instrucciones que se indican a continuación para probar los escenarios de actualización:
+Siga los pasos a continuación para actualizar la extensión del reproductor si se publica una nueva versión. También puede seguir las instrucciones a continuación para probar los escenarios de actualización:
 
-1. Cierre las instancias de Chrome y del reproductor en ejecución
-1. Cambiar el nombre de la carpeta antigua con archivos de reproductor
+1. Cierre todas las instancias de Chrome y reproductor en ejecución
+1. Cambie el nombre de la carpeta antigua por archivos de reproductor
 1. Extraiga el nuevo zip en la misma ubicación que la carpeta antigua
 1. Inicie Chrome y vaya a `chrome://extensions`
-1. Marque el icono del reproductor y haga clic en el botón actualizar o volver a cargar
+1. Compruebe el icono del reproductor y haga clic en el botón Actualizar o volver a cargar

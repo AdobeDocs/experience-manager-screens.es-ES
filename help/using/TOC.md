@@ -10,7 +10,7 @@ audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 + [Acerca de esta guía](about-guide.md)
 + Información general {#overview}
-   + [Introducción a AEM Screens](introduction.md)
+   + [Introducción a AEM SCREENS](introduction.md)
    + [Funciones y responsabilidades del proyecto](roles-responsibilities.md)
    + [Requisitos previos](pre-requisites.md)
    + [Elementos clave de un proyecto de señalización digital](getting-started-digital-signage.md)
@@ -40,10 +40,10 @@ ht-degree: 77%
    + [Taxonomía e implementación del proyecto](project-taxonomy-implementation.md)
    + Administración del tráfico de red {#manage-network-traffic}
       + [Administración del tráfico de red](/help/using/managing-network-traffic.md)
-      + [Red directa de Internet (cableada/inalámbrica)](/help/using/direct-internet-network.md)
+      + [Red de Internet directa (por cable/inalámbrica)](/help/using/direct-internet-network.md)
       + [Red móvil directa](/help/using/mobile-network.md)
-      + [Red móvil con enrutador de datos móvil y componentes de red activa](/help/using/mobile-network-router.md)
-      + [Red corporativa cerrada (inalámbrica/cableada)](/help/using/enclosed-corporate-network.md)
+      + [Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)
+      + [Red corporativa cerrada (por cable/inalámbrica)](/help/using/enclosed-corporate-network.md)
    + [Configuraciones de dispositivos](device-configurations.md)
    + [Pruebas y control de calidad](testing-quality-assurance.md)
    + [Estrategia de participación del proveedor](vendor-engagement.md)

@@ -1,7 +1,7 @@
 ---
 title: Acerca de esta guía
 seo-title: Description on the Guide
-description: Siga esta guía de prácticas recomendadas AEM la versión 6.5 para proyectos de AEM Screens a fin de planificar y ejecutar proyectos, desde la información estratégica y de diseño hasta la implementación y después del apoyo.
+description: AEM Siga esta guía de prácticas recomendadas de 6.5 para proyectos de AEM Screens para planificar y ejecutar proyectos, desde instrucciones estratégicas y de diseño, hasta la implementación y la asistencia posterior.
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef

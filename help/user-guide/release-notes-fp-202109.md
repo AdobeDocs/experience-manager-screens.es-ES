@@ -1,6 +1,6 @@
 ---
-title: Notas de la versión para Feature Pack 202109
-description: Siga esta página para obtener información sobre el paquete de funciones 202109 de AEM Screens, publicado el 23 de septiembre de 2021.
+title: Notas de la versión del paquete de funciones 202109
+description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202109 lanzado el 23 de septiembre de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,66 +8,66 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Notas de la versión para Feature Pack 202109 {#release-notes-for-feature-pack}
+# Notas de la versión del paquete de funciones 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager (AEM). Screens proporciona compatibilidad con el mantenimiento de AEM plataforma Screens 6.3.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
-AEM Screens ha lanzado AEM 6.5 Feature Pack 9.
+AEM Screens AEM ha lanzado el paquete de funciones 9 de la versión 6.5.
 
-Puede descargar el último paquete de funciones para la versión 6.5.9 de AEM Screens desde la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) usar su Adobe ID. Vaya a **Adobe Experience Manager** y busque **Pantallas** para obtener el último feature pack titulado como **AEM 6.5 Screens FP9**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.9 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas FP9 de 6.5**.
 
-## Fecha de la versión {#release-date}
+## Fecha de lanzamiento {#release-date}
 
-La fecha de versión del Feature Pack 202109 de AEM Screens es el 23 de septiembre de 2021.
+La fecha de lanzamiento del AEM Screens Feature Pack 202109 es el 23 de septiembre de 2021.
 
 ### Novedades {#what-is-new}
 
 * **Compatibilidad con miniaturas para vídeos**
 
-   Compatibilidad con miniaturas para vídeos en ahora se admite en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y el destino del contenido, mientras el equipo adecuado está finalizando el vídeo en sí. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
+   Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
 Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obtener más información.
 
 * **Monitorización de reproducción básica**
 
-   AEM Screens ahora es compatible con la monitorización de reproducción básica. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, proporciona la capacidad de detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo contenido correctamente, mejora la reacción a pantallas en blanco o experiencias rotas en el campo y disminuye el riesgo de mostrar una experiencia rota al usuario final.
+   AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, permite detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite al equipo monitorizar de forma remota si un reproductor está reproduciendo el contenido correctamente, mejora la reacción ante pantallas en blanco o experiencias rotas en el campo y reduce el riesgo de mostrar una experiencia rota al usuario final.
 Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obtener más información.
 
 * **Actualizaciones del informe de asignación de contenido**
 
-   El informe de asignación de contenido ahora se optimiza y mejora con la experiencia del usuario mejorada. El informe descargable muestra las entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos, en una ficha de hoja de cálculo, así como la información del proveedor de contenido, como los canales y los recursos, en otra ficha.
+   El informe de asignación de contenido ahora está optimizado y mejorado con una experiencia de usuario mejorada. El informe descargable muestra entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos en una pestaña de hoja de cálculo, y la información del proveedor de contenido, como canales y recursos en otra pestaña.
 Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 * **Representaciones adaptables**
 
    Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
-   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general y configuraciones de arquitectura](/help/user-guide/adaptive-renditions.md) para obtener más información.
+   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
-   Además, como autor de contenido de AEM Screens, puede configurar los recursos para que utilicen representaciones adaptables y también migrar los dispositivos de redes grandes para que utilicen esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+   Además, como autor de contenido de AEM Screens, puede configurar sus recursos para que utilicen representaciones adaptables y también migrar sus dispositivos para redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
 
-* **Compatibilidad con los manifiestos V3**
+* **Compatibilidad con manifiestos de la versión 3**
 
-   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para activar el manifiesto v3, debe:
+   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe:
 
-   * Borre los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación
+   * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación
 
-      * Vaya a crx/de en author y publish
+      * Vaya a crx/de en Autor y publicación
 
       * Haga clic en Herramientas —> Consulta
 
       * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
-      * Se enumerarán todos los trabajos de contenido sin conexión que estén en ejecución o pendientes en la cola
+      * Esto indicará cualquier trabajo de contenido sin conexión que se esté ejecutando o esté pendiente en la cola
 
-      * Espere hasta que no se devuelvan más trabajos de contenido sin conexión de la consulta
-   * Desactivar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+      * Espere hasta que no haya más trabajos de contenido sin conexión devueltos desde la consulta
+   * Deshabilitar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
@@ -76,83 +76,83 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
    * Actualizar componente personalizado
 
 
-   * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
-   * Si utiliza componentes personalizados como parte de manifiestos v3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * Consulte [Configurar Dispatcher para la versión 3 del manifiesto](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
+   * Si utiliza componentes personalizados como parte de manifiestos de la versión 3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 
-### Corrección de errores {#bug-fixes}
+### Correcciones de errores {#bug-fixes}
 
 **Lado del reproductor**
 
-* Se han resuelto errores de almacenamiento en caché de archivos al reemplazar recursos por representaciones.
+* Se han resuelto errores de almacenamiento en caché de archivos reemplazando recursos por representaciones.
 
-* Los reproductores ahora solo muestran las representaciones de recursos si está presente la asignación de representación.
+* Los reproductores ahora solo exponen las representaciones de recursos si la asignación de representaciones está presente.
 
-* ping mejorado para volver a autenticarse si la respuesta no es JSON válida.
+* Ping mejorado para volver a autenticar si la respuesta no es un archivo JSON válido.
 
-* Los nombres y roles de canales numéricos provocaron una pantalla en blanco.
+* Los nombres o roles de los canales numéricos provocaban una pantalla en blanco.
 
-* Descargue representaciones optimizadas mediante SmartSync.
+* Descargar representaciones optimizadas mediante SmartSync.
 
 * Se ha transformado la asignación en una lista de claves de representación.
 
-* Se ha eliminado el acceso a `cmd.exe` y `reg.exe` en el reproductor de windows.
+* Acceso eliminado a `cmd.exe` y `reg.exe` en el reproductor de windows.
 
-* Un reproductor debe informar de su último evento de reproducción exitoso.
+* Un reproductor debe informar de su último evento de reproducción correcta.
 
 * Un reproductor debe informar de su estado de reproducción.
 
-* El reproductor no vuelve a descargar Assets cuando `ALL` La caché se borra.
+* El reproductor no vuelve a descargar los recursos cuando `ALL` Se ha borrado la caché.
 
-* Como administrador del reproductor, ahora puede elegir un nombre de reproductor.
+* Como administrador de reproductor, ahora puede elegir un nombre de reproductor.
 
-* La eliminación de la asignación de canal de la visualización no se refleja en el reproductor.
+* La eliminación de la asignación del canal de la pantalla no se refleja en el reproductor.
 
 * Si el reproductor se vuelve a cargar mientras se descarga la actualización del canal, el reproductor ignora la actualización.
 
-* El componente de página integrada ahora respeta el evento táctil.
+* El componente de página incrustada ahora respeta el evento táctil.
 
 * Ahora se admite el aprovisionamiento remoto del reproductor Tizen.
 
-**Servidor**
+**Lado del servidor**
 
-* El vídeo de Target no se muestra
+* El vídeo de destino no se muestra
 * Condición de carrera al transmitir datos de visualización a las subsecuencias.
 
-* La vista previa del canal no funciona para los canales que contienen vídeos.
+* La vista previa de canal no funciona para canales que contienen vídeos.
 
-* El modo de vista previa se muestra en blanco para el canal de pantalla dividido.
+* Modo de vista previa que muestra en blanco para el canal de pantalla dividida.
 
-* Las miniaturas de vídeo se representan en blanco con las representaciones adaptables habilitadas.
+* Las miniaturas de vídeo se muestran en blanco con las representaciones adaptables habilitadas.
 
-* Actualice automáticamente el manifiesto de canal si se publica la página a la que se hace referencia.
+* Actualizar automáticamente el manifiesto de canal si se publica la página a la que se hace referencia.
 
 * Los dispositivos eliminados ahora no bloquean la cola de replicación de Screens.
 
 * El manifiesto no contenía contenido de destino ni páginas incrustadas de Sites. Esto se ha corregido.
 
-* El nuevo componente de imagen principal ahora se agrega al manifiesto del canal.
+* Ahora se agregan nuevos componentes de imagen principales al manifiesto de canal.
 
 * Ahora se admite la descarga de representaciones optimizadas mediante SmartSync.
 
 * Reproducir la representación optimizada para todos los recursos.
 
-* Se agregó compatibilidad con varios tipos de proveedores de contenido
+* Se ha agregado compatibilidad con varios tipos de proveedores de contenido
 
-* La estrategia de reproducción de secuencias incrustadas se ha interrumpido y esto se ha corregido.
+* La estrategia de reproducción de secuencias incrustadas se ha dañado y esto se ha corregido.
 
-* Manifiesto sin conexión con el parámetro de solicitud `wcmmode` para la entrada html, haciendo que no se pueda almacenar en caché.
+* Manifiesto sin conexión mediante el parámetro de solicitud `wcmmode` para la entrada html, lo que la hace inalmacenable en caché.
 
-* La secuencia integrada dinámica vacía a veces causaba una pantalla en blanco.
+* La secuencia incrustada dinámica vacía a veces provocaba que la pantalla estuviera en blanco.
 
 * El reproductor ahora informa de su estado de reproducción.
 
-* Se estaba reproduciendo el vídeo `Tiny mode` y no se reproduce como vídeo de pantalla completa en el dispositivo, y el problema se ha corregido ahora.
+* Se estaba reproduciendo el vídeo en `Tiny mode` y no se reproduce como vídeo de pantalla completa en el dispositivo, y el problema se ha corregido.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feature Pack 9:
+Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 9 de la versión 6.5 de:
 
 * ChromeOS
 * Windows
@@ -160,6 +160,6 @@ Los siguientes reproductores de AEM Screens están disponibles para AEM 6.5 Feat
 * Android
 * Linux
 
-#### Descargas del reproductor de AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

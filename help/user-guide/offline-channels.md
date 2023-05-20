@@ -1,8 +1,8 @@
 ---
 title: Canales sin conexión
-seo-title: Canales sin conexión
-description: 'El reproductor AEM Screens ofrece compatibilidad con canales sin conexión gracias a la tecnología ContentSync. Siga esta página para obtener más información sobre los controladores de actualización y la activación de la configuración sin conexión para un canal.  '
-seo-description: 'El reproductor AEM Screens ofrece compatibilidad con canales sin conexión gracias a la tecnología ContentSync. Siga esta página para obtener más información sobre los controladores de actualización y la activación de la configuración sin conexión para un canal.  '
+seo-title: Offline Channels
+description: El reproductor AEM Screens proporciona compatibilidad sin conexión con los canales mediante el uso de la tecnología ContentSync. Siga esta página para obtener más información sobre los controladores de actualización y la activación de la configuración sin conexión para un canal.
+seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,30 +10,30 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Desarrollo de pantallas
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
 
-
 # Canales sin conexión {#offline-channels}
 
-El reproductor Screens proporciona compatibilidad con los canales sin conexión gracias a la tecnología ***ContentSync***.
+El reproductor Screens proporciona compatibilidad sin conexión con los canales mediante el uso del ***ContentSync*** tecnología.
 
-Los reproductores utilizan un servidor http local para ofrecer el contenido descomprimido.
+Los reproductores utilizan un servidor http local para proporcionar el contenido descomprimido.
 
-Cuando un canal está configurado para ejecutarse *en línea*, el reproductor proporciona los recursos del canal accediendo al servidor de AEM, pero cuando el canal está configurado para ejecutar *offline*, el reproductor sirve los recursos del canal desde un servidor http local.
+Cuando un canal está configurado para ejecutarse *en línea* AEM , el reproductor sirve a los recursos del canal accediendo al servidor de, pero cuando el canal está configurado para ejecutarse *sin conexión*, el reproductor sirve los recursos de canal desde un servidor http local.
 
-El flujo de trabajo del proceso es el siguiente:
+El flujo de trabajo para el proceso es el siguiente:
 
 1. Analizar las páginas deseadas
 1. Recopilar todos los recursos relacionados
-1. Empaquete todo en un archivo zip
+1. Empaquetar todo en un archivo zip
 1. Descargue el zip y extráigalo localmente
 1. Mostrar copia local del contenido
 
@@ -43,7 +43,7 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
 
 ### Opciones comunes {#common-options}
 
-* *tipo*: el tipo de controlador de actualización que se va a utilizar
+* *type*: el tipo de controlador de actualización que se va a utilizar
 * *ruta*: ruta al recurso
 * *[targetRootDirectory]*: carpeta de destino en el archivo zip
 
@@ -57,7 +57,7 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
   <tr>
    <td>canales</td> 
    <td>recopila un canal</td> 
-   <td>extensión: extensión del recurso para recopilar<br /> [pathSuffix='']: sufijo que se agregará a la ruta de acceso del canal<br /> </td> 
+   <td>extension: extensión del recurso que se va a recopilar<br /> [pathSuffix='']: sufijo para agregar a la ruta del canal<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
@@ -67,7 +67,7 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
   <tr>
    <td>assetrenditions</td> 
    <td>recopilar las representaciones de recursos</td> 
-   <td>[renditions=[]]: lista de representaciones que desea recopilar. El valor predeterminado es la representación original</td> 
+   <td>[renditions=[]]: lista de representaciones que recopilar. Valores predeterminados de la representación original</td> 
   </tr>
   <tr>
    <td>copia</td> 
@@ -77,7 +77,7 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
  </tbody>
 </table>
 
-### Prueba de la configuración de ContentSync {#testing-contentsync-configuration}
+### Probando configuración de ContentSync {#testing-contentsync-configuration}
 
 Siga los pasos a continuación para probar la configuración de ContentSync:
 
@@ -86,38 +86,38 @@ Siga los pasos a continuación para probar la configuración de ContentSync:
 1. Haga clic en Borrar caché
 1. Haga clic en Actualizar caché
 1. Haga clic en Descargar completo
-1. Extraer el archivo zip
+1. Extraiga el archivo zip
 1. Iniciar un servidor local en la carpeta extraída
 1. Abra la página de inicio y compruebe el estado de la aplicación
 
-## Habilitación de la configuración sin conexión para un canal {#enabling-offline-config-for-a-channel}
+## Habilitar la configuración sin conexión para un canal {#enabling-offline-config-for-a-channel}
 
 Siga los pasos a continuación para habilitar la configuración sin conexión para un canal:
 
-1. Inspect indica el contenido del canal y comprueba si se solicita desde una instancia de AEM (en línea).
+1. Inspect AEM el contenido del canal y compruebe si se solicita desde una instancia de (en línea).
 
-   ![imagen_1-24](assets/chlimage_1-24.png)
+   ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Vaya al panel del canal y haga clic en **...** en el panel **INFORMACIÓN DE CANAL** para cambiar las propiedades.
+1. Vaya al panel de canales y haga clic en **...** en el **INFORMACIÓN DEL CANAL** Panel para cambiar las propiedades.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Vaya a las propiedades del canal y asegúrese de que la casilla de verificación está desactivada en la pestaña **Channel**. Haga clic en **Guardar y cerrar**.
+1. Vaya a las propiedades del canal y asegúrese de que la casilla de verificación está desactivada en la **Canal** pestaña. Haga clic en **Guardar y cerrar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Antes de que el contenido se implemente correctamente en el dispositivo, haga clic en **Actualizar contenido sin conexión**.
+   Antes de implementar el contenido correctamente en el dispositivo, haga clic en **Actualizar contenido sin conexión**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   El estado **Offline** en **PROPERTIES** también se actualiza en consecuencia.
+   El **Sin conexión** estado en **PROPIEDADES** también se actualiza en consecuencia.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
 1. Inspect el contenido del canal y compruebe si se solicita desde la caché del reproductor local.
 
-   ![imagen_1-26](assets/chlimage_1-26.png)
+   ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->Para obtener más información sobre la plantilla para controladores de recursos sin conexión personalizados y los requisitos mínimos en `pom.xml` para ese proyecto específico, consulte [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) en **Desarrollo de un componente personalizado para AEM Screens**.
+>Para obtener más información sobre la plantilla para controladores de recursos sin conexión personalizados y los requisitos mínimos de la `pom.xml` para ese proyecto específico, consulte [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desarrollo de un componente personalizado para AEM Screens**.

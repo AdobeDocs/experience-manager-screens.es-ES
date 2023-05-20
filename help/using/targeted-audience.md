@@ -1,71 +1,70 @@
 ---
-title: Audiencia destinatario
-seo-title: Audiencia de destinatario para AEM Screens
-description: La página describe quiénes son la audiencia de destinatario para la Guía de optimizaciones de AEM Screens
-seo-description: La página describe quiénes son la audiencia de destinatario para la Guía de optimizaciones de AEM Screens
-translation-type: tm+mt
+title: Audiencia objetivo
+seo-title: Target Audience for AEM Screens
+description: En la página se describe quiénes son los destinatarios de la Guía de prácticas recomendadas de AEM Screens
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '501'
 ht-degree: 5%
 
 ---
 
 
-# Audiencia de destinatario {#target-audience}
+# Audiencia objetivo {#target-audience}
 
 Como implementador experimentado de AEM, probablemente habrá visto las funcionalidades a las que se hace referencia como *Autores*, *Desarrolladores* y *Técnicos/TI*.
 
-En un proyecto típico de AEM Screens, las funciones se perfeccionan aún más, ya que cada una de ellas sirve para fines importantes en el proyecto.
+En un proyecto típico de AEM Screens, las funciones se refinan aún más, ya que cada una cumple un propósito importante en el proyecto.
 
-El diagrama a continuación muestra las funciones a las que nos referiremos en toda la guía.
+El diagrama siguiente muestra las funciones a las que nos referiremos en toda la guía.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->Muchas de estas funciones pueden ser internas o externalizadas, según la configuración de cada proyecto.
+>Muchas de estas funciones pueden ser internas o externas, según la configuración de cada proyecto.
 
-## Definición de roles {#roles}
+## Definición de funciones {#roles}
 
-La siguiente sección proporciona información general sobre la audiencia de destinatario:
+La siguiente sección proporciona información general sobre la audiencia de destino:
 
 ### Adobe {#adobe-audience}
 
-Adobe incluye recursos de servicios gestionados de Adobe como CSE (ingeniero de éxito del cliente) y asistencia técnica para Adobes.
+Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
 
 ### Implementadores de AEM {#aem-implementors}
 
-Los implementadores de AEM son responsables de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para AEM.
+AEM AEM Los implementadores de son responsables de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de.
 
-Las funciones personalizadas necesarias para abordar los parámetros UX (Experiencia del usuario) del cliente final también se capturan y se entregan a través de este proceso.
+Las funciones personalizadas necesarias para abordar los parámetros de experiencia de usuario (UX) del cliente final también se capturan y entregan a través de este proceso.
 
-Los implementadores de AEM generalmente implementan la funcionalidad personalizada en varias fases a lo largo del tiempo en las ubicaciones. Por ejemplo, es posible que primero establezcan la compatibilidad con la reproducción de vídeo básico en bucle o contenido gráfico estático. La siguiente fase podría incluir la habilitación de la capacidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, déclencheur dinámicos, etc.
+AEM Los implementadores suelen implementar la funcionalidad personalizada por fases a lo largo del tiempo en las ubicaciones. Por ejemplo, pueden establecer primero una compatibilidad con la reproducción de vídeo en bucle básico o contenido gráfico estático. La siguiente fase podría incluir la posibilidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos a través de pantallas táctiles, sensores, déclencheur dinámicos, etc.
 
 ### Integradores audiovisuales {#av-integrators}
 
-El integrador A/V es el proveedor/socio de hardware. Esta es la parte que se ocupa del diseño minorista y la preparación del sitio, incluida la adquisición, configuración e implementación de hardware. Normalmente, es un tercero contratado que tiene acceso a un Centro de operaciones de red (NOC). En muchos casos, el integrador de A/V es el propietario del proyecto debido a su participación continua después del lanzamiento.
+El integrador A/V es el proveedor o socio de hardware. Es la parte que se encarga del diseño comercial y de la preparación del sitio, incluida la adquisición, configuración e implementación de hardware. Suele ser un tercero contratado que tiene acceso a un centro de operaciones de red (NOC). En muchos casos, el integrador A/V es el propietario del proyecto debido a su implicación continua después del lanzamiento.
 
-Un integrador de AV es responsable de realizar descubrimientos con los clientes finales para definir los requisitos que determinan el alcance del proyecto para diseñar, crear y administrar eficazmente implementaciones en torno al hardware de señalización digital.
+Un integrador de AV es responsable de llevar a cabo la detección con los clientes finales para definir los requisitos que determinan el ámbito del proyecto para diseñar, crear y administrar de forma eficaz las implementaciones en torno al hardware de señalización digital.
 
-### Estratega de negocios {#business-strategist}
+### Estratega empresarial {#business-strategist}
 
-Los estrategas empresariales representan a los encargados de adoptar decisiones en la compañía. Esta función está muy involucrada en las etapas de descubrimiento y requisitos y es el principal impulsor del proyecto.
+Los estrategas empresariales representan a los responsables de la toma de decisiones en la empresa. Esta función participa activamente en las fases de descubrimiento y requisitos, y es el principal motor del proyecto.
 
-Son los que definen los requisitos y configuran las métricas de KPI. Un estratega comercial podría ser el siguiente:
+Son los que definen los requisitos y configuran las métricas de KPI. Un estratega empresarial podría ser lo siguiente:
 
 * Marketing o,
-* Gestor de contenido/Creativos de Sales Manager Digital Strategy Manager.
+* Director de ventas Digital Strategy Manager Creativos / Gestión de contenido.
 
-El equipo de creativos y Gestoras de contenido colabora estrechamente con el equipo de la Estrategia y convierte los requisitos en experiencias con los clientes. Controlan el diseño UX general y conservan el contenido que complementa la marca.
+El equipo de creativos y gestión de contenido trabaja estrechamente con el equipo de estrategia y convierte los requisitos en experiencias del cliente. Impulsan el diseño general de la experiencia de usuario y depuran el contenido que complementa la marca.
 
-Los elementos creativos y el Gestor de contenido podrían ser uno de los siguientes:
+La administración de creativos y contenido puede ser una de las siguientes:
 
-* Creative Agency o
-* Administrador de marcas
+* Agencia Creativa o,
+* Administrador de marca
 
 ### Gestores de proyectos {#project-managers}
 
-Los jefes de proyecto generalmente administran la implementación completa para la implementación de AEM Screens. Un director de proyecto es la persona encargada de la ejecución completa del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, atender las necesidades y comunicaciones de los equipos, hacer frente a los problemas y asegurar que se alcancen los objetivos.
+Los jefes de proyecto suelen administrar toda la implementación para la implementación de AEM Screens. Un administrador de proyectos es la persona clave para toda la implementación del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, gestionar las necesidades y comunicaciones del equipo, abordar los desafíos y garantizar que se cumplan los objetivos.
 
 >[!NOTE]
->Para conocer en detalle las diferentes funciones y responsabilidades y la audiencia de destinatario de un proyecto de publicidad dinámica, visite **[Funciones y responsabilidades del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para obtener información detallada sobre las distintas funciones y responsabilidades y sobre la audiencia destinataria de un proyecto de publicidad dinámica, visite **[Funciones y responsabilidades del proyecto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.

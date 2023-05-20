@@ -1,22 +1,22 @@
 ---
 title: Servicio de notificaciones de AEM Screens
-seo-title: Servicio de notificaciones de AEM Screens
-description: Siga esta página para obtener más información sobre cómo puede supervisar la actividad de los dispositivos.
-seo-description: Siga esta página para obtener más información sobre cómo puede supervisar la actividad de los dispositivos.
+seo-title: AEM Screens Notifications Service
+description: Siga esta página para obtener más información acerca de cómo supervisar la actividad de los dispositivos.
+seo-description: Follow this page to learn more about how you can monitor device activity.
 uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
-feature: Creación en Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 5%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Servicio de notificaciones de AEM Screens***, describe la función en la que puede supervisar la actividad del dispositivo.
+***Servicio de notificaciones de AEM Screens***, describe la función donde se puede monitorizar la actividad del dispositivo.
 
-Esta sección cubre los siguientes temas:
+Esta sección trata los siguientes temas:
 
 * **Información general**
 * **Configuración de correo electrónico**
@@ -35,75 +35,75 @@ Esta sección cubre los siguientes temas:
 
 >[!CAUTION]
 >
->Esta funcionalidad de AEM Screens solo está disponible si ha instalado AEM 6.3.2 Feature Pack 3 o AEM 6.4.1 Screens Feature Pack 1.
+>Esta funcionalidad de AEM Screens AEM AEM solo está disponible si ha instalado el paquete de funciones 3 de 6.3.2 o el paquete de funciones 1 de Screens de 6.3.2 o de 6.4.1.
 >
->Para obtener acceso a este Feature Pack, debe ponerse en contacto con la Asistencia de Adobe y solicitar acceso. Cuando disponga de los permisos necesarios, puede descargarlo desde Uso compartido de paquetes.
+>Para obtener acceso a este paquete de funciones, debe ponerse en contacto con el Soporte técnico de Adobe y solicitar acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
 
 ## Información general {#overview}
 
-***El servicio de notificaciones de AEM Screens*** permite a los administradores recibir un correo electrónico si un reproductor de pantallas de AEM no hace ping durante un período de tiempo configurable.
+***Servicio de notificaciones de AEM Screens*** AEM , permite a los administradores recibir un correo electrónico si un reproductor de pantallas de pantalla de la aplicación no hace ping durante un periodo de tiempo configurable.
 
-Este servicio se puede configurar en la consola web OSGi.
+Este servicio se puede configurar en la consola web de OSGi.
 
 ## Configuración de correo electrónico {#configuring-email-settings}
 
 Siga los pasos a continuación para configurar las opciones de notificación por correo electrónico:
 
-1. Abra **Configuración de la consola web de Adobe Experience Manager**.
-1. Abra **Screens Device Email Monitoring Service**.
+1. Abrir **Configuración de la consola web Adobe Experience Manager**.
+1. Abrir **Servicio de supervisión del correo electrónico del dispositivo Screens**.
 
-   ![screen_shot_2018-04-26at4602pm](assets/screen_shot_2018-04-26at44602pm.png)
+   ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. Defina los campos siguientes para configurar la configuración del correo electrónico:
+1. Defina los siguientes campos para configurar los ajustes del correo electrónico:
 
-   **Ruta de** dispositivosIntroduzca la ruta a los proyectos de Screens que desea supervisar. La ruta suele ser `/home/users/screens/<Name of your project>`.
+   **Ruta de dispositivos** Introduzca la ruta de los proyectos de Screens que desea monitorizar. El camino suele ser `/home/users/screens/<Name of your project>`.
 
-   Por ejemplo, si su proyecto es **We.Retail**, utilizará la ruta del proyecto como ***/home/users/screens/we-retail***.
+   Por ejemplo, si el proyecto es **We.Retail**, utilizará la ruta del proyecto como ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Especifique la ruta del proyecto, donde se encuentran los usuarios del dispositivo.
 
-   **Frecuencia** de programaciónEspecifique una hora (p. ej., 5:00 pm o 17:00) o frecuencia en horas (p. ej., 1) a la que este monitor debe enviar correos electrónicos.
+   **Frecuencia de programación** Especifique la hora (por ejemplo, 5:00 p. m. o 17:00) o la frecuencia en horas (por ejemplo, 1) a las que este monitor debe enviar correos electrónicos.
 
-   **Tiempo de** espera de pingEspecifica el intervalo en minutos después del cual un dispositivo debe considerarse inaccesible.
+   **Tiempo de espera de ping** Esto especifica el intervalo en minutos tras el cual un dispositivo debe considerarse no accesible.
 
-   **Servidor** SMTPEspecifica el servidor SMTP que se utiliza para enviar correos electrónicos.
+   **Servidor SMTP** Especifica el servidor SMTP que se utiliza para enviar correos electrónicos.
 
-   **Puerto** SMTPIntroduzca el puerto SMTP.
+   **Puerto SMTP** Introduzca el puerto SMTP.
 
-   **Usar** TLSTransport Layer Security (TLS) le permite utilizar una comunicación segura con el servidor SMTP.
+   **Usar TLS** Seguridad de la capa de transporte (TLS) permite utilizar una comunicación segura con el servidor SMTP.
 
-   Se recomienda utilizar TLS para una conexión segura con los servidores de correo corporativos. Consulte con el administrador de correo los valores adecuados.
+   Se recomienda utilizar TLS para una conexión segura con servidores de correo corporativos. Consulte con su administrador de correo los valores apropiados.
 
-   **** usernameEspecifique el nombre de usuario para enviar correos electrónicos.
+   **nombre de usuario** Especifique el nombre de usuario para enviar correos electrónicos.
 
-   **** passwordEspecifique la contraseña para enviar correos electrónicos.
+   **contraseña** Especifique la contraseña para enviar correos electrónicos.
 
-   **** DestinatarioEspecifique la dirección de correo electrónico del destinatario.
+   **Destinatario** Especifique la dirección de correo electrónico del destinatario.
 
    >[!NOTE]
    >
-   >Solo puede introducir una dirección de correo electrónico. Para enviar un correo electrónico masivo, cree un grupo o una lista de distribución con los usuarios relevantes.
+   >Solo puede escribir una dirección de correo electrónico. Para enviar un correo electrónico masivo, cree un grupo o una lista de distribución con los usuarios relevantes.
 
-1. Haga clic en **Save** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
+1. Clic **Guardar** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
 
 ## Notificación por correo electrónico {#email-notification}
 
-Una vez configurada la configuración para las notificaciones por correo electrónico, recibirá una notificación por correo electrónico que contendrá el vínculo al dispositivo real del que se informa la inactividad.
+Una vez que haya configurado las notificaciones por correo electrónico, recibirá una notificación por correo electrónico que contendrá el vínculo al dispositivo real del que se informa de inactividad.
 
-El acceso a ese vínculo le llevará directamente al panel del dispositivo.
+Al acceder a ese vínculo, accederá directamente al panel del dispositivo.
 
-Los correos electrónicos solo se enviarán si hay al menos un dispositivo que no haya ping para el tiempo de espera de ping dado y que aún no esté sonando en el momento de generar el correo electrónico.
+Los correos electrónicos solo se enviarán si hay al menos un dispositivo que no ha hecho ping durante el tiempo de espera de ping especificado y sigue sin hacerlo en el momento de generar el correo electrónico.
 
 ### Casos de uso de ejemplo {#example-use-cases}
 
-En el siguiente ejemplo se describen algunas situaciones a tener en cuenta para configurar las propiedades del servicio de monitoreo de correo electrónico del dispositivo Screens.
+El siguiente ejemplo describe algunos escenarios como referencia para configurar las propiedades del servicio de supervisión de correo electrónico del dispositivo de Screens.
 
 **Escenario 1**:
 
-Si establece la frecuencia de programación como 1:00 a.m. y el tiempo de espera de ping como 60, si el dispositivo Screens no ping entre las 12:00 p.m. hasta la 1:00 p.m., recibirá una notificación por correo electrónico que confirme la inactividad del dispositivo.
+Si establece la frecuencia de programación en 1:00 a. m. y el tiempo de espera de ping en 60, si el dispositivo Screens no hace ping entre las 12:00 p. m. y hasta la 1:00 p. m., recibirá una notificación por correo electrónico que confirmará la inactividad del dispositivo.
 
 **Escenario 2**:
 
-Si establece la frecuencia de programación como 1 y el tiempo de espera de ping como 60, si el dispositivo Screens no ping entre una vez a cualquier hora del día, recibirá una notificación por correo electrónico que confirme la inactividad del dispositivo.
+Si establece la frecuencia de programación como 1 y el tiempo de espera de ping como 60, si el dispositivo Screens no hace ping entre una vez en cualquier momento del día en particular, recibirá una notificación por correo electrónico que confirma la inactividad del dispositivo.

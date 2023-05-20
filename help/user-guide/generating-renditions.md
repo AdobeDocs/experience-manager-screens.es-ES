@@ -1,95 +1,95 @@
 ---
 title: Representaciones de vídeo
-seo-title: Representaciones de vídeo
-description: Consulte esta página para obtener información sobre la generación de representaciones en Full HD para el proyecto Screens.
-seo-description: Consulte esta página para obtener información sobre la generación de representaciones en Full HD para el proyecto Screens.
+seo-title: Video Renditions
+description: Siga esta página para obtener más información sobre la generación de representaciones Full HD para su proyecto de Screens.
+seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Creación en Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 64%
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
 # Representaciones de vídeo {#video-renditions}
 
-Puede generar representaciones en Full HD manuales o automáticas. En la siguiente sección se describe el flujo de trabajo para añadir representaciones a los recursos.
+Puede generar representaciones Full HD manuales y automáticas. En la siguiente sección se describe el flujo de trabajo para agregar representaciones a los recursos.
 
-## Generación automática de representaciones en Full HD  {#automatically-generating-full-hd-renditions}
+## Generar automáticamente representaciones Full HD  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Si las representaciones de vídeo de AEM Screens no se reproducen de forma óptima en el dispositivo, póngase en contacto con el proveedor de hardware para conocer las especificaciones de vídeo. De este modo, podrá obtener el mejor rendimiento en el dispositivo y crear así un perfil de vídeo personalizado propio donde se proporcionan los parámetros correspondientes para que FFMPEG genere la representación. Posteriormente, siga los pasos que se indican a continuación para agregar el perfil de vídeo personalizado a la lista de perfiles.
+>Si las representaciones de vídeo de AEM Screens no se reproducen de forma óptima en el dispositivo, póngase en contacto con el proveedor de hardware para obtener las especificaciones del vídeo. Esto le ayudará a obtener el mejor rendimiento en el dispositivo y, por lo tanto, a crear su propio perfil de vídeo personalizado donde proporcionará los parámetros adecuados para que FFMPEG genere su representación. Posteriormente, siga los pasos a continuación para agregar su perfil de vídeo personalizado a la lista de perfiles.
 >
->Además, consulte [Solución de problemas con los vídeos](troubleshoot-videos.md) para la depuración y solución de problemas del vídeo que se reproduce en el canal.
+>Además, consulte [Vídeos de resolución de problemas](troubleshoot-videos.md) para depurar y solucionar problemas de reproducción de vídeo en el canal.
 
-Siga los pasos a continuación para generar automáticamente representaciones en Full HD:
+Siga los pasos a continuación para generar automáticamente representaciones en HD completas:
 
-1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
+1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para seleccionar las herramientas que desea seleccionar **Flujo de trabajo**.
 
-   Haga clic en **Modelos** para entrar en la administración de modelos de flujo de trabajo.
+   Clic **Modelos** para introducir la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Seleccione el modelo **DAM Update Asset** y haga clic en Editar en la barra de acciones para abrir la ventana **DAM Update Asset**.
+1. Seleccione el **Recurso de actualización DAM** y haga clic en Editar en la barra de acciones para abrir **Recurso de actualización DAM** ventana.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. Haga doble clic en la etapa **Transcodificación FFmpeg**. 
+1. Haga doble clic en **Transcodificación FFmpeg** paso.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Seleccione la ficha **Proceso** para editar los argumentos de proceso. Introduzca todos los perfiles HD en la lista en **Arguments** como: ***,profile:fullhd-bp,profile:fullhd-hp*** y haga clic en **Aceptar**.
+1. Seleccione el **Proceso** para editar los argumentos del proceso. Introduzca los perfiles de HD completos en la lista de **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** y haga clic en **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Haga clic en **Guardar** de la parte superior izquierda de la pantalla **Recurso de actualización DAM**.
+1. Clic **Guardar** en la parte superior izquierda de la **Recurso de actualización DAM** pantalla.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Vaya a **Recursos** y cargue un nuevo vídeo. Haga clic en el vídeo y abra el carril lateral Representaciones. Verá los dos vídeos en Full HD.
+1. Vaya a **Assets** y cargue un nuevo vídeo. Haga clic en el vídeo y abra el carril lateral Representaciones y verá los dos vídeos de alta definición completa.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Abra **Representaciones** en el carril lateral.
+1. Abrir **Representaciones** desde la barra lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. Verá dos nuevas representaciones en Full HD.
+1. Observará dos nuevas representaciones en HD completa.
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## Generación manual de representaciones en Full HD {#manually-generating-full-hd-renditions}
+## Generación manual de representaciones Full HD {#manually-generating-full-hd-renditions}
 
-Siga los pasos a continuación para generar manualmente representaciones en Full HD:
+Siga los pasos a continuación para generar manualmente representaciones en HD completas:
 
-1. Seleccione el vínculo de Adobe Experience Manager (esquina superior izquierda) y haga clic en el icono de martillo para seleccionar herramientas que permiten seleccionar el **Flujo de trabajo**.
+1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para seleccionar las herramientas que desea seleccionar **Flujo de trabajo**.
 
-   Haga clic en **Modelos** para entrar en la administración de modelos de flujo de trabajo.
+   Clic **Modelos** para introducir la administración de modelos de flujo de trabajo.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Seleccione el modelo **Screens Update Asset** y haga clic en **Start Workflow** para abrir el cuadro de diálogo **Run Workflow**.
+1. Seleccione el **Actualizar recurso de Screens** y haga clic en el **Iniciar flujo de trabajo** para abrir **Ejecutar flujo de trabajo** Cuadro de diálogo.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Seleccione el vídeo deseado en **Payload** y haga clic en **Run**.
+1. Seleccione el vídeo que desee en la **Carga útil** y haga clic en **Ejecutar**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Vaya a **Recursos**, desplácese hasta el recurso y haga clic en él. 
+1. Vaya a **Assets**, explore en profundidad el recurso y haga clic en él.
 
-   ![step7_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
+   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Abra el carril lateral **Representaciones**. Verá nuevas representaciones en Full HD. 
+1. Abra el **Representaciones** y se darán cuenta de las nuevas representaciones en HD.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
