@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 14%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 14%
       + [Reproductor de Android](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
       + [Uso del mando a distancia](implementing-remote-control.md)
    + Publicación de autor {#author-publish}
