@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -142,12 +142,15 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 
 | **Nombre de política** | **Función** |
 |---|---|
-| *servidor* | La URL del servidor de Adobe Experience Manager |
-| *resolución* | La resolución del dispositivo Chrome OS |
-| *rebootSchedule* | La programación para reiniciar el reproductor Chrome |
-| *enableAdminUI* | Habilite la IU de administración para que los técnicos configuren el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
-| *enableOSD* | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false una vez que esté completamente configurado y en producción. |
-| *enableActivityUI* | Habilite para mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| servidor | La dirección URL del servidor de Adobe Experience Manager AEM (). |
+| registrationKey | Se utiliza para el registro masivo de dispositivos mediante una clave previamente compartida. |
+| resolución | La resolución del dispositivo. |
+| rebootSchedule | Programación para reiniciar el reproductor. |
+| enableAdminUI | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
+| enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
+| enableActivityUI | Habilite para mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la configuración local de la. |
+| cloudToken | Token de registro para registrarse en Screens as a Cloud Service. |
 
 >[!NOTE]
 >
