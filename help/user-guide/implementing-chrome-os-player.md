@@ -13,7 +13,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -149,7 +149,7 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 | enableAdminUI | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
 | enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
 | enableActivityUI | Habilite para mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
-| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la configuración local de la. |
+| cloudMode | Configúrelo en true si desea que el reproductor Chrome se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la configuración local de la. |
 | cloudToken | Token de registro para registrarse en Screens as a Cloud Service. |
 
 >[!NOTE]
