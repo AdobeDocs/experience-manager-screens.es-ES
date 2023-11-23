@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ AEM AEM En función del tipo de instancia de, seleccione una de las siguientes g
 * [AEM Local/AMS (en las instalaciones)](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Compatibilidad sin conexión con la recuperación de contenido externo {#offline-support}
+
+En varios casos de uso, los canales pueden requerir la recuperación de contenido de una fuente externa (por ejemplo, widgets meteorológicos o aplicaciones de una sola página integradas de Commerce) que no pueden proporcionar soporte sin conexión de forma inherente. Para habilitar la funcionalidad sin conexión para estos casos de uso específicos, Cloud Player ofrece compatibilidad con el encabezado personalizado.
+Cloud Player utiliza una estrategia de caché de Network First, lo que significa que intenta recuperar contenido de la red (y actualizar la caché con la última versión) y volver al contenido almacenado en caché si está disponible. Para implementar la compatibilidad sin conexión para esta recuperación de contenido, el encabezado personalizado debe incluirse en la solicitud. Posteriormente, la solicitud con el encabezado personalizado se almacenará en caché en el reproductor, facilitando el acceso sin conexión al contenido y manteniendo al mismo tiempo la estrategia de caché de Network First.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
