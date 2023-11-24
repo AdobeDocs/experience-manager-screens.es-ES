@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Esta funcionalidad de AEM Screens AEM AEM solo está disponible si ha instalado la versión mínima del paquete de funciones 2 de la versión 6.4.2 o del paquete de funciones 4 de la versión 6.3.3 de la versión 6.4.2 de.
+>Esta funcionalidad de AEM Screens AEM AEM solo está disponible si ha instalado la versión mínima del paquete de funciones 2 de la versión 6.4.2 o del paquete de funciones 4 de la versión 6.3.3 de la versión 6.4.2 de. Para clientes del servicio en la nube de AEM Screens, póngase en contacto con su administrador de relaciones con el Adobe para habilitar Adobe Analytics en Screens Cloud.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ En la tabla siguiente se destacan las propiedades con su descripción para la co
   <tr>
    <td><strong>URL de Analytics</strong></td>
    <td>URL para publicar datos de análisis del reproductor. <br>
-   Para desarrollo/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Para producción</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Para desarrollo/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Para producción</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Clave de API de Analytics</strong></td>
