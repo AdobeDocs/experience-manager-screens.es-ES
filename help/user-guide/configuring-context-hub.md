@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,6 @@ La siguiente validación es lo que verá cuando compruebe la conexión introduci
       >1. Eliminar `cloudsettings` y guarde.
       >1. Cambiar nombre `cloudsettings1` hasta `cloudsettings` y guarde.
       >1. Ahora debería observar que /conf/screens/settings/cloudsettings tiene `jcr:primaryType` as `sling:Folder`.
-
       >
       >Debe seguir estos pasos en Creación y publicación antes o después de la actualización.
 
@@ -144,10 +143,13 @@ La siguiente validación es lo que verá cuando compruebe la conexión introduci
       ```
 
       >[!NOTE]
+      >
       En el código de ejemplo anterior, **pollInterval** define la frecuencia con la que se actualizan los valores (en ms).
+      >
       Reemplace el código por su *&lt;sheet id=&quot;&quot;>* y *&lt;api key=&quot;&quot;>*, que recuperó al configurar las Hojas de cálculo de Google.
 
       >[!CAUTION]
+      >
       Si crea las hojas de Google y almacena configuraciones fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), el direccionamiento no funcionará de forma predeterminada.
 
 1. **Configuración de la segmentación de tienda**
@@ -201,6 +203,7 @@ Siga los pasos a continuación para crear una marca en sus actividades y área b
 
 
       >[!CAUTION]
+      >
       Problema conocido: para agregar un área, elimine el patrón de la dirección URL, como
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -262,14 +265,16 @@ El **googlesheets/value/1/0** se refiere a la fila 2 y la columna como se rellen
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Seleccione el **Operador** as **bueno que** en el menú desplegable.
+   1. Seleccione el **Operador** as **greater-than** en el menú desplegable.
 
    1. Introduzca el **Valor** as **70**.
 
       >[!NOTE]
+      >
       AEM La valida los datos de la hoja de cálculo de Google mostrando el segmento como verde.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Del mismo modo, edite los valores de propiedad en **Inferior a 50**.
 
    1. Arrastre y suelte el **Comparación: propiedad/valor** al editor.
@@ -281,7 +286,6 @@ El **googlesheets/value/1/0** se refiere a la fila 2 y la columna como se rellen
    1. Seleccione el **Operador** as **less-than** en el menú desplegable.
 
    1. Introduzca el **Valor** as **50**.
-
 
 
 ## Habilitar la segmentación en canales {#step-enabling-targeting-in-channels}
@@ -296,18 +300,21 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
 1. Seleccione el **Personalización** para configurar las configuraciones de ContextHub.
 
-   1. Configure las variables **Ruta de ContextHub** hasta `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y **Ruta de segmentos** hasta `/conf/screens/settings/wcm/segments` y haga clic en **Guardar**.
+   1. Configure las variables **Ruta de ContextHub** hasta `/conf/screens/settings/wcm/segments` y **Ruta de segmentos** hasta `/conf/screens/settings/wcm/segments`.
+   1. Establecer marca en **ScreensBrand** en el menú desplegable y **Establecer referencia de área** hasta **ScreensValue**.
 
    1. Haga clic en **Guardar y cerrar**.
 
       >[!NOTE]
+      >
       Utilice ContextHub y la ruta de segmentos, donde guardó inicialmente las configuraciones y segmentos de Context Hub.
 
-      ![imagen](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![imagen](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. Desplácese y seleccione **TargetChannel** y haga clic en **Editar** de la barra de acciones.
 
       >[!NOTE]
+      >
       Si ha configurado todo correctamente, verá lo siguiente **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub21.png)
