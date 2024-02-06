@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---
@@ -117,7 +117,8 @@ ht-degree: 11%
    + [Solución de problemas del Centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
-   + [Notas de la versión del paquete de funciones 20240166](release-notes-fp-20240116.md)
+   + [Notas de la versión del paquete de funciones 202401](release-notes-fp-202401.md)
+   + [Notas de la versión del paquete de funciones 20240116](release-notes-fp-20240116.md)
    + [Notas de la versión del paquete de funciones 202204](release-notes-fp-202204.md)
    + [Notas de la versión del paquete de funciones 202203](release-notes-fp-202203.md)
    + [Notas de la versión del paquete de funciones 202112](release-notes-fp-202112.md)

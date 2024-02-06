@@ -4,9 +4,9 @@ description: Siga esta página para obtener información sobre el paquete de fun
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ Esta versión solo incluye correcciones de seguridad.
 * Problema XSS en `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Corregido, Faltan los botones de Programación de periodicidad y Agregar programación: Se detectó un problema en la programación del canal. (SCRNS-2739)
-
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
-
-Para descargar el último reproductor de AEM Screens, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
