@@ -76,9 +76,11 @@ AEM AEM En función del tipo de instancia de, seleccione una de las siguientes g
 
 >[!NOTE]
 >
-## Degradación de aplicaciones Chrome de Google
-1. Aplicaciones de Chrome en el hardware del sistema operativo Chrome: Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. En consecuencia, la aplicación AEM Screens Player en Chrome OS dejará de funcionar en función de la cronología compartida. Instamos a nuestros clientes que actualmente utilizan Chrome Player en producción a que planifiquen la transición al reproductor en la nube de Screens.
-2. Reproductor de extensiones de Chrome en Mac, Windows y Linux: Debido al proceso de obsolescencia de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Chrome de Screens ya no es compatible. Recomendamos encarecidamente la transición a nuestro reproductor Screens Cloud para todos sus requisitos de desarrollo y prueba.
+>## Degradación de aplicaciones Chrome de Google
+>1. Aplicaciones de Chrome en el hardware del sistema operativo Chrome: 
+>Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. En consecuencia, la aplicación AEM Screens Player en Chrome OS dejará de funcionar en función de la cronología compartida. Instamos a nuestros clientes que actualmente utilizan Chrome Player en producción a que planifiquen la transición al reproductor en la nube de Screens.
+>2. Reproductor de extensiones de Chrome en Mac, Windows y Linux:
+>Debido al proceso de obsolescencia de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Chrome de Screens ya no es compatible. Recomendamos encarecidamente la transición a nuestro reproductor Screens Cloud para todos sus requisitos de desarrollo y prueba.
 
 ## Compatibilidad sin conexión con la recuperación de contenido externo {#offline-support}
 
