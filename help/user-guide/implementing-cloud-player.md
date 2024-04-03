@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: ea1c90cf915e83709131ed4b877788ed3ffea59e
+source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -44,15 +44,17 @@ La instalación de Cloud Player puede variar en diferentes plataformas. En gener
 
 1. Haga clic en el icono de instalación e instale el botón en el cuadro de diálogo de confirmación. Cloud Player se instalará como una aplicación independiente en su dispositivo y se puede iniciar con un icono.
 
-### Opción de instalación de Cloud Player {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Opción de instalación de Cloud Player {#cloud-player-install-option}
+>
 1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS.  La compatibilidad para instalar PWA desde la web varía según el explorador y la plataforma.
 1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador comprueba lo siguiente (más detalles aquí):
-
-   * Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
-   * Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura.
-   * La aplicación debe proporcionarse a través de https.
-
+>
+* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
+* Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura.
+* La aplicación debe proporcionarse a través de https.
+>
 1. La opción Instalar puede estar visible en diferentes ubicaciones de distintos exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
 
 ## Aprovisionamiento masivo de Cloud Player {#bulk-provisioning}
@@ -77,15 +79,17 @@ AEM AEM En función del tipo de instancia de, seleccione una de las siguientes g
 * [AEM Local/AMS (en las instalaciones)](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
 ## Degradación de aplicaciones Chrome de Google
-
+>
 1. Aplicaciones Chrome en Chrome OS Hardware:
-
-   Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. En consecuencia, la aplicación AEM Screens Player en Chrome OS dejará de funcionar en función de la cronología compartida. Instamos a nuestros clientes que actualmente utilizan Chrome Player en producción a que planifiquen la transición al reproductor en la nube de Screens.
-
+>
+Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. En consecuencia, la aplicación AEM Screens Player en Chrome OS dejará de funcionar en función de la cronología compartida. Instamos a nuestros clientes que actualmente utilizan Chrome Player en producción a que planifiquen la transición al reproductor en la nube de Screens.
+>
 1. Reproductor de extensiones de Chrome en Mac, Windows y Linux:
-
-   Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Recomendamos encarecidamente la transición a nuestro reproductor Screens Cloud para todos sus requisitos de desarrollo y prueba.
+>
+Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Recomendamos encarecidamente la transición a nuestro reproductor Screens Cloud para todos sus requisitos de desarrollo y prueba.
 
 ## Compatibilidad sin conexión con la recuperación de contenido externo {#offline-support}
 
