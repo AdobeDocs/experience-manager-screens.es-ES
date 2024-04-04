@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Siga los pasos a continuación para crear un diseño Left20-LandscapeHD3Zone par
 
    ![imagen](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Vaya a **CRXDE Lite** AEM desde la instancia de la —> Herramientas —> **CRXDE Lite**.
+1. Vaya a **CRXDE Lite** AEM en la instancia de su > Herramientas > **CRXDE Lite**.
 
 1. Cree una carpeta en **apps** con título **customtemplate**. Del mismo modo, cree otra carpeta con el título **plantilla** bajo **customtemplate**, como se muestra en la figura siguiente.
 

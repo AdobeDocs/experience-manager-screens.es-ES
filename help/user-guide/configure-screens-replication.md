@@ -4,9 +4,9 @@ description: Siga esta página para obtener información sobre cómo configurar 
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -34,9 +34,9 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 >[!NOTE]
 >Por motivos de seguridad, se recomienda evitar el uso de la contraseña de administrador para screens-receiver-user.
 
-1. Vaya a la instancia de autor de AEM.
+1. AEM Vaya a la instancia de autor de la.
 
-1. Haga clic en herramientas —> **Seguridad** —> **Usuarios**.
+1. Haga clic en herramientas > **Seguridad** > **Usuarios**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 
 1. AEM Vaya a la instancia de la.
 
-1. Haga clic en herramientas —> **Implementación** —> **Replicación**.
+1. Haga clic en herramientas > **Implementación** > **Replicación**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

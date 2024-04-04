@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 3%
+source-wordcount: '1119'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Antes de usar la función de reconocimiento de voz, asegúrese de que tiene un p
 
    ![imagen](assets/voice-recognition/vr-emb-1.png)
 
-1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal. Clic **Editar** en la barra de acciones para abrir el editor y añadir contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido a ambos **Bebidas frías** y el **Bebidas** canal.
+1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y seleccione el canal. Clic **Editar** en la barra de acciones para abrir el editor y añadir contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido a ambos **Bebidas frías** y el **Bebidas** canal.
 
    Los canales ahora contienen recursos (imágenes), como se muestra en las figuras siguientes.
 
@@ -83,7 +83,7 @@ Una vez que haya añadido contenido a sus canales, debe navegar a cada uno de el
 
 Siga los pasos a continuación para añadir etiquetas a su canal:
 
-1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** —> **Canales** —> **Principal** y seleccione el canal.
+1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y seleccione el canal.
 
 1. Clic **Propiedades** de la barra de acciones.
 
@@ -116,10 +116,10 @@ Siga los pasos a continuación para crear etiquetas:
 
 1. AEM Vaya a la instancia de la.
 
-1. Haga clic en el icono de herramientas —> **Etiquetado**.
+1. Haga clic en el icono de herramientas > **Etiquetado**.
    ![imagen](assets/voice-recognition/vr-7.png)
 
-1. Clic **Crear** —> **Crear área de nombres**.
+1. Clic **Crear** > **Crear área de nombres**.
    ![imagen](assets/voice-recognition/vr-tag3.png)
 
 1. Introduzca el nombre del proyecto, por ejemplo: **VoiceDemo** y haga clic en **Crear**.

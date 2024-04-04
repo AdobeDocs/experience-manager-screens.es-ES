@@ -2,10 +2,10 @@
 title: Información general y configuraciones de la arquitectura de representaciones adaptables
 description: En esta página se describe la Información general de arquitectura y las configuraciones en CRXDE Lite para representaciones adaptables en AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
 1. Vaya a esta ruta `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
 
-1. Cree un nodo en **rendition-mapping**. Clic derecho en **rendition-mapping** y haga clic en **Crear** —> **Crear nodo**, como se muestra en la figura siguiente.
+1. Cree un nodo en **rendition-mapping**. Clic derecho en **rendition-mapping** y haga clic en **Crear** > **Crear nodo**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
    >[!NOTE]
    >Para obtener información sobre cómo añadir una superposición de texto al recurso en un editor de canales, consulte [Superposición de texto](/help/user-guide/text-overlay.md).
 
-1. Vaya al CRXDE Lite AEM desde la instancia de la instancia de la —> tools —> **CRXDE Lite**.
+1. Vaya al CRXDE Lite AEM desde la instancia de la > Herramientas > **CRXDE Lite**.
 
 1. Debe crear un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`, por ejemplo, en este caso, vaya a `/apps/settings/wcm/designs/customstyle/`
 
@@ -110,7 +110,7 @@ Una vez completados los pasos anteriores, puede actualizar su *stats.css* archiv
 
 Siga los pasos a continuación para ver el diseño actualizado en la superposición de texto:
 
-1. Vaya al proyecto de AEM Screens titulado como **customstyle** —> **Canales** —> **DemoBrand**. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya al proyecto de AEM Screens titulado como **customstyle** > **Canales** > **DemoBrand**. Seleccione el canal y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
 1. Dado que ahora ha añadido el diseño a su **Diseños** , como se ha mencionado anteriormente, haga clic en **Previsualizar** para ver el estilo actual en la imagen con superposición de texto.
 

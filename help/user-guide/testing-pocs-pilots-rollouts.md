@@ -1,29 +1,25 @@
 ---
 title: "Parte 3: Pruebas, POC, pilotos y despliegues"
-seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
-description: Siga este tutorial para conocer los términos clave implicados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los programas piloto y los despliegues.
-seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
-uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
+description: Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los programas piloto y los despliegues.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
 # Parte 3: Pruebas, POC, programas piloto y despliegues {#part-testing-pocs-pilots-rollouts}
 
-En esta página se destaca la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave esenciales para garantizar que se pueda desarrollar una solución exitosa antes de una implementación.
+En esta página se destaca la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave esenciales para garantizar que se pueda desarrollar una solución exitosa antes de un despliegue.
 
 ## Información general {#overview}
 
@@ -39,7 +35,14 @@ Este tutorial cubre los siguientes puntos relevantes para una implementación co
 >
 >Los ciclos de venta habituales para la implantación de publicidad dinámica a escala oscilan entre 9 y 18 meses. Hay muchos factores involucrados que afectan la línea de tiempo final, entre los cuales se encuentra la forma en que el cliente final mide el éxito y la aversión al riesgo que sus socios comerciales tienen al introducir una nueva solución.
 
-Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un entorno minorista podrían ser: marketing en tienda, entorno de tienda o comercialización visual, operaciones de tienda, seguridad informática, soporte informático, el comerciante de la categoría de producto y su proveedor, que pueden estar cofinanciando la solución.
+Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un entorno minorista podrían ser:
+
+* Marketing en la tienda
+* Entorno de almacenamiento o comercialización visual
+* Operaciones de tienda
+* Seguridad de TI
+* Asistencia de TI
+* La categoría de producto Comerciante y su proveedor, que pueden estar cofinanciando la solución.
 
 ## Resumen de los términos clave implicados en un plan de proyecto general {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
@@ -47,7 +50,7 @@ En la siguiente sección se proporciona información general sobre los términos
 
 ### Prueba de concepto (POC) {#proof-of-concept-poc}
 
-El propósito de un POC es obtener comentarios iniciales sobre las funcionalidades clave de una solución y permitir que tanto el cliente final como el integrador de AV identifiquen áreas para mejorar y preparen suposiciones sobre los requisitos laborales y las demandas de recursos. Un POC también ofrece a ambas partes la oportunidad de evaluar el rendimiento de la solución, que normalmente se mide a través de:
+El propósito de un POC es obtener comentarios iniciales sobre las funcionalidades clave de una solución. También ofrece al cliente final y al integrador de AV la oportunidad de identificar áreas de mejora y preparar suposiciones sobre los requisitos laborales y las demandas de recursos. Un POC también permite a ambas partes evaluar el rendimiento de la solución, que generalmente se mide a través de:
 
 ### Control de calidad {#quality-control}
 
@@ -64,9 +67,9 @@ Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de 
 
 ## Parte 3: Tutorial en vídeo sobre pruebas, POC, programas piloto y despliegues {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Siga el tutorial a continuación para comprender las pruebas, las pruebas de concepto, los programas piloto y los despliegues.
+Siga el tutorial siguiente para comprender las pruebas, las pruebas de concepto, los programas piloto y los despliegues.
 
-Considerar todas estas etapas como parte del plan general del proyecto ayudará a administrar las expectativas e identificar los puntos naturales en los que se evaluará la inversión en una implementación de AEM Screens.
+Considerar todas estas fases como parte del plan del proyecto general ayuda a administrar las expectativas e identifica los puntos naturales en los que se puede evaluar la inversión en una implementación de AEM Screens.
 
 ### Pruebas, POC, programas piloto y despliegues
 

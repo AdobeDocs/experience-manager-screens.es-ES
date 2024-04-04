@@ -14,9 +14,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -137,10 +137,10 @@ Consulte una [Ejemplo de directiva JSON](#example-json) así como una tabla que 
 
 La siguiente tabla resume los atributos de la política con un ejemplo de JSON de política para referencia:
 
-| **Nombre de política** | **Función** |
+| **Nombre de política** | **Finalidad** |
 |---|---|
-| *servidor* | La URL del servidor de Adobe Experience Manager. |
-| *resolución* | La resolución del dispositivo. |
+| *server* | La URL del servidor de Adobe Experience Manager. |
+| *resolution* | La resolución del dispositivo. |
 | *rebootSchedule* | La programación para reiniciar se aplica a todas las plataformas. |
 | *enableAdminUI* | Habilite la IU de administración para configurar el dispositivo en el sitio. Configure como. *false* una vez que esté completamente configurado y en producción. |
 | *enableOSD* | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de configurar en *false* una vez que esté completamente configurado y en producción. |
@@ -187,7 +187,7 @@ Puede asignar un nombre de dispositivo descriptivo al reproductor de Android y, 
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Android:
 
-1. Vaya a **configuración** —> **Acerca del dispositivo**
+1. Vaya a **configuración** > **Acerca del dispositivo**
 1. Edite y establezca el nombre del dispositivo para el reproductor de Android
 
 ### Implementación del aprovisionamiento masivo del reproductor Android mediante Enterprise Mobility Management {#implementation}

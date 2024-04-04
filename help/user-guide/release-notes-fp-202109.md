@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 2%
+source-wordcount: '908'
+ht-degree: 1%
 
 ---
 
@@ -31,42 +31,43 @@ La fecha de lanzamiento del AEM Screens Feature Pack 202109 es el 23 de septiemb
 
 * **Compatibilidad con miniaturas para vídeos**
 
-   Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
+  Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
 Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obtener más información.
 
 * **Monitorización de reproducción básica**
 
-   AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, permite detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite al equipo monitorizar de forma remota si un reproductor está reproduciendo el contenido correctamente, mejora la reacción ante pantallas en blanco o experiencias rotas en el campo y reduce el riesgo de mostrar una experiencia rota al usuario final.
+  AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, permite detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite al equipo monitorizar de forma remota si un reproductor está reproduciendo el contenido correctamente, mejora la reacción ante pantallas en blanco o experiencias rotas en el campo y reduce el riesgo de mostrar una experiencia rota al usuario final.
 Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obtener más información.
 
 * **Actualizaciones del informe de asignación de contenido**
 
-   El informe de asignación de contenido ahora está optimizado y mejorado con una experiencia de usuario mejorada. El informe descargable muestra entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos en una pestaña de hoja de cálculo, y la información del proveedor de contenido, como canales y recursos en otra pestaña.
+  El informe de asignación de contenido ahora está optimizado y mejorado con una experiencia de usuario mejorada. El informe descargable muestra entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos en una pestaña de hoja de cálculo, y la información del proveedor de contenido, como canales y recursos en otra pestaña.
 Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 * **Representaciones adaptables**
 
-   Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
+  Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
-   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
+  Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
-   Además, como autor de contenido de AEM Screens, puede configurar sus recursos para que utilicen representaciones adaptables y también migrar sus dispositivos para redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+  Además, como autor de contenido de AEM Screens, puede configurar sus recursos para que utilicen representaciones adaptables y también migrar sus dispositivos para redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
 
 * **Compatibilidad con manifiestos de la versión 3**
 
-   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe:
+  Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe:
 
    * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación
 
       * Vaya a crx/de en Autor y publicación
 
-      * Haga clic en Herramientas —> Consulta
+      * Haga clic en Herramientas > Consulta
 
       * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * Esto indicará cualquier trabajo de contenido sin conexión que se esté ejecutando o esté pendiente en la cola
 
       * Espere hasta que no haya más trabajos de contenido sin conexión devueltos desde la consulta
+
    * Deshabilitar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
@@ -78,7 +79,6 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
    * Consulte [Configurar Dispatcher para la versión 3 del manifiesto](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
    * Si utiliza componentes personalizados como parte de manifiestos de la versión 3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
-
 
 
 ### Correcciones de errores {#bug-fixes}

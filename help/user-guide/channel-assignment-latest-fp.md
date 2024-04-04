@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 3%
+source-wordcount: '1476'
+ht-degree: 2%
 
 ---
 
@@ -165,13 +165,13 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 * **Inmediata**: cada vez que se activa la programación o se recibe una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Al final del elemento actual**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de ello actualice o reproduzca el nuevo contenido
 
-   >[!NOTE]
-   >Esta opción está seleccionada de forma predeterminada.
+  >[!NOTE]
+  >Esta opción está seleccionada de forma predeterminada.
 
 * **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelve al primer elemento, actualiza o reproduce el nuevo contenido
 
-   >[!NOTE]
-   >El uso de la segunda o tercera opción puede provocar que los tiempos de programación definidos en la asignación se aplazen ligeramente, ya que el reproductor esperará al final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso dependerá de la duración de reproducción del elemento.
+  >[!NOTE]
+  >El uso de la segunda o tercera opción puede provocar que los tiempos de programación definidos en la asignación se aplazen ligeramente, ya que el reproductor esperará al final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso dependerá de la duración de reproducción del elemento.
 
 Las siguientes propiedades se establecen desde la variable **Programación** en la opción **Asignación de canales** Cuadro de diálogo.
 
@@ -210,7 +210,7 @@ Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su men
 
 Aquí, dividiremos cada día en diferentes franjas horarias, de modo que el contenido del canal se reproduzca a la hora especificada del día. Establezca las siguientes propiedades del Horario de periodicidad para que su canal reproduzca el contenido según este caso de uso.
 
-| **Nombre** | **Repeticiones** | **Inicial** | **Finalizar** |
+| **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
 | Desayuno | Cada día | 6:00 | 11:00 |
 | Almuerzo | Cada día | 11:00 | 15:00 |
@@ -218,9 +218,9 @@ Aquí, dividiremos cada día en diferentes franjas horarias, de modo que el cont
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra la implementación de DayParting en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de cena después de las 22:00 y hasta la 01:00.
+En este ejemplo se muestra la implementación de DayParting en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de cena después de las 22:00 y hasta la 01:00
 
-| **Nombre** | **Repeticiones** | **Inicial** | **Finalizar** |
+| **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
 | Weekend | Semanal: sábado, domingo | 20:00 | 22:00 |
 | Especiales | Diario: lunes a viernes | 22:00 | 1:00 |

@@ -3,10 +3,10 @@ title: Configuración del flujo de trabajo de ubicación directa
 seo-title: Direct Placement Workflow Configuration
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
 seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Como autor de contenido, también puede hacer clic manualmente en **Actualizar c
 
 >[!IMPORTANT]
 >
->Antes de iniciar la configuración, debe instalar el [Paquete de demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde la instancia de la aplicación —> Herramientas (icono) —> **Flujo de trabajo** —> **Modelos de flujo de trabajo**.
+>Antes de iniciar la configuración, debe instalar el [Paquete de demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde su instancia de > Herramientas (icono) > **Flujo de trabajo** > **Modelos de flujo de trabajo**.
 
 Siga los pasos a continuación para configurar el flujo de trabajo de ubicación directa:
 

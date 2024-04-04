@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen y, de
 Siga los pasos a continuación para configurar el nombre en el reproductor Tizen:
 
 1. Haz clic en el botón de menú del control remoto.
-1. Vaya a **network** —> **Nombre del dispositivo** para asignar un nombre al reproductor.
+1. Vaya a **network** > **Nombre del dispositivo** para asignar un nombre al reproductor.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
@@ -97,8 +97,8 @@ El aprovisionamiento remoto de Tizen Player le permite implementar cientos y mil
 
 Esta función le permite configurar de forma remota el reproductor Tizen y también actualizar esas configuraciones de forma centralizada, si es necesario. Todo lo que necesita es el `HTTP` servidor utilizado para alojar la aplicación Tizen `(wgt and xml file)` y un editor de texto para guardar `config.json` con los parámetros adecuados.
 
-Asegúrese de haber configurado la dirección del lanzador de URL en el dispositivo Tizen, es decir, el botón de inicio —> la configuración del lanzador de URL.
-En el `HTTP` servidor que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el `wgt` archivo. El nombre del archivo debe ser `config.json`.
+Asegúrese de haber configurado la dirección del lanzador de URL en el dispositivo Tizen, es decir, botón de inicio > Configuración del lanzador de URL.
+En el `HTTP` servidor que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el `wgt` archivo. El nombre de archivo debe ser `config.json`.
 El reproductor Tizen se instalará y, en el momento del inicio (y cada vez que se reinicie), comprobará y aplicará los ajustes de la `config.json` archivo.
 
 ### Ejemplo de directiva JSON {#example-json}
@@ -120,7 +120,7 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 >[!NOTE]
 >Las configuraciones de directiva se aplican estrictamente y no se anulan manualmente en la IU de administración del reproductor. Para permitir la configuración manual del reproductor para una directiva determinada, no especifique la directiva en la configuración de la directiva; por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de la directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
 
-| **Nombre de política** | **Función** |
+| **Nombre de política** | **Finalidad** |
 |---|---|
 | servidor | La dirección URL del servidor de Adobe Experience Manager AEM (). |
 | registrationKey | Se utiliza para el registro masivo de dispositivos mediante una clave previamente compartida. |

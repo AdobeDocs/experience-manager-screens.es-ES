@@ -1,30 +1,30 @@
 ---
 title: Registro automático de reproductores
-seo-title: Auto Registration of Players
 description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
 # Registro automático de reproductores {#auto-registration}
 
-El registro masivo de miles de jugadores manualmente puede ser muy engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función de registro masivo le permite especificar una clave previamente compartida en los recursos que se pueden aprovisionar en un reproductor a través de un archivo de configuración o de una solución de administración de dispositivos móviles (MDM).
+El registro masivo de miles de jugadores manualmente puede ser engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función de registro masivo le permite especificar una clave previamente compartida en los recursos que se pueden aprovisionar en un reproductor a través de un archivo de configuración o de una solución de administración de dispositivos móviles (MDM).
 
 ## Implementación del registro automático de reproductores {#bulk-registering-implementation}
 
 Siga los pasos a continuación para implementar el registro automático de reproductores:
 
-1. AEM AEM Inicie sesión en la instancia de, seleccione el proyecto de pantallas de inicio de sesión y haga clic en **Propiedades** de la barra de acciones.
-1. Seleccione el **Avanzadas** para ver la **Registro de dispositivos** sección.
+1. AEM Inicie sesión en la instancia de, seleccione el proyecto de AEM Screens y haga clic en **Propiedades** de la barra de acciones.
+1. Seleccione el **Avanzadas** para poder ver la pestaña **Registro de dispositivos** sección.
 
 1. Especifique un código de registro automático en **Código de registro en bloque** y una visualización predeterminada opcional en **Asignación de visualización predeterminada** para asignar al reproductor que se ha registrado automáticamente.
+
    >[!NOTE]
    >Introduzca un código de su elección y seleccione una visualización predeterminada si es necesario.
 
@@ -32,9 +32,9 @@ Siga los pasos a continuación para implementar el registro automático de repro
 1. Proporcione a los reproductores la URL del servidor y el código de registro adecuados mediante un archivo MDM o JSON de configuración.
 
    >[!NOTE]
-   >Consulte la página de implementación del reproductor específico para su sistema operativo (SO) para obtener más información. También puede utilizar la IU de administración para introducir el código de registro.
+   >Consulte la página de implementación del reproductor específico de su sistema operativo (SO) para obtener más información. También puede utilizar la IU de administración para introducir el código de registro.
 
-1. Si la variable `registrationKey` AEM coincide con el configurado en, el reproductor se registrará automáticamente y, si se configura una pantalla predeterminada, ese contenido se descargará y reproducirá.
+1. Si la variable `registrationKey` AEM coincide con el configurado en, el reproductor se registra automáticamente y, si se configura una visualización predeterminada, ese contenido se descarga y se reproduce.
 
    ![imagen](/help/user-guide/assets/auto-registration/auto-register2.png)
 
@@ -42,7 +42,7 @@ Siga los pasos a continuación para implementar el registro automático de repro
 
 En la sección siguiente se describen algunas de las prácticas recomendadas para la seguridad:
 
-* AEM AEM Para asegurarse de que el código de registro no se vea comprometido, configure el código en la configuración de justo antes de iniciar el registro masivo y, cuando haya terminado, borre ese campo y guarde los cambios en la configuración de la lista de permitidos de la lista de distribución de datos de su cuenta de usuario. Haga clic en.
+* AEM AEM Asegúrese de que el código de registro no esté en peligro: configure el código en la configuración de justo antes de iniciar el registro masivo y, cuando haya terminado, borre ese campo y guarde los cambios en la configuración de la aplicación. Haga clic en.
 
 * Puede configurar la ruta `/bin/screens/registration` para que solo sea accesible desde intervalos de IP conocidos, si es posible.
 
@@ -50,5 +50,5 @@ En la sección siguiente se describen algunas de las prácticas recomendadas par
 
 * Usar siempre `HTTPS` y no `HTTP` AEM para que el reproductor se comunique con el.
 
-   >[!NOTE]
-   >Actualmente, la asignación de visualización predeterminada solo funciona para el registro masivo y no para el registro manual sin código de registro.
+  >[!NOTE]
+  >Actualmente, la asignación de visualización predeterminada solo funciona para el registro masivo y no para el registro manual sin código de registro.

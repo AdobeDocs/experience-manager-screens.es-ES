@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,7 @@ El proceso de registro del dispositivo se realiza en 2 equipos independientes:
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
 >1. Haga clic en **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -126,7 +124,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
 Una vez que haya registrado los dispositivos en el reproductor, puede verlos todos en la interfaz de usuario del Administrador de dispositivos.
 
-1. Vaya a la interfaz de usuario del administrador de dispositivos desde el proyecto de AEM Screens, por ejemplo, **Demostraciones** —> **Dispositivos**.
+1. Vaya a la interfaz de usuario del administrador de dispositivos desde el proyecto de AEM Screens, por ejemplo, **Demostraciones** > **Dispositivos**.
 
 1. Seleccione el **Dispositivos** y haga clic en **Administrador de dispositivos** de la barra de acciones.
 
@@ -149,8 +147,8 @@ Una vez que haya registrado los dispositivos en el reproductor, puede verlos tod
 
 * El usuario podrá buscar cualquier palabra existente en el *ID de dispositivo* o *Nombre del dispositivo*.
 
-   >[!NOTE]
-   >Se recomienda crear los nombres de los dispositivos con varias palabras, como *Boston Store Lobby* en lugar de uno solo *BostonStoreLobby*.
+  >[!NOTE]
+  >Se recomienda crear los nombres de los dispositivos con varias palabras, como *Boston Store Lobby* en lugar de uno solo *BostonStoreLobby*.
 
 * Si crea nombres de dispositivo como *Boston Store Lobby*, permite buscar cualquier palabra *Boston*, *almacenar* o *cabildear* pero si el nombre del dispositivo se denomina *BostonStoreLobby* búsqueda *Boston* no mostrará los resultados.
 

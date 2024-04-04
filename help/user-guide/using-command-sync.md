@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ En la siguiente página se describe cómo utilizar la sincronización de comando
 
 ## Información general {#overview}
 
-Las soluciones de comunicación digital deben admitir paredes de vídeo y reproducción sincronizada para poder reproducir en distintas pantallas situaciones, como la cuenta atrás de Año Nuevo o la reproducción de vídeo de gran tamaño en varias pantallas. Aquí es donde comienza a funcionar la sincronización de comandos.
+Las soluciones de comunicación digital deben admitir paredes de vídeo y reproducción sincronizada para poder reproducir en distintas pantallas situaciones, como la cuenta atrás de Año Nuevo o la reproducción de vídeo de gran tamaño. Aquí es donde comienza a funcionar la sincronización de comandos.
 
 Para utilizar la sincronización de comandos, un reproductor actúa como *principal* y envía el comando y todos los demás jugadores actúan como *clientes* y juegan cuando reciben el comando.
 
@@ -92,7 +92,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
 
 ### Configuración de un principal {#setting-up-primary}
 
-1. Vaya al panel de visualización desde **CommandSyncDemo** —> **Ubicaciones**  —> **Vestíbulo** —> **LobbyDisplay** y haga clic en **Tablero** de la barra de acciones.
+1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones**  > **Vestíbulo** > **LobbyDisplay** y haga clic en **Tablero** de la barra de acciones.
 Verá los dos dispositivos (cromo y reproductor de Windows) en **DISPOSITIVOS** panel, como se muestra en la figura siguiente.
    ![image1](assets/command-sync/command-sync10-1.png)
 

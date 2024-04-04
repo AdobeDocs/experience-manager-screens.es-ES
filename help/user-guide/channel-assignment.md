@@ -6,9 +6,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1233'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
->AEM En esta sección se destaca la asignación y programación de canales para paquetes de funciones anteriores a la versión de Screens de la versión 6.5.5 del canal.
+>AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Screens de la versión 6.5.5 de la versión de.
 
 Una vez configurada una pantalla, debe asignar un canal a una pantalla para ver el contenido.
 
@@ -84,18 +84,18 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 
 * **Inmediata**: cada vez que se activa la programación o se recibe una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Al final del elemento actual**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de ello actualice o reproduzca el nuevo contenido
-   >[!NOTE]
-   >Esta opción está seleccionada de forma predeterminada.
+  >[!NOTE]
+  >Esta opción está seleccionada de forma predeterminada.
 * **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelve al primer elemento, actualiza o reproduce el nuevo contenido
 
-   >[!NOTE]
-   >El uso de la segunda o tercera opción puede provocar que los tiempos de programación definidos en la asignación se aplazen ligeramente, ya que el reproductor esperará al final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso dependerá de la duración de reproducción del elemento.
+  >[!NOTE]
+  >El uso de la segunda o tercera opción puede provocar que los tiempos de programación definidos en la asignación se aplazen ligeramente, ya que el reproductor esperará al final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso dependerá de la duración de reproducción del elemento.
 
 ### Programación {#schedule-channel}
 
 Programación le permite proporcionar una descripción en texto cuando el canal debe aparecer. También permite definir una fecha de inicio (**activo desde**) y una fecha de finalización (**activo hasta**) para que se muestre el canal.
 
-**Mostrar información de objeto sobre atracción**:
+**Mostrar información de atracción**:
 
 Mostrar información sobre la atracción define si la información sobre la atracción (&quot;*Toque en cualquier lugar para empezar*&quot;) se debe mostrar o no mientras se ejecuta el canal.
 
@@ -113,7 +113,7 @@ Este ejemplo muestra cómo un restaurante utiliza la partición del día para mo
 
 Aquí, dividiremos cada día en tres franjas horarias diferentes, de modo que el contenido del canal se reproduzca a la hora especificada del día:
 
-| **Canal** | **Función** | **Prioridad** | **Programa** |
+| **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
 | Menú_A | Desayuno |  | después de las 6:00 y antes de las 11:00 |
 | Menu_B | Almuerzo |  | después de las 11:00 y antes de las 15:00 |
@@ -121,7 +121,7 @@ Aquí, dividiremos cada día en tres franjas horarias diferentes, de modo que el
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana de 8:00 pm hasta 10:00 pm y los especiales están disponibles para el menú de cena después de las 10:00 pm hasta la 1:00 am.
+Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana de 8:00 pm hasta 10:00 pm y los especiales están disponibles para el menú de cena después de las 10:00 pm hasta la 1:00 am
 
 <table>
  <tbody>
@@ -152,7 +152,7 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 
 Aquí puede crear la partición de día según los meses, de modo que el contenido del canal se reproduzca según los meses del año especificados.
 
-| **Canal** | **Función** | **Prioridad** | **Programa** |
+| **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
 | SummerCollection | Verano |  | 1 de junio de 2017 - 31 de agosto de 2017 |
 | FallCollection | Otoño |  | 1 de septiembre de 2017 - 30 de octubre de 2017 |
@@ -165,7 +165,7 @@ Aquí puede crear la partición de día según los meses, de modo que el conteni
 
 En este ejemplo se muestra el DayParting de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero dado que el Canal B tiene la prioridad establecida como 2, durante esa semana; el Canal B reproduce su contenido en lugar del Canal A.
 
-| **Canal** | **Función** | **Prioridad** | **Programa** |
+| **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
 | A | Invierno | 1 | 1 de diciembre de 2017 - 31 de diciembre de 2017 |
 | B | Navidad | 2 | 24 de diciembre de 2017 - 31 de diciembre de 2017 |
@@ -177,4 +177,3 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 >
 >* [Administrar la periodicidad en Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Administrar la periodicidad de los recursos de un canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
