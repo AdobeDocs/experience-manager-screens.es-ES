@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
    1. Arrastre y suelte el **Comparación : propiedad/propiedad** Vaya al editor y haga clic en el icono configurar para editar las propiedades.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**
 
-   1. Seleccione el **Operador** as **bueno que** en el menú desplegable
+   1. Seleccione el **Operador** as **greater-than** en el menú desplegable
 
    1. Seleccionar **Tipo de datos** as **número**
 
@@ -68,7 +68,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
    1. Arrastrar y soltar **otra comparación : propiedad/propiedad** Vaya al editor y haga clic en el icono configurar para editar las propiedades.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**.
 
-   1. Seleccione el **Operador** as **bueno que** en el menú desplegable
+   1. Seleccione el **Operador** as **greater-than** en el menú desplegable
 
    1. Seleccionar **Tipo de datos** as **número**
 
@@ -94,12 +94,13 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** —> **Personalización** pestaña.
+   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   Debe seleccionar las dos opciones **Marca** y el **Área** para que las actividades se incluyan correctamente en la lista al iniciar el proceso de Orientación.
+   >
+   >Debe seleccionar las dos opciones **Marca** y el **Área** para que las actividades se incluyan correctamente en la lista al iniciar el proceso de Orientación.
 
 1. **Adición de una imagen predeterminada**
 
@@ -111,7 +112,8 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Antes de empezar a segmentar, debe añadir los segmentos (**For_Green**, **For_Red**, y **For_Blue**) haciendo clic en **+ Agregar segmentación de experiencias** desde el carril lateral como se muestra en la figura siguiente.
+   >
+   >Antes de empezar a segmentar, debe añadir los segmentos (**For_Green**, **For_Red**, y **For_Blue**) haciendo clic en **+ Agregar segmentación de experiencias** desde el carril lateral como se muestra en la figura siguiente.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -121,6 +123,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
 1. **Comprobación de la previsualización**
 
-   1. Haga clic en **Vista previa.** Además, abra la hoja de Google y actualice su valor.
+   1. Clic **Vista previa.** Además, abra la hoja de Google y actualice su valor.
    1. Cambie el valor de las tres columnas diferentes y verá que la imagen para mostrar se actualiza según el valor más alto del inventario.
+
    ![retail_result](assets/retail_result.gif)

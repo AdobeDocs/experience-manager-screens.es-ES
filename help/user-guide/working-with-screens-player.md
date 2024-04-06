@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 1%
+source-wordcount: '1058'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Una vez asignado un canal a una pantalla, el Reproductor de AEM Screens muestra 
 
 AEM Puede configurar las preferencias de su dispositivo desde el Tablero de dispositivo, al que se puede acceder mediante la instancia de creación de la.
 
-1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** —> ***Dispositivos***.
+1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
    Seleccionar **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
 
@@ -74,9 +74,9 @@ El menú Configuración le permite modificar las siguientes opciones:
 
 * Habilitar o deshabilitar **Menú Administrador**, **Conmutador de canales**, y **IU de actividad** para el reproductor Screens.
 
-   Si la variable **IU de actividad** está habilitado desde el **Configuración** menú, el reproductor de AEM Screens muestra el *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
+  Si la variable **IU de actividad** está habilitado desde el **Configuración** menú, el reproductor de AEM Screens muestra el *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
 
-   ![imagen](/help/user-guide/assets/activity_ui.png)
+  ![imagen](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Siga estos pasos para cambiar las preferencias del reproductor:
 
 Puede solucionar varios problemas asociados con el Reproductor de AEM Screens (hardware y software):
 
-| **Problemas** | **Recomendaciones** |
+| **Problemas** | **Recommendations** |
 |---|---|
 | El almacenamiento del reproductor está lleno | Eliminar archivos innecesarios |
 | El reproductor perdió la red | Utilice un cable Cat-5/Cat-6. Para wifi, reduce la distancia desde el router al dispositivo de reproducción |
@@ -143,8 +143,8 @@ Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 
 | **Método** | **Detalles** | **mediante remoto** | **Automatizado** | **0 Tiempo de inactividad** |
 |---|---|---|---|---|
-| Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se volverá a cargar automáticamente con el contenido existente. | Sí | Personalizado | Casi - 1-3 segundos |
-| Actualizaciones del contenedor del reproductor | Se trata de un nuevo ejecutable que se implementará en el Reproductor. Esto requiere copiar de forma remota el nuevo binario en el reproductor, detener el que se está ejecutando e iniciar la nueva versión. Esto puede requerir volver a descargar la carga previa de los paquetes. | Sí (a través del shell remoto) | Personalizado | No |
+| Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se volverá a cargar automáticamente con el contenido existente. | Sí | Personalizada | Casi - 1-3 segundos |
+| Actualizaciones del contenedor del reproductor | Se trata de un nuevo ejecutable que se implementará en el Reproductor. Esto requiere copiar de forma remota el nuevo binario en el reproductor, detener el que se está ejecutando e iniciar la nueva versión. Esto puede requerir volver a descargar la carga previa de los paquetes. | Sí (a través del shell remoto) | Personalizada | No |
 
 ## Directrices de selección de hardware para dispositivos de reproducción {#hardware-selection-guidelines-for-player-device}
 
@@ -172,12 +172,12 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>Casos de uso habituales</td>
   </tr>
   <tr>
-   <td>Basic</td>
+   <td>Básica</td>
    <td>Procesador Intel® Atom de doble núcleo, i3 o núcleo cuádruple básico</td>
    <td><p>4 GB de memoria</p> <p>2 MB de caché</p> </td>
    <td><p>·ChromeOS de 32 GB</p> <p>·Windows de 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
+   <td>1920 x 1080</td>
    <td>DVI,<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
    <td>
     <ul>

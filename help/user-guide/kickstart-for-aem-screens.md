@@ -6,9 +6,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Siga los pasos a continuación para crear un proyecto de muestra para AEM Screen
 
 ## Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
 
-1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM vía instancia —> icono de martillo —> **Operaciones** —> **Consola web**.
+1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM a través de instancia > icono de martillo > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
@@ -152,7 +152,7 @@ Una vez creada una ubicación, debe crear una nueva pantalla para la ubicación.
 
 Una vez completada la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
 
-1. Vaya a la pantalla requerida desde **Demostraciones** —> **Ubicaciones** —> **TestLocation** —> **LobbyDisplay**.
+1. Vaya a la pantalla requerida desde **Demostraciones** > **Ubicaciones** > **TestLocation** > **LobbyDisplay**.
 
 1. Pulse o haga clic en **Asignar canal** de la barra de acciones.
 
@@ -198,7 +198,6 @@ AEM Es necesario registrar el dispositivo mediante el panel de control de.
 >1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 >1. Haga clic en **AEM Screens** Complemento para iniciar el reproductor Chrome. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **esc** para salir del modo de pantalla completa.
 
-
 Una vez que el reproductor de Chrome OS esté encendido, siga los pasos a continuación para registrar un dispositivo Chrome.
 
 1. Vaya a **Dispositivos** AEM de su proyecto desde la instancia de la.
@@ -226,7 +225,7 @@ Una vez que el reproductor de Chrome OS esté encendido, siga los pasos a contin
 
    ![imagen](assets/kickstart/demo-register5.png)
 
-1. Seleccione la ruta a la visualización como **Demostraciones** —> **Ubicaciones** —> **TestLocation** —> **LobbyDisplay** y haga clic en **Asignar**.
+1. Seleccione la ruta a la visualización como **Demostraciones** > **Ubicaciones** > **TestLocation** > **LobbyDisplay** y haga clic en **Asignar**.
 
    ![imagen](assets/kickstart/demo-device6.png)
 

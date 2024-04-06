@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ La siguiente imagen muestra el **TextOverlayDemo** proyecto con **TextSample** e
 
 Siga los pasos a continuación para utilizar la superposición de texto en un canal de AEM Screens:
 
-1. Vaya a **TextOverlayDemo** —> **Canales** —> **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ Para obtener información sobre cómo configurar y administrar cambios en recurs
 
 Una vez que haya configurado las configuraciones necesarias para su proyecto, siga los pasos a continuación para utilizar los valores de las hojas de Google:
 
-1. Vaya a **TextOverlayDemo** —> **Canales** —> **TextSample** y haga clic en **Propiedades** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Propiedades** de la barra de acciones.
 
 1. Seleccione el **Personalización** para configurar las configuraciones de ContextHub.
 
@@ -118,7 +118,7 @@ Una vez que haya configurado las configuraciones necesarias para su proyecto, si
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Vaya a **TextOverlayDemo** —> **Canales** —> **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 

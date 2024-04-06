@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 2%
+source-wordcount: '2526'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,6 @@ Puede descargar los siguientes recursos (imágenes y añadirlos a los recursos) 
 >* **[Administración de un canal](managing-channels.md)**
 >
 
-
 La implementación de la secuencia incrustada dinámica en un proyecto de AEM Screens implica tres tareas principales:
 
 1. **Configuración de la taxonomía de proyecto, incluidos canales, ubicaciones y pantallas**
@@ -124,7 +123,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Cree dos ubicaciones y un canal en cada carpeta de ubicación.**
 
-   1. Vaya a **Demostración** —> **Ubicaciones** —> **Región A**.
+   1. Vaya a **Demostración** > **Ubicaciones** > **Región A**.
    1. Seleccionar **Región A** y haga clic en **+ Crear** de la barra de acciones.
    1. Seleccionar **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
    1. Repita el paso (b) y ahora seleccione **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** as **región** para este canal.
@@ -145,7 +144,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Cree Pantalla y Canal en cada Ubicación.**
 
-   1. Vaya a **Demostración** —> **Ubicaciones** —> **Región A** —> **Almacén 1**.
+   1. Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Almacén 1**.
    1. Seleccionar **Almacén 1** y haga clic en **+ Crear** de la barra de acciones.
    1. Seleccionar **Mostrar** en el asistente y cree **Almacenar 1Pantalla.**
    1. Repita el paso (b) y esta vez seleccione **Canal de secuencia** en el asistente. Introduzca el **Título** as **Store1Channel** y el **Nombre** as **almacenar**.
@@ -176,14 +175,14 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Añada contenido a los canales en sus respectivas ubicaciones.**
 
-   Vaya a **Demostración** -> **Ubicaciones** -> **Región A** -> **Región A** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
+   Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Región A** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
 
    >[!NOTE]
    >Puede usar el complemento ***Resources.zip*** desde el **Recursos** , más arriba, para usar las imágenes como recursos para el contenido del canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Del mismo modo, vaya a **Demostración** -> **Ubicaciones** -> **Región B** -> **Región B** y haga clic en **Editar** en la barra de acciones, para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
+   Del mismo modo, vaya a **Demostración** > **Ubicaciones** > **Región B** > **Región B** y haga clic en **Editar** en la barra de acciones, para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -204,10 +203,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Asignar canales a una programación**
 
-   1. Vaya a **Demostración** —> **Horarios** —> **AdSchedule** y haga clic en **Tablero** de la barra de acciones.
+   1. Vaya a **Demostración** > **Horarios** > **AdSchedule** y haga clic en **Tablero** de la barra de acciones.
    1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** panel para abrir **Asignación de canales** Cuadro de diálogo.
    1. Seleccionar **Canal de referencia**.. por ruta.
-   1. Seleccione el **Ruta de canal** as **Demostración** —> ***Canales*** —> ***Global***.
+   1. Seleccione el **Ruta de canal** as **Demostración** > ***Canales*** > ***Global***.
    1. Introduzca el **Función del canal** as **GlobalAdSegment**.
    1. Seleccione el **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
    1. Haga clic en **Guardar**.
@@ -250,10 +249,10 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Asignación de programación a cada visualización**
 
-   1. Navegue hasta la pantalla correspondiente, por ejemplo, **Demostración** —> **Ubicaciones** —> **Región A** —>**Almacén 1** —>**Store1Display**.
+   1. Navegue hasta la pantalla correspondiente, por ejemplo, **Demostración** > **Ubicaciones** > **Región A** >**Almacén 1** >**Store1Display**.
    1. Clic **Tablero** en la acción para abrir el panel de visualización.
    1. Clic **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
-   1. Seleccione la ruta al Horario (por ejemplo, aquí, **Demostración** —> **Horarios** —>**AdSchedule**).
+   1. Seleccione la ruta al Horario (por ejemplo, aquí, **Demostración** > **Horarios** >**AdSchedule**).
    1. Haga clic en **Guardar**.
 
 ## Visualización de los resultados {#viewing-the-results}
@@ -268,18 +267,17 @@ Una vez que haya completado la configuración de los canales y la visualización
 >* [Uso del Reproductor de AEM Screens](working-with-screens-player.md)
 
 
-
 La siguiente salida confirma el contenido del canal en el reproductor de AEM Screens, según la ruta de visualización.
 
 **Escenario 1**:
 
-Si asigna la ruta de visualización como **Demostración** —> **Ubicaciones** —> **Región A** —> **Almacén 1** —> **Store1Display**, el siguiente contenido se mostrará en el reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demostración** > **Ubicaciones** > **Región A** > **Almacén 1** > **Store1Display**, el siguiente contenido se mostrará en el reproductor de AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Escenario 1**:
 
-Si asigna la ruta de visualización como **Demostración** —> **Ubicaciones** —> **Región B** —> **Tienda 3** —> **Store3Display**, el siguiente contenido se mostrará en el reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demostración** > **Ubicaciones** > **Región B** > **Tienda 3** > **Store3Display**, el siguiente contenido se mostrará en el reproductor de AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -314,7 +312,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Crear grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Clic **Herramientas** —> **Seguridad** —> **Grupos**.
+   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
    1. Clic **Crear grupo** y escriba **Global-Author** in **ID**.
    1. Haga clic en **Guardar y cerrar**.
 
@@ -325,7 +323,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Crear usuarios y agregar usuarios a grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Clic **Herramientas** —> **Seguridad** —> **Usuarios**.
+   1. Haga clic en **Herramientas** > **Seguridad** > **Usuarios**.
    1. Clic **Crear usuario** y escriba **Global-User** in **ID**.
    1. Entrar **Contraseña** y confirme la contraseña de este usuario.
    1. Haga clic en **Grupos** e introduzca el nombre del grupo en **Seleccionar grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
@@ -341,7 +339,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Añadir todos los grupos a los colaboradores**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Clic **Herramientas** —> **Seguridad** —> **Grupos**.
+   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
    1. Seleccionar **Colaboradores** en la lista y seleccione **Miembros** pestaña.
    1. Seleccione el **Grupo** como **Global-Author**, **Region-Author,** y **Store-Author** a los colaboradores.
    1. Haga clic en **Guardar y cerrar**.

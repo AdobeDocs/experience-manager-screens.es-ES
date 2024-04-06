@@ -1,13 +1,11 @@
 ---
 title: Aspectos básicos de la publicidad dinámica para [!UICONTROL AEM Screens]
-seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
-description: La guía describe los conceptos básicos de un proyecto de señalización digital
-seo-description: The guide describes the basics of a digital signage project
+description: Conozca los conceptos básicos de un proyecto de señalización digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +27,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
    Hardware define qué componentes de hardware son ideales para la implementación de proyectos de señalización digital:
    * ¿Tiene el dispositivo espacio de almacenamiento suficiente para ejecutar todas las variaciones de las experiencias sin conexión?
-   * ¿Hemos permitido el tipo y la longitud del cable de vídeo? ¿Y el dispositivo admite ambas resoluciones deseadas (HD, FullHD, 4K, etc.)? y códecs de vídeo que planeo implementar (h.264, h.265, etc.)
+   * ¿Ha permitido el tipo y la longitud del cable de vídeo? ¿Y el dispositivo admite ambas resoluciones deseadas (HD, FullHD, `4K`, etc.) y códecs de vídeo que planeo implementar (h.264, h.265, etc.)
    * Uso de alambre de cobre físico
    * Tamaño de las pantallas
    * Número de pantallas
@@ -41,14 +39,14 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
    La conectividad enfatiza en las siguientes preguntas:
    * ¿Conectado en red (móvil o wi-fi) o independiente?
-      * ¿necesitamos permitir actualizaciones de contenido USB?
-      * ¿es necesario permitir la recopilación de datos de uso?
+      * ¿Debe permitir actualizaciones de contenido USB?
+      * ¿Debe permitir la recopilación de datos de uso?
 
 1. **Instalación**
 
    La instalación incluye:
    * Muestra: horizontal o vertical
-   * ¿Cómo se montará la pantalla?
+   * ¿Cómo se monta la pantalla?
       * Vertical frente a horizontal
       * Vivienda completa
       * Placa de cubierta
@@ -60,7 +58,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 1. **Contenido**
 
    El contenido incluye:
-   * ¿Zona única o multizona?
+   * ¿Zona única o zona múltiple?
       * ¿Cuántos recursos de medios hay en pantalla al mismo tiempo?
       * ¿Cuántas páginas hay para las aplicaciones interactivas?
       * Definición del bucle de IU
@@ -74,7 +72,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
       * Pulsación de botón
       * Gesto
    * Activación de datos (E/S)
-      * Envío/recepción de comandos seriales (cierre de contactos, PLC, etc.)
+      * Envío/recepción de comandos en serie (cierre de contactos, PLC, etc.)
       * Los datos entrantes aparecen en la pantalla (RSS) o en el contenido de los déclencheur
       * RFID/NFC/Bluetooth/iBeacon
       * Servicios externos (tiempo, tráfico)
@@ -82,7 +80,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 1. **Entorno**
 
    Environment hace hincapié en:
-   * Ubicación de visualización?
+   * ¿Mostrar ubicación?
       * Interior frente a exterior
       * Fuera del alcance o directamente expuesto
    * ¿Necesidad de temperatura especial?
@@ -93,8 +91,8 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
    El mantenimiento hace hincapié en:
 
-   * ¿Se requieren guías de instalación detalladas o guías de usuario?
-   * ¿Estamos configurando (programando) el dispositivo antes del envío?
-   * ¿Es necesario capturar cada número de serie con fines de seguimiento?
-   * ¿Hay algún requisito de alimentación de reserva (fuente de alimentación ininterrumpida)?
+   * ¿Se requieren las guías de instalación y las guías del usuario?
+   * ¿Está configurando (programando) el dispositivo antes del envío?
+   * ¿Debe capturar cada número de serie con fines de seguimiento?
+   * ¿Hay alguna necesidad de alimentación de reserva (fuente de alimentación ininterrumpida)?
    * ¿Cómo se implementan las actualizaciones del sistema? ¿Y cómo se monitorizan los dispositivos de forma remota? ¿Se requiere una solución de MDM?

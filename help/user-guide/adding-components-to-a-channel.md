@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 7%
+source-wordcount: '1450'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Siempre que cree un proyecto de AEM Screens, verá una lista de componentes pred
 
 Para ver los componentes predeterminados del proyecto de Pantallas, siga los pasos a continuación:
 
-1. Seleccione el canal. Por ejemplo, **We.Retail en tienda** —> **Canales** —> **Canal inactivo**.
+1. Seleccione el canal. Por ejemplo, **We.Retail en tienda** > **Canales** > **Canal inactivo**.
 
 1. Clic **Editar** AEM en la barra de acciones para abrir el editor de.
 1. Haga clic en **+** de la barra lateral para abrir los componentes.
@@ -49,7 +49,7 @@ AEM proporciona una serie de otros componentes. Siempre puede añadir otros comp
 
 El siguiente ejemplo muestra la adición de un componente de Livefyre a un proyecto de AEM Screens:
 
-1. Seleccione el canal en el que desea añadir un componente nuevo. Por ejemplo, **We.Retail en tienda** —> **Canales** —> **Canal inactivo**.
+1. Seleccione el canal en el que desea añadir un componente nuevo. Por ejemplo, **We.Retail en tienda** > **Canales** > **Canal inactivo**.
 
 1. Clic **Editar** en la barra de acciones para abrir el editor.
 1. Seleccionar **Diseño** modo.
@@ -78,7 +78,7 @@ El componente de aplicación tiene las siguientes propiedades:
 
 | **Propiedad** | **Descripción** |
 |---|---|
-| ***Ruta de la aplicación*** | Seleccione la ruta absoluta en la que existe la aplicación. |
+| ***Ruta de aplicación*** | Seleccione la ruta absoluta en la que existe la aplicación. |
 | ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
 
 El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la vista previa de sus propiedades:
@@ -209,7 +209,7 @@ Para obtener más información sobre cómo crear un fragmento de experiencia y a
 | ***Fragmento de experiencias*** | Seleccione el fragmento de experiencia. |
 | ***Duración*** | Seleccione toda la duración del fragmento de experiencia que se reproduce en el canal. |
 | **Configuración sin conexión** |
-| ***Bibliotecas del lado cliente*** | Archivos JavaScript y CSS. |
+| ***Bibliotecas del lado del cliente*** | Archivos JavaScript y CSS. |
 | ***Archivos estáticos*** | Archivos estáticos que se pueden agregar como configuraciones sin conexión al fragmento de experiencia. |
 
 >[!NOTE]
@@ -247,7 +247,7 @@ Seleccione el icono de transición y haga clic en **Configurar** (icono de la ll
 
 * **Transición**
 * **Secuencia**
-* **Activación**
+* **Activation**
 
 >[!NOTE]
 >

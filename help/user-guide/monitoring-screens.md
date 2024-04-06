@@ -14,10 +14,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Puede monitorizar la actividad y, por lo tanto, solucionar problemas del reprodu
 
 Siga los pasos a continuación para navegar al panel de dispositivos:
 
-1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** —> ***Dispositivos***.
+1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
    Seleccionar **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
 
@@ -110,7 +110,7 @@ Además, haga clic en **Configuración** desde la esquina superior derecha para 
 
 * **URL del servidor**
 * **Resolución**
-* **Reiniciar programa**
+* **Programación de reinicio**
 * **Número máximo. de archivos de registro que se van a conservar**
 * **Nivel de registro**
 
@@ -123,7 +123,6 @@ Además, haga clic en **Configuración** desde la esquina superior derecha para 
 >* **Información**
 >* **Advertencia**
 >* **Error**
-
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 

@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 1%
+source-wordcount: '983'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 En esta página se destacan los siguientes temas:
 
 * **Introducción a los servidores de publicación**
-* **Información general de la arquitectura**
+* **Información general arquitectónica**
 * **Proceso de registro**
 
 ## Requisitos previos {#prerequisites}
@@ -75,7 +75,7 @@ El diagrama siguiente ilustra el proceso de replicación:
 
 ### Agentes y comandos de replicación de Screens  {#screens-replication-agents-and-commands}
 
-Se crean agentes de replicación específicos de Pantallas personalizadas para enviar comandos de la instancia de autor al dispositivo de AEM Screens. Las instancias de publicación de AEM sirven como intermediarias para reenviar estos comandos al dispositivo.
+Se crean agentes de replicación específicos de Pantallas personalizadas para enviar comandos de la instancia de autor al dispositivo de AEM Screens. AEM Las instancias de publicación de la sirven como intermediarias para reenviar estos comandos al dispositivo.
 
 Esto permite a los autores seguir administrando el dispositivo, como, por ejemplo, enviar actualizaciones de dispositivos y realizar capturas de pantalla desde el entorno de creación. Los agentes de replicación de AEM Screens tienen una configuración de transporte personalizada, como los agentes de replicación estándar.
 

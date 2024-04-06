@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 1%
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -115,9 +115,10 @@ Siga los pasos a continuación para configurar un canal de emergencia:
       1. Seleccione la ruta al **MainAdChannel**
       1. Configure las variables **Prioridad** as 2
       1. Definir los eventos admitidos como **Carga inicial** y **Pantalla inactiva**.
-      1. Haga clic en **Guardar**
+      1. Clic **Guardar**
 
       Del mismo modo, tendrá que seguir los mismos pasos nuevamente para asignar el **EmergencyChannel** y establezca su **Prioridad**.
+
    >[!NOTE]
    >
    >La prioridad se usa para ordenar las asignaciones en caso de que varias coincidan con los criterios de reproducción. El que tenga el valor más alto siempre tendrá prioridad sobre los valores más bajos.
@@ -133,7 +134,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    1. Definir los eventos admitidos como **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**
 
-   1. Haga clic en **Guardar**
+   1. Clic **Guardar**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -143,12 +144,12 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 1. **Asignación de programación a cada visualización**
 
-   1. Navegue hasta la pantalla correspondiente, por ejemplo, **EmergencyChannel** —> **Ubicaciones** —> **Almacenar** —>**StoreFront**.
+   1. Navegue hasta la pantalla correspondiente, por ejemplo, **EmergencyChannel** > **Ubicaciones** > **Almacenar** >**StoreFront**.
 
    1. Clic **Tablero** en la acción para abrir el panel de visualización.
    1. Clic **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
 
-   1. Seleccione la ruta al Horario (por ejemplo, aquí, **EmergencyChannel** —> **Horarios** —>**Programación de tienda**).
+   1. Seleccione la ruta al Horario (por ejemplo, aquí, **EmergencyChannel** > **Horarios** >**Programación de tienda**).
 
    1. Haga clic en **Guardar**.
 
@@ -165,7 +166,7 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 En caso de emergencia, siga los siguientes pasos:
 
-1. Vaya a **EmergencyChannel** —> **Horarios** —> **Programación de tienda** y seleccione **Tablero** de la barra de acciones.
+1. Vaya a **EmergencyChannel** > **Horarios** > **Programación de tienda** y seleccione **Tablero** de la barra de acciones.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

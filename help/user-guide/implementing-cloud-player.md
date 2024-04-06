@@ -1,31 +1,27 @@
 ---
 title: Implementación de Cloud Player
-seo-title: Implementing Cloud Player
-description: Siga esta página para obtener más información sobre la implementación de Cloud Player.
-seo-description: Follow  this page to learn about the implementation of the Cloud Player.
-uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+description: Obtenga información acerca de la implementación de Cloud Player.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Implementación de Cloud Player  {#implementing-cloud-player}
 
-Tradicionalmente, AEM Screens ha ofrecido distintas aplicaciones de reproductor nativas para varias plataformas, incluidas ChromeOS, Windows, Android y Tizen. Sin embargo, en respuesta a la evolución de las necesidades de nuestros usuarios, hemos introducido una solución innovadora: AEM Screens Cloud Player.
+Tradicionalmente, AEM Screens ha ofrecido aplicaciones de reproductor nativas distintas para varias plataformas, incluidas ChromeOS, Windows, Android™ y `Tizen`. Sin embargo, en respuesta a la evolución de las necesidades de los usuarios, Adobe presentó una solución innovadora: AEM Screens Cloud Player.
 
-Cloud Player representa una desviación significativa con respecto a nuestras aplicaciones nativas anteriores. Es una aplicación Progressive Web App (PWA), alojada en un servidor. Este enfoque transformador potencia a nuestros clientes con un reproductor independiente de la plataforma que se ejecuta directamente dentro de un explorador web.
+Cloud Player representa una desviación significativa con respecto a las aplicaciones nativas anteriores de Adobe. Es una aplicación web progresiva (PWA), alojada en un servidor. Este enfoque transformador potencia a los clientes con un reproductor independiente de la plataforma que se ejecuta directamente dentro de un explorador web.
 
-Acceder a Cloud Player es tan sencillo como visitar https://player.adobescreens.com. Los usuarios pueden instalarlo en su dispositivo, independientemente de la plataforma, y disfrutar de experiencias de señalización digital sin problemas. La compatibilidad de Cloud Player depende de la presencia de un navegador moderno compatible con el PWA, lo que garantiza un rendimiento coherente en varios dispositivos. Despídete de las actualizaciones manuales y saluda a un reproductor que automáticamente ofrece correcciones y funciones, lo que te garantiza que siempre tendrás las últimas funciones al alcance de tu mano. Este cambio a un Cloud Player basado en PWA marca una interesante evolución en nuestras ofertas de publicidad dinámica, por lo que es más accesible, versátil y fácil de usar que nunca.
+Acceder a Cloud Player es tan sencillo como visitar `https://player.adobescreens.com`. Los usuarios pueden instalarlo en su dispositivo, independientemente de la plataforma, y disfrutar de experiencias de señalización digital sin problemas. La compatibilidad de Cloud Player depende de la presencia de un navegador moderno compatible con el PWA, lo que garantiza un rendimiento coherente en varios dispositivos. Despídete de las actualizaciones manuales y saluda a un reproductor que automáticamente ofrece correcciones y funciones, lo que te garantiza que siempre tendrás las últimas funciones al alcance de tu mano. Este cambio a un reproductor en la nube basado en PWA marca una interesante evolución en las ofertas de publicidad dinámica de Adobe, por lo que es más accesible, versátil y fácil de usar que nunca.
 
 En esta sección se describe cómo implementar Cloud Player.
 
@@ -38,24 +34,24 @@ En esta sección se describe cómo implementar Cloud Player.
 La instalación de Cloud Player puede variar en diferentes plataformas. En general, cualquier plataforma que tenga un explorador moderno puede ejecutar la aplicación del reproductor en la nube siguiendo estos pasos:
 
 1. Abra el explorador e introduzca la variable [URL del reproductor en la nube](https://player.adobescreens.com) en la barra de direcciones.
-1. El explorador comprueba si el reproductor en la nube es instalable y, a continuación, muestra un icono de instalación en la barra de direcciones.
+1. El explorador comprueba si el reproductor en la nube se puede instalar y, a continuación, muestra un icono de instalación en la barra de direcciones.
 
    ![imagen](/help/user-guide/assets/cloud-player-install.png)
 
-1. Haga clic en el icono de instalación e instale el botón en el cuadro de diálogo de confirmación. Cloud Player se instalará como una aplicación independiente en su dispositivo y se puede iniciar con un icono.
+1. Seleccione el icono Instalar y el botón Instalar en el cuadro de diálogo de confirmación. Cloud Player se instala como una aplicación independiente en el dispositivo y se puede iniciar con un icono.
 
 >[!NOTE]
 >
 >### Opción de instalación de Cloud Player {#cloud-player-install-option}
 >
-1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS.  La compatibilidad para instalar PWA desde la web varía según el explorador y la plataforma.
+1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS. La compatibilidad para instalar PWA desde la web varía según el explorador y la plataforma.
 1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador comprueba lo siguiente (más detalles aquí):
 >
-* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
-* Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura.
-* La aplicación debe proporcionarse a través de https.
+* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas necesarias para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
+* Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura
+* La aplicación debe proporcionarse a través de https
 >
-1. La opción Instalar puede estar visible en diferentes ubicaciones de distintos exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
+1. La opción Instalar puede estar visible en diferentes ubicaciones en distintos exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
 
 ## Aprovisionamiento masivo de Cloud Player {#bulk-provisioning}
 
@@ -64,14 +60,14 @@ Para realizar el aprovisionamiento masivo del reproductor en la nube en varios d
 1. Elija una solución de MDM que admita la ejecución de un explorador con una dirección URL en modo quiosco.
 1. Puede aplicar las mismas configuraciones a todos los dispositivos siguiendo estos pasos:
 
-   1. Aloje config.json en un servidor al que se pueda acceder mediante, por ejemplo: https://&lt;config_server_host>/config.json
-   1. Para instalar el reproductor en la nube y aplicar las configuraciones alojadas, utilice la URL del reproductor en la nube como: https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host>
+   1. Aloje config.json en un servidor al que se pueda acceder mediante, por ejemplo: `https://<config_server_host>/config.json`
+   1. Para instalar el reproductor en la nube y aplicar las configuraciones alojadas, utilice la URL del reproductor en la nube, como: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
    1. La aplicación Cloud Player busca config.json en la raíz de &lt;config_server_host>, analice el archivo config.json para obtener las configuraciones personalizadas y aplicarlas.
-   1. Estas configuraciones se aplicarán en cada recarga del reproductor.
+   1. Estas configuraciones se aplican a cada recarga del reproductor.
 
 ## Aprovisionamiento masivo en el sistema operativo Chrome {#bulk-provisioning-chrome}
 
-Para obtener más información sobre el aprovisionamiento masivo en el sistema operativo Chrome, consulte: [Instalación de Cloud Player en el sistema operativo Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Obtenga más información sobre el aprovisionamiento masivo en el sistema operativo Chrome, consulte [Instalación de Cloud Player en el sistema operativo Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
 
 ## AEM Configuración necesaria en instancias de {#bulk-provisioning-config-aem}
 
@@ -85,17 +81,17 @@ AEM AEM En función del tipo de instancia de, seleccione una de las siguientes g
 >
 1. Aplicaciones Chrome en Chrome OS Hardware:
 >
-Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. En consecuencia, la aplicación AEM Screens Player en Chrome OS dejará de funcionar en función de la cronología compartida. Instamos a nuestros clientes que actualmente utilizan Chrome Player en producción a que planifiquen la transición al reproductor en la nube de Screens.
+Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. Por lo tanto, la aplicación AEM Screens Player en Chrome OS deja de funcionar en función de la cronología compartida. El Adobe insta a los usuarios que actualmente utilizan el reproductor Chrome en producción a que planifiquen la transición al reproductor Screens Cloud.
 >
-1. Reproductor de extensiones de Chrome en Mac, Windows y Linux:
+1. Reproductor de extensiones de Chrome en Mac, Windows y Linux®:
 >
-Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Recomendamos encarecidamente la transición a nuestro reproductor Screens Cloud para todos sus requisitos de desarrollo y prueba.
+Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Adobe le aconseja que cambie a su reproductor en la nube de Screens para todos sus requisitos de desarrollo y prueba.
 
 ## Compatibilidad sin conexión con la recuperación de contenido externo {#offline-support}
 
-En varios casos de uso, los canales pueden requerir la recuperación de contenido de una fuente externa (por ejemplo, widgets meteorológicos o aplicaciones de una sola página integradas de Commerce) que no pueden proporcionar soporte sin conexión de forma inherente. Para habilitar la funcionalidad sin conexión para estos casos de uso específicos, Cloud Player ofrece compatibilidad con el encabezado personalizado.
+En varios casos de uso, los canales pueden requerir la recuperación de contenido de una fuente externa (por ejemplo, widgets meteorológicos o aplicaciones de una sola página integradas en Commerce) que no puede proporcionar soporte sin conexión de forma inherente. Para habilitar la funcionalidad sin conexión para estos casos de uso específicos, Cloud Player ofrece compatibilidad con el encabezado personalizado.
 
-Cloud Player utiliza una estrategia de caché de Network First, lo que significa que intenta recuperar contenido de la red (y actualizar la caché con la última versión) y volver al contenido almacenado en caché si está disponible. Para implementar la compatibilidad sin conexión para esta recuperación de contenido, el encabezado personalizado debe incluirse en la solicitud. Posteriormente, la solicitud con el encabezado personalizado se almacenará en caché en el reproductor, facilitando el acceso sin conexión al contenido y manteniendo al mismo tiempo la estrategia de caché de Network First.
+Cloud Player utiliza una estrategia de caché de Network First, lo que significa que intenta recuperar contenido de la red (y actualizar la caché con la última versión) y volver al contenido almacenado en caché si está disponible. Para implementar la compatibilidad sin conexión para esta recuperación de contenido, el encabezado personalizado debe incluirse en la solicitud. A continuación, la solicitud con el encabezado personalizado se almacena en caché en el reproductor, lo que facilita el acceso sin conexión al contenido y mantiene la estrategia de caché de Network First.
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header
@@ -116,4 +112,4 @@ fetch(externalUrl, {
 
 ## Comentarios
 
-¡Valoramos sus comentarios! Amablemente comparta sus pensamientos con nosotros a través de esto [formulario](https://forms.office.com/r/MQXX9JsuEd).
+El Adobe valora sus comentarios. Comparta sus ideas con nosotros a través de esto [formulario](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).

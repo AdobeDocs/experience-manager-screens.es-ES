@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ El siguiente caso de uso muestra el uso de la activación de temperatura local d
 
 ## Descripción {#description}
 
-Para este caso de uso, si las hojas de Google tienen un valor menor que 50, se mostrará una imagen con bebidas calientes y si el valor es bueno que o igual a 50, se mostrará la imagen con bebidas frías. En caso de que haya otro valor o ningún valor, el reproductor mostrará una imagen predeterminada.
+Para este caso de uso, si las hojas de Google tienen un valor menor que 50, se mostrará una imagen con bebidas calientes y si el valor es mayor o igual que 50, se mostrará la imagen con bebidas frías. En caso de que haya otro valor o ningún valor, el reproductor mostrará una imagen predeterminada.
 
 ## Condiciones previas {#preconditions}
 
@@ -55,7 +55,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
    1. Seleccione la propiedad de comparación y haga clic en el icono de configuración para editar las propiedades.
    1. Seleccionar **googlesheets/value/1/0** de la lista desplegable en **Nombre de propiedad**
 
-   1. Seleccione el **Operador** as **bueno o igual que** en el menú desplegable
+   1. Seleccione el **Operador** as **mayor o igual que** en el menú desplegable
 
    1. Introduzca el **Valor** as **50**
 
@@ -78,7 +78,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** —> **Personalización** pestaña.
+   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
 
    ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -88,6 +88,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
 
 1. **Comprobación de la previsualización**
 
-   1. Haga clic en **Vista previa.** Además, abra la hoja de Google y actualice su valor.
-   1. Si cambia el valor a menos de 50, debería poder ver una imagen de las bebidas de verano. Si el valor de la hoja de Google es 50 o más bueno de lo que debería ser capaz de ver la imagen de una bebida caliente.
+   1. Clic **Vista previa.** Además, abra la hoja de Google y actualice su valor.
+   1. Si cambia el valor a menos de 50, debería poder ver una imagen de las bebidas de verano. Si el valor de la hoja de Google es 50 o mayor de lo que debería ser, se puede ver una imagen de una bebida caliente.
+
    ![result3](assets/result3.gif)

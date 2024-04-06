@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ En la siguiente sección se proporcionan respuestas a algunas de las preguntas m
 
 ### 2. ¿Cómo resolver un problema de pantalla gris en AEM Screens al crear un canal o un horario predeterminado?
 
-Para evitar las pantallas en blanco o grises en el campo, cree un canal global o una programación predeterminados, asignados a cada pantalla con la menor prioridad 1. En caso de que haya algún problema con las actualizaciones de contenido (debido a la red, el reproductor, el servidor o la replicación), ya que los reproductores ya tienen este contenido en la caché del disco, lo que debería reproducirse correctamente y evitar las pantallas grises.
+Para evitar las pantallas en blanco o grises en el campo, cree un canal global o una programación predeterminados, asignados a cada pantalla con la menor prioridad 1. En caso de que haya algún problema con las actualizaciones de contenido (debido a la red, el reproductor, el servidor o la replicación), ya que los reproductores ya tienen este contenido en la caché del disco, lo cual debería reproducirse correctamente y evitar las pantallas grises.
 
-El resto del contenido, como canales o programaciones, tendrá prioridad buena a 1, por lo que el resto del contenido tiene prioridad y el canal global o el contenido de programación (con prioridad 1) solo se reproducirán como opción alternativa.
+El resto del contenido, como canales o programaciones, tendrá una prioridad mayor que 1, por lo que el resto del contenido tiene prioridad y el contenido del canal global o de la programación (con prioridad 1) solo se reproducirá como opción de reserva.
 
 ## Administración de canales {#channel-management}
 
@@ -152,7 +152,7 @@ Cuando se inicia el reproductor de AEM Screens, se realiza una solicitud a ***/c
 
 Siga los pasos a continuación para activar Permanecer despierto en cualquier reproductor de Android:
 
-1. Vaya a la configuración del reproductor de Android —> **Acerca de**
+1. Vaya a Configuración del reproductor de Android > **Acerca de**
 1. Pulse 7 veces en el número de compilación para habilitar **Opciones de desarrollador** in **Configuración**
 1. Vaya a **Opciones de desarrollador**
 1. Activar **Manténgase despierto**
@@ -184,16 +184,16 @@ Puede obtener los detalles de la pantalla y el dispositivo a través de:
 * **una API de JS interna**
 * **una tienda de ContextHub**: Hay tres tiendas de ContextHub definidas en `/libs/screens/clientlibs/contexthub` para exponer canales, dispositivos y, muestre información.
 
-   Siga los pasos a continuación para utilizar estos valores de tienda de ContentHub:
+  Siga los pasos a continuación para utilizar estos valores de tienda de ContentHub:
 
    * Edite las propiedades del canal y establezca la ruta de ContextHub en la pestaña de personalización con el valor (como se ha mencionado anteriormente)
    * En el JS de canal, puede utilizar lo siguiente:
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## Sugerencias generales de resolución de problemas {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ Para deshabilitar Livefyre y evitar errores de registro:
 
 1. ***Deshabilitar paquete de Livefyre:***
 
-   * Navegue hasta `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * Navegue hasta `https://<host>:<port>/system/console/bundles`
    * AEM Busque el paquete de Livefyre de la: `com.adobe.cq.social.cq-social-livefyre`
    * Clic **Detener**
 

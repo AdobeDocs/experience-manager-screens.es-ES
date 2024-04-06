@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Siga los pasos a continuación para crear y utilizar el flujo de trabajo:
 
 Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
-1. AEM Navegue hasta la instancia de la instancia de y haga clic en herramientas desde el carril lateral. Seleccionar **Flujo de trabajo** —> **Modelos** para crear un nuevo modelo.
+1. AEM Navegue hasta la instancia de la instancia de y haga clic en herramientas desde el carril lateral. Seleccionar **Flujo de trabajo** > **Modelos** para crear un nuevo modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelos** —> **Crear** —> **Crear modelo**. Introduzca el **Título** (como **VideoRendition**) y **Nombre** en el **Agregar modelo de flujo de trabajo**. Clic **Listo** para agregar el modelo de flujo de trabajo.
+1. Clic **Modelos** > **Crear** > **Crear modelo**. Introduzca el **Título** (como **VideoRendition**) y **Nombre** en el **Agregar modelo de flujo de trabajo**. Clic **Listo** para agregar el modelo de flujo de trabajo.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -101,7 +101,7 @@ Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
 Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto de AEM Screens:
 
-1. Vaya a un proyecto de AEM Screens (**TestVideoRendition** —> **Canales** —>**VideoRendition**).
+1. Vaya a un proyecto de AEM Screens (**TestVideoRendition** > **Canales** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

@@ -14,9 +14,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ La ejecución de una experiencia en la fecha en directo establecida en el reprod
 
 Para que el reproductor pueda empezar a reproducir el contenido en la fecha en directo establecida, necesitamos iniciar las actividades anteriores a la fecha en directo.
 
-Si la fecha de lanzamiento es *24 de noviembre, 9:00 a.m.* y el periodo de gracia es *24 horas*, la secuencia de acciones anterior comenzará a las (fecha de lanzamiento - período de gracia), es decir, el 23 de noviembre a las 9:00 a.m. (hora del servidor). Esto da 24 horas de tiempo para completar todas las acciones mencionadas anteriormente y el contenido llegará a los reproductores. Los reproductores entenderán que se trata de un contenido de lanzamiento, por lo que el contenido no se reproducirá inmediatamente, pero los reproductores almacenarán este contenido como una versión futura y comenzará a reproducirse exactamente en la fecha en directo establecida en el huso horario del reproductor.
+Si la fecha de lanzamiento es *24 de noviembre, 9:00 a.m.* y el periodo de gracia es *24 horas*, la secuencia de acciones anterior comenzará a las (fecha de lanzamiento - período de gracia), es decir, el 23 de noviembre a las 9:00 a. m. hora del servidor. Esto da 24 horas de tiempo para completar todas las acciones mencionadas anteriormente y el contenido llegará a los reproductores. Los reproductores entenderán que se trata de un contenido de lanzamiento, por lo que el contenido no se reproducirá inmediatamente, pero los reproductores almacenarán este contenido como una versión futura y comenzará a reproducirse exactamente en la fecha en directo establecida en el huso horario del reproductor.
 
 Por ejemplo, supongamos que el servidor está en PST y los dispositivos están en EST, la diferencia de tiempo máxima es de 3 horas en este caso y supongamos que la promoción tardará 1 minuto y la publicación del autor en publicarse tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. Entonces, el período de gracia = diferencia de tiempo (3 horas) + tiempo para promocionar el lanzamiento (1 minuto) + tiempo para publicar el lanzamiento (10 minutos) + tiempo para descargar en el reproductor (10-15 minutos) + búfer (para estar seguros, digamos 30 minutos) = 3 horas 56 minutos = 14160 segundos.
 
@@ -90,7 +90,7 @@ Esta sección muestra cómo implementar Screens Launch en un proyecto de AEM Scr
 
 Siga los pasos a continuación para implementar la funcionalidad de Screens Launch en su proyecto de AEM Screens:
 
-1. Cree un canal de secuencia en su proyecto de AEM Screens, por ejemplo **LaunchesDemo** —> **Canales** —> **FutureLaunch**, como se muestra a continuación.
+1. Cree un canal de secuencia en su proyecto de AEM Screens, por ejemplo **LaunchesDemo** > **Canales** > **FutureLaunch**, como se muestra a continuación.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
    * **Promocionar páginas modificadas**: solo se promocionarán los recursos de lanzamiento modificados. Se recomienda utilizar esta opción cuando no sea necesaria la revisión del lanzamiento.
    * **Promocionar páginas aprobadas**: Esta opción requiere que el flujo de trabajo de aprobación del inicio se ejecute en los canales de inicio. Solo las páginas aprobadas se promocionarán en la fecha de activación establecida.
 
-      >[!CAUTION]
-      >
-      >La fecha de lanzamiento respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
+     >[!CAUTION]
+     >
+     >La fecha de lanzamiento respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
 
 1. Verá que se ha creado el lanzamiento. Puede hacer clic en **Abrir** para ver las páginas en el editor o haga clic en **Listo** para volver al proyecto.
 

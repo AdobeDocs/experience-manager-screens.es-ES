@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 2%
+source-wordcount: '2207'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Este tutorial está diseñado para desarrolladores que son nuevos en AEM Screens
 
 Para completar este tutorial, es necesario lo siguiente:
 
-1. [AEM,5](https://helpx.adobe.com/es/experience-manager/6-4/release-notes.html) o [AEM,3](https://helpx.adobe.com/es/experience-manager/6-3/release-notes.html) + Último paquete de funciones de Screens
+1. [AEM,5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) o [AEM,3](https://helpx.adobe.com/es/experience-manager/6-3/release-notes.html) + Último paquete de funciones de Screens
 
 1. [Reproductor de AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Entorno de desarrollo local
@@ -290,7 +290,7 @@ Los componentes de AEM Screens se representan de forma diferente en el modo de e
 
 1. Agregue las siguientes propiedades a la biblioteca de cliente compartida:
 
-   * `allowProxy` | Booleana | `true`
+   * `allowProxy` | Booleano | `true`
 
    * `categories`| Cadena[] | `cq.screens.components`
 
@@ -387,7 +387,7 @@ Una tercera categoría clientlibrary: `cq.screens.components.edit` se puede usar
 
 ## Crear una página de diseño {#design-page}
 
-AEM Screens utiliza [Plantillas de página estáticas](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/page-templates-static.html) y [Configuraciones de diseño](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) para cambios globales. Las configuraciones de diseño se utilizan frecuentemente para configurar los componentes permitidos para Parsys en un canal. Una práctica recomendada es almacenar estas configuraciones de una manera específica de la aplicación.
+AEM Screens utiliza [Plantillas de página estáticas](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) y [Configuraciones de diseño](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) para cambios globales. Las configuraciones de diseño se utilizan frecuentemente para configurar los componentes permitidos para Parsys en un canal. Una práctica recomendada es almacenar estas configuraciones de una manera específica de la aplicación.
 
 A continuación, se crea una página de diseño de ejecución de We.Retail que almacenará todas las configuraciones específicas del proyecto de ejecución de We.Retail.
 
@@ -422,6 +422,7 @@ El componente Hello World está diseñado para utilizarse en un canal de secuenc
 1. Paso de plantilla: elegir **Canal de secuencia**
 
    1. Paso Propiedades
+
    * Pestaña básica > Título = **Canal inactivo**
    * Pestaña Canal > marcar **Canal en línea**
 
@@ -556,7 +557,7 @@ El siguiente vídeo muestra el componente terminado y cómo se puede añadir a u
 
 ## Consideraciones adicionales para los componentes personalizados que incrustan otras páginas o fragmentos {#additional-considerations}
 
-Si el componente personalizado que está desarrollando está diseñado para incluir otras páginas o fragmentos de experiencia y desea que el reproductor recoja automáticamente los cambios en el contenido incrustado sin tener que volver a publicar el canal, debe tener en cuenta estas dos restricciones:
+Si el componente personalizado que está desarrollando está pensado para incluir otras páginas o fragmentos de experiencia y desea que el reproductor recoja automáticamente los cambios en el contenido incrustado sin tener que volver a publicar el canal, debe tener en cuenta estas dos restricciones:
 
 1. En lugar de ampliarse directamente `foundation/components/parbase`, tendría que ampliar cualquiera de las dos `screens/core/components/content/page` o `screens/core/components/content/experiencefragment`
 2. El nombre de la propiedad que utilice para hacer referencia al contenido incrustado debe ser `pagePath`

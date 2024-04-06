@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 
 ---
 
@@ -139,7 +139,7 @@ Siga estos pasos para habilitar esta opción desde el panel de canales:
 1. **Definir el canal como Sin conexión**
    1. Seleccione el canal y seleccione **Propiedades** desde la barra de acciones
    1. Vaya a **Canal** y asegúrese de desmarcar la opción **Modo de desarrollador (forzar al canal a estar en línea)** opción
-   1. Haga clic en **Guardar y cerrar**
+   1. Clic **Guardar y cerrar**
 1. **Actualizar contenido sin conexión**
    1. Seleccione el canal y seleccione **Tablero** desde la barra de acciones
    1. Vaya a **INFORMACIÓN DEL CANAL** y haga clic en *...*
@@ -161,7 +161,7 @@ Un ***Canal en línea***, mostrará el contenido actualizado en el entorno de ti
 
 Siga los pasos a continuación para hacer el canal en línea:
 
-1. Vaya al canal como **TestProject** —> **Canales** —> **TestChannel**.
+1. Vaya al canal como **TestProject** > **Canales** > **TestChannel**.
 
    Seleccione el canal.
 
@@ -188,7 +188,7 @@ Siga los pasos a continuación para hacer el canal en línea:
 >[!NOTE]
 >Si desea volver a configurar el canal como sin conexión, desmarque la opción Modo de desarrollador del **Propiedades** (como se muestra en el paso (3)) y, a continuación, desde la pestaña **INFORMACIÓN DEL CANAL** clic en panel **Actualizar contenido sin conexión**, como se muestra en la figura siguiente.
 
-![dashboard2](assets/dashboard2.gif)
+![panel2](assets/dashboard2.gif)
 
 #### Actualizaciones automáticas y manuales desde el panel de dispositivos {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -244,7 +244,6 @@ Las visualizaciones asociadas aparecerán en la lista **Pantallas asignadas** pa
 >* [Crear y administrar ubicaciones](managing-locations.md)
 >* [Creación y administración de pantallas](managing-displays.md)
 >
-
 
 Además, haga clic en en la pantalla de **PANTALLAS ASIGNADAS** , para ver la información de visualización, como se muestra a continuación:
 

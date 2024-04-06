@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Esta página muestra la asignación de un canal a la visualización.
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
-1. Navegue hasta la visualización requerida, por ejemplo, **DemoProject** —> **Ubicaciones** —> **San José** —> **StoreDisplay**.
+1. Navegue hasta la visualización requerida, por ejemplo, **DemoProject** > **Ubicaciones** > **San José** > **StoreDisplay**.
 
    ![imagen](assets/screen_shot_2018-08-23at25359pm.png)
 

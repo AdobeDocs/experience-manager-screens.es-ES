@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -77,13 +77,14 @@ Siga los pasos a continuación para implementar el caso de uso de activación de
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** —> **Personalización** pestaña.
+   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
 
    ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
 
 1. Seleccionar **Segmentación** en el editor, seleccione **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
 1. **Comprobación de la previsualización**
 
-   1. Haga clic en **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
+   1. Clic **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
    1. Actualice el valor en **Restaurante1** y **Restaurante2** columnas. If **Restaurante1** > **Restaurante2,** debería poder ver una imagen de *Filete* comida de otro modo, *Tailandés* la imagen de la comida se muestra en la pantalla.
+
    ![result5](assets/result5.gif)

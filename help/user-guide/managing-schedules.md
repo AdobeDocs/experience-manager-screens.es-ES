@@ -1,28 +1,24 @@
 ---
 title: Creación y administración de programas
-seo-title: Managing Schedules
-description: Siga esta página para obtener más información sobre las programaciones, que le permite organizar los canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
-seo-description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
-uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
+description: Obtenga información sobre los Programas que le permiten organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Creación y administración de programas {#creating-and-managing-schedules}
 
-**Horarios**, en AEM Screens, permite organizar los canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
+**Horarios** en AEM Screens, puede organizar los canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
 
 Programaciones cuando se combinan con ***DayParting***, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
@@ -32,7 +28,7 @@ Programaciones cuando se combinan con ***DayParting***, permite establecer una p
 
 ## Creación de una programación {#creating-a-schedule}
 
-Puede crear una programación para su proyecto de Screens que administre todas las actividades de su caso de uso.
+Puede crear una programación para su proyecto de Screens que pueda administrar todas las actividades de su caso de uso.
 
 Siga los pasos a continuación para crear la programación de su canal:
 
@@ -43,20 +39,20 @@ Siga los pasos a continuación para crear la programación de su canal:
 
 1. Introduzca el **Nombre** y **Título** y haga clic en **Crear**.
 
-Verá una carpeta de programaciones con nombre y título designados en el proyecto.
+Puede ver una carpeta de programación con el nombre y título designados en el proyecto.
 
 
 ## Visualización del panel {#viewing-dashboard}
 
 Una vez creada la carpeta de programaciones en el proyecto, puede ver los detalles en el panel de programaciones.
 
-Siga los pasos a continuación para ver el panel de programaciones. El siguiente ejemplo muestra el tablero del proyecto We.Retail:
+Siga los pasos a continuación para ver el panel de programación. El siguiente ejemplo muestra el panel del `We.Retail` proyecto:
 
-1. Vaya a **Horarios** de Screens (por ejemplo, We.Retail).
+1. Vaya a **Horarios** carpeta de Pantallas (ejemplo, `We.Retail`) proyecto.
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Clic **Tablero** en la barra de acciones para abrir el tablero de la programación.
+1. Seleccionar **Tablero** de la barra de acciones.
 
    Puede ver tres paneles diferentes, como **INFORMACIÓN DE HORARIO**, **CANALES ASIGNADOS**, y **PANTALLAS ASIGNADAS**.
 
