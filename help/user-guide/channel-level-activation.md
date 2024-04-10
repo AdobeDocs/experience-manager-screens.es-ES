@@ -1,15 +1,14 @@
 ---
 title: 'Activación a nivel de canal: reproducción de un solo evento'
-seo-title: Channel Level Activation - Single Event Playback
-description: Siga esta guía para comprender la activación a nivel de canal mediante la reproducción de un solo evento.
+description: Obtenga información acerca de la activación a nivel de canal mediante la reproducción de un solo evento.
 topic-tags: authoring
 feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1769'
 ht-degree: 1%
 
 ---
@@ -62,7 +61,7 @@ La siguiente imagen muestra el **Activación de nivel de canal** proyecto con **
 
 >[!NOTE]
 >
->Para obtener información adicional sobre cómo crear un proyecto y cómo crear un canal de secuencia, consulte los recursos a continuación:
+>Para obtener información adicional sobre cómo crear un proyecto y cómo crear un canal de secuencia, consulte los siguientes recursos:
 >
 >* [Creación y administración de proyectos](creating-a-screens-project.md)
 >
@@ -103,12 +102,12 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Seleccionar **Canal de referencia**.. por ruta.
+   1. Seleccionar **Canal de referencia** por ruta.
    1. Seleccione el **Ruta de canal** as **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
    1. El **Función del canal** se rellena como **mainadchannel**.
    1. Seleccione el **Prioridad** as **1**.
    1. Seleccione el **Eventos admitidos** as **Carga inicial** y **Pantalla inactiva**.
-   1. Haga clic en **Guardar**.
+   1. Seleccione **Guardar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -120,35 +119,35 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Seleccionar **Canal de referencia**.. por ruta.
+   1. Seleccionar **Canal de referencia** por ruta.
    1. Seleccione el **Ruta de canal** as **Activación de nivel de canal*** > ***Canales*** > ***TargetedSinglePlay***.
    1. El **Función del canal** se rellena como **targetedsingleplay**.
    1. Configure las variables **Prioridad** as **2**.
-   1. Seleccione el **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva** y **Temporizador**, *como se muestra en la figura siguiente.
-   1. Elija la fecha en **activo desde** como 27 de noviembre de 2018 23:59 h y en **activo hasta** as 28 de noviembre de 2018 12:05 am
-   1. Haga clic en **Guardar**.
+   1. Seleccione el **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Temporizador**, como se muestra en la figura siguiente.
+   1. Elija la fecha en **activo desde** el 27 de noviembre de 2018 a las 23:59 h y en **activo hasta** as 28 de noviembre de 2018 12:05 A.M.
+   1. Seleccione **Guardar**.
 
    >[!CAUTION]
    >
-   >Debe establecer la prioridad de **TargetedSinglePlay** canal superior a **MainAdSegment** canal.
+   >Establecer la prioridad para **TargetedSinglePlay** canal superior a **MainAdSegment** canal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Para elegir el mismo día, debe seleccionar el día siguiente y editar manualmente la fecha en el mismo día, pero para una hora posterior. Esto restringe al usuario de la selección de una fecha pasada. Consulte el ejemplo siguiente:
+   >Para elegir el mismo día, seleccione el día siguiente y, a continuación, edite manualmente la fecha en el mismo día, pero para una hora posterior. Al hacerlo, se restringe al usuario de la selección de una fecha pasada. Consulte el siguiente ejemplo:
 
    ![new1](assets/new1.gif)
 
 ## Visualización de los resultados {#viewing-the-results}
 
-Una vez que haya completado la configuración de los canales y la visualización, inicie el reproductor de AEM Screens para ver el contenido.
+Cuando haya completado la configuración de los canales y la visualización, inicie el reproductor de AEM Screens para ver el contenido.
 
-El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 23:59 (como se establece en el horario), el **TargetedSinglePlay** El canal mostrará su contenido hasta las 12:05 y, a continuación, el **MainAdChannel** reanudará la reproducción de su contenido.
+El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:59 p.m. (como se establece en el horario), el **TargetedSinglePlay** canal muestra su contenido hasta las 12:05 a.m. y, a continuación, el **MainAdChannel** reanuda la reproducción de su contenido.
 
 >[!NOTE]
 >
->AEM Para obtener más información sobre el Reproductor de pantalla de la pantalla de la aplicación, consulte los siguientes recursos:
+>AEM Para obtener más información acerca de Reproductor de pantalla de la aplicación, consulte los siguientes recursos:
 >[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)
 >[Uso del Reproductor de AEM Screens](working-with-screens-player.md)
 
@@ -157,11 +156,11 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 23:
 
 Puede programar los recursos de un canal para que se repitan a intervalos específicos diariamente, semanalmente o mensualmente, según sus necesidades.
 
-Supongamos que desea mostrar el contenido de un canal solo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar el complemento **Activation** para establecer el intervalo recurrente deseado para el recurso.
+Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar el complemento **Activation** para establecer el intervalo recurrente deseado para el recurso.
 
 ### División por día {#day-parting}
 
-1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el panel de canales.
+1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -169,7 +168,7 @@ Supongamos que desea mostrar el contenido de un canal solo los viernes de 1:00 p
    >
    >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules, según sus necesidades.
 
-1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo particular de día y hora.
+1. Introduzca la expresión en la variable **Programación** y el recurso se muestra para el intervalo particular de día y hora.
 
 #### Expresiones de ejemplo para la partición por día {#example-one}
 
@@ -177,21 +176,21 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
-| después de las 14:00 | el recurso del canal se reproduce después de las 2 de la tarde todos los días |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
 | después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el recurso en el canal se reproduce antes de las 12:15 todos los días y luego también después de las 12:45 |
+| antes de las 12:15 también después de las 12:45 | el recurso del canal se reproduce antes de las 12:15 todos los días y después de las 12:45. |
 | Lun, Mar, Mié o Lun-Mié | el recurso se reproduce en el recurso del canal de lunes a miércoles |
-| el 1 de enero después de las 14:00 h también el 2 de enero también el 3 de enero antes de las 3:00 h | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
-| el 1-2 día de enero después de las 2:00 pm también el 2-3 día de enero antes de las 3:00 am | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
+| el primer día de enero después de las 2:00 p.m. también el segundo día de enero también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
+| los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
 >[!NOTE]
 >
->También puede utilizar _hora militar_ (es decir, 14:00) en lugar de *am/pm* notación (es decir, 2:00 pm).
+>También puede utilizar _hora militar_ notación (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
-1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el panel de canales.
+1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -199,7 +198,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
    >
    >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules, según sus necesidades.
 
-1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo particular de día y hora.
+1. Introduzca la expresión en la variable **Programación** y el recurso se muestra para el intervalo particular de día y hora.
 
 #### Expresiones de ejemplo para WeekParting {#example-two}
 
@@ -208,19 +207,19 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 | **Expresión** | **Interpretación** |
 |---|---|
 | Lun, Mar, Mié o Lun-Mié | el recurso se reproduce en el recurso del canal de lunes a miércoles |
-| antes de las 8:00 | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
-| después de las 14:00 | el recurso del canal se reproduce después de las 2 de la tarde todos los días |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
 | después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal se reproduce antes de las 12:15 todos los días y luego también después de las 12:45 |
+| antes de las 12:15 también después de las 12:45 | el canal suena todos los días antes de las 12:15 p.m. y luego también después de las 12:45 p.m. |
 
 >[!NOTE]
 >
->También puede utilizar _hora militar_ (es decir, 14:00) en lugar de *am/pm* notación (es decir, 2:00 pm).
+>También puede utilizar _hora militar_ notación (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 
 ### MonthParting {#month-parting}
 
-1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el panel de canales.
+1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -228,7 +227,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
    >
    >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules, según sus necesidades.
 
-1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo particular de día y hora.
+1. Introduzca la expresión en la variable **Programación** y el recurso se muestra para el intervalo particular de día y hora.
 
 #### Expresiones de ejemplo para MonthParting {#example-three}
 
@@ -236,19 +235,19 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| de febrero, mayo, agosto, noviembre | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
+| de `February,May,August,November` | el recurso se reproduce en el canal en febrero, mayo, agosto y noviembre |
 
 >[!NOTE]
 >
->Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Lunes/Lunes y Enero/Enero.
+>Al definir los días de la semana y los meses, puede utilizar las anotaciones de nombre corto y completo, como Lunes/Lunes y Enero/Enero.
 
 >[!NOTE]
 >
->También puede utilizar _hora militar_ (es decir, 14:00) en lugar de *am/pm* notación (es decir, 2:00 pm).
+>También puede utilizar _hora militar_ notación (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### Combinación de Particiones {#combined-parting}
 
-1. Seleccione el canal y haga clic en **Tablero** en la barra de acciones para abrir el panel de canales.
+1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -256,7 +255,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
    >
    >Puede omitir o incluir el **Activo desde** y **Activo hasta** y añada la expresión al campo Schedules, según sus necesidades.
 
-1. Introduzca la expresión en la variable **Programación** y el recurso se mostrará para el intervalo particular de día y hora.
+1. Introduzca la expresión en la variable **Programación** y el recurso se muestra para el intervalo particular de día y hora.
 
 #### Expresiones de ejemplo para combinación de particiones {#example-four}
 
@@ -265,9 +264,9 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 | **Expresión** | **Interpretación** |
 |---|---|
 | después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6:00 y las 18:00 los lunes y miércoles de enero a finales de marzo |
-| el 1 de enero después de las 14:00 h también el 2 de enero también el 3 de enero antes de las 3:00 h | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
-| el 1-2 día de enero después de las 2:00 pm también el 2-3 día de enero antes de las 3:00 am | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
+| el primer día de enero después de las 2:00 p.m. también el segundo día de enero también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
+| los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
 >[!NOTE]
 >
->Al definir los días de la semana y los meses, puede utilizar las notaciones de mano corta y nombre completo, como Lunes/Lunes y Enero/Enero.  Además, también puede utilizar _hora militar_ (es decir, 14:00) en lugar de *am/pm* notación (es decir, 2:00 pm).
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. Además, también puede utilizar _hora militar_ notación (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).

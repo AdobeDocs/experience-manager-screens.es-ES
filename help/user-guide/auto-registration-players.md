@@ -5,16 +5,16 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # Registro automático de reproductores {#auto-registration}
 
-El registro masivo de miles de jugadores manualmente puede ser engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función de registro masivo le permite especificar una clave previamente compartida en los recursos que se pueden aprovisionar en un reproductor a través de un archivo de configuración o de una solución de administración de dispositivos móviles (MDM).
+El registro masivo de miles de jugadores manualmente puede ser engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función de registro masivo le permite especificar una clave previamente compartida en la que se puede aprovisionar en un reproductor mediante un archivo de configuración o una solución de administración de dispositivos móviles (MDM).
 
 ## Implementación del registro automático de reproductores {#bulk-registering-implementation}
 

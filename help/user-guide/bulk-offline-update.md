@@ -1,23 +1,19 @@
 ---
 title: Actualización sin conexión masiva
-seo-title: Bulk Offline Update
-description: Siga esta página para aprender a actualizar todos los canales de forma masiva.
-seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Descubra cómo puede actualizar todos los canales de forma masiva.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 4%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
@@ -28,15 +24,16 @@ Esta sección cubre los siguientes temas sobre la actualización masiva sin cone
 * **Información general**
 * **Uso de actualización sin conexión masiva**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Esta funcionalidad de AEM Screens AEM AEM solo está disponible si ha instalado el paquete de funciones 3 de 6.3 o el paquete de funciones 1 de Screens de 6.3 o de 6.4.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Para obtener acceso a este paquete de funciones, debe ponerse en contacto con el Soporte técnico de Adobe y solicitar acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## Información general {#overview}
 
-Actualización sin conexión en lote, le permite actualizar todo el canal en lote. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
+Bulk Offline Update, permite actualizar todos los canales de forma masiva. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
 
 También puede programar esta actividad para un momento de menor tráfico de red.
 
@@ -53,11 +50,11 @@ Puede utilizar manualmente la actualización sin conexión masiva desde la inter
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Seleccione el proyecto y haga clic en **Actualizar contenido sin conexión** en la barra de acciones para actualizar manualmente el contenido del canal.
+1. Seleccione el proyecto y luego seleccione **Actualizar contenido sin conexión** desde la barra de acciones para poder actualizar manualmente el contenido del canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configuración de la consola web de Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configuración de la consola web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
@@ -78,4 +75,4 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
    **Frecuencia de programación** Especifique la hora, por ejemplo, 5:00 p. m. o 17:00 p. m. a la que este servicio debe actualizar el contenido sin conexión.
 
-1. Clic **Guardar** para guardar la configuración, y el contenido se actualizará a la hora especificada.
+1. Seleccionar **Guardar** para guardar la configuración. El contenido se actualiza a la hora especificada.

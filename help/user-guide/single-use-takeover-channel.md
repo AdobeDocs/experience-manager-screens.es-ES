@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ La siguiente página muestra un caso de uso que hace hincapié en la configuraci
 
 Este caso de uso explica cómo crear un canal que *toma el control* del canal de reproducción normal para una pantalla o grupo de pantallas. La adquisición solo se produce una vez y por un tiempo específico.
 
-Por ejemplo, hay un canal Single TakeOver que se reproduce los viernes de 9:00 a.m. a 10:00 a.m. Durante este tiempo, no se debe reproducir ningún otro canal. Antes y después de este tiempo, el canal Adquisición de un solo uso no se reproduce. El siguiente ejemplo muestra la creación de un único canal de adquisición que permite que el contenido se reproduzca durante 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m
+Por ejemplo, hay un canal Single TakeOver que se reproduce los viernes de 9:00 a.m. a 10:00 a.m. Durante este tiempo, no se debe reproducir ningún otro canal. Antes y después de este tiempo, el canal Adquisición de un solo uso no se reproduce. El siguiente ejemplo muestra la creación de un único canal de adquisición que permite que el contenido se reproduzca durante 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m.
 
 ### Condiciones previas {#preconditions}
 
@@ -94,7 +94,7 @@ Siga los pasos a continuación para configurar un proyecto:
      >[!NOTE]
      >La prioridad puede ser cualquier valor superior al valor de prioridad del canal de reproducción normal.
    * **Eventos admitidos**: seleccione la **Pantalla inactiva** y **Temporizador**.
-   * **Programación**: introduzca el texto de la programación en la que desea que este canal ejecute la visualización. Por ejemplo, el texto aquí permite que el contenido se reproduzca 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m. **Programación** mencionado en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00:01*.
+   * **Programación**: introduzca el texto de la programación en la que desea que este canal ejecute la visualización. Por ejemplo, el texto aquí permite que el contenido se reproduzca 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m. El texto de la **Programación** mencionado en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00:01*.
 
      ![recurso](assets/single-takeover8.png)
 

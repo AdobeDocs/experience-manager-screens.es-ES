@@ -1,10 +1,8 @@
 ---
 title: Duración de reproducción de imagen de nivel de proyecto
-seo-title: Project Level Image Playback Duration
-description: Esta funcionalidad permite definir la duración de la reproducción de la imagen en el nivel de proyecto.
-seo-description: This functionality allows you to define image playback duration at the project level.
+description: Aprenda a definir la duración de la reproducción de la imagen en el nivel de proyecto.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -16,7 +14,7 @@ ht-degree: 1%
 
 ## Información general {#overview}
 
-Esta función le permite definir la duración de la reproducción de la imagen en el nivel de proyecto. Todas las imágenes heredan esta duración de reproducción de forma predeterminada. Si no se define ninguna duración en el nivel de proyecto, la reproducción predeterminada de 8 segundos continuará.
+Esta función permite definir la duración de la reproducción de la imagen en el nivel de proyecto. Todas las imágenes heredan esta duración de reproducción de forma predeterminada. Si no se define ninguna duración en el nivel de proyecto, la reproducción predeterminada de 8 segundos continuará.
 
 ### Requisitos previos {#prerequisites}
 

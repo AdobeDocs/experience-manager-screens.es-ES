@@ -1,6 +1,6 @@
 ---
 title: Nuevo importador de proyectos desde archivo
-description: Esta funcionalidad le permite importar de forma masiva un conjunto de ubicaciones de una hoja de cálculo CSV/XLS a su proyecto de AEM Screens.
+description: Esta funcionalidad permite importar de forma masiva un conjunto de ubicaciones de una hoja de cálculo CSV/XLS a un proyecto de AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---

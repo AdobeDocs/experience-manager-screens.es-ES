@@ -1,15 +1,12 @@
 ---
 title: Eventos impulsados por datos
-seo-title: Data Driven Events
 description: nulo
-seo-description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ En la comunicación dinámica, los eventos impulsados por datos interactúan con
 
 ## Uso de ContextHub para eventos impulsados por datos {#using-context-hub-for-data-driven-events}
 
-AEM Screens permite eventos impulsados por datos a través de ContextHub. ContextHub, le permite utilizar en tiempo real
+AEM Screens permite eventos impulsados por datos a través de ContextHub. ContextHub le permite utilizar en tiempo real.
 
 ### Categorización de eventos impulsados por datos {#categorizing-data-driven-events}
 

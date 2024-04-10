@@ -1,13 +1,11 @@
 ---
 title: Pruebas y control de calidad
-seo-title: Testing and Quality Assurance for AEM Screens
-description: En la página se describe la Guía de prácticas recomendadas de Testing and Quality Assurance para AEM Screens
-seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+description: Obtenga información acerca de las pruebas y la garantía de calidad para AEM Screens en la Guía de prácticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +14,10 @@ ht-degree: 2%
 >[!NOTE]
 >La parte interesada habitual de esta actividad es un integrador A/V.
 
-A medida que nos acercamos a la implementación real de la red de publicidad dinámica, debemos crear un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.
+A medida que se acerca la implementación de la red de publicidad dinámica, cree un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.
 En esta fase, deben construirse y probarse completamente todos los sistemas de ensayo.
 
-Se debe crear una lista de comprobación que identifique todos los KPI definidos anteriormente y mida la entrega con ellos.
+Se debe crear una lista de comprobación que identifique todos los KPI definidos anteriormente y mida las entregas con respecto a ellos.
 
 >[!NOTE]
 >
@@ -52,7 +50,7 @@ Se recomiendan las siguientes consideraciones de software:
 
 AEM Screens incluye un módulo de Centro de control de dispositivos que permite administrar los puntos finales de la aplicación del reproductor Screens.
 
-Esto hace referencia a cualquier *jugador* AEM dispositivo de hardware que tiene instalada la aplicación de reproducción Screens y está registrado en una instancia de, así como una instancia de, que tiene la función de reproducción de la aplicación de software de la aplicación de reproducción de pantalla.
+Esto hace referencia a cualquier *jugador* AEM dispositivo de hardware que tiene instalada la aplicación de reproducción Screens y está registrado en una instancia de, así como una instancia de, que se ha creado en un servidor de correo electrónico de la aplicación de reproducción de.
 Este módulo le permite:
 
 1. Monitorizar registros de errores de aplicaciones del reproductor
@@ -60,28 +58,28 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de aplicaciones
 
-Para obtener información detallada sobre ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **Guía del usuario de AEM Screens**.
+Para obtener información detallada sobre ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guía del usuario de AEM Screens**.
 
 >[!CAUTION]
 >
-> No debe usar el Centro de control de dispositivos para lo siguiente:
-> 1. Instalación de nuevas versiones de la aplicación de reproducción
-> 1. Monitorización de recursos de nivel de sistema
-> 1. Solucionar errores de nivel del sistema
-> 1. Permitir la intervención del escritorio remoto
-
+>No utilice el Centro de control de dispositivos para:
+>
+>* Instalación de nuevas versiones de la aplicación de reproducción
+>* Monitorización de recursos de nivel de sistema
+>* Solucionar errores de nivel del sistema
+>* Permitir la intervención del escritorio remoto
 
 
 >[!NOTE]
 >
-> El Adobe recomienda que se utilicen plataformas de administración de dispositivos de terceros específicas para todas las implementaciones.
+> El Adobe recomienda utilizar plataformas de administración de dispositivos de terceros para todas las implementaciones.
 
-La plataforma específica elegida depende de una serie de factores, incluidos los siguientes ***sistema operativo de destino***, ***requisitos del proyecto*** y ***número de puntos finales***.
+La plataforma específica elegida depende de varios factores, incluidos los siguientes ***sistema operativo de destino***, ***requisitos del proyecto***, y ***número de puntos finales***.
 
-Algunos ejemplos son:
+Algunos ejemplos son los siguientes:
 
 * Google Chrome Device Management
 * TeamViewer
 * AirWatch
-* 42Gears
+* `42Gears`
 * Middleware exclusivo integrador AV

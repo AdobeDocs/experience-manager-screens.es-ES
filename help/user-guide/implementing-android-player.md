@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Complete los siguientes pasos:
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método ad hoc permite instalar el último reproductor de Android™ (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
+El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
 Una vez que descargue la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 

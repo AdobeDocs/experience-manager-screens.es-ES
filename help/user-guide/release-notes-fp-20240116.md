@@ -1,20 +1,21 @@
 ---
 title: Notas de la versión del paquete de funciones 20240116 de Screens
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 20240116 lanzado el 16 de enero de 2024.
+description: Obtenga más información sobre el paquete de funciones 20240116 de AEM Screens lanzado el 16 de enero de 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
 # Notas de la versión del paquete de funciones 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Podemos obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Se recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Puede obtener la información de la versión más reciente en [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilidad {#availability}
 
@@ -36,6 +37,6 @@ Esta versión solo incluye correcciones de seguridad.
 
 * Problema XSS en `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

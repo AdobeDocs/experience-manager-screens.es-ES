@@ -1,29 +1,25 @@
 ---
 title: Adición de componentes a un canal
-seo-title: Adding Components to a Channel
-description: Siga esta página para obtener más información sobre cómo agregar componentes a canales en un proyecto de AEM Screens.
-seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
+description: Obtenga más información sobre cómo añadir componentes a canales en un proyecto de AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1403'
 ht-degree: 5%
 
 ---
 
 # Adición de componentes a un canal{#adding-components-to-a-channel}
 
-AEM Los componentes son los elementos fundamentales de la experiencia de la (Adobe Experience Manager). Puede utilizar una serie de componentes y agregarlos al canal en un proyecto de AEM Screens.
+AEM Los componentes son los elementos fundamentales de la experiencia de la (Adobe Experience Manager). Puede utilizar varios componentes y añadirlos al canal en un proyecto de AEM Screens.
 
 ## Componentes en AEM Screens {#components-in-aem-screens}
 
@@ -35,25 +31,25 @@ Siempre que cree un proyecto de AEM Screens, verá una lista de componentes pred
 
 Para ver los componentes predeterminados del proyecto de Pantallas, siga los pasos a continuación:
 
-1. Seleccione el canal. Por ejemplo, **We.Retail en tienda** > **Canales** > **Canal inactivo**.
+1. Seleccione el canal. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
 
-1. Clic **Editar** AEM en la barra de acciones para abrir el editor de.
-1. Haga clic en **+** de la barra lateral para abrir los componentes.
+1. Seleccionar **Editar** de la barra de acciones.
+1. AEM En el Editor de, seleccione **+** de la barra lateral.
 1. Se muestran todos los componentes que se incluyen de forma predeterminada en un proyecto de AEM Screens, como se muestra en la figura siguiente.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Agregar un nuevo componente {#adding-a-new-component}
 
-AEM proporciona una serie de otros componentes. Siempre puede añadir otros componentes (no incluidos de forma predeterminada) al proyecto, ya que son compatibles con AEM Screens.
+AEM La ofrece otros componentes. Siempre puede añadir otros componentes (no incluidos de forma predeterminada) al proyecto, ya que son compatibles con AEM Screens.
 
-El siguiente ejemplo muestra la adición de un componente de Livefyre a un proyecto de AEM Screens:
+El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto de AEM Screens:
 
-1. Seleccione el canal en el que desea añadir un componente nuevo. Por ejemplo, **We.Retail en tienda** > **Canales** > **Canal inactivo**.
+1. Seleccione el canal en el que desea añadir un componente. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
 
-1. Clic **Editar** en la barra de acciones para abrir el editor.
+1. Seleccionar **Editar** de la barra de acciones.
 1. Seleccionar **Diseño** modo.
-1. Seleccione todo el editor de diseño a la derecha y haga clic en el símbolo de configuración para abrir **Diseño ParSys** Cuadro de diálogo.
+1. Seleccione todo el editor de diseño a la derecha y seleccione el símbolo de configuración para poder abrir **Diseño de Parsys** Cuadro de diálogo.
 1. Puede seleccionar los componentes que desea importar a su proyecto de AEM Screens. El siguiente ejemplo muestra la adición de **Livefyre** a un proyecto de AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
@@ -68,18 +64,18 @@ En la siguiente sección se explican los componentes de AEM Screens que puede ut
 
 >[!NOTE]
 >
->Para ver las propiedades de cualquier componente, seleccione el componente y haga clic en el icono de martillo para abrir o ver las propiedades.
+>Para ver las propiedades de cualquier componente, seleccione el componente y seleccione el icono de martillo para abrir o ver las propiedades.
 
 ### Aplicación {#application}
 
-El **Aplicación** Este componente le permite añadir una aplicación al canal.
+El **Aplicación** Este componente permite añadir una aplicación al canal.
 
 El componente de aplicación tiene las siguientes propiedades:
 
 | **Propiedad** | **Descripción** |
 |---|---|
 | ***Ruta de aplicación*** | Seleccione la ruta absoluta en la que existe la aplicación. |
-| ***Duración (ms)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
+| ***Duración (milisegundos)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
 
 El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la vista previa de sus propiedades:
 
@@ -106,15 +102,15 @@ El componente Canal tiene las siguientes propiedades:
    <td>Seleccione esta ruta absoluta donde existe la aplicación.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecutará en toda su longitud en un canal concreto.</td>
+   <td><strong><em>Duración (milisegundos)</em></strong></td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecuta a toda su longitud en un canal concreto.</td>
   </tr>
  </tbody>
 </table>
 
 ### Página integrada {#embedded-page}
 
-Un **Página integrada** permite agregar una página incrustada al proyecto. Por ejemplo, puede ser una aplicación web o un catálogo de productos.
+Un **Página integrada** permite añadir una página incrustada al proyecto. Por ejemplo, puede ser una aplicación web o un catálogo de productos.
 
 La página incrustada tiene las siguientes propiedades:
 
@@ -129,8 +125,8 @@ La página incrustada tiene las siguientes propiedades:
    <td>Seleccione esta ruta absoluta donde existe el canal.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecutará en toda su longitud en un canal concreto.</td>
+   <td><strong><em>Duración (milisegundos)</em></strong></td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecuta a toda su longitud en un canal concreto.</td>
   </tr>
  </tbody>
 </table>
@@ -139,9 +135,9 @@ La página incrustada tiene las siguientes propiedades:
 
 >[!NOTE]
 >
->Consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas, para obtener información detallada sobre las secuencias incrustadas.
+>Para obtener información detallada sobre las secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas.
 
-Una secuencia incrustada le permite agregar un canal de secuencia incrustado dentro del canal existente (con otros recursos).
+Una secuencia incrustada permite agregar un canal de secuencia incrustado dentro del canal existente (con otros recursos).
 
 La secuencia incrustada tiene las siguientes propiedades de página:
 
@@ -156,12 +152,12 @@ La secuencia incrustada tiene las siguientes propiedades de página:
    <td>Seleccione la ruta absoluta de la secuencia que desea incluir en el canal.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecutará en toda su longitud en un canal concreto.</td>
+   <td><strong><em>Duración (milisegundos)</em></strong></td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecuta a toda su longitud en un canal concreto.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
-   <td>Configúrelo en. <strong>original</strong> o <strong>soltero</strong>. Estableciendo el valor en <strong>original</strong> significa que la subsiguiente se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>soltero</strong> y que solo mostraría un elemento de la subsiguiente en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.).</td>
+   <td>Configúrelo en. <strong>original</strong> o <strong>soltero</strong>. Estableciendo el valor en <strong>original</strong> significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>soltero</strong>. Este valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.</td>
   </tr>
  </tbody>
 </table>
@@ -170,7 +166,7 @@ La secuencia incrustada tiene las siguientes propiedades de página:
 
 Una secuencia incrustada dinámica permite agregar una secuencia similar a la mencionada anteriormente, excepto por función de canal.
 
-Consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas, para obtener información detallada sobre las secuencias incrustadas.
+Para obtener más información sobre las secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas.
 
 La secuencia incrustada dinámica tiene las siguientes propiedades:
 
@@ -185,40 +181,40 @@ La secuencia incrustada dinámica tiene las siguientes propiedades:
    <td>Introduzca la función de canal.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Duración (ms)</em></strong></td>
-   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecutará en toda su longitud en un canal concreto.</td>
+   <td><strong><em>Duración (milisegundos)</em></strong></td>
+   <td>Seleccione toda la duración del canal. Si establece la duración como -1, indica que el canal incrustado se ejecuta a toda su longitud en un canal concreto.</td>
   </tr>
   <tr>
    <td><strong><em>Estrategia</em></strong></td>
-   <td>Configúrelo en. <strong>original</strong> o <strong>soltero</strong>. Estableciendo el valor en <strong>original</strong> significa que la subsiguiente se ejecutará completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>soltero</strong> y que solo mostraría un elemento de la subsiguiente en cada ejecución (por ejemplo, el primer elemento del primer bucle, el segundo elemento del segundo bucle, etc.).</td>
+   <td>Configúrelo en. <strong>original</strong> o <strong>soltero</strong>. Estableciendo el valor en <strong>original</strong> significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es <strong>soltero</strong>. Este valor solo mostraría un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.</td>
   </tr>
  </tbody>
 </table>
 
 ### Fragmento de experiencias {#experience-fragment}
 
-Un fragmento de experiencia le permite añadir un fragmento de experiencia (grupo de uno o más componentes, incluidos contenido y diseño, a los que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. AEM Arrastre y suelte el componente en el editor de y seleccione el fragmento de experiencia.
+Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. AEM Arrastre y suelte el componente en el Editor de y seleccione el Fragmento de experiencia.
 
-Para obtener más información sobre cómo crear un fragmento de experiencia y aprovecharlo en un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md).
+Para obtener más información sobre cómo crear un fragmento de experiencia y aplicarlo a un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
 | **Propiedad** | **Descripción** |
 |---|---|
 | **Fragmento de experiencias** |
-| ***Fragmento de experiencias*** | Seleccione el fragmento de experiencia. |
+| ***Fragmento de experiencias*** | Seleccione el Fragmento de experiencia. |
 | ***Duración*** | Seleccione toda la duración del fragmento de experiencia que se reproduce en el canal. |
 | **Configuración sin conexión** |
 | ***Bibliotecas del lado del cliente*** | Archivos JavaScript y CSS. |
-| ***Archivos estáticos*** | Archivos estáticos que se pueden agregar como configuraciones sin conexión al fragmento de experiencia. |
+| ***Archivos estáticos*** | Archivos estáticos que se pueden agregar como configuraciones sin conexión al Fragmento de experiencia. |
 
 >[!NOTE]
 >
->El **Bibliotecas del lado del cliente** y el **Archivos estáticos** que agregue desde este componente se sumará a los ya configurados **Bibliotecas del lado del cliente** y los archivos estáticos que se añaden desde el fragmento de experiencia **Propiedades**.
+>El **Bibliotecas del lado del cliente** y el **Archivos estáticos** que agregue desde este componente se suman a los ya configurados **Bibliotecas del lado del cliente** y los archivos estáticos que se añaden desde el **Propiedades**.
 
 ### Imagen {#image}
 
-Una imagen le permite añadir una imagen a su canal.
+Una imagen permite añadir una imagen al canal.
 
 El recurso de imagen tiene tres pestañas: **Imagen**, **Accesibilidad**, y **Secuencia**:
 
@@ -233,17 +229,17 @@ El recurso de imagen tiene tres pestañas: **Imagen**, **Accesibilidad**, y **Se
 | **Accesibilidad** |
 | ***Texto alternativo*** | Texto alternativo a la imagen. |
 | **Secuencia** |
-| ***Duración*** | De forma predeterminada, la duración está configurada en *8000 ms*. Si desea cambiar la duración de reproducción de la imagen, actualice el **Duración** field. |
+| ***Duración*** | De forma predeterminada, la duración está configurada en *8000 milisegundos*. Si desea cambiar la duración de reproducción de la imagen, actualice el **Duración** field. |
 
 ### Transición {#transition}
 
-El componente Transición le permite añadir una transición al proyecto de Pantallas.
+El componente Transición permite añadir una transición al proyecto de Pantallas.
 
 La siguiente imagen muestra el componente de transición (añadido mediante arrastrar y soltar) en el editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Seleccione el icono de transición y haga clic en **Configurar** (icono de la llave inglesa) para abrir **Transición** Cuadro de diálogo. Este cuadro de diálogo incluye tres fichas:
+Seleccione el icono de transición y seleccione la opción **Configurar** (icono de la llave inglesa) para abrir **Transición** Cuadro de diálogo. Este cuadro de diálogo incluye tres fichas:
 
 * **Transición**
 * **Secuencia**
@@ -251,7 +247,7 @@ Seleccione el icono de transición y haga clic en **Configurar** (icono de la ll
 
 >[!NOTE]
 >
->De forma predeterminada, la secuencia se establece en 600 ms. Puede actualizar la secuencia de transición a otro valor mediante el **Secuencia** pestaña.
+>De forma predeterminada, la secuencia se establece en 600 milisegundos. Puede actualizar la secuencia de transición a otros valores mediante el **Secuencia** pestaña.
 
 ![transición](assets/transition.gif)
 
@@ -285,7 +281,7 @@ El componente de transición tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Duración</em></strong></td>
-   <td>Seleccione toda la duración de la transición. De forma predeterminada, se establece en 600 ms.</td>
+   <td>Seleccione toda la duración de la transición. De forma predeterminada, se establece en 600 milisegundos.</td>
   </tr>
   <tr>
    <td><strong>Activación</strong></td>
@@ -308,7 +304,7 @@ El componente de transición tiene las siguientes propiedades:
 
 ### Vídeo {#video}
 
-El componente Vídeo le permite agregar un vídeo al proyecto de Pantallas.
+El componente Vídeo permite agregar un vídeo al proyecto de Pantallas.
 
 El componente de vídeo tiene las siguientes propiedades:
 

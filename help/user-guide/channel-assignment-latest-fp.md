@@ -1,14 +1,13 @@
 ---
 title: Asignación de canales - Último FP
-seo-title: Channel Assignment - Latest FP
-description: Siga esta página para obtener más información sobre la asignación de canales y la partición por día.
+description: Obtenga información acerca de la asignación de canales y la partición por día.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1462'
 ht-degree: 2%
 
 ---
@@ -45,7 +44,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
 1. Cree un canal de secuencia titulado como **Cafetería** en el **Canales** carpeta.
 
-1. Seleccione el canal y haga clic en **Editar** en la barra de acciones para añadir contenido al canal.
+1. Seleccione el canal y luego seleccione **Editar** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -59,7 +58,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
 ### Asignación de canales a una pantalla {#assigning-channel-to-display}
 
-Una vez completada la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
+Cuando se complete la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
@@ -85,7 +84,7 @@ Una vez completada la configuración del proyecto, debe asignar el canal a una p
    >
    >Consulte [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
 
-1. Desde el **Programación** opción seleccione la **Ventana de activación** y **Horario de periodicidad**.
+1. Desde el **Programación** , seleccione la opción **Ventana de activación** y **Horario de periodicidad**.
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -100,7 +99,7 @@ Este ejemplo muestra la salida en un reproductor Chrome. Una vez asignado el can
 
 Consulte [Registro de dispositivos](device-registration.md) para aprender a registrar un dispositivo en un reproductor de AEM Screens.
 
-Verá el siguiente resultado a su elección de reproductor:
+Puede ver el siguiente resultado a su elección de reproductor:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -130,9 +129,8 @@ Las siguientes propiedades se establecen desde la variable **Configuración** en
 
 La selección de un canal permite proporcionar una referencia al canal deseado, ya sea por nombre de canal o por ruta de canal.
 
-* **por ruta**: proporciona una referencia explícita utilizando la ruta absoluta del canal.
-
-* **por nombre**: Introduzca el nombre del canal que se resolverá en un canal real por contexto. Esta función le permite crear la versión local de un canal para resolver de forma dinámica contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero el canal sigue teniendo una función sensata en todas las pantallas.
+* **Por ruta** : Se proporciona una referencia explícita utilizando la ruta absoluta del canal.
+* **Por nombre** : Introduzca el nombre del canal que se resuelve en un canal real por contexto. Esta función permite crear una versión local de un canal para poder resolver de forma dinámica contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero el canal sigue teniendo una función sensata en todas las pantallas.
 
 ### Función del canal {#role-channel}
 
@@ -140,7 +138,7 @@ La función Canal define el contexto de la visualización. La función está dir
 
 ### Prioridad {#priority-channel}
 
-La prioridad se usa para ordenar las asignaciones en caso de que varias coincidan con los criterios de reproducción. El que tenga el valor más alto siempre tendrá prioridad sobre los valores más bajos. Por ejemplo, si hay dos canales, A y B. A tiene una prioridad de 1 y B tiene una prioridad de 2. A continuación, se muestra el canal B, ya que tiene una prioridad mayor que A.
+La prioridad se usa para ordenar las asignaciones en caso de que varias coincidan con los criterios de reproducción. El que tiene el valor más alto siempre tiene prioridad sobre los valores más bajos. Por ejemplo, si hay dos canales, A y B. A tiene una prioridad de 1 y B tiene una prioridad de 2. A continuación, se muestra el canal B, ya que tiene una prioridad mayor que A.
 
 >[!NOTE]
 >
@@ -148,30 +146,30 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 
 ### Eventos admitidos {#supported-events-channel}
 
-* **Carga inicial**: carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales en combinación con la programación
-* **Pantalla inactiva**: se carga cuando la pantalla está inactiva. Se puede asignar a varios canales en combinación con la programación
-* **Temporizador**: debe configurarse cuando se proporciona una programación
-* **Interacción del usuario**: el reproductor cambiará al canal especificado si hay una interacción del usuario en la pantalla (táctil) en un canal inactivo y se cargará cuando se toque la pantalla
+* **Carga inicial** - Carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales con una programación.
+* **Pantalla inactiva** - Se carga cuando la pantalla está inactiva. Se puede asignar a varios canales con una programación.
+* **Temporizador** - Debe configurarse cuando se proporciona una programación.
+* **Interacción del usuario** - El reproductor cambia al canal especificado si hay una interacción del usuario en la pantalla (táctil) en un canal inactivo y se carga cuando se toca la pantalla.
 
 ### Método de interrupción {#interruption-method-channel}
 
 >[!IMPORTANT]
-> AEM AEM Esta opción solo está disponible con el paquete de funciones 8 o 4 del paquete de funciones 4 de la versión 6.4 de la o con el paquete de funciones 4 de la versión 6.5.
+> Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or-->AEM Paquete de funciones 4 para.5.
 
-Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tiene la opción de permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
+Como autor de contenido, puede especificar cuándo se interrumpe un canal. Al hacerlo, puede optar por cortar el contenido no crítico. Pero también le ofrece la opción de permitir que el contenido importante se reproduzca por completo antes de acortarlo debido a la programación.
 
 Seleccione una de las siguientes opciones disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
 
-* **Inmediata**: cada vez que se activa la programación o se recibe una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
-* **Al final del elemento actual**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que el elemento actual de la secuencia termine de reproducirse y solo después de ello actualice o reproduzca el nuevo contenido
+* **Inmediata** : Siempre que se active la programación o se reciba una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
+* **Fin del elemento actual** : Cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que el elemento actual de la secuencia termine de reproducirse. A continuación, solo después de eso, puede actualizar o reproducir el nuevo contenido.
 
   >[!NOTE]
   >Esta opción está seleccionada de forma predeterminada.
 
-* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, tiene la opción de esperar a que toda la secuencia llegue a su final y, justo antes de la secuencia deseada, vuelve al primer elemento, actualiza o reproduce el nuevo contenido
+* **Al final de la secuencia** : Cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que toda la secuencia llegue a su final. A continuación, justo antes de la secuencia deseada, puede volver al primer elemento, actualizar o reproducir el nuevo contenido.
 
   >[!NOTE]
-  >El uso de la segunda o tercera opción puede provocar que los tiempos de programación definidos en la asignación se aplazen ligeramente, ya que el reproductor esperará al final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso dependerá de la duración de reproducción del elemento.
+  >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se difieran ligeramente. El motivo es que el reproductor espera el final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso depende de la duración de reproducción del elemento.
 
 Las siguientes propiedades se establecen desde la variable **Programación** en la opción **Asignación de canales** Cuadro de diálogo.
 
@@ -179,28 +177,28 @@ Las siguientes propiedades se establecen desde la variable **Programación** en 
 
 ### Ventana de activación {#activation-window}
 
-La ventana de activación le permite seleccionar una **Fecha de inicio** y un **Fecha de finalización** para mostrar el contenido.
+La ventana de activación permite seleccionar una **Fecha de inicio** y un **Fecha de finalización** para mostrar el contenido.
 
 ### Programación de repetición {#recurrence-schedule}
 
-El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Haga clic en **+ Agregar programación** para añadir una programación de periodicidad al canal.
+El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Seleccionar **+ Agregar programación** para añadir una programación de periodicidad al canal.
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
->Los horarios de periodicidad presentan *DayParting*, que le permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
+>Los horarios de periodicidad presentan *DayParting* esto le permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
 Puede establecer las siguientes opciones:
 
-* **Nombre**: Título de la programación de periodicidad.
-* **Repetir**: elija si la programación se ejecuta **Diario**, **Semanalmente**, **Mensual**, o **Anual**.
-* **Inicio**: la hora de inicio de la programación.
-* **Fin**: la hora de finalización de la programación. Puede configurarlo por tiempo o duración.
-   * **Hora**: la programación finalizará a una hora especificada.
-   * **Duración**: la programación se ejecuta durante un período de tiempo determinado en horas o minutos.
+* **Nombre** - Título de su horario de periodicidad.
+* **Repetir** - Elija si la programación se ejecuta **Diario**, **Semanalmente**, **Mensual**, o **Anual**.
+* **Inicio** - La hora de inicio de su programación.
+* **Fin** - La hora de finalización de la programación. Puede establecerlo por tiempo o duración.
+   * **Hora** - La programación finaliza a una hora especificada.
+   * **Duración** : La programación se ejecuta durante un período de tiempo determinado en horas o minutos.
 
 ### DayParting {#dayparting}
 
-DayParting hace referencia a la división de un día en espacios de tiempo y a la especificación de qué contenido se reproduce a la hora deseada. AEM Screens le permite programar canales en términos de Partición del día en un día, una semana o un mes según sea necesario.
+La partición por día hace referencia a la división de un día en espacios de tiempo y a la especificación de qué contenido se reproduce a la hora deseada. AEM Screens permite programar canales según DayParting en un día, una semana o un mes, según sea necesario.
 
 Los siguientes ejemplos explican DayParting en los canales en tres escenarios diferentes:
 
@@ -208,22 +206,22 @@ Los siguientes ejemplos explican DayParting en los canales en tres escenarios di
 
 Este ejemplo muestra cómo un restaurante utiliza DayParting para mostrar su menú de desayuno, almuerzo y cena todos los días.
 
-Aquí, dividiremos cada día en diferentes franjas horarias, de modo que el contenido del canal se reproduzca a la hora especificada del día. Establezca las siguientes propiedades del Horario de periodicidad para que su canal reproduzca el contenido según este caso de uso.
+En este caso, cada día se divide en diferentes franjas horarias, de modo que el contenido del canal se reproduce a la hora especificada del día. Establezca las siguientes propiedades del Horario de periodicidad para que su canal reproduzca el contenido según este caso de uso.
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Desayuno | Cada día | 6:00 | 11:00 |
+| Desayuno | Cada día | 06:00 | 11:00 |
 | Almuerzo | Cada día | 11:00 | 15:00 |
 | Cena | Cada día | 15:00 | 20:00 |
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra la implementación de DayParting en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de cena después de las 22:00 y hasta la 01:00
+En este ejemplo se muestra el DayParting implementado en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de la cena después de las 22:00 y hasta la 01:00.
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Weekend | Semanal: sábado, domingo | 20:00 | 22:00 |
-| Especiales | Diario: lunes a viernes | 22:00 | 1:00 |
+| Weekend | Semanal: sábado y domingo | 20:00 | 22:00 |
+| Especiales | Diario: de lunes a viernes | 22:00 | 01:00 |
 
 >[!NOTE]
 >

@@ -1,18 +1,15 @@
 ---
 title: Actualización de contenido como servicio
-seo-title: Content Update As a Service
-description: Siga esta página para obtener más información sobre Actualización de contenido como servicio.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Obtenga información acerca de la actualización de contenido como servicio.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,15 +20,16 @@ Esta sección trata los siguientes temas sobre la actualización de contenido co
 * **Información general**
 * **Uso de actualización sin conexión masiva**
 
+<!--
 >[!CAUTION]
 >
->Esta funcionalidad de AEM Screens AEM AEM solo está disponible si ha instalado el paquete de funciones 3 de 6.3 o el paquete de funciones 1 de Screens de 6.3 o de 6.4.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Para obtener acceso a este paquete de funciones, debe ponerse en contacto con el Soporte técnico de Adobe y solicitar acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Información general {#overview}
 
-Actualización sin conexión en lote, le permite actualizar todo el canal en lote. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
+Bulk Offline Update, permite actualizar todos los canales de forma masiva. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
 
 También puede programar esta actividad para un momento de menor tráfico de red.
 
@@ -52,7 +50,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configuración de la consola web de Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configuración de la consola web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
@@ -73,4 +71,4 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
    **Frecuencia de programación** Especifique la hora, por ejemplo, 5:00 p. m. o 17:00 p. m. a la que este servicio debe actualizar el contenido sin conexión.
 
-1. Clic **Guardar** para guardar la configuración, y el contenido se actualizará a la hora especificada.
+1. Seleccionar **Guardar** para poder guardar la configuración. Todo el contenido se actualiza a la hora especificada.
