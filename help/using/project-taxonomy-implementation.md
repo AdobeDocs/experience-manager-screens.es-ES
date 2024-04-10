@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: Esta página describe la taxonomía del proyecto
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Asegúrese de tener en cuenta los siguientes elementos antes de implementar su s
 
 * **Ubicaciones**
 * **MediaZones**
-* **Muestra**
+* **Visualizaciones**
 * **Programación**
 * **Vista previa del contenido**
 
-Para obtener más información, consulte [Glosario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+Para conocer estos términos, consulte [Glosario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -35,7 +35,6 @@ Para obtener más información, consulte [Glosario](https://experienceleague.ado
 >
 >* base de datos de activos de hardware para rellenar automáticamente un proyecto de Screens
 >* AEM archivo de configuración de texto para señalar automáticamente cada reproductor a una instancia específica de una instancia de un
-
 
 ## Implementación de un proyecto de AEM Screens {#creating-a-project}
 

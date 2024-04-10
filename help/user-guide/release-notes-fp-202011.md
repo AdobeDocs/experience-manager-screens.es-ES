@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
@@ -31,23 +31,23 @@ La fecha de lanzamiento del paquete de funciones 202011 de AEM Screens es el 30 
 
 * **Informe de asignación de contenido**
 
-   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *Informe de asignación de contenido* en formato de hoja de cálculo.
+  La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *Informe de asignación de contenido* en formato de hoja de cálculo.
 Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 
 * **Tizen Player**
 
-   Se ha presentado un nuevo reproductor, denominado Tizen player, con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
+  Se ha presentado un nuevo reproductor, denominado Tizen player, con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
 Consulte [Implementación de Tizen Player](/help/user-guide/tizen-player.md) para obtener más información.
 
 * **Funcionalidad de búsqueda desde el Administrador de dispositivos**
 
-   Ahora hay disponible una nueva funcionalidad de búsqueda en la interfaz de usuario del Administrador de dispositivos con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
+  Ahora hay disponible una nueva funcionalidad de búsqueda en la interfaz de usuario del Administrador de dispositivos con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
 Consulte [Búsqueda de un dispositivo desde el Administrador de dispositivos](/help/user-guide/device-registration.md#search-device) para obtener más información.
 
 * **Intervalo de ping predeterminado**
 
-   El intervalo de ping predeterminado ahora se establece en 30 segundos en esta versión.
+  El intervalo de ping predeterminado ahora se establece en 30 segundos en esta versión.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
@@ -61,4 +61,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

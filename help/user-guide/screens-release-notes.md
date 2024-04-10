@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -34,14 +34,14 @@ La fecha de lanzamiento del paquete de funciones 201809 de AEM Screens es el 1 d
 
 ### Novedades {#what-s-new}
 
-* **Informes de Adobe Analytics Proof of Play**: Consulte [Integración de Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) para obtener más información.
+* **Informes de Adobe Analytics Proof of Play**: consulte [Integración de Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) para obtener más información.
 
-* **Adobe Analytics Permite a los reproductores almacenar en caché y enviar eventos de reproducción a Adobe Analytics**: Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
+* **Adobe Analytics Permite a los reproductores almacenar en caché y enviar eventos de reproducción a Adobe Analytics**: consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
 
-* **Actualización masiva de contenido sin conexión**: Le permite actualizar todos los canales de forma masiva y evita la molestia de navegar a un canal en particular y actualizar el contenido. Consulte la [Actualización sin conexión masiva](bulk-offline-update.md) para obtener más información.
+* **Actualización masiva de contenido sin conexión**: Le permite actualizar todos los canales de forma masiva y evita la molestia de navegar a un canal en particular y actualizar el contenido. Consulte [Actualización sin conexión masiva](bulk-offline-update.md) para obtener más información.
 
 * **Canales de publicación en lotes para publicar instancias**
-* **Mecanismo de registro del reproductor mejorado**: Puede especificar el número máximo de archivos de registro para un reproductor de AEM Screens. Consulte la [Uso de un reproductor AEM Screens](working-with-screens-player.md) para obtener más información.
+* **Mecanismo de registro del reproductor mejorado**: Puede especificar el número máximo de archivos de registro para un reproductor de AEM Screens. Consulte [Uso de un reproductor AEM Screens](working-with-screens-player.md) para obtener más información.
 
 * **Implementación de autor/publicación (endurecimiento)**
 

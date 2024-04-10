@@ -2,9 +2,9 @@
 title: Requisitos previos [!UICONTROL AEM Screens]
 description: Descubra cuáles son los requisitos previos antes de iniciar un proyecto de AEM Screens.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---

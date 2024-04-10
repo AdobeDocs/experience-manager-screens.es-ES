@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
    ![imagen](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >Para aprender a asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
 1. Asignar los canales **Principal**, **Bebidas frías**, y **Bebidas** a su **LobbyDisplay**. Además, si utiliza el **SplitScreen** canal del proyecto, asegúrese de asignarlo a la pantalla.
 
@@ -157,7 +157,7 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
 
    >[!NOTE]
    >
-   >Para aprender a asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
 1. Una vez asignados los canales a una pantalla, vaya a **LobbyDisplay** y seleccione la pantalla. Seleccionar **Propiedades** de la barra de acciones.
 

@@ -2,9 +2,9 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -306,7 +306,7 @@ También puede actualizar o editar la URL del servidor desde la consola de admin
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-El **Administrar publicación** Esta función permite enviar actualizaciones de contenido de Autor a Publish en el dispositivo. Puede publicar/cancelar la publicación del contenido de todo el proyecto de AEM Screens o solo de uno de los canales, la ubicación, el dispositivo, la aplicación o una programación. Para obtener más información sobre esta función, consulte [Actualización de contenido bajo demanda](on-demand-content.md).
+El **Administrar publicación** Esta función permite enviar actualizaciones de contenido de Autor a Publish en el dispositivo. Puede publicar/cancelar la publicación del contenido de todo el proyecto de AEM Screens o solo de uno de los canales, la ubicación, el dispositivo, la aplicación o una programación. Para obtener más información acerca de esta función, consulte [Actualización de contenido bajo demanda](on-demand-content.md).
 
 ## Sugerencias de resolución de problemas {#troubleshoot-tips}
 

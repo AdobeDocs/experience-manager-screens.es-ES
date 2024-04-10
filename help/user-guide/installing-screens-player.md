@@ -8,9 +8,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,6 @@ Para descargar **Reproductor de AEM Screens**, visite la [AEM Descargas del repr
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
 >1. Haga clic en **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
 
-
 ## Monitorización de reproducción básica {#playback-monitoring}
 
 El reproductor informa de varias métricas de reproducción con cada una `ping` el valor predeterminado es de 30 segundos. En función de estas métricas, podemos detectar varios casos extremos, como experiencias atascadas, pantallas en blanco y problemas de programación. Esto nos permite comprender y solucionar problemas en el dispositivo y, por lo tanto, acelerar una investigación y medidas correctivas con usted.
@@ -55,8 +54,8 @@ Las siguientes propiedades se incluyen en cada `ping`:
 | id {string} | el identificador del reproductor |
 | activeChannel {string} | ruta de canal en reproducción, o nulo si no hay nada programado |
 | activeElements {string} | cadena separada por comas, elementos visibles actualmente en todos los canales de secuencia de reproducción (varios en el caso de un diseño de varias zonas) |
-| isDefaultContent {booleano} | true si el canal de reproducción se considera un canal predeterminado o de reserva (es decir, tiene prioridad 1 y no hay programación) |
-| hasContentChanged {booleano} | true si el contenido ha cambiado en los últimos 5 minutos, false en caso contrario |
+| isDefaultContent {boolean} | true si el canal de reproducción se considera un canal predeterminado o de reserva (es decir, tiene prioridad 1 y no hay programación) |
+| hasContentChanged {boolean} | true si el contenido ha cambiado en los últimos 5 minutos, false en caso contrario |
 | lastContentChange {string} | marca de tiempo del último cambio de contenido |
 
 >[!NOTE]
@@ -85,4 +84,4 @@ Consulte los siguientes temas para obtener información detallada:
 
 * Para implementar el reproductor Chrome OS, consulte [Consola de administración de Chrome](implementing-chrome-os-player.md) para obtener más información.
 
-* Para configurar el reproductor de AEM Screens Windows, consulte [Implementación del Reproductor de Windows](implementing-windows-player.md).
+* Para configurar el reproductor de Windows de AEM Screens, consulte [Implementación del Reproductor de Windows](implementing-windows-player.md).

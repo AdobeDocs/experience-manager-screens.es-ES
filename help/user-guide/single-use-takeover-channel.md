@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Siga los pasos a continuación para configurar un proyecto:
    ![recurso](assets/single-takeover6.png)
 
    >[!NOTE]
-   >Para aprender a asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
 
 1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y haga clic en **Guardar**. Ahora ha asignado la variable **MainAdChannel** a la pantalla.
 

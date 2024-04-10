@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 8%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ## Disponibilidad {#availability}
 
-AEM Screens ha publicado el paquete de funciones 8 de AEM 6.4 y el paquete de funciones 4 de AEM 6.5.
+AEM Screens AEM AEM ha lanzado el paquete de funciones 8 de la versión 6.4 de la versión, y el paquete de funciones 4 de la versión 6.5 de la versión 6.4.
 
 Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el paquete de funciones más reciente.
 
@@ -34,42 +34,42 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
 * **Opciones de estrategia de interrupción de reproducción**
 
-   Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tiene la opción de permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
+  Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tiene la opción de permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
 
-   Consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)** para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens.
+  Consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)** para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens.
 
 * **Lanzamientos de Screens**
 
-   El flujo de experiencia del usuario Autor de contenido se ha mejorado y se ha reducido el número de clics para utilizar una publicación futura.
+  El flujo de experiencia del usuario Autor de contenido se ha mejorado y se ha reducido el número de clics para utilizar una publicación futura.
 
-   Consulte **[Actualización de contenido mediante Screens Launch](launches.md)** para obtener más información.
+  Consulte **[Actualización de contenido mediante Screens Launch](launches.md)** para obtener más información.
 
 * **Tablero de canal**
 
-   Refleja las actualizaciones de las instrucciones del panel de canales en la **INFORMACIÓN DEL CANAL** panel.
+  Refleja las actualizaciones de las instrucciones del panel de canales en la **INFORMACIÓN DEL CANAL** panel.
 
 
 * **Ver manifiesto**
 
-   Ahora puede ver el archivo de manifiesto desde el panel de canales.
+  Ahora puede ver el archivo de manifiesto desde el panel de canales.
 
-   Consulte **[Visualización del manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
+  Consulte **[Visualización del manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposición de texto**
 
-   Al añadir la prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
+  Al añadir la prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
 
-   Consulte **[Superposición de texto](text-overlay.md)** para crear una experiencia atractiva en un canal de secuencias, proporcione un título o una descripción superpuestos sobre una imagen.
+  Consulte **[Superposición de texto](text-overlay.md)** para crear una experiencia atractiva en un canal de secuencias, proporcione un título o una descripción superpuestos sobre una imagen.
 
 * **Mejoras en la sincronización de comandos**
 
-   Con esta versión del paquete de funciones, se reflejan las mejoras en el retraso de sincronización de comandos entre los cambios de recursos.
+  Con esta versión del paquete de funciones, se reflejan las mejoras en el retraso de sincronización de comandos entre los cambios de recursos.
 
-   Consulte **[Sincronización de comandos](using-command-sync.md)** para obtener más información.
+  Consulte **[Sincronización de comandos](using-command-sync.md)** para obtener más información.
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens se incluyen en el paquete de funciones 4 de AEM Screens AEM AEM, que incluye el paquete de funciones 8 y 6.5 de la versión 6.4 de la versión 19998000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Los siguientes reproductores de AEM Screens se incluyen en el paquete de funciones 4 de AEM Screens AEM AEM, que incluye el paquete de funciones 8 y 6.5 de la versión 6.4 de la versión 199980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 * ChromeOS
 * Windows
@@ -77,4 +77,4 @@ Los siguientes reproductores de AEM Screens se incluyen en el paquete de funcion
 
 #### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.

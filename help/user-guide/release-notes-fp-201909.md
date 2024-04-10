@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -57,4 +57,4 @@ Los siguientes reproductores AEM Screens AEM AEM se incluyen en el paquete de fu
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).

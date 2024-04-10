@@ -3,10 +3,10 @@ title: Audiencia objetivo
 seo-title: Target Audience for AEM Screens
 description: En la página se describe quiénes son los destinatarios de la Guía de prácticas recomendadas de AEM Screens
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 5%
+source-wordcount: '495'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Como implementador experimentado de AEM, probablemente habrá visto las funciona
 
 En un proyecto típico de AEM Screens, las funciones se refinan aún más, ya que cada una cumple un propósito importante en el proyecto.
 
-El diagrama siguiente muestra las funciones a las que nos referiremos en toda la guía.
+El diagrama siguiente muestra las funciones que veremos en toda la guía.
 
 ![](/help/assets/roles-used.png)
 
@@ -30,9 +30,9 @@ La siguiente sección proporciona información general sobre la audiencia de des
 
 ### Adobe {#adobe-audience}
 
-Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
+El Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
 
-### Implementadores de AEM {#aem-implementors}
+### AEM Implementadores de {#aem-implementors}
 
 AEM AEM Los implementadores de son responsables de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de.
 
@@ -62,7 +62,7 @@ La administración de creativos y contenido puede ser una de las siguientes:
 * Agencia Creativa o,
 * Administrador de marca
 
-### Gestores de proyectos {#project-managers}
+### Gestores de proyecto {#project-managers}
 
 Los jefes de proyecto suelen administrar toda la implementación para la implementación de AEM Screens. Un administrador de proyectos es la persona clave para toda la implementación del proyecto designado y desempeña importantes responsabilidades, como establecer plazos, gestionar las necesidades y comunicaciones del equipo, abordar los desafíos y garantizar que se cumplan los objetivos.
 

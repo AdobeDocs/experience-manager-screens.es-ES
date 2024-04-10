@@ -2,9 +2,9 @@
 title: Duración de reproducción de imagen de nivel de proyecto
 description: Aprenda a definir la duración de la reproducción de la imagen en el nivel de proyecto.
 contentOwner: jsyal
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -14,17 +14,15 @@ ht-degree: 1%
 
 ## Información general {#overview}
 
-Esta función permite definir la duración de la reproducción de la imagen en el nivel de proyecto. Todas las imágenes heredan esta duración de reproducción de forma predeterminada. Si no se define ninguna duración en el nivel de proyecto, la reproducción predeterminada de 8 segundos continuará.
+Esta función permite definir la duración de la reproducción de la imagen en el nivel de proyecto. Todas las imágenes heredan esta duración de reproducción de forma predeterminada. Si no se define ninguna duración en el nivel de proyecto, continúa la reproducción predeterminada de 8 segundos.
 
 ### Requisitos previos {#prerequisites}
 
-Antes de utilizar esta función, asegúrese de configurar un proyecto como requisito previo para comenzar a implementar esta funcionalidad. Por ejemplo,
+Antes de usar esta función, configure un proyecto como requisito previo para comenzar a implementar esta funcionalidad. Por ejemplo,
 
-1. Cree un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**)
-
-1. Crear un canal de secuencia como **PlayBackChannel** bajo **Canales** carpeta
-
-1. Añadir contenido a **PlayBackChannel**
+1. Cree un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**).
+1. Crear un canal de secuencia como **PlayBackChannel** bajo **Canales** carpeta.
+1. Añadir contenido a **PlayBackChannel**.
 
    ![activos](assets/image_playback1.png)
 
@@ -52,7 +50,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Página** se abre el cuadro de diálogo.
+1. El **Página** se abre el cuadro de diálogo.
 
    >[!NOTE]
    >
@@ -60,13 +58,13 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite el **Duración** de 8000 (ms) a 3000 (ms), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha del **Página** para guardar los cambios.
+   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha de la etiqueta **Página** para que se guarden los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualización del resultado {#viewing-the-result}
 
-Una vez que haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), verá que las imágenes se reproducirán durante 3 segundos en lugar de 8 segundos (valor predeterminado).
+Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (valor predeterminado).
 
 ![channel_preview](assets/channel_preview.gif)
 

@@ -4,9 +4,9 @@ seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: La guía describe la Estrategia de contenido empresarial
 seo-description: The guide describes Business Content Strategy
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Considere cómo la aplicación Screens puede ayudar a conseguirlo y determine lo
 >
 >Debe tener en cuenta que la experiencia debe funcionar sin conexión con un ancho de banda limitado.
 
-Debe hacer referencia a estas pocas preguntas que deben responderse al crear una estrategia de contenido para su proyecto de AEM Screens:
+Debe ver estas pocas preguntas que deben responderse al crear una estrategia de contenido para su proyecto de AEM Screens:
 
 * ¿Quién es la audiencia objetivo y cuál es el tiempo de permanencia previsto?
 * ¿Qué contenido se debe mostrar a ellos?
@@ -40,9 +40,9 @@ Debe hacer referencia a estas pocas preguntas que deben responderse al crear una
 * ¿Cuál es su estrategia de actualización y actualización?
 * ¿Con qué frecuencia se necesitará nuevo contenido?
 
-   >[!NOTE]
-   >
-   >Es importante que, durante la fase de preventa, empiece a hacer preguntas no solo sobre qué contenido se compartirá, sino también sobre dónde residen actualmente los datos de contenido y cómo se aprovecharán en el proyecto de Pantallas. Debe intentar profundizar en el contenido durante la implementación, pero establecer por adelantado qué datos están disponibles y en qué formato.
+  >[!NOTE]
+  >
+  >Es importante que, durante la fase de preventa, empiece a hacer preguntas no solo sobre qué contenido se compartirá, sino también sobre dónde residen actualmente los datos de contenido y cómo se aprovecharán en el proyecto de Pantallas. Debe intentar profundizar en el contenido durante la implementación, pero establecer por adelantado qué datos están disponibles y en qué formato.
 
 ## Consideraciones importantes {#important-considerations}
 

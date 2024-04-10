@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión del paquete de funciones 202109
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202109 lanzado el 23 de septiembre de 2021.
+description: Obtenga información acerca del paquete de funciones 202109 de AEM Screens lanzado el 23 de septiembre de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 # Notas de la versión del paquete de funciones 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -31,13 +31,13 @@ La fecha de lanzamiento del AEM Screens Feature Pack 202109 es el 23 de septiemb
 
 * **Compatibilidad con miniaturas para vídeos**
 
-  Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen pueda utilizarse como marcador de posición y probar correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. También se puede utilizar la imagen en caso de que falle la reproducción del vídeo.
+  Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido define una miniatura para los vídeos, de modo que la imagen se utilice como marcador de posición. También prueban correctamente la reproducción y la segmentación del contenido, mientras que el equipo correspondiente finaliza el vídeo real. La imagen también se puede utilizar en caso de que falle la reproducción del vídeo.
 Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obtener más información.
 
 * **Monitorización de reproducción básica**
 
-  AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informará de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, permite detectar varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite al equipo monitorizar de forma remota si un reproductor está reproduciendo el contenido correctamente, mejora la reacción ante pantallas en blanco o experiencias rotas en el campo y reduce el riesgo de mostrar una experiencia rota al usuario final.
-Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obtener más información.
+  AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informa de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, detecta varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo el contenido correctamente y mejora la reacción a pantallas en blanco o experiencias rotas en el campo. También reduce el riesgo de mostrar una experiencia rota al usuario final.
+Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obtener más información.
 
 * **Actualizaciones del informe de asignación de contenido**
 
@@ -50,35 +50,35 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
-  Además, como autor de contenido de AEM Screens, puede configurar sus recursos para que utilicen representaciones adaptables y también migrar sus dispositivos para redes grandes para utilizar esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+  Además, como autor de contenido de AEM Screens, puede configurar sus recursos para que utilicen representaciones adaptables. También puede migrar los dispositivos de redes grandes para que utilicen esta función en sus canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
 
 * **Compatibilidad con manifiestos de la versión 3**
 
   Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe:
 
-   * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación
+   * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación.
 
-      * Vaya a crx/de en Autor y publicación
+      * Vaya al CRXDE Lite en Autor y Publicación.
 
-      * Haga clic en Herramientas > Consulta
+      * Haga clic en Herramientas > Consulta.
 
-      * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Esto indicará cualquier trabajo de contenido sin conexión que se esté ejecutando o esté pendiente en la cola
+      * Esto enumera cualquier trabajo de contenido sin conexión que se esté ejecutando o esté pendiente en la cola.
 
-      * Espere hasta que no haya más trabajos de contenido sin conexión devueltos desde la consulta
+      * Espere hasta que no haya más trabajos de contenido sin conexión devueltos desde la consulta.
 
-   * Deshabilitar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   * Deshabilitar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * Habilitar SmartSync en `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * Actualizar Dispatcher
+   * Actualice Dispatcher.
 
-   * Actualizar componente personalizado
+   * Actualizar componente personalizado.
 
 
-   * Consulte [Configurar Dispatcher para la versión 3 del manifiesto](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obtener más información.
-   * Si utiliza componentes personalizados como parte de manifiestos de la versión 3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * Consulte [Configurar Dispatcher para la versión 3 del manifiesto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
+   * Si utiliza componentes personalizados como parte de manifiestos de la versión 3, consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correcciones de errores {#bug-fixes}
@@ -118,7 +118,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 **Lado del servidor**
 
 * El vídeo de destino no se muestra
-* Condición de carrera al transmitir datos de visualización a las subsecuencias.
+* Condiciones de carrera en la difusión de datos de visualización a las subsecuencias.
 
 * La vista previa de canal no funciona para canales que contienen vídeos.
 
@@ -132,7 +132,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * El manifiesto no contenía contenido de destino ni páginas incrustadas de Sites. Esto se ha corregido.
 
-* Ahora se agregan nuevos componentes de imagen principales al manifiesto de canal.
+* Ahora se agrega un nuevo componente de imagen principal al manifiesto de canal.
 
 * Ahora se admite la descarga de representaciones optimizadas mediante SmartSync.
 
@@ -150,16 +150,16 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * Se estaba reproduciendo el vídeo en `Tiny mode` y no se reproduce como vídeo de pantalla completa en el dispositivo, y el problema se ha corregido.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 9 de la versión 6.5 de:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

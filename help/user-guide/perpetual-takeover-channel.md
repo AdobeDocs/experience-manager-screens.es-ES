@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Siga los pasos a continuación para configurar un proyecto:
 1. Seleccione la pantalla **MainLobbyDisplay** desde el **Ubicaciones** carpeta. Clic **Asignar canal** de la barra de acciones para poder abrir **Asignación de canales** Cuadro de diálogo.
 
    >[!NOTE]
-   >Para aprender a asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
 
 1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y haga clic en **Guardar** para asignar el **MainAdChannel** a la pantalla.
 

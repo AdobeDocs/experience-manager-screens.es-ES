@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ AEM Al desplegar el reproductor Android™ de forma masiva, es necesario aprovis
 Siga los pasos a continuación para permitir el aprovisionamiento masivo en el reproductor Android™:
 
 1. Cree un archivo JSON de configuración con el nombre `player-config.default.json`.
-Consulte una [Ejemplo de directiva JSON](#example-json) y una tabla que describe el uso de los distintos [Atributos de política](#policy-attributes).
+Consulte un [Ejemplo de directiva JSON](#example-json) y una tabla que describe el uso de los distintos [Atributos de política](#policy-attributes).
 
 1. Utilice un explorador de archivos MDM, ADB o Android™ Studio para soltar este archivo JSON de directiva en *sdcard* en el dispositivo Android™.
 
@@ -168,7 +168,7 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 ```
 
 >[!NOTE]
->Todos los dispositivos Android™ tienen un `*sdcard*` carpeta si es real `*sdcard*` se ha insertado o no. Este archivo cuando se implementa, se encuentra en el mismo nivel que la carpeta Descargas. Algunos MDM, como Samsung Knox, pueden hacer referencia a esto *sdcard* ubicación de la carpeta como *Almacenamiento interno*.
+>Todos los dispositivos Android™ tienen un `*sdcard*` carpeta si es real `*sdcard*` se ha insertado o no. Este archivo cuando se implementa, se encuentra en el mismo nivel que la carpeta Descargas. Algunos MDM, como Samsung Knox, pueden ver esto *sdcard* ubicación de la carpeta como *Almacenamiento interno*.
 
 ## Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management {#bulk-provisioning}
 

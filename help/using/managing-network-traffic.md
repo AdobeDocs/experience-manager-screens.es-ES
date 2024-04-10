@@ -2,9 +2,9 @@
 title: Administración del tráfico de red
 description: La página describe las Configuraciones de red estándar y cómo administrar el tráfico de red.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ AEM Cuando un servidor proxy recibe una solicitud de un recurso de Internet (por
 
 ## Explicación de las configuraciones de red estándar {#network-setups}
 
-Para implementar una configuración de red, debe consultar los siguientes escenarios con sus fortalezas y detalles de implementación.
+Para implementar una configuración de red, consulte los siguientes escenarios con sus puntos fuertes y detalles de implementación.
 
 En esta guía se destacan cuatro tipos diferentes de configuraciones de red dentro de una organización:
 
-* **[Red de Internet directa (por cable o inalámbrica)](/help/using/direct-internet-network.md)**
+* **[Red de Internet directa (por cable/inalámbrica)](/help/using/direct-internet-network.md)**
 * **[Red móvil directa](/help/using/mobile-network.md)**
 * **[Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)**
 * **[Red corporativa cerrada (por cable/inalámbrica)](/help/using/enclosed-corporate-network.md)**

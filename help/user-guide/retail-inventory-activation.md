@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
 1. **Configuración de las audiencias según los requisitos**
 
-   1. Vaya a los segmentos de la audiencia (consulte ). ***Paso 2: Configuración de la segmentación de audiencia*** in **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
+   1. Vaya a los segmentos de la audiencia (consulte ***Paso 2: Configuración de la segmentación de audiencia*** in **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
 
    1. Añadir tres segmentos nuevos **For_Red**, **For_Green**, y **For_Blue**.
 

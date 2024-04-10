@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Para obtener información sobre cómo añadir una superposición de texto al recurso en un editor de canales, consulte [Superposición de texto](/help/user-guide/text-overlay.md).
+   >Para obtener información sobre cómo agregar una superposición de texto al recurso en un editor de canales, consulte [Superposición de texto](/help/user-guide/text-overlay.md).
 
 1. Vaya al CRXDE Lite AEM desde la instancia de la > Herramientas > **CRXDE Lite**.
 
@@ -84,7 +84,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 1. Clic **Guardar y cerrar** para actualizar la ruta de diseño.
 
    >[!IMPORTANT]
-   >Tiene la opción de superponer las plantillas de Screens existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos siguientes para obtener más detalles.
+   >Tiene la opción de superponer las plantillas de Screens existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más información.
 
 1. Para superponer las plantillas de Screens existentes e insertar sus propios diseños de forma predeterminada:
 

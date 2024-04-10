@@ -1,9 +1,9 @@
 ---
 title: Configuración del flujo de trabajo de ubicación directa
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Como autor de contenido, también puede hacer clic manualmente en **Actualizar c
 
 >[!NOTE]
 >
->Para aprender a utilizar la actualización sin conexión masiva, consulte [Actualización de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
+>Para obtener información sobre cómo utilizar la actualización sin conexión masiva, consulte [Actualización de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuración del flujo de trabajo Direct Placement {#configuring-workflow}
 

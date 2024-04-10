@@ -14,9 +14,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ A continuación se indican algunas consideraciones clave para la compatibilidad 
 * Los requisitos como la gestión de dispositivos remotos, la disponibilidad del servicio de asistencia y la asistencia técnica in situ son prácticamente una realidad en esta fase de la evolución del sector de la señalización digital. Más allá de estas necesidades básicas, los integradores de AV deberían explorar las variables de coste entre el monitorado proactivo y el reactivo, y los modelos de soporte.
 * Para prepararse para el éxito a largo plazo, es fundamental establecer un acuerdo de nivel de asistencia el día 2 (también llamado &quot;S.L.A.&quot;) en colaboración con AV Integrator. Los SLA detallan los servicios de asistencia posteriores a la implementación y ayudarán a establecer las expectativas de los clientes.
 * La Knowledge Base es un recurso clave que se utiliza para gestionar correctamente varias redes. SharePoint es una plataforma popular para este tipo de recurso. La Base de conocimiento incluye preguntas y respuestas programadas para que los agentes de NOC las sigan, lo que garantiza que las solicitudes de resolución de problemas entrantes se gestionen de manera coherente. Las bases de conocimientos suelen incluir materiales de referencia para configuraciones de sistemas y ubicaciones de sitios, incluidas hojas de corte para hardware y materiales de referencia para software de sistemas.
-* Las capacidades de monitorización y administración dependen en gran medida de los sistemas operativos del reproductor de medios y de las capacidades de pantalla. Los sistemas operativos Windows ofrecen el bueno nivel de detalle. Para implementaciones que se ejecutan en dispositivos Android o iOS, se emplea la administración de dispositivos móviles (también conocida como MDM).
+* Las capacidades de monitorización y administración dependen en gran medida de los sistemas operativos del reproductor de medios y de las capacidades de pantalla. Los sistemas operativos Windows ofrecen el máximo nivel de detalle. Para implementaciones que se ejecutan en dispositivos Android o iOS, se emplea la administración de dispositivos móviles (también conocida como MDM).
 * Algunos fabricantes de pantallas ofrecen la posibilidad de monitorizar pantallas independientes de los reproductores multimedia, mientras que otros requieren un dispositivo externo.
 * Los integradores audiovisuales aprovechan una combinación de tecnologías, por lo que las soluciones siguen siendo flexibles para satisfacer mejor las necesidades del cliente final.
 

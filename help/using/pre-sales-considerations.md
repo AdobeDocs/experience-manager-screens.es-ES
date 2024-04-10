@@ -1,17 +1,17 @@
 ---
-title: Consideraciones a tener en cuenta a medida que se definen los proyectos
+title: Consideraciones a medida que se amplían los proyectos
 seo-title: Considerations as Projects are Scoped
 description: La página describe Consideraciones a medida que se amplían los ámbitos de los proyectos
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
-# Consideraciones a tener en cuenta a medida que se definen los proyectos {#pre-sales-considerations}
+# Consideraciones a medida que se amplían los proyectos {#pre-sales-considerations}
 
 >[!NOTE]
 >La parte interesada habitual de esta actividad es un estratega de marketing/negocios.

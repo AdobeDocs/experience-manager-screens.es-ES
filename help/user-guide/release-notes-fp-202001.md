@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 4%
+source-wordcount: '307'
+ht-degree: 2%
 
 ---
 
@@ -34,18 +34,17 @@ La fecha de lanzamiento del paquete de funciones 202001 de AEM Screens es el 31 
 
 * **Sincronización de comandos para la reproducción de recursos**
 La sincronización de comandos permite la reproducción sincronizada en diferentes reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
-Para obtener más información sobre la sincronización de comandos y cómo establecer el maestro y los clientes, consulte [Usar la sincronización de comandos](using-command-sync.md).
+Para obtener más información acerca de la sincronización de comandos y cómo establecer el maestro y los clientes, consulte [Usar la sincronización de comandos](using-command-sync.md).
 
 * **Marco de comprobación de estado para mostrar el estado de https y permitir referente vacío**
 El marco de comprobación de estado permite al usuario comprobar si hay dos configuraciones necesarias (Permitir solicitudes de referente vacías y Servicio HTTP basado en Apache Felix Jetty) configuradas antes de ejecutar un proyecto de AEM Screens.
 
-   Para obtener más información sobre el marco de comprobación de estado, consulte [Marco de comprobación de estado](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  Para obtener más información acerca del marco de comprobación de estado, consulte [Marco de comprobación de estado](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Actualizaciones de tipos de transición predeterminados**
-Las propiedades del componente de transición, como 
-**Tipo** ahora se establece en **Atenuación** y el **Duración** as **1600 ms**, de forma predeterminada.
+Las propiedades del componente de transición, como **Tipo** ahora se establece en **Atenuación** y el **Duración** as **1600 ms**, de forma predeterminada.
 
-   Consulte [Aplicación de transiciones](/help/user-guide/applying-transitions.md) Caso de uso para obtener más información.
+  Consulte [Aplicación de transiciones](/help/user-guide/applying-transitions.md) Caso de uso para obtener más información.
 
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
@@ -58,4 +57,4 @@ Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de
 
 #### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
 
-Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).
+Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).

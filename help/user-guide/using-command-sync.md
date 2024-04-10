@@ -7,9 +7,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
 
    >[!NOTE]
    >
-   >Para aprender a asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
+   >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
 1. Vaya a **Dispositivos** y haga clic en **Administrador de dispositivos** en la barra de acciones para registrar los dispositivos.
 
@@ -70,7 +70,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
 
    >[!NOTE]
    >
-   >Para aprender a registrar un dispositivo, consulte [Registro de dispositivos](/help/user-guide/device-registration.md)
+   >Para obtener información sobre cómo registrar un dispositivo, consulte [Registro de dispositivos](/help/user-guide/device-registration.md)
 
 1. Para fines de demostración, este ejemplo muestra un dispositivo Chrome y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
    ![image1](assets/command-sync6.png)
