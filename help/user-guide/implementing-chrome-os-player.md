@@ -1,21 +1,17 @@
 ---
 title: Implementación del reproductor Chrome OS
-seo-title: Implementing Chrome OS Player
-description: Siga esta página para obtener más información sobre la implementación del Reproductor del sistema operativo Chrome mediante la consola de administración de Chrome.
-seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
-uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+description: Obtenga información acerca de la implementación del Reproductor del sistema operativo de Chrome mediante la consola de administración de Chrome.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -30,15 +26,15 @@ Siga los pasos a continuación para configurar la consola de administración de 
 
 1. Regístrese en Chrome Management Console. Debe obtener una licencia para Chrome Management Console. Contacto [Asistencia de Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Consulte Administrar la configuración del dispositivo Chrome para obtener más información.
 1. Registre su dispositivo Chrome OS en el dominio y espere 15 minutos a que el dispositivo se sincronice con la consola de administración de Chrome. Para obtener más información sobre cómo inscribir un dispositivo Chrome, haga clic en [aquí](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. El reproductor Chrome estará disponible en la tienda web de Chrome.
+1. El reproductor Chrome está disponible en la tienda web de Chrome.
 
 >[!NOTE]
 >
->Se recomienda una solución de administración de dispositivos como la consola de administración de Chrome para la implementación y administración de dispositivos Chrome OS. Aunque, este documento proporciona implementación para Chrome Management Console, hay otros proveedores que afirman proporcionar una funcionalidad similar. Póngase en contacto con el proveedor del software de administración de dispositivos.
+>Se recomienda una solución de administración de dispositivos como la consola de administración de Chrome para la implementación y administración de dispositivos Chrome OS. Aunque este documento proporciona implementación para Chrome Management Console, hay otros proveedores que afirman proporcionar una funcionalidad similar. Póngase en contacto con el proveedor del software de administración de dispositivos.
 
 ## Nombrar el reproductor Chrome OS {#name-chrome}
 
-Puede asignar un nombre de dispositivo descriptivo al reproductor Chrome y, de este modo, enviar el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Chrome y, de este modo, enviar el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre del reproductor ya no se puede cambiar.
@@ -49,16 +45,16 @@ Siga los pasos a continuación para configurar el nombre en el reproductor Chrom
 
    ![imagen](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. Se le presentarán las opciones cuando pueda inscribir el dispositivo.
+1. Se le presentarán las opciones para inscribir el dispositivo.
 
    ![imagen](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Puede establecer el ID del recurso como parte de la inscripción empresarial, así como en la consola de administración de Chrome.
+1. Puede establecer el ID de recurso como parte de la inscripción empresarial y en la consola de administración de Chrome.
 
    ![imagen](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Los reproductores de Chrome deben inscribirse en una inscripción empresarial y el reproductor de Chrome debe implementarse mediante Chrome Management Console; de lo contrario, el ID del recurso devolverá un espacio en blanco (por ejemplo, Chrome como extensión). El nombre del dispositivo solo se registra en el momento del registro. Los cambios futuros no serán recogidos por Adobe Experience Manager AEM ().
+   >Los reproductores de Chrome deben inscribirse en una inscripción empresarial y el reproductor de Chrome debe implementarse mediante Chrome Management Console; de lo contrario, el ID del recurso vuelve a estar en blanco (por ejemplo, Chrome como extensión). El nombre del dispositivo solo se registra en el momento del registro. Los cambios futuros no son recogidos por Adobe Experience Manager AEM ().
 
 ### Activando modo de quiosco {#enabling-kiosk-mode}
 
@@ -92,7 +88,7 @@ Siga los pasos a continuación para habilitar el modo Quiosco:
 
 >[!NOTE]
 >
->Tenga en cuenta que esta configuración puede habilitarse varios minutos después de inscribir el dispositivo. Cada opción puede habilitarse con el tiempo.
+>Esta configuración se puede habilitar varios minutos después de inscribir el dispositivo. Cada opción se puede activar con el tiempo.
 
 ### Configuración remota de los reproductores del sistema operativo Chrome {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -104,8 +100,8 @@ Siga los pasos a continuación para configurar varias opciones del reproductor:
 1. Clic **Administración de dispositivos** > **Administración de Chrome** > **Administración de aplicaciones**. El Reproductor de AEM Screens se muestra en la lista.
 1. Haga clic en la aplicación **Reproductor de AEM Screens**.
 1. Clic **Configuración de quiosco** y seleccione su organización (*si se utiliza un entorno de prueba*).
-1. Haga clic en **cargar archivo de configuración** y cargue la directiva de configuración (*Archivo Json*).
-1. Haga clic en **Guardar**. Debe reiniciar el dispositivo para sincronizar la directiva.
+1. Clic **cargar archivo de configuración** y cargue la directiva de configuración (*Archivo JSon*).
+1. Haga clic en **Guardar**. Reinicie el dispositivo para poder sincronizar la directiva.
 
 >[!NOTE]
 >
@@ -140,7 +136,7 @@ Siga los pasos a continuación para configurar varias opciones del reproductor:
 
 En la tabla siguiente se resumen las directivas con sus funciones.
 
-| **Nombre de política** | **Función** |
+| **Nombre de política** | **Finalidad** |
 |---|---|
 | servidor | La dirección URL del servidor de Adobe Experience Manager AEM (). |
 | registrationKey | Se utiliza para el registro masivo de dispositivos mediante una clave previamente compartida. |
@@ -148,13 +144,13 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 | rebootSchedule | Programación para reiniciar el reproductor. |
 | enableAdminUI | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
 | enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
-| enableActivityUI | Habilite para mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
-| cloudMode | Configúrelo en true si desea que el reproductor Chrome se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la configuración local de la. |
+| enableActivityUI | Habilite para que pueda mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| cloudMode | Configúrelo en true si desea que el reproductor Chrome se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la red local de servicios (On-). |
 | cloudToken | Token de registro para registrarse en Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Las configuraciones de directiva se aplican estrictamente y no se anulan manualmente en la IU de administración del reproductor. Para permitir la configuración manual del reproductor para una directiva determinada, no especifique la directiva en la ***configuración de directivas,*** por ejemplo, si desea permitir la configuración manual de la programación de reinicio, no especifique la clave ***rebootSchedule*** en la configuración de la directiva.
+>Las configuraciones de directiva se aplican estrictamente y no se anulan manualmente en la IU de administración del reproductor. Para permitir la configuración manual del reproductor para una directiva determinada, no especifique la directiva en la ***configuración de directiva***. Por ejemplo, si desea permitir la configuración manual de la programación de reinicio, no especifique la clave ***rebootSchedule*** en la configuración de la directiva.
 
 ### Uso del control remoto de Screens {#using-remote-control}
 

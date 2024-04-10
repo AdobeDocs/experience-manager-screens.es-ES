@@ -1,14 +1,13 @@
 ---
 title: Guía de KickStart
-seo-title: Kickstart Guide
-description: Siga esta página para crear un proyecto de AEM Screens de demostración. Le ayuda a crear una experiencia de señalización digital que comienza con la instalación y la configuración de un nuevo proyecto para ver el contenido en el reproductor de AEM Screens.
+description: Obtenga información sobre cómo crear un proyecto de AEM Screens de demostración. Le ayuda a crear una experiencia de señalización digital que comienza con la instalación y la configuración de un nuevo proyecto para ver el contenido en el reproductor de AEM Screens.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1279'
 ht-degree: 2%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 2%
 La introducción a AEM Screens muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos o vídeos a cada canal, así como la publicación de contenido en un reproductor de AEM Screens.
 
 >[!NOTE]
->Antes de comenzar a trabajar en los detalles del proyecto, asegúrese de que ha instalado el último paquete de funciones para AEM Screens. Puede descargar el paquete de funciones más reciente de la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID.
+>Antes de trabajar en los detalles del proyecto, asegúrese de que ha instalado el último paquete de funciones para AEM Screens. Puede descargar el paquete de funciones más reciente de la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID.
 
 ## Requisitos previos {#prerequisites}
 
@@ -57,7 +56,8 @@ El primer paso es crear un proyecto de AEM Screens.
 
 1. Vaya a la instancia de Adobe Experience Manager AEM () y haga clic en **Screens**. También puede navegar directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Clic **Crear proyecto de Screens** para crear un nuevo proyecto de Screens. Escriba el título como **Demostraciones** y haga clic en **Guardar**.
+1. Clic **Crear proyecto de Screens** para poder crear un proyecto de Screens.
+1. Escriba el título como **Demostraciones**, luego haga clic en **Guardar**.
 
    ![imagen](assets/kickstart/demo-1.png)
 
@@ -66,9 +66,9 @@ El primer paso es crear un proyecto de AEM Screens.
 
 ### Creación de un canal {#creating-channel}
 
-Una vez creado el proyecto de AEM Screens, debe crear un nuevo canal donde administre el contenido.
+Una vez creado el proyecto de AEM Screens, debe crear un canal en el que administre el contenido.
 
-Siga los pasos a continuación para crear un nuevo canal para su proyecto:
+Siga los pasos a continuación para crear un canal para su proyecto:
 
 1. Una vez creado un proyecto, seleccione la opción **Demostraciones** proyecto y seleccione la **Canales** , como se muestra en la figura siguiente. Clic **+ Crear** de la barra de acciones.
 
@@ -87,7 +87,7 @@ Siga los pasos a continuación para crear un nuevo canal para su proyecto:
 
 ### Adición de contenido a un canal {#adding-content}
 
-Una vez que haya configurado el canal, deberá añadir contenido al canal que mostrará el reproductor de AEM Screens.
+Cuando tenga el canal configurado, añada contenido al canal que el reproductor de AEM Screens pueda mostrar.
 
 Siga los pasos a continuación para añadir contenido al canal (**TestChannel**) en su proyecto:
 
@@ -105,19 +105,16 @@ Siga los pasos a continuación para añadir contenido al canal (**TestChannel**)
 
 ### Creación de una ubicación {#creating-location}
 
-Una vez que haya configurado el canal, debe crear una ubicación.
+Cuando tenga el canal configurado, cree una ubicación.
 
 >[!NOTE]
 >***Ubicaciones*** compartimente las distintas experiencias de señalización digital e incluya las configuraciones de las pantallas según la ubicación de las mismas.
 
-Siga los pasos a continuación para crear una nueva ubicación para su proyecto:
+Siga los pasos a continuación para crear una ubicación para su proyecto:
 
 1. Vaya a **DemoProject** ha creado y seleccionado el **Ubicaciones** carpeta.
-
 1. Clic **+ Crear** de la barra de acciones.
-
 1. Seleccionar **Ubicación** en el asistente y haga clic en **Siguiente**.
-
 1. Introduzca el **Nombre** para su ubicación (escriba el título como **TestLocation**) y haga clic en **Crear**.
 
 El **TestLocation** se crea y se añade a su **Ubicaciones** carpeta.
@@ -125,13 +122,12 @@ El **TestLocation** se crea y se añade a su **Ubicaciones** carpeta.
 
 ### Creación de una visualización para la ubicación {#creating-display}
 
-Una vez creada una ubicación, debe crear una nueva pantalla para la ubicación.
+Cuando haya creado una ubicación, cree una pantalla para la ubicación.
 
 >[!NOTE]
 >***Mostrar*** representa la experiencia digital que se ejecuta en una o varias pantallas.
 
 1. Vaya a **TestLocation** y selecciónelo.
-
 1. Clic **Crear** de la barra de acciones.
 
    ![imagen](assets/kickstart/demo-disp1.png)
@@ -150,7 +146,7 @@ Una vez creada una ubicación, debe crear una nueva pantalla para la ubicación.
 
 ### Asignación de un canal {#assigning-channel}
 
-Una vez completada la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
+Cuando se complete la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
 
 1. Vaya a la pantalla requerida desde **Demostraciones** > **Ubicaciones** > **TestLocation** > **LobbyDisplay**.
 
@@ -174,17 +170,17 @@ Una vez completada la configuración del proyecto, debe asignar el canal a una p
 
    ![imagen](assets/kickstart/demo-assign3.png)
 
-   Además, también puede seleccionar la variable **Ventana de activación** y **Horario de periodicidad**.
+   Además, puede seleccionar la variable **Ventana de activación** y **Horario de periodicidad**.
 
    >[!NOTE]
-   >El *Horario de periodicidad* le permite establecer una programación recurrente para su canal. Puede configurar varias programaciones de periodicidad para un canal.
+   >El *Horario de periodicidad* permite establecer una programación recurrente para el canal. Puede configurar varias programaciones de periodicidad para un canal.
    >Consulte [Horario de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más información.
 
 1. Clic **Guardar** una vez configuradas las preferencias.
 
 ### Registro de un dispositivo y asignación de un dispositivo a una pantalla {#registering-device}
 
-AEM Es necesario registrar el dispositivo mediante el panel de control de.
+AEM Registre el dispositivo mediante el panel de control de.
 
 >[!IMPORTANT]
 >El reproductor Chrome OS se puede instalar como complemento del navegador Chrome en el modo de desarrollador sin necesidad del dispositivo reproductor Chrome. Para la instalación, siga los pasos a continuación:
@@ -193,10 +189,10 @@ AEM Es necesario registrar el dispositivo mediante el panel de control de.
 >1. Descomprima y guárdelo en el disco.
 >1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
 >1. Encienda el **Modo de desarrollador** desde la esquina superior derecha.
->1. Haga clic en **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome sin comprimir.
+>1. Clic **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
 >1. Marque **Reproductor de AEM Screens Chrome** complemento si está disponible en la lista de extensiones.
 >1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
->1. Haga clic en **AEM Screens** Complemento para iniciar el reproductor Chrome. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **esc** para salir del modo de pantalla completa.
+>1. Clic **AEM Screens** Complemento para que pueda iniciar el reproductor Chrome. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
 
 Una vez que el reproductor de Chrome OS esté encendido, siga los pasos a continuación para registrar un dispositivo Chrome.
 
@@ -229,11 +225,11 @@ Una vez que el reproductor de Chrome OS esté encendido, siga los pasos a contin
 
    ![imagen](assets/kickstart/demo-device6.png)
 
-1. Una vez que el dispositivo se haya asignado correctamente, verá la siguiente confirmación.
+1. Cuando el dispositivo se asigne correctamente, verá la siguiente confirmación.
 
    ![imagen](assets/kickstart/demo-register8.png)
 
-1. Pulse o haga clic en **Finalizar** para completar el proceso de registro. Debería poder ver el dispositivo registrado desde el panel de visualización.
+1. Seleccionar **Finalizar** para completar el proceso de registro. Ahora puede ver el dispositivo registrado en el panel de visualización.
 
    ![imagen](assets/kickstart/demo-register9.png)
 

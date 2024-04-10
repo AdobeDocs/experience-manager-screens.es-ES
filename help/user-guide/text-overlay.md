@@ -1,22 +1,18 @@
 ---
 title: Superposición de texto
-seo-title: Text Overlay
-description: La superposición de texto es una función disponible en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencia al proporcionar un título o una descripción superpuestos sobre una imagen. Siga esta página para obtener más información.
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: Obtenga información sobre la superposición de texto en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencia proporcionando un título o una descripción superpuestos sobre una imagen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -32,11 +28,11 @@ Esta sección trata los siguientes temas:
 
 >[!CAUTION]
 >
->El **Superposición de texto** AEM AEM Esta función solo está disponible si ha instalado el paquete de funciones 3 de 6.3 o 5 de la versión de 6.3 de la versión de, o bien si ha instalado el paquete de funciones 3 de la versión de 6.3 de la versión de 3.000.
+>El **Superposición de texto** AEM AEM Esta función solo está disponible si ha instalado el paquete de funciones 5 o 3 de la versión 6.3 del paquete de funciones 3 del paquete de funciones de la versión 6.3 del paquete de funciones de la versión 5 o la versión 3 del paquete de funciones de la versión 6.4 de la versión.
 
 ## Información general {#overview}
 
-La superposición de texto es una función disponible en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencia al proporcionar un título o una descripción superpuestos sobre una imagen.
+La superposición de texto es una función disponible en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen.
 
 Para aprender a crear su propio componente personalizado, consulte **Ampliación de un componente de AEM Screens**.
 
@@ -48,7 +44,7 @@ En la siguiente sección se describe el uso de la superposición de texto en un 
 
 **Requisitos previos**
 
-Antes de comenzar a implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para comenzar a implementar la superposición de texto. Por ejemplo,
+Antes de implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para comenzar a implementar la superposición de texto. Por ejemplo,
 
 * Cree un proyecto de AEM Screens (en este ejemplo, **TextOverlayDemo**)
 
@@ -62,7 +58,7 @@ La siguiente imagen muestra el **TextOverlayDemo** proyecto con **TextSample** e
 
 Siga los pasos a continuación para utilizar la superposición de texto en un canal de AEM Screens:
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ En la siguiente sección se describe el uso de valores de un almacén de datos, 
 
 Configure las opciones de ContextHub para el proyecto de AEM Screens.
 
-Para obtener información sobre cómo configurar y administrar cambios en recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Para obtener información sobre cómo configurar y administrar cambios en recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-Una vez que haya configurado las configuraciones necesarias para su proyecto, siga los pasos a continuación para utilizar los valores de las hojas de Google:
+Después de configurar las configuraciones necesarias para el proyecto, siga los pasos a continuación para utilizar los valores de las Hojas de cálculo de Google:
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Propiedades** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Propiedades** de la barra de acciones.
 
-1. Seleccione el **Personalización** para configurar las configuraciones de ContextHub.
+1. Seleccione el **Personalización** para poder configurar las configuraciones de ContextHub.
 
-   1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y haga clic en **Seleccionar**.
+   1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y seleccione **Seleccionar**.
 
-   1. Seleccione el **Ruta de segmentos** as **conf** > **pantallas** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar**.
+   1. Seleccione el **Ruta de segmentos** as **conf** > **pantallas** > **configuración** > **wcm** > **segmentos** y seleccione **Seleccionar**.
 
-   1. Haga clic en **Guardar y cerrar**.
+   1. Seleccione **Guardar y cerrar**.
 
       >[!NOTE]
       >
@@ -118,27 +114,27 @@ Una vez que haya configurado las configuraciones necesarias para su proyecto, si
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** en la barra de acciones para abrir el editor.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Añada un componente de superposición de imagen y texto a la imagen como se describe en [Uso de superposición de texto](/help/user-guide/text-overlay.md#using-text-overlay) de esta página.
 
-1. Haga clic en **Configurar** (icono de la llave inglesa) para abrir **Imagen** Cuadro de diálogo.
+1. Seleccionar en **Configurar** (icono de la llave inglesa) para abrir **Imagen** Cuadro de diálogo.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Vaya a **ContextHub** de la pestaña **Imagen** Cuadro de diálogo. Clic **Añadir**.
+1. Vaya a **ContextHub** de la pestaña **Imagen** Cuadro de diálogo. Seleccione **Añadir**.
 
    >[!NOTE]
-   >Si no ha configurado las configuraciones de ContextHub, esta opción está desactivada en el proyecto.
+   >Si no ha definido la configuración de ContextHub, esta opción está desactivada para el proyecto.
 
 1. Entrar **Valor** en el **Marcador** field. Seleccione la fila en la que desea obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, haga clic en la marca de verificación.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >Para su referencia, la siguiente imagen muestra el valor que se recupera de las hojas de Google:
+   >Para su referencia, la siguiente imagen muestra el valor recuperado de las hojas de Google:
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -146,6 +142,6 @@ Una vez que haya configurado las configuraciones necesarias para su proyecto, si
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Haga clic en **Previsualizar** para ver el resultado deseado.
+1. Seleccionar **Previsualizar**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

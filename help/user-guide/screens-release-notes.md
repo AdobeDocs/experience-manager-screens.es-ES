@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ La fecha de lanzamiento del paquete de funciones 201809 de AEM Screens es el 1 d
 
 ### Reproductores de AEM Screens publicados {#released-aem-screens-players}
 
-Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de funciones 2 de la versión 6.4.2 de la versión 1999 y en el paquete de funciones 4 de la versión 6.3.3 de la versión 1999 de la versión 2 de la versión 2 de la versión 2 de la versión 1999 de la versión 1999 de la versión 1999 de la versión 1999 de la versión 2009 de la versión 1999 de la versión 20030.
+Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de funciones 2 de la versión 6.4.2 de la versión 1999 y en el paquete de funciones 4 de la versión 6.3.3 de la versión 1999 de la versión 2 de la versión 2 de la versión 2 de la versión 1999 de la versión 1999 de la versión 1999 de la versión 1999 de la versión 2009 de la versión 2009 de la versión 2003:
 
 * ChromeOS
 * Windows

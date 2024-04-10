@@ -1,11 +1,9 @@
 ---
 title: Configuración del flujo de trabajo de ubicación directa
-seo-title: Direct Placement Workflow Configuration
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -22,7 +20,7 @@ Esta sección trata los siguientes temas:
 
 ## Información general {#overview}
 
-La configuración del flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de los recursos y permite colocar cualquier recurso en esa carpeta. Se recomienda almacenar en déclencheur la actualización sin conexión masiva para completar la publicación.
+La configuración del flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de los recursos y permite colocar cualquier recurso en esa carpeta. El Adobe recomienda almacenar en déclencheur una actualización masiva sin conexión para completar la publicación.
 
 Como autor de contenido, también puede hacer clic manualmente en **Actualizar contenido sin conexión**.
 
@@ -34,11 +32,11 @@ Como autor de contenido, también puede hacer clic manualmente en **Actualizar c
 
 >[!IMPORTANT]
 >
->Antes de iniciar la configuración, debe instalar el [Paquete de demostración](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde su instancia de > Herramientas (icono) > **Flujo de trabajo** > **Modelos de flujo de trabajo**.
+>Antes de iniciar la configuración, debe instalar el `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde su instancia de > Herramientas (icono) > **Flujo de trabajo** > **Modelos de flujo de trabajo**.
 
 Siga los pasos a continuación para configurar el flujo de trabajo de ubicación directa:
 
-1. Navegue hasta AEM Screens AEM desde la instancia de su y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
+1. Navegue hasta AEM Screens AEM desde la instancia de y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
 
 1. Cree un canal con el título **Workflow-Assets** bajo **Canales** carpeta.
 

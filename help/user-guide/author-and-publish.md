@@ -2,9 +2,9 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Para cada instancia de publicación:
 1. Actualizar URL del conector de topología: añada las URL de todas las instancias de publicación participantes que sean:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Lista de direcciones permitidas del conector de topología**: se adapta a las direcciones IP o subredes que abarcan todas las instancias de publicación. Asegúrese de incluir en la lista blanca la IP/nombre de host de todas las instancias de publicación sin el número de puerto.
+1. **Conector de topología `Whitelist` Lista**: se adapta a las direcciones IP o subredes que abarcan todas las instancias de publicación. Asegúrese de que `whitelist` el nombre de host/IP de todas las instancias de publicación sin el número de puerto.
 
 1. Activar **Auto-Stop Local-Loops**
 
@@ -213,7 +213,7 @@ Una vez configurada la topología de publicación, configure las instancias de a
 >
 >Para empezar con este ejemplo, cree un proyecto de AEM Screens seguido de la creación de una ubicación, una visualización y un canal en el proyecto. Añada contenido al canal y asigne el canal a una pantalla.
 
-#### Paso 1: Inicio de un reproductor de AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Paso 1: Inicio de un reproductor de AEM Screens (dispositivo)
 
 1. Inicie una ventana independiente del explorador.
 1. Vaya al reproductor de Screens con el *explorador web*, es decir,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` o inicie la aplicación de AEM Screens. Cuando abra el dispositivo, observe que su estado no está registrado.
@@ -280,7 +280,7 @@ Los siguientes puntos resumen la lista de comprobación de publicación:
 * *Programación* - si utiliza una programación, asegúrese de que se publique
 * *Ubicación, horarios y carpeta del canal* : si los recursos correspondientes están dentro de una carpeta.
 
-Siga los pasos a continuación para verificar el comportamiento de autor/publicación:
+Siga los pasos a continuación para verificar el comportamiento de creación y publicación:
 
 1. Actualizar parte del contenido del canal en la instancia de autor.
 1. Realizar **Administrar publicación** para publicar nuevos cambios en todas las instancias de publicación.

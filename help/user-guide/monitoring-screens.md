@@ -1,41 +1,37 @@
 ---
-title: Solución de problemas del Centro de control de dispositivos
-seo-title: Monitoring Screens
-description: Siga esta página para supervisar y solucionar problemas de rendimiento para la actividad del reproductor de Screens y el dispositivo mediante el panel Dispositivo.
-seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
-uuid: b6895d5d-c743-4e10-a166-de573e122335
+title: Centro de control de dispositivos de solución de problemas
+description: Obtenga información sobre cómo monitorizar y solucionar problemas de rendimiento de la actividad del reproductor de AEM Screens y del dispositivo mediante el panel de dispositivos.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
-discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
 # Solución de problemas del Centro de control de dispositivos {#troubleshooting-device-control-center}
 
-Puede monitorizar y solucionar problemas de rendimiento de la actividad del reproductor de Screens y del dispositivo mediante el panel de dispositivos. Esta página proporciona información sobre cómo monitorizar y solucionar problemas de rendimiento percibidos para el reproductor Screens y los dispositivos asignados.
+Puede monitorizar y solucionar problemas de rendimiento de la actividad del reproductor AEM Screens y del dispositivo mediante el panel de dispositivos. Esta página proporciona información sobre cómo monitorizar y solucionar problemas de rendimiento percibidos para el reproductor Screens y los dispositivos asignados.
 
-## Monitorización y solución de problemas desde el Centro de control de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
+## Supervisión y solución de problemas desde el Centro de control de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
 
-Puede monitorizar la actividad y, por lo tanto, solucionar problemas del reproductor Screens mediante el panel del dispositivo.
+Puede monitor el actividad y, por lo tanto, solucionar problemas de su reproductor de AEM Screens utilizando el panel de control del dispositivo.
 
 ### Tablero de dispositivo {#device-dashboard}
 
-Siga los pasos a continuación para navegar al panel de dispositivos:
+Siga los pasos que se indican a continuación para desplazarse al dispositivos panel:
 
-1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
+1. Navegue hasta la dispositivos panel del proyecto, por ejemplo, ***Probar proyecto*** > ***dispositivos***.
 
-   Seleccionar **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
+   Seleccione **Dispositivos** y **Administrador** de dispositivos en la barra de acciones.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -53,35 +49,35 @@ Siga los pasos a continuación para navegar al panel de dispositivos:
 
 ### Monitorizar actividad del dispositivo {#monitor-device-activity}
 
-El **Actividad** el panel muestra el último ping del reproductor de screens con la marca de tiempo. El último ping corresponde a la última vez que el dispositivo contactó con el servidor.
+El **Actividad** el panel muestra el último ping del reproductor de AEM Screens con la marca de tiempo. El último ping corresponde a la última vez que el dispositivo contactó con el servidor.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Además, haga clic en **Recopilar registros** desde la esquina superior derecha de la **Actividad** para ver los registros del reproductor.
+Además, seleccione **Recopilar registros** en la esquina superior derecha del **panel de actividades** para vista los registros de su reproductor.
 
-### Actualizar detalles del dispositivo {#update-device-details}
+### Actualizar los detalles del dispositivo {#update-device-details}
 
-Compruebe la **Detalles del dispositivo** para ver la IP del dispositivo, el uso del almacenamiento, la versión de firmware y el tiempo de actividad del reproductor del dispositivo.
+Compruebe la **Detalles del dispositivo** para que pueda ver la IP del dispositivo, el uso del almacenamiento, la versión del firmware y el tiempo de actividad del reproductor del dispositivo.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Además, haga clic en **Borrar caché** y **Actualizar** para borrar la caché de su dispositivo y actualizar el [firmware](screens-glossary.md) versión respectivamente de este panel.
+Además, seleccione **Borrar caché** y **Actualizar** para borrar la caché de su dispositivo y actualizar el [firmware](screens-glossary.md) versión respectivamente de este panel.
 
-Además, haga clic en **...** desde la esquina superior derecha de la **Detalles del dispositivo** panel para reiniciar o actualizar el estado del reproductor.
+Además, seleccione **...** desde la esquina superior derecha de la **Detalles del dispositivo** panel para reiniciar o actualizar el estado del reproductor.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Actualizar información del dispositivo {#update-device-information}
+### Actualizar la información del dispositivo {#update-device-information}
 
-Compruebe la **INFORMACIÓN DEL DISPOSITIVO** para ver la actualización de la configuración, el modelo del dispositivo, el sistema operativo del dispositivo y la información del shell.
+Compruebe el panel INFORMACIÓN **DEL** DISPOSITIVO. Aquí puede vista la actualización de configuración, dispositivos modelo, dispositivos sistema operativo y la información del shell.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Además, haga clic en el icono (**...**), en la esquina superior derecha del panel Información del dispositivo, para ver las propiedades o actualizar el dispositivo.
+Asimismo, seleccione (**...**) en la esquina superior derecha del panel Información del dispositivo para vista propiedades o actualizar el dispositivos.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Clic **Propiedades** para ver la **Propiedades del dispositivo** Cuadro de diálogo. Puede editar el título del dispositivo o elegir la opción para las actualizaciones de configuración como **Manual** o **Automático**.
+Seleccionar **Propiedades** para que pueda ver la **Propiedades del dispositivo** Cuadro de diálogo. Puede editar el título del dispositivo o elegir la opción para las actualizaciones de configuración como **Manual** o **Automático**.
 
 >[!NOTE]
 >
@@ -102,15 +98,15 @@ Haga clic en (**...**) en la esquina superior derecha del panel Captura de panta
 El **PREFERENCIAS** El panel permite al usuario cambiar las preferencias de **IU de administración**, **Conmutador de canales**, y **Depuración remota** para el dispositivo.
 
 >[!NOTE]
->Para obtener más información sobre estas opciones, consulte [Reproductor de AEM Screens](working-with-screens-player.md).
+>Para obtener más información sobre estas opciones, consulte [AEM Screens reproductor](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Además, haga clic en **Configuración** desde la esquina superior derecha para actualizar las preferencias del dispositivo. Puede actualizar las siguientes preferencias:
+Además, seleccione **Configuración** desde la esquina superior derecha para actualizar las preferencias del dispositivo. Puede actualizar las siguientes preferencias:
 
 * **URL del servidor**
 * **Resolución**
-* **Programación de reinicio**
+* **Reiniciar programa**
 * **Número máximo. de archivos de registro que se van a conservar**
 * **Nivel de registro**
 
@@ -126,32 +122,32 @@ Además, haga clic en **Configuración** desde la esquina superior derecha para 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Solucionar problemas de configuración de OSGi {#troubleshoot-osgi-settings}
+## Solución de problemas de OSGi Configuración {#troubleshoot-osgi-settings}
 
-Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla.
+Active el remitente del reenvío vacío para que el dispositivos pueda entrada datos al servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla.
 
 Actualmente, algunas de estas funciones solo están disponibles si la variable *Filtro de referente de Apache Sling permitir vacío* está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
 
 Siga los pasos a continuación para habilitar el Filtro de referente de Apache Sling Permitir vacío
 
-1. Vaya a **Configuración de la consola web Adobe Experience Manager**, es decir, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Compruebe la **allow.empty** opción.
+1. Desplácese hasta **Adobe Experience Manager configuración** de la consola web, es decir, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Marque la **opción allow.empty** .
 1. Haga clic en **Guardar**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
 ### Recomendaciones {#recommendations}
 
-En la siguiente sección se recomienda monitorizar los vínculos de red, el servidor y los reproductores para comprender el estado y reaccionar ante los problemas.
+La siguiente sección recomienda supervisar los vínculos de red, los servidores y los reproductores para comprender el estado y reaccionar ante los problemas.
 
 AEM proporciona una monitorización integrada para:
 
-* *Heartbeat* cada 5 segundos a indica que el Reproductor de AEM Screens está en funcionamiento.
-* *Captura de pantalla* del Reproductor que muestra lo que se muestra actualmente en el Reproductor.
+* *Heartbeat* cada 5 segundos para indicar que el Reproductor de AEM Screens está en funcionamiento.
+* *Captura de pantalla* del reproductor que muestra lo que se muestra en el reproductor.
 * El *Firmware del reproductor AEM Screens* versión instalada en el reproductor.
 * *Espacio de almacenamiento gratuito* en el reproductor.
 
-Recommendations para el monitorado remoto con software de terceros:
+Recommendations para monitorado remoto con software de terceros:
 
 * Uso de CPU en reproductores.
 * Compruebe si el proceso del Reproductor de AEM Screens se está ejecutando.
@@ -160,6 +156,6 @@ Recommendations para el monitorado remoto con software de terceros:
 
 Se recomienda implementar el hardware y el sistema operativo del Reproductor de forma que permita el inicio de sesión remoto para diagnosticar problemas y reiniciar el Reproductor.
 
-#### Recursos adicionales {#additional-resources}
+#### Otros recursos {#additional-resources}
 
-Consulte [Configuración y solución de problemas de reproducción de vídeo](troubleshoot-videos.md) para depurar y solucionar problemas de vídeos que se reproducen en el canal.
+Consulte [Vídeo Configuración de reproducción y solución de problemas](troubleshoot-videos.md) si desea depurar y solucionar problemas de los vídeos que se reproducen en su canal.

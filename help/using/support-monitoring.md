@@ -1,12 +1,10 @@
 ---
 title: Monitorización de soporte
-seo-title: Support Monitoring for AEM Screens
-description: En la página se describe la Guía de prácticas recomendadas de supervisión de soporte para AEM Screens
-seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+description: Obtenga información acerca de la supervisión de soporte para la Guía de prácticas recomendadas de AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,16 +24,15 @@ La monitorización de contenido le permite solucionar los problemas relacionados
 
 1. Si se encuentra un problema de pantalla en blanco:
 
-   * Marque *previsualización* para ver si el canal muestra una pantalla en negro
+   * Marque *previsualización* para que puedan ver si el canal muestra una pantalla en negro.
    * Registre un *reproductor local de chrome* (como extensión) en su portátil a esa pantalla y ver si se muestra una pantalla en negro.
-   * Haga clic con el botón derecho e inspeccione y compruebe *registros aplicables*.
+   * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.
 
    Además, si esto no sucede en el reproductor local, sino solo en el dispositivo:
 
    * Marque *tipo de medios* (en uso) que pueden tener problemas en ese dispositivo y también confirmar si el contenido se descargó correctamente localmente (IU del administrador para borrar la caché del canal).
    * Incluir cualquiera *registros de dispositivo* en el ticket para una solución rápida de problemas.
    * *Recopilar registros* AEM desde el dispositivo desde el punto de vista de la.
-
 
 ## Monitorización de dispositivos {#device-monitoring}
 
@@ -45,4 +42,4 @@ Supervisión del dispositivo relacionada con la supervisión del dispositivo fí
 
    * Compruebe si la variable *exhibición* está encendido.
    * Compruebe si la variable *ordenador* está encendido y está enviando señal.
-   * Clic derecho, inspeccionar y comprobar *registros aplicables*.
+   * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.

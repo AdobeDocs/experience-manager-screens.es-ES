@@ -1,15 +1,13 @@
 ---
 title: Creación y administración de canales
-seo-title: Managing Channels
-description: Siga esta página para obtener más información sobre la creación y administración de canales. También se explica el tablero de canales y la edición de contenido para un canal.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Obtenga información sobre la creación y administración de canales. También se explica el tablero de canales y la edición de contenido para un canal.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1260'
 ht-degree: 2%
 
 ---
@@ -27,7 +25,7 @@ Esta página muestra la creación y administración de canales para AEM Screens.
 
 ## Creación de un nuevo canal {#creating-a-new-channel}
 
-Una vez que haya creado el proyecto para AEM Screens, siga los pasos a continuación para crear un nuevo canal para su proyecto:
+Una vez que haya creado el proyecto para AEM Screens, siga los pasos a continuación para crear un canal para su proyecto:
 
 1. Seleccione el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, Pantallas. También puede navegar directamente a `https://localhost:4502/screens.html/content/screens`.
 
@@ -56,7 +54,7 @@ Las siguientes opciones de plantilla están disponibles mientras se utiliza el a
 | Carpeta de canales | Permite crear una carpeta para almacenar una colección de canales. |
 | Canal de secuencia | Permite crear un canal que reproduce los componentes secuencialmente (uno a uno en una presentación de diapositivas). |
 | Canal de aplicaciones | Permite mostrar la aplicación web personalizada en el reproductor de Screens. |
-| Canal de pantalla dividida 1x1 | Permite ver el componente en una sola zona. |
+| Canal de pantalla dividida 1x1 | Permite ver un componente en una sola zona. |
 | Canal de pantalla dividida 1x2 | Permite ver los recursos en dos zonas (divididas horizontalmente). |
 | Canal De Pantalla Dividida 2X1 | Permite ver los recursos en dos zonas (divididas verticalmente). |
 | Canal de pantalla dividida 2x2 | Permite ver los recursos en cuatro zonas (divididos horizontal y verticalmente en una matriz). |
@@ -69,7 +67,7 @@ Las siguientes opciones de plantilla están disponibles mientras se utiliza el a
 
 >[!IMPORTANT]
 >
-> Una vez que haya creado y añadido contenido al canal, el siguiente paso es crear una ubicación y, a continuación, una pantalla. Además, debe asignar ese canal a una pantalla. Consulte los recursos que aparecen a continuación al final de la sección para obtener más información.
+> Una vez que haya creado y añadido contenido al canal, el siguiente paso es crear una ubicación y, a continuación, una pantalla. Además, debe asignar ese canal a una pantalla. Consulte los recursos que aparecen a continuación al final de la sección.
 
 ## Uso de canales {#working-with-channels}
 
@@ -83,7 +81,7 @@ Puede editar, ver las propiedades y el panel, copiar, previsualizar y eliminar u
 Para añadir o editar contenido en un canal, siga los pasos a continuación:
 
 1. Seleccione el canal que desee editar (como se muestra en la figura anterior).
-1. Clic **Editar** desde la esquina superior izquierda de la barra de acciones para editar las propiedades del canal. Se abre el editor, que le permite agregar recursos o componentes al canal que desee publicar.
+1. Clic **Editar** desde la esquina superior izquierda de la barra de acciones para poder editar las propiedades del canal. Se abre el editor, que le permite agregar recursos o componentes al canal que desee publicar.
 
 >[!NOTE]
 >Puede añadir componentes al canal. Consulte **[Adición de componentes a un canal](adding-components-to-a-channel.md)** para obtener más información.
@@ -95,27 +93,23 @@ Para añadir o editar contenido en un canal, siga los pasos a continuación:
 Siga los pasos a continuación para cargar vídeos en su canal:
 
 1. Seleccione el canal en el que desea cargar el vídeo.
-1. Clic **Editar** en la barra de acciones para abrir el editor.
-1. Seleccionar **Vídeos** en Recursos y arrastre y suelte los vídeos necesarios.
+1. Clic **Editar** de la barra de acciones.
+1. En el editor, seleccione **Vídeos** en Recursos y arrastre y suelte los vídeos necesarios.
 
 >[!NOTE]
 >Si tiene problemas al cargar vídeos en su canal, consulte [Vídeos de resolución de problemas](troubleshoot-videos.md).
 
-### Visualización de propiedades {#viewing-properties}
-
-Para ver o editar las propiedades de un canal, siga los pasos a continuación:
+### Visualización o edición de las propiedades de un canal {#viewing-properties}
 
 1. Haga clic en el canal que desee editar.
-1. Clic **Propiedades** en la barra de acciones para ver o editar las propiedades del canal. Las siguientes pestañas le permiten cambiar las opciones.
+1. Clic **Propiedades** en la barra de acciones, para poder ver o editar las propiedades del canal. La siguiente pestaña permite cambiar las opciones.
 
 ![propiedades](assets/properties.gif)
 
 ### Visualización del panel {#viewing-dashboard}
 
-Para ver el panel de un canal, siga los pasos a continuación:
-
 1. Seleccione el canal que desee editar.
-1. Clic **Tablero** en la barra de acciones para ver el panel. El **INFORMACIÓN DEL CANAL**,**PANTALLAS ASIGNADAS**, y **INICIOS PENDIENTES** se abre el panel, como se muestra en la figura siguiente:
+1. Clic **Tablero** de la barra de acciones.
 
 ![tablero](assets/dashboard.gif)
 
@@ -123,7 +117,7 @@ Para ver el panel de un canal, siga los pasos a continuación:
 
 El panel Información del canal describe las propiedades del canal, junto con la vista previa del canal. Además, le proporciona información sobre si el canal está sin conexión o en línea.
 
-Haga clic en el icono (**...**) desde el **INFORMACIÓN DEL CANAL** barra de acciones para ver las propiedades, editar el contenido o actualizar la caché (contenido sin conexión) del canal.
+Haga clic en el botón (**...**) desde el **INFORMACIÓN DEL CANAL** barra de acciones para poder ver las propiedades, editar el contenido o actualizar la caché (contenido sin conexión) del canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -134,11 +128,11 @@ Puede ver el manifiesto desde el panel de canales.
 >[!IMPORTANT]
 >AEM AEM Esta opción solo está disponible con el paquete de funciones 8 o 4 del paquete de funciones 4 de la versión 6.4 de la o con el paquete de funciones 4 de la versión 6.5.
 
-Siga estos pasos para habilitar esta opción desde el panel de canales:
+Siga estos pasos para poder habilitar esta opción desde el panel de canales:
 
 1. **Definir el canal como Sin conexión**
    1. Seleccione el canal y seleccione **Propiedades** desde la barra de acciones
-   1. Vaya a **Canal** y asegúrese de desmarcar la opción **Modo de desarrollador (forzar al canal a estar en línea)** opción
+   1. Vaya a **Canal** y asegúrese de desmarcar **Modo de desarrollador (forzar al canal a estar en línea)** opción
    1. Clic **Guardar y cerrar**
 1. **Actualizar contenido sin conexión**
    1. Seleccione el canal y seleccione **Tablero** desde la barra de acciones
@@ -157,7 +151,7 @@ Debería ver el **Ver manifiesto** de la opción **INFORMACIÓN DEL CANAL** en e
 
 Al crear un canal, puede definirse como un canal en línea o sin conexión.
 
-Un ***Canal en línea***, mostrará el contenido actualizado en el entorno de tiempo real, mientras que un ***Canal sin conexión***, muestra el contenido almacenado en caché.
+Un ***Canal en línea*** muestra el contenido actualizado en el entorno en tiempo real, mientras que una ***Canal sin conexión*** muestra el contenido almacenado en caché.
 
 Siga los pasos a continuación para hacer el canal en línea:
 
@@ -167,7 +161,7 @@ Siga los pasos a continuación para hacer el canal en línea:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Clic **Tablero** en la barra de acciones para ver el estado del reproductor. El **INFORMACIÓN DEL CANAL** el panel proporciona información sobre si el canal está en línea o sin conexión.
+   Clic **Tablero** en la barra de acciones para poder ver el estado del reproductor. El **INFORMACIÓN DEL CANAL** el panel proporciona información sobre si el canal está en línea o sin conexión.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -186,7 +180,7 @@ Siga los pasos a continuación para hacer el canal en línea:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Si desea volver a configurar el canal como sin conexión, desmarque la opción Modo de desarrollador del **Propiedades** (como se muestra en el paso (3)) y, a continuación, desde la pestaña **INFORMACIÓN DEL CANAL** clic en panel **Actualizar contenido sin conexión**, como se muestra en la figura siguiente.
+>Para volver a configurar el canal como sin conexión, desactive la opción Modo de desarrollador en **Propiedades** pestaña (como se muestra en el paso (3)). A continuación, desde el **INFORMACIÓN DEL CANAL** clic en panel **Actualizar contenido sin conexión**, como se muestra en la figura siguiente.
 
 ![panel2](assets/dashboard2.gif)
 
@@ -232,9 +226,9 @@ La siguiente tabla resume los eventos asociados con las actualizaciones automát
 
 ### Muestras asignadas {#assigned-displays}
 
-El panel de visualizaciones asignado muestra la visualización asociada al canal. Proporciona una instantánea de la visualización asignada junto con la resolución.
+El **Pantallas asignadas** el panel muestra la pantalla asociada al canal. Proporciona una instantánea de la visualización asignada junto con la resolución.
 
-Las visualizaciones asociadas aparecerán en la lista **Pantallas asignadas** panel, como se muestra a continuación:
+Las visualizaciones asociadas se enumeran en la **Pantallas asignadas** panel, como se muestra a continuación:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -245,7 +239,7 @@ Las visualizaciones asociadas aparecerán en la lista **Pantallas asignadas** pa
 >* [Creación y administración de pantallas](managing-displays.md)
 >
 
-Además, haga clic en en la pantalla de **PANTALLAS ASIGNADAS** , para ver la información de visualización, como se muestra a continuación:
+Además, haga clic en la pantalla de **PANTALLAS ASIGNADAS** , para ver la información de visualización, como se muestra a continuación:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -1,9 +1,6 @@
 ---
 title: Implementación del Reproductor de Windows 10
-seo-title: Implementing Windows 10 Player
-description: Siga esta página para obtener más información acerca de la configuración del reproductor AEM Screens Windows 10.
-seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
-uuid: da7e88bf-c251-481e-9029-f8fc4768b309
+description: Obtenga información acerca de la configuración del reproductor AEM Screens Windows 10.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -14,9 +11,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -37,7 +34,7 @@ Visite la [**AEM Descargas del reproductor de 6.5 en**](https://download.macrome
 ### Configuración del entorno para el paquete de servicio de AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
->Debe configurar un entorno para el reproductor de Windows si utiliza el paquete de servicio de AEM Screens 6.5.5.
+>Configure un entorno para el reproductor de Windows si utiliza el paquete de servicio de AEM Screens 6.5.5.
 
 Configure las variables **Atributo SameSite para las cookies de token de inicio de sesión** de **Laxo** hasta **Ninguno** de **Configuración de la consola web Adobe Experience Manager** AEM en todas las instancias de autor y publicación de la.
 
@@ -54,17 +51,17 @@ Complete los siguientes pasos:
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método Ad Hoc le permite instalar el último Reproductor de Windows (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
+El método Ad Hoc permite instalar el último Reproductor de Windows (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
 Una vez que descargue la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
-1. Vaya a **Dispositivo** **Registro** Vínculo del menú de acción de la izquierda para comprobar el estado del proceso de registro del dispositivo.
+1. Vaya a **Dispositivo** **Registro** vínculo del menú de acción de la izquierda para poder comprobar el estado del proceso de registro del dispositivo.
 
 >[!NOTE]
 >
->Si la variable **Estado** es **REGISTRADO**, verá el **ID de dispositivo** Este campo se rellenará.
+>Si la variable **Estado** es **REGISTRADO**, observe que la variable **ID de dispositivo** El campo se rellena.
 >
 >Si la variable **Estado** es **NO REGISTRADO**, puede utilizar el **Token** para registrar el dispositivo.
 
@@ -77,9 +74,9 @@ Puede asignar un nombre de dispositivo descriptivo al reproductor de Windows y, 
 
 Siga los pasos a continuación para configurar el nombre en el reproductor de Windows:
 
-1. Haga clic en **start** > **correr**
-1. Entrar `system.cpl`
-1. Utilice la ficha nombre de equipo para establecer el nombre de host del equipo
+1. Clic **start** > **correr**.
+1. Entrar `system.cpl`.
+1. Utilice la ficha nombre de equipo para establecer el nombre de host del equipo.
 
 ## Cambiar las opciones predeterminadas en Windows Installer {#changing-default-options}
 
@@ -108,7 +105,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 Al implementar el reproductor de Windows, no es necesario configurar manualmente todos los reproductores. En su lugar, puede actualizar el archivo JSON de configuración una vez que se haya probado y esté listo para la implementación.
 
-La configuración se asegurará de que todos los reproductores hagan ping al mismo servidor proporcionado en el archivo de configuración. Aún debe registrar manualmente cada reproductor.
+La configuración garantiza que todos los reproductores hagan ping al mismo servidor proporcionado en el archivo de configuración. Registre manualmente cada reproductor.
 
 Siga los pasos a continuación para configurar el Reproductor de Windows 10:
 
@@ -129,8 +126,8 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 | rebootSchedule | Programación para reiniciar el reproductor. |
 | enableAdminUI | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
 | enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
-| enableActivityUI | Habilite para mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
-| cloudMode | Configúrelo en true si desea que el reproductor de Windows se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la configuración local de la. |
+| enableActivityUI | Habilite para que pueda mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| cloudMode | Configúrelo en true si desea que el reproductor de Windows se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la red local de servicios (On-). |
 | cloudToken | Token de registro para registrarse en Screens as a Cloud Service. |
 
 #### Archivo JSON de política de ejemplo {#example-policy-json-file}
@@ -162,34 +159,34 @@ Siga los pasos a continuación para habilitar el modo Quiosco:
 
 1. Habilite el lanzador de shell.
 
-   Consulte esta sección ***Configurar el lanzador de shell*** in **[Iniciador de shell](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** página de soporte de Microsoft Windows para obtener más información.
+   Consulte ***Configurar el lanzador de shell*** in **[Iniciador de shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** página de soporte de Microsoft® Windows para obtener más información.
 
 1. Cree un usuario no administrativo (si todavía no tiene uno) para utilizarlo en el quiosco. Puede ser un usuario local o de dominio.
 1. Instale el reproductor de Windows para ese usuario del quiosco desde [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/) página.
-1. Consulte [Utilice Shell Launcher para crear un quiosco de Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) para modificar el script de PowerShell y obtener más información.
+1. Consulte [Utilice Shell Launcher para crear un quiosco de Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) para modificar el script de PowerShell y obtener más información.
 
-   Modifique el script de PowerShell para reemplazar el nombre de usuario por el que ha creado. Asegúrese de que la ruta al ejecutable de la aplicación sea correcta. Esto establecerá el shell personalizado como aplicación de reproductor de Windows para el usuario del quiosco y establecerá el valor predeterminado como explorer.exe para otros usuarios.
+   Modifique el script de PowerShell para poder reemplazar el nombre de usuario por el que ha creado. Asegúrese de que la ruta de acceso al ejecutable de la aplicación sea correcta. Esto establece el shell personalizado como la aplicación del reproductor de Windows para el usuario del quiosco y establece el valor predeterminado como explorer.exe para otros usuarios.
 
 1. Ejecute el script de PowerShell como administrador.
 1. Reinicie e inicie sesión como el usuario del quiosco y la aplicación de reproducción deben iniciarse de inmediato.
 
 ### Solución de problemas {#troubleshooting}
 
-Si aparece una pantalla en negro cuando se inicia sesión como el usuario del quiosco, significa que es posible que haya especificado incorrectamente la ruta al ejecutable del reproductor de Windows. Vuelva a iniciar sesión como administrador y compruebe y vuelva a ejecutar el script.
+Si aparece una pantalla en negro después de iniciar sesión como el usuario del quiosco, significa que es posible que haya especificado incorrectamente la ruta al ejecutable del reproductor de Windows. Vuelva a iniciar sesión como administrador y compruebe y vuelva a ejecutar el script.
 
 La ruta de instalación predeterminada del reproductor de Windows es:
 
 ***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
-El script de ejemplo de los vínculos habilita y deshabilita el shell personalizado. Por lo tanto, es posible que tenga que dividir la secuencia de comandos en dos y habilitar/deshabilitar las siguientes líneas aplicables:
+El script de ejemplo de los vínculos habilita y deshabilita el shell personalizado. Por lo tanto, divida la secuencia de comandos en dos y habilite/deshabilite las siguientes líneas aplicables:
 
 >[!NOTE]
 >
->En algunos entornos de Windows, las directivas pueden restringir los scripts de PowerShell (especialmente los scripts sin firmar). Para ejecutar el script, es posible que tenga que deshabilitar temporalmente y volver a habilitar esta restricción para ejecutarlo. Abra una ventana de PowerShell y utilice estos comandos.
+>En algunos entornos de Windows, las directivas pueden restringir los scripts de PowerShell (especialmente los scripts sin firmar). Para ejecutar el script, deshabilite y vuelva a habilitar temporalmente esta restricción para ejecutarlo. Abra una ventana de PowerShell y utilice estos comandos.
 >
->*set-execution-policy sin restricciones* - para eliminar las restricciones temporalmente
+>*`set-executionpolicy unrestricted`* - para eliminar temporalmente las restricciones.
 >
->*set-execution-policy restrict* - para volver a habilitar la restricción después de ejecutar el script
+>*`set-executionpolicy restricted`* - para volver a habilitar la restricción después de ejecutar la secuencia de comandos.
 
 ```
 # Remove the new custom shells.

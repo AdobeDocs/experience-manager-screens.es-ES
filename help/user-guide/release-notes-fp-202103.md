@@ -1,21 +1,21 @@
 ---
 title: Notas de la versión del paquete de funciones 202103
-description: '"Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202103 lanzado el 5 de marzo de 2021".'
+description: Obtenga más información acerca del paquete de funciones 202103 de AEM Screens lanzado el 5 de marzo de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 4%
+source-wordcount: '388'
+ht-degree: 2%
 
 ---
 
 # Notas de la versión del paquete de funciones 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -31,16 +31,16 @@ La fecha de lanzamiento del paquete de funciones 202103 de AEM Screens es el 5 d
 
 * **Registro automático de reproductores AEM Screens**
 
-   El registro masivo de miles de jugadores manualmente es muy engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función de registro automático de reproductores le permite especificar una clave previamente compartida en los reproductores que se puede aprovisionar en un reproductor mediante un archivo de configuración o una solución de administración de dispositivos móviles (MDM).
+  El registro masivo de miles de jugadores manualmente es engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función Registro automático de reproductores le permite especificar una clave previamente compartida en la. Esta clave se puede aprovisionar en un reproductor mediante un archivo de configuración o una solución de administración de dispositivos móviles (MDM).
 
-   Consulte [Registro automático de reproductores](/help/user-guide/auto-registration-players.md) para obtener más información.
+  Consulte [Registro automático de reproductores](/help/user-guide/auto-registration-players.md) para obtener más información.
 
 
-* **Aprovisionamiento masivo del reproductor Android mediante Enterprise Mobility Management**
+* **Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management**
 
-   AEM Al implementar el reproductor de Android de forma masiva, resulta tedioso registrar manualmente todos los reproductores con la opción de configuración de la aplicación de forma. Se recomienda encarecidamente utilizar una solución EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron o Samsung Knox para aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+  AEM Al implementar el reproductor de Android™ de forma masiva, resulta tedioso registrar manualmente todos los reproductores con la función de reproducción de forma. Se recomienda encarecidamente utilizar una solución de EMM (Enterprise Mobility Management) como `VMWare Airwatch`, `MobileIron`, o `Samsung Knox` para aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
-   Consulte [Aprovisionamiento masivo del reproductor Android mediante Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obtener más información.
+  Consulte [Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obtener más información.
 
 
 ### Correcciones de errores {#bug-fixes}
@@ -51,7 +51,7 @@ La fecha de lanzamiento del paquete de funciones 202103 de AEM Screens es el 5 d
 
 * No se crearon cachés sin conexión, si la asignación tenía *OfflineConfig*.
 
-* Actualizaciones del reproductor Tizen que se ha interrumpido porque la política de referente strict-origin-when-cross-origin no es compatible.
+* Actualizaciones de `Tizen` reproductor que se ha interrumpido porque la política de referente stricto-origin-when-cross-origin no es compatible.
 
 * Cambiar la programación del canal asignado *Repeticiones* El campo rompía la interfaz de usuario.
 
@@ -61,14 +61,14 @@ La fecha de lanzamiento del paquete de funciones 202103 de AEM Screens es el 5 d
 
 * La solicitud de actualización de configuración fallida estaba ocasionando la pantalla en blanco.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 7 de la versión 6.5 de:
 
 * Chrome OS
 * Windows
-* Linux
+* Linux®
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

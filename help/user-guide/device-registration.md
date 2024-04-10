@@ -1,23 +1,19 @@
 ---
 title: Registro de dispositivos
-seo-title: Device Registration
-description: En esta página se describe el proceso de registro de dispositivos en un proyecto de AEM Screens.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Obtenga información acerca del proceso de registro de dispositivos en un proyecto de AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ En la siguiente página se describe el proceso de registro de dispositivos en un
 
 ## Registro de un dispositivo {#registering-a-device}
 
-El proceso de registro del dispositivo se realiza en 2 equipos independientes:
+El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
 * El dispositivo real que se va a registrar, por ejemplo, la pantalla de señalización
 * AEM El servidor de utilizado para registrar el dispositivo
@@ -38,7 +34,7 @@ El proceso de registro del dispositivo se realiza en 2 equipos independientes:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
->1. Haga clic en **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
+>1. Seleccione el **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ El proceso de registro del dispositivo se realiza en 2 equipos independientes:
 
    >[!NOTE]
    >
-   >AEM Para obtener más información sobre la creación de un nuevo proyecto para Pantallas en el panel de control de la, consulte [Crear y administrar un proyecto de Screens](creating-a-screens-project.md).
+   >AEM Para obtener más información sobre la creación de un proyecto para Pantallas en el panel de la, consulte [Crear y administrar un proyecto de Screens](creating-a-screens-project.md).
 
 1. Pulse o haga clic en **Administrador de dispositivos** en la barra de acciones.
 
@@ -88,13 +84,13 @@ El proceso de registro del dispositivo se realiza en 2 equipos independientes:
    >
    >El **Asignar visualización** permite añadir directamente el dispositivo a una pantalla.
 
-   Si hace clic **Finalizar**, deberá asignar el dispositivo a una pantalla.
+   Si hace clic **Finalizar**, debe asignar el dispositivo a una pantalla.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la creación y administración de una pantalla para su proyecto de Screens, consulte [Creación y administración de pantallas](managing-displays.md).
+   >Para obtener más información sobre la creación y administración de una visualización para su proyecto de Pantallas, consulte [Creación y administración de pantallas](managing-displays.md).
 
 ### Asignación de dispositivos a una pantalla {#assigning-device-to-a-display}
 
@@ -145,26 +141,26 @@ Una vez que haya registrado los dispositivos en el reproductor, puede verlos tod
 
 ### Limitaciones en la funcionalidad de búsqueda {#limitations}
 
-* El usuario podrá buscar cualquier palabra existente en el *ID de dispositivo* o *Nombre del dispositivo*.
+* El usuario puede buscar cualquier palabra existente en la *ID de dispositivo* o *Nombre del dispositivo*.
 
   >[!NOTE]
   >Se recomienda crear los nombres de los dispositivos con varias palabras, como *Boston Store Lobby* en lugar de uno solo *BostonStoreLobby*.
 
-* Si crea nombres de dispositivo como *Boston Store Lobby*, permite buscar cualquier palabra *Boston*, *almacenar* o *cabildear* pero si el nombre del dispositivo se denomina *BostonStoreLobby* búsqueda *Boston* no mostrará los resultados.
+* Si crea nombres de dispositivo como *Boston Store Lobby*, busca cualquier palabra *Boston*, *almacenar*, o *cabildear*. Sin embargo, si el nombre del dispositivo es *BostonStoreLobby* y, a continuación, buscando *Boston* no muestra ningún resultado.
 
-* Comodín, `*` es compatible con la búsqueda. En este caso, desea buscar todos los dispositivos con nombres que empiecen por *Boston*, puede utilizar *Boston**.
+* Comodín, `*` es compatible con la búsqueda. Si desea buscar todos los dispositivos con nombres que empiecen por *Boston*, puede utilizar *Boston**.
 
-* Si el nombre del dispositivo es *BostonStoreLobby* y buscando *Boston* no devolverá el resultado en su lugar utilizando *Boston** en los criterios de búsqueda devolverá el resultado.
+* Si el nombre del dispositivo es *BostonStoreLobby* y buscando *Boston* no devuelve el resultado y, a continuación, utiliza *Boston** en los criterios de búsqueda devuelve el resultado.
 
 ## Limitaciones en el registro de dispositivos {#limitations-on-device-registration}
 
-Las restricciones de contraseña de usuario en todo el sistema pueden provocar errores en el registro del dispositivo. El registro del dispositivo utiliza una contraseña generada aleatoriamente para crear el usuario del dispositivo.
+Las restricciones de contraseña de usuario en todo el sistema pueden provocar errores en el registro de dispositivos. El registro del dispositivo utiliza una contraseña generada aleatoriamente para crear el usuario del dispositivo.
 
 Si la contraseña está restringida por el *AuthorizableActionProvider* , podría producirse un error al crear el usuario del dispositivo.
 
 >[!NOTE]
 >
->La contraseña aleatoria generada actualmente está compuesta por 36 caracteres ASCII, que van de 33 a 122 (incluye casi todos los caracteres especiales).
+>La contraseña aleatoria generada actualmente está compuesta por 36 caracteres ASCII, que van del 33 al 122 (incluye casi todos los caracteres especiales).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Recursos adicionales {#additional-resources}
+### Otros recursos {#additional-resources}
 
 Para obtener más información acerca del Reproductor de AEM Screens, consulte [Reproductor de AEM Screens](working-with-screens-player.md).

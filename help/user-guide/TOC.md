@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Ayuda de Adobe Experience Manager Screens
@@ -8,10 +8,10 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Introducción a Screens](aem-screens-introduction.md)
 + Información general y guía de KickStart {#overview}
    + [Guía de KickStart](kickstart-for-aem-screens.md)
-   + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=es)
+   + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Términos clave](screens-glossary.md)
 + Conceptos básicos de red de publicidad dinámica {#digital-signage-network}
    + [Parte 1: Funciones y responsabilidades del proyecto](project-roles-responsibilities.md)
@@ -44,7 +44,7 @@ ht-degree: 11%
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso del reproductor Chrome como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
-      + [Reproductor de Android](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
