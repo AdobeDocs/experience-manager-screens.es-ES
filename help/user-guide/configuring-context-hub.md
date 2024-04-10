@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ La siguiente validación es lo que se ve al comprobar la conexión introduciendo
    >
    >1. Vaya a CRXDE Lite y, a continuación, a `/conf/screens/settings/cloudsettings`.
    >1. Comprobar si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si la variable `jcr:primaryType` no está en `sling:folder`, continúe con los siguientes pasos.
-   >1. Clic con el botón derecho `/conf/screens/settings` y cree un nodo con *name* as **cloudsettings1** y *Tipo* as **sling:Carpeta** y guarde los cambios.
+   >1. Clic con el botón derecho `/conf/screens/settings` y cree un nodo con *name* as **`cloudsettings1`** y *Tipo* as **`sling:Folder`** y guarde los cambios.
    >1. Mueva todos los nodos debajo de `/conf/screens/settings/cloudsettings` hasta `cloudsettings1`.
    >1. Eliminar `cloudsettings` y guarde.
    >1. Cambiar nombre `cloudsettings1` hasta `cloudsettings` y guarde.
@@ -110,10 +110,10 @@ La siguiente validación es lo que se ve al comprobar la conexión introduciendo
    >
    >Siga estos pasos en Creación y publicación antes o después de la actualización.
 
-   1. Introduzca el **Título** as **Hojas de Google**, **Nombre del almacén** as **googlesheets**, y **Tipo de tienda** as **contexthub.generic-jsonp** y haga clic en **Siguiente**.
+   1. Introduzca el **Título** as **Hojas de Google**, **Nombre del almacén** as **`googlesheets`**, y **Tipo de tienda** as **c`ontexthub.generic-jsonp`** y haga clic en **Siguiente**.
 
       >[!CAUTION]
-      >Si utiliza Adobe Experience Manager AEM () 6.4, introduzca el **Título de configuración** as **googlesheets** y el **Tipo de tienda** as **contexthub.generic-jsonp**.
+      >Si utiliza Adobe Experience Manager AEM () 6.4, introduzca el **Título de configuración** as **`googlesheets`** y el **Tipo de tienda** as **c`ontexthub.generic-jsonp`**.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub6.png)
 

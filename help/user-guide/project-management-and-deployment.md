@@ -1,22 +1,18 @@
 ---
 title: "Parte 4: Administración e implementación de proyectos"
-seo-title: "Part 4: Project Management and Deployment"
-description: Siga este tutorial para obtener más información sobre la administración y la preparación de la implementación de proyectos (preproducción, inicio y progresión de proyectos). Además, conozca cómo se define el alcance y la programación del proyecto junto con la recopilación de información sobre el proveedor, la mano de obra interna y las hojas de corte.
-seo-description: Follow this tutorial to learn about project management and deployment preparation (project pre-production, project initiation, project progression). Additionally, get to know how the project scope and schedule is defined along with gathering information on vendor, internal labor, and cut-sheets.
-uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
+description: Obtenga información acerca de la administración y la preparación de la implementación de proyectos (preproducción, inicio y progresión de proyectos) para AEM Screens.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -33,9 +29,9 @@ Es importante que todos los interesados entiendan de qué es responsable el inte
 
 >[!NOTE]
 >
->AEM La identificación de un integrador de AV con experiencia en la gestión de proyectos de implementaciones de señalización digital a escala es extremadamente importante para el éxito a largo plazo, y se recomienda encarecidamente que los planes de proyecto entre el integrador de AV y el implementador de se comparen para garantizar la alineación a medida que se desarrollen y finalicen los planes.
+>La identificación de un integrador AV con experiencia en la gestión de proyectos de implementaciones de señalización digital a escala es importante para el éxito a largo plazo. AEM Se sugiere comparar los planes de proyecto entre el integrador de AV y el implementador de la aplicación Al hacerlo, se garantiza la alineación a medida que se elaboran y finalizan los planes.
 >
->Los socios que adoptan un enfoque integral en la gestión de las fases de &quot;preproducción&quot;, inicio y progresión del proyecto ayudarán a garantizar que sus clientes finales estén posicionados para obtener el máximo valor de su inversión
+>Los socios que adoptan un enfoque integral en la gestión de las fases de &quot;preproducción&quot;, inicio y progresión del proyecto ayudan a garantizar que sus clientes finales estén posicionados para obtener el máximo valor de su inversión
 
 ## Resumen de las tres fases de la gestión de proyectos {#summary-of-all-three-phases-in-project-management}
 
@@ -74,13 +70,13 @@ Cuando una oportunidad de ventas cambia a un proyecto, se programa una reunión 
 
 ### Actividades del día dos {#day-two-activities}
 
-La última parte de una iniciativa del Día Uno es completar una entrega de NOC. Si un proyecto completado incluye cualquier servicio y soporte del Día 2, el administrador del proyecto organizará una reunión de entrega del NOC con los supervisores de esos equipos.
+La última parte de una iniciativa del Día Uno es completar una entrega de NOC. Si un proyecto completado incluye cualquier servicio y soporte de Día dos, el administrador del proyecto organiza una reunión de entrega del NOC con los supervisores de esos equipos.
 
-Esta reunión está formada principalmente por representantes de integradores audiovisuales de Administración de cuentas, Operaciones de red, Logística de campo, Servicios de contenido y Contabilidad. Los representantes de gestión de proyectos del Adobe AEM, el implementador de la y el cliente final suelen participar en conjunto, y AV Integrator define el programa, la cadencia y las puertas de acceso. Los gestores de proyectos suelen ser los mejores para coordinar los debates con el fin de garantizar la alineación de las partes adecuadas y desarrollar la documentación necesaria para la reunión de entrega del NOC. Es probable que la documentación de asistencia crítica provenga del departamento de ingeniería informática o audiovisual, además de los recursos de ventas y administración de cuentas de todas las partes implicadas. Para cualquier cliente que necesite asistencia técnica de un NOC, se deberá proporcionar documentación a los supervisores de NOC para que la carguen en una plataforma de Knowledge Base.
+Esta reunión está formada principalmente por representantes de integradores audiovisuales de Administración de cuentas, Operaciones de red, Logística de campo, Servicios de contenido y Contabilidad. Los representantes de gestión de proyectos de Adobe AEM, implementador de y cliente final participan en conjunto, y AV Integrator define el programa, la cadencia y las puertas de acceso. Los gestores de proyectos suelen ser los mejores para coordinar los debates con el fin de garantizar la alineación de las partes adecuadas y desarrollar la documentación necesaria para la reunión de entrega del NOC. Es probable que la documentación de asistencia crítica provenga del departamento de ingeniería de TI o AV, además de los recursos de ventas y administración de cuentas de todas las partes involucradas. Para cualquier cliente que requiera soporte de servicio telefónico de un NOC, se debe proporcionar documentación a los supervisores del NOC para que la carguen en una plataforma de Knowledge Base.
 
 ## Parte 4: Tutorial en vídeo sobre administración e implementación de proyectos {#part-video-tutorial-on-project-management-and-deployment}
 
-Siga este tutorial para obtener información sobre la gestión de proyectos y la preparación de la implementación, así como para definir los factores clave de los que el integrador de AV es responsable en relación con la gestión de proyectos y la preparación de la implementación.
+Obtenga información acerca de la administración de proyectos y la preparación de la implementación, y defina los factores clave de los que es responsable el integrador de AV en relación con la administración de proyectos y la preparación de la implementación.
 
 ### Administración e implementación de proyectos
 
@@ -92,4 +88,4 @@ Siga este tutorial para obtener información sobre la gestión de proyectos y la
 
 Una vez que haya estudiado a fondo las consideraciones clave relacionadas con la administración de proyectos para implementaciones de AEM Screens;
 
-Vaya a **[Parte 5: Consideraciones de soporte](support-considerations.md)** para comprender el soporte del Día 2 y los procesos involucrados.
+Vaya a **[Parte 5: Consideraciones de soporte](support-considerations.md)** para que entienda el soporte del Día 2 y los procesos involucrados.

@@ -1,9 +1,6 @@
 ---
 title: AEM SPA Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics
-seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
-description: Siga esta página para aprender a incrustar una aplicación interactiva de una sola página mediante REACT (o Angular AEM SPA AEM) utilizando el editor de que pueden configurar los profesionales del negocio en el entorno de y también para integrar la aplicación interactiva con Adobe Analytics sin conexión.
-seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
-uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
+description: Aprenda a incrustar una aplicación interactiva de una sola página mediante REACT (o Angular AEM SPA) utilizando el editor de páginas de la aplicación de la interfaz de usuario de.
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
 # AEM SPA Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-En esta sección se describe cómo incrustar una aplicación interactiva de una sola página mediante REACT (o Angular AEM SPA AEM) utilizando el editor de que pueden configurar los profesionales del negocio en la aplicación de y también cómo integrar la aplicación interactiva con Adobe Analytics sin conexión.
+Puede incrustar una aplicación interactiva de una sola página mediante REACT (o Angular). AEM SPA AEM Para ello, utilice el editor de configurado por los profesionales empresariales en el entorno de trabajo de los profesionales de la administración de la. También puede aprender a integrar su aplicación interactiva con Adobe Analytics sin conexión.
 
 ## AEM SPA Uso del Editor de {#using-the-aem-spa-editor}
 
@@ -32,9 +29,9 @@ AEM SPA Siga los pasos a continuación para utilizar el Editor de:
 
    >[!NOTE]
    >
-   >Este tipo de archivo crea un proyecto de Adobe Experience Manager SPA mínimo como punto de partida para sus propios proyectos de. Las propiedades que se deben proporcionar al utilizar este tipo de archivo permiten nombrar como desee todas las partes de este proyecto.
+   >Este tipo de archivo crea un proyecto de Adobe Experience Manager SPA mínimo como punto de partida para sus propios proyectos de. Las propiedades que se deben proporcionar al utilizar este tipo de archivo le permiten nombrar como desee todas las partes de este proyecto.
 
-1. AEM SPA Siga las instrucciones léame para crear un proyecto de arquetipo de editor de:
+1. AEM SPA Para crear un proyecto de tipo de archivo del editor de, siga las instrucciones readme:
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -49,7 +46,7 @@ AEM SPA Siga los pasos a continuación para utilizar el Editor de:
 
    >[!NOTE]
    >
-   >Utilizamos el **GroupId** as ***com.adobe.aem.screens*** y el **ArtifactId** as ***SPA Mi ejemplo*** (que son los valores predeterminados). Puede elegir el suyo propio según sea necesario.
+   >Esta documentación utiliza el **GroupId** as ***com.adobe.aem.screens*** y el **ArtifactId** as ***SPA Mi ejemplo*** (que son los valores predeterminados). Puede elegir el suyo propio según sea necesario.
 
 1. Una vez creado el proyecto, utilice un IDE o un editor de su elección e importe el proyecto Maven generado.
 1. AEM Implemente en la instancia de la instancia local de mediante el comando ***instalación limpia de mvn: PautoInstallPackage***.
@@ -58,21 +55,19 @@ AEM SPA Siga los pasos a continuación para utilizar el Editor de:
 
 Para editar el contenido en la aplicación REACT:
 
-1. Vaya a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (reemplace el nombre de host, el puerto y el nombre del proyecto, según corresponda).
+1. Vaya a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (reemplace el nombre de host, el puerto y el nombre del proyecto según corresponda).
 1. Debería poder editar el texto que se muestra en la aplicación Hello world.
 
 ### Adición de la aplicación interactiva REACT a AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
 Siga los pasos a continuación para agregar la aplicación REACT interactiva a AEM Screens:
 
-1. Cree un nuevo proyecto de AEM Screens. Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para obtener más información.
-
-1. Crear un nuevo **Canal de aplicaciones** (preferiblemente) (o plantilla 1x1 o canal de varias zonas) en el **Canales** de su proyecto de Screens.
+1. Cree un proyecto de AEM Screens. Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para obtener más información.
+1. Crear un **Canal de aplicaciones** (preferiblemente) (o plantilla 1x1 o canal de varias zonas) en el **Canales** del proyecto de AEM Screens.
 
    >[!NOTE]
-   >**Canales de secuencia** se desaconsejan para este caso de uso, ya que vienen inherentemente con una lógica de presentación de diapositivas que entrará en conflicto con la naturaleza interactiva de la experiencia
+   >**Canales de secuencia** se desaconsejan para este caso de uso porque vienen inherentemente con una lógica de presentación de diapositivas que entra en conflicto con la naturaleza interactiva de la experiencia.
    >Consulte [Creación y administración de canales](managing-channels.md) para obtener más información.
-
 
 1. Edite cualquier canal de secuencia y arrastre y suelte un componente de página incrustado.
 
@@ -82,7 +77,7 @@ Siga los pasos a continuación para agregar la aplicación REACT interactiva a A
    >
    >Asegúrese de añadir el evento de interacción del usuario al asignar el canal a la visualización.
 
-1. Haga clic en **Editar** en la barra de acciones para editar las propiedades del canal.
+1. Clic **Editar** en la barra de acciones para poder editar las propiedades del canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
@@ -97,7 +92,7 @@ Siga los pasos a continuación para agregar la aplicación REACT interactiva a A
 
 1. Registre un reproductor en este proyecto y asígnelo a la pantalla. Ahora debería poder ver la aplicación interactiva en ejecución en AEM Screens.
 
-   Consulte [Registro de dispositivos](device-registration.md) para obtener información detallada sobre el registro de un dispositivo.
+   Consulte [Registro de dispositivos](device-registration.md) para obtener más información sobre cómo registrar un dispositivo.
 
 ## SPA Integración de la con Adobe Analytics con la funcionalidad sin conexión a través de AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,14 +100,14 @@ SPA Siga los pasos a continuación para integrar la con Adobe Analytics con la c
 
 1. Configure Adobe Analytics en AEM Screens.
 
-   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para aprender a realizar la secuenciación en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
+   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información sobre cómo realizar la secuenciación en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
 
 1. Edite la aplicación react en el IDE/editor que prefiera (especialmente el componente de texto u otro componente que desee que empiece a emitir eventos).
 1. En el evento de clic u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.
 
-   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)s para obtener más información.
+   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
 
-1. Llame a la API de AEM Screens Analytics para guardar el evento sin conexión y enviarlo en ráfagas a Adobe Analytics.
+1. Llame a la API de AEM Screens Analytics para poder guardar el evento sin conexión y enviarlo en ráfagas a Adobe Analytics.
 
    Por ejemplo,
 
@@ -140,4 +135,4 @@ SPA Siga los pasos a continuación para integrar la con Adobe Analytics con la c
 
    >[!NOTE]
    >
-   >El firmware del reproductor añade automáticamente más detalles acerca del reproductor y su entorno de tiempo de ejecución a los datos de análisis personalizados que envía. Por lo tanto, es posible que no necesite capturar los detalles de bajo nivel del sistema operativo/dispositivo a menos que sea absolutamente necesario. Solo tiene que centrarse en los datos de análisis empresarial.
+   >El firmware del reproductor añade automáticamente más detalles acerca del reproductor y su entorno de tiempo de ejecución a los datos de análisis personalizados que envía. Por lo tanto, es posible que tenga que capturar los detalles de bajo nivel del sistema operativo/dispositivo a menos que sea necesario. Céntrese en los datos de análisis empresarial.
