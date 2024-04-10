@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -33,7 +33,7 @@ En esta sección se describe cómo implementar Cloud Player.
 
 La instalación de Cloud Player puede variar en diferentes plataformas. En general, cualquier plataforma que tenga un explorador moderno puede ejecutar la aplicación del reproductor en la nube siguiendo estos pasos:
 
-1. Abra el explorador e introduzca la variable [URL del reproductor en la nube](https://player.adobescreens.com) en la barra de direcciones.
+1. Abra el explorador e introduzca la variable [URL del reproductor en la nube](https://player.adobescreens.com/content/dam/universal-player/firmware.html) en la barra de direcciones.
 1. El explorador comprueba si el reproductor en la nube se puede instalar y, a continuación, muestra un icono de instalación en la barra de direcciones.
 
    ![imagen](/help/user-guide/assets/cloud-player-install.png)
@@ -67,13 +67,13 @@ Para realizar el aprovisionamiento masivo del reproductor en la nube en varios d
 
 ## Aprovisionamiento masivo en el sistema operativo Chrome {#bulk-provisioning-chrome}
 
-Obtenga más información sobre el aprovisionamiento masivo en el sistema operativo Chrome, consulte [Instalación de Cloud Player en el sistema operativo Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Obtenga más información sobre el aprovisionamiento masivo en el sistema operativo Chrome, consulte [Instalación de Cloud Player en el sistema operativo Chrome](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## AEM Configuración necesaria en instancias de {#bulk-provisioning-config-aem}
 
 AEM AEM En función del tipo de instancia de, seleccione una de las siguientes guías para habilitar el reproductor en la nube y el reproductor en la nube CORS b/w:
-* [AEM Local/AMS (en las instalaciones)](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM Local/AMS (en las instalaciones)](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
