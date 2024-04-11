@@ -1,11 +1,9 @@
 ---
 title: Activación de fragmentos de experiencias
-seo-title: Experience Fragments Activation
-description: Siga este ejemplo de caso de uso para obtener más información sobre la activación de fragmentos de experiencia.
-seo-description: Follow this use case example to learn about experience fragments activation.
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: Un ejemplo de caso de uso para ayudarle a obtener más información sobre la activación de fragmentos de experiencias en relación con AEM Screens.
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 Un fragmento de experiencia es un grupo de uno o más componentes, incluidos el contenido y el diseño, a los que se hace referencia en las páginas.
 
-El siguiente caso de uso le permite implementar un proyecto de demostración desde el que se aprovecha el fragmento de experiencia para un proyecto de AEM Screens. Los aspectos destacados de este caso de uso incluyen:
+El siguiente caso de uso le permite implementar un proyecto de demostración desde el que se aplica el fragmento de experiencia a un proyecto de AEM Screens. Los aspectos destacados de este caso de uso son los siguientes:
 
 * Aumento del tamaño del texto
 * Voltear las imágenes
@@ -34,7 +32,7 @@ Cree un proyecto con el título **DemoProject** y un canal de secuencia titulado
 
 ### Implementación del fragmento de experiencia en un proyecto de AEM Screens {#experience-fragments-implementation}
 
-Una vez creado un fragmento de experiencia y aprovechado en el proyecto de AEM Screens, **DemoProject** ahora puede mejorar el fragmento de experiencia según sus necesidades.
+Cuando haya creado un fragmento de experiencia y lo haya aplicado en su proyecto de AEM Screens, **DemoProject** puede mejorar el fragmento de experiencia según sus necesidades.
 
 ### Aumento del tamaño del texto {#increasing-text-size}
 
