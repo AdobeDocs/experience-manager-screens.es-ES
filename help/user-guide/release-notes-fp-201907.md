@@ -1,23 +1,19 @@
 ---
 title: Notas de la versión del paquete de funciones 201907
-seo-title: Release Notes for Feature Pack 201907
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 201907 lanzado el 31 de julio de 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: Obtenga información acerca del paquete de funciones 201907 de AEM Screens lanzado el 31 de julio de 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 5 de la versión 6.4.5 de la versión 6.1 y el paquete de funciones 1 de la versión 6.5.1 de la versión con los siguientes detalles.
 
@@ -61,21 +57,21 @@ El controlador de actualización ahora analiza los fragmentos de experiencia y r
 
 * **Lanzamientos**
 
-Los lanzamientos permiten a los autores de contenido crear versiones futuras de los canales. Con la ayuda de los lanzamientos, los autores pueden obtener una vista previa de cada canal del lanzamiento y deben poder iniciar una solicitud de revisión. El grupo de aprobadores recibirá una notificación y podrá aprobar o rechazar la solicitud. Cuando se llega a la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
+Los lanzamientos permiten a los autores de contenido crear versiones futuras de los canales. Con la ayuda de Lanzamientos, los autores pueden obtener una vista previa de cada canal del lanzamiento y deben poder iniciar una solicitud de revisión. El grupo de aprobadores recibe una notificación y puede aprobar o rechazar la solicitud. Cuando se llega a la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
 Consulte [Lanzamientos](launches.md) para obtener más información.
 
 * **Configuraciones sin conexión en fragmentos de experiencias**
 
-Ahora puede agregar configuraciones sin conexión (bibliotecas del lado del cliente y archivos estáticos) al configurar el fragmento de experiencia de Screens. Consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md) para obtener más información.
+Ahora puede agregar configuraciones sin conexión (bibliotecas del lado del cliente y archivos estáticos) al configurar el Fragmento de experiencia de Screens. Consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md) para obtener más información.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de funciones 5 y 1 de la versión 6.4.5 de la versión 6.4.5 de la versión 1 del paquete de funciones de la versión 6.4.5 de la versión:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/).

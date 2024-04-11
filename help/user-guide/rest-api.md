@@ -1,21 +1,17 @@
 ---
 title: API de REST
-seo-title: REST API
-description: AEM Screens proporciona una API RESTful simple que sigue la especificación de Siren. Siga esta página para aprender a desplazarse por la estructura de contenido y enviar comandos a los dispositivos del entorno.
-seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: Descubra cómo AEM Screens proporciona una API RESTful simple que sigue la especificación de Siren. Aprenda también a navegar por la estructura de contenido y enviar comandos a dispositivos del entorno.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
@@ -30,7 +26,7 @@ Se puede acceder a la API en [*http://localhost:4502/api/screens.json*](http://l
 
 El JSON devuelto por las llamadas de API enumera las entidades relacionadas con el recurso actual. Después del autovínculo enumerado, cada una de estas entidades vuelve a ser accesible como recurso REST.
 
-Por ejemplo, para acceder a las pantallas de nuestra ubicación de buque insignia de demostración, puede llamar a:
+Por ejemplo, para acceder a las pantallas de la ubicación del buque insignia de demostración, puede llamar a lo siguiente:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Para almacenar en déclencheur esta acción se llamaría a:
+Para almacenar en déclencheur esta acción, llame al siguiente método:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
