@@ -1,12 +1,10 @@
 ---
 title: Déclencheur de datos
-seo-title: Data Triggers
-description: La página describe los déclencheur de datos
-seo-description: The page describes data triggers
+description: Obtenga información sobre los déclencheur de datos en AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 0%
 
 Esto también se conoce como acoplamiento de contenido en el lado del cliente.
 
-La razón principal por la que queremos hacer esto es para que cada dispositivo de reproducción o punto final pueda utilizar conjuntos de datos para determinar automáticamente el mejor contenido para reproducir en función de una variedad de factores diferentes.
+El motivo es garantizar que cada dispositivo de reproducción o punto final pueda utilizar conjuntos de datos para determinar automáticamente el mejor contenido para reproducir en función de diferentes factores.
 
-Esto elimina la necesidad de una intervención humana constante en la creación de contenido, lo que reduce el coste total de propiedad para operar la red y hace que las experiencias digitales sean más relevantes, contextuales y efectivas.
+Esto elimina la necesidad de una intervención humana constante al crear contenido. También ayuda a reducir el coste total de propiedad para operar la red y hace que las experiencias digitales sean más relevantes, contextuales y efectivas.
 
 Algunos ejemplos son:
 
@@ -38,5 +36,5 @@ Tener una estrategia de comercialización visual que incluya DCO puede aumentar 
 
 Existen dos tipos principales de déclencheur de datos:
 
-* **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si toca la pantalla, se activa un sensor que déclencheur el recurso de datos local o el interruptor de canal.
+* **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si tocó la pantalla, se activará un sensor que déclencheur el recurso de datos local o el conmutador de canal.
 * **Déclencheur de datos remotos**: esto implicaba un conmutador de canal activado por datos o un conmutador de recurso en función de los valores devueltos por una API de servicio web.
