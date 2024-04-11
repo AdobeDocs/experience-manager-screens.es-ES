@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ La fecha de lanzamiento del paquete de funciones 202105 de AEM Screens es el 4 d
   Los reproductores de AEM Screens ahora incluyen la capacidad de enviar un nombre de dispositivo a Adobe Experience Manager AEM ().
 De forma predeterminada, cuando se utiliza el registro masivo para registrar un dispositivo, se introduce un nombre de usuario generado por el sistema en el campo de título. AEM Como alternativa, un cliente puede utilizar una etiqueta de recursos u otro nombre descriptivo para que sea visible en los recursos y resulte más fácil asignar el contenido adecuado.
 
-  Consulte la siguiente documentación para aprender a configurar el nombre en cada sistema operativo admitido:
+  Consulte la siguiente documentación para obtener información sobre cómo configurar el nombre en cada sistema operativo admitido:
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
