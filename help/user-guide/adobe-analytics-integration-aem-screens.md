@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -74,8 +74,6 @@ Vaya a **Configuración de la consola web Adobe Experience Manager** para poder 
 >[!CAUTION]
 >
 >Antes de configurar las propiedades, póngase en contacto con el Administrador de relaciones con el Adobe para crear un ticket y obtener un **Clave de API de Analytics** y **Proyecto de Analytics** para su uso con AEM Screens.
-
-![]()
 
 ### Configuración de las propiedades {#configuring-the-properties}
 
