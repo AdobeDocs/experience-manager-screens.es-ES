@@ -1,13 +1,13 @@
 ---
 title: Informe de asignación de contenido
-description: En esta página se describe la descarga y el uso del informe de asignación de contenido.
+description: Conozca la descarga y el uso del informe de asignación de contenido en relación con AEM Screens.
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Siga las instrucciones a continuación para descargar el informe de asignación 
 
 1. Vaya al proyecto de AEM Screens y seleccione el proyecto **Demostraciones**.
 
-1. Haga clic en **Informe de asignación de contenido** de la barra de acciones.
+1. Clic **Informe de asignación de contenido** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Siga las instrucciones a continuación para descargar el informe de asignación 
    >[!NOTE]
    >Los datos mostrados en la hoja de cálculo se ordenan alfabéticamente en un formato fácil de leer.
 
-1. Puede hacer clic en cualquiera de los canales desde el **Canales** para abrir el **Contenido** que le llevará directamente a ese canal y también le proporcionará información sobre los recursos (imágenes y vídeos) asociados con ese canal específico, como se muestra en la figura siguiente.
+1. Al hacer clic en cualquiera de los canales de **Canales** abre la columna **Contenido** pestaña. A su vez, le desplaza directamente a ese canal y le proporciona información sobre los recursos (imágenes y vídeos) asociados a ese canal específico.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

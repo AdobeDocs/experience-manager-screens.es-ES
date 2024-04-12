@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para aprender a crear un proyecto de AEM Screens.
+   >Para obtener información sobre cómo crear un proyecto de AEM Screens, consulte [Creación y administración de proyectos](creating-a-screens-project.md).
 
 1. Cree un canal de secuencia titulado como **Cafetería** en el **Canales** carpeta.
 
@@ -82,14 +82,14 @@ Cuando se complete la configuración del proyecto, debe asignar el canal a una p
 
    >[!NOTE]
    >
-   >Consulte [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
+   >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
 
 1. Desde el **Programación** , seleccione la opción **Ventana de activación** y **Horario de periodicidad**.
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Consulte [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
+   >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
 
 1. Clic **Guardar** una vez configuradas las preferencias.
 
@@ -97,7 +97,7 @@ Cuando se complete la configuración del proyecto, debe asignar el canal a una p
 
 Este ejemplo muestra la salida en un reproductor Chrome. Una vez asignado el canal a la pantalla, debe registrar el dispositivo en un reproductor.
 
-Consulte [Registro de dispositivos](device-registration.md) para aprender a registrar un dispositivo en un reproductor de AEM Screens.
+Para obtener información sobre cómo registrar un dispositivo en un reproductor AEM Screens, consulte [Registro de dispositivos](device-registration.md).
 
 Puede ver el siguiente resultado a su elección de reproductor:
 

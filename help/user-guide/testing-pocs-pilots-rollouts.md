@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Este tutorial cubre los siguientes puntos relevantes para una implementación co
 
 >[!NOTE]
 >
->Los ciclos de venta habituales para la implantación de publicidad dinámica a escala oscilan entre 9 y 18 meses. Hay muchos factores involucrados que afectan la línea de tiempo final, entre los cuales se encuentra la forma en que el cliente final mide el éxito y la aversión al riesgo que sus socios comerciales tienen al introducir una nueva solución.
+>Los ciclos de venta habituales para la implantación de publicidad dinámica a escala oscilan entre los 9 y los 18 meses. Hay muchos factores involucrados que afectan la línea de tiempo final, entre los cuales se encuentra la forma en que el cliente final mide el éxito y la aversión al riesgo que sus socios comerciales tienen al introducir una nueva solución.
 
 Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un entorno minorista podrían ser:
 

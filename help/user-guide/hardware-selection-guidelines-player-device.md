@@ -1,9 +1,9 @@
 ---
 title: Directrices de selección de hardware para dispositivos de reproducción
-description: Directrices de selección de hardware para dispositivos de reproducción
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Obtenga información acerca de las directrices de selección de hardware para dispositivos reproductores AEM Screens.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -40,13 +40,13 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td><strong>Casos de uso habituales</strong></td>
   </tr>
   <tr>
-   <td>Basic</td>
+   <td>Básica</td>
    <td>Procesador Intel® Atom de doble núcleo, i3 o núcleo cuádruple básico</td>
    <td><p>4 GB de memoria</p> <p>2 MB de caché</p> </td>
-   <td><p>·ChromeOS de 32 GB</p> <p>·Windows de 128 GB</p> </td>
+   <td><p>*ChromeOS de 32 GB</p> <p>*Windows de 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
-   <td>DVI,<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
+   <td>1920 x 1080</td>
+   <td>DVI<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
    <td>
     <ul>
      <li>Bucle estándar de pantalla completa<br /> </li>
@@ -55,11 +55,11 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
   </tr>
   <tr>
    <td>Estándar</td>
-   <td>Procesador Intel® Core i5 de núcleo cuádruple</td>
+   <td>Procesador Intel® Core™ i5 de núcleo cuádruple</td>
    <td><p>8 GB de memoria</p> <p>4 MB de caché</p> </td>
-   <td>128 GBB</td>
+   <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
   </tr>
   <tr>
    <td>Avanzado </td>
-   <td>Procesador Intel® Core i7 de núcleo cuádruple con subprocesos múltiples</td>
+   <td>Procesador Intel® Core™ i7 de núcleo cuádruple con subprocesos</td>
    <td><p>16 GB de memoria</p> <p>8 MB de caché</p> </td>
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 4 x USB</td>
    <td>
     <ul>
