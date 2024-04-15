@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Actualice a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 

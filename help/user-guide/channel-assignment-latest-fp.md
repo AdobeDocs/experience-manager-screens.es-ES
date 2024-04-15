@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >AEM En esta sección se destaca la asignación de canales y la programación de canales para el paquete de funciones de Screens 6.5.5 y versiones posteriores, respectivamente.
 
-Una vez configurada una pantalla, debe asignar un canal a una pantalla para ver el contenido.
+Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
 
 En esta página se muestra la asignación de un canal a la pantalla, cómo comprender las propiedades del canal y DayParting.
 
@@ -95,7 +95,7 @@ Cuando se complete la configuración del proyecto, debe asignar el canal a una p
 
 ### Visualización del contenido en Chrome Player {#viewing-content-output}
 
-Este ejemplo muestra la salida en un reproductor Chrome. Una vez asignado el canal a la pantalla, debe registrar el dispositivo en un reproductor.
+Este ejemplo muestra la salida en un reproductor Chrome. Cuando haya asignado el canal a la pantalla, registre el dispositivo en un reproductor.
 
 Para obtener información sobre cómo registrar un dispositivo en un reproductor AEM Screens, consulte [Registro de dispositivos](device-registration.md).
 

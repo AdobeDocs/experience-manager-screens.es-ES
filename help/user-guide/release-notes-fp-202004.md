@@ -1,15 +1,13 @@
 ---
 title: Notas de la versión del paquete de funciones 202004
-seo-title: Release Notes for Feature Pack 202004
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202004 lanzado el 20 de abril de 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Obtenga más información acerca del paquete de funciones 202004 de AEM Screens lanzado el 20 de abril de 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -34,9 +32,9 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
 * **Opciones de estrategia de interrupción de reproducción**
 
-  Como autor de contenido, debe poder especificar cuándo se interrumpe un canal para que pueda optar por cortar contenido no crítico, pero tiene la opción de permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
+  Como autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero también permitir que el contenido importante se reproduzca por completo antes de interrumpir la reproducción debido a la programación.
 
-  Consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)** para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens.
+  Para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens, consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Lanzamientos de Screens**
 
@@ -59,7 +57,7 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
   Al añadir la prueba a la función de superposición de texto, el tamaño de fuente es preciso y mejorado.
 
-  Consulte **[Superposición de texto](text-overlay.md)** para crear una experiencia atractiva en un canal de secuencias, proporcione un título o una descripción superpuestos sobre una imagen.
+  Para crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen, consulte **[Superposición de texto](text-overlay.md)**.
 
 * **Mejoras en la sincronización de comandos**
 
@@ -67,14 +65,14 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
   Consulte **[Sincronización de comandos](using-command-sync.md)** para obtener más información.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens se incluyen en el paquete de funciones 4 de AEM Screens AEM AEM, que incluye el paquete de funciones 8 y 6.5 de la versión 6.4 de la versión 199980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.

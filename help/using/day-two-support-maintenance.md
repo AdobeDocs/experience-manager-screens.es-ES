@@ -1,13 +1,11 @@
 ---
 title: Asistencia y mantenimiento para el segundo día
-seo-title: Day Two Support and Maintenance for AEM Screens
-description: La página describe la asistencia y el mantenimiento del segundo día
-seo-description: The page describes Day Two Support and Maintenance
+description: Obtenga información acerca de la asistencia y el mantenimiento del Día dos para AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 9%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +17,12 @@ Siga las directrices como soporte y mantenimiento para el segundo día de la fas
 
 1. Ejecute las versiones más actuales de los siguientes paquetes para su versión de Adobe Experience Manager:
 
-   * **Paquete de servicio de AEM**
+   * **AEM Paquete de servicio de**
    * **Paquete de funciones de Screens**
-   * **Paquete de correcciones acumulativas de AEM**
+   * **AEM Paquete de correcciones acumulativas de**
 
 1. Identifique los paquetes de desarrollo (por ejemplo, los componentes principales de WCM) o los kits de herramientas de terceros (por ejemplo, SAP Hybris) que sean necesarios.
 
-1. Instale los mismos paquetes de software en los entornos de desarrollo local.
+1. Instale los mismos paquetes de software en su entorno de desarrollo local.
 
-1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Si las configuraciones del servidor no coinciden, se crearán problemas al implementar y probar.
+1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crean problemas al implementar y probar.

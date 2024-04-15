@@ -1,21 +1,21 @@
 ---
 title: Notas de la versión del paquete de funciones 202011
-description: '"Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202011 lanzado el 30 de noviembre de 2020".'
+description: Obtenga más información acerca del paquete de funciones 202011 de AEM Screens lanzado el 30 de noviembre de 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # Notas de la versión del paquete de funciones 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -49,16 +49,16 @@ Consulte [Búsqueda de un dispositivo desde el Administrador de dispositivos](/h
 
   El intervalo de ping predeterminado ahora se establece en 30 segundos en esta versión.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 6 de la versión 6 de 6.5:
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

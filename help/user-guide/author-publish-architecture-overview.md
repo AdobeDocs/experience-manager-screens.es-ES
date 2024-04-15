@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -108,4 +108,4 @@ AEM AEM Una vez que un dispositivo se registra en el entorno de creación de la,
 
 ### Pasos siguientes {#the-next-steps}
 
-Una vez que haya comprendido el diseño arquitectónico de la configuración de creación y publicación en AEM Screens, consulte [Configuración de autor y publicación para AEM Screens](author-and-publish.md) para obtener más información.
+Cuando comprenda el diseño arquitectónico de la configuración de creación y publicación en AEM Screens, consulte [Configuración de autor y publicación para AEM Screens](author-and-publish.md) para obtener más información.

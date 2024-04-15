@@ -1,12 +1,10 @@
 ---
 title: Especificaciones del dispositivo
-seo-title: Device Specifications
-description: La página describe las especificaciones del dispositivo
-seo-description: The page describes device specifications
+description: Obtenga más información acerca de las especificaciones de los dispositivos en lo que respecta a AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -25,9 +23,9 @@ Basado en la información recopilada durante *Día cero*, confirme la siguiente 
 
 * ¿Qué software y sistema operativo deben instalarse en los dispositivos de visualización?
 
-* AEM ¿Se necesitará una conexión a Internet en los reproductores para sincronizar las pantallas con los servidores de la?
+* AEM ¿Se requiere una conexión a Internet en los reproductores para sincronizar las pantallas con los servidores de?
 
-* ¿Cuándo se actualizará el contenido de los reproductores?
+* ¿Cuándo se actualiza el contenido en los reproductores?
 
 * Si está ejecutando vídeos, asegúrese de comprender las especificaciones de su dispositivo para que el contenido se muestre correctamente.
 
@@ -40,4 +38,4 @@ Basado en la información recopilada durante *Día cero*, confirme la siguiente 
 
 >[!NOTE]
 >
->También es importante validar las especificaciones del hardware seleccionado para garantizar que admite la aplicación que se está desarrollando. Por ejemplo, si la aplicación está pensada para ejecutar cinco vídeos HD a la vez, ¿lo admitirá el hardware?
+>También es importante validar las especificaciones del hardware seleccionado para garantizar que admite la aplicación que se está desarrollando. Por ejemplo, si la aplicación está pensada para ejecutar cinco vídeos de Alta Definición al mismo tiempo, ¿lo admite el hardware?

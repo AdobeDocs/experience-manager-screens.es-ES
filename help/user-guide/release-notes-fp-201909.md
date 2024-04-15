@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión del paquete de funciones 201909
-description: Notas de la versión del paquete de funciones 201909 de AEM Screens publicadas el 31 de julio de 2019.
+description: Obtenga más información sobre el paquete de funciones 201909 de AEM Screens lanzado el 31 de julio de 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma de pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma de pantallas de la versión 6.3 de.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 6 de la versión 6.4.6 de la versión 6 y el paquete de funciones 2 de la versión 6.5.2 de la versión con los siguientes detalles.
 

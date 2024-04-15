@@ -1,21 +1,21 @@
 ---
 title: Notas de la versión del paquete de funciones 202112
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202112 lanzado el 12 de enero de 2022.
+description: Obtenga más información acerca del paquete de funciones 202112 de AEM Screens lanzado el 12 de enero de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '315'
+ht-degree: 3%
 
 ---
 
 # Notas de la versión del paquete de funciones 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -29,7 +29,7 @@ La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 
 
 ### Novedades {#what-is-new}
 
-* Las actualizaciones de la aplicación de Android ahora se dirigen a Android 11 (nivel de API 30). Actualmente, el reproductor Android está en el nivel 29 de la API de Target.
+* Las actualizaciones de la aplicación de Android™ ahora se dirigen a Android™ 11 (nivel de API 30). Actualmente, el reproductor Android™ está en el nivel 29 de la API de Target.
 
 * La previsualización de la pantalla está atascada en la configuración anterior del reproductor
 
@@ -37,7 +37,7 @@ La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 
 
 * Corrección de errores de descarga simultánea en SmartSync
 
-* Como desarrollador, ahora verá las representaciones de recursos para que se incluyan únicamente como entradas de representación en los recursos correspondientes del manifiesto, a fin de garantizar la extensibilidad, claridad y facilidad de la administración del manifiesto.
+* Como desarrollador, vea las representaciones de recursos que desee que aparezcan solo como entradas de representación en los recursos correspondientes del manifiesto para garantizar la extensibilidad, claridad y facilidad de la administración del manifiesto.
 
 ### Correcciones de errores {#bug-fixes}
 
@@ -57,16 +57,16 @@ La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 
 
 * Corrija los errores de descarga simultánea en SmartSync.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 10 de la versión 6.5 de:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
