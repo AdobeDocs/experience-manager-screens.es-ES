@@ -2,9 +2,9 @@
 title: Pruebas y control de calidad
 description: Obtenga información acerca de las pruebas y la garantía de calidad para AEM Screens en la Guía de prácticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Pruebas y control de calidad {#testing-quality}
 
 >[!NOTE]
->La parte interesada habitual de esta actividad es un integrador A/V.
+>La parte interesada habitual de esta actividad es un integrador de audio y vídeo.
 
 A medida que se acerca la implementación de la red de publicidad dinámica, cree un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.
 En esta fase, deben construirse y probarse completamente todos los sistemas de ensayo.
@@ -82,4 +82,4 @@ Algunos ejemplos son los siguientes:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Middleware exclusivo integrador AV
+* Middleware de integrador de audio/vídeo patentado

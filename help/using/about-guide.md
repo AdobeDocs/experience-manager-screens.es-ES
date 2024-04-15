@@ -2,10 +2,10 @@
 title: Acerca de esta guía
 description: Obtenga información sobre las prácticas recomendadas para proyectos de AEM Screens para planificar y ejecutar proyectos, desde información estratégica y de diseño hasta implementación y asistencia posterior.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ El propósito de la guía de prácticas recomendadas de AEM Screens es proporcio
 La audiencia a la que va dirigido este documento es:
 
 * *Implementadores de AEM*
-* *Integradores audiovisuales*
+* *Integradores de audio y vídeo*
 * *Encargados de estrategias comerciales*
 * *Gestores de proyectos*
 * *Asesores*

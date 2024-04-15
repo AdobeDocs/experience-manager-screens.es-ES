@@ -1,19 +1,17 @@
 ---
 title: Entornos para [!UICONTROL AEM Screens]
-seo-title: Environments for [!UICONTROL AEM Screens]
-description: En esta página se describen los entornos de un proyecto de AEM Screens.
-seo-description: This page highlights the environments for an AEM Screens project.
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: Obtenga más información sobre los entornos de un proyecto de AEM Screens.
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '152'
+ht-degree: 0%
 
 ---
 
 
 # Entornos {#environments}
 
-AEM Determine de antemano qué entornos de tiene el cliente y que espera que utilice, tanto para *desarrollo* y *implementación*.
+AEM Determine de antemano qué entornos de tiene el cliente y espera que utilice, tanto para *desarrollo* y *implementación*.
 
 >[!NOTE]
 >
@@ -23,12 +21,12 @@ Siga las directrices siguientes para configurar el entorno de su proyecto de AEM
 
 1. Ejecute las versiones más actuales de los siguientes paquetes para su versión de Adobe Experience Manager:
 
-   * **Paquete de servicio de AEM**
+   * **AEM Paquete de servicio de**
    * **Paquete de funciones de Screens**
-   * **Paquete de correcciones acumulativas de AEM**
+   * **AEM Paquete de correcciones acumulativas de**
 
 1. Identifique los paquetes de desarrollo (por ejemplo, los componentes principales de WCM) o los kits de herramientas de terceros (por ejemplo, SAP Hybris) que sean necesarios.
 
-1. Instale los mismos paquetes de software en los entornos de desarrollo local.
+1. Instale los mismos paquetes de software en su entorno de desarrollo local.
 
-1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Si las configuraciones del servidor no coinciden, se crearán problemas al implementar y probar.
+1. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crean problemas al implementar y probar.

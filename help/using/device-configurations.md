@@ -4,7 +4,7 @@ seo-title: Device Specifications
 description: La página describe las especificaciones del dispositivo
 seo-description: The page describes device specifications
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La parte interesada habitual de esta actividad es un integrador A/V.
+>La parte interesada habitual de esta actividad es un integrador de audio y vídeo.
 
 Basado en la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
 

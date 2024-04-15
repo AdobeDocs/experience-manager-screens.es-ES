@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ En la siguiente sección se proporciona información general sobre los términos
 
 ### Prueba de concepto (POC) {#proof-of-concept-poc}
 
-El propósito de un POC es obtener comentarios iniciales sobre las funcionalidades clave de una solución. También ofrece al cliente final y al integrador de AV la oportunidad de identificar áreas de mejora y preparar suposiciones sobre los requisitos laborales y las demandas de recursos. Un POC también permite a ambas partes evaluar el rendimiento de la solución, que generalmente se mide a través de:
+El propósito de un POC es obtener comentarios iniciales sobre las funcionalidades clave de una solución. También ofrece al cliente final y al integrador de audio y vídeo la oportunidad de identificar áreas en las que realizar mejoras y preparar suposiciones sobre los requisitos de mano de obra y las demandas de recursos. Un POC también permite a ambas partes evaluar el rendimiento de la solución, que generalmente se mide a través de:
 
 ### Control de calidad {#quality-control}
 
-Las pruebas de integración de sistemas y software comienzan con el equipo de ingeniería informática de AV Integrator. En referencia al diseño aprobado del sistema, el equipo de ingeniería de TI configura, implementa y supervisa la instalación de los componentes de hardware en un &quot;entorno de laboratorio&quot; en las instalaciones de AV Integrator. Esto permite revisar y probar de cerca toda la solución para el control de calidad.
+La prueba de integración de sistemas y software comienza con el equipo de ingeniería informática del integrador de audio/vídeo. En referencia al diseño de sistema aprobado, el equipo de ingeniería de TI configura, implementa y supervisa la instalación de los componentes de hardware en un &quot;entorno de laboratorio&quot; en las instalaciones del integrador de audio/vídeo. Esto permite revisar y probar de cerca toda la solución para el control de calidad.
 
 Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para referencia durante el día 2 de asistencia. Los aspectos del sistema que deben probarse incluyen:
 

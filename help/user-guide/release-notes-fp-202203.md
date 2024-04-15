@@ -1,21 +1,21 @@
 ---
 title: Notas de la versión del paquete de funciones 202203
-description: Siga esta página para obtener información sobre el paquete de funciones de AEM Screens 202203 lanzado el 25 de marzo de 2022.
+description: Obtenga más información acerca del paquete de funciones 202203 de AEM Screens lanzado el 25 de marzo de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
 # Notas de la versión del paquete de funciones 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens proporciona soporte de mantenimiento para la plataforma de Screens de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
 
 ## Disponibilidad {#availability}
 
@@ -47,17 +47,17 @@ Esta versión solo incluye correcciones de errores.
 
 * El Reproductor no ha podido obtener la última actualización mediante la administración de la publicación. Esto ya está solucionado.
 
-### Reproductores de AEM Screens publicados {#released-aem-screens-players}
+### Reproductores de AEM Screens publicados
 
 Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 11 de la versión 6.5 de:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### Descargas del reproductor AEM Screens  {#aem-screens-player-downloads}
+#### Descargas del reproductor AEM Screens
 
 Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

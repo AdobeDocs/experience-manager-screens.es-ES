@@ -1,14 +1,13 @@
 ---
 title: Creación con Déclencheur de datos
-seo-title: Authoring with Data Triggers
-description: Siga esta página para aprender a crear déclencheur de datos.
+description: Obtenga más información sobre cómo crear déclencheur de datos en un canal de AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Seleccione el **Personalización** para configurar las configuraciones de ContextHub y seleccionar la ruta de ContextHub y los segmentos.
+1. Seleccione el **Personalización** para poder configurar las configuraciones de ContextHub y seleccionar la ruta de ContextHub y los segmentos.
 
    1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y haga clic en **Seleccionar**.
 
-   1. Seleccione el **Ruta de segmentos** as **conf** > **We.Retail** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar**.
+   1. Seleccione el **Ruta de segmentos** as **conf** > **`We.Retail`** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar**.
 
    1. Haga clic en **Guardar y cerrar**.
 

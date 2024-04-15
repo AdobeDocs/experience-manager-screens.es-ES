@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Los componentes principales de un programa de publicidad dinámica necesarios pa
 * Estrategia de contenido
 * Requisitos de operaciones empresariales
 * Detección de entornos de TI y red
-* Requisitos audiovisuales
+* Requisitos de audio y vídeo
 * Especificación del equipo
 * Preparación del sitio
 
@@ -67,7 +67,7 @@ La inclusión de estrategias de participación en el día puede permitir a los c
 
 Las operaciones empresariales también son importantes para definir en las conversaciones sobre estrategia de contenido. Formalizar los requisitos de asistencia de los clientes finales puede ayudar a gestionar las expectativas después de la implementación, lo que garantiza que los esfuerzos de asistencia se midan adecuadamente.
 
-### Requisitos de A/V {#a-v-requirements}
+### Requisitos de audio y vídeo {#a-v-requirements}
 
 Los escenarios de montaje también necesitan definición, al igual que las consideraciones relacionadas con el acceso a los dispositivos para el mantenimiento de los equipos. Esto no solo afecta a las recomendaciones iniciales de mano de obra y equipos, sino que también determina los requisitos de servicio y asistencia continuos.
 

@@ -1,30 +1,29 @@
 ---
 title: "Parte 1: Funciones y responsabilidades del proyecto"
-seo-title: "Part 1: Project Roles and Responsibilities"
-description: Siga este tutorial para comprender mejor las funciones, responsabilidades y plazos requeridos durante los ciclos de vida de ventas y proyectos de un proyecto de publicidad dinámica.
+description: En este tutorial, aprenderá a comprender mejor las funciones, las responsabilidades y las líneas de tiempo necesarias durante los ciclos de vida de proyecto y ventas de un proyecto de señalización digital.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 0%
 
 ---
 
 # Parte 1: Funciones y responsabilidades del proyecto {#part-project-roles-and-responsibilities}
 
-En esta página se destaca la parte 1 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor las funciones, responsabilidades y plazos necesarios durante el ciclo de vida de las ventas y el proyecto de un proyecto de publicidad dinámica.
+En esta página se destaca la parte 1 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor las funciones, responsabilidades y líneas de tiempo necesarias durante el ciclo de vida de ventas y proyectos de un proyecto de señalización digital.
 
 ## Información general {#overview}
 
-El siguiente tutorial abarca las funciones y responsabilidades del proyecto para implementadores de Adobe AEM, implementadores de e integradores A/V de alto nivel. Puede navegar a los episodios posteriores para obtener una descripción general completa de cómo desarrollar correctamente las oportunidades de AEM Screens y colocar las implementaciones para lograr el éxito a largo plazo.
+El siguiente tutorial abarca las funciones y responsabilidades del proyecto para el Adobe AEM, los implementadores de y los integradores audiovisuales de alto nivel. Puede navegar a los episodios posteriores para obtener una descripción general completa de cómo desarrollar correctamente las oportunidades de AEM Screens y colocar las implementaciones para lograr el éxito a largo plazo.
 
-Hay 3 grupos principales que participan en el proceso de envío dentro de:
+Hay tres grupos principales que participan en el proceso de envío en los siguientes grupos:
 
 * Adobe
-* Integrador A/V
+* Integrador de audio/vídeo
 * AEM Equipo de implementación de
 
 >[!NOTE]
@@ -33,23 +32,23 @@ Hay 3 grupos principales que participan en el proceso de envío dentro de:
 
 ## Resumen de las funciones involucradas en un proyecto de señalización digital {#summary-of-roles-involved-in-a-digital-signage-project}
 
-La definición de parámetros de casos de uso de aplicaciones en colaboración con Adobe AEM, Implementador de e Integrador A/V impulsará el ámbito del desarrollo de software. Esto garantiza un enfoque por fases que establece con los puntos de referencia de rendimiento y las métricas de éxito identificadas a lo largo del proyecto.
+La definición de parámetros de casos de uso de aplicaciones en colaboración con Adobe AEM, Implementador de e Integrador audiovisual determina el ámbito del desarrollo de software. Este proceso garantiza que se establezca un enfoque gradual con parámetros de referencia de rendimiento y métricas de éxito identificadas a lo largo del proyecto.
 
 ### Adobe {#adobe}
 
-Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
+El Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
 
-#### Implementadores de AEM {#aem-implementors}
+#### AEM Implementadores de {#aem-implementors}
 
 Un **AEM Implementador de** AEM es responsable de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de la plataforma de integración de.
 
 Las funciones personalizadas necesarias para abordar los parámetros de experiencia de usuario (UX) del cliente final también se capturan y entregan a través de este proceso.
 
-AEM Los implementadores suelen implementar la funcionalidad personalizada por fases a lo largo del tiempo en las ubicaciones. Por ejemplo, pueden establecer primero una compatibilidad con la reproducción de vídeo en bucle básico o contenido gráfico estático. La siguiente fase podría incluir la posibilidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, con fases adicionales que incorporen la compatibilidad con elementos interactivos a través de pantallas táctiles, sensores, déclencheur dinámicos, etc.
+AEM Los implementadores suelen implementar funcionalidades personalizadas en fases a lo largo del tiempo en las ubicaciones. Por ejemplo, pueden establecer primero una compatibilidad con la reproducción de vídeo en bucle básico o contenido gráfico estático. La siguiente fase incluye la posibilidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos, mientras que otras fases incorporan la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, déclencheur dinámicos, etc.
 
-#### Integradores audiovisuales {#av-integrators}
+#### Integradores de audio y vídeo {#av-integrators}
 
-Un **Integrador AV** es responsable de llevar a cabo el descubrimiento con los clientes finales para definir los requisitos que determinan el ámbito del proyecto para diseñar, crear y administrar de forma eficaz las implementaciones en torno al hardware de señalización digital.
+Un **Integrador de audio/vídeo** es responsable de llevar a cabo el descubrimiento con los clientes finales para definir los requisitos que determinan el ámbito del proyecto para diseñar, crear y administrar de forma eficaz las implementaciones en torno al hardware de señalización digital.
 
 ## Parte 1: Tutorial en vídeo sobre Funciones y responsabilidades del proyecto {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -59,10 +58,10 @@ Siga el tutorial siguiente para comprender exactamente cómo cada parte influye 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Conozca las funciones y responsabilidades de los Adobe AEM, integradores de AV e implementadores de.*
+*Obtenga información acerca de las funciones y responsabilidades de los integradores de Adobe AEM, audiovisuales e implementadores de.*
 
 ## El siguiente paso {#the-next-step}
 
-Una vez que haya comprendido las funciones y responsabilidades del proyecto al implementar un proyecto de señalización digital, siga el siguiente tutorial que profundiza en temas como las consideraciones de prueba y preventa, ya que el ámbito del proyecto se amplía al desarrollar oportunidades de AEM Screens.
+Cuando comprenda las funciones y responsabilidades del proyecto en la implementación de un proyecto de señalización digital, siga el siguiente tutorial. Profundiza en temas como las consideraciones de prueba y preventa, ya que el proyecto tiene alcance al desarrollar oportunidades de AEM Screens.
 
 Vaya a **[Parte 2: Consideraciones a medida que los proyectos se amplían](project-considerations.md)** para obtener más información.
