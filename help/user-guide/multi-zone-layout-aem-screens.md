@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ En la siguiente página se describe el uso del diseño de varias zonas y se trat
 
 Según los requisitos del proyecto, a veces necesita varias zonas en un canal y editarlas como una unidad completa. Por ejemplo, una secuencia de productos con una fuente de medios sociales relacionada que se ejecuta en tres zonas independientes en un solo canal.
 
+>[!NOTE]
+>En canales de varias zonas, no se recomienda la programación en el nivel de recurso debido a posibles conflictos y a un comportamiento no deseado. Si es necesaria la programación a nivel de recurso, se recomienda crear un canal de secuencia independiente y aplicar la lógica de programación dentro de ese canal. A continuación, incruste el canal de secuencia en el canal de varias zonas.
 
 ### Requisitos previos {#prerequisites}
 
