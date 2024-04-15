@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1174'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Screens de la versión 6.5.5 de la versión de.
 
-Una vez configurada una pantalla, debe asignar un canal a una pantalla para ver el contenido.
+Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
 
 Esta página muestra la asignación de un canal a la visualización.
 

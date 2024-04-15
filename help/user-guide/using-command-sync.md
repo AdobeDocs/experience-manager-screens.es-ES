@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ Observe los dos dispositivos (Chrome y reproductor de Windows) en **DISPOSITIVOS
 
 ### Sincronización con el principal {#sync-up-primary}
 
-1. Una vez que haya establecido el dispositivo Chrome como principal, puede sincronizar el otro dispositivo (en este caso, el reproductor de Windows) con el principal.
-Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en la **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**, como se muestra en la figura siguiente.
+1. Una vez que haya establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el reproductor de Windows) para sincronizarlo con el principal.
+Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en la **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ Seleccione el otro dispositivo (en este caso, el reproductor de Windows) en la *
 
 ### Desincronización con el principal {#desync-up-primary}
 
-Una vez que haya sincronizado uno o varios dispositivos con un dispositivo principal, puede desincronizar la asignación desde ese dispositivo.
+Una vez que haya sincronizado uno o varios dispositivos con un dispositivo principal, puede anular la sincronización de la asignación desde ese dispositivo.
 
 >[!NOTE]
 >

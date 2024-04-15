@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Programaciones, cuando se combinan con ***DayParting***, permite establecer una 
 
 >[!NOTE]
 >
->Esta funcionalidad de AEM Screens AEM solo está disponible si ha instalado el paquete de funciones 1 de Sites de la versión 6.3 de. Para obtener acceso a este paquete de funciones, debe ponerse en contacto con el Soporte técnico de Adobe y solicitar acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
+>Esta funcionalidad de AEM Screens AEM solo está disponible si ha instalado el paquete de funciones 1 de Sites de la versión 6.3 de. Para obtener acceso a este paquete de funciones, póngase en contacto con el Soporte técnico de Adobe y solicite acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
 
 ## Creación de una programación {#creating-a-schedule}
 

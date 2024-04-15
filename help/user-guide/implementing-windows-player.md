@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Complete los siguientes pasos:
 
 El método Ad Hoc permite instalar el último Reproductor de Windows (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
-Una vez que descargue la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
+Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
@@ -69,7 +69,7 @@ Una vez que descargue la aplicación, siga los pasos del reproductor para comple
 Puede asignar un nombre de dispositivo descriptivo al reproductor de Windows y, de este modo, enviar el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor de Windows, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
->Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre del reproductor ya no se puede cambiar.
+>Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor de Windows:
 

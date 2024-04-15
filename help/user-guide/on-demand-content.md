@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ Siga los pasos a continuación para entregar actualizaciones de contenido de Aut
 
 ### Reasignación de canales y dispositivos: {#channel-and-device-re-assignment}
 
-Si ha reasignado un dispositivo, debe publicar tanto la pantalla inicial como la nueva, una vez que el dispositivo se haya reasignado a la nueva pantalla.
+Si ha reasignado un dispositivo, publique la visualización inicial y la nueva visualización, una vez que el dispositivo se haya reasignado a la nueva visualización.
 
-Del mismo modo, si ha reasignado un canal, debe publicar la visualización inicial y la nueva, una vez que el canal se haya reasignado a la nueva visualización.
+Del mismo modo, si ha reasignado un canal, publique tanto la visualización inicial como la nueva visualización, una vez que el canal se haya reasignado a la nueva visualización.

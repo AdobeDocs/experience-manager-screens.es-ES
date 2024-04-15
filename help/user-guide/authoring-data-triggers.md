@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ En esta sección se explica cómo habilitar el direccionamiento en los canales.
 
 ## Requisitos previos {#prereqs}
 
-Antes de seguir los pasos a continuación para habilitar el direccionamiento en los canales, debe conocer los siguientes pasos [Términos clave para la configuración en AEM Screens](configuring-context-hub.md) necesario para comprender ContextHub y la segmentación en AEM Screens.
+Antes de seguir los pasos a continuación para habilitar el direccionamiento en los canales, conozca la [Términos clave para la configuración en AEM Screens](configuring-context-hub.md) necesario para comprender ContextHub y la segmentación en AEM Screens.
 
 >[!IMPORTANT]
 >

@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ El diagrama siguiente proporciona una representación visual de cómo las config
 
 ## Condiciones previas {#preconditions}
 
-Antes de empezar a configurar Configuraciones de ContextHub para un proyecto de AEM Screens, debe configurar Hojas de cálculo de Google (para fines de demostración).
+Antes de empezar a configurar Configuraciones de ContextHub para un proyecto de AEM Screens, configure Hojas de cálculo de Google (para fines de demostración).
 
 >[!IMPORTANT]
 >

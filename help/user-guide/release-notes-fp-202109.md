@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * **Compatibilidad con manifiestos de la versión 3**
 
-  Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, debe:
+  Ahora puede configurar Dispatcher para la versión de manifiesto v3. Para habilitar el manifiesto v3, haga lo siguiente:
 
    * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación.
 

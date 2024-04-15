@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ El siguiente ejemplo muestra que selecciona la imagen en el modo de edición y h
 
 ### Propagación de cambios en el canal de Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Si realiza cambios/actualizaciones en el canal original, debe propagar también esos cambios al canal de Live Copy.
+Si realiza cambios o actualizaciones en el canal original, propague esos cambios a su canal de Live Copy también.
 
 Siga los pasos a continuación para asegurarse de que los cambios se propagan del canal original al canal de Live Copy:
 

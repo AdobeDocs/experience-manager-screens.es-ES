@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
 >[!NOTE]
 >
->Una vez descargado el último Reproductor de Windows (*.exe*), desde [AEM Descargas del reproductor de 6.4 en](https://download.macromedia.com/screens/) , siga los pasos en el reproductor para completar la instalación ad-hoc:
+>Después de descargar el último Reproductor de Windows (*.exe*), desde [AEM Descargas del reproductor de 6.4 en](https://download.macromedia.com/screens/) , siga los pasos en el reproductor para completar la instalación ad-hoc:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
@@ -84,7 +84,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
    >
    >El **Asignar visualización** permite añadir directamente el dispositivo a una pantalla.
 
-   Si hace clic **Finalizar**, debe asignar el dispositivo a una pantalla.
+   Si hace clic **Finalizar**, asigne el dispositivo a una pantalla.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
 ## Búsqueda de un dispositivo desde el Administrador de dispositivos {#search-device}
 
-Una vez que haya registrado los dispositivos en el reproductor, puede verlos todos en la interfaz de usuario del Administrador de dispositivos.
+Cuando haya registrado dispositivos en el reproductor, puede ver todos los dispositivos desde la interfaz de usuario del Administrador de dispositivos.
 
 1. Vaya a la interfaz de usuario del administrador de dispositivos desde el proyecto de AEM Screens, por ejemplo, **Demostraciones** > **Dispositivos**.
 

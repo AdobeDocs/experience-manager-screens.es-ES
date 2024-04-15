@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Complete los siguientes pasos:
 
 El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
-Una vez que descargue la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
+Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
@@ -122,7 +122,7 @@ Consulte un [Ejemplo de directiva JSON](#example-json) y una tabla que describe 
 
 1. Utilice un explorador de archivos MDM, ADB o Android™ Studio para soltar este archivo JSON de directiva en *sdcard* en el dispositivo Android™.
 
-1. Una vez implementado el archivo, utilice el MDM para instalar la aplicación de reproducción.
+1. Cuando implemente el archivo, utilice el MDM para instalar la aplicación de reproducción.
 
 1. AEM Cuando se inicia la aplicación de reproducción, este archivo de configuración se lee y señala al servidor de reproducción aplicable donde se registra y, a continuación, se controla.
 
@@ -179,7 +179,7 @@ AEM Al implementar el reproductor de Android™ de forma masiva, resulta tedioso
 AEM Puede asignar un nombre de dispositivo fácil de usar al reproductor de Android™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la aplicación (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor de Android™, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
->Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre del reproductor ya no se puede cambiar.
+>Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Android™:
 

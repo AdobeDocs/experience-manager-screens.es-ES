@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Con la ayuda de ***Lanzamiento de Screens*** Por lo tanto, los autores pueden ob
 
 Por ejemplo, si el autor desea crear versiones futuras de c1, c2 (canales), se crea un lanzamiento y se establece una fecha de lanzamiento (por ejemplo, 10 de noviembre a las 8:00 a.m.). Cualquier otra actualización del contenido se envía para su revisión.
 
-Una vez aprobado y en la fecha de lanzamiento (10 de noviembre a las 8:00 a.m.), este lanzamiento reproduce el contenido en los dispositivos o reproductores.
+Después de la aprobación y en la fecha de lanzamiento (10 de noviembre a las 8:00 a.m.), este lanzamiento reproduce el contenido en los dispositivos o reproductores.
 
 ## Requisitos  {#requirements}
 
@@ -45,7 +45,7 @@ La ejecución de una experiencia en la fecha en directo establecida en el reprod
 
 ### Comprender el período de gracia {#understanding-grace-period}
 
-Para que el reproductor pueda empezar a reproducir el contenido en la fecha en directo establecida, debe iniciar las actividades anteriores a la fecha en directo.
+Para que el reproductor pueda empezar a reproducir el contenido en la fecha en directo establecida, inicie las actividades anteriores a la fecha en directo.
 
 Si la fecha de lanzamiento es *24 de noviembre, 9:00 a.m.* y el periodo de gracia es *24 horas*, la secuencia de acciones anterior comenzará a las (fecha de lanzamiento - período de gracia), es decir, el 23 de noviembre a las 9:00 a.m. hora del servidor. Esto da 24 horas para completar todas las acciones mencionadas anteriormente para que el contenido llegue a los reproductores. Los reproductores entienden que se trata de un contenido de lanzamiento. Como tal, el contenido no se reproduce inmediatamente, pero los reproductores pueden almacenar este contenido como una versión futura y hacer que comience a reproducirse exactamente en la fecha en directo establecida en la zona horaria del reproductor.
 
@@ -120,7 +120,7 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
 
    ![imagen](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Una vez seleccionados los canales, haga clic en **Siguiente**.
+   Después de seleccionar el canal o los canales, haga clic en **Siguiente**.
 
 
 1. Introduzca el **Título del lanzamiento** as **SummerPromotions** y no es necesario configurar el **Fecha de lanzamiento**, como se muestra en la figura siguiente. Haga clic en **Crear**.

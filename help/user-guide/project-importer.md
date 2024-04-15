@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ En esta sección se describe una funcionalidad para importar de forma masiva un 
 
 ## Introducción {#introduction}
 
-Cuando configure un proyecto de AEM Screens por primera vez en su organización, también debe crear todas las ubicaciones. Si el proyecto incluye muchas ubicaciones, se produce una tarea tediosa que implica hacer clic y esperar en la interfaz de usuario.
+Cuando configure un proyecto de AEM Screens por primera vez en su organización, cree también todas las ubicaciones. Si el proyecto incluye muchas ubicaciones, se produce una tarea tediosa que implica hacer clic y esperar en la interfaz de usuario.
 
 El objetivo de esta función es reducir el tiempo necesario para configurar el proyecto y resolver así los problemas presupuestarios.
 

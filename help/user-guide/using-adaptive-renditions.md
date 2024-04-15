@@ -2,7 +2,7 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Una vez que un desarrollador agrega las propiedades y reglas de asignación de r
 ## Uso de representaciones adaptables en canales {#using-adaptive-renditions}
 
 >[!NOTE]
->Una vez que haya agregado [propiedad rendition-mapping en el proyecto de Pantallas](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) y [reglas de representación y asignación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como autor de contenido, ya está listo para aplicar las representaciones a sus recursos.
+>Después de agregar [propiedad rendition-mapping en el proyecto de Pantallas](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) y [reglas de representación y asignación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como autor de contenido, ya está listo para aplicar las representaciones a sus recursos.
 
 ### Aplicación de representaciones a los recursos {#apply-renditions-assets}
 

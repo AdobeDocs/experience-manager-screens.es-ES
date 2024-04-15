@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Antes de crear un flujo de trabajo para vídeo, complete los siguientes requisit
 
 ## Creación de un flujo de trabajo de relleno de vídeo {#creating-a-video-padding-workflow-1}
 
-Para crear un flujo de trabajo de relleno de vídeo, debe crear un flujo de trabajo para el vídeo y, a continuación, utilizar el mismo en el canal del proyecto de AEM Screens.
+Para crear un flujo de trabajo de relleno de vídeo, cree un flujo de trabajo para el vídeo y, a continuación, utilice el mismo en el canal del proyecto de AEM Screens.
 
 Siga los pasos a continuación para crear y utilizar el flujo de trabajo:
 
@@ -67,7 +67,7 @@ Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Una vez creado el modelo de flujo de trabajo, seleccione el modelo (**VideoRendition**) y haga clic en **Editar** de la barra de acciones.
+1. Después de crear el modelo de flujo de trabajo, seleccione el modelo (**VideoRendition**) y haga clic en **Editar** de la barra de acciones.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -107,7 +107,7 @@ Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto 
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Una vez cargado el vídeo, haga clic en **Previsualizar** para ver el resultado.
+1. Cuando haya cargado el vídeo, haga clic en **Previsualizar** para ver el resultado.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

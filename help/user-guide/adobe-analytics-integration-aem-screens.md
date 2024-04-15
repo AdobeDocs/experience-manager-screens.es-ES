@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Para obtener acceso a cualquiera de estos paquetes de funciones, debe ponerse en contacto con el Soporte técnico de Adobe y solicitar acceso. Puede descargar el paquete de funciones más reciente para AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID.
+>Para obtener acceso a cualquiera de estos paquetes de funciones, póngase en contacto con el Soporte técnico de Adobe y solicite acceso. Puede descargar el paquete de funciones más reciente para AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID.
 
 Esta sección trata los siguientes temas:
 

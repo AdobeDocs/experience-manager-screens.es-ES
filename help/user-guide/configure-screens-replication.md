@@ -4,9 +4,9 @@ description: Obtenga información acerca de cómo configurar agentes de replicac
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Una vez que haya habilitado el usuario, verá el **`screens-receiver-user`** as **Habilitado** en el **Estado** field.
+   Cuando haya habilitado al usuario, verá el **`screens-receiver-user`** as **Habilitado** en el **Estado** field.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
@@ -125,7 +125,7 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 
 1. Haz clic en **OK**.
 
-1. Una vez completados los pasos anteriores, puede hacer clic en **Probar conexión** para verificar la conexión.
+1. Después de completar los pasos anteriores, haga clic en **Probar conexión** para verificar la conexión.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ El propósito de un POC es obtener comentarios iniciales sobre las funcionalidad
 
 La prueba de integración de sistemas y software comienza con el equipo de ingeniería informática del integrador de audio/vídeo. En referencia al diseño de sistema aprobado, el equipo de ingeniería de TI configura, implementa y supervisa la instalación de los componentes de hardware en un &quot;entorno de laboratorio&quot; en las instalaciones del integrador de audio/vídeo. Esto permite revisar y probar de cerca toda la solución para el control de calidad.
 
-Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para referencia durante el día 2 de asistencia. Los aspectos del sistema que deben probarse incluyen:
+Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para utilizarlos como referencia durante el día 2 de asistencia. Los aspectos del sistema que se deben probar incluyen los siguientes:
 
-* AEM Integraciones del implementador de
-* Integraciones de sistemas de terceros
-* Software
-* Hardware
-* Conectividad
+* AEM Integraciones de implementadores de.
+* Integraciones de sistemas de terceros.
+* Software.
+* Tornillería.
+* Conectividad.
 * Flujos de trabajo de implementación de contenido, incluidas las implementaciones manuales, automatizadas y condicionales.
 
 ## Parte 3: Tutorial en vídeo sobre pruebas, POC, programas piloto y despliegues {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 
 ## El siguiente paso {#the-next-step}
 
-Una vez que haya completado las pruebas, las pruebas de concepto, los programas piloto y las implementaciones, siga el siguiente tutorial que profundiza en la administración de proyectos y los procesos involucrados.
+Cuando haya terminado con las pruebas, las pruebas de concepto, los programas piloto y las implementaciones, siga el siguiente tutorial que profundiza en la administración de proyectos y los procesos involucrados.
 
 Vaya a **[Parte 4: Administración e implementación de proyectos](project-management-and-deployment.md)** para obtener más información.

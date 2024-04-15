@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -62,15 +62,15 @@ El primer paso es crear un proyecto de AEM Screens.
    ![imagen](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Una vez creado el proyecto, vuelve a la página de inicio del proyecto de Pantallas. Ahora puede seleccionar el proyecto. En un proyecto, hay cinco carpetas diferentes tituladas **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones**, y **Horarios**.
+   >Después de crear el proyecto, vuelve a la página principal del proyecto de AEM Screens. Ahora puede seleccionar el proyecto. En un proyecto, hay cinco carpetas diferentes tituladas **Aplicaciones**, **Canales**, **Dispositivos**, **Ubicaciones**, y **Horarios**.
 
 ### Creación de un canal {#creating-channel}
 
-Una vez creado el proyecto de AEM Screens, debe crear un canal en el que administre el contenido.
+Una vez creado el proyecto de AEM Screens, cree un canal donde administre el contenido.
 
 Siga los pasos a continuación para crear un canal para su proyecto:
 
-1. Una vez creado un proyecto, seleccione la opción **Demostraciones** proyecto y seleccione la **Canales** , como se muestra en la figura siguiente. Clic **+ Crear** de la barra de acciones.
+1. Después de crear un proyecto, seleccione la **Demostraciones** proyecto y seleccione la **Canales** , como se muestra en la figura siguiente. Clic **+ Crear** de la barra de acciones.
 
    ![imagen](assets/kickstart/demo-2.png)
 
@@ -146,7 +146,7 @@ Cuando haya creado una ubicación, cree una pantalla para la ubicación.
 
 ### Asignación de un canal {#assigning-channel}
 
-Cuando se complete la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
+Cuando finalice la configuración del proyecto, asigne el canal a una pantalla para ver el contenido.
 
 1. Vaya a la pantalla requerida desde **Demostraciones** > **Ubicaciones** > **TestLocation** > **LobbyDisplay**.
 
@@ -194,7 +194,7 @@ AEM Registre el dispositivo mediante el panel de control de.
 >1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 >1. Clic **AEM Screens** Complemento para que pueda iniciar el reproductor Chrome. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
 
-Una vez que el reproductor de Chrome OS esté encendido, siga los pasos a continuación para registrar un dispositivo Chrome.
+Cuando el reproductor Chrome OS esté encendido, sigue los pasos a continuación para registrar un dispositivo Chrome.
 
 1. Vaya a **Dispositivos** AEM de su proyecto desde la instancia de la.
 

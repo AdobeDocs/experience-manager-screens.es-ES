@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Esta página muestra la creación y administración de canales para AEM Screens.
 
 ## Creación de un nuevo canal {#creating-a-new-channel}
 
-Una vez que haya creado el proyecto para AEM Screens, siga los pasos a continuación para crear un canal para su proyecto:
+Después de crear el proyecto para AEM Screens, siga los pasos a continuación para crear un canal para el proyecto:
 
 1. Seleccione el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, Pantallas. También puede navegar directamente a `https://localhost:4502/screens.html/content/screens`.
 
@@ -67,7 +67,7 @@ Las siguientes opciones de plantilla están disponibles mientras se utiliza el a
 
 >[!IMPORTANT]
 >
-> Una vez que haya creado y añadido contenido al canal, el siguiente paso es crear una ubicación y, a continuación, una pantalla. Además, debe asignar ese canal a una pantalla. Consulte los recursos que aparecen a continuación al final de la sección.
+>Después de crear y añadir contenido al canal, el siguiente paso es crear una ubicación y, a continuación, una pantalla. Además, asigne ese canal a una pantalla. Consulte los recursos que aparecen a continuación al final de la sección.
 
 ## Uso de canales {#working-with-channels}
 

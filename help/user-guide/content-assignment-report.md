@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Consulte los siguientes recursos para obtener más información:
 
 ## Descarga del informe de asignación de contenido {#downloading-content-assignment-report-fp}
 
-Una vez que haya configurado el proyecto de AEM Screens y haya asignado pantallas a cada una de las ubicaciones, como se muestra en los pasos anteriores, estará listo para descargar el informe de asignación de contenido.
+Cuando haya configurado el proyecto de AEM Screens y haya asignado pantallas a cada una de las ubicaciones, como se muestra en los pasos anteriores, descargue el informe de asignación de contenido.
 
 >[!NOTE]
 >Solo se puede acceder a la función Informe de asignación de contenido en el nivel de proyecto.

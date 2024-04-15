@@ -2,9 +2,9 @@
 title: Administración del tráfico de red
 description: La página describe las Configuraciones de red estándar y cómo administrar el tráfico de red.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 Una configuración de red puede tener varias estructuras. En esta sección se describen las configuraciones de red y los enfoques generalizados más habituales que se siguen dentro de una organización.
 
-En esta guía se destaca la introducción a los servidores proxy seguida de las diversas estructuras de red configuradas en las distintas organizaciones.
+En esta guía se destaca la introducción a los servidores proxy, seguida de las diversas estructuras de red configuradas en las distintas organizaciones.
 
 >[!NOTE]
 >**Requisitos de red de AEM Screens**
->La AEM Screens AEM se comunica directamente con el as a Cloud Service, por lo que es necesario establecer una conexión estable entre los dos nodos. Los firewalls son absolutamente obligatorios para el acceso comercial a Internet y, como cliente, debe comprender qué puertos de comunicación es necesario abrir en estos firewalls y en otros componentes de red relacionados con la seguridad de TI.
+>AEM Screens AEM se comunica directamente con el as a Cloud Service de la, por lo que es necesario establecer una conexión estable entre los dos nodos. Los firewalls son obligatorios para el acceso comercial a Internet. Como cliente, es importante saber qué puertos de comunicación deben abrirse en estos servidores de seguridad y en otros componentes de red relacionados con la seguridad de TI.
 
 ## Introducción a los servidores proxy {#proxy-servers}
 
-Una conexión a Internet depende del uso de un servidor proxy. Un servidor proxy es un equipo dedicado o un sistema de software que se ejecuta en un equipo que actúa como intermediario entre un dispositivo de extremo, como un equipo, y otro servidor desde el que un usuario o cliente solicita un servicio. El servidor proxy puede existir en el mismo equipo que un servidor de firewall o en un servidor independiente, que reenvía solicitudes a través del firewall.
+Una conexión a Internet depende del uso de un servidor proxy. Un servidor proxy es un equipo dedicado o un sistema de software que se ejecuta en un equipo. Actúa como intermediario entre un dispositivo de extremo, como un equipo, y otro servidor desde el que un usuario o cliente solicita un servicio. El servidor proxy puede existir en el mismo equipo que un servidor de firewall o en un servidor independiente, que reenvía solicitudes a través del firewall.
 
 Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan uno o más sitios de Internet con frecuencia, es probable que estén en la caché del proxy, lo que mejora aún más el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, que se pueden utilizar para solucionar problemas.
 

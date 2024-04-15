@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Una visualización es una agrupación virtual de pantallas que se colocan una al lado de la otra. La pantalla es permanente con respecto a una instalación. Este es el objeto con el que trabajan los autores de contenido y al que siempre se hace referencia como visualización lógica en lugar de como partes de contador físicas.
 
-Una vez creada una ubicación, debe crear una pantalla para la ubicación.
+Al crear una ubicación, debe crear una pantalla para la ubicación.
 
 En esta página se muestra la creación y administración de pantallas.
 
@@ -54,7 +54,7 @@ Cuando tenga la visualización en posición, el siguiente paso es crear una conf
 >
 >**El siguiente paso**:
 >
->Al crear una pantalla para su ubicación, debe asignar un canal a la pantalla para utilizar el contenido.
+>Cuando cree una pantalla para su ubicación, asigne un canal a la pantalla para utilizar el contenido.
 >
 >Consulte [Asignar canales](channel-assignment.md) para obtener información sobre cómo asignar un canal a la visualización.
 
@@ -74,11 +74,9 @@ La configuración del dispositivo se crea y se añade a la visualización actual
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Una vez que la configuración de un dispositivo esté configurada en su pantalla en la ubicación, el siguiente paso será asignar un canal a su pantalla.
-
 >[!NOTE]
 >
->Una vez que la configuración de un dispositivo esté configurada en su pantalla en la ubicación, el siguiente paso será asignar un canal a su pantalla.
+>Cuando se establece una configuración de dispositivo en la pantalla en la ubicación, el siguiente paso será asignar un canal a la pantalla.
 >
 >Como se muestra en la figura siguiente, si la configuración del dispositivo se muestra como sin asignar en la **DISPOSITIVOS** , si no se ha asignado ningún canal a esa configuración de dispositivo en particular.
 >

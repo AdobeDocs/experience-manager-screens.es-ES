@@ -1,12 +1,10 @@
 ---
-title: Estrategia de contenido empresarial para [!UICONTROL AEM Screens]
-seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
-description: La guía describe la Estrategia de contenido empresarial
-seo-description: The guide describes Business Content Strategy
+title: Estrategia de contenido empresarial para AEM Screens
+description: Obtenga más información acerca de la estrategia de contenido empresarial y de marketing en relación con AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >
 >La parte interesada habitual de esta actividad es un estratega de marketing/negocios.
 
-El contenido es un factor importante para impulsar la participación y, en la fase de preventa, es importante definir una estrategia de contenido empresarial que tenga en cuenta cómo la aplicación aprovechará los recursos de hardware, software y conectividad para ofrecer correctamente el valor deseado a los clientes de sus clientes.
+El contenido es un factor importante para impulsar la participación. En la fase de preventa, es importante definir una estrategia de contenido empresarial que tenga en cuenta cómo la aplicación utiliza los recursos de hardware, software y conectividad para ofrecer el valor deseado a los clientes del cliente.
 
 Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador y los puntos de contacto de marketing del canal de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
 
@@ -25,24 +23,24 @@ Considere cómo la aplicación Screens puede ayudar a conseguirlo y determine lo
 
 >[!NOTE]
 >
->Debe tener en cuenta que la experiencia debe funcionar sin conexión con un ancho de banda limitado.
+>Tenga en cuenta que la experiencia debe funcionar sin conexión con un ancho de banda limitado.
 
-Debe ver estas pocas preguntas que deben responderse al crear una estrategia de contenido para su proyecto de AEM Screens:
+Revise y responda las siguientes preguntas al crear una estrategia de contenido para su proyecto de AEM Screens:
 
 * ¿Quién es la audiencia objetivo y cuál es el tiempo de permanencia previsto?
-* ¿Qué contenido se debe mostrar a ellos?
-* ¿Dónde tendrá más impacto el contenido?
+* ¿Qué contenido se les debe mostrar?
+* ¿Dónde prevé que el contenido tenga el mayor impacto?
 * ¿Cuándo es el momento ideal para atraer a la audiencia?
-* ¿Quién creará el contenido?
+* ¿Quién va a crear el contenido?
 * ¿Por qué debería preocupar al público objetivo el contenido?
 * ¿Qué problemas les ayuda a resolver el contenido? (Por ejemplo, ¿ayuda la aplicación Screens a un cliente a encontrar los zapatos más adecuados para la escalada extrema o un electrodoméstico perfecto para su nuevo hogar?)
 * ¿Cómo interactúa el cliente con la aplicación o cómo experimenta el usuario?
 * ¿Cuál es su estrategia de actualización y actualización?
-* ¿Con qué frecuencia se necesitará nuevo contenido?
+* ¿Con qué frecuencia prevé la creación de contenido nuevo y necesario?
 
   >[!NOTE]
   >
-  >Es importante que, durante la fase de preventa, empiece a hacer preguntas no solo sobre qué contenido se compartirá, sino también sobre dónde residen actualmente los datos de contenido y cómo se aprovecharán en el proyecto de Pantallas. Debe intentar profundizar en el contenido durante la implementación, pero establecer por adelantado qué datos están disponibles y en qué formato.
+  >Durante la fase de preventa, empiece a hacer preguntas no solo sobre qué contenido se va a compartir, sino también sobre dónde residen actualmente los datos de contenido. ¿Cómo se va a utilizar en un proyecto de AEM Screens? Profundice en el contenido durante la implementación, pero establezca por adelantado qué datos están disponibles y en qué formato.
 
 ## Consideraciones importantes {#important-considerations}
 

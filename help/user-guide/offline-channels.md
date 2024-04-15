@@ -1,41 +1,37 @@
 ---
 title: Canales sin conexión
-seo-title: Offline Channels
-description: El reproductor AEM Screens proporciona compatibilidad sin conexión con los canales mediante el uso de la tecnología ContentSync. Siga esta página para obtener más información sobre los controladores de actualización y la activación de la configuración sin conexión para un canal.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Obtenga más información acerca de cómo el reproductor de AEM Screens proporciona compatibilidad sin conexión para canales mediante el uso de la tecnología ContentSync.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 # Canales sin conexión {#offline-channels}
 
-El reproductor Screens proporciona compatibilidad sin conexión con los canales mediante el uso del ***ContentSync*** tecnología.
+El reproductor Screens proporciona compatibilidad sin conexión con los canales mediante el ***ContentSync*** tecnología.
 
 Los reproductores utilizan un servidor http local para proporcionar el contenido descomprimido.
 
-Cuando un canal está configurado para ejecutarse *en línea* AEM , el reproductor sirve a los recursos del canal accediendo al servidor de, pero cuando el canal está configurado para ejecutarse *sin conexión*, el reproductor sirve los recursos de canal desde un servidor http local.
+Cuando un canal está configurado para ejecutarse *en línea* AEM , el reproductor sirve a los recursos del canal accediendo al servidor de la. Sin embargo, cuando el canal está configurado para ejecutarse, *sin conexión*, el reproductor sirve los recursos de canal desde un servidor http local.
 
 El flujo de trabajo para el proceso es el siguiente:
 
-1. Analizar las páginas deseadas
-1. Recopilar todos los recursos relacionados
-1. Empaquetar todo en un archivo zip
-1. Descargue el zip y extráigalo localmente
-1. Mostrar copia local del contenido
+1. Analice las páginas que desee.
+1. Recopilar todos los recursos relacionados.
+1. Empaquete todo en un archivo zip.
+1. Descargue el zip y extráigalo localmente.
+1. Mostrar la copia local del contenido.
 
 ## Actualizar controladores {#update-handlers}
 
@@ -55,22 +51,22 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
    <td><strong>Opciones</strong></td> 
   </tr>
   <tr>
-   <td>canales</td> 
+   <td><code>channels</code></td> 
    <td>recopila un canal</td> 
    <td>extension: extensión del recurso que se va a recopilar<br /> [pathSuffix='']: sufijo para agregar a la ruta del canal<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>recopilar la biblioteca de cliente especificada</td> 
    <td>[extension='']: puede ser css o js, para recopilar solo el primero o solo el segundo</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>recopilar las representaciones de recursos</td> 
    <td>[renditions=[]]: lista de representaciones que recopilar. Valores predeterminados de la representación original</td> 
   </tr>
   <tr>
-   <td>copia</td> 
+   <td><code>copy</code></td> 
    <td>copiar la estructura especificada de la ruta</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Vaya al panel de canales y haga clic en **...** en el **INFORMACIÓN DEL CANAL** Panel para cambiar las propiedades.
+1. Vaya al panel de canales.
+1. Clic **...** en el **INFORMACIÓN DEL CANAL** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Vaya a las propiedades del canal y asegúrese de que la casilla de verificación está desactivada en la **Canal** pestaña. Haga clic en **Guardar y cerrar**.
+1. Vaya a las propiedades del canal.
+1. En la pestaña (Canal), asegúrese de que la casilla de verificación esté desactivada y haga clic en **Guardar y cerrar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

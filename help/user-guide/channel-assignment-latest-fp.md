@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
 ### Asignación de canales a una pantalla {#assigning-channel-to-display}
 
-Cuando se complete la configuración del proyecto, debe asignar el canal a una pantalla para ver el contenido.
+Cuando finalice la configuración del proyecto, asigne el canal a una pantalla para ver el contenido.
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
@@ -105,7 +105,7 @@ Puede ver el siguiente resultado a su elección de reproductor:
 
 ## Vista Cronología {#timeline-view}
 
-Una vez que haya asignado un canal a una pantalla y haya configurado un programa de periodicidad, puede ver la cronología desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+Cuando haya asignado un canal a una pantalla y haya configurado un programa de periodicidad, puede ver la cronología desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
 Siga los pasos a continuación para navegar a la vista de cronología:
 

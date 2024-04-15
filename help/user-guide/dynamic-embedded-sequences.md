@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Referencia a *Canal por rol*, permite crear la versión local de un canal para r
 >
 >Una secuencia incrustada dinámica es similar a una secuencia incrustada, pero permite al usuario seguir una jerarquía en la que los cambios/actualizaciones realizados en un canal se propagan a otro en relación. Rastrea la jerarquía principal-secundaria e incluye recursos como imágenes o vídeos.
 >
->***Secuencias incrustadas dinámicas*** permite mostrar contenido específico de la ubicación, mientras que ***Secuencias incrustadas*** mostrar únicamente la presentación general del contenido. Además, al configurar Secuencias incrustadas dinámicas, debe configurar el canal mediante la función y el nombre del canal. Consulte los pasos siguientes para ver una implementación práctica.
+>***Secuencias incrustadas dinámicas*** permite mostrar contenido específico de la ubicación, mientras que ***Secuencias incrustadas*** mostrar únicamente la presentación general del contenido. Además, al configurar Secuencias incrustadas dinámicas, configure el canal mediante la función y el nombre del canal. Consulte los pasos siguientes para ver una implementación práctica.
 >
 >Para obtener más información sobre la implementación de secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en AEM Screens.
 

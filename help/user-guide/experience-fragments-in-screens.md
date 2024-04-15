@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    >[!NOTE]
    >
-   >Una vez creado el fragmento de Screens, puede editar las propiedades del fragmento. Seleccione el fragmento y haga clic en **Propiedades** de la barra de acciones.
+   >Después de crear un fragmento de AEM Screens, puede editar las propiedades del fragmento. Seleccione el fragmento y haga clic en **Propiedades** de la barra de acciones.
 
    **Edición de propiedades de un fragmento de Screens**
 

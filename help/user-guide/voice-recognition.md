@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Un autor de contenido puede configurar una pantalla para que esté habilitada pa
 >[!IMPORTANT]
 > La función de reconocimiento de voz solo está disponible en reproductores Windows y Chrome OS.
 
-Para implementar el reconocimiento de voz en el proyecto de AEM Screens, debe habilitar el reconocimiento de voz para la pantalla y asociar cada canal con una etiqueta única para almacenar en déclencheur una transición de canal.
+Para implementar el reconocimiento de voz en su proyecto de AEM Screens, habilite el reconocimiento de voz para la pantalla y asocie cada canal con una etiqueta única para almacenar en déclencheur una transición de canal.
 
 En la siguiente sección se describe cómo habilitar y utilizar la función de reconocimiento de voz en un proyecto de AEM Screens.
 
@@ -97,7 +97,7 @@ Siga los pasos a continuación para añadir etiquetas a su canal:
 
    O bien,
 
-   AEM También puede crear etiquetas a partir de la instancia de de antemano para su proyecto y seleccionarlas. Una vez que haya seguido los pasos explicados en [Creación de etiquetas](#creating-tags), puede seleccionar la etiqueta de la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
+   AEM También puede crear etiquetas a partir de la instancia de de antemano para su proyecto y seleccionarlas. Después de seguir los pasos explicados en [Creación de etiquetas](#creating-tags), puede seleccionar la etiqueta de la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
 
    ![imagen](assets/voice-recognition/vr-tag1.png)
 

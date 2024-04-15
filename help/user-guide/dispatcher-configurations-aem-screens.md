@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Deshabilitar el almacenamiento en caché de Dispatcher para ***/content/screens 
 
 Los reproductores de pantallas utilizan sesiones autenticadas, por lo que Dispatcher no almacena en caché ninguna de las solicitudes de los reproductores de pantallas para `channels/assets`.
 
-Para habilitar la caché de los recursos de modo que los recursos se proporcionen desde la caché de Dispatcher, debe:
+Para habilitar la caché de los recursos de modo que se proporcionen desde la caché de Dispatcher, haga lo siguiente:
 
 * Añadir `/allowAuthorization 1` in `/cache` sección
 * Añada las siguientes reglas a `/rules` sección de `/cache`
