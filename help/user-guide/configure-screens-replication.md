@@ -4,7 +4,7 @@ description: Obtenga información acerca de cómo configurar agentes de replicac
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 4%
@@ -36,17 +36,17 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 
 1. AEM Vaya a la instancia de autor de la.
 
-1. Haga clic en herramientas > **Seguridad** > **Usuarios**.
+1. Seleccione herramientas > **Seguridad** > **Usuarios**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Buscar por **`screens-receiver-user`**.
 
-1. Seleccione el **`screens-receiver-user`** y haga clic en **Activar** de la barra de acciones.
+1. Seleccione el **`screens-receiver-user`** y seleccione **Activar** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Clic **OK** para confirmar.
+1. Seleccionar **OK** para confirmar.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -54,39 +54,39 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Seleccione el **`screens-receiver-user`** y haga clic en **Propiedades** de la barra de acciones.
+1. Seleccione el **`screens-receiver-user`** y seleccione **Propiedades** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Clic **Cambiar contraseña** bajo **Configuración de cuenta** desde el **Detalles** , como se muestra en la figura siguiente.
+1. Seleccionar **Cambiar contraseña** bajo **Configuración de cuenta** desde el **Detalles** , como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Introduzca una nueva contraseña en **Cambiar contraseña** y haga clic en **Guardar**.
+1. Introduzca una nueva contraseña en **Cambiar contraseña** y seleccione. **Guardar**.
 
    >[!NOTE]
    >Introduzca la contraseña de usuario de administrador existente en **Su contraseña** field.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Haga clic en **Guardar y cerrar**.
+1. Seleccione **Guardar y cerrar**.
 
-1. Seleccione el **`screens-receiver-user`** y haga clic en **Activar** de la barra de acciones.
+1. Seleccione el **`screens-receiver-user`** y seleccione **Activar** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Clic **OK** para confirmar.
+1. Seleccionar **OK** para confirmar.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Seleccione el **`screens-receiver-user`** y haga clic en **Deshabilitar** de la barra de acciones.
+1. Seleccione el **`screens-receiver-user`** y seleccione **Deshabilitar** de la barra de acciones.
 
    >[!IMPORTANT]
-   > Desactivando **`screens-receiver-user`** solo deshabilita este usuario de la instancia de creación y todos los usuarios de la instancia de publicación permanecen activos. No haga clic en **Desactivar** en la barra de acciones, ya que la desactivación elimina el usuario de las instancias de publicación también.
+   > Desactivando **`screens-receiver-user`** solo deshabilita este usuario de la instancia de creación y todos los usuarios de la instancia de publicación permanecen activos. No seleccionar **Desactivar** en la barra de acciones, ya que la desactivación elimina el usuario de las instancias de publicación también.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Clic **OK** para confirmar.
+1. Seleccionar **OK** para confirmar.
 
 ## Actualización de la configuración del agente de replicación de Screens {#replicate-agent}
 
@@ -96,22 +96,22 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 >Complete los siguientes pasos en TODOS los agentes de replicación de AEM Screens existentes.
 
 1. AEM Vaya a la instancia de la.
-1. Haga clic en herramientas > **Implementación** > **Replicación**.
+1. Seleccione herramientas > **Implementación** > **Replicación**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Clic **Agentes en el autor**.
+1. Seleccionar **Agentes en el autor**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Busque todos los agentes de replicación de AEM Screens en Author y haga clic en el vínculo, como se muestra en la figura siguiente.
+1. Busque todos los agentes de replicación de AEM Screens en Autor y seleccione el vínculo, como se muestra en la figura siguiente.
 
    >[!NOTE]
    >Busque todos los agentes de replicación de AEM Screens. El nombre del agente de replicación de pantallas incluye la carta **S** en el título.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Clic **Editar**.
+1. Seleccione **Editar**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -123,9 +123,9 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Haz clic en **OK**.
+1. Seleccionar **OK**.
 
-1. Después de completar los pasos anteriores, haga clic en **Probar conexión** para verificar la conexión.
+1. Después de completar los pasos anteriores, seleccione **Probar conexión** para verificar la conexión.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

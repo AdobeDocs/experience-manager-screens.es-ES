@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Al crear un canal, puede utilizar diferentes plantillas para crear zonas en el c
 **Creación de un canal**
 
 1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y, a continuación, **Screens**. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya a **Canales** y haga clic en **Crear** de la barra de acciones.
+1. Vaya a **Canales** carpeta y seleccione **Crear** de la barra de acciones.
 
 1. Seleccionar **Canal de pantalla dividida 1x2** desde el **Crear** asistente.
 
-1. Clic **Siguiente** e introduzca la variable **title** as **MultiZone**.
+1. Seleccionar **Siguiente** e introduzca la variable **title** as **MultiZone**.
 
-1. Clic **Crear** para completar la creación del canal.
+1. Seleccionar **Crear** para completar la creación del canal.
 
 ### Uso de recursos únicos en una o más zonas {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Puede utilizar recursos únicos, como una imagen o un vídeo, en todas las zonas
 1. **Adición de contenido al canal**
 
    1. Vaya a **Zonas** > **Canales**> **MultiZone**.
-   1. Seleccione el **MultiZone** y haga clic en **Editar** de la barra de acciones.
+   1. Seleccione el **MultiZone** canal y seleccione **Editar** de la barra de acciones.
 
 1. **Adición de imágenes al canal**
 
@@ -80,17 +80,17 @@ Si desea que las zonas muestren una secuencia de imágenes y un vídeo en las di
 
 1. **Creación de una carpeta de canales**
 
-   1. Vaya a **Zonas** > **MultiZone** > **Canales** y haga clic en **Crear** de la barra de acciones.
-   1. Seleccionar **Carpeta de canales** desde el **Crear** y haga clic en **Siguiente**.
-   1. Escriba el título como **EmbeddedChannels** y haga clic en **Crear**.
+   1. Vaya a **Zonas** > **MultiZone** > **Canales** y seleccione **Crear** de la barra de acciones.
+   1. Seleccionar **Carpeta de canales** desde el **Crear** asistente y seleccione **Siguiente**.
+   1. Escriba el título como **EmbeddedChannels** y seleccione **Crear**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Adición de dos canales más a la carpeta del canal**
 
-   1. Vaya a **Zonas** > **Canales** > **EmbeddedChannels** y haga clic en **Crear** de la barra de acciones.
+   1. Vaya a **Zonas** > **Canales** > **EmbeddedChannels** y seleccione **Crear** de la barra de acciones.
    1. Seleccionar **Canal de secuencia** desde el **Crear** asistente para crear un canal con el título **`Zone1`**.
-   1. Seleccionar **`Zone1`** y haga clic en **Editar** de la barra de acciones.
+   1. Seleccionar **`Zone1`** y seleccione **Editar** de la barra de acciones.
    1. Arrastre y suelte algunas imágenes en este canal.
    1. Del mismo modo, cree otro canal de secuencia llamado **`Zone2`** in **EmbeddedChannels** carpeta.
    1. Arrastre y suelte un vídeo en este canal.
@@ -110,10 +110,10 @@ Si desea que las zonas muestren una secuencia de imágenes y un vídeo en las di
 1. **Adición de secuencias incrustadas (componente) al canal principal (MultiZone)**
 
    1. Vaya a **Zonas** > **Canales** > **MultiZone**.
-   1. Clic **Editar** de la barra de acciones.
+   1. Seleccionar **Editar** de la barra de acciones.
    1. Arrastre y suelte el **Secuencia incrustada** a ambas zonas.
    1. Seleccione la secuencia incrustada en una de las zonas.
-   1. Haga clic en **Configurar** Icono (llave inglesa) a una de las secuencias incrustadas en el editor.
+   1. Seleccione el **Configurar** Icono (llave inglesa) a una de las secuencias incrustadas en el editor.
    1. Seleccione la ruta del canal como **Zonas** > **Canales** > **EmbeddedChannels** > **`Zone1`**, como se muestra en la figura siguiente.
    1. Del mismo modo, agregue **`Zone2`** a otro componente de secuencia incrustado en el editor.
 

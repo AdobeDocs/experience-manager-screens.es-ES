@@ -2,7 +2,7 @@
 title: Duración de reproducción de imagen de nivel de proyecto
 description: Aprenda a definir la duración de la reproducción de la imagen en el nivel de proyecto.
 contentOwner: jsyal
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -43,10 +43,10 @@ En la sección siguiente se explica cómo editar la duración de reproducción d
 
 Siga los pasos a continuación para aprender a actualizar la duración de reproducción de imagen a nivel de proyecto:
 
-1. Navegar al proyecto **ProjectLevelPlayback** y haga clic en **Propiedades** de la barra de acciones.
+1. Navegar al proyecto **ProjectLevelPlayback** y seleccione **Propiedades** de la barra de acciones.
    ![activos](assets/image_playback3.png)
 
-1. Seleccione todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
+1. Seleccione todas las imágenes del canal y seleccione el icono de llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para poder abrir el cuadro de diálogo Configurar nivel de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -58,7 +58,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha de la etiqueta **Página** para que se guarden los cambios.
+   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Seleccione la marca de verificación en la parte superior derecha de la **Página** para que se guarden los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

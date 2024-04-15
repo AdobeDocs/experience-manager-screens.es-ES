@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -29,8 +29,8 @@ También puede navegar directamente a: `http://localhost:4502/screens.html/conte
 ## Creación de un nuevo proyecto de Screens
 
 1. Seleccionar **Screens** AEM de la instancia de la.
-1. Clic **Crear proyecto de Screens**.
-1. Escriba el título como **TestScreens** y haga clic en **Guardar**.
+1. Seleccionar **Crear proyecto de Screens**.
+1. Escriba el título como **TestScreens** y seleccione **Guardar**.
 
 El proyecto se crea y le lleva de nuevo a la consola Proyecto de pantallas. Ahora puede seleccionar el proyecto.
 
@@ -63,10 +63,10 @@ También puede crear su propia carpeta personalizada en **Horarios**, **Ubicacio
 
 Para crear una carpeta personalizada:
 
-1. Seleccione el proyecto y haga clic en **Crear** situado junto al icono más en la barra de acciones.
+1. Seleccione el proyecto y seleccione **Crear** situado junto al icono más en la barra de acciones.
 1. El **Crear** se abrirá el asistente y seleccione la opción adecuada.
-1. Haga clic en **Siguiente**.
-1. Introduzca las propiedades y haga clic en **Crear**.
+1. Seleccione **Siguiente**.
+1. Introduzca las propiedades y seleccione **Crear**.
 
 Los siguientes pasos muestran la creación de una carpeta de aplicaciones para su **Aplicaciones** página principal en **TestScreens**.
 

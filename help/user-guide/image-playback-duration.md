@@ -2,7 +2,7 @@
 title: Duración de reproducción de imagen
 description: Obtenga información acerca de la duración de la reproducción de imágenes en AEM Screens.
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Clic **Editar** de la barra de acciones.
+1. Seleccionar **Editar** de la barra de acciones.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha de la etiqueta **Página** para que pueda guardar los cambios.
+   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Seleccione la marca de verificación en la parte superior derecha de la **Página** para que pueda guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

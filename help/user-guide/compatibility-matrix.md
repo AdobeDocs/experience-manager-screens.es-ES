@@ -4,7 +4,7 @@ description: Obtenga más información acerca de los reproductores de AEM Screen
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 7%
@@ -45,7 +45,7 @@ En la siguiente sección se enumeran los reproductores de Screens de Adobe Exper
 
 ### Vínculo de descarga {#download-link}
 
-Haga clic en el vínculo de descarga del Reproductor de iOS:
+Seleccione el vínculo de descarga del Reproductor de iOS:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Vínculo de descarga {#download-link-1}
 
-Haga clic en el vínculo de descarga del Reproductor de Windows 10:
+Seleccione el vínculo de descarga para el Reproductor de Windows 10:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Vínculo de descarga {#download-link-2}
 
-Haga clic en el vínculo de descarga del reproductor Android™:
+Seleccione el vínculo de descarga para el reproductor Android™:
 
 aem-screens-player-android-3.3.0.apk.zip
 

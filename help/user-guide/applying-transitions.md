@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Siga los pasos a continuación para agregar un componente de transición al proy
 >
 >Creación de un proyecto de AEM Screens **TestProject** con un canal **TestTransition**. Asimismo, configure una ubicación y una pantalla para ver el resultado.
 
-1. Navegar al canal **TestTransition** y haga clic en **Editar** de la barra de acciones.
+1. Navegar al canal **TestTransition** y seleccione **Editar** de la barra de acciones.
 
    ![image1](assets/transitions1.png)
 

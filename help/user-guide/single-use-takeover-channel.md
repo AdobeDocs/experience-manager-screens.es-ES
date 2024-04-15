@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
    ![recurso](assets/single-takeover2.png)
 
-1. Seleccione el **MainAdChannel** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte algunos recursos (imágenes, vídeos, secuencias incrustadas) en su canal.
+1. Seleccione el **MainAdChannel** y seleccione **Editar** de la barra de acciones. Arrastre y suelte algunos recursos (imágenes, vídeos, secuencias incrustadas) en su canal.
 
    ![recurso](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
 1. Crear un **TakeOver** canal que se hace cargo del contenido en **MainAdChannel** y se reproduce solo para un día y una hora específicos.
 
-1. Seleccione el **TakeOver** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte algunos recursos en su canal. El siguiente ejemplo muestra una imagen de zona única agregada a este canal.
+1. Seleccione el **TakeOver** y seleccione **Editar** de la barra de acciones. Arrastre y suelte algunos recursos en su canal. El siguiente ejemplo muestra una imagen de zona única agregada a este canal.
 
    ![recurso](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ Siga los pasos a continuación para configurar un proyecto:
 
 **Asignación de canales a una pantalla**
 
-1. Seleccione la pantalla **MainLobbyDisplay** desde el **Ubicaciones** carpeta. Clic **Asignar canal** de la barra de acciones.
+1. Seleccione la pantalla **MainLobbyDisplay** desde el **Ubicaciones** carpeta. Seleccionar **Asignar canal** de la barra de acciones.
 
    ![recurso](assets/single-takeover6.png)
 
    >[!NOTE]
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
 
-1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y haga clic en **Guardar**. Ahora ha asignado la variable **MainAdChannel** a la pantalla.
+1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y seleccione. **Guardar**. Ahora ha asignado la variable **MainAdChannel** a la pantalla.
 
    ![recurso](assets/single-takeover7.png)
 
-1. Seleccione la pantalla **TakeOver** desde el **Ubicaciones** carpeta. Clic **Asignar canal** desde la barra de acciones para poder asignar el canal de adquisición de un solo uso.
+1. Seleccione la pantalla **TakeOver** desde el **Ubicaciones** carpeta. Seleccionar **Asignar canal** desde la barra de acciones para poder asignar el canal de adquisición de un solo uso.
 
-1. Asigne el **TakeOver** canal a la pantalla a una hora programada y rellene los campos siguientes desde el **Asignación de canales** y haga clic en **Guardar**:
+1. Asigne el **TakeOver** canal a la pantalla a una hora programada y rellene los campos siguientes desde el **Asignación de canales** y seleccione. **Guardar**:
 
    * **Ruta de canal**: seleccione la ruta al canal TakeOver
    * **Prioridad**: establezca la prioridad de este canal en mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
@@ -97,7 +97,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
      ![recurso](assets/single-takeover8.png)
 
-     Navegue hasta la pantalla desde **SingleUseTakeOver** > **Ubicaciones** > **Vestíbulo** > **MainLobbyDisplay** y haga clic en **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
+     Navegue hasta la pantalla desde **SingleUseTakeOver** > **Ubicaciones** > **Vestíbulo** > **MainLobbyDisplay** y seleccione **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
 
      >[!NOTE]
      >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.

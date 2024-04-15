@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -97,11 +97,11 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 1. **Creación de la Live Copy del fragmento de experiencia**
 
    1. AEM Vaya a la página de inicio de la.
-   1. Seleccionar **Fragmentos de experiencias** y resalte el **ScreensFragment** y haga clic en **Variación como Live Copy**, como se muestra en la figura siguiente:
+   1. Seleccionar **Fragmentos de experiencias** y resalte el **ScreensFragment** y seleccione **Variación como Live Copy**, como se muestra en la figura siguiente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Seleccione la **ScreensFragment** de **Crear Live Copy** y haga clic en **Siguiente**.
+   c. Seleccione la **ScreensFragment** de **Crear Live Copy** asistente y seleccione **Siguiente**.
 
    d. Introduzca la **Título** y **Nombre** as **Screens**.
 
@@ -113,11 +113,11 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    >[!NOTE]
    >
-   >Después de crear un fragmento de AEM Screens, puede editar las propiedades del fragmento. Seleccione el fragmento y haga clic en **Propiedades** de la barra de acciones.
+   >Después de crear un fragmento de AEM Screens, puede editar las propiedades del fragmento. Seleccione el fragmento y seleccione **Propiedades** de la barra de acciones.
 
    **Edición de propiedades de un fragmento de Screens**
 
-   1. Vaya a **ScreensFragment** (creada en los pasos anteriores) y haga clic en **Propiedades** de la barra de acciones.
+   1. Vaya a **ScreensFragment** (creada en los pasos anteriores) y seleccione **Propiedades** de la barra de acciones.
 
    1. Seleccione el **Configuración sin conexión** , como se muestra en la figura siguiente.
 
@@ -128,9 +128,9 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 1. **Uso del fragmento de experiencia como componente en el canal de Pantallas**
 
    1. Vaya al canal de Pantallas donde desee utilizar la variable **Screens** fragmento.
-   1. Seleccione el **TestChannel** y haga clic en **Editar** de la barra de acciones.
+   1. Seleccione el **TestChannel** y seleccione **Editar** de la barra de acciones.
 
-   1. Haga clic en el icono de componentes de la pestaña lateral.
+   1. Seleccione el icono de componentes de la pestaña lateral.
    1. Arrastre y suelte el **Fragmento de experiencia** a su canal.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ Dado que el fragmento de experiencia que ha creado es una Live Copy del **Sites*
 
 Siga los pasos a continuación para propagar los cambios del canal principal al canal de destino:
 
-1. Seleccione el fragmento de experiencia de la lista **Sites** (principal) y haga clic en el icono de lápiz para editar los elementos en el Fragmento de experiencia.
+1. Seleccione el fragmento de experiencia de la lista **Sites** (principal) y seleccione el icono de lápiz para poder editar los elementos en el Fragmento de experiencia.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Seleccione el fragmento de experiencia y haga clic en el icono de la llave inglesa para abrir el cuadro de diálogo y editar las imágenes.
+1. Seleccione el Fragmento de experiencia y seleccione el icono de llave inglesa para poder abrir el cuadro de diálogo y editar las imágenes.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ Siga los pasos a continuación para propagar los cambios del canal principal al 
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Seleccione el Fragmento de experiencia y haga clic en el icono Despliegue para poder propagar los cambios al fragmento que se utiliza en el canal.
+1. Seleccione el Fragmento de experiencia y el icono Despliegue para poder propagar los cambios al fragmento que se utiliza en el canal.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ Siga los pasos a continuación para confirmar los cambios en el canal:
 
 1. Vaya a **Screens** > **Canales** > **TestChannel**.
 
-1. Clic **Previsualizar** de la barra de acciones.
+1. Seleccionar **Previsualizar** de la barra de acciones.
 
 La siguiente imagen ilustra los cambios en su **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

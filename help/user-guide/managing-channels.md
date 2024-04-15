@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 2%
@@ -31,15 +31,15 @@ Después de crear el proyecto para AEM Screens, siga los pasos a continuación p
 
 1. Vaya al proyecto de Screens y seleccione **Canales** carpeta.
 
-1. Clic **Crear** de la barra de acciones.
+1. Seleccionar **Crear** de la barra de acciones.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Seleccione el **Canal de secuencia** plantilla de la **Crear** y haga clic en **Siguiente**.
+1. Seleccione el **Canal de secuencia** plantilla de la **Crear** asistente y seleccione **Siguiente**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Escriba el título como **ScreensChannel** y haga clic en **Crear**.
+1. Escriba el título como **ScreensChannel** y seleccione **Crear**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -81,7 +81,7 @@ Puede editar, ver las propiedades y el panel, copiar, previsualizar y eliminar u
 Para añadir o editar contenido en un canal, siga los pasos a continuación:
 
 1. Seleccione el canal que desee editar (como se muestra en la figura anterior).
-1. Clic **Editar** desde la esquina superior izquierda de la barra de acciones para poder editar las propiedades del canal. Se abre el editor, que le permite agregar recursos o componentes al canal que desee publicar.
+1. Seleccionar **Editar** desde la esquina superior izquierda de la barra de acciones para poder editar las propiedades del canal. Se abre el editor, que le permite agregar recursos o componentes al canal que desee publicar.
 
 >[!NOTE]
 >Puede añadir componentes al canal. Consulte **[Adición de componentes a un canal](adding-components-to-a-channel.md)** para obtener más información.
@@ -93,7 +93,7 @@ Para añadir o editar contenido en un canal, siga los pasos a continuación:
 Siga los pasos a continuación para cargar vídeos en su canal:
 
 1. Seleccione el canal en el que desea cargar el vídeo.
-1. Clic **Editar** de la barra de acciones.
+1. Seleccionar **Editar** de la barra de acciones.
 1. En el editor, seleccione **Vídeos** en Recursos y arrastre y suelte los vídeos necesarios.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Siga los pasos a continuación para cargar vídeos en su canal:
 
 ### Visualización o edición de las propiedades de un canal {#viewing-properties}
 
-1. Haga clic en el canal que desee editar.
-1. Clic **Propiedades** en la barra de acciones, para poder ver o editar las propiedades del canal. La siguiente pestaña permite cambiar las opciones.
+1. Seleccione el canal que desee editar.
+1. Seleccionar **Propiedades** en la barra de acciones, para poder ver o editar las propiedades del canal. La siguiente pestaña permite cambiar las opciones.
 
 ![propiedades](assets/properties.gif)
 
 ### Visualización del panel {#viewing-dashboard}
 
 1. Seleccione el canal que desee editar.
-1. Clic **Tablero** de la barra de acciones.
+1. Seleccionar **Tablero** de la barra de acciones.
 
 ![tablero](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Siga los pasos a continuación para cargar vídeos en su canal:
 
 El panel Información del canal describe las propiedades del canal, junto con la vista previa del canal. Además, le proporciona información sobre si el canal está sin conexión o en línea.
 
-Haga clic en el botón (**...**) desde el **INFORMACIÓN DEL CANAL** barra de acciones para poder ver las propiedades, editar el contenido o actualizar la caché (contenido sin conexión) del canal.
+Seleccione el (**...**) desde el **INFORMACIÓN DEL CANAL** barra de acciones para poder ver las propiedades, editar el contenido o actualizar la caché (contenido sin conexión) del canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Siga estos pasos para poder habilitar esta opción desde el panel de canales:
 1. **Definir el canal como Sin conexión**
    1. Seleccione el canal y seleccione **Propiedades** desde la barra de acciones
    1. Vaya a **Canal** y asegúrese de desmarcar **Modo de desarrollador (forzar al canal a estar en línea)** opción
-   1. Clic **Guardar y cerrar**
+   1. Seleccionar **Guardar y cerrar**
 1. **Actualizar contenido sin conexión**
    1. Seleccione el canal y seleccione **Tablero** desde la barra de acciones
-   1. Vaya a **INFORMACIÓN DEL CANAL** y haga clic en *...*
-   1. Clic **Actualizar contenido sin conexión**
+   1. Vaya a **INFORMACIÓN DEL CANAL** panel y seleccione *...*
+   1. Seleccionar **Actualizar contenido sin conexión**
 
 Debería ver el **Ver manifiesto** de la opción **INFORMACIÓN DEL CANAL** en el panel Canal.
 
@@ -161,17 +161,17 @@ Siga los pasos a continuación para hacer el canal en línea:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Clic **Tablero** en la barra de acciones para poder ver el estado del reproductor. El **INFORMACIÓN DEL CANAL** el panel proporciona información sobre si el canal está en línea o sin conexión.
+   Seleccionar **Tablero** en la barra de acciones para poder ver el estado del reproductor. El **INFORMACIÓN DEL CANAL** el panel proporciona información sobre si el canal está en línea o sin conexión.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Clic **Propiedades** en la barra de acciones y vaya a **Canal** como se muestra a continuación:
+1. Seleccionar **Propiedades** en la barra de acciones y vaya a **Canal** como se muestra a continuación:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Compruebe la **Desarrollador** **modo (forzar al canal a estar en línea)** para convertir el canal en en línea.
 
-   Clic **Guardar y cerrar** para guardar la opción.
+   Seleccionar **Guardar y cerrar** para guardar la opción.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Siga los pasos a continuación para hacer el canal en línea:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Para volver a configurar el canal como sin conexión, desactive la opción Modo de desarrollador en **Propiedades** pestaña (como se muestra en el paso (3)). A continuación, desde el **INFORMACIÓN DEL CANAL** clic en panel **Actualizar contenido sin conexión**, como se muestra en la figura siguiente.
+>Para volver a configurar el canal como sin conexión, desactive la opción Modo de desarrollador en **Propiedades** pestaña (como se muestra en el paso (3)). A continuación, desde el **INFORMACIÓN DEL CANAL** selección de panel **Actualizar contenido sin conexión**, como se muestra en la figura siguiente.
 
 ![panel2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ Las visualizaciones asociadas se enumeran en la **Pantallas asignadas** panel, c
 >* [Creación y administración de pantallas](managing-displays.md)
 >
 
-Además, haga clic en la pantalla de **PANTALLAS ASIGNADAS** , para ver la información de visualización, como se muestra a continuación:
+Seleccione también la visualización en la **PANTALLAS ASIGNADAS** , para ver la información de visualización, como se muestra a continuación:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

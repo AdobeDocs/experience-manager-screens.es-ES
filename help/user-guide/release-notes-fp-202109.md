@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
       * Vaya al CRXDE Lite en Autor y Publicación.
 
-      * Haga clic en Herramientas > Consulta.
+      * Seleccione Herramientas > Consulta.
 
       * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

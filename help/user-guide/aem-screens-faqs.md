@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Active el Filtro de referente de Apache Sling Permitir vacío. Esto es necesario
 
 1. Vaya a **Configuración de la consola web Adobe Experience Manager**
 1. Compruebe la **allow.empty** opción.
-1. Haga clic en **Guardar**.
+1. Seleccione **Guardar**.
 
 ### 3. ¿Cómo solucionar problemas si al registrar un reproductor AEM Screens, el dispositivo muestra FAILURE y los registros de la consola muestran un error ENAME_NOT_FOUND?
 
@@ -133,13 +133,13 @@ Para obtener más información sobre dónde puede monitorizar la actividad de lo
 
 El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin requerir el dispositivo de reproductor Chrome real. Para la instalación, siga los pasos a continuación:
 
-1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
+1. Seleccionar [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 1. Descomprima y guárdelo en el disco.
 1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
 1. Encienda el **Modo de desarrollador** desde la esquina superior derecha.
 1. Seleccionar **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
 1. Si está disponible en la lista de extensiones, marque **Reproductor de AEM Screens Chrome** plugin.
-1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
+1. Abra una nueva pestaña y seleccione **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 1. Seleccione el **AEM Screens** Complemento. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
 
 ### 2. ¿Cómo solucionar problemas si el reproductor Screens no puede autenticarse a través de la instancia de publicación con el controlador de error personalizado?

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ Siga los pasos del caso de uso a continuación para implementar la activación d
 1. **Configuración de los segmentos en Audiences según los requisitos**
 
    1. Vaya a los segmentos de la audiencia (consulte ***Paso 2: Configuración de la segmentación de audiencia*** in **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
-   1. Seleccione el **Hojas A1 1** y haga clic en **Editar**.
-   1. Seleccione la propiedad de comparación y haga clic en **Configuración** icono.
+   1. Seleccione el **Hojas A1 1** y seleccione **Editar**.
+   1. Seleccione la propiedad de comparación y seleccione **Configuración** icono.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de propiedad**.
    1. Seleccione el **Operador** as **igualar** en el menú desplegable.
    1. Introduzca el **Valor** as **1**.
-   1. Del mismo modo, seleccione la **Hojas A1 2** y haga clic en **Editar**.
-   1. Seleccione la propiedad de comparación y haga clic en **Configuración** icono.
+   1. Del mismo modo, seleccione la **Hojas A1 2** y seleccione **Editar**.
+   1. Seleccione la propiedad de comparación y seleccione **Configuración** icono.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de propiedad**.
    1. Seleccione el **Operador** as **2**.
 
-1. Desplácese, seleccione el canal () y haga clic en **Editar** de la barra de acciones. En el ejemplo siguiente, **DataDrivenRestaurant**, se utiliza un canal secuencial para mostrar la funcionalidad.
+1. Desplácese, seleccione el canal () y seleccione **Editar** de la barra de acciones. En el ejemplo siguiente, **DataDrivenRestaurant**, se utiliza un canal secuencial para mostrar la funcionalidad.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Siga los pasos del caso de uso a continuación para implementar la activación d
 
    ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Seleccionar **Segmentación** en el editor, seleccione **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
+1. Seleccionar **Segmentación** en el editor, seleccione **Marca** y el **Actividad** en el menú desplegable y seleccione **Iniciar segmentación**.
 1. **Comprobación de la previsualización**
 
-   1. Clic **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
+   1. Seleccionar **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
    1. Actualice el valor en **`Restaurant1`** y **`Restaurant2`** columnas. If **`Restaurant1`** > **`Restaurant2`,** debería poder ver una imagen de *Filete* comida de otro modo, *Tailandés* la imagen de la comida se muestra en la pantalla.
 
    ![result5](assets/result5.gif)

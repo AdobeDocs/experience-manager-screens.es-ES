@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Seleccione el canal **FutureLaunch** y haga clic en **Crear lanzamiento** de la barra de acciones.
+1. Seleccione el canal **FutureLaunch** y seleccione **Crear lanzamiento** de la barra de acciones.
 
    ![Imagen](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. El **Crear lanzamiento** se abre el asistente. Puede seleccionar el canal que ya está visible en el asistente o hacer clic en **+ Agregar canales** para añadir el canal para el que desea crear el lanzamiento.
+1. El **Crear lanzamiento** se abre el asistente. Puede seleccionar el canal que ya está visible en el asistente o seleccionar **+ Agregar canales** para añadir el canal para el que desea crear el lanzamiento.
 
-1. Clic **Siguiente** desde el **Crear lanzamiento** asistente. El **Incluir subpáginas** está seleccionada de forma predeterminada.
+1. Seleccionar **Siguiente** desde el **Crear lanzamiento** asistente. El **Incluir subpáginas** está seleccionada de forma predeterminada.
 
    ![imagen](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Puede utilizar **+ Agregar canales** para añadir otro canal para el que desee crear el lanzamiento.
 
-   Para usar **Agregar canales** , vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
+   Para usar **Agregar canales** , vaya al canal para el que desea crear el lanzamiento y seleccione **Seleccionar**.
 
    El **Seleccionar** Esta opción está desactivada si intenta seleccionar varios canales o una carpeta para añadir el lanzamiento.
 
    ![imagen](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Después de seleccionar el canal o los canales, haga clic en **Siguiente**.
+   Después de seleccionar el canal o los canales, seleccione **Siguiente**.
 
 
-1. Introduzca el **Título del lanzamiento** as **SummerPromotions** y no es necesario configurar el **Fecha de lanzamiento**, como se muestra en la figura siguiente. Haga clic en **Crear**.
+1. Introduzca el **Título del lanzamiento** as **SummerPromotions** y no es necesario configurar el **Fecha de lanzamiento**, como se muestra en la figura siguiente. Seleccione **Crear**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Siga los pasos a continuación para editar las propiedades de Launch:
 
    ![imagen](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Seleccione el lanzamiento y haga clic en **Propiedades del lanzamiento** desde el **INICIOS PENDIENTES** panel.
+1. Seleccione el lanzamiento y seleccione **Propiedades del lanzamiento** desde el **INICIOS PENDIENTES** panel.
 
    ![imagen](/help/user-guide/assets/launches-images/launches-19.png)
 

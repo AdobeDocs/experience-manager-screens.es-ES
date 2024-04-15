@@ -2,9 +2,9 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---

@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -76,7 +76,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
    ![imagen](assets/config/empty-ref2.png)
 
-1. Clic **Guardar** para habilitar el Filtro de referente de Apache Sling Permitir vacío.
+1. Seleccionar **Guardar** para habilitar el Filtro de referente de Apache Sling Permitir vacío.
 
 
 #### Servicio HTTP basado en Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
    ![imagen](assets/config/config-1.png)
 
-1. Clic **Guardar** para habilitar el *http* servicio.
+1. Seleccionar **Guardar** para habilitar el *http* servicio.
 
 #### Habilitar la IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 

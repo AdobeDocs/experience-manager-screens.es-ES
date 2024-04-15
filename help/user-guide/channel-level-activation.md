@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -91,7 +91,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 1. **Crear pantalla en Ubicación**
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región**.
-   1. Seleccionar **Región** y haga clic en **+ Crear** de la barra de acciones.
+   1. Seleccionar **Región** y seleccione **+ Crear** de la barra de acciones.
    1. Seleccionar **Mostrar** en el asistente y cree una pantalla con el título **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -100,7 +100,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Para **MainAdChannel:**
 
-   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
+   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccione **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
    1. Seleccionar **Canal de referencia** por ruta.
    1. Seleccione el **Ruta de canal** as **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
@@ -113,11 +113,11 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    >[!NOTE]
    >
-   >También puede asignar un canal desde el panel de visualización navegando hasta **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haciendo clic en **Tablero** de la barra de acciones. Clic **+ Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   >También puede asignar un canal desde el panel de visualización navegando hasta **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccionando **Tablero** de la barra de acciones. Seleccionar **+ Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    Del mismo modo, asignar canal **TargetedSinglePlay** para visualización**:
 
-   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
+   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccione **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
    1. Seleccionar **Canal de referencia** por ruta.
    1. Seleccione el **Ruta de canal** as **Activación de nivel de canal*** > ***Canales*** > ***TargetedSinglePlay***.

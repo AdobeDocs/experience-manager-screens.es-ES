@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -69,12 +69,12 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
    >
    >
    >    1. El flujo de trabajo no funciona si no hay cambios en el proyecto ni nada para **Actualizar contenido sin conexión**.
-   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de hacer clic en **Publish** en el flujo de trabajo de administración de publicaciones.
+   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de seleccionar **Publish** en el flujo de trabajo de administración de publicaciones.
 
    >[!CAUTION]
-   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
+   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, seleccione **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
 
-1. Vaya al proyecto y haga clic en **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
+1. Vaya al proyecto y seleccione **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 

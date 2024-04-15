@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
-1. Pulse o haga clic en **Asignar canal** de la barra de acciones.
+1. Seleccionar **Asignar canal** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    O bien,
 
-   Pulse o haga clic en **Tablero** en la barra de acciones y haga clic en **+Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   Seleccionar **Tablero** en la barra de acciones y seleccione **+Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
    >
    >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
 
-1. Clic **Guardar** una vez configuradas las preferencias.
+1. Seleccionar **Guardar** una vez configuradas las preferencias.
 
 ### Visualización del contenido en Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Siga los pasos a continuación para navegar a la vista de cronología:
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
-1. Pulse o haga clic en **Asignar canal** de la barra de acciones.
+1. Seleccionar **Asignar canal** de la barra de acciones.
 
    O bien,
 
-   Pulse o haga clic en **Tablero** y haga clic en **Cronología** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   Seleccionar **Tablero** y seleccione **Cronología** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    ![imagen](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

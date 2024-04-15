@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 ### Paso 1: Duplicación de configuraciones de ContextHub {#replicating-contexthub-configurations}
 
-1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de publicación** y haga clic en el agente de publicación para configurar los ajustes.
+1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de publicación** y seleccione el agente de publicación para poder configurar los ajustes.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
    >
    >Como alternativa, puede utilizar la variable `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para navegar directamente a la pantalla y configurar y probar la conexión.
 
-1. Clic **Probar conexión** en la barra de acciones para validar la comunicación del autor con la instancia de publicación, como se muestra en los siguientes ejemplos:
+1. Seleccionar **Probar conexión** en la barra de acciones para validar la comunicación del autor con la instancia de publicación, como se muestra en los siguientes ejemplos:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -48,7 +48,7 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 1. Seleccionar **Añadir** desde el **Agente de distribución** árbol de pantalla y seleccione la ruta de configuración de su proyecto, por ejemplo, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Haga clic en **Enviar**.
+1. Seleccione **Enviar**.
 
 ### Duplicación de audiencias {#replicating-audiences}
 
@@ -60,9 +60,9 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 1. Seleccione todas las audiencias y segmentos de la interfaz de usuario de.
 
-1. Clic **Administrar publicación** de la barra de acciones.
+1. Seleccionar **Administrar publicación** de la barra de acciones.
 
-1. Clic **Siguiente** y **Publish**.
+1. Seleccionar **Siguiente** y **Publish**.
 
 ### Duplicación de actividades  {#replicating-activities}
 
@@ -72,9 +72,9 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 1. Seleccione todas las actividades de la interfaz de usuario.
 
-1. Clic **Administrar publicación** de la barra de acciones.
+1. Seleccionar **Administrar publicación** de la barra de acciones.
 
-1. Clic **Siguiente** y **Publish**.
+1. Seleccionar **Siguiente** y **Publish**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
 
 1. Vaya a Herramientas > **Implementación** > **Distribución** > **Agente de publicación**.
 
-1. Clic **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en **Extremos del importador** también apunta a la URL del servidor de publicación en el Agente de distribución.
+1. Seleccionar **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo en **Extremos del importador** también apunta a la URL del servidor de publicación en el Agente de distribución.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Si no utiliza las credenciales de administrador predeterminadas, debe configurar el agente de distribución con un nombre de usuario y una contraseña diferentes.
@@ -110,10 +110,10 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Clic **Guardar**
+   1. Seleccionar **Guardar**
    1. Uso `Cmd +F` para buscar **Agente de distribución de Apache Sling: fábrica de agentes de reenvío** para abrir las configuraciones de y buscar **Proveedor de secreto de transporte**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Actualice el `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Clic **Guardar** y vuelva a ejecutar la conexión de prueba desde el **Agente de distribución** AEM Vuelva a mostrar la pantalla de la instancia de.
+   1. Seleccionar **Guardar** y vuelva a ejecutar la conexión de prueba desde el **Agente de distribución** AEM Vuelva a mostrar la pantalla de la instancia de.

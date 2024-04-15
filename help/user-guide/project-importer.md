@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -23,13 +23,13 @@ En esta sección se describe una funcionalidad para importar de forma masiva un 
 
 ## Introducción {#introduction}
 
-Cuando configure un proyecto de AEM Screens por primera vez en su organización, cree también todas las ubicaciones. Si el proyecto incluye muchas ubicaciones, se produce una tarea tediosa que implica hacer clic y esperar en la interfaz de usuario.
+Cuando configure un proyecto de AEM Screens por primera vez en su organización, cree también todas las ubicaciones. Si el proyecto incluye muchas ubicaciones, se produce una tarea tediosa que implica mucho seleccionar y esperar en la interfaz de usuario.
 
 El objetivo de esta función es reducir el tiempo necesario para configurar el proyecto y resolver así los problemas presupuestarios.
 
 Al permitir que el autor proporcione una hoja de cálculo como archivo de entrada y permitir que el sistema cree automáticamente el árbol de ubicaciones en el back-end, esta función:
 
-* *logra un rendimiento mucho mejor que hacer clic manualmente en la interfaz de usuario*
+* *obtiene un rendimiento mucho mejor que la selección manual a través de la interfaz de usuario*
 * *AEM permite que los clientes exporten las ubicaciones que tienen de su propio sistema e importen fácilmente directamente en los archivos de la interfaz de usuario de los clientes de*
 
 Esto ahorra tiempo y dinero durante la configuración inicial del proyecto o al ampliar el AEM Screens existente a nuevas ubicaciones.
@@ -107,11 +107,11 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
 1. El **Importar** se muestra el asistente. Seleccione el archivo del proyecto con ubicaciones o seleccione el archivo (***minimal-file.xls***) que descargó del *Requisitos previos* sección.
 
-   Una vez seleccionado el archivo, haga clic en **Siguiente**.
+   Una vez seleccionado el archivo, seleccione **Siguiente**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Compruebe el contenido del archivo (ubicaciones) desde el Asistente de importación y haga clic en **Importar**.
+1. Compruebe el contenido del archivo (ubicaciones) en el asistente Importar y seleccione **Importar**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

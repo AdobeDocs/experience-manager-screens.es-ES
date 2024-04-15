@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -45,17 +45,17 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
 1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación utilizando **DataDrivenRetail** *(canal de secuencia)* creado en un canal de AEM Screens.
 
-1. Seleccione el canal **DataDrivenRetail** y haga clic en **Propiedades** de la barra de acciones.
+1. Seleccione el canal **DataDrivenRetail** y seleccione **Propiedades** de la barra de acciones.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Seleccione el **Personalización** para poder configurar las configuraciones de ContextHub y seleccionar la ruta de ContextHub y los segmentos.
 
-   1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y haga clic en **Seleccionar**.
+   1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y seleccione **Seleccionar**.
 
-   1. Seleccione el **Ruta de segmentos** as **conf** > **`We.Retail`** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar**.
+   1. Seleccione el **Ruta de segmentos** as **conf** > **`We.Retail`** > **configuración** > **wcm** > **segmentos** y seleccione **Seleccionar**.
 
-   1. Haga clic en **Guardar y cerrar**.
+   1. Seleccione **Guardar y cerrar**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Desplácese y seleccione **DataDrivenRetail** de **DataDrivenAssets** > **Canales** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos en el editor de canales.
+1. Desplácese y seleccione **DataDrivenRetail** de **DataDrivenAssets** > **Canales** y seleccione **Editar** de la barra de acciones. Arrastre y suelte los recursos en el editor de canales.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Clic **Segmentación**.
+1. Seleccionar **Segmentación**.
 
-1. Seleccionar **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
+1. Seleccionar **Marca** y el **Actividad** en el menú desplegable y seleccione **Iniciar segmentación**.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 

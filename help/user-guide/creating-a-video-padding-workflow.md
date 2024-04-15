@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ Siga los pasos a continuación para crear y utilizar el flujo de trabajo:
 Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
 1. AEM Vaya a la instancia de la.
-1. Haga clic en herramientas en el carril lateral.
+1. Seleccione las herramientas del carril lateral.
 1. Seleccionar **Flujo de trabajo** > **Modelos** para que pueda crear un modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelos** > **Crear** > **Crear modelo**. Introduzca el **Título** (como **VideoRendition**) y **Nombre** en el **Agregar modelo de flujo de trabajo**. Clic **Listo** para agregar el modelo de flujo de trabajo.
+1. Seleccionar **Modelos** > **Crear** > **Crear modelo**. Introduzca el **Título** (como **VideoRendition**) y **Nombre** en el **Agregar modelo de flujo de trabajo**. Seleccionar **Listo** para agregar el modelo de flujo de trabajo.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Después de crear el modelo de flujo de trabajo, seleccione el modelo (**VideoRendition**) y haga clic en **Editar** de la barra de acciones.
+1. Después de crear el modelo de flujo de trabajo, seleccione el modelo (**VideoRendition**) y seleccione **Editar** de la barra de acciones.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Seleccione el flujo de trabajo (**VideoRenditions**).
-1. Clic **Iniciar flujo de trabajo** de la barra de acciones.
+1. Seleccionar **Iniciar flujo de trabajo** de la barra de acciones.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. En el **Ejecutar flujo de trabajo** , seleccione la ruta del recurso en la ventana **Carga útil** (como ***/content/dam/huseinpeyda-cross-roads01_512kb 2.mp4***) e introduzca la **Título** as ***RunVideo*** y haga clic en **Ejecutar**.
+1. En el **Ejecutar flujo de trabajo** , seleccione la ruta del recurso en la ventana **Carga útil** (como ***/content/dam/huseinpeyda-cross-roads01_512kb 2.mp4***) e introduzca la **Título** as ***RunVideo*** y seleccione **Ejecutar**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto 
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Clic **Editar** de la barra de acciones. Arrastre y suelte el vídeo que cargó inicialmente en **Assets**.
+1. Seleccionar **Editar** de la barra de acciones. Arrastre y suelte el vídeo que cargó inicialmente en **Assets**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Cuando haya cargado el vídeo, haga clic en **Previsualizar** para ver el resultado.
+1. Cuando haya cargado el vídeo, seleccione **Previsualizar** para ver el resultado.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

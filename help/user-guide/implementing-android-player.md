@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Complete los siguientes pasos:
 1. Configure las variables **Atributo SameSite para las cookies de token de inicio de sesión** de **Laxo** hasta **Ninguno**.
    ![imagen](/help/user-guide/assets/granite-updates.png)
 
-1. Haga clic en **Guardar**.
+1. Seleccione **Guardar**.
 
 
 ### Método ad hoc {#ad-hoc-method}
@@ -55,7 +55,7 @@ El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*)
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
+1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y seleccione **Guardar**.
 
 1. Vaya a **Dispositivo** **Registro** vínculo del menú de acción de la izquierda para poder comprobar el estado del proceso de registro del dispositivo.
 

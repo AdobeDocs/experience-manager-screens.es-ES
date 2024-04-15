@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Siga los pasos a continuación para pasar de ContentSync a SmartSync:
 
 1. La migración de ContentSync a SmartSync requiere borrar la caché de ContentSync antes de activar SmartSync.
 
-   Navegue hasta la consola de ContentSync desde la instancia mediante el vínculo ***https://localhost:4502/libs/cq/contentsync/content/console.html*** y haga clic en **Borrar caché**, como se muestra en la figura siguiente:
+   Navegue hasta la consola de ContentSync desde la instancia mediante el vínculo ***https://localhost:4502/libs/cq/contentsync/content/console.html*** y seleccione **Borrar caché**, como se muestra en la figura siguiente:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,7 +85,7 @@ Siga los pasos a continuación para pasar de ContentSync a SmartSync:
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Clic **Guardar** para habilitar el **Servicios de contenido sin conexión de Screens** y, por lo tanto, utilice SmartSync para AEM Screens.
-1. Cuando haya habilitado SmartSync, vaya al proyecto y haga clic en **Actualizar contenido sin conexión** *(de la barra de acciones),* como se muestra en la figura siguiente.
+1. Seleccionar **Guardar** para habilitar el **Servicios de contenido sin conexión de Screens** y, por lo tanto, utilice SmartSync para AEM Screens.
+1. Cuando haya habilitado SmartSync, vaya al proyecto y seleccione **Actualizar contenido sin conexión** *(de la barra de acciones),* como se muestra en la figura siguiente.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

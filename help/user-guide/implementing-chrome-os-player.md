@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ En esta sección se describe cómo implementar el reproductor del sistema operat
 Siga los pasos a continuación para configurar la consola de administración de Chrome:
 
 1. Regístrese en Chrome Management Console. Debe obtener una licencia para Chrome Management Console. Contacto [Asistencia de Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Consulte Administrar la configuración del dispositivo Chrome para obtener más información.
-1. Registre su dispositivo Chrome OS en el dominio y espere 15 minutos a que el dispositivo se sincronice con la consola de administración de Chrome. Para obtener más información sobre cómo inscribir un dispositivo Chrome, haga clic en [aquí](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Registre su dispositivo Chrome OS en el dominio y espere 15 minutos a que el dispositivo se sincronice con la consola de administración de Chrome. Para obtener más información sobre cómo inscribir un dispositivo Chrome, seleccione [aquí](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. El reproductor Chrome está disponible en la tienda web de Chrome.
 
 >[!NOTE]
@@ -65,7 +65,7 @@ Siga los pasos a continuación para habilitar el modo Quiosco:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Navegar a **Administración de dispositivos** > **Administración de Chrome** > **Configuración del dispositivo**.
-1. Desplácese hacia abajo hasta **Configuración de quiosco** y haga clic en **Administrar aplicaciones de quiosco**.
+1. Desplácese hacia abajo hasta **Configuración de quiosco** y seleccione **Administrar aplicaciones de quiosco**.
 
    ![quiosco](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Siga los pasos a continuación para habilitar el modo Quiosco:
 
 1. Inicie sesión en Chrome Developer Console.
 1. Navegar a **Administración de dispositivos** > **Dispositivos Chrome** y seleccione el dispositivo que desea controlar.
-1. Clic **Actividad del sistema y solución de problemas**.
+1. Seleccionar **Actividad del sistema y solución de problemas**.
 1. Compruebe la **Reiniciar dispositivo** y **Captura de pantalla** propiedades del dispositivo. También puede comprobar el estado del dispositivo y la información de estado.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ El Reproductor de AEM Screens es una aplicación habilitada para quioscos que ta
 Siga los pasos a continuación para configurar varias opciones del reproductor:
 
 1. Inicie sesión en Chrome Management Console.
-1. Clic **Administración de dispositivos** > **Administración de Chrome** > **Administración de aplicaciones**. El Reproductor de AEM Screens se muestra en la lista.
-1. Haga clic en la aplicación **Reproductor de AEM Screens**.
-1. Clic **Configuración de quiosco** y seleccione su organización (*si se utiliza un entorno de prueba*).
-1. Clic **cargar archivo de configuración** y cargue la directiva de configuración (*Archivo JSon*).
-1. Haga clic en **Guardar**. Reinicie el dispositivo para poder sincronizar la directiva.
+1. Seleccionar **Administración de dispositivos** > **Administración de Chrome** > **Administración de aplicaciones**. El Reproductor de AEM Screens se muestra en la lista.
+1. Seleccione la aplicación **Reproductor de AEM Screens**.
+1. Seleccionar **Configuración de quiosco** y seleccione su organización (*si se utiliza un entorno de prueba*).
+1. Seleccionar **cargar archivo de configuración** y cargue la directiva de configuración (*Archivo JSon*).
+1. Seleccione **Guardar**. Reinicie el dispositivo para poder sincronizar la directiva.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -33,11 +33,11 @@ Esta página muestra la creación y administración de ubicaciones para Screens.
 Después de crear el proyecto para Screens, siga los pasos a continuación para crear una ubicación para un proyecto de Screens:
 
 1. Seleccione el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, Pantallas. También puede navegar directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya al proyecto de Pantallas y haga clic en **Ubicaciones**.
-1. Clic **Crear** situado junto al icono más en la barra de acciones.
-1. Seleccione la plantilla **Ubicación** en el asistente y haga clic en **Siguiente**.
+1. Vaya al proyecto de Pantallas y seleccione **Ubicaciones**.
+1. Seleccionar **Crear** situado junto al icono más en la barra de acciones.
+1. Seleccione la plantilla **Ubicación** en el asistente y seleccione **Siguiente**.
 1. Introduzca las propiedades de **Título y etiquetas**, **Más títulos y descripciones**, **Tiempo de activación/desactivación**, y **URL de vanidad**.
-1. Clic **Crear** y la ubicación se crea y se añade a la carpeta de ubicaciones.
+1. Seleccionar **Crear** y la ubicación se crea y se añade a la carpeta de ubicaciones.
 
 Consulte los pasos siguientes para comprender la creación de una ubicación para un proyecto de AEM Screens. Para fines de demostración, la nueva ubicación (San José) se crea en *DemoProject*.
 
@@ -50,7 +50,7 @@ Después de crear una ubicación, cree una pantalla para la ubicación.
 Para editar o acceder a las propiedades de una ubicación:
 
 1. Seleccione la ubicación.
-1. Clic **Propiedades** de la barra de acciones.
+1. Seleccionar **Propiedades** de la barra de acciones.
 
 ![player3](assets/player3.gif)
 

@@ -1,7 +1,7 @@
 ---
 title: Configuración del flujo de trabajo de ubicación directa
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Esta sección trata los siguientes temas:
 
 La configuración del flujo de trabajo de colocación directa asigna un canal de proyecto de AEM Screens a una carpeta específica de los recursos y permite colocar cualquier recurso en esa carpeta. El Adobe recomienda almacenar en déclencheur una actualización masiva sin conexión para completar la publicación.
 
-Como autor de contenido, también puede hacer clic manualmente en **Actualizar contenido sin conexión**.
+Como autor de contenido, también puede seleccionar manualmente **Actualizar contenido sin conexión**.
 
 >[!NOTE]
 >

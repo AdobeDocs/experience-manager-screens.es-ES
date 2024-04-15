@@ -2,7 +2,7 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal de S
 1. Vaya a **Assets** AEM carpeta en la instancia de la.
 1. Cree una versión del recurso que se adapte mejor a la visualización de la señalización, por ejemplo, `seahorse.jpg`.
 1. Elija el patrón de nomenclatura de la representación, por ejemplo,`landscape`, similar a lo definido en **pattern** propiedad en **CRXDE Lite**. Consulte [Adición de reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
-1. Clic **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
+1. Seleccionar **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 

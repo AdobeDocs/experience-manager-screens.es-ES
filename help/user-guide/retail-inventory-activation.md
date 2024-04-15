@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,15 +50,15 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
    1. Añadir tres segmentos nuevos **For_Red**, **For_Green**, y **For_Blue**.
 
-   1. Seleccionar **For_Red** y haga clic en **Editar** de la barra de acciones.
+   1. Seleccionar **For_Red** y seleccione **Editar** de la barra de acciones.
 
    1. Arrastre y suelte el **Comparación : propiedad/propiedad** al editor.
-   1. Haga clic en **Configuración** icono.
+   1. Seleccione el **Configuración** icono.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**.
    1. Seleccione el **Operador** as **greater-than** en el menú desplegable.
    1. Seleccionar **Tipo de datos** as **número**.
    1. Seleccionar **googlesheets/value/1/1** de la lista desplegable en **Nombre de la segunda propiedad**.
-   1. Arrastrar y soltar **otra comparación : propiedad/propiedad** Vaya al editor y haga clic en **Configuración** icono.
+   1. Arrastrar y soltar **otra comparación : propiedad/propiedad** Vaya al editor y seleccione. **Configuración** icono.
    1. Seleccionar **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**.
    1. Seleccione el **Operador** as **greater-than** en el menú desplegable.
    1. Seleccionar **Tipo de datos** as **número**.
@@ -79,7 +79,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
    >Tenga en cuenta que para los segmentos **For_Green** y **For_Green** Sin embargo, los datos no se pueden resolver en el editor, ya que solo la primera comparación es válida de momento, según los valores de la hoja de cálculo de Google.
 
 1. Desplácese y seleccione su **DataDrivenRetail** canal (un canal de secuencia).
-1. Clic **Editar** de la barra de acciones.
+1. Seleccionar **Editar** de la barra de acciones.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -95,15 +95,15 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
 1. **Adición de una imagen predeterminada**
 
-   1. Añada una imagen predeterminada al canal y haga clic en **Segmentación**.
-   1. Seleccionar **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
-   1. Clic **Iniciar segmentación**.
+   1. Añada una imagen predeterminada al canal y seleccione **Segmentación**.
+   1. Seleccionar **Marca** y el **Actividad** en el menú desplegable y seleccione **Iniciar segmentación**.
+   1. Seleccione **Iniciar segmentación**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Antes de empezar a segmentar, añada los segmentos (**For_Green**, **For_Red**, y **For_Blue**) haciendo clic en **+ Agregar segmentación de experiencias** desde el carril lateral como se muestra en la figura siguiente.
+   >Antes de empezar a segmentar, añada los segmentos (**For_Green**, **For_Red**, y **For_Blue**) seleccionando **+ Agregar segmentación de experiencias** desde el carril lateral como se muestra en la figura siguiente.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -113,7 +113,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
 1. **Comprobación de la previsualización**
 
-   1. Clic **Vista previa.** Además, abra la hoja de Google y actualice su valor.
+   1. Seleccionar **Vista previa.** Además, abra la hoja de Google y actualice su valor.
    1. Cambie el valor de las tres columnas diferentes. Observe que la imagen de visualización se actualiza según el valor más alto del inventario.
 
    ![retail_result](assets/retail_result.gif)

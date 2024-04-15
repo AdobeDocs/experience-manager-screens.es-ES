@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ Una configuración de dispositivo actúa como marcador de posición para un disp
 1. Seleccione la carpeta para mostrar y seleccione **Ver tablero** en la barra de acciones.
 1. Seleccionar **+ Agregar configuración de dispositivo** en la parte superior derecha de la **Dispositivos** panel.
 
-1. Seleccione el **Configuración del dispositivo** como la plantilla requerida y pulse o haga clic en **Siguiente**.
+1. Seleccione el **Configuración del dispositivo** como la plantilla requerida y seleccione **Siguiente**.
 
-1. Introduzca las propiedades según sea necesario y pulse o haga clic en **Crear**.
+1. Introduzca las propiedades según sea necesario y seleccione **Crear**.
 
 La configuración del dispositivo se crea y se añade a la visualización actual (en la siguiente demostración, la nueva configuración del dispositivo es *DeviceConfig*).
 
@@ -102,12 +102,12 @@ El panel de visualización le proporciona diferentes paneles para administrar lo
 
 El **MOSTRAR INFORMACIÓN** El panel proporciona las propiedades de visualización.
 
-Haga clic en (**...**), en la esquina superior derecha de la **MOSTRAR INFORMACIÓN** para poder ver las propiedades y previsualizar la visualización.
+Seleccionar (**...**), en la esquina superior derecha de la **MOSTRAR INFORMACIÓN** para poder ver las propiedades y previsualizar la visualización.
 
 
 #### Visualización de propiedades {#viewing-properties}
 
-Clic **Propiedades** para que pueda ver o cambiar las propiedades de la pantalla.
+Seleccionar **Propiedades** para que pueda ver o cambiar las propiedades de la pantalla.
 
 Además, puede ajustar el valor del temporizador de evento del canal interactivo en **Tiempo de espera inactivo** propiedad en **Mostrar** pestaña. El valor predeterminado se establece en *300 segundos*.
 
@@ -125,7 +125,7 @@ El **DISPOSITIVOS** El panel proporciona información sobre las configuraciones 
 
 Seleccionar (**...**), en la esquina superior derecha de la **DISPOSITIVOS** para que pueda añadir configuraciones de dispositivo y actualizar dispositivos.
 
-Además, haga clic en la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
+Seleccione también la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

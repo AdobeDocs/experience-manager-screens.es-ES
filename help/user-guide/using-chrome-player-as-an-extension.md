@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ El reproductor ChromeOS se puede instalar como complemento del explorador Chrome
 
 Siga esta página para obtener información sobre la instalación del reproductor de Chrome como extensión del explorador.
 
-1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
+1. Seleccionar [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 
 1. Descomprima y guárdelo en el disco.
 
-1. Abra el navegador Chrome, haga clic en el menú de 3 puntos y seleccione **Más herramientas** de **Extensiones** en la esquina superior derecha o navegue directamente a `chrome://extensions`.
+1. Abra el navegador Chrome, seleccione el menú de 3 puntos y haga clic en **Más herramientas** de **Extensiones** en la esquina superior derecha o navegue directamente a `chrome://extensions`.
 
 1. Encienda el **Desarrollador** modo de la esquina superior derecha.
 
-1. Clic **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
+1. Seleccionar **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
 
 1. Compruebe el complemento AEM Screens Chrome Player si está disponible en la lista de extensiones.
 
-1. Abra una pestaña nueva y haga clic en el icono Aplicaciones en la esquina superior izquierda, o navegue directamente a `chrome://apps`.
+1. Abra una pestaña nueva y seleccione el icono Aplicaciones en la esquina superior izquierda, o navegue directamente a `chrome://apps`.
 
-1. Clic **Complemento de AEM Screens** para poder iniciar el reproductor Chrome.
+1. Seleccionar **Complemento de AEM Screens** para poder iniciar el reproductor Chrome.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Siga los pasos a continuación para actualizar la extensión del reproductor si 
 1. Cambie el nombre de la carpeta antigua por archivos de reproductor
 1. Extraiga el nuevo zip en la misma ubicación que la carpeta antigua
 1. Inicie Chrome y vaya a `chrome://extensions`
-1. Compruebe el icono del reproductor y haga clic en el botón Actualizar o volver a cargar
+1. Compruebe el icono del reproductor y seleccione el botón de actualización o recarga

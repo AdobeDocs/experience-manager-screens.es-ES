@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -31,13 +31,13 @@ Siga los pasos a continuación para crear una Live Copy de un canal en la carpet
 
 1. Seleccione el vínculo de Adobe Experience Manager (parte superior izquierda) y, a continuación, **Screens**. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
 
-1. Vaya al proyecto de Pantallas y haga clic en **Canales**.
-1. Clic **Crear** y seleccione **Live Copy** para poder crear una live copy del canal.
-1. Seleccione el destino y haga clic en **Siguiente**.
+1. Vaya al proyecto de Pantallas y seleccione **Canales**.
+1. Seleccionar **Crear** y seleccione **Live Copy** para poder crear una live copy del canal.
+1. Seleccione el destino y seleccione **Siguiente**.
 1. Seleccione la ubicación donde puede residir la Live Copy.
 1. Introduzca el **Título** y **Nombre** en el **Crear Live Copy** página.
 
-1. Clic **Abrir** para ver el contenido de la nueva live copy o **Listo** para volver a la página principal.
+1. Seleccionar **Abrir** para ver el contenido de la nueva live copy o **Listo** para volver a la página principal.
 
 Alternativamente, consulte los pasos siguientes para obtener una representación visual para crear una nueva Live Copy de un canal.
 
@@ -51,11 +51,11 @@ Una Live Copy es una copia de un canal que existe.
 
 Para ver el contenido de su Live Copy, consulte los pasos a continuación:
 
-1. Vaya al proyecto de Pantallas y haga clic en la ubicación en la que creó originalmente la Live Copy, como se muestra en la sección anterior. (En este caso, la ubicación se eligió como **Canales** folder)
+1. Vaya al proyecto de Pantallas y seleccione la ubicación en la que creó originalmente la Live Copy, como se muestra en la sección anterior. (En este caso, la ubicación se eligió como **Canales** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Clic **Editar** de la barra de acciones.
+1. Seleccionar **Editar** de la barra de acciones.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,7 +67,7 @@ Para ver el contenido de su Live Copy, consulte los pasos a continuación:
 
 Además, puede ver las propiedades del canal de Live Copy.
 
-1. Vaya al canal de Live Copy y haga clic en **Propiedades** de la barra de acciones.
+1. Vaya al canal de Live Copy y seleccione **Propiedades** de la barra de acciones.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -79,7 +79,7 @@ Además, puede ver las propiedades del canal de Live Copy.
 
 El modo **Estado de Live Copy**, como se muestra en la figura siguiente, permite ver el estado de relación de todos los recursos del canal.
 
-1. Clic **Editar** para que pueda elegir el **Estado de Live Copy** y ver la asociación del contenido del canal con el canal original (desde el que se genera la live copy).
+1. Seleccionar **Editar** para que pueda elegir el **Estado de Live Copy** y ver la asociación del contenido del canal con el canal original (desde el que se genera la live copy).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,7 +93,7 @@ El modo **Estado de Live Copy**, como se muestra en la figura siguiente, permite
 
 También puede cancelar la herencia de la Live Copy, por lo que el contenido se vuelve independiente de la rama original.
 
-El siguiente ejemplo muestra que selecciona la imagen en el modo de edición y hace clic en el símbolo de herencia cancel de la parte superior derecha.
+El siguiente ejemplo muestra que selecciona la imagen en el modo de edición y selecciona el símbolo de herencia cancel en la parte superior derecha.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 

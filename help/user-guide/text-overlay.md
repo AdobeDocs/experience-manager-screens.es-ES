@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,11 +58,11 @@ La siguiente imagen muestra el **TextOverlayDemo** proyecto con **TextSample** e
 
 Siga los pasos a continuación para utilizar la superposición de texto en un canal de AEM Screens:
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Editar** de la barra de acciones.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Seleccione la imagen y haga clic en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
+1. Seleccione la imagen y seleccione **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Editar** de la barra de acciones.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
    >[!NOTE]
    >Si no ha definido la configuración de ContextHub, esta opción está desactivada para el proyecto.
 
-1. Entrar **Valor** en el **Marcador** field. Seleccione la fila en la que desea obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, haga clic en la marca de verificación.
+1. Entrar **Valor** en el **Marcador** field. Seleccione la fila en la que desea obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, seleccione la marca de verificación.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

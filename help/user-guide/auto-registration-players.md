@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,7 +20,7 @@ El registro masivo de miles de jugadores manualmente puede ser engorroso y añad
 
 Siga los pasos a continuación para implementar el registro automático de reproductores:
 
-1. AEM Inicie sesión en la instancia de, seleccione el proyecto de AEM Screens y haga clic en **Propiedades** de la barra de acciones.
+1. AEM Inicie sesión en la instancia de, seleccione el proyecto de AEM Screens y seleccione **Propiedades** de la barra de acciones.
 1. Seleccione el **Avanzadas** para poder ver la pestaña **Registro de dispositivos** sección.
 
 1. Especifique un código de registro automático en **Código de registro en bloque** y una visualización predeterminada opcional en **Asignación de visualización predeterminada** para asignar al reproductor que se ha registrado automáticamente.

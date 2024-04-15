@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Puede utilizar manualmente la actualización sin conexión masiva desde la inter
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Seleccione el proyecto y haga clic en **Actualizar contenido sin conexión** en la barra de acciones para actualizar manualmente el contenido del canal.
+1. Seleccione el proyecto y seleccione **Actualizar contenido sin conexión** en la barra de acciones para actualizar manualmente el contenido del canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
    **Ruta de proyecto** Especifique la ruta del proyecto de AEM Screens. El camino suele ser `/content/screens/<Name of your project>`.
 
-   *Por ejemplo*, `/content/screens/we-retail`. Puede encontrar esta ruta en la dirección URL seleccionando cualquier proyecto en AEM Screens (no haga clic en el icono).
+   *Por ejemplo*, `/content/screens/we-retail`. Puede encontrar esta ruta en la dirección URL seleccionando cualquier proyecto en AEM Screens (no seleccione el icono ).
 
    >[!NOTE]
    >

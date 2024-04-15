@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Siga los pasos que se indican a continuación para desplazarse al dispositivos p
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Seleccione el dispositivo (**NewTestDevice**) y haga clic en **Tablero** de la barra de acciones.
+1. Seleccione el dispositivo (**NewTestDevice**) y seleccione **Tablero** de la barra de acciones.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Seleccionar **Propiedades** para que pueda ver la **Propiedades del dispositivo*
 
 Puede ver la captura de pantalla del reproductor desde el dispositivo desde el **CAPTURA DE PANTALLA DEL REPRODUCTOR** panel.
 
-Haga clic en (**...**) en la esquina superior derecha del panel Captura de pantalla del reproductor y seleccione **Actualizar captura de pantalla** para ver la instantánea del reproductor en ejecución.
+Seleccionar (**...**) en la esquina superior derecha del panel Captura de pantalla del reproductor y seleccione **Actualizar captura de pantalla** para ver la instantánea del reproductor en ejecución.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Siga los pasos a continuación para habilitar el Filtro de referente de Apache S
 
 1. Desplácese hasta **Adobe Experience Manager configuración** de la consola web, es decir, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Marque la **opción allow.empty** .
-1. Haga clic en **Guardar**.
+1. Seleccione **Guardar**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
