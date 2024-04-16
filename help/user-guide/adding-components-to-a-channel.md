@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 5%
@@ -31,10 +31,10 @@ Siempre que cree un proyecto de AEM Screens, verá una lista de componentes pred
 
 Para ver los componentes predeterminados del proyecto de Pantallas, siga los pasos a continuación:
 
-1. Seleccione el canal. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
+1. Haga clic en el canal. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
 
-1. Seleccionar **Editar** de la barra de acciones.
-1. AEM En el Editor de, seleccione **+** de la barra lateral.
+1. Clic **Editar** de la barra de acciones.
+1. AEM En el Editor de, haga clic en **+** de la barra lateral.
 1. Se muestran todos los componentes que se incluyen de forma predeterminada en un proyecto de AEM Screens, como se muestra en la figura siguiente.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM La ofrece otros componentes. Siempre puede añadir otros componentes (no inc
 
 El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto de AEM Screens:
 
-1. Seleccione el canal en el que desea añadir un componente. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
+1. Haga clic en el canal en el que desee añadir un componente. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
 
-1. Seleccionar **Editar** de la barra de acciones.
-1. Seleccionar **Diseño** modo.
-1. Seleccione todo el editor de diseño a la derecha y seleccione el símbolo de configuración para poder abrir **Diseño de Parsys** Cuadro de diálogo.
-1. Puede seleccionar los componentes que desea importar a su proyecto de AEM Screens. El siguiente ejemplo muestra la adición de **Livefyre** a un proyecto de AEM Screens.
+1. Clic **Editar** de la barra de acciones.
+1. Clic **Diseño** modo.
+1. Haga clic en todo el editor de diseño a la derecha y haga clic en el símbolo de configuración para poder abrir **Diseño de Parsys** Cuadro de diálogo.
+1. Puede hacer clic en los componentes que desea importar al proyecto de AEM Screens. El siguiente ejemplo muestra la adición de **Livefyre** a un proyecto de AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ En la siguiente sección se explican los componentes de AEM Screens que puede ut
 
 >[!NOTE]
 >
->Para ver las propiedades de cualquier componente, seleccione el componente y seleccione el icono de martillo para abrir o ver las propiedades.
+>Para ver las propiedades de cualquier componente, haga clic en el componente y haga clic en el icono de martillo para abrir o ver las propiedades.
 
 ### Aplicación {#application}
 
@@ -74,8 +74,8 @@ El componente de aplicación tiene las siguientes propiedades:
 
 | **Propiedad** | **Descripción** |
 |---|---|
-| ***Ruta de aplicación*** | Seleccione la ruta absoluta en la que existe la aplicación. |
-| ***Duración (milisegundos)*** | Seleccione la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
+| ***Ruta de aplicación*** | Haga clic en la ruta absoluta donde existe la aplicación. |
+| ***Duración (milisegundos)*** | Haga clic en la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
 
 El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la vista previa de sus propiedades:
 
@@ -193,7 +193,7 @@ La secuencia incrustada dinámica tiene las siguientes propiedades:
 
 ### Fragmento de experiencias {#experience-fragment}
 
-Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. AEM Arrastre y suelte el componente en el Editor de y seleccione el Fragmento de experiencia.
+Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. AEM Arrastre y suelte el componente en el Editor de y haga clic en el Fragmento de experiencia.
 
 Para obtener más información sobre cómo crear un fragmento de experiencia y aplicarlo a un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ El recurso de imagen tiene tres pestañas: **Imagen**, **Accesibilidad**, y **Se
 | **Propiedad** | **Descripción** |
 |---|---|
 | **Imagen** |
-| ***Recurso de imagen*** | Seleccione el recurso de imagen. |
+| ***Recurso de imagen*** | Haga clic en el recurso de imagen. |
 | ***Título*** | Título de la imagen. |
 | ***Vincular a*** | Añada un vínculo a la imagen. |
 | ***Descripción*** | Descripción breve de la imagen. |
@@ -239,7 +239,7 @@ La siguiente imagen muestra el componente de transición (añadido mediante arra
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Seleccione el icono de transición y seleccione la opción **Configurar** (icono de la llave inglesa) para abrir **Transición** Cuadro de diálogo. Este cuadro de diálogo incluye tres fichas:
+Haga clic en el icono de transición y luego en **Configurar** (icono de la llave inglesa) para abrir **Transición** Cuadro de diálogo. Este cuadro de diálogo incluye tres fichas:
 
 * **Transición**
 * **Secuencia**
@@ -316,7 +316,7 @@ El componente de vídeo tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><em><strong>Recurso de vídeo</strong></em></td>
-   <td>Seleccione el vínculo al vídeo.</td>
+   <td>Haga clic en el vínculo del vídeo.</td>
   </tr>
   <tr>
    <td><em><strong>Duración</strong></em></td>

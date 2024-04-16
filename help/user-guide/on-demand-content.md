@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Puede publicar y cancelar la publicación de contenido desde AEM Screens. La fun
 Siga los pasos a continuación para enviar actualizaciones de contenido de autor a publicación en dispositivo para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Seleccionar **Administrar publicación** en la barra de acciones para poder publicar el proyecto en la instancia de publicación.
+1. Clic **Administrar publicación** en la barra de acciones para poder publicar el proyecto en la instancia de publicación.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. El **Administrar publicación** se abre el asistente. Puede seleccionar el **Acción** y también programar la hora de publicación para ahora o más tarde. Seleccione **Siguiente**.
+1. El **Administrar publicación** se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Marque la casilla para poder seleccionar todo el proyecto desde la **`Manage Publication`** asistente.
+1. Marque la casilla para poder hacer clic en todo el proyecto desde el **`Manage Publication`** asistente.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Seleccionar **+ Incluir elementos secundarios** en la barra de acciones, desmarque todas las opciones para poder publicar todos los módulos del proyecto y seleccione **Añadir** para publicar.
+1. Clic **+ Incluir elementos secundarios** en la barra de acciones, desmarque todas las opciones para poder publicar todos los módulos del proyecto y haga clic en **Añadir** para publicar.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
    1. **Incluir solo las páginas ya publicadas**: Esta opción permite administrar las actualizaciones solo de las páginas publicadas anteriormente.
 
 
-1. Desde el **`Manage Publication wizard`**, seleccione **Publish**.
+1. Desde el **`Manage Publication wizard`**, haga clic en **Publish**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
    >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de seleccionar **Publish** en el flujo de trabajo de administración de publicaciones.
 
    >[!CAUTION]
-   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, seleccione **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
+   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
 
-1. Vaya al proyecto y seleccione **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
+1. Vaya al proyecto y haga clic en **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ Siga los pasos a continuación para entregar actualizaciones de contenido de Aut
 >
 >Siga esta sección solo si hay cambios en un canal. Si un canal no tiene ningún cambio después de la actualización anterior del contenido sin conexión, el flujo de trabajo de administración de publicaciones de un canal individual no funcionará.
 
-1. Vaya al proyecto de AEM Screens y seleccione el canal.
-1. Seleccionar **Administrar publicación** en la barra de acciones para poder publicar el canal en la instancia de publicación.
+1. Vaya al proyecto de AEM Screens y haga clic en el canal.
+1. Clic **Administrar publicación** en la barra de acciones para poder publicar el canal en la instancia de publicación.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. El **Administrar publicación** se abre el asistente. Puede seleccionar el **Acción** y también programar la hora de publicación para ahora o más tarde. Seleccione **Siguiente**.
+1. El **Administrar publicación** se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Seleccionar **Publish** desde el **`Manage Publication`** asistente.
+1. Clic **Publish** desde el **`Manage Publication`** asistente.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

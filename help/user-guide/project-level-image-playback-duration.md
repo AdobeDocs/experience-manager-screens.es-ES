@@ -2,7 +2,7 @@
 title: Duración de reproducción de imagen de nivel de proyecto
 description: Aprenda a definir la duración de la reproducción de la imagen en el nivel de proyecto.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -43,10 +43,10 @@ En la sección siguiente se explica cómo editar la duración de reproducción d
 
 Siga los pasos a continuación para aprender a actualizar la duración de reproducción de imagen a nivel de proyecto:
 
-1. Navegar al proyecto **ProjectLevelPlayback** y seleccione **Propiedades** de la barra de acciones.
+1. Navegar al proyecto **ProjectLevelPlayback** y haga clic en **Propiedades** de la barra de acciones.
    ![activos](assets/image_playback3.png)
 
-1. Seleccione todas las imágenes del canal y seleccione el icono de llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para poder abrir el cuadro de diálogo Configurar nivel de canal.
+1. Haga clic en todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

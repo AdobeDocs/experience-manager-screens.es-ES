@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Si desea utilizar varias instancias de publicación delante de una sola instanci
  }
 ```
 
-Si tiene una instancia de publicación delante de una instancia de Dispatcher, habilitar la permanencia en Dispatcher no ayuda, ya que el equilibrador de carga puede enviar cada solicitud a Dispatcher. En este caso, seleccione **Activar** in **Adherencia** para activarlo en su nivel de equilibrador de carga, como se muestra en la figura siguiente:
+Si tiene una instancia de publicación delante de una instancia de Dispatcher, habilitar la permanencia en Dispatcher no ayuda, ya que el equilibrador de carga puede enviar cada solicitud a Dispatcher. En este caso, haga clic en **Activar** in **Adherencia** para activarlo en su nivel de equilibrador de carga, como se muestra en la figura siguiente:
 
 ![imagen](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

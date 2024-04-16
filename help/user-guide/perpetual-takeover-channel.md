@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
    ![recurso](assets/p_usecase2.png)
 
-1. Seleccione el **MainAdChannel** y seleccione **Editar** de la barra de acciones. Arrastre y suelte algunos recursos (imágenes, vídeos, secuencias incrustadas) en su canal.
+1. Haga clic en **MainAdChannel** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte algunos recursos (imágenes, vídeos, secuencias incrustadas) en su canal.
 
    ![recurso](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
 1. Crear un **TakeOver** canal que se hace cargo del contenido en **MainAdChannel** y toca todos los miércoles de 2:00 p.m. a 4:00 p.m.
 
-1. Seleccione el **TakeOver** y seleccione **Editar** de la barra de acciones. Arrastre y suelte algunos recursos en su canal. El siguiente ejemplo muestra una imagen de zona única agregada a este canal.
+1. Haga clic en **TakeOver** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte algunos recursos en su canal. El siguiente ejemplo muestra una imagen de zona única agregada a este canal.
 
    ![recurso](assets/p_usecase4.png)
 
@@ -69,26 +69,26 @@ Siga los pasos a continuación para configurar un proyecto:
 
 **Asignación de canales a una pantalla**
 
-1. Seleccione la pantalla **MainLobbyDisplay** desde el **Ubicaciones** carpeta. Seleccionar **Asignar canal** de la barra de acciones para poder abrir **Asignación de canales** Cuadro de diálogo.
+1. Haga clic en la pantalla **MainLobbyDisplay** desde el **Ubicaciones** carpeta. Clic **Asignar canal** de la barra de acciones para poder abrir **Asignación de canales** Cuadro de diálogo.
 
    >[!NOTE]
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte **[Asignación de canales](channel-assignment.md)**.
 
-1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y seleccione. **Guardar** para asignar el **MainAdChannel** a la pantalla.
+1. Rellene los campos (**Ruta de canal**, **Prioridad**, y **Eventos admitidos**) desde el **Asignación de canales** y haga clic en **Guardar** para asignar el **MainAdChannel** a la pantalla.
 
-   * **Ruta de canal**: seleccione la ruta al **MainAdChannel** canal
+   * **Ruta de canal**: haga clic en la ruta al **MainAdChannel** canal
    * **Prioridad**: establezca la prioridad de este canal como 1.
-   * **Eventos admitidos**: seleccione la **Carga inicial** y **Pantalla inactiva**.
+   * **Eventos admitidos**: haga clic en **Carga inicial** y **Pantalla inactiva**.
 
    ![recurso](assets/p_usecase6.png)
 
-1. Seleccione la pantalla **TakeOver** desde el **Ubicaciones** carpeta. Seleccionar **Asignar canal** desde la barra de acciones para poder asignar el canal de adquisición.
+1. Haga clic en la pantalla **TakeOver** desde el **Ubicaciones** carpeta. Clic **Asignar canal** desde la barra de acciones para poder asignar el canal de adquisición.
 
 1. Asignación de los **TakeOver** canal a la pantalla a una hora programada y rellenando los siguientes campos desde el **Asignación de canales** y seleccionar. **Guardar**:
 
-   * **Ruta de canal**: seleccione la ruta al **TakeOver** canal
+   * **Ruta de canal**: haga clic en la ruta al **TakeOver** canal
    * **Prioridad**: establezca la prioridad de este canal en mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
-   * **Eventos admitidos**: seleccione la **Pantalla inactiva** y **Temporizador**.
+   * **Eventos admitidos**: haga clic en **Pantalla inactiva** y **Temporizador**.
    * **Programación**: introduzca el texto de la programación en la que desea que este canal ejecute la visualización. El texto de la **Programación** mencionado en este ejemplo es *el miércoles después de las 14:00 y antes de las 16:00*.
 
      >[!NOTE]
@@ -101,7 +101,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
      ![recurso](assets/p_usecase7.png)
 
-     Navegue hasta la pantalla desde **TakeOver** > **Ubicaciones** > **MainLobby** > **MainLobbyDisplay** y seleccione **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
+     Navegue hasta la pantalla desde **TakeOver** > **Ubicaciones** > **MainLobby** > **MainLobbyDisplay** y haga clic en **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
 
      >[!NOTE]
      >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.

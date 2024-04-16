@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -38,11 +38,11 @@ En esta página se muestra la creación y administración de pantallas.
 >Cree una ubicación antes de crear una visualización. Consulte [Crear y administrar ubicaciones](managing-locations.md) para obtener más información.
 
 1. Vaya a la ubicación adecuada, por ejemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Seleccione la carpeta de ubicación y seleccione **Crear** que se encuentra junto al icono más en la barra de acciones.
-1. Seleccionar **Mostrar** desde el **Crear** asistente, luego seleccione **Siguiente**.
+1. Haga clic en la carpeta de ubicación y en **Crear** que se encuentra junto al icono más en la barra de acciones.
+1. Clic **Mostrar** desde el **Crear** asistente y haga clic en **Siguiente**.
 1. Entrar **Nombre** y **Título** para la ubicación de visualización.
 1. En el **Mostrar** pestaña, elija los detalles del diseño. Elija el que desee **Resolución**, como **HD completo**. Elija el número de dispositivos horizontal y verticalmente.
-1. Seleccione **Crear**.
+1. Haga clic en **Crear**.
 
 La pantalla (*StoreDisplay*) se crea y se agrega a la ubicación (*San José*).
 
@@ -63,12 +63,12 @@ Cuando tenga la visualización en posición, el siguiente paso es crear una conf
 Una configuración de dispositivo actúa como marcador de posición para un dispositivo de señalización digital real que aún no está instalado.
 
 1. Vaya a la pantalla adecuada, por ejemplo, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Seleccione la carpeta para mostrar y seleccione **Ver tablero** en la barra de acciones.
-1. Seleccionar **+ Agregar configuración de dispositivo** en la parte superior derecha de la **Dispositivos** panel.
+1. Haga clic en la carpeta de visualización y en **Ver tablero** en la barra de acciones.
+1. Clic **+ Agregar configuración de dispositivo** en la parte superior derecha de la **Dispositivos** panel.
 
-1. Seleccione el **Configuración del dispositivo** como la plantilla requerida y seleccione **Siguiente**.
+1. Haga clic en **Configuración del dispositivo** como la plantilla requerida y haga clic en **Siguiente**.
 
-1. Introduzca las propiedades según sea necesario y seleccione **Crear**.
+1. Introduzca las propiedades según sea necesario y haga clic en **Crear**.
 
 La configuración del dispositivo se crea y se añade a la visualización actual (en la siguiente demostración, la nueva configuración del dispositivo es *DeviceConfig*).
 
@@ -92,9 +92,9 @@ El panel de visualización le proporciona diferentes paneles para administrar lo
 
 >[!NOTE]
 >
->Puede seleccionar las listas de tableros y las acciones masivas de déclencheur en los elementos, en lugar de pasar por cada elemento individualmente.
+>Puede hacer clic en las listas de tableros y almacenar en déclencheur las acciones masivas en los elementos, en lugar de pasar por cada elemento individualmente.
 >
->Por ejemplo, la siguiente imagen muestra cómo se pueden seleccionar varios canales desde el panel de visualización.
+>Por ejemplo, la siguiente imagen muestra cómo puede hacer clic en varios canales desde el panel de visualización.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ El panel de visualización le proporciona diferentes paneles para administrar lo
 
 El **MOSTRAR INFORMACIÓN** El panel proporciona las propiedades de visualización.
 
-Seleccionar (**...**), en la esquina superior derecha de la **MOSTRAR INFORMACIÓN** para poder ver las propiedades y previsualizar la visualización.
+Haga clic en (**...**), en la esquina superior derecha de la **MOSTRAR INFORMACIÓN** para poder ver las propiedades y previsualizar la visualización.
 
 
 #### Visualización de propiedades {#viewing-properties}
 
-Seleccionar **Propiedades** para que pueda ver o cambiar las propiedades de la pantalla.
+Clic **Propiedades** para que pueda ver o cambiar las propiedades de la pantalla.
 
 Además, puede ajustar el valor del temporizador de evento del canal interactivo en **Tiempo de espera inactivo** propiedad en **Mostrar** pestaña. El valor predeterminado se establece en *300 segundos*.
 
@@ -123,9 +123,9 @@ El **CANALES ASIGNADOS** el panel muestra los canales asignados a este dispositi
 
 El **DISPOSITIVOS** El panel proporciona información sobre las configuraciones del dispositivo.
 
-Seleccionar (**...**), en la esquina superior derecha de la **DISPOSITIVOS** para que pueda añadir configuraciones de dispositivo y actualizar dispositivos.
+Haga clic en (**...**), en la esquina superior derecha de la **DISPOSITIVOS** para que pueda añadir configuraciones de dispositivo y actualizar dispositivos.
 
-Seleccione también la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
+Además, haga clic en la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

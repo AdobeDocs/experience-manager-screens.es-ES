@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ AEM Después de cargar el vídeo en el canal, debería empezar a crear algunas r
 Para ver el vídeo:
 
 1. Vaya al vídeo, por ejemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Seleccione el vídeo, expanda el menú superior izquierdo y seleccione **Representaciones**.
+1. Haga clic en el vídeo, expanda el menú superior izquierdo y haga clic en **Representaciones**.
 
 Debe haber diferentes representaciones (una MP4 o M4V).
 
@@ -39,7 +39,7 @@ AEM Si no hay ninguna representación, asegúrese de que tiene ffmpeg instalado 
 >
 >AEM Si no hay ninguna representación, asegúrese de que tiene ffmpeg instalado en el sistema operativo donde se está ejecutando la.
 >
->Seleccionar [aquí](https://www.ffmpeg.org/download.html) para instalar ffmpeg.
+>Clic [aquí](https://www.ffmpeg.org/download.html) para instalar ffmpeg.
 
 ## Recursos de vídeo {#video-assets}
 
@@ -51,11 +51,11 @@ Compruebe que ffmpeg está instalado y los perfiles de vídeo.
 
 ### Comprobación del perfil de vídeo {#checking-video-profile}
 
-1. Vaya a **Perfil de vídeo**, es decir, `http://localhost:4502/etc/dam/video.html` y seleccione **Cargar vídeo de prueba**.
+1. Vaya a **Perfil de vídeo**, es decir, `http://localhost:4502/etc/dam/video.html` y haga clic en **Cargar vídeo de prueba**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Cargue un vídeo de prueba y seleccione **Ok** para que pueda comenzar la transcodificación.
+1. Cargue un vídeo de prueba y haga clic en **Ok** para que pueda comenzar la transcodificación.
 
    Si el vídeo transcodificado falla, expanda la salida ffmpeg para comprender cualquier error en la salida de la consola de ffmpeg.
 
@@ -73,14 +73,14 @@ Compruebe que ffmpeg está instalado y los perfiles de vídeo.
 
 Compruebe la lista de perfiles del diseño de página si el componente de vídeo no está configurado correctamente.
 
-1. Vaya al canal y seleccione. **Diseño** modo.
+1. Vaya al canal y haga clic en **Diseño** modo.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Seleccione el vídeo y abra **Editar** diálogo. Abra el **Perfiles** pestaña.
+1. Haga clic en el vídeo y abra **Editar** diálogo. Abra el **Perfiles** pestaña.
 
    >[!NOTE]
-   >Seleccione diferentes perfiles (debe haber al menos un perfil &quot;High Quality H.264&quot;).
+   >Haga clic en diferentes perfiles (el perfil H.264 de &quot;alta calidad&quot; como mínimo debe estar allí).
 
 ### Comprobación del vídeo en el reproductor web {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Si el vídeo no se ejecuta en Safari, tampoco se ejecuta en los reproductores de
 Para utilizar un flujo de trabajo DAM para crear representaciones FullHD, haga lo siguiente:
 
 1. Vaya a *administrador de modelo de flujo de trabajo* es decir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Seleccione el **Actualizar recurso de Screens** modelo.
-1. Seleccionar **Iniciar flujo de trabajo** de la barra de acciones.
-1. Desde el **Ejecutar flujo de trabajo** , seleccione el recurso de vídeo en la **Carga útil**.
-1. Seleccionar **Ejecutar**.
+1. Haga clic en **Actualizar recurso de Screens** modelo.
+1. Clic **Iniciar flujo de trabajo** de la barra de acciones.
+1. Desde el **Ejecutar flujo de trabajo** , haga clic en el recurso de vídeo en la **Carga útil**.
+1. Clic **Ejecutar**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ La estrategia absoluta:
 
 Siga los pasos a continuación para configurar una estrategia absoluta:
 
-1. Vaya al autor del canal y seleccione el componente de secuencia como se muestra en la figura siguiente.
+1. Vaya al autor del canal y haga clic en el componente de secuencia como se muestra en la figura siguiente.
 1. Abra su cuadro de diálogo de configuración.
 1. Edite el **Estrategia** y agregue absoluta.
 

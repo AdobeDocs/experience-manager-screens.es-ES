@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -78,10 +78,10 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
 Siga los pasos a continuación para probar la configuración de ContentSync:
 
 1. Abrir `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Seleccione la configuración en la lista
-1. Seleccione Borrar caché
-1. Seleccione Actualizar caché
-1. Seleccionar descarga completa
+1. Haga clic en la configuración en la lista
+1. Haga clic en Borrar caché
+1. Haga clic en Actualizar caché
+1. Haga clic en Descargar completo
 1. Extraiga el archivo zip
 1. Iniciar un servidor local en la carpeta extraída
 1. Abra la página de inicio y compruebe el estado de la aplicación
@@ -95,16 +95,16 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Vaya al panel de canales.
-1. Seleccionar **...** en el **INFORMACIÓN DEL CANAL** Panel.
+1. Clic **...** en el **INFORMACIÓN DEL CANAL** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Vaya a las propiedades del canal.
-1. En la pestaña (Canal), asegúrese de que la casilla de verificación esté desactivada y, a continuación, seleccione **Guardar y cerrar**.
+1. En la pestaña (Canal), asegúrese de que la casilla de verificación esté desactivada y haga clic en **Guardar y cerrar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Antes de implementar el contenido correctamente en el dispositivo, seleccione la **Actualizar contenido sin conexión**.
+   Antes de implementar el contenido correctamente en el dispositivo, haga clic en **Actualizar contenido sin conexión**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

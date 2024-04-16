@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -42,13 +42,13 @@ Puede añadir una secuencia incrustada al canal. Una secuencia incrustada es otr
 
 Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 
-1. Seleccione el canal en el que desea incrustar una página. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
+1. Haga clic en el canal en el que desee incrustar una página. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
 
-1. Seleccionar **Editar** de la barra de acciones.
-1. En el modo de editor, seleccione el icono de componentes de la barra lateral izquierda para poder añadir la página incrustada. Arrastre y suelte el **Secuencia incrustada** al editor.
+1. Clic **Editar** de la barra de acciones.
+1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para poder añadir la página incrustada. Arrastre y suelte el **Secuencia incrustada** al editor.
 1. Haga doble clic en **Secuencia incrustada** para que pueda añadir el canal al canal de secuencia original.
-1. Seleccione el **Ruta de canal** del canal.
-1. Seleccione el **Duración (milisegundos)** para el canal incrustado en **Secuencia** pestaña. De forma predeterminada, la duración está configurada en **-1**, significa que el canal incrustado se ejecuta completamente. Si el usuario especifica una duración, la subsiguiente se interrumpe (es decir, se corta) a la hora especificada.
+1. Haga clic en **Ruta de canal** del canal.
+1. Haga clic en **Duración (milisegundos)** para el canal incrustado en **Secuencia** pestaña. De forma predeterminada, la duración está configurada en **-1**, significa que el canal incrustado se ejecuta completamente. Si el usuario especifica una duración, la subsiguiente se interrumpe (es decir, se corta) a la hora especificada.
 
 1. Configure las variables **Estrategia de reproducción medida** hasta **normal**.
 
@@ -60,15 +60,15 @@ De forma predeterminada, se establece en **normal**. Estableciendo el valor en *
 >
 >Siga los pasos a continuación después de agregar una secuencia incrustada al canal desde los pasos anteriores:
 >
->1. Vaya a la pantalla y seleccione la pantalla **Ubicaciones** carpeta.
->1. Seleccionar **Tablero** de la barra de acciones.
->1. En el panel de visualización, seleccione **+ Asignar canales** desde el **CANALES ASIGNADOS Y PANELES PROGRAMADOS** para poder abrir **Cuadro de diálogo Asignación de canales**.
+>1. Navegue hasta la pantalla y haga clic en la pantalla desde **Ubicaciones** carpeta.
+>1. Clic **Tablero** de la barra de acciones.
+>1. En el panel de visualización, haga clic en **+ Asignar canales** desde el **CANALES ASIGNADOS Y PANELES PROGRAMADOS** para poder abrir **Cuadro de diálogo Asignación de canales**.
 >
->1. Seleccione la ruta del canal en el que (utilizado en la secuencia incrustada) **Ruta de canal**.
+>1. Haga clic en la ruta del canal en el que está (utilizado en la secuencia incrustada) **Ruta de canal**.
 >1. Asegúrese de que la variable **Prioridad** es inferior al canal principal.
 >
->1. No seleccionar ninguna **Eventos admitidos**.
->1. Seleccionar **Guardar** cuando termine.
+>1. No haga clic en ninguna **Eventos admitidos**.
+>1. Clic **Guardar** cuando termine.
 >
 
 En el ejemplo siguiente se muestra la adición de una secuencia incrustada (**Canal inactivo - Noche**) a un canal existente (**Canal inactivo**).
@@ -87,16 +87,16 @@ Puede añadir una secuencia incrustada dinámica al canal. Una secuencia incrust
 
 Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 
-1. Seleccione el canal en el que desea incrustar una secuencia dinámica. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
+1. Haga clic en el canal en el que desee incrustar una secuencia dinámica. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
 
-1. Seleccionar **Editar** de la barra de acciones.
-1. En el modo de editor, seleccione el icono de componentes de la barra lateral izquierda para añadir la secuencia incrustada dinámica. Arrastre y suelte el **Dinámico** **Secuencia incrustada** al editor.
+1. Clic **Editar** de la barra de acciones.
+1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para añadir la secuencia incrustada dinámica. Arrastre y suelte el **Dinámico** **Secuencia incrustada** al editor.
 
 1. Haga doble clic en **Dinámico** **Secuencia incrustada** para poder añadir la página al canal de secuencia.
 
 1. Introduzca el **Rol de asignación de canal**.
 1. Configure las variables **Estrategia de reproducción medida** hasta **normal**. De forma predeterminada, se establece en **normal**. Estableciendo el valor en **normal** (Reproducir todos los elementos) significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es **Reproducir un solo elemento**. Ese valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.
 
-1. Seleccione el **Duración (milisegundos)** in **Secuencia** para el canal incrustado en la secuencia.
+1. Haga clic en **Duración (milisegundos)** in **Secuencia** para el canal incrustado en la secuencia.
 
 ![última versión](assets/latest.gif)

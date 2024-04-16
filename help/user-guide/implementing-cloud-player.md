@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La instalación de Cloud Player puede variar en diferentes plataformas. En gener
 
    ![imagen](/help/user-guide/assets/cloud-player-install.png)
 
-1. Seleccione el icono Instalar y el botón Instalar en el cuadro de diálogo de confirmación. Cloud Player se instala como una aplicación independiente en el dispositivo y se puede iniciar con un icono.
+1. Haga clic en el icono Instalar y en el botón Instalar del cuadro de diálogo de confirmación. Cloud Player se instala como una aplicación independiente en el dispositivo y se puede iniciar con un icono.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Obtenga más información sobre el aprovisionamiento masivo en el sistema operat
 
 ## AEM Configuración necesaria en instancias de {#bulk-provisioning-config-aem}
 
-AEM AEM En función del tipo de instancia de, seleccione una de las siguientes guías para habilitar el reproductor en la nube y el reproductor en la nube CORS b/w:
+AEM AEM En función del tipo de instancia de, haga clic en una de las siguientes guías para habilitar el reproductor en la nube y el reproductor en la nube CORS b/w:
 * [AEM Local/AMS (en las instalaciones)](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

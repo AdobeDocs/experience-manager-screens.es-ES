@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -91,8 +91,8 @@ Siga los pasos a continuación para implementar la funcionalidad:
 1. **Crear pantalla en Ubicación**
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región**.
-   1. Seleccionar **Región** y seleccione **+ Crear** de la barra de acciones.
-   1. Seleccionar **Mostrar** en el asistente y cree una pantalla con el título **RegionDisplay.**
+   1. Clic **Región** y haga clic en **+ Crear** de la barra de acciones.
+   1. Clic **Mostrar** en el asistente y cree una pantalla con el título **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Para **MainAdChannel:**
 
-   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccione **Asignar canal** de la barra de acciones.
+   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Seleccionar **Canal de referencia** por ruta.
-   1. Seleccione el **Ruta de canal** as **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
+   1. Clic **Canal de referencia** por ruta.
+   1. Haga clic en **Ruta de canal** as **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
    1. El **Función del canal** se rellena como **mainadchannel**.
-   1. Seleccione el **Prioridad** as **1**.
-   1. Seleccione el **Eventos admitidos** as **Carga inicial** y **Pantalla inactiva**.
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Prioridad** as **1**.
+   1. Haga clic en **Eventos admitidos** as **Carga inicial** y **Pantalla inactiva**.
+   1. Haga clic en **Guardar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >También puede asignar un canal desde el panel de visualización navegando hasta **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccionando **Tablero** de la barra de acciones. Seleccionar **+ Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   >También puede asignar un canal desde el panel de visualización navegando hasta **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccionando **Tablero** de la barra de acciones. Clic **+ Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    Del mismo modo, asignar canal **TargetedSinglePlay** para visualización**:
 
-   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccione **Asignar canal** de la barra de acciones.
+   1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
    1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Seleccionar **Canal de referencia** por ruta.
-   1. Seleccione el **Ruta de canal** as **Activación de nivel de canal*** > ***Canales*** > ***TargetedSinglePlay***.
+   1. Clic **Canal de referencia** por ruta.
+   1. Haga clic en **Ruta de canal** as **Activación de nivel de canal*** > ***Canales*** > ***TargetedSinglePlay***.
    1. El **Función del canal** se rellena como **targetedsingleplay**.
    1. Configure las variables **Prioridad** as **2**.
-   1. Seleccione el **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Temporizador**, como se muestra en la figura siguiente.
+   1. Haga clic en **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Temporizador**, como se muestra en la figura siguiente.
    1. Elija la fecha en **activo desde** el 27 de noviembre de 2018 a las 23:59 h y en **activo hasta** as 28 de noviembre de 2018 12:05 A.M.
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Guardar**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    >[!NOTE]
    >
-   >Para elegir el mismo día, seleccione el día siguiente y, a continuación, edite manualmente la fecha en el mismo día, pero para una hora posterior. Al hacerlo, se restringe al usuario de la selección de una fecha pasada. Consulte el siguiente ejemplo:
+   >Para elegir el mismo día, haga clic en el siguiente día y, a continuación, edite manualmente la fecha en el mismo día, pero para una hora posterior. Al hacerlo, se restringe al usuario de la selección de una fecha pasada. Consulte el siguiente ejemplo:
 
    ![new1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 
 
 ### División por día {#day-parting}
 
-1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
+1. Haga clic en el canal y luego en **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -190,7 +190,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### WeekParting {#week-parting}
 
-1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
+1. Haga clic en el canal y luego en **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -219,7 +219,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### MonthParting {#month-parting}
 
-1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
+1. Haga clic en el canal y luego en **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -247,7 +247,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### Combinación de Particiones {#combined-parting}
 
-1. Seleccione el canal y luego seleccione **Tablero** de la barra de acciones.
+1. Haga clic en el canal y luego en **Tablero** de la barra de acciones.
 
 1. Después de introducir la fecha/hora de inicio y la fecha/hora de finalización desde el **Asignación de canales** , puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 

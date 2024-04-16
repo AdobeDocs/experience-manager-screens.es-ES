@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ La siguiente imagen muestra el **TextOverlayDemo** proyecto con **TextSample** e
 
 Siga los pasos a continuación para utilizar la superposición de texto en un canal de AEM Screens:
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Editar** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Seleccione la imagen y seleccione **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
+1. Haga clic en la imagen y en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Seleccione el **Superposición de texto** de la barra de navegación del cuadro de diálogo, como se muestra en la figura siguiente.
+1. Haga clic en **Superposición de texto** de la barra de navegación del cuadro de diálogo, como se muestra en la figura siguiente.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Para obtener información sobre cómo configurar y administrar cambios en recurs
 
 Después de configurar las configuraciones necesarias para el proyecto, siga los pasos a continuación para utilizar los valores de las Hojas de cálculo de Google:
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Propiedades** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Propiedades** de la barra de acciones.
 
-1. Seleccione el **Personalización** para poder configurar las configuraciones de ContextHub.
+1. Haga clic en **Personalización** para poder configurar las configuraciones de ContextHub.
 
-   1. Seleccione el **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y seleccione **Seleccionar**.
+   1. Haga clic en **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y haga clic en **Seleccionar**.
 
-   1. Seleccione el **Ruta de segmentos** as **conf** > **pantallas** > **configuración** > **wcm** > **segmentos** y seleccione **Seleccionar**.
+   1. Haga clic en **Ruta de segmentos** as **conf** > **pantallas** > **configuración** > **wcm** > **segmentos** y haga clic en **Seleccionar**.
 
-   1. Seleccione **Guardar y cerrar**.
+   1. Haga clic en **Guardar y cerrar**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y seleccione **Editar** de la barra de acciones.
+1. Vaya a **TextOverlayDemo** > **Canales** > **TextSample** y haga clic en **Editar** de la barra de acciones.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Añada un componente de superposición de imagen y texto a la imagen como se describe en [Uso de superposición de texto](/help/user-guide/text-overlay.md#using-text-overlay) de esta página.
 
-1. Seleccionar en **Configurar** (icono de la llave inglesa) para abrir **Imagen** Cuadro de diálogo.
+1. Haga clic en **Configurar** (icono de la llave inglesa) para abrir **Imagen** Cuadro de diálogo.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Vaya a **ContextHub** de la pestaña **Imagen** Cuadro de diálogo. Seleccione **Añadir**.
+1. Vaya a **ContextHub** de la pestaña **Imagen** Cuadro de diálogo. Clic **Añadir**.
 
    >[!NOTE]
    >Si no ha definido la configuración de ContextHub, esta opción está desactivada para el proyecto.
 
-1. Entrar **Valor** en el **Marcador** field. Seleccione la fila en la que desea obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, seleccione la marca de verificación.
+1. Entrar **Valor** en el **Marcador** field. Haga clic en la fila en la que desee obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, haga clic en la marca de verificación.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Seleccionar **Previsualizar**.
+1. Haga clic en **Vista previa**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

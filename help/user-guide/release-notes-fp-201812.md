@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ La fecha de lanzamiento del paquete de funciones 201812 de AEM Screens es el 16 
 
 * **Programación de varios recursos**:
 
-  La programación de varios recursos permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados. Consulte **Programación de varios recursos** sección en **[Programación de recursos](asset-level-scheduling.md)**.
+  La programación de varios recursos permite al usuario hacer clic en varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados. Consulte **Programación de varios recursos** sección en **[Programación de recursos](asset-level-scheduling.md)**.
 
 * **Diseño de varias zonas**:
 

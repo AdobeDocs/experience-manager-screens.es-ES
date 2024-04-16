@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,11 +77,11 @@ Siga los pasos a continuación para agregar la aplicación REACT interactiva a A
    >
    >Asegúrese de añadir el evento de interacción del usuario al asignar el canal a la visualización.
 
-1. Seleccionar **Editar** en la barra de acciones para poder editar las propiedades del canal.
+1. Clic **Editar** en la barra de acciones para poder editar las propiedades del canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Arrastre y suelte el **Página integrada** , o reutilice el componente existente en un canal de aplicaciones y seleccione la página de inicio en la aplicación mysamplespa, por ejemplo, ***/content/mysamplespa/en/home***.
+1. Arrastre y suelte el **Página integrada** , o reutilice el componente existente en un canal de aplicaciones y haga clic en la página principal de la aplicación mysamplespa, por ejemplo, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ SPA Siga los pasos a continuación para integrar la con Adobe Analytics con la c
    Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información sobre cómo realizar la secuenciación en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
 
 1. Edite la aplicación react en el IDE/editor que prefiera (especialmente el componente de texto u otro componente que desee que empiece a emitir eventos).
-1. En el evento de selección u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.
+1. En el evento de clic u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.
 
    Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Puede crear una programación para su proyecto de Screens que pueda administrar 
 
 Siga los pasos a continuación para crear la programación de su canal:
 
-1. Seleccione el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, Pantallas. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya al proyecto de Pantallas y seleccione **Horarios**.
-1. Seleccionar **Crear** de la barra de acciones.
-1. Seleccionar **Programación** desde el **Crear** asistente y seleccione **Siguiente**.
+1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, en Screens. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Vaya al proyecto de Pantallas y haga clic en **Horarios**.
+1. Clic **Crear** de la barra de acciones.
+1. Clic **Programación** desde el **Crear** y haga clic en **Siguiente**.
 
-1. Introduzca el **Nombre** y **Título** y seleccione **Crear**.
+1. Introduzca el **Nombre** y **Título** y haga clic en **Crear**.
 
 Puede ver una carpeta de programación con el nombre y título designados en el proyecto.
 
@@ -52,14 +52,14 @@ Siga los pasos a continuación para ver el panel de programación. El siguiente 
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Seleccionar **Tablero** de la barra de acciones.
+1. Clic **Tablero** de la barra de acciones.
 
    Puede ver tres paneles diferentes, como **INFORMACIÓN DE HORARIO**, **CANALES ASIGNADOS**, y **PANTALLAS ASIGNADAS**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panel de información de programación** Seleccione Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para ver o cambiar las propiedades de la programación.
+   **Panel de información de programación** Haga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para ver o cambiar las propiedades de la programación.
 
-   **Panel de canales asignados** Seleccione +Asignar canal de la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
+   **Panel de canales asignados** Haga clic en +Asignar canal en la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
 
-   **Panel de pantallas asignadas** Seleccione cualquiera de las pantallas del panel PANTALLAS ASIGNADAS para abrir el panel de visualización.
+   **Panel de pantallas asignadas** Haga clic en cualquiera de las pantallas del panel PANTALLAS ASIGNADAS para abrir el panel de visualización.

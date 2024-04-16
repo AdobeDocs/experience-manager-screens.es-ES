@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -32,11 +32,11 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    ![imagen](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Seleccionar **Asignar canal** en la barra de acciones.
+1. Clic **Asignar canal** en la barra de acciones.
 
    o,
 
-   Seleccionar **Tablero** y seleccione **+Asignar canal** desde el **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
+   Clic **Tablero** y haga clic en **+Asignar canal** desde el **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
 
    ![imagen](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 
 Como autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero también permitir que se reproduzca contenido importante antes de cortar su reproducción debido a la programación.
 
-Seleccione una de las siguientes opciones disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
+Haga clic en una de las siguientes opciones que están disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
 
 * **Inmediata** : Siempre que se active la programación o se reciba una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido.
 * **Al final del elemento actual** : Cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que el elemento actual de la secuencia termine de reproducirse. Solo después de eso puede actualizar o reproducir el nuevo contenido.

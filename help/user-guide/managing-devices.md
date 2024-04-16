@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
@@ -36,26 +36,26 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Seleccione su **Dispositivos** carpeta y seleccione **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y no asignados.
+1. Haga clic en su **Dispositivos** y haga clic en **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y no asignados.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Seleccione un dispositivo no asignado de la lista y seleccione el **Asignar dispositivo** en la barra de acciones.
+1. Haga clic en un dispositivo no asignado de la lista y, a continuación, haga clic en **Asignar dispositivo** en la barra de acciones.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Seleccione la pantalla a la que desea asignar el dispositivo en la lista y, a continuación, seleccione **Asignar**.
+1. Haga clic en la pantalla a la que desee asignar el dispositivo desde la lista y haga clic en el botón **Asignar**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Seleccione el **Finalizar** para completar el proceso de asignación.
+1. Haga clic en **Finalizar** para completar el proceso de asignación.
 
 
    El panel de visualización muestra el dispositivo asignado en la **DISPOSITIVOS** panel.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Seleccione el (**...**), en la esquina superior derecha de la **DISPOSITIVOS** panel para añadir la configuración del dispositivo o actualizar los dispositivos.
+   Haga clic en el botón (**...**), en la esquina superior derecha de la **DISPOSITIVOS** panel para añadir la configuración del dispositivo o actualizar los dispositivos.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -24,15 +24,15 @@ También puede navegar directamente a: `http://localhost:4502/screens.html/conte
 
 >[!NOTE]
 >**Sugerencia de navegación:**
->AEM También puede utilizar las teclas del cursor para navegar por diferentes carpetas en la. Además, después de seleccionar una entidad en particular, pulse la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
+>AEM También puede utilizar las teclas del cursor para navegar por diferentes carpetas en la. Además, después de hacer clic en una entidad concreta, pulse la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
 
 ## Creación de un nuevo proyecto de Screens
 
-1. Seleccionar **Screens** AEM de la instancia de la.
-1. Seleccionar **Crear proyecto de Screens**.
-1. Escriba el título como **TestScreens** y seleccione **Guardar**.
+1. Clic **Screens** AEM de la instancia de la.
+1. Clic **Crear proyecto de Screens**.
+1. Escriba el título como **TestScreens** y haga clic en **Guardar**.
 
-El proyecto se crea y le lleva de nuevo a la consola Proyecto de pantallas. Ahora puede seleccionar el proyecto.
+El proyecto se crea y le lleva de nuevo a la consola Proyecto de pantallas. Ahora puede hacer clic en el proyecto.
 
 En un proyecto hay cinco tipos de carpetas, como se muestra en la figura siguiente:
 
@@ -51,7 +51,7 @@ En un proyecto hay cinco tipos de carpetas, como se muestra en la figura siguien
 
 ## Visualización de propiedades {#viewing-properties}
 
-Después de crear el proyecto de Pantallas, seleccione el proyecto y haga clic en **Propiedades** en la barra de acciones para poder editar las propiedades del proyecto.
+Después de crear el proyecto de Screens, haga clic en el proyecto y en **Propiedades** en la barra de acciones para poder editar las propiedades del proyecto.
 
 Las siguientes opciones le permiten editar o cambiar las propiedades de su **TestScreens**.
 
@@ -63,10 +63,10 @@ También puede crear su propia carpeta personalizada en **Horarios**, **Ubicacio
 
 Para crear una carpeta personalizada:
 
-1. Seleccione el proyecto y seleccione **Crear** situado junto al icono más en la barra de acciones.
-1. El **Crear** se abrirá el asistente y seleccione la opción adecuada.
-1. Seleccione **Siguiente**.
-1. Introduzca las propiedades y seleccione **Crear**.
+1. Haga clic en el proyecto y en **Crear** situado junto al icono más en la barra de acciones.
+1. El **Crear** se abrirá el asistente y haga clic en la opción correspondiente.
+1. Haga clic en **Siguiente**.
+1. Introduzca las propiedades y haga clic en **Crear**.
 
 Los siguientes pasos muestran la creación de una carpeta de aplicaciones para su **Aplicaciones** página principal en **TestScreens**.
 

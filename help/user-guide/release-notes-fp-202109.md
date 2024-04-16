@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * **Representaciones adaptables**
 
-  Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
+  Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
 
   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
@@ -60,7 +60,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
       * Vaya al CRXDE Lite en Autor y Publicación.
 
-      * Seleccione Herramientas > Consulta.
+      * Haga clic en Herramientas > Consulta.
 
       * En la consulta, utilice `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

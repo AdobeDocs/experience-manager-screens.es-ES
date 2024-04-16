@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -45,9 +45,9 @@ Cuando haya configurado el proyecto de AEM Screens y haya asignado pantallas a c
 
 Siga las instrucciones a continuación para descargar el informe de asignación de contenido:
 
-1. Vaya al proyecto de AEM Screens y seleccione el proyecto **Demostraciones**.
+1. Vaya al proyecto de AEM Screens y haga clic en él **Demostraciones**.
 
-1. Seleccionar **Informe de asignación de contenido** de la barra de acciones.
+1. Clic **Informe de asignación de contenido** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/can-download.png)
 

@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Siga los pasos a continuación para comprobar si estas dos configuraciones vital
    ![activos](assets/health-check1.png)
 
 
-2. Seleccionar **Ejecutar las comprobaciones de estado seleccionadas** para poder ejecutar la validación para dos propiedades enumeradas anteriormente.
+2. Clic **Ejecutar las comprobaciones de estado seleccionadas** para poder ejecutar la validación para dos propiedades enumeradas anteriormente.
 
    Si ambos filtros están activados, la variable **Servicio de mantenimiento de configuración de Screens** muestra el **Resultado** as **OK** con ambas configuraciones como habilitadas.
 
@@ -76,7 +76,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
    ![imagen](assets/config/empty-ref2.png)
 
-1. Seleccionar **Guardar** para habilitar el Filtro de referente de Apache Sling Permitir vacío.
+1. Clic **Guardar** para habilitar el Filtro de referente de Apache Sling Permitir vacío.
 
 
 #### Servicio HTTP basado en Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
    ![imagen](assets/config/config-1.png)
 
-1. Seleccionar **Guardar** para habilitar el *http* servicio.
+1. Clic **Guardar** para habilitar el *http* servicio.
 
 #### Habilitar la IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -118,9 +118,9 @@ Siga los pasos a continuación para implementar la funcionalidad:
 1. **Cree dos ubicaciones y un canal en cada carpeta de ubicación.**
 
    1. Vaya a **Demostración** > **Ubicaciones** > **Región A**.
-   1. Seleccionar **Región A** y seleccione **+ Crear** de la barra de acciones.
-   1. Seleccionar **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
-   1. Repita el paso (b) y ahora seleccione **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** as **región** para este canal.
+   1. Clic **Región A** y haga clic en **+ Crear** de la barra de acciones.
+   1. Clic **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
+   1. Repita el paso (b) y haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** as **región** para este canal.
 
    >[!CAUTION]
    >
@@ -139,9 +139,9 @@ Siga los pasos a continuación para implementar la funcionalidad:
 1. **Cree Pantalla y Canal en cada Ubicación.**
 
    1. Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Almacén 1**.
-   1. Seleccionar **Almacén 1** y seleccione **+ Crear** de la barra de acciones.
-   1. Seleccionar **Mostrar** en el asistente y cree **`Store1Display`**.
-   1. Repita el paso (b) y esta vez seleccione **Canal de secuencia** en el asistente. Introduzca el **Título** as **`Store1Channel`** y el **Nombre** as **almacenar**.
+   1. Clic **Almacén 1** y haga clic en **+ Crear** de la barra de acciones.
+   1. Clic **Mostrar** en el asistente y cree **`Store1Display`**.
+   1. Repita el paso (b) y esta vez haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **`Store1Channel`** y el **Nombre** as **almacenar**.
 
    >[!CAUTION]
    >
@@ -169,14 +169,14 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Añada contenido a los canales en sus respectivas ubicaciones.**
 
-   Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Región A** y seleccione **Editar** de la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
+   Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Región A** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
 
    >[!NOTE]
    >Puede usar el complemento ***Resources.zip*** desde el **Recursos** , más arriba, para usar las imágenes como recursos para el contenido del canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Del mismo modo, vaya a **Demostración** > **Ubicaciones** > **Región B** > **Región B** y seleccione **Editar** en la barra de acciones, para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
+   Del mismo modo, vaya a **Demostración** > **Ubicaciones** > **Región B** > **Región B** y haga clic en **Editar** en la barra de acciones, para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Crear un horario**
 
-   Navegar y seleccionar **Horarios** en el proyecto de AEM Screens. A continuación seleccione **Crear** de la barra de acciones.
+   Navegue y haga clic en **Horarios** en el proyecto de AEM Screens. Luego haga clic en **Crear** de la barra de acciones.
 
    La siguiente imagen muestra el **AdSchedule** creado en **Demostración** proyecto.
 
@@ -197,29 +197,29 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Asignar canales a una programación**
 
-   1. Vaya a **Demostración** > **Horarios** > **AdSchedule** y seleccione **Tablero** de la barra de acciones.
-   1. Seleccionar **+ Asignar canal** de **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
-   1. Seleccionar **Canal de referencia** por ruta.
-   1. Seleccione el **Ruta de canal** as **Demostración** > ***Canales*** > ***Global***.
+   1. Vaya a **Demostración** > **Horarios** > **AdSchedule** y haga clic en **Tablero** de la barra de acciones.
+   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
+   1. Clic **Canal de referencia** por ruta.
+   1. Haga clic en **Ruta de canal** as **Demostración** > ***Canales*** > ***Global***.
    1. Introduzca el **Función del canal** as **GlobalAdSegment**.
-   1. Seleccione el **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
+   1. Haga clic en **Guardar**.
 
    **Asignar canal por función para la región:**
 
-   1. Seleccionar **+ Asignar canal** de **CANALES ASIGNADOS** panel.
-   1. En el cuadro de diálogo Asignación de canal, seleccione **Canal de referencia** por nombre.
+   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** panel.
+   1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
    1. Introduzca el **Nombre del canal** as **región***.
    1. Introduzca el **Función del canal** as **RegionAdSegment**.
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Guardar**.
 
    **Asignar canal por rol para tienda:**
 
-   1. Seleccionar **+ Asignar canal** de **CANALES ASIGNADOS** panel.
-   1. En el cuadro de diálogo Asignación de canal, seleccione **Canal de referencia** por nombre.
+   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** panel.
+   1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
    1. Introduzca el **Nombre del canal** as **almacenar**.
    1. Introduzca el **Función del canal** as **StoreAdSegment**.
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Guardar**.
 
    La siguiente imagen muestra los canales asignados por ruta y por función.
 
@@ -229,7 +229,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Vaya a **Global** Canal que creó inicialmente en **Demostración** proyecto.
 
-   Seleccionar **Editar** de la barra de acciones.
+   Clic **Editar** de la barra de acciones.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -237,17 +237,17 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Abra las propiedades de uno de los componentes e introduzca la variable **Rol de asignación de canal** as **RegionAdSegment**.
 
-   Del mismo modo, seleccione los demás componentes y abra las propiedades para introducir la variable **Rol de asignación de canal** as **StoreAdSegment**.
+   Del mismo modo, haga clic en los demás componentes y abra las propiedades para introducir la variable **Rol de asignación de canal** as **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Asignación de programación a cada visualización**
 
    1. Navegue hasta cada pantalla, por ejemplo, **Demostración** > **Ubicaciones** > **Región A** >**Almacén 1** >**`Store1Display`**.
-   1. Seleccionar **Tablero** de la barra de acciones.
-   1. En el tablero, seleccione **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel y, a continuación, seleccione **+Asignar horario**.
-   1. Seleccione la ruta al Horario (por ejemplo, aquí, **Demostración** > **Horarios** > **AdSchedule**).
-   1. Seleccione **Guardar**.
+   1. Clic **Tablero** de la barra de acciones.
+   1. En el tablero, haga clic en **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
+   1. Haga clic en la ruta al Horario (por ejemplo, aquí, **Demostración** > **Horarios** > **AdSchedule**).
+   1. Haga clic en **Guardar**.
 
 ## Visualización de los resultados {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Crear grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Seleccionar **Herramientas** > **Seguridad** > **Grupos**.
-   1. Seleccionar **Crear grupo** y escriba **Global-Author** in **ID**.
-   1. Seleccione **Guardar y cerrar**.
+   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
+   1. Clic **Crear grupo** y escriba **Global-Author** in **ID**.
+   1. Haga clic en **Guardar y cerrar**.
 
    Del mismo modo, cree otros dos grupos como **Region-Author** y **Store-Author**.
 
@@ -317,11 +317,11 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Crear usuarios y agregar usuarios a grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Seleccionar **Herramientas** > **Seguridad** > **Usuarios**.
-   1. Seleccionar **Crear usuario** y escriba **Global-User** in **ID**.
+   1. Haga clic en **Herramientas** > **Seguridad** > **Usuarios**.
+   1. Clic **Crear usuario** y escriba **Global-User** in **ID**.
    1. Entrar **Contraseña** y confirme la contraseña de este usuario.
-   1. Seleccione el **Grupos** e introduzca el nombre del grupo en **Seleccionar grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
-   1. Seleccione **Guardar y cerrar**.
+   1. Haga clic en **Grupos** e introduzca el nombre del grupo en **Haga clic en Grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
+   1. Haga clic en **Guardar y cerrar**.
 
    Del mismo modo, cree otros dos usuarios como **Región-Usuario** y **Store-User** y agréguelas a **Region-Author** y **Store-Author** respectivamente.
 
@@ -333,15 +333,15 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 1. **Añadir todos los grupos a los colaboradores**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Seleccionar **Herramientas** > **Seguridad** > **Grupos**.
-   1. Seleccionar **Colaboradores** en la lista y seleccione **Miembros** pestaña.
-   1. Seleccione el **Grupo** como **Global-Author**, **Region-Author,** y **Store-Author** a los colaboradores.
-   1. Seleccione **Guardar y cerrar**.
+   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
+   1. Clic **Colaboradores** en la lista y haga clic en **Miembros** pestaña.
+   1. Haga clic en **Grupo** como **Global-Author**, **Region-Author,** y **Store-Author** a los colaboradores.
+   1. Haga clic en **Guardar y cerrar**.
 
 1. **Acceso a los permisos para cada grupo**
 
    1. Vaya a *Useradmin* y utilice esta interfaz de usuario para modificar los permisos para diferentes grupos.
-   1. Buscar por **Global-Author** y seleccione **Permisos** , como se muestra en la figura siguiente.
+   1. Buscar por **Global-Author** y haga clic en **Permisos** , como se muestra en la figura siguiente.
    1. Del mismo modo, puede acceder a los permisos de para **Region-Author** y **Store-Author**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)

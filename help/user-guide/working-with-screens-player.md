@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -32,11 +32,11 @@ AEM Puede configurar las preferencias de su dispositivo desde el Tablero de disp
 
 1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
-   Seleccionar **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
+   Clic **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Seleccione el dispositivo para poder abrir el tablero de dispositivos.
+1. Haga clic en el dispositivo para poder abrir el tablero de dispositivos.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Para ver la IU de administración desde el reproductor de Screens, pulse durante
 
 #### Acceso a las opciones del menú de configuración {#configuration-options}
 
-Puede actualizar las configuraciones si selecciona la **Configuración** del menú lateral, como se muestra en la figura siguiente:
+Puede actualizar las configuraciones si hace clic en **Configuración** del menú lateral, como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ El menú Configuration permite modificar las siguientes opciones:
 
 Puede borrar la caché de los canales y las aplicaciones desde la IU del administrador en el reproductor de AEM Screens.
 
-Seleccione el **Caché de contenido** desde el carril lateral para poder actualizar la caché.
+Haga clic en **Caché de contenido** desde el carril lateral para poder actualizar la caché.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

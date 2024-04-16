@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -28,8 +28,8 @@ Para descargar **Reproductor de AEM Screens**, visite la [AEM Descargas del repr
 >Después de descargar el último reproductor (*.exe*), siga los pasos en el reproductor para completar la instalación ad hoc:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y seleccione **Guardar**.
->1. Seleccionar **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
+>1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
+>1. Clic **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
 
 ## Monitorización de reproducción básica {#playback-monitoring}
 

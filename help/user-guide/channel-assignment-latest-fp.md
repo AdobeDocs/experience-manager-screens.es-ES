@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Siga los pasos a continuación para configurar un proyecto y un canal:
 
 1. Cree un canal de secuencia titulado como **Cafetería** en el **Canales** carpeta.
 
-1. Seleccione el canal y luego seleccione **Editar** de la barra de acciones.
+1. Haga clic en el canal y luego en **Editar** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
-1. Seleccionar **Asignar canal** de la barra de acciones.
+1. Clic **Asignar canal** de la barra de acciones.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    O bien,
 
-   Seleccionar **Tablero** en la barra de acciones y seleccione **+Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   Clic **Tablero** en la barra de acciones y haga clic en **+Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
    >
    >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
 
-1. Desde el **Programación** , seleccione la opción **Ventana de activación** y **Horario de periodicidad**.
+1. Desde el **Programación** haga clic en la opción **Ventana de activación** y **Horario de periodicidad**.
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
 
-1. Seleccionar **Guardar** una vez configuradas las preferencias.
+1. Clic **Guardar** una vez configuradas las preferencias.
 
 ### Visualización del contenido en Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Siga los pasos a continuación para navegar a la vista de cronología:
 
 1. Navegue hasta la visualización requerida, por ejemplo, **Demostraciones** > **Ubicaciones** > **San José** > **Vestíbulo**.
 
-1. Seleccionar **Asignar canal** de la barra de acciones.
+1. Clic **Asignar canal** de la barra de acciones.
 
    O bien,
 
-   Seleccionar **Tablero** y seleccione **Cronología** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   Clic **Tablero** y haga clic en **Cronología** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
    ![imagen](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ La ventana de activación permite seleccionar una **Fecha de inicio** y un **Fec
 
 ### Programación de repetición {#recurrence-schedule}
 
-El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Seleccionar **+ Agregar programación** para añadir una programación de periodicidad al canal.
+El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Clic **+ Agregar programación** para añadir una programación de periodicidad al canal.
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.

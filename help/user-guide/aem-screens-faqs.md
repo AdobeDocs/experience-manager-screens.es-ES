@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Un ***Canal en línea*** muestra el contenido actualizado en el entorno en tiemp
 
 ### 2. ¿Cómo hago un canal en línea? {#how-do-i-make-a-channel-online}
 
-Seleccione el canal y vaya a las propiedades del canal en la barra de acciones. Marque **Modo de desarrollador (forzar al canal a estar en línea)** bajo **Canal** para que el canal esté en línea.
+Haga clic en el canal y navegue hasta las propiedades del canal desde la barra de acciones. Marque **Modo de desarrollador (forzar al canal a estar en línea)** bajo **Canal** para que el canal esté en línea.
 
 ### 3. ¿Cuál es el uso del campo Rol del canal? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Cuando se utiliza un código personalizado integrado del lado del cliente `clien
 
 Siga los pasos a continuación desde el editor de canales:
 
-1. Seleccione un canal y luego seleccione **Editar** de la barra de acciones.
-1. Seleccione el componente en el que desea agregar el personalizado `clientlib`.
-1. Seleccione el botón de configuración (el icono de la llave inglesa).
+1. Haga clic en un canal y luego en **Editar** de la barra de acciones.
+1. Haga clic en el componente donde desee agregar el personalizado `clientlib`.
+1. Haga clic en el botón de configuración (el icono de la llave inglesa ).
 1. Vaya a **Configuración sin conexión** y agregue la ruta a la clientlib personalizada en **Bibliotecas del lado del cliente**.
 
 ## Registro de dispositivos {#device-registration}
@@ -109,7 +109,7 @@ Active el Filtro de referente de Apache Sling Permitir vacío. Esto es necesario
 
 1. Vaya a **Configuración de la consola web Adobe Experience Manager**
 1. Compruebe la **allow.empty** opción.
-1. Seleccione **Guardar**.
+1. Haga clic en **Guardar**.
 
 ### 3. ¿Cómo solucionar problemas si al registrar un reproductor AEM Screens, el dispositivo muestra FAILURE y los registros de la consola muestran un error ENAME_NOT_FOUND?
 
@@ -133,14 +133,14 @@ Para obtener más información sobre dónde puede monitorizar la actividad de lo
 
 El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin requerir el dispositivo de reproductor Chrome real. Para la instalación, siga los pasos a continuación:
 
-1. Seleccionar [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
+1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 1. Descomprima y guárdelo en el disco.
-1. Abra el navegador Chrome y seleccione **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
+1. Abra el navegador Chrome y haga clic en **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
 1. Encienda el **Modo de desarrollador** desde la esquina superior derecha.
-1. Seleccionar **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
+1. Clic **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
 1. Si está disponible en la lista de extensiones, marque **Reproductor de AEM Screens Chrome** plugin.
-1. Abra una nueva pestaña y seleccione **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
-1. Seleccione el **AEM Screens** Complemento. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
+1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
+1. Haga clic en **AEM Screens** Complemento. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
 
 ### 2. ¿Cómo solucionar problemas si el reproductor Screens no puede autenticarse a través de la instancia de publicación con el controlador de error personalizado?
 
@@ -203,7 +203,7 @@ Deshabilite Livefyre para evitar errores de registro haciendo lo siguiente.
 
    * Navegue hasta `https://<host>:<port>/system/console/bundles`.
    * AEM Busque el paquete de Livefyre de la: `com.adobe.cq.social.cq-social-livefyre`.
-   * Seleccionar **Detener**.
+   * Clic **Detener**.
 
 1. ***Deshabilitar sondeo de Livefyre:***
 

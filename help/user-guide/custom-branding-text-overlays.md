@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 
 1. Copie la ruta al proyecto; en este caso, la ruta es `/apps/settings/wcm/designs/customstyle`.
 
-1. Vaya al canal con el título **DemoBrand** (creado en el paso(1)) y seleccione **Propiedades** en la barra de acciones después de seleccionar el canal.
+1. Vaya al canal con el título **DemoBrand** (creado en el paso(1)) y haga clic en **Propiedades** en la barra de acciones después de seleccionar el canal.
 
 1. Vaya a **Avanzadas** y marque la **Diseño** field.
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Seleccionar **Guardar y cerrar** para actualizar la ruta de diseño.
+1. Clic **Guardar y cerrar** para actualizar la ruta de diseño.
 
    >[!IMPORTANT]
    >Si lo desea, puede superponer las plantillas de Screens existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más información.
@@ -108,9 +108,9 @@ Cuando haya completado los pasos anteriores, puede actualizar su *stats.css* arc
 
 Siga los pasos a continuación para ver el diseño actualizado en la superposición de texto:
 
-1. Vaya al proyecto de AEM Screens titulado como **`customstyle`** > **Canales** > **DemoBrand**. Seleccione el canal y seleccione **Editar** de la barra de acciones.
+1. Vaya al proyecto de AEM Screens titulado como **`customstyle`** > **Canales** > **DemoBrand**. Haga clic en el canal y en **Editar** de la barra de acciones.
 
-1. Dado que ahora ha añadido el diseño a su **Diseños** , como se ha mencionado anteriormente, seleccione **Previsualizar** para ver el estilo actual en la imagen con superposición de texto.
+1. Dado que ahora ha añadido el diseño a su **Diseños** , como se ha mencionado anteriormente, haga clic en **Previsualizar** para ver el estilo actual en la imagen con superposición de texto.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

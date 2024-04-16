@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -48,25 +48,25 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 1. **Creación de un canal de secuencia**
 
-   1. Seleccione el **Canales** carpeta y seleccione **Crear**.
+   1. Haga clic en **Canales** y haga clic en **Crear**.
 
-   1. Seleccionar **Canal de secuencia** en el asistente y cree el canal titulado como **MainAdChannel**.
+   1. Clic **Canal de secuencia** en el asistente y cree el canal titulado como **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Adición de contenido al canal de secuencia**
 
-   1. Seleccione el canal (**MainAdChannel**).
-   1. Seleccionar **Editar** de la barra de acciones.
+   1. Haga clic en el canal (**MainAdChannel**).
+   1. Clic **Editar** de la barra de acciones.
    1. Arrastre y suelte algunos recursos en el canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Creación de un canal de emergencia**
 
-   1. Seleccione el **Canales** carpeta.
-   1. Seleccione **Crear**.
-   1. Seleccionar **Canal de secuencia** en el asistente y cree el canal titulado como **EmergencyChannel**.
+   1. Haga clic en **Canales** carpeta.
+   1. Haga clic en **Crear**.
+   1. Clic **Canal de secuencia** en el asistente y cree el canal titulado como **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 1. **Añadir contenido al canal de emergencia**
 
-   1. Seleccione el canal (**Canal de emergencia)**.
-   1. Seleccionar **Editar** de la barra de acciones.
+   1. Haga clic en el canal (**Canal de emergencia)**.
+   1. Clic **Editar** de la barra de acciones.
    1. Arrastre y suelte el recurso que desea ejecutar durante una emergencia en su canal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 1. **Creación de una ubicación**
 
    1. Vaya a **Ubicaciones** carpeta.
-   1. Seleccionar **Crear** en la barra de acciones y cree una ubicación con el título **Almacenar** en el asistente.
+   1. Clic **Crear** en la barra de acciones y cree una ubicación con el título **Almacenar** en el asistente.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Creación de pantallas en su ubicación**
 
-   Vaya a su ubicación (**Almacenar**) y seleccione **Crear** de la barra de acciones. Después del asistente, cree dos **Visualizaciones** con título **StoreFront** y **StoreBack**.
+   Vaya a su ubicación (**Almacenar**) y haga clic en **Crear** de la barra de acciones. Después del asistente, cree dos **Visualizaciones** con título **StoreFront** y **StoreBack**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creación de una programación**
 
    1. Navegue hasta su **Horarios** carpeta.
-   1. Seleccionar **Crear** de la barra de acciones.
+   1. Clic **Crear** de la barra de acciones.
    1. Después del asistente, cree una programación titulada como **Programación de tienda**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Asigne ambas pantallas al programa y establezca prioridades
 
-   1. Seleccione la programación **(StoreSchedule)** y seleccione **Tablero** de la barra de acciones.
+   1. Haga clic en la programación **(StoreSchedule)** y haga clic en **Tablero** de la barra de acciones.
 
-   1. Seleccionar **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
 
    1. Desde el **Asignación de canales** Cuadro de diálogo:
 
-      1. Seleccione la ruta al **MainAdChannel**
+      1. Haga clic en la ruta al **MainAdChannel**
       1. Configure las variables **Prioridad** as 2
       1. Definir los eventos admitidos como **Carga inicial** y **Pantalla inactiva**.
-      1. Seleccionar **Guardar**
+      1. Clic **Guardar**
 
       Del mismo modo, vuelva a seguir los mismos pasos para asignar el **EmergencyChannel** y establezca su **Prioridad**.
 
@@ -124,16 +124,16 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Seleccionar **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
 
 1. Desde el **Asignación de canales** Cuadro de diálogo:
 
-   1. Seleccione la ruta al **EmergencyChannel**
+   1. Haga clic en la ruta al **EmergencyChannel**
    1. Configure las variables **Prioridad** como 1
 
    1. Definir los eventos admitidos como **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**
 
-   1. Seleccionar **Guardar**
+   1. Clic **Guardar**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    1. Navegue hasta cada pantalla, por ejemplo, **EmergencyChannel** > **Ubicaciones** > **Almacenar** >**StoreFront**.
 
-   1. Seleccionar **Tablero** de la barra de acciones.
-   1. Seleccionar **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel y seleccione más **+Asignar horario**.
+   1. Clic **Tablero** de la barra de acciones.
+   1. Clic **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
 
-   1. Seleccione la ruta al Horario (por ejemplo, aquí, **EmergencyChannel** > **Horarios** >**Programación de tienda**).
+   1. Haga clic en la ruta al Horario (por ejemplo, aquí, **EmergencyChannel** > **Horarios** >**Programación de tienda**).
 
-   1. Seleccione **Guardar**.
+   1. Haga clic en **Guardar**.
 
    Puede ver la programación asignada en la pantalla desde el **Programación de tienda** panel.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -165,15 +165,15 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
 Si hay una emergencia, realice los siguientes pasos:
 
-1. Vaya a **EmergencyChannel** > **Horarios** > **Programación de tienda** y seleccione **Tablero** de la barra de acciones.
+1. Vaya a **EmergencyChannel** > **Horarios** > **Programación de tienda** y haga clic en **Tablero** de la barra de acciones.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Seleccione el **EmergencyChannel** desde el **Programación de tienda** panel y seleccione **Editar asignación**.
+1. Haga clic en **EmergencyChannel** desde el **Programación de tienda** panel y haga clic en **Editar asignación**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Actualice el **Prioridad** de la **EmergencyChannel** hasta **3** desde el **Asignación de canales** y seleccione. **Guardar**.
+1. Actualice el **Prioridad** de la **EmergencyChannel** hasta **3** desde el **Asignación de canales** y haga clic en **Guardar**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

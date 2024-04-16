@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Antes de usar la función de reconocimiento de voz, asegúrese de que tiene un p
 
    ![imagen](assets/voice-recognition/vr-emb-1.png)
 
-1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y seleccione el canal. Seleccionar **Editar** en la barra de acciones, y a continuación, añada contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido a ambos **Bebidas frías** y el **Bebidas** canal.
+1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y haga clic en el canal. Clic **Editar** en la barra de acciones, y a continuación, añada contenido (imágenes/vídeos) según sus necesidades. Del mismo modo, agregue contenido a ambos **Bebidas frías** y el **Bebidas** canal.
 
    Los canales ahora contienen recursos (imágenes), como se muestra en las figuras siguientes.
 
@@ -83,13 +83,13 @@ Cuando haya añadido contenido a sus canales, vaya a cada uno de ellos y añada 
 
 Siga los pasos a continuación para añadir etiquetas a su canal:
 
-1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y seleccione el canal.
+1. Vaya a cada uno de los canales y añada contenido. Por ejemplo, vaya a **VoiceDemo** > **Canales** > **Principal** y haga clic en el canal.
 
-1. Seleccionar **Propiedades** de la barra de acciones.
+1. Clic **Propiedades** de la barra de acciones.
 
    ![imagen](assets/voice-recognition/vr-5.png)
 
-1. Vaya a **Conceptos básicos** , luego seleccione una etiqueta existente de la **Etiquetas** o cree uno.
+1. Vaya a **Conceptos básicos** y, a continuación, haga clic en una etiqueta existente de **Etiquetas** o cree uno.
 
    Puede crear una etiqueta introduciendo un nombre nuevo para la etiqueta y pulsando `return` , como se muestra en la figura siguiente:
 
@@ -97,7 +97,7 @@ Siga los pasos a continuación para añadir etiquetas a su canal:
 
    O bien,
 
-   AEM También puede crear etiquetas a partir de la instancia de de antemano para su proyecto y seleccionarlas. Después de seguir los pasos explicados en [Creación de etiquetas](#creating-tags), puede seleccionar la etiqueta de la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
+   AEM También puede crear etiquetas a partir de la instancia de la de antemano para su proyecto y hacer clic en ellas. Después de seguir los pasos explicados en [Creación de etiquetas](#creating-tags), puede hacer clic en la etiqueta desde la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
 
    ![imagen](assets/voice-recognition/vr-tag1.png)
 
@@ -107,7 +107,7 @@ Siga los pasos a continuación para añadir etiquetas a su canal:
 
    ![imagen](assets/voice-recognition/vr-emb-7.png)
 
-1. Seleccionar **Guardar y cerrar** una vez que haya terminado.
+1. Clic **Guardar y cerrar** una vez que haya terminado.
 
 
 ### Creación de etiquetas {#creating-tags}
@@ -116,18 +116,18 @@ Siga los pasos a continuación para crear etiquetas:
 
 1. AEM Vaya a la instancia de la.
 
-1. Seleccione el icono herramientas > **Etiquetado**.
+1. Haga clic en el icono herramientas > **Etiquetado**.
    ![imagen](assets/voice-recognition/vr-7.png)
 
-1. Seleccionar **Crear** > **Crear área de nombres**.
+1. Clic **Crear** > **Crear área de nombres**.
    ![imagen](assets/voice-recognition/vr-tag3.png)
 
-1. Introduzca el nombre del proyecto, por ejemplo: **VoiceDemo** y seleccione **Crear**.
+1. Introduzca el nombre del proyecto, por ejemplo: **VoiceDemo** y haga clic en **Crear**.
 
-1. Seleccione el **VoiceDemo** proyecto y seleccione **Crear etiqueta** de la barra de acciones.
+1. Haga clic en **VoiceDemo** proyecto y haga clic en **Crear etiqueta** de la barra de acciones.
    ![imagen](assets/voice-recognition/vr-tag4.png)
 
-1. Introduzca el nombre de la etiqueta y seleccione **Enviar**.
+1. Introduzca el nombre de la etiqueta y haga clic en **Enviar**.
    ![imagen](assets/voice-recognition/vr-tag5.png)
 
 Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
@@ -159,7 +159,7 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
    >
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
-1. Una vez asignados los canales a una pantalla, vaya a **LobbyDisplay** y seleccione la pantalla. Seleccionar **Propiedades** de la barra de acciones.
+1. Una vez asignados los canales a una pantalla, vaya a **LobbyDisplay** y haga clic en la pantalla. Clic **Propiedades** de la barra de acciones.
 
 1. Vaya a **Mostrar** y activar **Voz habilitada** opción en **Contenido**.
 

@@ -2,10 +2,10 @@
 title: Información general y configuraciones de la arquitectura de representaciones adaptables
 description: Obtenga información acerca de la descripción general de la arquitectura y las configuraciones en CRXDE Lite para representaciones adaptables en AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ## Introducción {#introduction}
 
-Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
+Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
 
 ## Objetivo {#objective}
 
@@ -58,11 +58,11 @@ Siga los pasos a continuación para configurar la configuración:
 Siga los pasos a continuación para agregar un nodo en Asignación de representación:
 
 1. Vaya a esta ruta `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
-1. Cree un nodo en **rendition-mapping**. Clic con el botón derecho **rendition-mapping** y seleccione **Crear** > **Crear nodo**, como se muestra en la figura siguiente.
+1. Cree un nodo en **rendition-mapping**. Clic con el botón derecho **rendition-mapping** y haga clic en **Crear** > **Crear nodo**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Introduzca el **Nombre** para la regla de asignación, como **regla1** y el nodo **Tipo** as **`nt:unstructured`** in **Crear nodo** Cuadro de diálogo. Seleccionar **OK**.
+1. Introduzca el **Nombre** para la regla de asignación, como **regla1** y el nodo **Tipo** as **`nt:unstructured`** in **Crear nodo** Cuadro de diálogo. Haz clic en **OK**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
    >[!NOTE]
    >Consulte [Uso de sintaxis de consulta de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para obtener más información.
 
-   Seleccionar **regla1** que ha creado y escriba **expresión** in **Nombre** y **(orientación:horizontal)** in **Valor**, como se muestra a continuación. Seleccione **Añadir**.
+   Clic **regla1** que ha creado y escriba **expresión** in **Nombre** y **(orientación:horizontal)** in **Valor**, como se muestra a continuación. Clic **Añadir**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
    >[!NOTE]
    >El valor definido en la propiedad pattern coincide con la nueva representación de recursos y se selecciona, si la expresión se evalúa como true.
 
-   Para añadir la propiedad pattern, seleccione **regla1** que ha creado y escriba **pattern** in **Nombre** y **horizontal** in **Valor**, como se muestra a continuación. Seleccione **Añadir**.
+   Para añadir la propiedad pattern, haga clic en **regla1** que ha creado y escriba **pattern** in **Nombre** y **horizontal** in **Valor**, como se muestra a continuación. Clic **Añadir**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Seleccionar **Guardar todo** y observe las propiedades bajo el nodo creado en **rendition-mapping**.
+1. Clic **Guardar todo** y observe las propiedades bajo el nodo creado en **rendition-mapping**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

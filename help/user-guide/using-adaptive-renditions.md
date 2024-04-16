@@ -2,7 +2,7 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Introducción {#introduction}
 
-Las representaciones adaptables permiten a los dispositivos seleccionar automáticamente la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
+Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
 
 ## Objetivo {#objective}
 
@@ -35,12 +35,12 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal de S
 1. Vaya a **Assets** AEM carpeta en la instancia de la.
 1. Cree una versión del recurso que se adapte mejor a la visualización de la señalización, por ejemplo, `seahorse.jpg`.
 1. Elija el patrón de nomenclatura de la representación, por ejemplo,`landscape`, similar a lo definido en **pattern** propiedad en **CRXDE Lite**. Consulte [Adición de reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
-1. Seleccionar **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
+1. Clic **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Seleccione el archivo de recursos cuyo nombre ha cambiado. La representación que está agregando debe contener el patrón (definido en el paso 3), por ejemplo, `seahorse-landscape.png`.
-1. Cuando haya añadido el recurso, seleccione el recurso y haga clic en **Administrar publicación** en la barra de acciones para publicar el recurso.
+1. Haga clic en el nombre cambiado del archivo de recursos. La representación que está agregando debe contener el patrón (definido en el paso 3), por ejemplo, `seahorse-landscape.png`.
+1. Cuando haya añadido el recurso, haga clic en él y en **Administrar publicación** en la barra de acciones para publicar el recurso.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

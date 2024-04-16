@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,17 +101,17 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Seleccione el proyecto,** DemoProjectImporter **>** Crear **>** Importar ubicaciones** desde la barra lateral.
+1. Haga clic en el proyecto ** DemoProjectImporter. **>** Crear **>** Importar ubicaciones** desde la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. El **Importar** se muestra el asistente. Seleccione el archivo del proyecto con ubicaciones o seleccione el archivo (***minimal-file.xls***) que descargó del *Requisitos previos* sección.
+1. El **Importar** se muestra el asistente. Haga clic en el archivo del proyecto con ubicaciones o haga clic en el archivo (***minimal-file.xls***) que descargó del *Requisitos previos* sección.
 
-   Una vez seleccionado el archivo, seleccione **Siguiente**.
+   Una vez seleccionado el archivo, haga clic en **Siguiente**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Compruebe el contenido del archivo (ubicaciones) en el asistente Importar y seleccione **Importar**.
+1. Compruebe el contenido del archivo (ubicaciones) desde el Asistente de importación y haga clic en **Importar**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

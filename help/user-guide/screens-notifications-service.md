@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Siga los pasos a continuación para configurar los ajustes de notificación por 
    >
    >Solo puede escribir una dirección de correo electrónico. Para enviar un correo electrónico masivo, cree un grupo o una lista de distribución con los usuarios relevantes.
 
-1. Seleccionar **Guardar** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
+1. Clic **Guardar** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
 
 ## Notificación por correo electrónico {#email-notification}
 

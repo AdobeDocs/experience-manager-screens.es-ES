@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    La propiedad `sling:hideChildren`= `"[linkURL,size]`&quot; se utiliza en `items` para garantizar que la variable **linkURL** y **talla** Los campos de están ocultos en el cuadro de diálogo. No basta con quitar estos nodos del cuadro de diálogo del póster. La propiedad `sling:hideResource="{Boolean}true"` en la pestaña accesibilidad se utiliza para ocultar toda la pestaña.
 
-   Se agregan dos campos de selección al cuadro de diálogo para que los autores controlen la posición del texto y el color del Título y la Descripción.
+   Se agregan dos campos de clic al cuadro de diálogo para que los autores controlen la posición del texto y el color del Título y la Descripción.
 
    ![Póster - Estructura final del diálogo](assets/2018-05-03_at_4_49pm.png)
 

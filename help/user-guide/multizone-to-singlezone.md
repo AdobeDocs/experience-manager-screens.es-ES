@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -43,8 +43,8 @@ Siga los pasos a continuación para configurar un proyecto:
 
 1. **Creación de un canal de pantallas de varias zonas**
 
-   1. Seleccione el **Canales** carpeta y seleccione **Crear** en la barra de acciones y abriendo el asistente para poder crear un canal.
-   1. Seleccionar **Canal de pantalla dividida de barra izquierda** en el asistente y cree el canal titulado como **MultiZoneLayout**.
+   1. Haga clic en **Canales** y haga clic en **Crear** en la barra de acciones y abriendo el asistente para poder crear un canal.
+   1. Clic **Canal de pantalla dividida de barra izquierda** en el asistente y cree el canal titulado como **MultiZoneLayout**.
    1. Añada contenido al canal. Arrastre y suelte los recursos en cada una de las zonas. El siguiente ejemplo muestra un **MultiZoneLayout** canal que consta de un vídeo, una imagen y un titular de texto (en una secuencia incrustada), como se muestra a continuación.
 
    ![recurso](assets/mz-to-sz2.png)
@@ -58,7 +58,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
    ![recurso](assets/mz-to-sz3.png)
 
-1. Seleccionar **Editar** desde la barra de acciones para añadir contenido a este canal. Añadir un **Canal** y un recurso de imagen al que desee cambiar para este canal, como se muestra en la figura siguiente:
+1. Clic **Editar** desde la barra de acciones para añadir contenido a este canal. Añadir un **Canal** y un recurso de imagen al que desee cambiar para este canal, como se muestra en la figura siguiente:
 
    ![recurso](assets/mz-to-sz4.png)
 

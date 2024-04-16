@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, envi
 
 Siga los pasos a continuación para configurar el nombre en el reproductor Tizen:
 
-1. Selecciona el botón de menú en tu control remoto.
+1. Haz clic en el botón de menú del control remoto.
 1. Vaya a **network** > **Nombre del dispositivo** para que pueda asignar un nombre al reproductor.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
@@ -55,11 +55,11 @@ Siga los pasos a continuación para configurar el nombre en el reproductor Tizen
 Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del reproductor AEM Screens en el dispositivo:
 
 1. Vaya a su dispositivo Samsung y enciéndalo.
-1. Seleccione el **MENÚ** del mando a distancia del dispositivo y desplácese hacia abajo hasta **Sistema** en la barra de navegación izquierda.
-1. Desplácese hacia abajo y seleccione **Reproducir mediante** y cambie a. **Lanzador de URL** opción.
+1. Haga clic en **MENÚ** del mando a distancia del dispositivo y desplácese hacia abajo hasta **Sistema** en la barra de navegación izquierda.
+1. Desplácese hacia abajo y haga clic en **Reproducir mediante** y cambie a. **Lanzador de URL** opción.
    ![imagen](/help/user-guide/assets/tizen/rms-2.png)
 1. Cuando esté configurado el lanzador de URL, pulse el botón **Inicio** desde el mando a distancia.
-1. Vaya a **Configuración del lanzador de URL** y escriba la dirección IP del servidor localhost y seleccione **Listo**.
+1. Vaya a **Configuración del lanzador de URL** , introduzca la dirección IP del servidor localhost y haga clic en **Listo**.
 
    >[!NOTE]
    >El reproductor Tizen debe poder conectarse al servidor http.
@@ -145,29 +145,29 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 
 1. Vaya a Dirección del servidor y escriba la dirección URL de MagicInfo para acceder y pulse **Listo**.
 
-1. Configure TLS si es necesario. Vaya al puerto, seleccione el número de puerto del servidor y seleccione **Guardar**.
+1. Configure TLS si es necesario. Vaya al puerto, haga clic en el número de puerto del servidor y seleccione **Guardar**.
 
-1. Vaya a **Dispositivo** y compruebe el dispositivo que ha configurado. Cuando se encuentre un dispositivo, active la casilla de verificación y, a continuación, seleccione **Aprobar**.
+1. Vaya a **Dispositivo** y compruebe el dispositivo que ha configurado. Cuando se encuentre un dispositivo, haga clic en la casilla de verificación y, a continuación, haga clic en **Aprobar**.
 
    >![imagen](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Rellene la información necesaria y seleccione un grupo de dispositivos. Seleccionar **OK**.
+1. Rellene la información necesaria y haga clic en un grupo de dispositivos. Haz clic en **OK**.
 
    >![imagen](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Cuando se aprueba el Dispositivo, aparece en la Lista de dispositivos. Seleccionar *Información* en el cuadro del dispositivo, como se muestra en el siguiente ejemplo.
+1. Cuando se aprueba el Dispositivo, aparece en la Lista de dispositivos. Clic *Información* en el cuadro del dispositivo, como se muestra en el siguiente ejemplo.
 
    >![imagen](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Aparece el cuadro de diálogo información del dispositivo. Seleccione el **Información del dispositivo** y seleccione **Editar**.
+1. Aparece el cuadro de diálogo información del dispositivo. Haga clic en **Información del dispositivo** y haga clic en **Editar**.
 
    >![imagen](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Edite las opciones del dispositivo y seleccione **Configurar** pestaña. Vaya a **Lanzador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para poder instalar un `SSSP` aplicación, como se muestra en la figura siguiente.
+1. Edite las opciones del dispositivo y haga clic en **Configurar** pestaña. Vaya a **Lanzador de URL** e introduzca la dirección URL que aloja el wgt y `SSSP config file` para poder instalar un `SSSP` aplicación, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Seleccione **Guardar**.
+1. Haga clic en **Guardar**.
 
 ### Uso del control remoto de Screens {#using-remote-control}
 

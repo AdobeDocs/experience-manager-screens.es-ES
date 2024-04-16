@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Complete los siguientes pasos:
 1. Configure las variables **Atributo SameSite para las cookies de token de inicio de sesión** de **Laxo** hasta **Ninguno**.
    ![imagen](/help/user-guide/assets/granite-updates.png)
 
-1. Seleccione **Guardar**.
+1. Haga clic en **Guardar**.
 
 
 ### Método ad hoc {#ad-hoc-method}
@@ -55,7 +55,7 @@ El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*)
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y seleccione **Guardar**.
+1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
 
 1. Vaya a **Dispositivo** **Registro** vínculo del menú de acción de la izquierda para poder comprobar el estado del proceso de registro del dispositivo.
 
@@ -193,7 +193,7 @@ Siga los pasos a continuación para permitir el aprovisionamiento masivo en Andr
 1. Asegúrese de que el dispositivo Android™ sea compatible con los servicios de Google Play.
 1. Registre sus dispositivos de reproducción de Android™ con su solución EMM favorita que admita AppConfig.
 1. Inicie sesión en la consola de EMM y extraiga la aplicación del Reproductor de AEM Screens de Google Play.
-1. Seleccione la configuración administrada o la opción relacionada.
+1. Haga clic en configuración administrada u opción relacionada.
 1. Ahora debería ver una lista de opciones de reproductor que se pueden configurar, como servidor y código de registro en bloque.
 1. Configure estos parámetros, guarde e implemente la directiva en los dispositivos.
 

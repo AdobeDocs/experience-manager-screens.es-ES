@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ Puede generar representaciones Full HD manuales y automáticas. En la siguiente 
 
 Siga los pasos a continuación para generar automáticamente representaciones en HD completas:
 
-1. Seleccione el vínculo Adobe Experience Manager (parte superior izquierda) y seleccione el icono de martillo para poder seleccionar **Flujo de trabajo**.
+1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para poder hacer clic en **Flujo de trabajo**.
 
-   Seleccionar **Modelos**.
+   Clic **Modelos**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. En la administración del modelo de flujo de trabajo, seleccione **Recurso de actualización DAM** modelo y seleccione **Editar** de la barra de acciones.
+1. En la administración del modelo de flujo de trabajo, haga clic en **Recurso de actualización DAM** y haga clic en **Editar** de la barra de acciones.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Seleccione el **Proceso** pestaña.
+1. Haga clic en **Proceso** pestaña.
 1. Introduzca los perfiles de HD completos en la lista de **Argumentos** como se indica a continuación:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Seleccionar **OK**.
+1. Haz clic en **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Seleccionar **Guardar** en la parte superior izquierda de la **Recurso de actualización DAM** pantalla.
+1. Clic **Guardar** en la parte superior izquierda de la **Recurso de actualización DAM** pantalla.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Vaya a **Assets** y cargue un nuevo vídeo. Seleccione el vídeo y abra el carril lateral Representaciones. Observe los dos vídeos en HD completa.
+1. Vaya a **Assets** y cargue un nuevo vídeo. Haga clic en el vídeo y abra el carril lateral Representaciones. Observe los dos vídeos en HD completa.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
 Siga los pasos a continuación para generar manualmente representaciones en HD completas:
 
-1. Seleccione el enlace de Adobe Experience Manager (parte superior izquierda) y seleccione el icono de martillo para poder seleccionar herramientas y seleccionar **Flujo de trabajo**.
+1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para poder hacer clic en las herramientas y en **Flujo de trabajo**.
 
-   Seleccionar **Modelos**.
+   Clic **Modelos**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. En la administración del modelo de flujo de trabajo, seleccione **Actualizar recurso de Screens** y seleccione el modelo de **Iniciar flujo de trabajo** para abrir **Ejecutar flujo de trabajo** Cuadro de diálogo.
+1. En la administración del modelo de flujo de trabajo, haga clic en **Actualizar recurso de Screens** y haga clic en el **Iniciar flujo de trabajo** para abrir **Ejecutar flujo de trabajo** Cuadro de diálogo.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Seleccione el vídeo que desee en la **Carga útil** y seleccione **Ejecutar**.
+1. Haga clic en el vídeo que desee en **Carga útil** y haga clic en **Ejecutar**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Vaya a **Assets**, explore en profundidad el recurso y selecciónelo.
+1. Vaya a **Assets**, explore en profundidad el recurso y haga clic en él.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

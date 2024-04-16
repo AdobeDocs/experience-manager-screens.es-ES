@@ -2,7 +2,7 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -66,15 +66,15 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Seleccione el **Replicación** en el árbol de navegación izquierdo.
+1. Haga clic en **Replicación** en el árbol de navegación izquierdo.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Seleccione el **Agentes en Autor** desde el **Replicación** carpeta y seleccione **Nuevo** para crear un nuevo agente de replicación estándar.
+1. Haga clic en **Agentes en Autor** desde el **Replicación** y haga clic en **Nuevo** para crear un nuevo agente de replicación estándar.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Introduzca el **Título** y **Nombre** para poder crear el agente de replicación y, a continuación, seleccione **Crear**.
+1. Introduzca el **Título** y **Nombre** para crear el agente de replicación y haga clic en **Crear**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
@@ -82,7 +82,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Seleccione **Editar**.
+1. Clic **Editar**.
 
 1. En el **Configuración de agente** , introduzca los detalles.
 
@@ -128,7 +128,7 @@ Configure el descubrimiento basado en Apache Sling Oak para todas las instancias
 Para cada instancia de publicación:
 
 1. Navegue hasta `https://<host>:<port>/system/console/configMgr`
-1. Seleccionar **Servicio de descubrimiento basado en Apache Sling Oak** Configuración.
+1. Clic **Servicio de descubrimiento basado en Apache Sling Oak** Configuración.
 1. Actualizar URL del conector de topología: añada las URL de todas las instancias de publicación participantes que sean:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ En cada instancia de publicación:
 
 1. En la consola OSGi, navegue hasta **PRINCIPAL** > **Compatibilidad con cifrado** (`https://<host>:<port>/system/console/crypto`).
 1. Escriba la contraseña de texto sin formato deseada (la misma para todas las instancias) en **Texto sin formato**
-1. Seleccionar **Protect**.
+1. Clic **Protect**.
 1. Copie el valor **Texto protegido** al bloc de notas o al editor de texto. Este valor se puede utilizar en la configuración OSGi para ActiveMQ.
 
 Dado que cada instancia de publicación, de forma predeterminada, tiene claves criptográficas únicas, realice este paso en cada instancia de publicación y guarde la clave única para la siguiente configuración.
@@ -166,7 +166,7 @@ Dado que cada instancia de publicación, de forma predeterminada, tiene claves c
 En cada instancia de publicación:
 
 1. Vaya al Administrador de configuración OSGi `https://<host>:<port>/system/console/configMgr`
-1. Seleccionar **Proveedor de Apache ActiveMQ Artemis JMS** Configuración
+1. Clic **Proveedor de Apache ActiveMQ Artemis JMS** Configuración
 1. Actualice lo siguiente:
 
    * ***Contraseña de clúster***: utilice el valor cifrado del paso anterior por cada instancia respectiva
@@ -191,7 +191,7 @@ Siga los pasos a continuación en cada instancia de publicación:
 
 Por ejemplo, la siguiente imagen se muestra si la configuración de ActiveMQ Artemis Server se ha realizado correctamente.
 
-Si no ve la siguiente configuración en */system/console/mq* y, a continuación, vaya a */system/console/mq* y seleccione **Restart** para reiniciar el agente.
+Si no ve la siguiente configuración en */system/console/mq* y, a continuación, vaya a */system/console/mq* y haga clic en **Restart** para reiniciar el agente.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Si no ve la siguiente configuración en */system/console/mq* y, a continuación,
 Siga los pasos de cada instancia de publicación:
 
 1. Vaya a **Consola OSGi** > **Administrador de configuración**
-1. Seleccionar **Filtro de referente de Apache Sling**
+1. Clic **Filtro de referente de Apache Sling**
 1. Actualizar la configuración y **check Permitir vacío**
 
 ### Configuración de la instancia de autor y publicación {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ Una vez configurada la topología de publicación, configure las instancias de a
 
 #### Paso 2: Registro de un dispositivo en Autor {#step-registering-a-device-on-author}
 
-1. Ir a `https://localhost:4502/screens.html/content/screens/we-retail` o seleccione el proyecto y vaya a Dispositivos > Administrador de dispositivos.
-1. Seleccionar **Registrar dispositivo**.
-1. Seleccionar **Registro de dispositivos**.
-1. Seleccione el dispositivo que desea registrar y, a continuación, seleccione **Registrar dispositivo**.
-1. Compruebe el código de registro y seleccione **Validate**.
-1. Escriba un título para el dispositivo y seleccione **Registrar**.
+1. Ir a `https://localhost:4502/screens.html/content/screens/we-retail` o haga clic en el proyecto y vaya a Dispositivos > Administrador de dispositivos.
+1. Clic **Registrar dispositivo**.
+1. Clic **Registro de dispositivos**.
+1. Haga clic en el dispositivo que desea registrar y, a continuación, haga clic en **Registrar dispositivo**.
+1. Compruebe el código de registro y haga clic en **Validate**.
+1. Escriba un título para el dispositivo y haga clic en **Registrar**.
 
 #### Paso 3: Asignar el dispositivo a mostrar {#step-assigning-the-device-to-display}
 
-1. Seleccionar **Asignar visualización** del cuadro de diálogo del paso anterior.
-1. Seleccione la ruta de visualización del canal en el **Ubicaciones** carpeta.
-1. Seleccionar **Asignar**.
-1. Seleccionar **Finalizar** para completar el proceso, y ahora se asigna el dispositivo.
+1. Clic **Asignar visualización** del cuadro de diálogo del paso anterior.
+1. Haga clic en la ruta de visualización del canal desde el **Ubicaciones** carpeta.
+1. Clic **Asignar**.
+1. Clic **Finalizar** para completar el proceso, y ahora se asigna el dispositivo.
 
 Compruebe el reproductor y observe el contenido que ha agregado en el canal.
 
@@ -257,14 +257,14 @@ Siga los pasos a continuación para replicar el usuario del dispositivo:
 También puede activar el dispositivo desde la Consola de administración de dispositivos. Complete los siguientes pasos:
 
 1. Vaya al proyecto de Screens > **Dispositivos**.
-1. Seleccionar **Administrador de dispositivos** de la barra de acciones.
-1. Seleccione el dispositivo y seleccione **Activar** de la barra de acciones, como se muestra en la figura siguiente.
+1. Clic **Administrador de dispositivos** de la barra de acciones.
+1. Haga clic en el dispositivo y en **Activar** de la barra de acciones, como se muestra en la figura siguiente.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. Seleccionar **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, los cambios se propagan al reproductor de AEM Screens.
+>Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. Clic **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, los cambios se propagan al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Siga los pasos a continuación para verificar el comportamiento de creación y p
 #### Paso 5: Apuntar el dispositivo a la instancia de publicación en el Panel de administración {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Vea la IU de administración desde el reproductor de Screens; mantenga pulsada la esquina superior izquierda para poder abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón.
-1. Seleccione el **Configuración** del panel lateral.
+1. Haga clic en **Configuración** del panel lateral.
 1. Cambie la instancia de autor a Instancia de publicación en **Servidor**.
 
 Vea los cambios en el reproductor de AEM Screens.
 
 También puede actualizar o editar la URL del servidor desde la consola de administración de dispositivos, para hacerlo, siga estos pasos:
 
-1. Vaya al proyecto de AEM Screens y seleccione **Dispositivos** carpeta.
-1. Seleccionar **Administrador de dispositivos** de la barra de acciones.
-1. Seleccione el dispositivo y seleccione **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, y los cambios se propagarán al reproductor de AEM Screens.
+1. Vaya al proyecto de AEM Screens y haga clic en **Dispositivos** carpeta.
+1. Clic **Administrador de dispositivos** de la barra de acciones.
+1. Haga clic en el dispositivo y en **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, y los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

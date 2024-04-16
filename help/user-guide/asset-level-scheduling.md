@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -50,7 +50,7 @@ La activación a nivel de recurso se realiza configurando **Activation** al acce
 
 Siga los pasos a continuación para realizar la programación de nivel de recurso:
 
-1. Seleccione cualquier canal y luego seleccione **Editar** de la barra de acciones.
+1. Haga clic en cualquier canal y luego en **Editar** de la barra de acciones.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
    >* Creación de un proyecto, consulte [Creación de un nuevo proyecto](creating-a-screens-project.md).
    >* Creación y adición de contenido a un canal, consulte [Administración de canales](managing-channels.md).
 
-1. Seleccionar **Editar** para poder abrir el editor de canales y seleccionar un recurso al que desee aplicar la programación.
+1. Clic **Editar** para poder abrir el editor de canales y hacer clic en un recurso al que desee aplicar la programación.
 
    ![imagen](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Seleccione el recurso y, a continuación, seleccione superior izquierdo **Configurar** (icono de llave inglesa).
+1. Haga clic en el recurso y, a continuación, en arriba a la izquierda **Configurar** (icono de llave inglesa).
 
-   Seleccione el **Activation** pestaña.
+   Haga clic en **Activation** pestaña.
 
    ![imagen](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Puede especificar la fecha desde el selector de fechas utilizando **Activo desde** y **Activo hasta** campos.
 
-   Si selecciona la opción **Activo desde** y **Activo hasta** fecha y hora, el recurso solo se muestra y realiza un bucle entre esa fecha/hora de inicio y la fecha/hora de finalización, respectivamente.
+   Si hace clic en **Activo desde** y **Activo hasta** fecha y hora, el recurso solo se muestra y realiza un bucle entre esa fecha/hora de inicio y la fecha/hora de finalización, respectivamente.
 
    ![imagen](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Supongamos que desea mostrar una imagen sólo los viernes de 1:00 p.m. a 10:00 p
 
 ### División por día {#day-parting}
 
-1. Seleccione el recurso y seleccione en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
+1. Haga clic en el recurso y en **Configurar** (icono de llave inglesa) para abrir el cuadro de diálogo propiedades.
 
 1. Después de escribir la fecha/hora de inicio y la fecha/hora de finalización, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -111,7 +111,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### WeekParting {#week-parting}
 
-1. Seleccione el recurso y luego seleccione **Configurar** (icono de llave inglesa).
+1. Haga clic en el recurso y luego en **Configurar** (icono de llave inglesa).
 
 1. Después de escribir la fecha/hora de inicio y la fecha/hora de finalización, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -136,7 +136,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### MonthParting {#month-parting}
 
-1. Seleccione el recurso y luego seleccione **Configurar** (icono de llave inglesa).
+1. Haga clic en el recurso y luego en **Configurar** (icono de llave inglesa).
 
 1. Después de escribir la fecha/hora de inicio y la fecha/hora de finalización, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -159,7 +159,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 ### Combinación de Particiones {#combined-parting}
 
-1. Seleccione el recurso y luego seleccione **Configurar** (icono de llave inglesa).
+1. Haga clic en el recurso y luego en **Configurar** (icono de llave inglesa).
 
 1. Después de escribir la fecha/hora de inicio y la fecha/hora de finalización, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
@@ -189,7 +189,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Activación de varios recursos*** permite al usuario seleccionar varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
+***Activación de varios recursos*** permite al usuario hacer clic en varios recursos y aplicar una programación de reproducción a todos los recursos seleccionados.
 
 ### Requisitos previos {#prerequisites}
 
@@ -200,21 +200,21 @@ Para utilizar la activación a nivel de varios recursos para sus recursos, cree 
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Siga los pasos a continuación para seleccionar varios recursos y programar su visualización en un proyecto de AEM Screens:
+Siga los pasos a continuación para hacer clic en varios recursos y programar su visualización en un proyecto de AEM Screens:
 
-1. Seleccionar **MultiAssetChannel**, luego seleccione **Editar** de la barra de acciones.
+1. Clic **MultiAssetChannel**, luego haga clic en **Editar** de la barra de acciones.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Seleccione varios recursos en el editor y, a continuación, seleccione **Editar activación** (icono superior izquierda).
+1. Haga clic en varios recursos desde el editor y, a continuación, haga clic en **Editar activación** (icono superior izquierda).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Seleccione la fecha y la hora en **Activo desde** y **Activo hasta** desde el **Activación de componentes** Cuadro de diálogo. Seleccione el icono de la marca de verificación cuando haya terminado de seleccionar las programaciones.
+1. Haga clic en la fecha y la hora en **Activo desde** y **Activo hasta** desde el **Activación de componentes** Cuadro de diálogo. Haga clic en el icono de la marca de verificación cuando haya terminado de seleccionar las programaciones.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Seleccione Actualizar para comprobar los recursos a los que se aplica la programación de varios recursos.
+1. Haga clic en Actualizar para comprobar los recursos a los que se aplica la programación de varios recursos.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Esto permite al autor del contenido designar la reproducción de un recurso espe
 
 La anulación global para el tiempo de inicio universal se realiza configurando el **Activation** al acceder a las propiedades de un recurso. Siga los pasos a continuación para realizar una anulación global de la programación de recursos:
 
-1. Seleccione cualquier canal y luego seleccione **Editar** en la barra de acciones, para poder agregar o editar contenido en el canal.
+1. Haga clic en cualquier canal y luego en **Editar** en la barra de acciones, para poder agregar o editar contenido en el canal.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Seleccione **Editar**.
-1. En el editor de canales, seleccione un recurso cuya programación desee aplicarle.
+1. Clic **Editar**.
+1. En el editor de canales, haga clic en un recurso cuya programación desee aplicarle.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
