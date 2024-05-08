@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Después de asignar un canal a una pantalla, el Reproductor de AEM Screens muest
 
 ## Uso del tablero de dispositivos {#using-the-device-dashboard}
 
-AEM Puede configurar las preferencias de su dispositivo desde el Tablero de dispositivo, al que se puede acceder mediante la instancia de creación de la.
+AEM Puede configurar las preferencias de su dispositivo desde el Tablero de dispositivo, al que se puede acceder mediante la instancia de creación de la aplicación de la instancia de creación de la aplicación de la.
 
 1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 

@@ -2,9 +2,9 @@
 title: Dependencias de UX para AEM Screens
 description: Obtenga más información sobre las dependencias de UX para AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La parte interesada habitual de esta actividad es un estratega de marketing/negocios.
+>Un inversor habitual de esta actividad es un estratega de marketing/negocios.
 
 Dependencias de experiencia de usuario define dónde y cómo se diseña el contenido de modo que tenga el mayor impacto.
 

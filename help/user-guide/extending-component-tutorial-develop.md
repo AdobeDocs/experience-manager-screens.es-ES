@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ El código fuente de un proyecto de Screens se suele administrar como un proyect
 
 ## Crear el componente Póster {#poster-cmp}
 
-El componente Póster amplía el componente Imagen de AEM Screens listo para usar. Un mecanismo de Sling, `sling:resourceSuperType`, se utiliza para heredar la funcionalidad principal del componente Imagen sin tener que copiar y pegar. Más información sobre los conceptos básicos de [El procesamiento de solicitudes de Sling se puede encontrar aquí.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+El componente Póster amplía el componente Imagen de AEM Screens listo para usar. Un mecanismo de Sling, `sling:resourceSuperType`, se utiliza para heredar la funcionalidad principal del componente Imagen sin tener que copiar y pegar. Más información sobre los conceptos básicos de [El procesamiento de solicitudes de Sling se puede encontrar aquí.](https://experienceleague.adobe.com/es_es/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 El componente Póster se representa en pantalla completa en el modo de previsualización/producción. En el modo de edición, es importante procesar el componente de forma diferente para facilitar la creación del canal de secuencia.
 

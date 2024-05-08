@@ -3,9 +3,9 @@ title: Eventos impulsados por datos
 description: Nulo
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Los eventos impulsados por datos se clasifican en las cuatro categorías siguien
 
 #### Datos en funcionamiento {#data-in-operational}
 
-Esto se puede categorizar en Interrupción de canal y Marcador de posición.
+Este evento se puede categorizar en Interrupción de canal y Marcador de posición.
 
 #### Datos en la presentación {#data-in-presentation}
 
@@ -42,4 +42,4 @@ Cuando se envía un comando a la pantalla LCD para encender y apagar la pantalla
 
 #### Salida de datos presentacional {#data-out-presentational}
 
-Gráfico que agrega la información al bucle de comentarios. Utiliza análisis para evaluar y notificar eventos.
+El gráfico que agrega la información al bucle de comentarios. Utiliza análisis para evaluar y notificar eventos.

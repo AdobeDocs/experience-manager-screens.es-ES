@@ -2,9 +2,9 @@
 title: Prototipos
 description: Esta página describe los prototipos de un proyecto de AEM Screens
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La parte interesada habitual de esta actividad es un estratega de marketing/negocios.
+>Un inversor habitual de esta actividad es un estratega de marketing/negocios.
 
 Es importante probar las ideas, suposiciones y dependencias previamente definidas en el mapa de Recorrido de UX mediante el uso de prototipos de UX.
 

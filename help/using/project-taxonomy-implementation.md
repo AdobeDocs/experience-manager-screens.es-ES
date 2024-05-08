@@ -2,9 +2,9 @@
 title: Taxonomía del proyecto
 description: Obtenga más información acerca de la taxonomía de proyectos en relación con AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM La parte interesada habitual de esta actividad es un implementador de.
+>AEM Un inversor habitual de esta actividad es un implementador de.
 
 Antes de crear un proyecto de AEM Screens, comprenda y elabore una estrategia para todos los componentes definidos en la fase de composición de la red de experiencias de usuario del proyecto.
 

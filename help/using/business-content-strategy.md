@@ -2,9 +2,9 @@
 title: Estrategia de contenido empresarial para AEM Screens
 description: Obtenga más información acerca de la estrategia de contenido empresarial y de marketing en relación con AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La parte interesada habitual de esta actividad es un estratega de marketing/negocios.
+>Un inversor habitual de esta actividad es un estratega de marketing/negocios.
 
 El contenido es un factor importante para impulsar la participación. En la fase de preventa, es importante definir una estrategia de contenido empresarial que tenga en cuenta cómo la aplicación utiliza los recursos de hardware, software y conectividad para ofrecer el valor deseado a los clientes del cliente.
 

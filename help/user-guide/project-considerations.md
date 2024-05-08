@@ -1,6 +1,6 @@
 ---
 title: "Parte 2: Consideraciones a medida que los proyectos se amplían"
-description: Obtenga información acerca de la estrategia de contenido, las capas de E/S, los tipos de recursos, la segmentación de audiencia, las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio en AEM Screens.
+description: Obtenga información acerca de la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia en AEM Screens. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,28 @@ En esta página se destaca la parte 2 de una serie de 5 partes diseñada para ay
 
 ## Información general {#overview}
 
-El siguiente tutorial abarca los elementos que deben identificarse durante la detección del proyecto, junto con las aportaciones de las partes interesadas, para evaluar el proyecto y preparar un diseño adecuado.
+El siguiente tutorial abarca los elementos que deben identificarse durante la detección de proyectos. También cubre las aportaciones de las partes interesadas para evaluar el proyecto y los preparativos necesarios para un diseño adecuado.
 
 Los componentes principales de un programa de publicidad dinámica necesarios para una implementación correcta son:
 
 * Estrategia de contenido
 * Requisitos de operaciones empresariales
-* Detección de entornos de TI y red
+* Descubrimiento de entornos de red y TI
 * Requisitos de audio y vídeo
 * Especificación del equipo
 * Preparación del sitio
 
 >[!NOTE]
 >
->Defina una estrategia de contenido que considere cómo la aplicación utiliza el software, el hardware y los recursos de conectividad para ofrecer correctamente el valor deseado.
+>Defina una estrategia de contenido que tenga en cuenta cómo la aplicación utiliza el software, el hardware y los recursos de conectividad para proporcionar correctamente el valor deseado.
 
-## Resumen de las consideraciones del proyecto en una señalización digital  {#summary-of-project-considerations-in-a-digital-signage}
+## Resumen de las consideraciones del proyecto en una señalización digital {#summary-of-project-considerations-in-a-digital-signage}
 
-Al desarrollar una estrategia de contenido, hay varias consideraciones que incluyen capas de E/S, tipos de recursos, segmentaciones de audiencia y requisitos de programación de días.
+Al desarrollar una estrategia de contenido, hay varias consideraciones que incluyen las capas de E/S, los tipos de recursos, las segmentaciones de audiencia y los requisitos de programación de elementos del día.
 
 ### Capas de E/S {#i-o-layers}
 
-La E/S impulsa la reproducción condicional del contenido en función de la proximidad sensorial de la audiencia. Por ejemplo, cuando un sensor detecta la proximidad, la reproducción del contenido puede cambiar de &quot;atraer&quot; o contenido pasivo a &quot;interactuar&quot; o reproducción interactiva. Esto resulta especialmente útil en aplicaciones en las que se desea servir contenido basado en datos demográficos.
+La E/S impulsa la reproducción condicional del contenido en función de la proximidad sensorial de la audiencia. Por ejemplo, cuando un sensor detecta la proximidad, la reproducción del contenido puede cambiar de &quot;atraer&quot; o contenido pasivo a &quot;interactuar&quot; o reproducción interactiva. Esta funcionalidad es especialmente útil en aplicaciones en las que se desea servir contenido basado en datos demográficos.
 
 ### Tipos de recursos de contenido {#content-asset-types}
 
@@ -61,11 +61,11 @@ Para ayudarle a comprender la intención del cliente final con respecto a los re
 
 ### Segmentación de audiencia, partes de día {#audience-segmentation-day-parts}
 
-La inclusión de estrategias de participación en el día puede permitir a los clientes finales segmentar su contenido y dirigir los mensajes a la audiencia adecuada en el momento adecuado. Esto es especialmente eficaz en las redes publicitarias o minoristas, donde muchos colaboradores de contenido forman la totalidad de una lista de reproducción.
+La inclusión de estrategias de parte de día puede permitir a los clientes finales segmentar su contenido. Puede ayudar a dirigir la mensajería a la audiencia correcta en el momento adecuado. Esta capacidad es especialmente eficaz para las redes publicitarias o minoristas, donde muchos colaboradores de contenido forman la totalidad de una lista de reproducción.
 
 ### Requisitos de operaciones empresariales {#business-operations-requirements}
 
-Las operaciones empresariales también son importantes para definir en las conversaciones sobre estrategia de contenido. Formalizar los requisitos de asistencia de los clientes finales puede ayudar a gestionar las expectativas después de la implementación, lo que garantiza que los esfuerzos de asistencia se midan adecuadamente.
+Las operaciones empresariales también son importantes para definir en las conversaciones de estrategia de contenido. Formalizar los requisitos de asistencia de los clientes finales puede ayudar a gestionar las expectativas después de la implementación, lo que garantiza que los esfuerzos de asistencia se midan adecuadamente.
 
 ### Requisitos de audio y vídeo {#a-v-requirements}
 
@@ -73,20 +73,20 @@ Los escenarios de montaje también necesitan definición, al igual que las consi
 
 ### Preparación del sitio {#site-readiness}
 
-El último paso del proceso de preventa es determinar la preparación del sitio. Esto se puede facilitar mediante encuestas del sitio que recopilen los detalles del sitio, el proyecto y el progreso. La preparación del sitio básicamente registra el estado actual de una ubicación antes de la instalación e informa de los artículos que el cliente debe preparar o planificar para abordar antes de que llegue un técnico. Normalmente, esto incluye elementos como energía, datos, eliminación de muebles y eliminación de polvo.
+El paso final en el proceso de Pre-venta es determinar la preparación del sitio. La preparación se puede facilitar mediante encuestas del sitio que recopilen los detalles del sitio, el proyecto y el progreso. La preparación del sitio básicamente registra el estado actual de una ubicación antes de la instalación e indica cualquier elemento que el cliente debe preparar o planificar para abordar antes de que llegue un técnico. Normalmente, esta lista de comprobación incluye elementos como alimentación, datos, eliminación de muebles y eliminación de polvo.
 
 ## Parte 2: Tutorial en vídeo sobre Consideraciones a medida que se van definiendo los proyectos {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
-Siga el tutorial siguiente para conocer la estrategia de contenido, las capas de E/S, los tipos de recursos, la segmentación de audiencia, las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.
+Siga el tutorial siguiente para obtener más información sobre la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.
 
 ### Consideraciones a medida que se amplían los proyectos
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Obtenga información acerca la estrategia de contenido, las capas de E/S, los tipos de recursos, la segmentación de audiencias, las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.*
+*Obtenga información acerca la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.*
 
 ## El siguiente paso {#the-next-step}
 
-Cuando comprenda los elementos identificados durante la presentación del proyecto, junto con la aportación de las partes interesadas para evaluar el proyecto y preparar un diseño adecuado, aprenda los términos clave involucrados en un plan de proyecto general. Estos términos incluyen el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y los despliegues.
+Comprender los elementos identificados durante la presentación del proyecto, junto con la aportación de las partes interesadas, para evaluar el proyecto y preparar un diseño adecuado. Conozca los términos clave involucrados en un plan general del proyecto. Estos términos incluyen el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y los despliegues.
 
 Vaya a **[Pruebas, POC, programas piloto y despliegues](testing-pocs-pilots-rollouts.md)** para obtener más información.

@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 1%
 
 ---
@@ -296,7 +296,7 @@ Los componentes de AEM Screens se representan de forma diferente en el modo de e
 
    La propiedad categories es una cadena que identifica la biblioteca de cliente. La categoría cq.screens.components se utiliza en los modos Edición y Previsualización/Producción. Por lo tanto, cualquier CSS/JS definido en sharedclientlib se carga en todos los modos.
 
-   Se recomienda no exponer nunca ninguna ruta directamente a /apps en un entorno de producción. La propiedad allowProxy garantiza que se haga referencia a la biblioteca de cliente CSS y JS mediante un prefijo of/etc.clientlibs.
+   Se recomienda no exponer nunca ninguna ruta directamente a /apps en un entorno de producción. La propiedad allowProxy garantiza que se haga referencia a la biblioteca de cliente CSS y JS mediante el prefijo of/etc.clientlibs.
 
 1. Crear archivo con el nombre `css.txt` debajo de la carpeta compartida.
 

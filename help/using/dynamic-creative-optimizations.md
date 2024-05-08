@@ -2,9 +2,9 @@
 title: Déclencheur de datos
 description: Obtenga información sobre los déclencheur de datos en AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM La parte interesada habitual de esta actividad es un implementador de.
+>AEM Un inversor habitual de esta actividad es un implementador de.
 
-**Dynamic Creative Optimization** o DCO, se utiliza para crear experiencias de señalización digital que reflejen las circunstancias únicas de cualquier ubicación determinada, en cualquier momento y para cualquier usuario.
+**Dynamic Creative Optimization**, o DCO, se utiliza para crear experiencias de señalización digital que reflejen las circunstancias únicas de cualquier ubicación determinada, en cualquier momento y para cualquier usuario.
 
-Esto también se conoce como acoplamiento de contenido en el lado del cliente.
+Este uso también se denomina aplanamiento del contenido en el lado del cliente.
 
-El motivo es garantizar que cada dispositivo de reproducción o punto final pueda utilizar conjuntos de datos para determinar automáticamente el mejor contenido para reproducir en función de diferentes factores.
+El razonamiento es garantizar que cada dispositivo de reproducción o punto final pueda utilizar conjuntos de datos para determinar el mejor contenido para reproducir automáticamente en función de varios factores diferentes.
 
-Esto elimina la necesidad de una intervención humana constante al crear contenido. También ayuda a reducir el coste total de propiedad para operar la red y hace que las experiencias digitales sean más relevantes, contextuales y efectivas.
+Esta funcionalidad elimina la necesidad de una intervención humana constante al crear contenido. También ayuda a reducir el coste total de propiedad para operar la red y hace que las experiencias digitales sean más relevantes, contextuales y efectivas.
 
 Algunos ejemplos son:
 
@@ -30,11 +30,11 @@ Algunos ejemplos son:
 * la presencia de una campaña de anuncios en los medios locales
 * tráfico web e incluso eventos locales como cuando un cliente recoge un producto para examinarlo
 
-Todo esto y más se puede utilizar para proporcionar un mayor nivel de contexto y personalización.
+Todos estos ejemplos y más se pueden utilizar para proporcionar un nivel más alto de contexto y personalización.
 
 Tener una estrategia de comercialización visual que incluya DCO puede aumentar considerablemente la visibilidad en la red.
 
 Existen dos tipos principales de déclencheur de datos:
 
-* **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si tocó la pantalla, se activará un sensor que déclencheur el recurso de datos local o el conmutador de canal.
+* **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si toca la pantalla, se activa un sensor que déclencheur un recurso de datos local o un conmutador de canal.
 * **Déclencheur de datos remotos**: esto implicaba un conmutador de canal activado por datos o un conmutador de recurso en función de los valores devueltos por una API de servicio web.

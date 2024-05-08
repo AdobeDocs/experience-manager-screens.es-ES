@@ -2,7 +2,7 @@
 title: Enfoque recomendado
 description: Obtenga información acerca del enfoque recomendado en un proyecto de AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Consulte las siguientes recomendaciones antes de desarrollar e implementar un pr
 
 * **Definición de programas piloto, despliegues y POC**: Desarrolle una prueba de concepto (POC) y adáptela según sea necesario mediante un programa piloto y un despliegue.
 
-* **Predefinición de estrategia de contenido**: establezca una estrategia de contenido que incluya objetivos a corto y largo plazo. Además, alinee los objetivos/KPI de la marca con las mejoras de las funciones.
+* **Predefinir la estrategia de contenido**: establezca una estrategia de contenido que incluya objetivos a corto y largo plazo. Además, alinee los objetivos/KPI de la marca con las mejoras de las funciones.
 
   >[!NOTE]
   >

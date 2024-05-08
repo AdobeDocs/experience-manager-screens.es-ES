@@ -2,9 +2,9 @@
 title: Especificaciones del dispositivo
 description: Obtenga más información acerca de las especificaciones de los dispositivos en lo que respecta a AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La parte interesada habitual de esta actividad es un integrador de audio y vídeo.
+>Una de las partes interesadas habituales en esta actividad es un integrador de audio y vídeo.
 
 Basado en la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
 

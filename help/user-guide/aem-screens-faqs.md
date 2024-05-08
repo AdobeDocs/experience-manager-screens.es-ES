@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 
 ### 6. ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
 
-Puede obtener los detalles de la pantalla y el dispositivo a través de:
+Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
 * **una API de JS interna**
 * **una tienda de ContextHub**: Hay tres tiendas de ContextHub definidas en `/libs/screens/clientlibs/contexthub` para exponer canales, dispositivos y, muestre información.

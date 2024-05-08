@@ -1,22 +1,22 @@
 ---
-title: Tizen Player
-description: Esta página describe la instalación y el funcionamiento de Tizen Player.
+title: Reproductor Tizen
+description: Obtenga información acerca de la instalación y el funcionamiento del reproductor Tizen.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
 
-# Implementación de Tizen Player {#tizen-player}
+# Implementación del reproductor Tizen {#tizen-player}
 
-## Instalación de Tizen Player {#installing-tizen-player}
+## Instalación del reproductor Tizen {#installing-tizen-player}
 
-Siga los pasos a continuación para implementar Tizen Player para AEM Screens:
+Siga los pasos a continuación para implementar el reproductor Tizen para AEM Screens:
 
 1. Vaya a [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/) para que pueda descargar el reproductor Tizen.
 
@@ -38,9 +38,9 @@ Complete los siguientes pasos:
 
 1. El reproductor Tizen descarga el instalador desde el servidor local.
 
-### Nombrar a Tizen Player {#name-tizen}
+### Nombrando reproductor Tizen {#name-tizen}
 
-Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite nombrar su reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
@@ -48,7 +48,7 @@ Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, envi
 Siga los pasos a continuación para configurar el nombre en el reproductor Tizen:
 
 1. Haz clic en el botón de menú del control remoto.
-1. Vaya a **network** > **Nombre del dispositivo** para que pueda asignar un nombre al reproductor.
+1. Vaya a **Red** > **Nombre del dispositivo** para que pueda asignar un nombre al reproductor.
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
@@ -56,13 +56,13 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
 
 1. Vaya a su dispositivo Samsung y enciéndalo.
 1. Haga clic en **MENÚ** del mando a distancia del dispositivo y desplácese hacia abajo hasta **Sistema** en la barra de navegación izquierda.
-1. Desplácese hacia abajo y haga clic en **Reproducir mediante** y cambie a. **Lanzador de URL** opción.
+1. Desplácese hacia abajo y haga clic en **Jugar a través de** y cambie a la opción **Lanzador de URL** opción.
    ![imagen](/help/user-guide/assets/tizen/rms-2.png)
 1. Cuando esté configurado el lanzador de URL, pulse el botón **Inicio** desde el mando a distancia.
 1. Vaya a **Configuración del lanzador de URL** , introduzca la dirección IP del servidor localhost y haga clic en **Listo**.
 
    >[!NOTE]
-   >El reproductor Tizen debe poder conectarse al servidor http.
+   >El reproductor Tizen debe poder conectarse al servidor HTTP.
 
 1. AEM Screens Player se instala y se inicia automáticamente en el dispositivo Samsung.
 
@@ -83,7 +83,7 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles al uti
 
 1. AEM Después de reiniciar el sistema, vaya a `/system/console/configMgr` y buscar **Controlador de autenticación de token de Granite de Adobe**. Establezca el valor de **SameSite** valor hasta **Ninguno**.
 
-1. Debería ver una nueva opción *`User agents to be exempted from samesite attribute`*. Rellene esto con una regex correspondiente al agente de usuario que sea incompatible con el *SameSite=None* atributo.
+1. Debería ver una nueva opción *`User agents to be exempted from samesite attribute`*. Rellene esta opción con una regex correspondiente al agente de usuario que sea incompatible con el *SameSite=None* atributo.
 
    >[!NOTE]
    >
@@ -93,11 +93,11 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles al uti
 
 ## Aprovisionamiento remoto del reproductor Tizen {#remote-provisioning}
 
-El aprovisionamiento remoto de Tizen Player le permite implementar cientos y miles de pantallas Samsung Tizen sin mucho esfuerzo. Evita el esfuerzo manual de configurar cada reproductor con la URL del servidor, el código de registro masivo u otros parámetros. Y, si hay AEM Screens as a Cloud Service, para configurar el modo de nube y el token de nube.
+El aprovisionamiento remoto del reproductor Tizen le permite implementar cientos y miles de pantallas Samsung Tizen sin mucho esfuerzo. Evita el esfuerzo manual de configurar cada reproductor con la URL del servidor, el código de registro masivo u otros parámetros. Y, si hay AEM Screens as a Cloud Service, para configurar el modo de nube y el token de nube.
 
 Esta función le permite configurar de forma remota el reproductor Tizen y también actualizar esas configuraciones de forma centralizada, si es necesario. Todo lo que necesita es el `HTTP` servidor utilizado para alojar la aplicación Tizen `(wgt and xml file)` y un editor de texto para guardar `config.json` con los parámetros adecuados.
 
-Asegúrese de haber configurado la dirección del lanzador de URL en el dispositivo Tizen, es decir, botón de inicio > Configuración del lanzador de URL.
+Asegúrese de haber configurado la dirección URL del lanzador en el dispositivo Tizen. Haga clic en el botón Inicio > Configuración del lanzador de URL.
 En el `HTTP` servidor que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el `wgt` archivo. El nombre de archivo debe ser `config.json`.
 El reproductor Tizen instala y, en el momento del inicio (y cada vez que se reinicia), comprueba y aplica los ajustes de la `config.json` archivo.
 
@@ -118,7 +118,7 @@ El reproductor Tizen instala y, en el momento del inicio (y cada vez que se rein
 En la tabla siguiente se resumen las directivas con sus funciones.
 
 >[!NOTE]
->Las configuraciones de directiva se aplican estrictamente y no se anulan manualmente en la IU de administración del reproductor. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.
+>Las configuraciones de la directiva de la IU de administración del reproductor se aplican estrictamente y no se anulan manualmente. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.
 >Por ejemplo, si desea permitir la configuración manual de la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de la directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
 
 | **Nombre de política** | **Finalidad** |
@@ -143,7 +143,7 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 
 1. Vaya a **Menú** -> **Red** -> **Configuración de red del servidor** y pulse **Entrar**.
 
-1. Vaya a Dirección del servidor y escriba la dirección URL de MagicInfo para acceder y pulse **Listo**.
+1. Vaya a la dirección Server y escriba la URL de MagicInfo para acceder y pulse **Listo**.
 
 1. Configure TLS si es necesario. Vaya al puerto, haga clic en el número de puerto del servidor y seleccione **Guardar**.
 

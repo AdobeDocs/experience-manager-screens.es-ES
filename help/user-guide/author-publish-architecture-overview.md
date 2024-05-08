@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ Antes de comenzar con los servidores de creación y de publicación, debe tener 
 
 ## Introducción {#introduction}
 
-La arquitectura de AEM Screens se parece a la arquitectura tradicional de AEM Sites. AEM El contenido se crea en una instancia de autor de y, a continuación, se replica mediante reenvío en varias instancias de publicación. Los dispositivos de AEM Screens AEM ahora se pueden conectar a una granja de servidores de publicación de a través del equilibrador de carga. AEM Se pueden agregar varias instancias de publicación para seguir escalando la granja de servidores de publicación.
+La arquitectura de AEM Screens se parece a la arquitectura tradicional de AEM Sites. AEM El contenido se crea en una instancia de autor de y, a continuación, se replica mediante reenvío en varias instancias de publicación. Los dispositivos de AEM Screens AEM ahora se pueden conectar a una granja de servidores de publicación de mediante un equilibrador de carga. AEM Se pueden agregar varias instancias de publicación para seguir escalando la granja de servidores de publicación.
 
-*Por ejemplo*, un autor de contenido de AEM Screens emite un comando en el sistema de creación de un dispositivo concreto. Ese dispositivo está configurado para interactuar con un conjunto de servidores de publicación o un autor de contenido de AEM Screens que obtiene información sobre los dispositivos configurados para interactuar con conjuntos de servidores de publicación.
+*Por ejemplo*, un autor de contenido de AEM Screens emite un comando en el sistema de creación de un dispositivo concreto. Ese dispositivo está configurado para interactuar con un conjunto de servidores de publicación. O bien, interactúe con un Autor de contenido de AEM Screens que obtenga información sobre los dispositivos configurados para interactuar con granjas de publicación.
 
 El diagrama siguiente ilustra el entorno de creación y el entorno de publicación.
 
@@ -57,9 +57,9 @@ Hay cinco componentes arquitectónicos que facilitan esta solución:
 * ***Mensajes*** entre instancias de publicación para sincronizar actualizaciones y comandos de información del dispositivo.
 * ***Sondeo*** por parte del autor de instancias de publicación para obtener información del dispositivo a través de API de REST específicas.
 
-### Replicación (reenvío) del contenido y las configuraciones  {#replication-forward-of-content-and-configurations}
+### Replicación (reenvío) del contenido y las configuraciones {#replication-forward-of-content-and-configurations}
 
-Los agentes de replicación estándar se utilizan para replicar el contenido del canal de AEM Screens, las configuraciones de ubicación y las configuraciones de dispositivo. Esto permite a los autores actualizar el contenido de un canal y, opcionalmente, pasar por algún tipo de flujo de trabajo de aprobación antes de publicar actualizaciones de canal. Se debe crear un agente de replicación para cada instancia de publicación de la granja de servidores de publicación.
+Los agentes de replicación estándar se utilizan para replicar el contenido del canal de AEM Screens, las configuraciones de ubicación y las configuraciones de dispositivo. Esta funcionalidad permite a los autores actualizar el contenido de un canal y, opcionalmente, pasar por algún tipo de flujo de trabajo de aprobación antes de publicar actualizaciones de canal. Se debe crear un agente de replicación para cada instancia de publicación de la granja de servidores de publicación.
 
 El diagrama siguiente ilustra el proceso de replicación:
 
@@ -69,17 +69,17 @@ El diagrama siguiente ilustra el proceso de replicación:
 >
 >Se debe crear un agente de replicación para cada instancia de publicación de la granja de servidores de publicación.
 
-### Agentes y comandos de replicación de Screens  {#screens-replication-agents-and-commands}
+### Agentes y comandos de replicación de Screens {#screens-replication-agents-and-commands}
 
 Se crean agentes de replicación específicos de Pantallas personalizadas para enviar comandos de la instancia de autor al dispositivo de AEM Screens. AEM Las instancias de publicación de la sirven como intermediarias para reenviar estos comandos al dispositivo.
 
-Esto permite a los autores seguir administrando el dispositivo, como, por ejemplo, enviar actualizaciones de dispositivos y realizar capturas de pantalla desde el entorno de creación. Los agentes de replicación de AEM Screens tienen una configuración de transporte personalizada, como los agentes de replicación estándar.
+Este flujo de trabajo permite a los autores seguir administrando el dispositivo, como, por ejemplo, enviar actualizaciones de dispositivos y realizar capturas de pantalla desde el entorno de creación. Los agentes de replicación de AEM Screens tienen una configuración de transporte personalizada, como los agentes de replicación estándar.
 
-### Mensajería entre instancias de publicación  {#messaging-between-publish-instances}
+### Mensajería entre instancias de publicación {#messaging-between-publish-instances}
 
-A menudo, un comando solo está pensado para enviarse a un dispositivo una sola vez. Sin embargo, en una arquitectura de publicación con equilibrio de carga, se desconoce a qué instancia de publicación se conecta el dispositivo.
+A menudo, un comando solo está pensado para enviarse a un dispositivo una sola vez. Sin embargo, en una arquitectura de publicación con equilibrio de carga, la instancia de publicación a la que se conecta el dispositivo es desconocida.
 
-Por lo tanto, la instancia de autor envía el mensaje a todas las instancias de publicación. Sin embargo, solo se debe transmitir un único mensaje al dispositivo. Para garantizar la mensajería correcta, debe haber comunicación entre instancias de publicación. Esto se logra utilizando *Apache ActiveMQ Artemis*. Cada instancia de publicación se coloca en una topología de correspondencia imprecisa mediante el servicio de detección de Sling basado en Oak, y ActiveMQ se configura para que cada instancia de publicación pueda comunicarse y crear una única cola de mensajes. El dispositivo AEM Screens AEM sondea la granja de servidores de publicación de la publicación mediante el equilibrador de carga y recoge el comando desde la parte superior de la cola.
+Por lo tanto, la instancia de autor envía el mensaje a todas las instancias de publicación. Sin embargo, solo se debe transmitir un único mensaje al dispositivo. Para garantizar la mensajería correcta, debe haber comunicación entre instancias de publicación. Esta comunicación se logra utilizando *Apache ActiveMQ Artemis*. Cada instancia de publicación se coloca en una topología de correspondencia imprecisa mediante el servicio de detección de Sling basado en Oak. ActiveMQ está configurado para que cada instancia de publicación pueda comunicarse y crear una única cola de mensajes. El dispositivo AEM Screens AEM sondea la granja de servidores de publicación de la publicación mediante el equilibrador de carga y recoge el comando desde la parte superior de la cola.
 
 ### Replicación inversa {#reverse-replication}
 
@@ -87,12 +87,12 @@ A menudo, después de un comando, se espera algún tipo de respuesta del disposi
 
 * Cree un agente de replicación inversa para cada instancia de publicación, similar a los agentes de replicación estándar y a los agentes de replicación de AEM Screens.
 * AEM Una configuración del iniciador del flujo de trabajo escucha los nodos modificados en la instancia de publicación de la y, a su vez, déclencheur AEM un flujo de trabajo para colocar la respuesta del dispositivo en la bandeja de salida de la instancia de publicación de la.
-* Una replicación inversa en este contexto solo se utiliza para datos binarios (como archivos de registro y capturas de pantalla) proporcionados por los dispositivos. Los datos no binarios se recuperan mediante sondeo.
+* Una replicación inversa en este contexto solo se utiliza para los datos binarios (como archivos de registro y capturas de pantalla) proporcionados por los dispositivos. Se recupera el sondeo de datos no binarios.
 * AEM El sondeo de replicación inversa de la instancia de autor de la recupera la respuesta y la guarda en la instancia de autor.
 
-### Sondeo de instancias de publicación  {#polling-of-publish-instances}
+### Sondeo de instancias de publicación {#polling-of-publish-instances}
 
-La instancia de autor debe poder sondear los dispositivos para obtener un latido y conocer el estado de un dispositivo conectado.
+Las instancias de autor deben poder sondear los dispositivos para obtener un latido y conocer el estado de un dispositivo conectado.
 
 Los dispositivos hacen ping al equilibrador de carga y se enrutan a una instancia de publicación. AEM La instancia de publicación de la aplicación expone el estado del dispositivo a través de una API de publicación que se sirve como @ **api/screens-dcc/devices/static** para todos los dispositivos activos y **api/screens-dcc/devices/&lt;device_id>/status.json** para un solo dispositivo.
 
@@ -102,7 +102,7 @@ La instancia de autor sondea todas las instancias de publicación y combina las 
 
 AEM El registro sigue originándose en la instancia de autor de la. El dispositivo AEM Screens se dirige a la instancia de autor y se completa el registro.
 
-AEM AEM Una vez que un dispositivo se registra en el entorno de creación de la, la configuración del dispositivo y las asignaciones de canal/programación se replican en las instancias de publicación de la. La configuración del dispositivo AEM Screens AEM se actualiza a continuación para que apunte al equilibrador de carga situado frente a la granja de servidores de publicación de la. Se pretende que sea una configuración única. Una vez que el dispositivo Screens se ha conectado correctamente al entorno de publicación, puede seguir recibiendo comandos procedentes del entorno de creación. No debería haber necesidad de conectar el dispositivo AEM Screens AEM directamente al entorno de creación de la.
+AEM AEM Una vez que un dispositivo se registra en el entorno de creación de la, la configuración del dispositivo y las asignaciones de canal/programación se replican en las instancias de publicación de la. A continuación, la configuración del dispositivo AEM Screens AEM se actualiza para que apunte al equilibrador de carga delante de la granja de servidores de publicación de. Este acuerdo está diseñado para ser una configuración única. Una vez que el dispositivo Screens se ha conectado correctamente al entorno de publicación, puede seguir recibiendo comandos procedentes del entorno de creación. No debe ser necesario conectar el dispositivo AEM Screens AEM directamente al entorno de creación de la.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 

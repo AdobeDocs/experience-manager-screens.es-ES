@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
 #### Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
 
-1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM a través de instancia > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM a través de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
 #### Servicio HTTP basado en Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM a través de instancia > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a **Configuración de la consola web Adobe Experience Manager** AEM a través de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
