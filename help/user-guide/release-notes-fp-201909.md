@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma de pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Pantallas de la versión 6.3 de.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 6 de la versión 6.4.6 de la versión 6 y el paquete de funciones 2 de la versión 6.5.2 de la versión con los siguientes detalles.
 
@@ -28,7 +28,7 @@ La fecha de lanzamiento del paquete de funciones 201909 de AEM Screens es el 7 d
 
 * **Actualizaciones mejoradas de la IU para crear un proyecto de Screens**
 
-  Ya está disponible la interfaz de usuario actualizada para crear un proyecto de AEM Screens. Puede crear un proyecto de Screens con pocos clics simples. Además, la pestaña de propiedades de cada proyecto tiene ahora una interfaz de usuario más intuitiva.
+  Ya está disponible una interfaz de usuario actualizada para crear un proyecto de AEM Screens. Puede crear un proyecto de Screens con unos pocos clics sencillos. Además, la pestaña de propiedades de cada proyecto tiene ahora una interfaz de usuario más intuitiva.
 
   Consulte [Creación de un nuevo proyecto de Screens](creating-a-screens-project.md) para obtener más información.
 
@@ -57,4 +57,4 @@ Los siguientes reproductores AEM Screens AEM AEM se incluyen en el paquete de fu
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).

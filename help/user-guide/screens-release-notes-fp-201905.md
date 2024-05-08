@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 6 de la versión 6.3.3.3 y el paquete de funciones 4 de la versión 6.4.4.0 de la versión 6 de la versión con los detalles siguientes.
 
@@ -65,4 +65,4 @@ Los siguientes reproductores AEM Screens AEM AEM se incluyen en el paquete de fu
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.

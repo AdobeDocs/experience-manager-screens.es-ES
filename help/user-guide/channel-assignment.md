@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -76,7 +76,7 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 >
 > Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or -->AEM Paquete de funciones 4 para.5.
 
-Como autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero también permitir que se reproduzca contenido importante antes de cortar su reproducción debido a la programación.
+Como Autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero opcionalmente permita que el contenido importante se reproduzca antes de cortar su reproducción debido a la programación.
 
 Haga clic en una de las siguientes opciones que están disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
 

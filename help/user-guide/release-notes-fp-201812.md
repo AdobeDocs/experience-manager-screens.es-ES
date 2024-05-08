@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 5 de la versión 6.3 de la versión para la versión 6.3 y el paquete de funciones 3 de la versión 6.4 de la versión con los siguientes detalles.
 
@@ -33,7 +33,7 @@ La fecha de lanzamiento del paquete de funciones 201812 de AEM Screens es el 16 
 
 * **Superposición de texto en recursos del canal**:
 
-  La superposición de texto es una función disponible en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen. Consulte [**Superposición de texto**](text-overlay.md).
+  La superposición de texto es una función disponible en AEM Screens. Permite crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen. Consulte [**Superposición de texto**](text-overlay.md).
 
 * **Programación de varios recursos**:
 
@@ -57,4 +57,4 @@ Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).

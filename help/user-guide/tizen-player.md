@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Siga los pasos a continuación para configurar el nombre en el reproductor Tizen
 
 ### Configuración de actualizaciones en el dispositivo Samsung {#config-updates}
 
-Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del reproductor AEM Screens en el dispositivo:
+Siga los pasos a continuación en el dispositivo Samsung para completar la instalación del Reproductor de AEM Screens en el dispositivo:
 
 1. Vaya a su dispositivo Samsung y enciéndalo.
 1. Haga clic en **MENÚ** del mando a distancia del dispositivo y desplácese hacia abajo hasta **Sistema** en la barra de navegación izquierda.

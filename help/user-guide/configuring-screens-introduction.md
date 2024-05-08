@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,11 @@ Esta página muestra cómo instalar y configurar los reproductores de Screens en
 
 >[!IMPORTANT]
 >
->El reproductor de AEM Screens no utiliza el token de falsificación de solicitud en sitios múltiples (CSRF). AEM Por lo tanto, para configurar el servidor de para que esté listo para usarse en AEM Screens, omita el filtro de referente y permita los referentes vacíos.
+>El Reproductor de AEM Screens no utiliza el token de falsificación de solicitud entre sitios (CSRF). AEM Por lo tanto, para configurar el servidor de para que esté listo para usarse en AEM Screens, omita el filtro de referente y permita los referentes vacíos.
 
 ## Marco de comprobación de estado {#health-check-framework}
 
-El marco de trabajo de comprobación de estado permite al usuario comprobar si se han establecido dos configuraciones necesarias antes de ejecutar un proyecto de AEM Screens.
+El marco de comprobación de estado permite al usuario comprobar si se han establecido dos configuraciones necesarias antes de ejecutar un proyecto de AEM Screens.
 
 Permite al usuario comprobar las dos comprobaciones de configuración siguientes para ejecutar un proyecto de AEM Screens, es decir, para comprobar el estado de los dos filtros siguientes:
 
@@ -93,11 +93,11 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
    ![imagen](assets/config/config-1.png)
 
-1. Clic **Guardar** para habilitar el *http* servicio.
+1. Clic **Guardar** para habilitar el *Http* servicio.
 
 #### Habilitar la IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens requiere una interfaz de usuario táctil y no funciona con la IU CLÁSICA de Adobe Experience Manager AEM ().
+AEM Screens requiere una interfaz de usuario táctil y no funciona con la IU clásica de Adobe Experience Manager AEM ().
 
 1. Navegue hasta `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Asegúrese de que la variable **Modo de IU de creación predeterminado** se establece en **TOUCH**, como se muestra en la figura siguiente
@@ -116,11 +116,11 @@ AEM La ejecución de la producción de utiliza **NOSAMPLECONTENT** modo de ejecu
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Esto es necesario para que el Reproductor de AEM Screens reproduzca canales en línea.
+Esta eliminación es necesaria para que el Reproductor de AEM Screens reproduzca canales en línea.
 
 #### Restricciones de contraseña {#password-restrictions}
 
-Con los cambios más recientes en ***DeviceServiceImpl***, no tiene que eliminar las restricciones de contraseña.
+Con los cambios más recientes a ***DeviceServiceImpl***, no tiene que eliminar las restricciones de contraseña.
 
 Puede configurar ***DeviceServiceImpl*** en el vínculo siguiente para habilitar la restricción de contraseña al crear la contraseña para los usuarios del dispositivo de pantalla:
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -46,7 +46,7 @@ La fecha de lanzamiento del paquete de funciones 202008 de AEM Screens es el 3 d
 
   La función Reconocimiento de voz permite cambiar el contenido en un canal de AEM Screens impulsado por la interacción de voz.
 
-  Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como método para interactuar con sus pantallas.
+  Un autor de contenido puede configurar una pantalla para que esté habilitada para voz. El propósito de esta función es permitir que los clientes utilicen la voz como un método para interactuar con sus pantallas.
 
   Consulte [Reconocimiento de voz](voice-recognition.md) para obtener más información.
 
@@ -70,4 +70,4 @@ Los siguientes reproductores de AEM Screens se incluyen en el paquete de funcion
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 # Notas de la versión del paquete de funciones 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -31,7 +31,7 @@ La fecha de lanzamiento del AEM Screens Feature Pack 202109 es el 23 de septiemb
 
 * **Compatibilidad con miniaturas para vídeos**
 
-  Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido define una miniatura para los vídeos, de modo que la imagen se utilice como marcador de posición. También prueban correctamente la reproducción y la segmentación del contenido, mientras que el equipo correspondiente finaliza el vídeo real. La imagen también se puede utilizar en caso de que falle la reproducción del vídeo.
+  Ahora se admite la compatibilidad con miniaturas para vídeos en AEM Screens. Un autor de contenido define una miniatura para los vídeos, de modo que la imagen se utilice como marcador de posición. También prueban correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. La imagen también se puede utilizar en caso de que falle la reproducción del vídeo.
 Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obtener más información.
 
 * **Monitorización de reproducción básica**
@@ -41,12 +41,12 @@ Consulte [Monitorización de reproducción básica](https://experienceleague.ado
 
 * **Actualizaciones del informe de asignación de contenido**
 
-  El informe de asignación de contenido ahora está optimizado y mejorado con una experiencia de usuario mejorada. El informe descargable muestra entidades mejoradas relacionadas con el reproductor, como ubicaciones, visualizaciones y dispositivos en una pestaña de hoja de cálculo, y la información del proveedor de contenido, como canales y recursos en otra pestaña.
+  El informe de asignación de contenido ahora está optimizado y mejorado con una experiencia de usuario mejorada. El informe descargable muestra entidades mejoradas relacionadas con el reproductor. Estas entidades incluyen ubicaciones, visualizaciones y dispositivos en una pestaña de la hoja de cálculo. También incluye la información del proveedor de contenido, como los canales y los recursos de otras pestañas.
 Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 * **Representaciones adaptables**
 
-  Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente.
+  Las representaciones adaptables permiten que el dispositivo haga clic en la mejor representación automáticamente para un dispositivo en función de las reglas definidas por el cliente.
 
   Como desarrollador de AEM Screens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente. Consulte [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md) para obtener más información.
 
@@ -74,7 +74,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
    * Actualice Dispatcher.
 
-   * Actualizar componente personalizado.
+   * Actualice el componente personalizado.
 
 
    * Consulte [Configurar Dispatcher para la versión 3 del manifiesto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
@@ -97,7 +97,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * Se ha transformado la asignación en una lista de claves de representación.
 
-* Acceso eliminado a `cmd.exe` y `reg.exe` en el reproductor de windows.
+* Acceso eliminado a `cmd.exe` y `reg.exe` en el Reproductor de Windows.
 
 * Un reproductor debe informar de su último evento de reproducción correcta.
 
@@ -130,7 +130,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * Los dispositivos eliminados ahora no bloquean la cola de replicación de Screens.
 
-* El manifiesto no contenía contenido de destino ni páginas incrustadas de Sites. Esto se ha corregido.
+* El manifiesto no contenía contenido de destino ni páginas incrustadas de Sites. Este error se ha corregido.
 
 * Ahora se agrega un nuevo componente de imagen principal al manifiesto de canal.
 
@@ -140,7 +140,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 * Se ha agregado compatibilidad con varios tipos de proveedores de contenido
 
-* La estrategia de reproducción de secuencias incrustadas se ha dañado y esto se ha corregido.
+* La estrategia de reproducción de secuencias incrustadas se ha dañado y este error ya se ha corregido.
 
 * Manifiesto sin conexión mediante el parámetro de solicitud `wcmmode` para la entrada html, lo que la hace inalmacenable en caché.
 
@@ -162,4 +162,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uso del reproductor Chrome como extensión {#using-chrome-player}
 
-El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin requerir el dispositivo de reproductor Chrome real.
+El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en modo de desarrollador sin requerir el dispositivo de reproductor Chrome real.
 
 >[!CAUTION]
 >

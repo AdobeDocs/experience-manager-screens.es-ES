@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 4%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 4%
 # Notas de la versión del paquete de funciones 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Obtenga la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes)
+>El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Obtenga la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidad {#availability}
 
-AEM Screens AEM ha lanzado el paquete de funciones 11.1 de 6.5
+AEM Screens AEM ha lanzado el paquete de funciones 11.1 de 6.5.
 
 Puede descargar el paquete de funciones más reciente para la versión 6.5.11.1 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas FP11.1 de 6.5**.
 

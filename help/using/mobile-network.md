@@ -2,7 +2,7 @@
 title: Red móvil directa
 description: Obtenga información acerca de la configuración de Direct Mobile Network en AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -71,7 +71,7 @@ A continuación, el paquete de datos necesario debe ser al menos de:
 >Por ejemplo, para la carga inicial de archivos multimedia, al tiempo que se integran nuevos reproductores, es necesario esperar una mayor cantidad de datos y un mayor tiempo de descarga, lo que se refleja en las hipótesis anteriores. Una red 4G con *bueno* cobertura y *ilimitado* Los datos deben coincidir con las instalaciones más comunes de esta Configuración de red.
 
 >[!NOTE]
->Un plan 3G mínimo con una buena cobertura de red debería permitir un rendimiento de descarga aceptable para un reproductor de AEM Screens. Si sólo hay una cobertura adecuada disponible en una ubicación específica, considere cambiar la configuración general de la red a [Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).
+>Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor AEM Screens. Si sólo hay una cobertura adecuada disponible en una ubicación específica, considere cambiar la configuración general de la red a [Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).
 
 
 ### Red de área local {#lan-connection}

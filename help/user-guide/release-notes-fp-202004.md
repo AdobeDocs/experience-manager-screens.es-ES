@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -32,19 +32,19 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
 * **Opciones de estrategia de interrupción de reproducción**
 
-  Como autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero también permitir que el contenido importante se reproduzca por completo antes de interrumpir la reproducción debido a la programación.
+  Como autor de contenido, especifique cuándo se interrumpe un canal. Esta acción ayuda a que pueda optar por cortar el contenido no crítico, pero también puede permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
 
   Para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens, consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Lanzamientos de Screens**
 
-  El flujo de experiencia del usuario Autor de contenido se ha mejorado y se ha reducido el número de clics para utilizar una publicación futura.
+  El flujo de experiencia del usuario Autor de contenido se ha mejorado y reducido el número de clics para utilizar la publicación futura.
 
   Consulte **[Actualización de contenido mediante Screens Launch](launches.md)** para obtener más información.
 
 * **Tablero de canal**
 
-  Refleja las actualizaciones de las instrucciones del panel de canales en la **INFORMACIÓN DEL CANAL** panel.
+  Refleja las actualizaciones de las instrucciones en el panel de canales de la **INFORMACIÓN DEL CANAL** panel.
 
 
 * **Ver manifiesto**
@@ -75,4 +75,4 @@ Los siguientes reproductores de AEM Screens se incluyen en el paquete de funcion
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En el siguiente caso de uso se muestra el uso de la activación de reserva de ho
 
 ## Descripción {#description}
 
-Para este caso de uso, la hoja de cálculo de Google se rellena con el porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y en función de la fórmula, el valor 1 o 2 se asigna al **AdTarget** Columna.
+Para este caso de uso, la Google Sheet se rellena con el porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y en función de la fórmula, el valor 1 o 2 se asigna al **AdTarget** Columna.
 
 Si el valor de **`Restaurant1`** > **`Restaurant2`**, entonces **AdTarget** se ha asignado un valor **1** de otro modo **AdTarget** se ha asignado un valor **2**. El valor 1 genera *Comida para filetes* Opción y Valor dos resultados en la visualización de *Comida tailandesa* en la pantalla de visualización.
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 # Notas de la versión del paquete de funciones 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -37,7 +37,7 @@ La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 
 
 * Corrección de errores de descarga simultánea en SmartSync
 
-* Como desarrollador, vea las representaciones de recursos que desee que aparezcan solo como entradas de representación en los recursos correspondientes del manifiesto para garantizar la extensibilidad, claridad y facilidad de la administración del manifiesto.
+* Como desarrollador, vea las representaciones de recursos que desee que aparezcan solo como entradas de representación en los recursos correspondientes del manifiesto. Al hacerlo, se garantiza la extensibilidad, claridad y facilidad de manejo del manifiesto.
 
 ### Correcciones de errores {#bug-fixes}
 
@@ -45,11 +45,11 @@ La fecha de lanzamiento del paquete de funciones 202112 de AEM Screens es el 12 
 
 * Recopile registros del reproductor local y analícelos en busca de pantallas en negro.
 
-* El reproductor que muestra la pantalla en blanco con el canal de pantalla dividida ahora está fijo
+* El reproductor que muestra una pantalla en blanco con un canal de pantalla dividida ahora está fijo
 
 * Se han corregido documentos de controladores personalizados al agregar un paquete principal en Maven público.
 
-* El reproductor no actualizaba la versión de firmware después de la actualización. Esto ya está solucionado.
+* El reproductor no actualizaba la versión de firmware tras la actualización. Este error se ha corregido.
 
 * La vista previa de la pantalla está atascada en la configuración anterior del reproductor.
 
@@ -69,4 +69,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

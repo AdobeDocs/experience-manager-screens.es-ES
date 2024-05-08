@@ -1,30 +1,30 @@
 ---
 title: Guía de KickStart
-description: Obtenga información sobre cómo crear un proyecto de AEM Screens de demostración. Le ayuda a crear una experiencia de señalización digital que comienza con la instalación y la configuración de un nuevo proyecto para ver el contenido en el reproductor de AEM Screens.
+description: Obtenga información sobre cómo crear un proyecto de AEM Screens de demostración. Le ayuda a crear una experiencia de señalización digital que comienza desde la instalación y la configuración de un nuevo proyecto hasta la visualización del contenido en el Reproductor de AEM Screens.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
 
 # Guía de KickStart {#kickstart-guide}
 
-La introducción a AEM Screens muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos o vídeos a cada canal, así como la publicación de contenido en un reproductor de AEM Screens.
+La introducción a AEM Screens muestra cómo configurar y ejecutar un proyecto de AEM Screens. Le guiará a través de la configuración de una experiencia de señalización digital básica y la adición de contenido como recursos o vídeos a cada canal, así como la publicación del contenido en un reproductor de AEM Screens.
 
 >[!NOTE]
 >Antes de trabajar en los detalles del proyecto, asegúrese de que ha instalado el último paquete de funciones para AEM Screens. Puede descargar el paquete de funciones más reciente de la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID.
 
 ## Requisitos previos {#prerequisites}
 
-Siga los pasos a continuación para crear un proyecto de muestra para AEM Screens y publicar contenido en el reproductor de Screens.
+Siga los pasos a continuación para crear un proyecto de ejemplo para AEM Screens y seguir publicando contenido en el reproductor de Screens.
 
 >[!NOTE]
->El siguiente tutorial muestra la reproducción del contenido del canal en el reproductor Chrome OS.
+>El siguiente tutorial muestra la reproducción del contenido del canal en un reproductor Chrome OS.
 
 >[!IMPORTANT]
 >**Ajustes de configuración de OSGi**
@@ -87,7 +87,7 @@ Siga los pasos a continuación para crear un canal para su proyecto:
 
 ### Adición de contenido a un canal {#adding-content}
 
-Cuando tenga el canal configurado, añada contenido al canal que el reproductor de AEM Screens pueda mostrar.
+Cuando tenga el canal configurado, agregue contenido al canal que el Reproductor de AEM Screens pueda mostrar.
 
 Siga los pasos a continuación para añadir contenido al canal (**TestChannel**) en su proyecto:
 
@@ -162,11 +162,11 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 1. El **Asignación de canales** se abre el cuadro de diálogo.
 
-1. Desde el **Configuración** opción, elija el canal **por ruta**  y **Eventos admitidos** as **Carga inicial** y **Pantalla inactiva**.
+1. Desde el **Configuración** opción, elija el canal **por ruta** y **Eventos admitidos** como **Carga inicial** y **Pantalla inactiva**.
 
    >[!NOTE]
    >
-   >El **Función del canal**, **Prioridad**, y **Métodos de interrupción** se rellenan de forma predeterminada. Consulte [Propiedades de canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
+   >El **Función del canal**, **Prioridad**, y **Métodos de interrupción** se rellenan de forma predeterminada. Consulte la [Propiedades de canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obtener más información sobre las propiedades de asignación de canal.
 
    ![imagen](assets/kickstart/demo-assign3.png)
 
@@ -183,11 +183,11 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 AEM Registre el dispositivo mediante el panel de control de.
 
 >[!IMPORTANT]
->El reproductor Chrome OS se puede instalar como complemento del navegador Chrome en el modo de desarrollador sin necesidad del dispositivo reproductor Chrome. Para la instalación, siga los pasos a continuación:
+>El reproductor Chrome OS se puede instalar como complemento del explorador Chrome en modo de desarrollador sin necesidad de un dispositivo Chrome Player real. Para la instalación, siga los pasos a continuación:
 >
 >1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 >1. Descomprima y guárdelo en el disco.
->1. Abra el navegador Chrome y haga clic en **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
+>1. Abra el explorador Chrome y haga clic en **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
 >1. Encienda el **Modo de desarrollador** desde la esquina superior derecha.
 >1. Clic **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
 >1. Marque **Reproductor de AEM Screens Chrome** complemento si está disponible en la lista de extensiones.

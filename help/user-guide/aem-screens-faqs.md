@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,21 @@ En este tema encontrará respuestas a las preguntas más frecuentes relacionadas
 ## Problema de pantalla en blanco {#blank-screen}
 
 >[!NOTE]
->Las comprobaciones obligatorias enumeradas que debe probar el servicio de asistencia primaria o el servicio de asistencia al cliente antes de plantear un problema.
+>La variable obligatoria indicada comprueba que el servicio de asistencia primaria o el servicio de asistencia al cliente deben probarse antes de plantear un problema.
 
 ### 1. ¿Cuáles deben ser los pasos de solución de problemas de primeros auxilios para cualquier cliente que se enfrente a una pantalla en negro o a contenido que no se esté reproduciendo? {#troubleshooting-blank-screen}
 
 * Compruebe si la previsualización del canal funciona.
 * Comprobar si la previsualización de visualización funciona
-* Intente registrar el reproductor como una extensión de explorador en el sistema en la misma pantalla y compruebe si esto funciona.
+* Intente registrar el reproductor como una extensión de explorador en el sistema en la misma pantalla y compruebe si funciona.
 * Con el reproductor en ejecución en el sistema, vaya a `http://localhost:24502`. Compruebe si todo el contenido se descarga correctamente.
 * Compruebe los recursos para asegurarse de que se crean las representaciones adecuadas y de que se reproduce la representación correcta.
 * Compruebe si hay contenido programado y si las horas son correctas. Compruebe si la hora configurada en el reproductor es correcta.
-* Inspect inicia sesión en la consola del reproductor y comprueba si hay errores. Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si está usando el reproductor de Windows, presione `CTRL + ALT +I` para que aparezca dev console para ver los registros.
+* Inspect inicia sesión en la consola del reproductor y comprueba si hay errores. Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si utiliza el Reproductor de Windows, presione `CTRL + ALT +I` para que aparezca dev console para ver los registros.
 
 ### 2. ¿Cómo resolver un problema de pantalla gris en AEM Screens al crear un canal o un horario predeterminado?
 
-Para evitar las pantallas en blanco o grises en el campo, cree un canal global o una programación predeterminados, asignados a cada pantalla con la menor prioridad 1. En caso de que algo salga mal con las actualizaciones de contenido (debido a la red, reproductor, servidor o replicación), ya que los reproductores tienen este contenido ya almacenado en caché en el disco que debería reproducirse bien y evitar las pantallas grises.
+Para evitar las pantallas en blanco o grises en el campo, cree un canal global o una programación predeterminados, asignados a cada pantalla con la menor prioridad 1. En caso de que algo salga mal con las actualizaciones de contenido, porque los reproductores ya han almacenado este contenido en caché en el disco. Debe jugar bien y evitar las pantallas grises.
 
 El resto del contenido, como canales o programaciones, tiene una prioridad mayor que 1, por lo que el otro contenido tiene prioridad y el contenido del canal global o de la programación (con prioridad 1) solo se reproduce como opción de reserva.
 
@@ -62,11 +62,11 @@ Para *referencias dinámicas*, la resolución se produce una vez que el canal se
 1. La ubicación principal de la visualización tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 1. La ubicación principal general de la visualización tiene un nodo secundario que coincide con el nombre del canal al que se hace referencia
 
-Y así sucesivamente, hasta que llegue a la carpeta de ubicaciones y se detenga allí en el momento (por lo que no puede hacer referencia a un canal que estaría en la carpeta de canales, por ejemplo, solo a canales en el subárbol de ubicaciones).
+Y así sucesivamente, hasta que llegue a la carpeta de ubicaciones. Deténgase en este momento (para que no pueda hacer referencia a un canal que estaría en la carpeta de canales, por ejemplo, solo a canales del subárbol de ubicación).
 
 ### 5. ¿Cómo configurar la configuración sin conexión clientlib personalizada en el canal de AEM Screens?
 
-Cuando se utiliza un código personalizado integrado del lado del cliente `clientlib` en un canal de AEM Screens, se deben realizar los siguientes pasos para asegurarse de que la variable `clientlib` Los archivos de se han cargado correctamente en el canal (`manifest.json`) y contiene la ruta del `clientlib`.
+Cuando se utiliza un código personalizado integrado del lado del cliente `clientlib` en un canal de AEM Screens, se deben realizar los siguientes pasos. Los pasos garantizan que la variable `clientlib` Los archivos de se han cargado correctamente en el canal (`manifest.json`) y contiene la ruta del `clientlib`.
 
 Siga los pasos a continuación desde el editor de canales:
 
@@ -77,17 +77,17 @@ Siga los pasos a continuación desde el editor de canales:
 
 ## Registro de dispositivos {#device-registration}
 
-### 1. Si descubro puntos finales como solicitudes de incorporación y registro de dispositivos, puedo crear secuencias de comandos de muchos dispositivos y registrarlos. Además de bloquear esto a una sucursal Wi-Fi, ¿es posible asegurar estas solicitudes? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Si descubro puntos finales como solicitudes de incorporación y registro de dispositivos, puedo crear secuencias de comandos de muchos dispositivos y registrarlos. Además de bloquearlo en una sucursal Wi-Fi, ¿es posible asegurar estas solicitudes? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Actualmente, el registro solo es posible en la instancia de autor. AEM Aunque el servicio de registro no está autenticado, solo crea un dispositivo pendiente en el sistema de registro y no registra el dispositivo ni asigna ninguna pantalla.
 
-AEM AEM Para registrar un dispositivo (crear un usuario para el dispositivo en el que se ha realizado el registro), debe autenticarse en el dispositivo y, en la actualidad, seguir manualmente el asistente para el registro para completar el registro. AEM Teóricamente, un usuario malintencionado puede crear varios dispositivos pendientes, pero no puede registrar ninguno sin iniciar sesión en un servicio de inicio de sesión de la aplicación de la aplicación de forma.
+AEM AEM Para registrar un dispositivo (crear un usuario para el dispositivo en el que se ha realizado el registro), debe autenticarse en el asistente de registro y seguir de forma manual el proceso de registro para completar el registro. Para obtener más información, haga lo siguiente: AEM Teóricamente, un usuario malintencionado puede crear varios dispositivos pendientes, pero no puede registrar ninguno si no tiene un inicio de sesión en la red (login) con el que se ha iniciado sesión.
 
 ### 2. ¿Existe alguna manera de transformar las solicitudes de GET HTTP en un POST HTTP con alguna forma de autenticación? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La solicitud de registro es una solicitud de POST.
 
-Se recomienda obtener el ID del dispositivo de la sesión en lugar de pasarlo como parámetro. Esto limpiaría los registros del servidor, la caché del explorador, etc. No es un problema de seguridad. Semánticamente. Se utiliza GET cuando no hay ningún cambio de estado en el servidor y POST cuando hay un cambio de estado.
+Se recomienda obtener el ID del dispositivo de la sesión en lugar de pasarlo como parámetro. Al hacerlo, se limpian los registros del servidor, la caché del explorador, etc. No es un problema de seguridad. Semánticamente. Se utiliza GET cuando no hay ningún cambio de estado en el servidor y POST cuando hay un cambio de estado.
 
 ### 3. ¿Hay alguna manera de rechazar una solicitud de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -101,17 +101,17 @@ Compruebe las siguientes posibilidades para solucionar el problema de la pantall
 
 * AEM No se ha podido insertar el contenido sin conexión
 * El canal no tiene ningún contenido
-* Ninguno de los recursos está programado para mostrarse en este momento
+* No se ha programado la visualización de ninguno de los recursos en este momento
 
-### 2. ¿Qué puedo hacer si el reproductor AEM Screens no se puede registrar y su estado se muestra como Error?
+### 2. ¿Qué puedo hacer si el Reproductor de AEM Screens no se puede registrar y su estado se muestra como Error?
 
-Active el Filtro de referente de Apache Sling Permitir vacío. Esto es necesario para un funcionamiento óptimo del protocolo de control entre el reproductor de AEM Screens y el servidor de AEM Screens.
+Active el Filtro de referente de Apache Sling Permitir vacío. Necesario para un funcionamiento óptimo del protocolo de control entre el Reproductor de AEM Screens y el servidor de AEM Screens.
 
 1. Vaya a **Configuración de la consola web Adobe Experience Manager**
 1. Compruebe la **allow.empty** opción.
 1. Haga clic en **Guardar**.
 
-### 3. ¿Cómo solucionar problemas si al registrar un reproductor AEM Screens, el dispositivo muestra FAILURE y los registros de la consola muestran un error ENAME_NOT_FOUND?
+### 3. ¿Cómo solucionar problemas si al registrar un reproductor de AEM Screens, el dispositivo muestra FAILURE y los registros de la consola muestran un error ENAME_NOT_FOUND?
 
 Este problema puede ocurrir si el reproductor no puede encontrar el DNS del servidor de AEM Screens. Puede intentar utilizar la dirección IP para conectarse. Para obtener la IP del servidor, utilice: *arp &lt;server_dns_name>*.
 
@@ -129,22 +129,22 @@ Para obtener más información sobre dónde puede monitorizar la actividad de lo
 
 ## Reproductor de AEM Screens
 
-### 1. ¿Cómo instalar el reproductor ChromeOS como complemento del navegador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. ¿Cómo instalar el reproductor ChromeOS como complemento del explorador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en el modo de desarrollador sin requerir el dispositivo de reproductor Chrome real. Para la instalación, siga los pasos a continuación:
+El reproductor ChromeOS se puede instalar como complemento del explorador Chrome en modo de desarrollador sin necesidad de un dispositivo Chrome Player real. Para la instalación, siga los pasos a continuación:
 
 1. Clic [aquí](https://download.macromedia.com/screens/) para descargar el último reproductor de Chrome.
 1. Descomprima y guárdelo en el disco.
-1. Abra el navegador Chrome y haga clic en **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
+1. Abra el explorador Chrome y haga clic en **Extensiones** en el menú o vaya directamente a ***chrome://extensions***.
 1. Encienda el **Modo de desarrollador** desde la esquina superior derecha.
 1. Clic **Cargar desempaquetado** desde la esquina superior izquierda y cargue el reproductor Chrome descomprimido.
-1. Si está disponible en la lista de extensiones, marque **Reproductor de AEM Screens Chrome** plugin.
+1. Si está disponible en la lista de extensiones, consulte **Reproductor de AEM Screens Chrome** plugin.
 1. Abra una nueva pestaña y haga clic en **Aplicaciones** desde la esquina superior izquierda o navegue directamente a ***chrome://apps***.
 1. Haga clic en **AEM Screens** Complemento. De forma predeterminada, el reproductor se inicia en modo de pantalla completa. Prensa **Esc** para salir del modo de pantalla completa.
 
-### 2. ¿Cómo solucionar problemas si el reproductor Screens no puede autenticarse a través de la instancia de publicación con el controlador de error personalizado?
+### 2. ¿Cómo solucionar problemas si el reproductor Screens no puede autenticarse a través de una instancia de publicación con un controlador de error personalizado?
 
-Cuando se inicia el reproductor de AEM Screens, se realiza una solicitud a ***/content/screens/svc.ping.json***, cuando el reproductor recibe un error 404. El reproductor inicia una solicitud de autenticación para autenticarse en la instancia de publicación. Si hay un controlador de error personalizado en la instancia de publicación, asegúrese de devolver el código de estado 404 para el usuario anónimo en ***/content/screens/svc.ping.json***.
+Cuando se inicia el Reproductor de AEM Screens, se realiza una solicitud a ***/content/screens/svc.ping.json***, cuando el reproductor recibe un error 404. El reproductor inicia una solicitud de autenticación para autenticarse en la instancia de publicación. Si hay un controlador de error personalizado en la instancia de publicación, asegúrese de devolver el código de estado 404 para un usuario anónimo en ***/content/screens/svc.ping.json***.
 
 ### 3. ¿Cómo configurar la pantalla del dispositivo para que permanezca encendida en un reproductor Android™? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -155,15 +155,15 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 1. Vaya a **Opciones de desarrollador**.
 1. Activar **Manténgase despierto**.
 
-### 4. ¿Cómo activar el modo de ventana para el reproductor de Windows?{#enable-player}
+### 4. ¿Cómo habilitar el modo de ventana para el Reproductor de Windows?{#enable-player}
 
-No hay modo de ventana en el reproductor de Windows. Siempre es modo de pantalla completa.
+No hay modo de ventana en Windows Player. Siempre está en modo de pantalla completa.
 
 ### 5. ¿Cómo solucionar problemas si un reproductor de AEM Screens envía continuamente solicitudes de inicio de sesión?
 
 Siga los pasos a continuación para solucionar problemas de un reproductor de AEM Screens que envía solicitudes continuamente a `/content/screens/svc.json` y `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Cuando se inicia el reproductor de AEM Screens, solicita a `/content/screens/svc.json`. Cuando el reproductor obtiene un código de estado 404 en la respuesta, inicia una solicitud de autenticación utilizando `/libs/granite/core/content/login.validate/j_security_check` contra el *publicar* ejemplo. Si hay un controlador de error personalizado en *publicar* Por ejemplo, asegúrese de devolver el código de estado 404 para el usuario anónimo en `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+1. Cuando se inicia el Reproductor de AEM Screens, solicita `/content/screens/svc.json`. Cuando el reproductor obtiene un código de estado 404 en la respuesta, inicia una solicitud de autenticación utilizando `/libs/granite/core/content/login.validate/j_security_check` contra el *publicar* ejemplo. Si hay un controlador de error personalizado en *publicar* Por ejemplo, asegúrese de devolver el código de estado 404 para el usuario anónimo en `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
 1. Compruebe si la configuración de Dispatcher permite estas solicitudes en la `/filters`.
 
@@ -173,7 +173,7 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 
 1. Compruebe si tiene `/etc/map` reglas sobre *autor* o *publicar* las rutas de instancia y pantallas coinciden con `sling:match` y se redirige internamente a una ruta diferente. Resolución de la dirección URL exacta en `/system/console/jcrresolver` ayuda a identificar si la variable *publicar* está reescribiendo estas direcciones URL en cualquier otra ruta.
 
-1. Compruebe si la configuración de Apache Sling Resource Resolver Factory está causando reescrituras internas.
+1. Compruebe si la configuración de Apache Sling Resource Resolver Factory provoca reescrituras internas.
 
 ### 6. ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
 
@@ -209,7 +209,7 @@ Deshabilite Livefyre para evitar errores de registro haciendo lo siguiente.
 
    * En CRXDE Lite, vaya a `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Añadir una propiedad *activado* type *Booleano*.
-   * Establecer **propiedad enabled** hasta **false**.
+   * Establecer **Propiedad habilitada** para ser **false**.
 
 ### 2. ¿Cómo agregar información del índice Oak? {#add-oak-index-info}
 

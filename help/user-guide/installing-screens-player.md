@@ -6,20 +6,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
 
 # Instalación del reproductor de AEM Screens {#installing-player}
 
-En esta página se describe cómo instalar el reproductor AEM Screens.
+En esta página se describe cómo instalar AEM Screens Player.
 
 ## Reproductor de pantallas disponible {#available-players}
 
-El reproductor AEM Screens está disponible para Android™, Chrome OS y Windows.
+El Reproductor de AEM Screens está disponible para Android™, Chrome OS y Windows.
 
 Para descargar **Reproductor de AEM Screens**, visite la [AEM Descargas del reproductor de 6.5 en](https://download.macromedia.com/screens/) página.
 
@@ -29,13 +29,13 @@ Para descargar **Reproductor de AEM Screens**, visite la [AEM Descargas del repr
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
->1. Clic **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
+>1. Haga clic en **Registro** desde el menú de acción de la izquierda y los pasos a continuación para completar el proceso de registro del dispositivo.
 
 ## Monitorización de reproducción básica {#playback-monitoring}
 
-El reproductor informa de varias métricas de reproducción con cada una `ping` el valor predeterminado es de 30 segundos. En función de estas métricas, puede detectar varios casos extremos, como experiencias atascadas, pantallas en blanco y problemas de programación. Esto nos permite comprender y solucionar problemas en el dispositivo y, por lo tanto, acelerar una investigación y medidas correctivas con usted.
+El reproductor informa de varias métricas de reproducción con cada una `ping` el valor predeterminado es de 30 segundos. En función de estas métricas, puede detectar varios casos extremos, como experiencias atascadas, pantallas en blanco y problemas de programación. Nos permite comprender y solucionar problemas en el dispositivo y, por lo tanto, acelerar una investigación y medidas correctivas para usted.
 
-La monitorización de la reproducción básica en un reproductor AEM Screens permite hacer lo siguiente:
+La monitorización de la reproducción básica en un reproductor AEM Screens Player le permite hacer lo siguiente:
 
 * Monitorice de forma remota si un reproductor está reproduciendo el contenido correctamente.
 
@@ -69,11 +69,11 @@ A continuación se enumeran algunas limitaciones de la monitorización básica d
 
 * El reproductor informa de su propio estado de reproducción al servidor, por lo que requiere una conexión activa.
 
-* El `isContentRendering` La propiedad que comprueba la GPU consume demasiados recursos para habilitarse de forma predeterminada y requiere la inclusión explícita en las preferencias del reproductor. El Adobe recomienda no utilizarlo con vídeos en producción.
+* El `isContentRendering` La propiedad de que comprueba la GPU consume muchos más recursos por defecto y requiere la inclusión explícita en las preferencias del reproductor. El Adobe recomienda no utilizarlo con vídeos en producción.
 
 * SPA Esta función solo se admite para canales de secuencia y aún no cubre el caso de uso de canales interactivos ().
 
-* Las métricas aún no están completamente expuestas a los clientes, Adobe está trabajando en habilitar próximamente mecanismos de creación de informes y alertas similares a los de un panel.
+* Las métricas aún no están completamente expuestas a los clientes, pero Adobe está trabajando para habilitar pronto mecanismos de creación de informes y alertas similares a los de un panel.
 
 ### Otros recursos {#additional-resources}
 
@@ -83,4 +83,4 @@ Consulte los siguientes temas para obtener información detallada:
 
 * Para implementar el reproductor Chrome OS, consulte [Consola de administración de Chrome](implementing-chrome-os-player.md) para obtener más información.
 
-* Para configurar el reproductor de Windows de AEM Screens, consulte [Implementación del Reproductor de Windows](implementing-windows-player.md).
+* Para configurar el Reproductor de AEM Screens Windows, consulte [Implementación del Reproductor de Windows](implementing-windows-player.md).

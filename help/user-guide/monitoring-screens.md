@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas del Centro de control de dispositivos
-description: Obtenga información sobre cómo monitorizar y solucionar problemas de rendimiento de la actividad del reproductor de AEM Screens y del dispositivo mediante el panel de dispositivos.
+description: Obtenga información sobre cómo supervisar y solucionar problemas de rendimiento de la actividad del Reproductor de AEM Screens y del dispositivo mediante el panel de dispositivos.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Solución de problemas del Centro de control de dispositivos {#troubleshooting-device-control-center}
 
-Puede monitorizar y solucionar problemas de rendimiento de la actividad del reproductor AEM Screens y del dispositivo mediante el panel de dispositivos. Esta página proporciona información sobre cómo monitorizar y solucionar problemas de rendimiento percibidos para el reproductor Screens y los dispositivos asignados.
+Puede supervisar y solucionar problemas de rendimiento de la actividad y el dispositivo del Reproductor de AEM Screens mediante el panel de dispositivos. Esta página proporciona información sobre cómo monitorizar y solucionar problemas de rendimiento percibidos para el reproductor Screens y los dispositivos asignados.
 
 ## Monitorización y solución de problemas desde el Centro de control de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -49,7 +49,7 @@ Siga los pasos a continuación para navegar al panel de dispositivos:
 
 ### Monitorizar actividad del dispositivo {#monitor-device-activity}
 
-El **Actividad** el panel muestra el último ping del reproductor de AEM Screens con la marca de tiempo. El último ping corresponde a la última vez que el dispositivo contactó con el servidor.
+El **Actividad** El panel muestra el último ping del reproductor de AEM Screens con la marca de tiempo. El último ping corresponde a la última vez que el dispositivo contactó con el servidor.
 
 ![chlimage_1](assets/chlimage_1.png)
 

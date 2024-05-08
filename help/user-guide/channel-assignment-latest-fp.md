@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -97,7 +97,7 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 Este ejemplo muestra la salida en un reproductor Chrome. Cuando haya asignado el canal a la pantalla, registre el dispositivo en un reproductor.
 
-Para obtener información sobre cómo registrar un dispositivo en un reproductor AEM Screens, consulte [Registro de dispositivos](device-registration.md).
+Para obtener información sobre cómo registrar un dispositivo en un reproductor de AEM Screens, consulte [Registro de dispositivos](device-registration.md).
 
 Puede ver el siguiente resultado a su elección de reproductor:
 

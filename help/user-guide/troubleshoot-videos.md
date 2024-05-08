@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Para utilizar un flujo de trabajo DAM para crear representaciones FullHD, haga l
 
 #### Indicador de directiva de reproducción automática de resolución de problemas {#troubleshooting-autoplay-policy-flag}
 
-En caso de que el reproductor de AEM Screens capte el vídeo pero no se muestre, ejecute el procedimiento de localización de averías del indicador de la directiva de reproducción automática.
+En caso de que el Reproductor de AEM Screens capte el vídeo pero no se muestre, solucione el problema del indicador de la directiva de reproducción automática.
 
 Siga los pasos a continuación para solucionar el problema de indicador de política de reproducción automática de Google:
 

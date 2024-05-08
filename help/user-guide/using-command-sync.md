@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
    >
    >Para obtener información sobre cómo registrar un dispositivo, consulte [Registro de dispositivos](/help/user-guide/device-registration.md)
 
-1. Para fines de demostración, este ejemplo muestra un dispositivo Chrome y un reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
+1. Para fines de demostración, este ejemplo muestra un dispositivo Chrome y un Reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
    ![image1](assets/command-sync6.png)
 
 ### Actualizando configuración de canal
@@ -91,7 +91,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
 ### Configuración de un principal {#setting-up-primary}
 
 1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones**  > **Vestíbulo** > **LobbyDisplay** y haga clic en **Tablero** de la barra de acciones.
-Observe los dos dispositivos (Chrome y reproductor de Windows) en **DISPOSITIVOS** panel, como se ve a continuación:
+Observe los dos dispositivos (Chrome y Windows Player) en **DISPOSITIVOS** panel, como se ve a continuación:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Desde el **DISPOSITIVOS** , haga clic en el dispositivo que desee establecer como principal. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como dispositivo principal. Clic **Establecer como dispositivo principal**.
@@ -108,8 +108,8 @@ Observe los dos dispositivos (Chrome y reproductor de Windows) en **DISPOSITIVOS
 
 ### Sincronización con el principal {#sync-up-primary}
 
-1. Una vez que haya establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el reproductor de Windows) para sincronizarlo con el principal.
-Haga clic en el otro dispositivo (en este caso, el reproductor de Windows) desde el **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
+1. Una vez establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el Reproductor de Windows) para sincronizarlo con el principal.
+Haga clic en el otro dispositivo (en este caso, el Reproductor de Windows) en **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Haga clic en el otro dispositivo (en este caso, el reproductor de Windows) desde
    >[NOTA:]
    > El **Sincronizar con el dispositivo principal** El cuadro de diálogo muestra la lista de dispositivos principales. Seleccione el preferido.
 
-1. Cuando el dispositivo (reproductor de Windows) está sincronizado con el principal (reproductor de Chrome), puede ver el dispositivo sincronizado en la **DISPOSITIVOS** panel.
+1. Cuando el dispositivo (Reproductor de Windows) está sincronizado con el principal (Reproductor de Chrome), puede ver el dispositivo sincronizado en la **DISPOSITIVOS** panel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 # Notas de la versión del paquete de funciones 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Puede obtener la información de la versión más reciente en [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes)
+>El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Puede obtener la información de la versión más reciente en [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidad {#availability}
 
@@ -39,4 +39,4 @@ Esta versión solo incluye correcciones de seguridad.
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

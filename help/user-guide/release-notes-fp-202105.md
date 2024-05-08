@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 # Notas de la versión del paquete de funciones 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -34,7 +34,7 @@ La fecha de lanzamiento del paquete de funciones 202105 de AEM Screens es el 4 d
 
 * **Bloquear páginas en un canal de AEM Screens**
 
-  AEM Screens ahora es compatible *Bloquear una página*, como ya se implementó en AEM Sites. Adobe Experience Manager AEM () permite bloquear páginas para que nadie más pueda modificar su contenido. Esto resulta útil cuando realiza varias ediciones en una página específica o cuando debe congelar una página durante un corto tiempo.
+  AEM Screens ahora es compatible *Bloquear una página*, como ya se implementó en AEM Sites. Adobe Experience Manager AEM () permite bloquear páginas para que nadie más pueda editar su contenido. Esta función es útil cuando realiza varias ediciones en una página específica o cuando debe congelar una página durante un corto tiempo.
 
 * **Nombrar el dispositivo del reproductor de AEM Screens**
 
@@ -54,8 +54,8 @@ De forma predeterminada, cuando se utiliza el registro masivo para registrar un 
 
 ### Correcciones de errores {#bug-fixes}
 
-* El reproductor mostraba una pantalla en negro al cambiar al canal que contenía la secuencia incrustada dinámica.
-* Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evita aún más el error 404 o una página con un mensaje de error.
+* El reproductor mostraba una pantalla en negro al cambiar a un canal que contenía una secuencia incrustada dinámica.
+* Los reproductores de Screens ahora bloquean el cambio a cualquier canal roto que evita aún más un error 404 o una página con un mensaje de error.
 
 ### Reproductores de AEM Screens publicados
 
@@ -69,4 +69,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -66,11 +66,11 @@ El menú Configuration permite modificar las siguientes opciones:
 
 * Restablecer **Firmware**, **Preferencias**, o **A Fábrica** de este cuadro de diálogo.
 
-* Especifique el número máximo de archivos de registro que desea conservar para un reproductor de AEM Screens en **Número máximo. de archivos de registro que se van a conservar**.
+* Especifique el número máximo de archivos de registro que desea conservar para un Reproductor de AEM Screens en **Número máximo. de archivos de registro que se van a conservar**.
 
 * Habilitar o deshabilitar **Menú Administrador**, **Conmutador de canales**, y **IU de actividad** para el reproductor Screens.
 
-  Si la variable **IU de actividad** está habilitado desde el **Configuración** menú, el reproductor de AEM Screens muestra el *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
+  Si la variable **IU de actividad** está habilitado desde el **Configuración** , el Reproductor de AEM Screens muestra el menú *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
 
   ![imagen](/help/user-guide/assets/activity_ui.png)
 
@@ -139,8 +139,8 @@ Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 
 | **Método** | **Detalles** | **a través de Remote** | **Automatizado** | **0 Tiempo de inactividad** |
 |---|---|---|---|---|
-| Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se vuelve a cargar automáticamente con el contenido existente. | Sí | Personalizada | Casi - 1-3 segundos |
-| Actualizaciones del contenedor del reproductor | Se trata de un nuevo ejecutable que se implementará en el Reproductor. Esto requiere copiar de forma remota el nuevo binario en el reproductor, detener el que se está ejecutando e iniciar la nueva versión. Esto puede requerir volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizada | No |
+| Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se vuelve a cargar automáticamente con el contenido existente. | Sí | Personalizado | Casi - 1-3 segundos |
+| Actualizaciones del contenedor del reproductor | Se trata de un nuevo ejecutable que se implementará en el Reproductor. Esto requiere copiar de forma remota el nuevo binario en el reproductor, detener el que se está ejecutando e iniciar la nueva versión. Esto puede requerir volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizado | No |
 
 ## Directrices de selección de hardware para dispositivos de reproducción {#hardware-selection-guidelines-for-player-device}
 

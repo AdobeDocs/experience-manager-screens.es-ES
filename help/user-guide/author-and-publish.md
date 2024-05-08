@@ -2,7 +2,7 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Una vez configurada la topología de publicación, configure las instancias de a
 
 >[!NOTE]
 >
->Puede abrir un reproductor de AEM Screens con la aplicación de AEM Screens que descargó o con el explorador web.
+>Puede abrir un Reproductor de AEM Screens con la aplicación de AEM Screens que descargó o con el explorador web.
 
 #### Paso 2: Registro de un dispositivo en Autor {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ También puede activar el dispositivo desde la Consola de administración de dis
 
 >[!NOTE]
 >
->Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. Clic **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, los cambios se propagan al reproductor de AEM Screens.
+>Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. Clic **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -296,13 +296,13 @@ Siga los pasos a continuación para verificar el comportamiento de creación y p
 1. Haga clic en **Configuración** del panel lateral.
 1. Cambie la instancia de autor a Instancia de publicación en **Servidor**.
 
-Vea los cambios en el reproductor de AEM Screens.
+Vea los cambios en el Reproductor de AEM Screens.
 
 También puede actualizar o editar la URL del servidor desde la consola de administración de dispositivos, para hacerlo, siga estos pasos:
 
 1. Vaya al proyecto de AEM Screens y haga clic en **Dispositivos** carpeta.
 1. Clic **Administrador de dispositivos** de la barra de acciones.
-1. Haga clic en el dispositivo y en **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, y los cambios se propagarán al reproductor de AEM Screens.
+1. Haga clic en el dispositivo y en **Editar URL del servidor** de la barra de acciones, como se muestra en la figura siguiente, y los cambios se propagarán al reproductor de AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

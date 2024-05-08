@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,7 +251,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 ## Visualización de los resultados {#viewing-the-results}
 
-Cuando haya completado la configuración de los canales y la visualización, inicie el reproductor de AEM Screens para ver el contenido.
+Cuando haya completado la configuración de los canales y la visualización, inicie el Reproductor de AEM Screens para ver el contenido.
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ Cuando haya completado la configuración de los canales y la visualización, ini
 >* [Uso del Reproductor de AEM Screens](working-with-screens-player.md)
 
 
-La siguiente salida confirma el contenido del canal en el reproductor de AEM Screens, según la ruta de visualización.
+La siguiente salida confirma el contenido del canal en el Reproductor de AEM Screens, según la ruta de visualización.
 
 **Escenario 1**:
 

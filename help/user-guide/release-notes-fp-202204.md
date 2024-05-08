@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión del paquete de funciones 202204
-description: Obtenga información acerca del paquete de funciones 202204 de AEM Screens lanzado el 26 de abril de 2022.
+description: Obtenga más información acerca del paquete de funciones 202204 de AEM Screens lanzado el 26 de abril de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '306'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 # Notas de la versión del paquete de funciones 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de 6.3.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
 
 ## Disponibilidad {#availability}
 
@@ -33,19 +33,19 @@ La fecha de lanzamiento del AEM Screens Feature Pack 202204 es el 26 de abril de
 
 ### Correcciones de errores {#bug-fixes}
 
-* La segmentación/personalización no funcionaba. Esto ya está solucionado.
+* La segmentación/personalización no funcionaba. Este error se ha corregido.
 
-* El correo electrónico de monitorización de pantallas no funcionaba después del FP10. Esto ya está solucionado.
+* El correo electrónico de monitorización de pantallas no funcionaba después del FP10. Este error se ha corregido.
 
-* El reproductor de Windows se bloqueaba al realizar una captura de pantalla en modo vertical. Esto ya está solucionado.
+* El Reproductor de Windows se bloqueaba al realizar una captura de pantalla en modo vertical. Este error se ha corregido.
 
-* SPA El canal de Screens estaba causando una pantalla en blanco con el Reproductor de Windows. Esto ya está solucionado.
+* SPA El canal de Screens estaba causando una pantalla en blanco con el Reproductor de Windows. Este error se ha corregido.
 
 * El parámetro wcmmode se ha eliminado de todas las solicitudes de Screens en la instancia de publicación.
 
 * La IU de actividad del reproductor ahora funciona según lo esperado.
 
-* El Reproductor no ha podido obtener la última actualización mediante la administración de la publicación. Esto ya está solucionado.
+* El Reproductor no ha podido obtener la última actualización mediante la administración de la publicación. Este error se ha corregido.
 
 ### Reproductores de AEM Screens publicados
 
@@ -59,4 +59,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.

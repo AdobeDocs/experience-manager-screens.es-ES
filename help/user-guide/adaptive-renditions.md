@@ -2,9 +2,9 @@
 title: Información general y configuraciones de la arquitectura de representaciones adaptables
 description: Obtenga información acerca de la descripción general de la arquitectura y las configuraciones en CRXDE Lite para representaciones adaptables en AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## Introducción {#introduction}
 
-Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
+Las representaciones adaptables permiten a los dispositivos hacer clic en la mejor representación automáticamente para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse en diseñar el *main* solo experiencia.
 
 ## Objetivo {#objective}
 
@@ -72,7 +72,7 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
    >[!NOTE]
    >Consulte [Uso de sintaxis de consulta de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para obtener más información.
 
-   Clic **regla1** que ha creado y escriba **expresión** in **Nombre** y **(orientación:horizontal)** in **Valor**, como se muestra a continuación. Clic **Añadir**.
+   Clic **regla1** que ha creado e introduzca la variable **expresión** in **Nombre** y **(orientación:horizontal)** in **Valor**, como se muestra a continuación. Clic **Añadir**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
    >[!NOTE]
    >El valor definido en la propiedad pattern coincide con la nueva representación de recursos y se selecciona, si la expresión se evalúa como true.
 
-   Para añadir la propiedad pattern, haga clic en **regla1** que ha creado y escriba **pattern** in **Nombre** y **horizontal** in **Valor**, como se muestra a continuación. Clic **Añadir**.
+   Para añadir la propiedad pattern, haga clic en **regla1** que ha creado e introduzca la variable **pattern** in **Nombre** y **horizontal** in **Valor**, como se muestra a continuación. Clic **Añadir**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 
 ## Pasos siguientes {#next-steps}
 
-Después de agregar propiedades y reglas de asignación de representación, como autor de contenido, puede configurar los recursos. Para ello, utilice representaciones adaptables y también migre los dispositivos de redes grandes para utilizar esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+Después de agregar propiedades y reglas de asignación de representación, como autor de contenido, puede configurar los recursos. Puede utilizar representaciones adaptables y también migrar los dispositivos de redes grandes para utilizar esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
