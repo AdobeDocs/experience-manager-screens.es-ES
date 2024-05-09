@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ La planificación incluye:
 * Solucionar errores de hardware, software o conectividad
 * Equilibrio entre los costes de resolución de problemas y los requisitos empresariales del cliente final.
 * Identificar el mejor método para solucionar problemas en la red.
-* AEM Impulso de la alineación entre el implementador de la y el integrador de audio/vídeo para establecer planes de asistencia el día 2
+* AEM Impulso de la alineación entre el implementador de la y el integrador de audio y vídeo para establecer planes de asistencia el día 2
 
 ## Resumen de las consideraciones clave relacionadas con la asistencia el día 2 {#summary-of-key-considerations-involved-in-day-support}
 
 A continuación se indican algunas consideraciones clave para la compatibilidad con el día 2:
 
-* AEM Para garantizar la alineación y la transición sin problemas desde la implementación a la asistencia técnica operativa, el Implementador de la trabaja con el Integrador de audio/vídeo para garantizar que los scripts de asistencia adecuados se definan como parte del plan de asistencia del día 2.
+* AEM Para garantizar la alineación y la transición sin problemas desde la implementación a la asistencia técnica operativa, el Implementador de la trabaja con el Integrador de audio y vídeo para garantizar que los scripts de asistencia adecuados se definan como parte del plan de asistencia del día 2.
 * Los requisitos como la gestión de dispositivos remotos, la disponibilidad del servicio de asistencia y la asistencia técnica in situ son prácticamente una realidad en esta fase de la evolución del sector de la señalización digital. Más allá de esta necesidad básica, los integradores de audio y vídeo también deberían explorar las variables de coste entre el monitorado proactivo y el reactivo, y los modelos de soporte.
 
 * Los requisitos como la gestión de dispositivos remotos, la disponibilidad del servicio de asistencia y la asistencia técnica in situ son prácticamente una realidad en esta fase de la evolución del sector de la señalización digital. Más allá de esta necesidad básica, los integradores de audio y vídeo también deberían explorar las variables de coste entre el monitorado proactivo y el reactivo, y los modelos de soporte.
@@ -55,7 +55,7 @@ A continuación se indican algunas consideraciones clave para la compatibilidad 
 
 ## Parte 5: Tutorial en vídeo sobre consideraciones de soporte {#part-video-tutorial-on-support-considerations}
 
-Siga este tutorial final a un tutorial de serie de 5 partes que se centra en garantizar la alineación y la transición sin problemas de la implementación al soporte operativo. AEM También se explica cómo un implementador de debe trabajar con el integrador de audio/vídeo para garantizar que se realicen las secuencias de comandos de soporte adecuadas que se definen como parte del plan de soporte de Día 2.
+Siga este tutorial final a un tutorial de serie de 5 partes que se centra en garantizar la alineación y la transición sin problemas de la implementación al soporte operativo. AEM También se explica cómo un Implementador de debe trabajar con el Integrador de audio y vídeo para garantizar scripts de soporte adecuados que se definen como parte del plan de soporte del Día 2.
 
 ### Consideraciones del proyecto
 

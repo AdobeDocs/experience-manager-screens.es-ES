@@ -2,9 +2,9 @@
 title: Funciones y responsabilidades del proyecto AEM Screens
 description: Obtenga información acerca de las funciones y responsabilidades del proyecto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ A continuación se muestra un ejemplo de gráfico RACI que utiliza las definicio
 
 La siguiente tabla resume los **Día cero: consideraciones previas a la venta**:
 
-| **Fase** | **Integrador de audio/vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
 |---|---|---|---|---|
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ La siguiente tabla resume los **Día cero: consideraciones previas a la venta**:
 
 La siguiente tabla resume los **Día uno: implementación del proyecto (diseño de la aplicación)**:
 
-| **Fase** | **Integrador de audio/vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y el horario del proyecto | RA | RA | C | C |
@@ -152,7 +152,7 @@ La siguiente tabla resume los **Día uno: implementación del proyecto (diseño 
 
 La siguiente tabla resume los **Día uno: Implementación del proyecto (preparación para minoristas)**:
 
-| **Fase** | **Integrador de audio/vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
 |---|---|---|---|---|
 | Pedidos y almacenamiento de hardware | RA | I | I | I |
 | Horario de incorporación comercial | I | I | C | RA |
@@ -162,7 +162,7 @@ La siguiente tabla resume los **Día uno: Implementación del proyecto (preparac
 
 La siguiente tabla resume los **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
-| **Fase** | **Integrador de audio/vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | El diseño comercial incluye operaciones de cableado | - | - | - | - |
@@ -179,7 +179,7 @@ La siguiente tabla resume los **Día uno: Día uno: Implementación del proyecto
 
 * **Desarrollador**: Normalmente, un miembro del equipo de implementación de AEM Screens o traspaso a un equipo de desarrollo interno
 
-* **Técnico**: Contratado por el integrador de audio/vídeo o forma parte de la misma empresa.
+* **Técnico**: Contratado por el integrador de audio y vídeo o forma parte de la misma empresa.
 
 La siguiente tabla resume los **Día dos: compatibilidad con el gráfico RACI tras el lanzamiento**:
 

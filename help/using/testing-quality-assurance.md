@@ -2,9 +2,9 @@
 title: Pruebas y control de calidad
 description: Obtenga información acerca de las pruebas y la garantía de calidad para AEM Screens en la Guía de prácticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -82,4 +82,4 @@ Algunos ejemplos son los siguientes:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Middleware de integrador de audio/vídeo patentado
+* Middleware de integrador de audio y vídeo patentado

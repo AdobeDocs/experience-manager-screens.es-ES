@@ -2,10 +2,10 @@
 title: Acerca de esta guía
 description: Obtenga información sobre las prácticas recomendadas para proyectos de AEM Screens para planificar y ejecutar proyectos, desde información estratégica y de diseño hasta implementación y asistencia posterior.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 33%
+source-wordcount: '254'
+ht-degree: 45%
 
 ---
 
@@ -25,7 +25,7 @@ Sin embargo, cabe destacar que muchas otras funciones también pueden beneficiar
 
 AEM Screens es una nueva extensión de Adobe Experience Manager AEM (). Dado que las herramientas son nuevas y sus aplicaciones potenciales variadas, es fundamental identificar consideraciones importantes y factores de riesgo comunes que intervienen en el desarrollo e implementación de AEM Screens.
 
-Esta guía proporciona información completa y consejos prácticos para imaginar, diseñar e incorporar experiencias de clientes intencionales en la implementación de señalización digital. También explica cómo crear un impacto positivo en su empresa mediante algunas de las prácticas recomendadas que se deberían seguir al implementar un proyecto de publicidad dinámica en AEM Screens.
+Esta guía proporciona información completa y consejos prácticos para imaginar, diseñar e incorporar experiencias de clientes intencionales en la implementación de señalización digital. También explica cómo crear un impacto positivo en su empresa mediante algunas de las prácticas recomendadas que se deberían seguir al implementar un proyecto de señalización digital en AEM Screens.
 
 >[!IMPORTANT]
 >

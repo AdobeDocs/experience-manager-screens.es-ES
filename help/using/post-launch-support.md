@@ -1,9 +1,9 @@
 ---
 title: Compatibilidad posterior al inicio
 description: Obtenga información acerca de la compatibilidad posterior al inicio con AEM Screens en la Guía de prácticas recomendadas.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 No pase por alto la compatibilidad posterior al inicio en la fase inicial.
 
-Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. El **Integrador de audio/vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios desde diferentes aspectos.
+Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. El **Integrador de audio y vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios desde diferentes aspectos.
 Tenga en cuenta los siguientes requisitos durante la compatibilidad posterior al lanzamiento:
 
 * administración de dispositivos remotos
@@ -26,7 +26,7 @@ Además, para prepararse para el éxito a largo plazo, es fundamental establecer
 
 >[!NOTE]
 >
->AEM Defina los parámetros operativos en una fase inicial incluidos en los presupuestos operativos y alinee las responsabilidades con el implementador de la y el integrador de audio/vídeo.
+>AEM Defina los parámetros operativos que se incluirán en los presupuestos operativos y alinee las responsabilidades con el implementador de la y el integrador de audio y vídeo.
 >
 >* ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esto puede requerir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
 >* ¿Es la aplicación muy visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.

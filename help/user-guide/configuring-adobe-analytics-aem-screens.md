@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Esta sección trata los siguientes temas:
 
 ## Secuenciación en Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-El ***proceso de secuenciación*** comienza con el servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido del canal envía eventos de Adobe Analytics con nómina, es decir, captura de prueba de datos a E/S de Windows y se activan eventos de permanencia. Los eventos se guardan en la base de datos de índice y se colocan posteriormente en el almacén de objetos. En función de la programación que establezca el administrador, corta los datos del almacén de objetos y los transfiere más en el almacén de fragmentos. Intenta enviar la máxima cantidad de datos al conectarse.
+El ***proceso de secuenciación*** comienza con un servicio de almacenamiento de datos que activa el servicio Adobe Analytics. El contenido del canal envía eventos de Adobe Analytics con nómina, es decir, captura de prueba de datos a E/S de Windows y se activan eventos de permanencia. Los eventos se guardan en la base de datos de índice y se colocan posteriormente en el almacén de objetos. Según la programación que establezca el administrador, corta los datos del almacén de objetos y los transfiere más en el almacén de fragmentos. Intenta enviar la cantidad máxima de datos cuando se conecta.
 
 ### Diagrama de secuencia {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td>recomendado</td> 
    <td>cadena</td> 
    <td>UUID</td> 
-   <td>ID único que identifica la instancia de un evento</td> 
+   <td>ID único que identifica una instancia de evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td>recomendado</td> 
    <td>cadena</td> 
    <td>timestamp - UTC</td> 
-   <td>Hora de inicio del evento. Si no se ha especificado, se asume que la hora del evento es la hora a la que el servidor lo recibió</td> 
+   <td>Hora de inicio del evento, si no se ha especificado esta hora, el servidor asume la hora del evento como la hora en que se recibió.</td> 
   </tr>
   <tr>
    <td> </td> 

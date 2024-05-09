@@ -2,9 +2,9 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ## Introducción {#introduction}
 
-Las representaciones adaptables permiten a los dispositivos hacer clic automáticamente en la mejor representación para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas, lo que permite a los clientes centrarse únicamente en diseñar el *main* experiencia.
+Las representaciones adaptables permiten a los dispositivos hacer clic en la mejor representación automáticamente para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas. Permite a los clientes centrarse en diseñar la *main* experiencia.
 
 ## Objetivo {#objective}
 
-Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
+AEM Como autor de contenido de Scrßeens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
 Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
 
 >[!IMPORTANT]
@@ -26,14 +26,14 @@ Una vez que un desarrollador agrega las propiedades y reglas de asignación de r
 ## Uso de representaciones adaptables en canales {#using-adaptive-renditions}
 
 >[!NOTE]
->Después de agregar [propiedad rendition-mapping en el proyecto de Pantallas](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) y [reglas de representación y asignación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como autor de contenido, ya está listo para aplicar las representaciones a sus recursos.
+>Después de agregar el [propiedad rendition-mapping en el proyecto de Pantallas](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) y [reglas de representación y asignación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como autor de contenido, ya está listo para aplicar las representaciones a sus recursos.
 
 ### Aplicación de representaciones a los recursos {#apply-renditions-assets}
 
-Para aplicar representaciones a los recursos que desee utilizar en el canal de Screens de paseo, haga lo siguiente.
+Para aplicar representaciones a recursos que desee utilizar en el canal de Pantallas de paseo, haga lo siguiente.
 
 1. Vaya a **Assets** AEM carpeta en la instancia de la.
-1. Cree una versión del recurso que se adapte mejor a la visualización de la señalización, por ejemplo, `seahorse.jpg`.
+1. Cree una versión del recurso que se adapte mejor a la visualización de carteles y rótulos, por ejemplo: `seahorse.jpg`.
 1. Elija el patrón de nomenclatura de la representación, por ejemplo,`landscape`, similar a lo definido en **pattern** propiedad en **CRXDE Lite**. Consulte [Adición de reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
 1. Clic **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
 

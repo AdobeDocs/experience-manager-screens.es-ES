@@ -2,9 +2,9 @@
 title: Participación del proveedor
 description: Obtenga información acerca de la participación del proveedor para la Guía de prácticas recomendadas de AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
