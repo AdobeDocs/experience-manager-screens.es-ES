@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ En la siguiente página se describe cómo utilizar la sincronización de comando
 
 ## Información general {#overview}
 
-Las soluciones de comunicación digital deben admitir paredes de vídeo y reproducción sincronizada para poder reproducir en distintas pantallas situaciones (como la cuenta atrás para Año Nuevo o la reproducción de vídeo de gran tamaño), y aquí es donde comienza a funcionar la sincronización de comandos.
+Las soluciones de comunicación digital deben admitir paredes de vídeo y reproducción sincronizada. Este escenario es verdadero si intenta admitir escenarios como la cuenta atrás de Año Nuevo o un vídeo grande dividido para reproducirse en varias pantallas. En estos escenarios es donde la sincronización de comandos entra en juego.
 
 Para utilizar la sincronización de comandos, un reproductor actúa como *principal* y envía el comando y todos los demás jugadores actúan como *clientes* y juegan cuando reciben el comando.
 
-El *principal* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esto puede ser el índice del elemento que se va a reproducir o el HTML exterior del elemento que se va a reproducir.
+El *principal* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esta acción puede ser el índice del elemento que se va a reproducir, el HTML exterior del elemento que se va a reproducir o ambos.
 
 ## Implementar la sincronización de comandos {#using-command-sync}
 
@@ -38,7 +38,7 @@ En la sección siguiente se describe cómo utilizar la sincronización de comand
 
 ### Configuración del proyecto {#setting-up}
 
-Antes de usar la función de sincronización de comandos, asegúrese de que tiene un proyecto y un canal con contenido configurado para su proyecto.
+Antes de usar la función Sincronización de comandos, asegúrese de que tiene un proyecto y un canal con contenido configurado para su proyecto.
 
 1. El siguiente ejemplo muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
 
@@ -90,7 +90,7 @@ Antes de usar la función de sincronización de comandos, asegúrese de que tien
 
 ### Configuración de un principal {#setting-up-primary}
 
-1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones**  > **Vestíbulo** > **LobbyDisplay** y haga clic en **Tablero** de la barra de acciones.
+1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones**  > **Vestíbulo** > **LobbyDisplay**. Luego haga clic en **Tablero** de la barra de acciones.
 Observe los dos dispositivos (Chrome y Windows Player) en **DISPOSITIVOS** panel, como se ve a continuación:
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -104,11 +104,11 @@ Observe los dos dispositivos (Chrome y Windows Player) en **DISPOSITIVOS** panel
 
 >[!NOTE]
 >
->Puede configurar varios dispositivos como principales.
+>Puede configurar varios dispositivos como dispositivos principales.
 
 ### Sincronización con el principal {#sync-up-primary}
 
-1. Una vez establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el Reproductor de Windows) para sincronizarlo con el principal.
+1. Una vez que haya establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el Reproductor de Windows) para sincronizarlo con el principal.
 Haga clic en el otro dispositivo (en este caso, el Reproductor de Windows) en **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)

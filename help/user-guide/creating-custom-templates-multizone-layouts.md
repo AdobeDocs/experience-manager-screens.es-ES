@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,11 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
 
 1. **Convención de nomenclatura**:
 
-   Antes de saber cómo crear plantillas de varias zonas personalizadas para utilizarlas en un proyecto de AEM Screens, es necesario que entienda el lenguaje de las plantillas que desea crear.
+   Ayuda a comprender cómo crear plantillas de varias zonas personalizadas para utilizarlas en un proyecto de AEM Screens. Pero primero, debe comprender el lenguaje de las plantillas que desea crear.
 
    | **Nombre del diseño** | **Descripción** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que permite crear tres zonas:<br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80 % de la pantalla horizontal y 20 % de la pantalla vertical justificada a la derecha<br>* Zona 3: 100 % de pantalla horizontal y 80 % de pantalla vertical con relación de aspecto de 16:9 |
+   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que permite crear tres zonas:<br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80% de la pantalla horizontal y 20% de la pantalla vertical justificada a la derecha<br>* Zona 3 como 100% de la pantalla horizontal y 80% de la pantalla vertical. La relación de aspecto es de 16:9 |
    | `Upper20-PortraitHD2Zone` | Una plantilla vertical de dos zonas que cubre el 20% de la pantalla desde la parte superior, con una relación de aspecto de 16:9 |
    | `Right20-LandscapeSD3Zone` | Una plantilla de tres zonas que cubre el 20 % de la pantalla desde la derecha, con una relación de aspecto de 4:3 |
 
@@ -94,7 +94,7 @@ Siga los pasos a continuación para crear una `Left20-LandscapeHD3Zone` Diseño 
 
    ![imagen](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Del mismo modo, agregue *my-custom-layout-top-right* para *r1c2*  y, *my-custom-layout-bottom* para *r2c1* nodo.
+   Del mismo modo, agregue *my-custom-layout-top-right* para *r1c2* y *my-custom-layout-bottom* para *r2c1* nodo.
 
    >[!NOTE]
    >Estas clases personalizadas se utilizan en el CSS para establecer la anchura y la altura de estas cuadrículas adaptables.
@@ -134,7 +134,7 @@ Siga los pasos a continuación para crear una `Left20-LandscapeHD3Zone` Diseño 
 1. Vaya a `/apps/<project>/templates/my-custom-layout/jcr:content` y actualice la propiedad *`cq:designPath`* hasta `/apps/settings/wcm/designs/customtemplate-designs` para poder cargar los estilos configurados en static.css.
 
    >[!NOTE]
-   >Escriba todos los estilos en lugar de copiar o pegar, lo que puede provocar espacios en blanco que resulten en problemas de estilo css.
+   >Escriba todos los estilos en lugar de copiarlos o pegarlos, lo que puede generar espacios en blanco que producen problemas de estilo css.
 
 ## Visualización del resultado {#viewing-result}
 
@@ -152,13 +152,13 @@ Siga los pasos a continuación para utilizar la plantilla personalizada anterior
 
    ![imagen](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserción de una imagen como capa de fondo  {#inserting-image}
+## Inserción de una imagen como capa de fondo {#inserting-image}
 
 Puede insertar una imagen como capa de fondo en el diseño:
 
 Puede ajustar la regla CSS para utilizar &quot;data-uri&quot; y directamente en línea la imagen (`Base64` codificado) en el archivo CSS que ha creado en (paso 13), *static.css*.
 
-Esto se hace de la siguiente manera:
+Esta disposición se hace de la siguiente manera:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 O bien, puede seguir los pasos a continuación:

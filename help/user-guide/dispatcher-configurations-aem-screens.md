@@ -5,18 +5,18 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # Configuraciones de Dispatcher para AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher es una herramienta de almacenamiento en caché o de equilibrio de carga de Adobe Experience Manager.
+Dispatcher es una herramienta de almacenamiento en caché, de equilibrio de carga o ambas de Adobe Experience Manager.
 
-La siguiente página proporciona las directrices para configurar Dispatcher para un proyecto de AEM Screens.
+En la siguiente página se proporcionan las directrices para configurar Dispatcher para un proyecto de AEM Screens.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Consulte [Configurar Dispatcher](https://experienceleague.adobe.com/es_es/docs/e
 >[!IMPORTANT]
 >Las siguientes configuraciones de Dispatcher se aplican únicamente a la versión v2 del manifiesto. Consulte [Configuraciones de Dispatcher para la versión 3 del manifiesto](#configuring-dispatcherv3) para la versión de manifiesto v3.
 
-Los reproductores o dispositivos de AEM Screens también utilizan una sesión autenticada para acceder a los recursos de las instancias de publicación. Por lo tanto, cuando tenga varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de los reproductores/dispositivos de AEM Screens.
+Los reproductores o dispositivos de AEM Screens también utilizan una sesión autenticada para acceder a los recursos de las instancias de publicación. Cuando tiene varias instancias de publicación, las solicitudes siempre deben ir a la misma instancia de publicación para que la sesión autenticada sea válida para todas las solicitudes procedentes de los reproductores o dispositivos de AEM Screens.
 
 Siga los pasos a continuación para configurar Dispatcher para un proyecto de AEM Screens.
 
@@ -67,7 +67,7 @@ Agregue lo siguiente a `/clientheaders`sección:
 
 ### Paso 2: Configuración de los filtros de pantallas {#step-configure-screens-filters}
 
-Para configurar los filtros de Screens, agregue lo siguiente a ***/filter***.
+Para configurar los filtros de Screens, agregue lo siguiente a ***`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -143,7 +143,7 @@ Siga estos dos requisitos previos antes de configurar Dispatcher (versión de ma
 
   ![imagen](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### Filtros  {#filter-v3}
+### Filtros {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ Siga estos dos requisitos previos antes de configurar Dispatcher (versión de ma
 
 * Añadir `/allowAuthorized "1"` hasta `/cache` sección en `publish_farm.any`.
 
-* Todos los reproductores de AEM Screens AEM utilizan una sesión autenticada para conectarse a la red (autor/publicación. Dispatcher de forma predeterminada no almacena en caché estas direcciones URL, por lo que debe habilitarlas.
+* Todos los reproductores de AEM Screens AEM utilizan una sesión autenticada para conectarse a la red (autor/publicación. De forma predeterminada, Dispatcher no almacena en caché estas direcciones URL, por lo que debe habilitarlas.
 
 * Añadir `statfileslevel "10"` hasta `/cache` sección en `publish_farm.any`
-Esto admite el almacenamiento en caché de hasta diez niveles desde la caché docroot e invalida en consecuencia cuando se publica contenido, en lugar de invalidar todo. No dude en cambiar este nivel en función de la profundidad de la estructura de contenido
+Esta regla admite el almacenamiento en caché de hasta diez niveles desde la caché docroot e invalida en consecuencia cuando se publica contenido, en lugar de invalidar todo. No dude en cambiar este nivel en función de la profundidad de la estructura de contenido
 
 * Agregue lo siguiente a `/invalidate section in publish_farm.any`
 

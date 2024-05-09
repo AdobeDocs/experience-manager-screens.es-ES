@@ -2,7 +2,7 @@
 title: Monitorización de soporte
 description: Obtenga información acerca de la supervisión de soporte para la Guía de prácticas recomendadas de AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ La monitorización de contenido le permite solucionar los problemas relacionados
 1. Si se encuentra un problema de pantalla en blanco:
 
    * Compruebe la *previsualización* para que puedan ver si el canal muestra una pantalla en negro.
-   * Registre un *reproductor local de chrome* (como extensión) en su portátil a esa pantalla y ver si se muestra una pantalla en negro.
+   * Registre un *Reproductor local de Chrome* (como extensión) en su portátil a esa pantalla y ver si se muestra una pantalla en negro.
    * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.
 
    Además, si el problema no se produce en el reproductor local, sino solo en el dispositivo:
