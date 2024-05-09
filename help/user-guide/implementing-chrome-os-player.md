@@ -9,14 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Implementación del reproductor Chrome OS  {#implementing-chrome-os-player}
+# Implementación del reproductor Chrome OS {#implementing-chrome-os-player}
 
 En esta sección se describe cómo implementar el reproductor del sistema operativo Chrome mediante la consola de administración de Chrome.
 
@@ -26,7 +26,7 @@ Siga los pasos a continuación para configurar la consola de administración de 
 
 1. Regístrese en Chrome Management Console. Debe obtener una licencia para Chrome Management Console. Contacto [Asistencia de Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Consulte Administrar la configuración del dispositivo Chrome para obtener más información.
 1. Registre su dispositivo Chrome OS en el dominio y espere 15 minutos a que el dispositivo se sincronice con la consola de administración de Chrome. Para obtener más información sobre cómo inscribir un dispositivo Chrome, haga clic en [aquí](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. El reproductor Chrome está disponible en la tienda web de Chrome.
+1. El reproductor Chrome está disponible en la Chrome Web Store.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Siga los pasos a continuación para configurar la consola de administración de 
 
 ## Nombrar el reproductor Chrome OS {#name-chrome}
 
-Puede asignar un nombre de dispositivo descriptivo al reproductor Chrome, enviando así el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo descriptivo al reproductor Chrome, enviando así el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta funcionalidad no solo le permite asignar un nombre al reproductor Chrome, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
@@ -49,7 +49,7 @@ Siga los pasos a continuación para configurar el nombre en Chrome Player:
 
    ![imagen](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Puede establecer el ID de recurso como parte de la inscripción empresarial y en la consola de administración de Chrome.
+1. Puede establecer el ID del recurso como parte de la inscripción empresarial y en la consola de administración de Chrome.
 
    ![imagen](/help/user-guide/assets/chrome-device/chrome3.png)
 
@@ -94,7 +94,7 @@ Siga los pasos a continuación para habilitar el modo Quiosco:
 
 El Reproductor de AEM Screens es una aplicación habilitada para quioscos que también habilita la Configuración de directivas remotas para reproductores de sistemas operativos Chrome.
 
-Siga los pasos a continuación para configurar varias opciones del reproductor:
+Siga los pasos a continuación para configurar las distintas opciones del reproductor:
 
 1. Inicie sesión en Chrome Management Console.
 1. Clic **Administración de dispositivos** > **Administración de Chrome** > **Administración de aplicaciones**. El Reproductor de AEM Screens se muestra en la lista.
@@ -150,7 +150,7 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 
 >[!NOTE]
 >
->Las configuraciones de directiva se aplican estrictamente y no se anulan manualmente en la IU de administración del reproductor. Para permitir la configuración manual del reproductor para una directiva determinada, no especifique la directiva en la ***configuración de directiva***. Por ejemplo, si desea permitir la configuración manual de la programación de reinicio, no especifique la clave ***rebootSchedule*** en la configuración de la directiva.
+>Las configuraciones de directiva se aplican estrictamente y la IU de administración del reproductor no se anula manualmente. Para permitir la configuración manual del reproductor para una directiva determinada, no especifique la directiva en la ***configuración de directiva***. Por ejemplo, si desea permitir la configuración manual de la programación de reinicio, no especifique la clave ***rebootSchedule*** en la configuración de la directiva.
 
 ### Uso del control remoto de Screens {#using-remote-control}
 

@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Uso del control remoto de Screens  {#implementing-remote-control}
+# Uso del control remoto de Screens {#implementing-remote-control}
 
-La función de control remoto facilita el acceso a la interfaz de usuario del administrador, al conmutador de canales o a funciones como Borrar caché y volver a cargar. Además, proporciona un método para ver la versión local del firmware y la información del sistema en el reproductor. AEM Esto es especialmente útil porque puede ser difícil conectar un ratón y operar en dispositivos de producción que están fuera de alcance y aún más si el reproductor ha perdido la conexión con el sistema de reproducción de la pantalla de inicio de la pantalla de inicio de la pantalla de inicio de la pantalla de inicio de la pantalla de inicio. Esto también resulta útil cuando se utiliza Samsung RMS, ya que la diferencia de resolución puede dificultar la localización y apertura de la interfaz de usuario del administrador con un ratón.
+La función de control remoto facilita el acceso a la interfaz de usuario del administrador, al conmutador de canales o a funciones como Borrar caché y volver a cargar. Además, proporciona un método para ver la versión local del firmware y la información del sistema en el reproductor. Esta capacidad es especialmente útil porque puede resultar difícil conectar un mouse. AEM O bien, puede operar en dispositivos de producción que estén fuera del alcance y aún más si el reproductor ha perdido la conexión con los dispositivos de producción que se encuentran fuera de su alcance o con los dispositivos de producción que se encuentran fuera de su alcance. También resulta útil cuando se utiliza Samsung RMS, ya que la diferencia de resolución puede dificultar la localización y apertura de la interfaz de usuario del administrador con un ratón.
 
 ## Combinaciones de teclas comunes de control remoto {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ El diagrama siguiente ilustra el uso de la tecla en un control remoto Samsung:
 ![imagen](assets/tizen/remote.png)
 
 >[!NOTE]
->Si establece los valores de configuración del dispositivo de enableAdminUI o enableOSD en false, el control remoto no conmuta la interfaz de usuario de administración y el conmutador de canal. No puede utilizar las teclas de flecha para navegar por la interfaz de usuario de administración o los canales. Sin embargo, aún puede borrar la caché y volver a cargar el reproductor. Puede desactivar la función de control remoto si alguna de las combinaciones de teclado entra en conflicto con el contenido interactivo mediante este código:
+>Si establece los valores de configuración del dispositivo de enableAdminUI o enableOSD en false, el control remoto no conmuta la interfaz de usuario de administración y el conmutador de canales. No puede utilizar las teclas de flecha para desplazarse por la interfaz de usuario de administración o los canales. Sin embargo, aún puede borrar la caché y volver a cargar el reproductor. Puede desactivar la función de control remoto si alguna de las combinaciones de teclado entra en conflicto con el contenido interactivo mediante este código:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 >
 >**Información importante sobre privacidad**
 >
->Cuando utilice la función de reconocimiento de voz, siga todas las directrices legales y éticas aplicables en su región (incluyendo, entre otras, la notificación visible a los usuarios finales de que el reproductor utiliza el reconocimiento de voz). El Adobe no recibe, almacena ni procesa ninguna información relacionada con la voz. Los reproductores de AEM Screens utilizan la API de voz web estándar integrada en el motor de navegación. Entre bastidores, esta API envía una forma de onda de su discurso a los servidores de Google para convertirlo de voz en texto y el reproductor compara este texto con las palabras clave configuradas.
+>Al utilizar la función de reconocimiento de voz, siga todas las directrices legales y éticas aplicables en su región. Estas directrices incluyen, entre otras cosas, el envío de un aviso visible a los usuarios finales de que el reproductor utiliza el reconocimiento de voz. El Adobe no recibe, almacena ni procesa ninguna información relacionada con la voz. Los reproductores de AEM Screens utilizan la API de voz web estándar integrada en el motor de exploración. Entre bastidores, esta API envía una forma de onda de su discurso a los servidores de Google para convertirlo de voz en texto. El reproductor hace coincidir el texto con las palabras clave configuradas.
 >
->Consulte [Documento técnico de privacidad de Google sobre la API de voz web](https://www.google.com/chrome/privacy/whitepaper.html#speech) para obtener más información.
+>Consulte [Documento técnico de privacidad de Google sobre la API de voz en web](https://www.google.com/chrome/privacy/whitepaper.html#speech) para obtener más información.
 
 
 La función de reconocimiento de voz permite cambiar el contenido en un canal de AEM Screens impulsado por la interacción de voz.
@@ -41,7 +41,7 @@ En la siguiente sección se describe cómo habilitar y utilizar la función de r
 
 ## Conmutador de canal de visualización de contenido en pantalla completa o en pantalla dividida {#sequence-channel}
 
-Antes de usar la función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para su proyecto.
+Antes de usar una función de reconocimiento de voz, asegúrese de que tiene un proyecto y un canal con contenido configurado para su proyecto.
 
 1. El siguiente ejemplo muestra un proyecto de demostración denominado **VoiceDemo** y tres canales de secuencia **Principal**, **Bebidas frías**, y **Bebidas**, como se muestra en la figura siguiente.
 
@@ -73,7 +73,7 @@ Antes de usar la función de reconocimiento de voz, asegúrese de que tiene un p
 
    ![imagen](assets/voice-recognition/vr-2.png)
 
-   Si ha añadido el canal de Pantallas divididas al proyecto, vaya a **SplitScreen** y arrastre y suelte dos secuencias incrustadas y agregue rutas a ambas. **Bebidas frías** y **Bebidas** como se muestra en la figura siguiente.
+   Si ha añadido el canal de Pantallas divididas al proyecto, vaya a **SplitScreen** y arrastre y suelte dos secuencias incrustadas. Añada rutas a ambos **Bebidas frías** y **Bebidas** como se muestra en la figura siguiente.
    ![imagen](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -97,11 +97,11 @@ Siga los pasos a continuación para añadir etiquetas a su canal:
 
    O bien,
 
-   AEM También puede crear etiquetas a partir de la instancia de la de antemano para su proyecto y hacer clic en ellas. Después de seguir los pasos explicados en [Creación de etiquetas](#creating-tags), puede hacer clic en la etiqueta desde la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
+   AEM También puede crear etiquetas a partir de la instancia de de antemano para su proyecto y seleccionarlas. Después de seguir los pasos explicados en [Creación de etiquetas](#creating-tags), puede hacer clic en la etiqueta desde la ubicación y añadirla a su canal, como se muestra en la figura siguiente:
 
    ![imagen](assets/voice-recognition/vr-tag1.png)
 
-1. Del mismo modo, agregue la etiqueta con el título **ardiente** a la **Bebidas** canal.
+1. Del mismo modo, agregue una etiqueta titulada **ardiente** a la **Bebidas** canal.
 
 1. Si utiliza un canal de Pantallas divididas, añada ambas etiquetas (**ardiente** y **frío**) a la **SplitScreen** propiedades del canal, como se muestra en la figura siguiente.
 
@@ -116,7 +116,7 @@ Siga los pasos a continuación para crear etiquetas:
 
 1. AEM Vaya a la instancia de la.
 
-1. Haga clic en el icono herramientas > **Etiquetado**.
+1. Haga clic en el icono de herramientas > **Etiquetado**.
    ![imagen](assets/voice-recognition/vr-7.png)
 
 1. Clic **Crear** > **Crear área de nombres**.
@@ -161,7 +161,7 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
 
 1. Una vez asignados los canales a una pantalla, vaya a **LobbyDisplay** y haga clic en la pantalla. Clic **Propiedades** de la barra de acciones.
 
-1. Vaya a **Mostrar** y activar **Voz habilitada** opción en **Contenido**.
+1. Vaya a **Mostrar** y habilite la pestaña **Voz habilitada** opción en **Contenido**.
 
    ![imagen](assets/voice-recognition/vr-disp.png)
 
@@ -170,17 +170,17 @@ Ahora puede utilizar estas etiquetas en su proyecto de AEM Screens.
 
 ### Visualización del contenido en el reproductor de Chrome {#viewing-content}
 
-Cuando haya completado los pasos anteriores, puede registrar el dispositivo Chrome para ver la salida.
+Cuando haya completado los pasos anteriores, puede registrar el dispositivo Chrome para ver el resultado.
 
 >[!NOTE]
 >Consulte [Registro de dispositivos](device-registration.md).
 
 **Salida deseada para el canal de secuencia**
 
-El **Principal** canal está reproduciendo su contenido, pero cuando utiliza palabras con palabra clave **ardiente** como *Me gustaría tomar una bebida caliente*, el canal comienza a reproducir el contenido del **Bebidas** canal.
+El **Principal** El canal está reproduciendo su contenido. Sin embargo, cuando se utilizan palabras con la palabra clave **ardiente**, como *Me gustaría tomar una bebida caliente*, el canal comienza a reproducir el contenido del **Bebidas** canal.
 
-Del mismo modo, si utiliza Word con una palabra clave **frío** como *Me gustaría tener algo frío*, el canal comienza a reproducir el contenido del **Bebidas frías** canal.
+Del mismo modo, si utiliza una palabra con una palabra clave **frío** como *Me gustaría tener algo frío*, el canal comienza a reproducir el contenido del **Bebidas frías** canal.
 
 **Salida deseada para el canal de pantallas divididas**
 
-El **Principal** El canal está reproduciendo su contenido. Sin embargo, cuando se utilizan palabras con palabra clave **ardiente** y **frío** juntos, como *Me gustaría ver el menú de bebidas frías y calientes*, el canal reproduce el contenido del **SplitScreen** canal. Si usted dice *volver al menú principal*, vuelve a la **Principal** canal.
+El **Principal** El canal está reproduciendo su contenido. Sin embargo, cuando se utilizan palabras con la palabra clave **ardiente** y **frío** juntos, como *Me gustaría ver el menú de bebidas frías y calientes*, el canal reproduce el contenido del **SplitScreen** canal. Si usted dice *volver al menú principal*, vuelve a la **Principal** canal.

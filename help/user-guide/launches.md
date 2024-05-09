@@ -10,16 +10,16 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Actualización de contenido mediante Screens Launch {#launches}
 
-Los autores de contenido pueden crear una versión futura de los canales, conocida como **Lanzamiento de Screens** y establezca la fecha de lanzamiento de este lanzamiento. Esto permite que el contenido esté activo en dispositivos o reproductores en la fecha de lanzamiento especificada.
+Los autores de contenido pueden crear una versión futura de los canales y establecer la fecha de lanzamiento. Esta capacidad permite que el contenido esté activo en dispositivos o reproductores en la fecha en directo especificada.
 
 Con la ayuda de ***Lanzamiento de Screens*** Por lo tanto, los autores pueden obtener una vista previa de cada canal en el lanzamiento y deben poder iniciar una solicitud de revisión. El grupo de aprobadores recibe una notificación y puede aprobar o rechazar la solicitud. Cuando se llega a la fecha de lanzamiento, el contenido se reproduce en los dispositivos.
 
@@ -29,7 +29,7 @@ Después de la aprobación y en la fecha de lanzamiento (10 de noviembre a las 8
 
 ## Requisitos  {#requirements}
 
-Antes de empezar a usar *Lanzamiento de Screens* en un proyecto de AEM Screens, asegúrese de comprender el concepto de Período de gracia y su importancia.
+Antes de empezar a usar *Lanzamiento de Screens* en un proyecto de AEM Screens, asegúrese de comprender el concepto de período de gracia y su importancia.
 
 La ejecución de una experiencia en la fecha en directo establecida en el reproductor implica:
 
@@ -37,7 +37,7 @@ La ejecución de una experiencia en la fecha en directo establecida en el reprod
 
 * La publicación de los recursos en instancias de publicación (normalmente tarda unos minutos, depende del tamaño de los canales o recursos que se deban publicar).
 
-* Tiempo que tarda la actualización en completarse el contenido sin conexión (normalmente tarda unos minutos).
+* Tiempo que tarda en completarse la actualización del contenido sin conexión (normalmente tarda unos minutos).
 
 * Tiempo que tardan los reproductores en descargar el contenido de la instancia de publicación (normalmente tarda minutos en función del ancho de banda y el tamaño de los recursos que se deben descargar).
 
@@ -47,24 +47,24 @@ La ejecución de una experiencia en la fecha en directo establecida en el reprod
 
 Para que el reproductor pueda empezar a reproducir el contenido en la fecha en directo establecida, inicie las actividades anteriores a la fecha en directo.
 
-Si la fecha de lanzamiento es *24 de noviembre, 9:00 a.m.* y el periodo de gracia es *24 horas*, la secuencia de acciones anterior comenzará a las (fecha de lanzamiento - período de gracia), es decir, el 23 de noviembre a las 9:00 a.m. hora del servidor. Esto da 24 horas para completar todas las acciones mencionadas anteriormente para que el contenido llegue a los reproductores. Los reproductores entienden que se trata de un contenido de lanzamiento. Como tal, el contenido no se reproduce inmediatamente, pero los reproductores pueden almacenar este contenido como una versión futura y hacer que comience a reproducirse exactamente en la fecha en directo establecida en la zona horaria del reproductor.
+Si la fecha de lanzamiento es *24 de noviembre, 9:00 a.m.* y *24 horas* es el periodo de gracia; a continuación, la secuencia de acciones anterior comienza en (fecha de lanzamiento - periodo de gracia), es decir, el 23 de noviembre a las 9:00 a.m. hora del servidor. Esta configuración proporciona 24 horas para completar todas las acciones mencionadas anteriormente para que el contenido llegue a los reproductores. Los jugadores entienden que este periodo es un contenido de lanzamiento. Como tal, el contenido no se reproduce inmediatamente, pero los reproductores pueden almacenar este contenido como una versión futura y hacer que comience a reproducirse exactamente en la fecha en directo establecida en la zona horaria del reproductor.
 
-Por ejemplo, el servidor está en PST y los dispositivos en EST. La diferencia de tiempo máxima es de tres horas en este caso y supone que la promoción tarda 1 minuto y la publicación del autor a la publicación tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. A continuación, el periodo de gracia = diferencia horaria (tres horas):
+Por ejemplo, el servidor está en PST y los dispositivos en EST. La diferencia de tiempo máxima es de tres horas. Supone que la promoción tarda 1 minuto y la publicación del autor a la publicación tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. A continuación, el periodo de gracia = diferencia horaria (tres horas):
 
 * Más tiempo para promocionar el lanzamiento (1 minuto)
 * Más tiempo para publicar el lanzamiento (10 minutos)
 * Más tiempo para descargar en el reproductor (10-15 minutos)
 * Más búfer (30 minutos)
 
-Es igual a 3 horas 56 minutos (14160 segundos).
+Por lo tanto, 3 horas y 56 minutos (14160 segundos).
 
-Por lo tanto, cada vez que programe un lanzamiento en directo, la promoción comienza antes por este desplazamiento. En la ecuación anterior, la mayoría de los elementos no tardan mucho tiempo. Puede utilizar una suposición decente para este desplazamiento cuando conozca la diferencia de tiempo máxima entre el servidor y cualquier reproductor.
+Por lo tanto, cada vez que se programa un lanzamiento activo, la promoción comienza antes teniendo en cuenta este desplazamiento. En la ecuación anterior, la mayoría de los elementos no tardan mucho tiempo. Puede utilizar una suposición decente para este desplazamiento cuando conozca la diferencia de tiempo máxima entre el servidor y cualquier reproductor.
 
 >[!NOTE]
 >
->De forma predeterminada, el periodo de gracia de Screens Launch se establece en 24 horas. Esto significa que, cuando se establece la fecha de lanzamiento de cualquier recurso en */content/screens*, la promoción comienza con este desplazamiento.
+>De forma predeterminada, el periodo de gracia de Screens Launch se establece en 24 horas. Esto significa que, cuando se establece una fecha de lanzamiento para cualquier recurso en */content/screens*, la promoción comienza con este desplazamiento.
 
-### Actualización del período de gracia listo para usar {#updating-out-of-the-box-grace-period}
+### Actualización del periodo de gracia predeterminado {#updating-out-of-the-box-grace-period}
 
 En esta sección se explica cómo actualizar un periodo de gracia predeterminado a 10 minutos.
 
@@ -81,9 +81,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Puesto que en el ejemplo anterior había establecido el Período de gracia en 10 minutos, al establecer la fecha de lanzamiento de cualquier lanzamiento de los recursos en */content/screens*, la promoción comienza con este desplazamiento.
+El período de gracia se establece en 10 minutos en el ejemplo anterior. Por lo tanto, cuando establece una fecha de lanzamiento para los recursos en */content/screens*, la promoción comienza con este desplazamiento.
 
-Por ejemplo, si la fecha de lanzamiento se establece en 24 de noviembre a las 9:00 a.m. y el periodo de gracia es de 600 segundos, el trabajo de promoción se iniciará el 24 de noviembre a las 8:50 a.m.
+Por ejemplo, si la fecha de lanzamiento se establece en 24 de noviembre a las 9:00 a.m. y el período de gracia es de 600 segundos, el trabajo de promoción se iniciará el 24 de noviembre a las 8:50 a.m.
 
 ## Uso de Screens Launch {#using-launches}
 
@@ -112,9 +112,9 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
    ![imagen](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Puede utilizar **+ Agregar canales** para añadir otro canal para el que desee crear el lanzamiento.
+   >Puede usar el complemento **+ Agregar canales** para añadir otro canal para el que desee crear el lanzamiento.
 
-   Para usar **Agregar canales** , vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
+   Para usar la variable **Agregar canales** , vaya al canal para el que desea crear el lanzamiento y haga clic en **Seleccionar**.
 
    El **Seleccionar** La opción está desactivada si intenta hacer clic en varios canales o en una carpeta para añadir el lanzamiento.
 
@@ -146,7 +146,7 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
 
      >[!CAUTION]
      >
-     >La fecha de lanzamiento respeta la zona horaria del reproductor/dispositivo en lugar de la del servidor.
+     >La fecha de lanzamiento respeta la zona horaria del reproductor/dispositivo en lugar de los servidores.
 
 1. Verá que el lanzamiento se ha creado. Puede hacer clic en **Abrir** para ver las páginas en el editor o haga clic en **Listo** para volver al proyecto.
 
@@ -162,7 +162,7 @@ Siga los pasos a continuación para implementar la funcionalidad de Screens Laun
 Una vez creado el lanzamiento, puede actualizar las propiedades como la fecha de lanzamiento, el título del lanzamiento y el ámbito de la promoción utilizando **Propiedades del lanzamiento**.
 
 * **Fecha de lanzamiento** : La fecha en directo, es decir, la fecha o la hora en que se reproduce el contenido en el reproductor de Screens según la zona horaria del reproductor.
-* **Producción lista** : Permite que los canales se publiquen después de promocionarlos, ya que esta opción está habilitada, por lo que no es necesario cambiarla.
+* **Producción lista** : Después de la promoción, permite publicar los canales y está habilitado de forma predeterminada, por lo que no es necesario cambiarlo.
 * **Ámbito** - Decide qué canales se promocionan durante la promoción de lanzamiento.
 
 Siga los pasos a continuación para editar las propiedades de Launch:
@@ -179,11 +179,11 @@ Siga los pasos a continuación para editar las propiedades de Launch:
 
    ![imagen](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Edición del lanzamiento de Screens para añadir o quitar canales  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edición del lanzamiento de Screens para añadir o quitar canales {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Una vez creado el lanzamiento, puede añadir o quitar canales al lanzamiento existente mediante **Editar lanzamiento** opción.
+Una vez creado el lanzamiento, puede añadir o quitar canales al lanzamiento existente mediante las opciones **Editar lanzamiento** opción.
 
-Cuando haya terminado, haga clic en **Guardar** para volver a navegar a **FutureLaunch** canal.
+Cuando haya terminado, haga clic en **Guardar** para volver a la **FutureLaunch** canal.
 
 ### Promoción manual del lanzamiento de Screens{#promote-the-screens-launch-manually}
 
@@ -204,7 +204,7 @@ Puede elegir los recursos que desea promocionar como parte de esta promoción ma
 
 ### Eliminación del lanzamiento de Screens
 
-Puede eliminar el lanzamiento mediante **Eliminar lanzamiento** de la opción **INICIOS PENDIENTES** panel.
+Puede eliminar el lanzamiento mediante el **Eliminar lanzamiento** de la opción **INICIOS PENDIENTES** panel.
 
 >[!CAUTION]
 >

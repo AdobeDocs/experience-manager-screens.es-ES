@@ -8,14 +8,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
-# Implementación de Cloud Player  {#implementing-cloud-player}
+# Implementación de Cloud Player {#implementing-cloud-player}
 
 Tradicionalmente, AEM Screens ha ofrecido aplicaciones de reproductor nativas distintas para varias plataformas, incluidas ChromeOS, Windows, Android™ y `Tizen`. Sin embargo, en respuesta a la evolución de las necesidades de los usuarios, Adobe presentó una solución innovadora: AEM Screens Cloud Player.
 
@@ -34,7 +34,7 @@ En esta sección se describe cómo implementar Cloud Player.
 La instalación de Cloud Player puede variar en diferentes plataformas. En general, cualquier plataforma que tenga un explorador moderno puede ejecutar la aplicación del reproductor en la nube siguiendo estos pasos:
 
 1. Abra el explorador e introduzca la variable [URL del reproductor en la nube](https://player.adobescreens.com/content/dam/universal-player/firmware.html) en la barra de direcciones.
-1. El explorador comprueba si el reproductor en la nube se puede instalar y, a continuación, muestra un icono de instalación en la barra de direcciones.
+1. El explorador comprueba si Cloud Player se puede instalar y, a continuación, muestra un icono de instalación en la barra de direcciones.
 
    ![imagen](/help/user-guide/assets/cloud-player-install.png)
 
@@ -44,14 +44,14 @@ La instalación de Cloud Player puede variar en diferentes plataformas. En gener
 >
 >### Opción de instalación de Cloud Player {#cloud-player-install-option}
 >
-1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS. La compatibilidad para instalar PWA desde la web varía según el explorador y la plataforma.
-1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador comprueba lo siguiente (más detalles aquí):
+1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS. La compatibilidad para instalar PWA desde la Web varía según el explorador y la plataforma.
+1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador puede comprobar (más detalles aquí):
 >
-* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas necesarias para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
+* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
 * Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura
 * La aplicación debe proporcionarse a través de https
 >
-1. La opción Instalar puede estar visible en diferentes ubicaciones en distintos exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
+1. La opción de instalación puede estar visible en diferentes ubicaciones en diferentes exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
 
 ## Aprovisionamiento masivo de Cloud Player {#bulk-provisioning}
 
@@ -62,18 +62,21 @@ Para realizar el aprovisionamiento masivo del reproductor en la nube en varios d
 
    1. Aloje config.json en un servidor al que se pueda acceder mediante, por ejemplo: `https://<config_server_host>/config.json`
    1. Para instalar el reproductor en la nube y aplicar las configuraciones alojadas, utilice la URL del reproductor en la nube, como: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. La aplicación Cloud Player busca config.json en la raíz de &lt;config_server_host>, analice el archivo config.json para obtener las configuraciones personalizadas y aplicarlas.
+   1. La aplicación Cloud Player busca config.json en la raíz de &lt;config_server_host>, luego analiza el archivo config.json para obtener las configuraciones personalizadas y aplicarlas.
    1. Estas configuraciones se aplican a cada recarga del reproductor.
 
 ## Aprovisionamiento masivo en el sistema operativo Chrome {#bulk-provisioning-chrome}
 
-Obtenga más información sobre el aprovisionamiento masivo en el sistema operativo Chrome, consulte [Instalación de Cloud Player en el sistema operativo Chrome](https://www.adobe.com/go/aem_screens_cloud_player_en).
+Obtenga más información sobre el aprovisionamiento masivo en el sistema operativo Chrome. Consulte [Instalación de Cloud Player en el sistema operativo Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## AEM Configuración necesaria en instancias de {#bulk-provisioning-config-aem}
 
-AEM AEM En función del tipo de instancia de, haga clic en una de las siguientes guías para habilitar el reproductor en la nube y el reproductor en la nube CORS b/w:
-* [AEM Local/AMS (en las instalaciones)](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+AEM AEM En función del tipo de instancia de, haga clic en una de las siguientes guías para habilitar CORS b/w, y Cloud Player:
+
+* [AEM Local/AMS (en las instalaciones)](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >

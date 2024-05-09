@@ -1,13 +1,13 @@
 ---
 title: Activación de nivel de recurso
-description: Obtenga información sobre cómo activar un recurso específico en un canal durante un lapso de tiempo programado en la zona horaria local del reproductor.
+description: Obtenga información sobre cómo activar un recurso específico en un canal durante un lapso de tiempo programado, todo dentro de la zona horaria local del reproductor.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,11 @@ En esta sección se tratan los siguientes temas:
 
 ## Información general {#overview}
 
-***Activación de nivel de recurso*** permite activar un recurso específico en un canal durante un lapso de tiempo programado en la zona horaria local del reproductor. Está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
+***Activación de nivel de recurso*** permite activar un recurso específico en un canal durante un periodo de tiempo programado, todo ello dentro de la zona horaria local del reproductor. Esta capacidad está disponible para imágenes, vídeos, transiciones, páginas y canales incrustados (dinámicos o estáticos).
 
 *Por ejemplo*, desea que una promoción especial se muestre solo durante la hora feliz (de 2 p. m. a 5 p. m.) los lunes y miércoles.
 
-Con esta función, no solo se puede especificar la fecha y la hora de inicio y finalización, sino también un patrón de periodicidad.
+Con esta función, no solo se puede especificar una fecha y una hora de inicio y finalización, sino también un patrón de periodicidad.
 
 ## Ventana de activación {#single-event-playback}
 
@@ -58,8 +58,8 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
    >
    >Para obtener información detallada sobre cómo
    >
-   >* Creación de un proyecto, consulte [Creación de un nuevo proyecto](creating-a-screens-project.md).
-   >* Creación y adición de contenido a un canal, consulte [Administración de canales](managing-channels.md).
+   >* Cree un proyecto. Consulte [Creación de un nuevo proyecto](creating-a-screens-project.md).
+   >* Crear y añadir contenido a un canal. Consulte [Administración de canales](managing-channels.md).
 
 1. Clic **Editar** para poder abrir el editor de canales y hacer clic en un recurso al que desee aplicar la programación.
 
@@ -79,7 +79,7 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 ## Administrar la periodicidad en Assets {#handling-recurrence-in-assets}
 
-Puede programar la reaparición de recursos en determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
+Puede programar la reaparición de activos en determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
 
 Supongamos que desea mostrar una imagen sólo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar el complemento **Activation** para establecer el intervalo recurrente deseado para el recurso.
 
@@ -96,7 +96,7 @@ Supongamos que desea mostrar una imagen sólo los viernes de 1:00 p.m. a 10:00 p
 
 #### Expresiones de ejemplo para la partición por día {#example-one}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -122,7 +122,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para WeekParting {#example-two}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -147,7 +147,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para MonthParting {#example-three}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -170,11 +170,11 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para combinación de particiones {#example-four}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | el recurso se reproduce en el canal entre las 6:00 y las 18:00 los lunes y miércoles de enero a finales de marzo |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
@@ -226,11 +226,11 @@ Siga los pasos a continuación para hacer clic en varios recursos y programar su
 
 ***Sustitución global para la hora de inicio universal***, es una configuración que permite al autor del contenido definir la reproducción de una imagen o un recurso de vídeo en función de un tiempo específico. No se utiliza el ajuste de hora/zona horaria de ningún reproductor individual.
 
-Normalmente, la reproducción se determina por la hora local de cualquier reproductor determinado, pero con la anulación global, se puede utilizar una hora de inicio universal específica para iniciar la reproducción del recurso.
+Normalmente, la hora local de un reproductor determinado determina la reproducción. Sin embargo, con la anulación global, se puede utilizar una hora de inicio universal específica para iniciar la reproducción del recurso.
 
-Esto permite al autor del contenido designar la reproducción de un recurso específico en una fecha u hora específicas, independientemente del reloj local de cualquier reproductor que tenga el contenido asignado.
+Como tal, el autor del contenido puede designar la reproducción de un recurso específico. Pueden hacer que se produzca en una fecha/hora específica, independientemente del reloj local, en cualquier reproductor que tenga el contenido asignado.
 
-La anulación global para el tiempo de inicio universal se realiza configurando el **Activation** al acceder a las propiedades de un recurso. Siga los pasos a continuación para realizar una anulación global de la programación de recursos:
+***Sustitución global para la hora de inicio universal*** se lleva a cabo configurando el **Activation** al acceder a las propiedades de un recurso. Siga los pasos a continuación para realizar una anulación global de la programación de recursos:
 
 1. Haga clic en cualquier canal y luego en **Editar** en la barra de acciones, para poder agregar o editar contenido en el canal.
 
@@ -241,6 +241,6 @@ La anulación global para el tiempo de inicio universal se realiza configurando 
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Para una anulación global, introduzca la hora de activación en la variable **Anulación de zona horaria** para el recurso. Si no introduce nada en esta área, la zona horaria aplicada es la del reproductor.
+1. Para una anulación global, introduzca la hora de activación en **Anulación de zona horaria** para el recurso. Si no introduce nada en esta área, la zona horaria aplicada es la del reproductor.
 
 

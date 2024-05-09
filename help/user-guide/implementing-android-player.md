@@ -1,6 +1,6 @@
 ---
-title: Implementación de Android&trade; Player
-description: Obtenga información sobre la implementación de Android&trade; Watchdog, una solución que le permite recuperar el reproductor Android&trade; de bloqueos.
+title: Implementación del reproductor Android
+description: Obtenga información acerca de la implementación de Android Watchdog, una solución que le permite recuperar el reproductor Android de bloqueos.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,18 +10,18 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
 
 # Implementación del reproductor Android™ {#implementing-android-player}
 
-Esta sección describe la configuración del reproductor Android™. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre los ajustes que se deben utilizar para el desarrollo y las pruebas.
+En esta sección se describe la configuración del reproductor Android™. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre los ajustes que se deben utilizar para el desarrollo y las pruebas.
 
-Además, **Vigilante** es una solución para recuperar el reproductor de los bloqueos. Una aplicación debe registrarse a sí misma en el servicio de vigilancia y luego enviar periódicamente mensajes al servicio de que está activa. Si el servicio de vigilancia no recibe un mensaje de conexión persistente en un plazo estipulado, el servicio intenta reiniciar el dispositivo para una recuperación limpia (si tiene los privilegios suficientes) o reiniciar la aplicación.
+Además, **Vigilante** es una solución para recuperar el reproductor de los bloqueos. Una aplicación debe registrarse a sí misma en el servicio de vigilancia y luego enviar periódicamente mensajes al servicio de que está activa. Si el servicio de vigilancia no recibe un mensaje de conexión persistente en un plazo estipulado, el servicio intenta reiniciar el dispositivo. Lo hace para una recuperación limpia (si tiene los privilegios suficientes) o reinicia la aplicación.
 
 ## Instalación del reproductor Android™ {#installing-android-player}
 
@@ -50,7 +50,7 @@ Complete los siguientes pasos:
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*). Visita [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
+El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*). Visite la [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
@@ -67,7 +67,7 @@ Después de descargar la aplicación, siga los pasos del reproductor para comple
 
 ## Implementación de Android™ Watchdog {#implementing-android-watchdog}
 
-Debido a la arquitectura de Android™, para reiniciar el dispositivo es necesario que la aplicación tenga privilegios del sistema. Para ello, firme el apk utilizando las claves de firma del fabricante, de lo contrario watchdog reinicia la aplicación de reproducción y no reinicia el dispositivo.
+Debido a la arquitectura de Android™, para reiniciar el dispositivo es necesario que la aplicación tenga privilegios del sistema. Firma el apk usando las claves de firma del fabricante, de lo contrario el perro guardián puede reiniciar la aplicación de reproducción y no reiniciar el dispositivo.
 
 ### Señalización de Android™ `apks` uso de claves del fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -84,7 +84,7 @@ Siga los pasos a continuación para firmar el apk de Android™ usando las clave
 1. Descargue el apk desde Google Play o desde [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/) página
 1. Obtenga las claves de plataforma del fabricante para que pueda obtener una *pk8* y una *pem* archivo
 
-1. Busque el `apksigner` herramienta en el sdk de Android™ con buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Busque el `apksigner` herramienta en el SDK de Android™ con Buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
 1. Busque la ruta a la herramienta zip align en el SDK de Android™
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
@@ -94,7 +94,7 @@ Siga los pasos a continuación para firmar el apk de Android™ usando las clave
 
 El servicio de vigilancia entre Android se implementa como complemento de Cordova mediante *AlarmManager*.
 
-El diagrama siguiente muestra la implementación del servicio de vigilancia:
+El diagrama siguiente muestra la implementación del servicio de vigilante:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
@@ -139,7 +139,7 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 | *resolution* | La resolución del dispositivo. |
 | *rebootSchedule* | La programación para reiniciar se aplica a todas las plataformas. |
 | *enableAdminUI* | Habilite la IU de administración para configurar el dispositivo en el sitio. Configure como. *false* una vez que esté completamente configurado y en producción. |
-| *enableOSD* | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de configurar en *false* una vez que esté completamente configurado y en producción. |
+| *enableOSD* | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecerlo en *false* después de estar completamente configurado y en producción. |
 | *enableActivityUI* | Habilite la opción si desea mostrar el progreso de las actividades como la descarga y la sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
 | *enableNativeVideo* | Habilite esta opción si desea utilizar la aceleración de hardware nativa para la reproducción de vídeo (solo Android™). |
 
@@ -172,11 +172,11 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 
 ## Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management {#bulk-provisioning}
 
-AEM Al implementar el reproductor de Android™ de forma masiva, resulta tedioso registrar manualmente todos los reproductores con la función de reproducción de forma. Se recomienda encarecidamente utilizar una solución de EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+AEM Al implementar el reproductor de Android™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con la función de reproducción de la aplicación de forma. Utilice una solución de EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para que pueda aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
 ## Nombrar el reproductor Android™ {#name-android}
 
-AEM Puede asignar un nombre de dispositivo fácil de usar al reproductor de Android™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la aplicación (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor de Android™, sino que también le permite asignar fácilmente el contenido adecuado.
+AEM Puede asignar un nombre de dispositivo fácil de usar al reproductor de Android™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la aplicación (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor Android™, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
@@ -193,12 +193,12 @@ Siga los pasos a continuación para permitir el aprovisionamiento masivo en Andr
 1. Asegúrese de que el dispositivo Android™ sea compatible con los servicios de Google Play.
 1. Registre sus dispositivos de reproducción de Android™ con su solución EMM favorita que admita AppConfig.
 1. Inicie sesión en la consola de EMM y extraiga la aplicación del Reproductor de AEM Screens de Google Play.
-1. Haga clic en configuración administrada u opción relacionada.
+1. Haga clic en la configuración administrada o en la opción relacionada.
 1. Ahora debería ver una lista de opciones de reproductor que se pueden configurar, como servidor y código de registro en bloque.
 1. Configure estos parámetros, guarde e implemente la directiva en los dispositivos.
 
    >[!NOTE]
-   >AEM Los dispositivos deben recibir la aplicación junto con la configuración y apuntar al servidor de correcto con la configuración seleccionada. AEM Si elige configurar el código de registro en bloque y lo mantiene igual que en la configuración de, el reproductor debe poder registrarse automáticamente en el mismo. Si configuró una pantalla predeterminada, también puede descargar y mostrar contenido predeterminado (que luego puede cambiar según le convenga).
+   >Los dispositivos deben recibir la aplicación junto con la configuración. AEM Debe apuntar al servidor de correcto con la configuración seleccionada. AEM Si elige configurar el código de registro en bloque y lo mantiene igual que el configurado en, el reproductor debe poder registrarse automáticamente. Si configuró una pantalla predeterminada, también puede descargar y mostrar contenido predeterminado (que luego puede cambiar según le convenga).
 
 Además, debe consultar al proveedor de EMM sobre la compatibilidad con AppConfig. Los más populares, como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), y [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) entre otros, apoyan este estándar industrial.
 
