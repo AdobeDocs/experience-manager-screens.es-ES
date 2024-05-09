@@ -2,9 +2,9 @@
 title: Duración de reproducción de imagen
 description: Obtenga información acerca de la duración de la reproducción de imágenes en AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 1%
 
 ## Información general {#overview}
 
-Después de crear un canal de secuencia y agregarle imágenes, de forma predeterminada, todas las imágenes asumen la duración de reproducción definida en la configuración de nivel de canal. Cualquier imagen individual puede seguir anulando el valor predeterminado y tener una duración de reproducción diferente; esto se consigue editando la duración de reproducción del componente de imagen específico.
+Después de crear un canal de secuencia y agregarle imágenes, de forma predeterminada, todas las imágenes asumen la duración de reproducción definida en la configuración de nivel de canal. Cualquier imagen individual puede seguir anulando el valor predeterminado y tener una duración de reproducción diferente. Esta capacidad se logra editando la duración de reproducción del componente de imagen específico.
 
 ### Requisitos previos {#prerequisites}
 
 Antes de implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para comenzar a implementarlo. Por ejemplo,
 
 1. Cree un proyecto de AEM Screens (en este ejemplo, **ChannelLevelPlayback**)
-1. Crear un canal de secuencia como **CanalDeReproducción** bajo **Canales** carpeta
+1. Crear un canal de secuencia como **CanalDeReproducción** en el **Canales** carpeta
 1. Añadir contenido a **CanalDeReproducción**
 
 ## Edición de asignación de duración de reproducción de imagen a nivel de canal {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Página** se abre el cuadro de diálogo.
+1. El **Página** se abre el cuadro de diálogo.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
 ### Visualización del resultado {#viewing-the-result}
 
-Cuando haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (valor predeterminado).
+Cuando haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (el valor predeterminado).
 
 ![channel_preview](assets/channel_preview.gif)
 

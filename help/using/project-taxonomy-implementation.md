@@ -2,9 +2,9 @@
 title: Taxonomía del proyecto
 description: Obtenga más información acerca de la taxonomía de proyectos en relación con AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ Tenga en cuenta los siguientes elementos antes de implementar la solución de se
 * **Programación**
 * **Vista previa del contenido**
 
-Para conocer estos términos, consulte [Glosario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Para obtener más información sobre estos términos, consulte la [Glosario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >Se recomienda considerar el uso de:
 >
 >* base de datos de activos de hardware para rellenar automáticamente un proyecto de Screens
->* AEM archivo de configuración de texto para señalar automáticamente cada reproductor a una instancia específica de una instancia de un
+>* AEM archivo de configuración de texto que señala automáticamente a cada reproductor a una instancia específica de una instancia de un elemento de configuración de la
 
 ## Implementación de un proyecto de AEM Screens {#creating-a-project}
 

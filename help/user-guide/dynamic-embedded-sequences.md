@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2451'
 ht-degree: 1%
 
 ---
@@ -29,21 +29,21 @@ El uso de secuencias incrustadas dinámicas abarca los siguientes temas:
 
 ***Secuencias incrustadas dinámicas*** se crean para proyectos grandes que siguen una jerarquía principal-secundario, donde se hace referencia al elemento secundario dentro de una carpeta de ubicación y no de una carpeta de canal. Permite al usuario incrustar una secuencia dentro de un canal mediante ***Función del canal***. Permite al usuario definir marcadores de posición específicos de la ubicación para diferentes oficinas mediante una secuencia incrustada dentro de un canal principal.
 
-Al asignar un canal a una visualización, tiene la opción de especificar la ruta de la visualización o la función del canal que se resuelve en un canal real por contexto.
+Al asignar un canal a una visualización, tiene la opción de especificar la ruta de la visualización. O bien, puede especificar la función del canal que se resuelve en un canal real por contexto.
 
-Para utilizar la secuencia incrustada dinámica, asigne un canal de acuerdo con lo siguiente ***Función del canal***. La función del canal define el contexto de la visualización. La función está dirigida por varias acciones y es independiente del canal real que cumple la función. En esta sección se describe un caso de uso que define canales por función y cómo puede aplicar ese contenido a un canal global. También puede considerar la función como un identificador para la asignación o como un alias para el canal en el contexto de.
+Para utilizar la secuencia incrustada dinámica, asigne un canal de acuerdo con lo siguiente ***Función del canal***. La función del canal define el contexto de la visualización. La función se dirige a varias acciones y es independiente del canal real que cumple la función. En esta sección se describe un caso de uso que define canales por función y cómo puede aplicar ese contenido a un canal global. También puede considerar la función como un identificador para la asignación o como un alias para el canal en el contexto de.
 
 ### Ventajas de utilizar secuencias incrustadas dinámicas {#benefits-of-using-dynamic-embedded-sequences}
 
-La principal ventaja de colocar un canal de secuencia en una ubicación en lugar de la carpeta de canales es permitir que los autores locales o regionales editen el contenido relevante para ellos. Todo esto, a la vez que se restringe de la edición de canales en la parte superior de la jerarquía.
+Colocar un canal de secuencia dentro de una ubicación en lugar de la carpeta de canales permite a los autores locales o regionales editar el contenido relevante para ellos. También permite restringir la edición de canales en la parte superior de la jerarquía.
 
-Referencia a *Canal por rol*, permite crear la versión local de un canal para resolver de forma dinámica el contenido específico de la ubicación, y también permite crear un canal global que utiliza el contenido para los canales específicos de la ubicación.
+Referencia a *Canal por rol*, permite crear una versión local de un canal. Al hacerlo, se resuelve dinámicamente el contenido específico de la ubicación y también se permite crear un canal global que utiliza el contenido para los canales específicos de la ubicación.
 
 >[!NOTE]
 >
 >**Secuencias incrustadas en comparación con Secuencias incrustadas dinámicas**
 >
->Una secuencia incrustada dinámica es similar a una secuencia incrustada, pero permite al usuario seguir una jerarquía en la que los cambios/actualizaciones realizados en un canal se propagan a otro en relación. Rastrea la jerarquía principal-secundaria e incluye recursos como imágenes o vídeos.
+>Una secuencia incrustada dinámica es similar a una secuencia incrustada, pero permite al usuario seguir una jerarquía en la que los cambios y actualizaciones realizados en un canal se propagan a otro en relación. Sigue una jerarquía principal-secundario y también incluye recursos como imágenes o vídeos.
 >
 >***Secuencias incrustadas dinámicas*** permite mostrar contenido específico de la ubicación, mientras que ***Secuencias incrustadas*** mostrar únicamente la presentación general del contenido. Además, al configurar Secuencias incrustadas dinámicas, configure el canal mediante la función y el nombre del canal. Consulte los pasos siguientes para ver una implementación práctica.
 >
@@ -68,10 +68,10 @@ En la siguiente sección se explica la creación de una secuencia incrustada din
 Antes de comenzar a implementar esta funcionalidad, asegúrese de que tiene los siguientes requisitos previos preparados para comenzar a implementar secuencias incrustadas dinámicas:
 
 * Cree un proyecto de AEM Screens (en este ejemplo, **Demostración**).
-* Crear un canal como **Global** bajo **Canales** carpeta.
+* Crear un **Global** canal bajo el **Canales** carpeta.
 * Añada contenido a su **Global** Canal (*Marque **Resources.zip**para los activos relevantes*).
 
-La siguiente imagen muestra el **Demostración** proyecto con **Global** entrada de canal **Canales** carpeta.
+La siguiente imagen muestra el **Demostración** proyecto con **Global** canal en el **Canales** carpeta.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Recursos {#resources}
@@ -108,7 +108,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
    >
    >Al crear el **Región A** carpeta de ubicación, asegúrese de introducir la variable **Título** as **Región A** y puede dejar el **Nombre** campo vacío, de forma automática **region-a** el nombre se recoge.
    >
-   >Un caso similar es el de la creación de una carpeta de ubicación **Región B**, como se muestra a continuación:
+   >Es similar el caso para crear la carpeta de ubicación **Región B**, como se muestra a continuación:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -119,12 +119,12 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    1. Vaya a **Demostración** > **Ubicaciones** > **Región A**.
    1. Clic **Región A** y haga clic en **+ Crear** de la barra de acciones.
-   1. Clic **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
-   1. Repita el paso (b) y haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** as **región** para este canal.
+   1. Clic **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con el **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
+   1. Repita el paso (b) y haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** como el **región** para este canal.
 
    >[!CAUTION]
    >
-   >Asegúrese de que al crear el canal **Región A**, introduzca la variable **Título** as **Región A** y el **Nombre** as **región**.
+   >Asegúrese de que al crear el canal **Región A**, introduzca la variable **Título** as **Región A** y el **Nombre** as a **región**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -191,23 +191,23 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    Navegue y haga clic en **Horarios** en el proyecto de AEM Screens. Luego haga clic en **Crear** de la barra de acciones.
 
-   La siguiente imagen muestra el **AdSchedule** creado en **Demostración** proyecto.
+   La siguiente imagen muestra el **AdSchedule** creado en la **Demostración** proyecto.
 
    ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Asignar canales a una programación**
 
    1. Vaya a **Demostración** > **Horarios** > **AdSchedule** y haga clic en **Tablero** de la barra de acciones.
-   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
+   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
    1. Clic **Canal de referencia** por ruta.
-   1. Haga clic en **Ruta de canal** as **Demostración** > ***Canales*** > ***Global***.
-   1. Introduzca el **Función del canal** as **GlobalAdSegment**.
-   1. Haga clic en **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
+   1. Haga clic en **Ruta de canal**, igual que **Demostración** > ***Canales*** > ***Global***.
+   1. Introduzca el **Función del canal**, igual que **GlobalAdSegment**.
+   1. Haga clic en **Eventos admitidos**, igual que **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
    1. Haga clic en **Guardar**.
 
    **Asignar canal por función para la región:**
 
-   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** panel.
+   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
    1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
    1. Introduzca el **Nombre del canal** as **región***.
    1. Introduzca el **Función del canal** as **RegionAdSegment**.
@@ -215,7 +215,7 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    **Asignar canal por rol para tienda:**
 
-   1. Clic **+ Asignar canal** de **CANALES ASIGNADOS** panel.
+   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
    1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
    1. Introduzca el **Nombre del canal** as **almacenar**.
    1. Introduzca el **Función del canal** as **StoreAdSegment**.
@@ -323,7 +323,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
    1. Haga clic en **Grupos** e introduzca el nombre del grupo en **Haga clic en Grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
    1. Haga clic en **Guardar y cerrar**.
 
-   Del mismo modo, cree otros dos usuarios como **Región-Usuario** y **Store-User** y agréguelas a **Region-Author** y **Store-Author** respectivamente.
+   Del mismo modo, cree otros dos usuarios como **Región-Usuario** y **Store-User** y agréguelas a. **Region-Author** y **Store-Author** respectivamente.
 
    >[!NOTE]
    >Se recomienda agregar usuarios en un grupo y luego asignar permisos a cada grupo de usuarios en particular.
@@ -334,13 +334,13 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 
    1. Vaya a **Adobe Experience Manager**.
    1. Clic **Herramientas** > **Seguridad** > **Grupos**.
-   1. Clic **Colaboradores** en la lista y haga clic en **Miembros** pestaña.
+   1. Clic **Colaboradores** en la lista y haga clic en el botón **Miembros** pestaña.
    1. Haga clic en **Grupo** como **Global-Author**, **Region-Author,** y **Store-Author** a los colaboradores.
    1. Haga clic en **Guardar y cerrar**.
 
 1. **Acceso a los permisos para cada grupo**
 
-   1. Vaya a *Useradmin* y utilice esta interfaz de usuario para modificar los permisos para diferentes grupos.
+   1. Vaya a *Administrador de usuarios* y utilice esta interfaz de usuario para modificar los permisos para diferentes grupos.
    1. Buscar por **Global-Author** y haga clic en **Permisos** , como se muestra en la figura siguiente.
    1. Del mismo modo, puede acceder a los permisos de para **Region-Author** y **Store-Author**.
 
@@ -358,7 +358,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
    Consulte la siguiente figura para comprender los pasos:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   A continuación se muestra que la variable **Global-User** tiene acceso a la **Canal global**, y ambas **Región A** y **Región B** con las cuatro tiendas, concretamente **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**.
+   A continuación se muestra que la variable **Global-User** tiene acceso a la **Canal global**. Y, acceso a ambos **Región A** y **Región B** con las cuatro tiendas, concretamente **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**.
 
    ![global](assets/global.gif)
 
@@ -374,7 +374,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   A continuación se muestra que el usuario de la región tiene acceso a ambos **Región A** y **Región B**, con los cuatro almacenes, a saber **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**, pero no accede al **Global** Canal.
+   A continuación se muestra que el usuario de la región tiene acceso a ambos **Región A** y **Región B**. Y, el acceso a las cuatro tiendas, a saber **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**, pero no accede al **Global** Canal.
 
    ![región](assets/region.gif)
 
@@ -391,7 +391,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   A continuación se muestra que la variable **Store-User** solo tiene acceso a **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**, pero no tiene permisos para acceder a **Global** o región (**Región A** y **Región B**) canales.
+   A continuación se muestra que la variable **Store-User** solo tiene acceso a **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**. Sin embargo, no tiene permisos para acceder a **Global** o región (**Región A** y **Región B**) canales.
 
    ![almacenar](assets/store.gif)
 

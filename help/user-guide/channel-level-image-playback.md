@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Información general {#overview}
 
-Al crear un canal de secuencia y agregarle imágenes, de forma predeterminada, todas las imágenes asumen la duración de reproducción definida en la configuración de nivel de canal. Cualquier imagen individual puede seguir anulando el valor predeterminado y tener una duración de reproducción diferente; esto se consigue editando la duración de reproducción del componente de imagen específico.
+Al crear un canal de secuencia y agregarle imágenes, de forma predeterminada, todas las imágenes asumen la duración de reproducción definida en la configuración de nivel de canal. Cualquier imagen individual puede seguir anulando el valor predeterminado y tener una duración de reproducción diferente. Esta capacidad se logra editando la duración de reproducción del componente de imagen específico.
 
 ### Requisitos previos {#prerequisites}
 
@@ -29,7 +29,7 @@ Antes de comenzar a implementar esta funcionalidad, asegúrese de haber configur
 
 1. Cree un ejemplo de proyecto de AEM Screens, **ChannelLevelPlayback**.
 
-1. Crear un canal de secuencia como **CanalDeReproducción** bajo **Canales** carpeta.
+1. Crear un canal de secuencia como **CanalDeReproducción** en el **Canales** carpeta.
 
 1. Añadir contenido a **CanalDeReproducción**.
 
@@ -53,7 +53,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Haga clic en todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para poder abrir el cuadro de diálogo Configurar nivel de canal.
+1. Haga clic en todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -70,6 +70,6 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
 ### Visualización del resultado {#viewing-the-result}
 
-Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (valor predeterminado).
+Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (el valor predeterminado).
 
 ![channel_preview](assets/channel_preview.gif)

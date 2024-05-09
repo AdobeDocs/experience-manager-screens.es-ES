@@ -2,9 +2,9 @@
 title: Mapa del recorrido
 description: Obtenga información sobre el Mapa de Recorrido para AEM Screens.
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Es fundamental conocer a fondo la manera en que los consumidores interactúan co
 
 El mapa de Recorrido de experiencia de usuario es una buena manera de visualizar cómo un visitante puede moverse a través de un espacio físico y qué elementos puede encontrar. También ayuda a ver cómo la experiencia digital que ofrece la red puede llenar cualquier brecha en el recorrido general.
 
-En esta fase del proyecto, puede definir las opciones y dependencias del contenido dinámico o interactivo para poder crear prototipos más adelante. Esto incluiría un guión gráfico para cada interacción, déclencheur de datos o segmento de bucle que la red proporciona junto con los KPI definidos en el resumen de estrategia.
+En esta fase del proyecto, puede definir las opciones y dependencias del contenido dinámico o interactivo para poder crear prototipos más adelante. Estas opciones incluirían un guión gráfico para cada interacción, déclencheur de datos o segmento de bucle que la red ofrezca junto con los KPI definidos en el resumen de estrategia.
 
-Permita que los líderes del proyecto y las partes interesadas clave experimenten con la colocación física de elementos digitales a lo largo de varias partes del recorrido de la tienda y las experiencias digitales que se ofrecen.
+Permita que los líderes del proyecto y las partes interesadas experimenten con la colocación de elementos digitales a lo largo de partes del recorrido de la tienda. Permita que observen las experiencias digitales que se ofrecen.
 
 >[!NOTE]
 > Comience a recopilar análisis durante la prueba piloto para que pueda ayudar a los equipos empresariales a validar el éxito de la solución con las métricas específicas que intentan lograr. Saber el rendimiento de la prueba piloto ayuda al equipo empresarial a determinar qué mejoras se deben realizar.

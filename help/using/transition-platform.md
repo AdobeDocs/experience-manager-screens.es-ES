@@ -2,9 +2,9 @@
 title: Transición a la plataforma
 description: Obtenga información acerca de la transición a la plataforma en AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >AEM Un inversor habitual de esta actividad es un implementador de.
 
-AEM A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, ahora debe empezar a prepararse para las tareas necesarias para crear realmente un proyecto de Screens en el que pueda implementar un proyecto de forma práctica.
+AEM A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, debe prepararse para la creación real de un proyecto de Screens en el que se pueda implementar un diseño de pantalla en el que se pueda realizar una implementación de forma remota.
 
 Este proyecto incluye la asignación de configuraciones específicas de la plataforma a requisitos definidos de forma flexible en la fase de creación de prototipos.
 
