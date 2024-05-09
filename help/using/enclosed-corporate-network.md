@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ AEM Siga los pasos a continuación para asegurarse de que la conexión de los re
 
 1. Asegúrese de que la Configuración del adaptador de red no coincide con la Configuración del enrutador y compruebe si no se ha alcanzado el número máximo de direcciones IP disponibles en la red.
 
-1. Compruebe si el enrutador está conectado correctamente a la red de área ancha del ISP (vínculo a Internet). Esto también se puede identificar mediante un LED de señal en los enrutadores estándar.
+1. Compruebe si el enrutador está conectado correctamente a la red de área ancha del ISP (vínculo a Internet). Esta conexión también se puede identificar mediante un LED de señal en los enrutadores estándar.
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
@@ -50,7 +50,7 @@ La configuración de red corporativa adjunta se puede separar lógicamente en do
 ### Red de área amplia {#wan-connection}
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de la red, debe proporcionar suficiente ancho de banda para gestionar las actualizaciones de contenido de AEM Screens sin problemas.
-*Ancho de banda suficiente* AEM depende del número de pantallas conectadas y del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, ordenadores o redes Wi-Fi de invitados.
+*Ancho de banda suficiente* depende del número de AEM Screens conectados. También depende del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi invitadas.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Por ejemplo, los componentes de red deben coincidir al menos con el estándar de
 Las redes corporativas tienen varios dispositivos conectados, están separadas en varias subredes y tienen conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para muchos miles de accesos simultáneos.
 Este esquema se simplifica y se adapta, en la mayoría de los casos, a los entornos disponibles para el cliente.
 
-Si se prevé una solución Wi-Fi para conectar Screens al Internet Link, se recomienda utilizar estándares Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquiera *más reciente* Estándares como `802.11h-n` son de mejor calidad. Si se requiere un repetidor de Wi-Fi, Adobe recomienda tecnologías de punto de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similares.
+Si se prevé una solución Wi-Fi para conectar AEM Screens al Internet Link, se recomienda utilizar estándares Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquiera *más reciente* Estándares como `802.11h-n` son de mejor calidad. Si se requiere un repetidor de Wi-Fi, Adobe recomienda tecnologías de punto de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similares.
 Otras tecnologías de repetición de Wi-Fi terminan en una pérdida masiva de ancho de banda en la red general.
 
 ## Descarga de medios y recursos {#download}
@@ -83,6 +83,6 @@ En escenarios donde hay más interacciones con sensores o déclencheur y conteni
 En la tabla siguiente se proporciona información general sobre los datos clave de conectividad de red.
 
 >[!NOTE]
->La información permite ver el consumo de cada dispositivo de la red que solicita y descarga una fuente de Internet. Cada una de estas solicitudes suma y amplía el tiempo de descarga.
+>La información permite ver el consumo de cada dispositivo en la red solicitando y descargando una fuente de Internet. Cada una de estas solicitudes suma y amplía el tiempo de descarga.
 
 ![](/help/using/assets/enclosed-network-download.png)

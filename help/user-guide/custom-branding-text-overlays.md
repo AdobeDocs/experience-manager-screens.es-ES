@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Aprenda a aplicar una marca y un estilo personalizados a las superposiciones de 
 
 Siga los pasos a continuación para crear una personalización de marca y estilo para las superposiciones de texto:
 
-1. Cree un proyecto de AEM Screens. Este ejemplo muestra la funcionalidad creando un proyecto denominado **`customstyle`** y un canal titulado **DemoBrand** , como se muestra en la figura siguiente.
+1. Cree un proyecto de AEM Screens. Este ejemplo muestra la funcionalidad creando un proyecto denominado **`customstyle`** y un canal titulado **DemoBrand**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,7 +38,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Crear *static.css* y establezca las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
+1. Crear un *static.css* y establezca las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
 
    ```shell
     //global styles
@@ -73,7 +73,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >De forma predeterminada, la variable **Diseño** El campo muestra la ruta que señala a los diseños de la carpeta libs.
+   >De forma predeterminada, la variable **Diseño** muestra la ruta que señala a los diseños de la carpeta libs.
 
 1. Actualice el **Diseño** con la ruta a la carpeta del proyecto. En este caso, es `/apps/settings/wcm/designs/customstyle`.
 
@@ -122,7 +122,7 @@ Siga los pasos a continuación para ver el diseño actualizado en la superposici
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Además, puede quitar los dos últimos bloques de código de *static.css* para quitar el estilo de la caja alrededor de la superposición de texto.
+1. Además, puede eliminar los dos últimos bloques de código de la *static.css* para quitar el estilo de la caja alrededor de la superposición de texto.
 
 ![imagen](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

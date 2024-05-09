@@ -2,9 +2,9 @@
 title: Red móvil directa
 description: Obtenga información acerca de la configuración de Direct Mobile Network en AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ Los reproductores AEM Screens también pueden conectarse mediante redes móviles
 
 En AEM Screens, el contenido necesario se descarga físicamente en el controlador del reproductor o en el equipo y se almacena correctamente en el sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y a las actualizaciones de contenido, y no influye en el rendimiento de la reproducción normal de las pantallas.
 
-La ventaja de conectar AEM Screens Players over Cellular 3/4/5G a su proveedor de datos de servicio móvil es que el router móvil se puede colocar en un lugar optimizado para garantizar la mejor cobertura de red disponible. Esto suele ser en una posición elevada y abierta con el menor número posible de estructuras de hormigón o metal alrededor.
+La ventaja de conectar AEM Screens Players over Cellular 3/4/5G a su proveedor de datos de servicio móvil es que el router móvil se puede colocar en un lugar optimizado. Al hacerlo, se asegura la mejor cobertura de red disponible. Esta ubicación suele estar en una posición elevada y abierta con el menor número posible de estructuras de hormigón o metal alrededor.
 
-AEM Esta configuración ofrece a los usuarios de pantalla de la pantalla de la pantalla de la pantalla de la pantalla de la pantalla de la pantalla una gran flexibilidad, ya que no se requiere conexión de línea fija para conectarse a AEM Screens. Esto es interesante para configuraciones efímeras o móviles.
+AEM Esta configuración ofrece a los usuarios de pantalla de la pantalla de la pantalla de la pantalla de la pantalla una gran flexibilidad, ya que no se requiere conexión de línea fija para conectarse a AEM Screens. Este arreglo es interesante para configuraciones efímeras o móviles.
 
-El diagrama siguiente muestra la configuración de la red móvil directa y consta de un segmento de conexión de red único y la conexión de cada reproductor a la red de datos móviles o móviles.
+El diagrama siguiente muestra la configuración de Direct Mobile Network. Consiste en un único segmento de conexión de red y la conexión de cada reproductor a la red de datos móviles o celulares.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
@@ -34,7 +34,7 @@ AEM Siga los pasos a continuación para asegurarse de que la conexión de los re
    >[!NOTE]
    >Si aparece un mensaje de error, compruebe la configuración de red y compruebe si hay un vínculo de red suficiente. Compruebe también que el cortafuegos del sistema operativo está configurado para permitir el acceso a la red mientras utiliza los puertos de comunicación de AEM Screens configurados.
 
-1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
+1. En caso de que la llamada URL se realice correctamente, puede seguir instalando AEM Screens y registrarse. Inicie AEM Screens.
 
 ## Configuración de una red móvil directa {#requirements-direct}
 
@@ -68,7 +68,7 @@ A continuación, el paquete de datos necesario debe ser al menos de:
 
 
 >[!IMPORTANT]
->Por ejemplo, para la carga inicial de archivos multimedia, al tiempo que se integran nuevos reproductores, es necesario esperar una mayor cantidad de datos y un mayor tiempo de descarga, lo que se refleja en las hipótesis anteriores. Una red 4G con *bueno* cobertura y *ilimitado* Los datos deben coincidir con las instalaciones más comunes de esta Configuración de red.
+>Para la carga inicial de archivos multimedia mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga; esto se refleja en los supuestos anteriores. Una red 4G con *bueno* cobertura y *ilimitado* Los datos deben coincidir con las instalaciones más comunes de esta Configuración de red.
 
 >[!NOTE]
 >Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor AEM Screens. Si sólo hay una cobertura adecuada disponible en una ubicación específica, considere cambiar la configuración general de la red a [Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).

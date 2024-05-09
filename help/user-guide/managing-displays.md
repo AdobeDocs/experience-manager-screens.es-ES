@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Creación y administración de pantallas {#creating-and-managing-displays}
 
-Una visualización es una agrupación virtual de pantallas que se colocan una al lado de la otra. La pantalla es permanente con respecto a una instalación. Este es el objeto con el que trabajan los autores de contenido y al que siempre se hace referencia como visualización lógica en lugar de como partes de contador físicas.
+Una visualización es una agrupación virtual de pantallas que se colocan una al lado de la otra. La pantalla es permanente con respecto a una instalación. Es el objeto con el que los autores de contenido trabajan y siempre se refieren como visualización lógica en lugar de sus partes de contador físicas.
 
 Al crear una ubicación, debe crear una pantalla para la ubicación.
 
@@ -40,7 +40,7 @@ En esta página se muestra la creación y administración de pantallas.
 1. Vaya a la ubicación adecuada, por ejemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Haga clic en la carpeta de ubicación y en **Crear** que se encuentra junto al icono más en la barra de acciones.
 1. Clic **Mostrar** desde el **Crear** asistente y haga clic en **Siguiente**.
-1. Entrar **Nombre** y **Título** para la ubicación de visualización.
+1. Introduzca su **Nombre** y **Título** para la ubicación de visualización.
 1. En el **Mostrar** pestaña, elija los detalles del diseño. Elija el que desee **Resolución**, como **HD completo**. Elija el número de dispositivos horizontal y verticalmente.
 1. Haga clic en **Crear**.
 
@@ -48,7 +48,7 @@ La pantalla (*StoreDisplay*) se crea y se agrega a la ubicación (*San José*).
 
 ![exhibición](assets/display.gif)
 
-Cuando tenga la visualización en posición, el siguiente paso es crear una configuración de dispositivo para esa visualización en particular.
+Cuando tenga una visualización en posición, el siguiente paso es crear una configuración de dispositivo para esa visualización en particular.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Cuando tenga la visualización en posición, el siguiente paso es crear una conf
 >
 >Cuando cree una pantalla para su ubicación, asigne un canal a la pantalla para utilizar el contenido.
 >
->Consulte [Asignar canales](channel-assignment.md) para obtener información sobre cómo asignar un canal a la visualización.
+>Consulte la [Asignar canales](channel-assignment.md) para obtener información sobre cómo asignar un canal a la visualización.
 
 ## Creación de una nueva configuración de dispositivo {#creating-a-new-device-config}
 
@@ -86,7 +86,7 @@ La configuración del dispositivo se crea y se añade a la visualización actual
 
 ## Tablero de visualización {#display-dashboard}
 
-El panel de visualización le proporciona diferentes paneles para administrar los dispositivos de visualización y las configuraciones de dispositivo de su dispositivo.
+El panel de visualización le proporciona diferentes paneles para administrar los dispositivos de visualización. También le permite configurar su dispositivo.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Haga clic en (**...**), en la esquina superior derecha de la **MOSTRAR INFORMACI
 
 Clic **Propiedades** para que pueda ver o cambiar las propiedades de la pantalla.
 
-Además, puede ajustar el valor del temporizador de evento del canal interactivo en **Tiempo de espera inactivo** propiedad en **Mostrar** pestaña. El valor predeterminado se establece en *300 segundos*.
+Además, puede ajustar el valor del temporizador de evento del canal interactivo en el **Mostrar** pestaña. El valor predeterminado se establece en *300 segundos*.
 
-Uso **CRXDE Lite**, para acceder a **inactiveTimeout** propiedad, es decir, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Uso **CRXDE Lite**, para acceder a **inactiveTimeout** propiedad, es decir, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panel de canales asignados {#assigned-channels-panel}
@@ -123,7 +123,7 @@ El **CANALES ASIGNADOS** el panel muestra los canales asignados a este dispositi
 
 El **DISPOSITIVOS** El panel proporciona información sobre las configuraciones del dispositivo.
 
-Haga clic en (**...**), en la esquina superior derecha de la **DISPOSITIVOS** para que pueda añadir configuraciones de dispositivo y actualizar dispositivos.
+Haga clic en (**...**), en la esquina superior derecha de la **DISPOSITIVOS** para que pueda añadir configuraciones de dispositivo y actualizar los dispositivos.
 
 Además, haga clic en la configuración del dispositivo para ver las propiedades, asignar un dispositivo o eliminarlo por completo.
 

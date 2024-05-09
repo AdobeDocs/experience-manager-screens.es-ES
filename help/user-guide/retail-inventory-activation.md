@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ En el siguiente caso de uso se muestran tres imágenes diferentes basadas en los
 
 ## Descripción {#description}
 
-Este caso de uso muestra el inventario minorista de existencias de tres sudaderas de colores diferentes. Según el número de sudaderas disponibles en stock que se registren en las Hojas de cálculo de Google, la imagen (sudadera roja, verde o azul) con el número más alto se muestra en la pantalla.
+Este caso de uso muestra el inventario minorista de existencias de tres sudaderas de colores diferentes. En función del número de sudaderas disponibles en stock que se registren en las Hojas de cálculo de Google, se mostrará la imagen (sudadera roja, verde o azul) con el número más alto.
 
-En este caso de uso, el suéter rojo, verde o azul se muestra en la pantalla en función del valor más alto de cantidad de suéters disponibles.
+El suéter rojo, verde o azul se muestra en función del valor más alto del número de suéters disponibles.
 
 ## Condiciones previas {#preconditions}
 
@@ -55,13 +55,13 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
    1. Arrastre y suelte el **Comparación : propiedad/propiedad** al editor.
    1. Haga clic en **Configuración** icono.
    1. Clic **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**.
-   1. Haga clic en **Operador** as **greater-than** en el menú desplegable.
-   1. Clic **Tipo de datos** as **número**.
+   1. Haga clic en **Operador**, y como **greater-than** en el menú desplegable.
+   1. Clic **Tipo de datos**, y como **número**.
    1. Clic **googlesheets/value/1/1** de la lista desplegable en **Nombre de la segunda propiedad**.
    1. Arrastrar y soltar **otra comparación : propiedad/propiedad** Vaya al editor y haga clic en **Configuración** icono.
    1. Clic **googlesheets/value/1/2** de la lista desplegable en **Nombre de la primera propiedad**.
-   1. Haga clic en **Operador** as **greater-than** en el menú desplegable.
-   1. Clic **Tipo de datos** as **número**.
+   1. Haga clic en **Operador**, y como **greater-than** en el menú desplegable.
+   1. Clic **Tipo de datos**, y como **número**.
    1. Clic **googlesheets/value/1/0** de la lista desplegable en **Nombre de la segunda propiedad**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
@@ -85,7 +85,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
+   >Ya debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -114,6 +114,6 @@ Siga los pasos a continuación para implementar el caso de uso Activación de in
 1. **Comprobación de la previsualización**
 
    1. Clic **Vista previa.** Además, abra la hoja de Google y actualice su valor.
-   1. Cambie el valor de las tres columnas diferentes. Observe que la imagen de visualización se actualiza según el valor más alto del inventario.
+   1. Cambie el valor de las tres columnas diferentes. Observe que la imagen para mostrar se actualiza según el valor más alto del inventario.
 
    ![retail_result](assets/retail_result.gif)

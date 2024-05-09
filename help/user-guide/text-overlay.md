@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Esta sección trata los siguientes temas:
 
 ## Información general {#overview}
 
-La superposición de texto es una función disponible en AEM Screens que le permite crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen.
+La superposición de texto es una función disponible en AEM Screens. Permite crear una experiencia atractiva en un canal de secuencias al proporcionar un título o una descripción superpuestos sobre una imagen.
 
 Para aprender a crear su propio componente personalizado, consulte **Ampliación de un componente de AEM Screens**.
 
-Esta sección solo muestra cómo utilizar y aplicar el componente de póster en un proyecto de AEM Screens y utilizarlo como superposición de texto en uno de los canales de la secuencia.
+Esta sección solo muestra cómo utilizar y aplicar el componente de póster en un proyecto de AEM Screens. También muestra cómo se utiliza como superposición de texto en uno de los canales de la secuencia.
 
 ## Uso de superposición de texto {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Antes de implementar esta funcionalidad, asegúrese de haber configurado un proy
 
 * Cree un proyecto de AEM Screens (en este ejemplo, **TextOverlayDemo**)
 
-* Cree un canal de secuencia titulado como **TextSample** bajo **Canales** carpeta
+* Cree un canal de secuencia titulado como **TextSample** en el **Canales** carpeta
 
 * Añada contenido a su **TextSample** Canal
 
-La siguiente imagen muestra el **TextOverlayDemo** proyecto con **TextSample** entrada de canal **Canales** carpeta.
+La siguiente imagen muestra el **TextOverlayDemo** proyecto con el **TextSample** canal en el **Canales** carpeta.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,7 +84,7 @@ Puede agregar un texto al cuadro de texto y agregar énfasis tipográfico como n
 
 >[!NOTE]
 >
->Para utilizar correctamente herramientas específicas, asegúrese de identificar la posición correcta en píxeles con (px) como sufijo, por ejemplo, 200 px. El resultado de esta expresión es de 200 píxeles desde el punto de inicio.
+>Cuando utilice herramientas específicas, asegúrese de identificar la posición correcta en píxeles con (px) como sufijo; por ejemplo, 200 px. El resultado de esta expresión es de 200 píxeles desde el punto de inicio.
 
 ## Uso de valores de ContextHub en la superposición de texto {#using-text-overlay-context-hub}
 
@@ -118,7 +118,7 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Añada un componente de superposición de imagen y texto a la imagen como se describe en [Uso de superposición de texto](/help/user-guide/text-overlay.md#using-text-overlay) de esta página.
+1. Agregue un componente de superposición de imagen y texto a la imagen como se describe en la [Uso de superposición de texto](/help/user-guide/text-overlay.md#using-text-overlay) de esta página.
 
 1. Haga clic en **Configurar** (icono de la llave inglesa) para abrir **Imagen** Cuadro de diálogo.
 
@@ -129,7 +129,7 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
    >[!NOTE]
    >Si no ha definido la configuración de ContextHub, esta opción está desactivada para el proyecto.
 
-1. Entrar **Valor** en el **Marcador** field. Haga clic en la fila en la que desee obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, haga clic en la marca de verificación.
+1. Entrar **Valor** en el **Marcador** field. Haga clic en la fila en la que desee obtener el valor de la hoja de Google **Variable de ContextHub**. En este caso, el valor se recupera de la fila 2 y la columna 1 de las hojas de Google. Ahora, introduzca la variable **Valor predeterminado** as **20**, como se muestra en la figura siguiente. Cuando haya terminado, haga clic en la marca de verificación.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

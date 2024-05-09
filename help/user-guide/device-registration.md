@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
 >[!NOTE]
 >
->Después de descargar el último Reproductor de Windows (*.exe*), desde [AEM Descargas del reproductor de 6.4 en](https://download.macromedia.com/screens/) , siga los pasos en el reproductor para completar la instalación ad-hoc:
+>Después de descargar el último Reproductor de Windows (*.exe*), desde el [AEM Descargas del reproductor de 6.4 en](https://download.macromedia.com/screens/) , siga los pasos en el reproductor para completar la instalación ad-hoc:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
 >1. Vaya a **Configuración** AEM en el menú de acción de la izquierda e introduzca la dirección de ubicación de la instancia de en **Servidor** y haga clic en **Guardar**.
@@ -69,7 +69,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Si la variable **Código de registro** es el mismo en ambos equipos, haga clic en **Validate** AEM botón en la, como se muestra en el paso (6).
+1. Si la variable **Código de registro** es el mismo en ambos equipos, haga clic en el **Validate** AEM botón en la, como se muestra en el paso (6).
 1. Configure el nombre que desee para el dispositivo y haga clic en **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ Si no ha asignado el dispositivo a una pantalla, siga los pasos a continuación 
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Además, puede ver el panel de visualización al seleccionar **Finalizar**.
+   Además, puede ver el panel de visualización seleccionando **Finalizar**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -141,22 +141,22 @@ Cuando haya registrado dispositivos en el reproductor, puede ver todos los dispo
 
 ### Limitaciones en la funcionalidad de búsqueda {#limitations}
 
-* El usuario puede buscar cualquier palabra existente en la *ID de dispositivo* o *Nombre del dispositivo*.
+* El usuario puede buscar cualquier palabra existente en el *ID de dispositivo* o *Nombre del dispositivo*.
 
   >[!NOTE]
-  >Se recomienda crear los nombres de los dispositivos con varias palabras, como *Boston Store Lobby* en lugar de uno solo *BostonStoreLobby*.
+  >Se recomienda crear los nombres de los dispositivos con varias palabras, como *`Boston Store Lobby`* en lugar de uno solo *`BostonStoreLobby`*.
 
-* Si crea nombres de dispositivo como *Boston Store Lobby*, busca cualquier palabra *Boston*, *almacenar*, o *cabildear*. Sin embargo, si el nombre del dispositivo es *BostonStoreLobby* y, a continuación, buscando *Boston* no muestra ningún resultado.
+* Si ha creado nombres de dispositivo como *`Boston Store Lobby`*, busca cualquier palabra *`boston`*, *`store`*, o *`lobby`*. Sin embargo, si el nombre del dispositivo es *`BostonStoreLobby`* y, a continuación, buscando *`boston`* no muestra ningún resultado.
 
-* Comodín, `*` es compatible con la búsqueda. Si desea buscar todos los dispositivos con nombres que empiecen por *Boston*, puede utilizar *Boston**.
+* Comodín, `*` es compatible con la búsqueda. Si desea buscar todos los dispositivos con nombres que empiecen por *`boston`*, puede utilizar *`boston`**.
 
-* Si el nombre del dispositivo es *BostonStoreLobby* y buscando *Boston* no devuelve el resultado y, a continuación, utiliza *Boston** en los criterios de búsqueda devuelve el resultado.
+* Si el nombre del dispositivo es *`BostonStoreLobby`* y buscando *`boston`* no devuelve el resultado y, a continuación, utiliza *`boston`** en los criterios de búsqueda devuelve el resultado.
 
 ## Limitaciones en el registro de dispositivos {#limitations-on-device-registration}
 
 Las restricciones de contraseña de usuario en todo el sistema pueden provocar errores en el registro de dispositivos. El registro del dispositivo utiliza una contraseña generada aleatoriamente para crear el usuario del dispositivo.
 
-Si la contraseña está restringida por el *AuthorizableActionProvider* , podría producirse un error al crear el usuario del dispositivo.
+Si la variable *AuthorizableActionProvider* La configuración de restringe la contraseña, por lo que el usuario del dispositivo podría fallar.
 
 >[!NOTE]
 >
