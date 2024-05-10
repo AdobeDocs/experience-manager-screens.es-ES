@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Representaciones de vídeo {#video-renditions}
 
-Puede generar representaciones Full HD manuales y automáticas. En la siguiente sección se describe el flujo de trabajo para agregar representaciones a los recursos.
+Puede generar representaciones full HD manuales y automáticas. En la siguiente sección se describe el flujo de trabajo para agregar representaciones a los recursos.
 
-## Generar automáticamente representaciones Full HD  {#automatically-generating-full-hd-renditions}
+## Generar automáticamente representaciones Full HD {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Si las representaciones de vídeo de AEM Screens no se reproducen de forma óptima en el dispositivo, póngase en contacto con el proveedor de hardware para obtener las especificaciones del vídeo. Esto ayuda a obtener el mejor rendimiento en el dispositivo y, por lo tanto, crea su propio perfil de vídeo personalizado donde proporciona los parámetros adecuados para que FFMPEG genere su representación. A continuación, siga los pasos a continuación para agregar su perfil de vídeo personalizado a la lista de perfiles.
+>Si las representaciones de vídeo de AEM Screens no se reproducen de forma óptima en el dispositivo, póngase en contacto con el proveedor de hardware para obtener las especificaciones del vídeo. Al hacerlo, obtendrá el mejor rendimiento en el dispositivo. Le ayuda a crear su propio perfil de vídeo personalizado donde proporciona los parámetros adecuados para que FFMPEG genere su representación. A continuación, siga los pasos a continuación para agregar su perfil de vídeo personalizado a la lista de perfiles.
 >
 >Consulte también [Vídeos de resolución de problemas](troubleshoot-videos.md) para depurar y solucionar problemas de reproducción de vídeo en el canal.
 
-Siga los pasos a continuación para generar automáticamente representaciones en HD completas:
+Siga los pasos a continuación para generar representaciones en HD completas automáticamente:
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para poder hacer clic en **Flujo de trabajo**.
 
@@ -69,7 +69,7 @@ Siga los pasos a continuación para generar automáticamente representaciones en
 
 ## Generación manual de representaciones Full HD {#manually-generating-full-hd-renditions}
 
-Siga los pasos a continuación para generar manualmente representaciones en HD completas:
+Siga los pasos a continuación para generar representaciones en HD completas manualmente:
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y haga clic en el icono de martillo para poder hacer clic en las herramientas y en **Flujo de trabajo**.
 

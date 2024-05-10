@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 2%
 
 ---
@@ -51,15 +51,15 @@ Las siguientes opciones de plantilla están disponibles mientras se utiliza el a
 
 | **Opción de plantilla** | **Descripción** |
 |---|---|
-| Carpeta de canales | Permite crear una carpeta para almacenar una colección de canales. |
-| Canal de secuencia | Permite crear un canal que reproduce los componentes secuencialmente (uno a uno en una presentación de diapositivas). |
-| Canal de aplicaciones | Permite mostrar la aplicación web personalizada en el reproductor de Screens. |
-| Canal de pantalla dividida 1x1 | Permite ver un componente en una sola zona. |
-| Canal de pantalla dividida 1x2 | Permite ver los recursos en dos zonas (divididas horizontalmente). |
-| Canal De Pantalla Dividida 2X1 | Permite ver los recursos en dos zonas (divididas verticalmente). |
-| Canal de pantalla dividida 2x2 | Permite ver los recursos en cuatro zonas (divididos horizontal y verticalmente en una matriz). |
-| Canal de pantalla dividida 2 a 3 | Permite ver los recursos en dos zonas (divididas horizontalmente): una de las zonas es más grande que la otra. |
-| Canal de pantalla dividida de barra en L izquierda o derecha | Permite a los autores de contenido ver diferentes tipos de recursos en zonas de tamaño adecuado. |
+| Carpeta de canales | Cree una carpeta para almacenar una colección de canales. |
+| Canal de secuencia | Cree un canal que reproduzca los componentes secuencialmente (uno a uno en una presentación con diapositivas). |
+| Canal de aplicaciones | Muestre la aplicación web personalizada en el reproductor Screens. |
+| Canal de pantalla dividida 1x1 | Ver un componente en una sola zona. |
+| Canal de pantalla dividida 1x2 | Visualice los recursos en dos zonas (divididas horizontalmente). |
+| Canal De Pantalla Dividida 2X1 | Vea los recursos en dos zonas (divididas verticalmente). |
+| Canal de pantalla dividida 2x2 | Visualice los recursos en cuatro zonas (divididas horizontal y verticalmente en una matriz). |
+| Canal de pantalla dividida 2 a 3 | Vea los recursos en dos zonas (divididas horizontalmente): una de las zonas es más grande que la otra. |
+| Canal de pantalla dividida de barra en L izquierda o derecha | Los autores de contenido pueden ver diferentes tipos de recursos en zonas de tamaño adecuado. |
 
 >[!NOTE]
 >
@@ -197,7 +197,7 @@ La siguiente tabla resume los eventos asociados con las actualizaciones automát
   </tr>
   <tr>
    <td>Cambio en el canal en línea</td>
-   <td>Contenido actualizado automáticamente</td>
+   <td>El contenido se actualiza automáticamente</td>
    <td><p>Contenido actualizado en "Dispositivo: configuración push"</p> <p>O bien,</p> <p>Contenido actualizado el <strong><i>Dispositivo: reiniciar</i></strong></p> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ La siguiente tabla resume los eventos asociados con las actualizaciones automát
   </tr>
   <tr>
    <td>Cambio en el canal sin conexión y se activa el canal "Contenido push" (nuevo paquete sin conexión)</td>
-   <td>Contenido actualizado automáticamente</td>
+   <td>El contenido se actualiza automáticamente</td>
    <td><p>Contenido actualizado el <strong><i>Device: Push Config</i></strong></p> <p>O bien,</p> <p>Contenido actualizado el <strong><i>Dispositivo: reiniciar</i></strong></p> </td>
   </tr>
   <tr>
@@ -218,8 +218,8 @@ La siguiente tabla resume los eventos asociados con las actualizaciones automát
      <li>Asignaciones de canales (canal nuevo, canal eliminado)</li>
      <li>Asignación de canal (función, evento, programación)</li>
     </ul> </td>
-   <td>Configuración actualizada automáticamente</td>
-   <td><p>Configuración actualizada el <strong><i>Device: Push Config</i></strong></p> <p>O bien,</p> <p>Configuración actualizada el <strong><i>Dispositivo: reiniciar</i></strong></p> </td>
+   <td>La configuración se actualiza automáticamente</td>
+   <td><p>La configuración se ha actualizado el <strong><i>Device: Push Config</i></strong></p> <p>O bien,</p> <p>Configuración actualizada el <strong><i>Dispositivo: reiniciar</i></strong></p> </td>
   </tr>
  </tbody>
 </table>

@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # AEM SPA Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Puede incrustar una aplicación interactiva de una sola página mediante REACT (o Angular). AEM SPA AEM Para ello, utilice el editor de configurado por los profesionales empresariales en el entorno de trabajo de los profesionales de la administración de la. También puede aprender a integrar su aplicación interactiva con Adobe Analytics sin conexión.
+Puede incrustar una aplicación interactiva de una sola página mediante REACT (o Angular). AEM SPA AEM Para ello, utilice el editor de que configuran los profesionales de la empresa en la configuración de la. También puede aprender a integrar su aplicación interactiva con Adobe Analytics sin conexión.
 
 ## AEM SPA Uso del Editor de {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ AEM SPA Siga los pasos a continuación para utilizar el Editor de:
 Para editar el contenido en la aplicación REACT:
 
 1. Vaya a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (reemplace el nombre de host, el puerto y el nombre del proyecto según corresponda).
-1. Debería poder editar el texto que se muestra en la aplicación Hello world.
+1. Poder editar el texto mostrado en la aplicación Hello World.
 
 ### Adición de la aplicación interactiva REACT a AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ Siga los pasos a continuación para agregar la aplicación REACT interactiva a A
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Arrastre y suelte el **Página integrada** , o reutilice el componente existente en un canal de aplicaciones y haga clic en la página principal de la aplicación mysamplespa, por ejemplo, ***/content/mysamplespa/en/home***.
+1. Arrastre y suelte el **Página integrada** o reutilice el componente existente en un canal de aplicaciones y haga clic en la página principal de la aplicación mysamplespa, por ejemplo, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ Siga los pasos a continuación para agregar la aplicación REACT interactiva a A
    >[!NOTE]
    >Asegúrese de añadir el evento de interacción del usuario al asignar el canal a la visualización.
 
-1. Registre un reproductor en este proyecto y asígnelo a la pantalla. Ahora debería poder ver la aplicación interactiva en ejecución en AEM Screens.
+1. Registre un reproductor en este proyecto y asígnelo a la pantalla. Ahora puede ver la aplicación interactiva en ejecución en AEM Screens.
 
    Consulte [Registro de dispositivos](device-registration.md) para obtener más información sobre cómo registrar un dispositivo.
 
@@ -102,7 +102,7 @@ SPA Siga los pasos a continuación para integrar la con Adobe Analytics con la c
 
    Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información sobre cómo realizar la secuenciación en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
 
-1. Edite la aplicación react en el IDE/editor que prefiera (especialmente el componente de texto u otro componente que desee que empiece a emitir eventos).
+1. Edite la aplicación react en el IDE/editor que elija (especialmente el componente de texto u otro componente que desee que emita eventos).
 1. En el evento de clic u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.
 
    Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.

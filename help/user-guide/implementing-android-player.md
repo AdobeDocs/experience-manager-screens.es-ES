@@ -1,6 +1,6 @@
 ---
-title: Implementación del reproductor Android
-description: Obtenga información acerca de la implementación de Android Watchdog, una solución que le permite recuperar el reproductor Android de bloqueos.
+title: Implementación de Android&trade; Player
+description: Obtenga información sobre la implementación de Android&trade; Watchdog, una solución que le permite recuperar el reproductor Android&trade; de bloqueos.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*)
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de a la que desea conectarse y haga clic en **Guardar**.
+1. Vaya a **Configuración** AEM en el menú de acción de la izquierda, introduzca la ubicación (dirección) de la instancia de la instancia de la que desea conectarse y haga clic en. **Guardar**.
 
 1. Vaya a **Dispositivo** **Registro** vínculo del menú de acción de la izquierda para poder comprobar el estado del proceso de registro del dispositivo.
 

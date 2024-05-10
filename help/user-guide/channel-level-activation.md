@@ -6,9 +6,9 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -47,15 +47,15 @@ En la siguiente sección se explica la creación de una única reproducción de 
 
 Antes de comenzar a implementar esta funcionalidad, asegúrese de que tiene los siguientes requisitos previos listos para comenzar a implementar la activación a nivel de canal:
 
-* Cree un proyecto de AEM Screens, en este ejemplo, **Activación de nivel de canal**
+* Cree un proyecto de AEM Screens, en este ejemplo, **Activación de nivel de canal**.
 
-* Crear un canal como **MainAdChannel** bajo **Canales** carpeta
+* Crear un canal como **MainAdChannel** en el **Canales** carpeta.
 
-* Crear otro canal como **TargetedSinglePlay** bajo **Canales** carpeta
+* Crear otro canal como **TargetedSinglePlay** en el **Canales** carpeta.
 
-* Añadir los recursos relevantes a ambos canales
+* Agregue los recursos relevantes a ambos canales.
 
-La siguiente imagen muestra el **Activación de nivel de canal** proyecto con **MainAdChannel** y **TargetedSinglePlay** canales en **Canales** carpeta.
+La siguiente imagen muestra el **Activación de nivel de canal** proyecto con **MainAdChannel** y **TargetedSinglePlay** canales en la **Canales** carpeta.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -101,35 +101,33 @@ Siga los pasos a continuación para implementar la funcionalidad:
    Para **MainAdChannel:**
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
-   1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Clic **Canal de referencia** por ruta.
-   1. Haga clic en **Ruta de canal** as **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
+   1. En el **Asignación de canales** , haga clic en **Canal de referencia** por ruta.
+   1. Haga clic en **Ruta de canal**, luego haga clic en **Activación de nivel de canal** > ***Canales*** > ***MainAdChannel***.
    1. El **Función del canal** se rellena como **mainadchannel**.
-   1. Haga clic en **Prioridad** as **1**.
-   1. Haga clic en **Eventos admitidos** as **Carga inicial** y **Pantalla inactiva**.
+   1. Haga clic en **Prioridad** y se establece en **1**.
+   1. Haga clic en **Eventos admitidos** como **Carga inicial** y **Pantalla inactiva**.
    1. Haga clic en **Guardar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >También puede asignar un canal desde el panel de visualización navegando hasta **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y seleccionando **Tablero** de la barra de acciones. Clic **+ Asignar canal** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+   >También puede asignar el canal desde el panel de visualización. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay**. En la barra de acciones, seleccione **Tablero**. Desde el **CANALES Y PROGRAMACIONES ASIGNADOS** , haga clic en **+ Asignar canal**.
 
    Del mismo modo, asignar canal **TargetedSinglePlay** para visualización**:
 
    1. Vaya a **Activación de nivel de canal** > **Ubicaciones** > **Región** > **RegionDisplay** y haga clic en **Asignar canal** de la barra de acciones.
-   1. **Asignación de canales** se abre el cuadro de diálogo.
-   1. Clic **Canal de referencia** por ruta.
-   1. Haga clic en **Ruta de canal** as **Activación de nivel de canal*** > ***Canales*** > ***TargetedSinglePlay***.
+   1. En el **Asignación de canales** , haga clic en **Canal de referencia** por ruta.
+   1. Haga clic en **Ruta de canal**, luego haga clic en **Activación de nivel de canal** > ***Canales*** > ***TargetedSinglePlay***.
    1. El **Función del canal** se rellena como **targetedsingleplay**.
-   1. Configure las variables **Prioridad** as **2**.
-   1. Haga clic en **Eventos admitidos** as **Carga inicial**, **Pantalla inactiva**, y **Temporizador**, como se muestra en la figura siguiente.
-   1. Elija la fecha en **activo desde** el 27 de noviembre de 2018 a las 23:59 h y en **activo hasta** as 28 de noviembre de 2018 12:05 A.M.
+   1. Configure las variables **Prioridad** hasta **2**.
+   1. Haga clic en **Eventos admitidos** y establezca **Carga inicial**, **Pantalla inactiva**, y **Temporizador**, como se muestra en la figura siguiente.
+   1. Entrada **activo desde**, establecido como 27 de noviembre de 2018 a las 23:59 y en **activo hasta**, establecido como 28 de noviembre de 2018 a las 12:05 a.m.
    1. Haga clic en **Guardar**.
 
    >[!CAUTION]
    >
-   >Establecer la prioridad para **TargetedSinglePlay** canal superior a **MainAdSegment** canal.
+   >Establezca la prioridad de la variable **TargetedSinglePlay** canal superior a **MainAdSegment** canal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -172,7 +170,7 @@ Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 
 
 #### Expresiones de ejemplo para la partición por día {#example-one}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -181,7 +179,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 | después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el recurso del canal se reproduce antes de las 12:15 todos los días y después de las 12:45. |
 | Lun, Mar, Mié o Lun-Mié | el recurso se reproduce en el recurso del canal de lunes a miércoles |
-| el primer día de enero después de las 2:00 p.m. también el segundo día de enero también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
+| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
 | los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
 >[!NOTE]
@@ -202,7 +200,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para WeekParting {#example-two}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -231,7 +229,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para MonthParting {#example-three}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -259,12 +257,12 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 
 #### Expresiones de ejemplo para combinación de particiones {#example-four}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6:00 y las 18:00 los lunes y miércoles de enero a finales de marzo |
-| el primer día de enero después de las 2:00 p.m. también el segundo día de enero también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
+| después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
+| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
 | los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
 >[!NOTE]

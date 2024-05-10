@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Puede administrar el contenido del canal y otros ajustes en el Reproductor de AE
 >
 >Prensa ***Ctrl + Cmd + F*** para poder salir del modo de pantalla completa para el Reproductor de AEM Screens OS X.
 
-Después de asignar un canal a una pantalla, el Reproductor de AEM Screens muestra el contenido. Puede configurar los ajustes del reproductor mediante las preferencias de la IU de administración (desde el panel) o desde el propio reproductor.
+Después de asignar un canal a una pantalla, el Reproductor de AEM Screens muestra el contenido. Puede configurar los ajustes del reproductor mediante las preferencias de la IU del administrador (desde el panel) o desde el propio reproductor.
 
 ## Uso del tablero de dispositivos {#using-the-device-dashboard}
 
-AEM Puede configurar las preferencias de su dispositivo desde el Tablero de dispositivo, al que se puede acceder mediante la instancia de creación de la aplicación de la instancia de creación de la aplicación de la.
+AEM Puede configurar las preferencias de su dispositivo desde el panel Dispositivo, al que se puede acceder mediante la instancia de creación de la instancia de la instancia de creación de la.
 
 1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
@@ -40,13 +40,13 @@ AEM Puede configurar las preferencias de su dispositivo desde el Tablero de disp
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Compruebe la **PREFERENCIAS** panel. Puede habilitar/deshabilitar el **IU de administración** y **Conmutador de canales** para su reproductor a partir de estas dos opciones.
+1. Compruebe la **PREFERENCIAS** panel. Puede activar o desactivar las **IU de administración** y **Conmutador de canales** para su reproductor a partir de estas dos opciones.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### La IU de administración {#the-admin-ui}
 
-Activación de la **IU de administración** desde el panel de preferencias el usuario puede abrir la configuración de administración desde el reproductor de Screens. Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá abrir la interfaz de usuario de administración desde el reproductor.
+Activación de la **IU de administración** desde el panel de preferencias el usuario puede abrir la configuración de administración desde el reproductor de Screens. Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá abrir la IU de administración desde el reproductor.
 
 Para ver la IU de administración desde el reproductor de Screens, pulse durante mucho tiempo la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón. La información se muestra una vez completado el registro y cargados los canales.
 
@@ -68,7 +68,7 @@ El menú Configuration permite modificar las siguientes opciones:
 
 * Especifique el número máximo de archivos de registro que desea conservar para un Reproductor de AEM Screens en **Número máximo. de archivos de registro que se van a conservar**.
 
-* Habilitar o deshabilitar **Menú Administrador**, **Conmutador de canales**, y **IU de actividad** para el reproductor Screens.
+* Habilitar o deshabilitar el **Menú Administrador**, **Conmutador de canales**, y **IU de actividad** para el reproductor Screens.
 
   Si la variable **IU de actividad** está habilitado desde el **Configuración** , el Reproductor de AEM Screens muestra el menú *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
 
@@ -92,7 +92,7 @@ Haga clic en **Caché de contenido** desde el carril lateral para poder actualiz
 
 ### El conmutador de canales {#the-channel-switcher}
 
-Activación de la **Conmutador de canales** desde el panel de preferencias el usuario puede abrir la selección/configuración de canal desde el reproductor de Screens.
+Activación de la **Conmutador de canales** desde el panel de preferencias el usuario puede abrir los ajustes de selección de canal desde el reproductor de Screens.
 
 Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá controlar las preferencias de canal desde el reproductor de Screens.
 
@@ -104,7 +104,7 @@ Para ver el conmutador de canales desde el reproductor, pulse durante mucho tiem
 
 >[!NOTE]
 >
->También puede habilitar o deshabilitar el menú de administración y el conmutador de canales para el reproductor desde el reproductor Screens.
+>También puede habilitar o deshabilitar el menú de administración y el conmutador de canales para el reproductor desde el Reproductor de Screens.
 >
 >(Consulte *Cambiar preferencias del reproductor de Screens* como se menciona en la sección siguiente).
 
@@ -116,7 +116,7 @@ Para cambiar las preferencias del reproductor:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda del canal inactivo para abrir el panel de administración.
 1. Vaya a **Configuración** en el menú de acción de la izquierda.
-1. Habilitar/deshabilitar la configuración de **IU de administración** o **Conmutador de canales**.
+1. Habilite o deshabilite la configuración para **IU de administración** o **Conmutador de canales**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -127,11 +127,11 @@ Puede solucionar varios problemas asociados con el Reproductor de AEM Screens (h
 | **Problemas** | **Recommendations** |
 |---|---|
 | El almacenamiento del reproductor está lleno | Eliminar archivos innecesarios |
-| El reproductor perdió la red | Utilice un cable Cat-5/Cat-6. Para wifi, reduce la distancia desde el router al dispositivo de reproducción |
+| El reproductor perdió la red | Utilice un cable Cat-5 o Cat-6. Para wifi, reduce la distancia desde el router al dispositivo de reproducción |
 | Reproductor de AEM Screens bloqueado | Se recomienda tener una aplicación de vigilancia que se asegure de que el reproductor de AEM Screens siempre se ejecute |
 | El Reproductor de AEM Screens perdió la configuración | AEM Comprobar la conexión con el servidor de |
 | El Reproductor de AEM Screens no se inicia automáticamente después de reiniciar el Reproductor | Compruebe la carpeta de inicio del sistema operativo o el procedimiento de inicialización |
-| El Reproductor de AEM Screens muestra contenido incorrecto/antiguo | Comprobar conexión de red |
+| El Reproductor de AEM Screens muestra contenido incorrecto o antiguo | Comprobar conexión de red |
 
 ### Actualizaciones del Reproductor de AEM Screens
 
@@ -140,7 +140,7 @@ Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 | **Método** | **Detalles** | **a través de Remote** | **Automatizado** | **0 Tiempo de inactividad** |
 |---|---|---|---|---|
 | Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se vuelve a cargar automáticamente con el contenido existente. | Sí | Personalizado | Casi - 1-3 segundos |
-| Actualizaciones del contenedor del reproductor | Se trata de un nuevo ejecutable que se implementará en el Reproductor. Esto requiere copiar de forma remota el nuevo binario en el reproductor, detener el que se está ejecutando e iniciar la nueva versión. Esto puede requerir volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizado | No |
+| Actualizaciones del contenedor del reproductor | Un nuevo ejecutable que se implementa en el Reproductor. Esta funcionalidad requiere que copie de forma remota el nuevo binario en el reproductor, detenga el que se está ejecutando e inicie la nueva versión. Es posible que sea necesario volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizado | No |
 
 ## Directrices de selección de hardware para dispositivos de reproducción {#hardware-selection-guidelines-for-player-device}
 

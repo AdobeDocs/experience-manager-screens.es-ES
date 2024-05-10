@@ -1,16 +1,15 @@
 ---
 title: Compatibilidad posterior al inicio
 description: Obtenga información acerca de la compatibilidad posterior al inicio con AEM Screens en la Guía de prácticas recomendadas.
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 
 # Compatibilidad posterior al inicio {#post-launch-support}
-
 
 No pase por alto la compatibilidad posterior al inicio en la fase inicial.
 
@@ -28,31 +27,31 @@ Además, para prepararse para el éxito a largo plazo, es fundamental establecer
 >
 >AEM Defina los parámetros operativos que se incluirán en los presupuestos operativos y alinee las responsabilidades con el implementador de la y el integrador de audio y vídeo.
 >
->* ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esto puede requerir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
+>* ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
 >* ¿Es la aplicación muy visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
 >* ¿Es la aplicación crítica para las operaciones empresariales, como los tableros de menú en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta cortos y redundancia en el hardware de reproducción.
 
 ## Consideraciones y consultas posteriores al lanzamiento {#considerations-queries}
 
-A continuación se indican algunas consideraciones y preguntas que pueden ayudarle a definir la compatibilidad posterior al inicio:
+Algunas consideraciones y preguntas que le ayudarán a definir la compatibilidad después del lanzamiento:
 
-1. ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esto puede requerir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
+1. ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
  
    >[!NOTE]
    >
-   > Esto exige periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
+   >Indica periodos de tiempo de resolución más cortos en comparación con una red de comunicaciones corporativas.
 
 1. ¿Es la aplicación muy visible para el liderazgo ejecutivo del cliente final?
 
    >[!NOTE]
    >
-   > Esto exige periodos de resolución más cortos en comparación con una red de comunicaciones corporativas. Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
+   >Indica periodos de tiempo de resolución más cortos en comparación con una red de comunicaciones corporativas. Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
 
 1. ¿Es la aplicación crítica para las operaciones empresariales, como los tableros de menú en las cadenas de comida rápida?
 
    >[!NOTE]
    >
-   > En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta cortos y redundancia en el hardware de reproducción.
+   >En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta cortos y redundancia en el hardware de reproducción.
 
 1. ¿Quién es el principal punto de contacto para obtener asistencia?
 
