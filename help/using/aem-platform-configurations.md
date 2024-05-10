@@ -2,14 +2,14 @@
 title: AEM Configuraciones de plataforma de
 description: AEM La página describe las configuraciones de plataforma de la
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# AEM Configuraciones de plataforma de  {#platform-configurations}
+# AEM Configuraciones de plataforma de {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Consulte [Configuración de autor y publicación en AEM Screens](https://experie
 
 >[!NOTE]
 >
->Si solo hay un autor y una publicación, solo debe seguir los pasos que se describen en **Configuración de agentes de replicación en Autor** in [Configuración de autor y publicación en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
+>Si solo hay un autor y una publicación, solo puede seguir los pasos descritos en **Configuración de agentes de replicación en Autor** in [Configuración de autor y publicación en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
 
 ## Configuraciones de Dispatcher {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Instale FFMpeg siguiendo los pasos para el sistema operativo apropiado (normalme
 
 ## Restricciones de contraseña {#password-restrictions}
 
-AEM La política de contraseña de la debe deshabilitarse en la instancia de AMS. Esto se puede configurar de forma alternativa en la consola web mediante el servicio de dispositivos de Screens *com.adobe.cq.screens.device.impl.DeviceService*
+AEM La política de contraseña de la debe deshabilitarse en la instancia de AMS. También se puede configurar de forma alternativa en la consola web mediante el servicio de dispositivo Screens *com.adobe.cq.screens.device.impl.DeviceService*
 Consulte **Restricciones de contraseña** sección en[Configuración de autor y publicación en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuración de los entornos {#setting-up-environments}

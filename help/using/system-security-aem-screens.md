@@ -1,9 +1,9 @@
 ---
 title: Lista de comprobación de seguridad para AEM Screens
 description: Obtenga más información acerca de la lista de comprobación de seguridad de AEM Screens.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Consideraciones de seguridad del sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Este es un recurso de Git interno.
+>Un recurso de Git interno.
 
 Esta página resalta las Consideraciones de seguridad del sistema para AEM Screens.
 
@@ -24,7 +24,7 @@ En esta sección se describe el documento técnico. (Documento adjunto a la docu
 
 ## Preguntas frecuentes sobre la seguridad de AEM Screens {#faqs-screens}
 
-AEM Las siguientes preguntas frecuentes suponen una arquitectura de reproductor autenticada y registrada que utiliza HTTPS como protocolo de comunicación entre el reproductor y el servidor de la.
+Las siguientes preguntas frecuentes suponen una arquitectura de reproductor autenticada y registrada. AEM Utiliza HTTPS como protocolo de comunicación entre el reproductor y el servidor de.
 
 ### FAQ 1 {#faq1}
 
@@ -41,7 +41,7 @@ No es posible porque la conexión HTTP identifica ambos extremos de la conexión
 
 **Respuesta**
 
-Utilice HTTP. Esto es imprescindible si le preocupa la seguridad. Con HTTP, la comunicación se cifra entre el reproductor y el servidor, y es imposible interceptar el contenido o modificarlo.
+Utilice HTTP. Este protocolo es obligatorio si le preocupa la seguridad. Con HTTP, la comunicación se cifra entre el reproductor y el servidor, y es imposible interceptar el contenido o modificarlo.
 
 
 ### FAQ 3 {#faq3}
@@ -50,7 +50,7 @@ En una descarga de contenido, ¿hay algún tipo de firma del contenido o hash?
 
 **Respuesta**
 
-El servidor firma todos los recursos (SHA) y, a continuación, el reproductor los valida para obtener el mismo hash a fin de garantizar la integridad.
+El servidor firma todos los recursos (SHA). A continuación, el reproductor lo valida para el mismo hash a fin de garantizar la integridad.
 Si el hash no coincide, el software intenta revalidarlo tres veces. Después de tres intentos, el comando de descarga se considera no válido.
 
 

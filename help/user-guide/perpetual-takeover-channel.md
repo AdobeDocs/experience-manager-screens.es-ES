@@ -1,14 +1,14 @@
 ---
 title: Canal de adquisición perpetua
-description: Siga este caso de uso para crear un canal de adquisición perpetua.
+description: Aprenda a crear un canal de adquisición perpetua.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -84,12 +84,12 @@ Siga los pasos a continuación para configurar un proyecto:
 
 1. Haga clic en la pantalla **TakeOver** desde el **Ubicaciones** carpeta. Clic **Asignar canal** desde la barra de acciones para poder asignar el canal de adquisición.
 
-1. Asignación de los **TakeOver** canal a la pantalla a una hora programada y rellenando los siguientes campos desde el **Asignación de canales** y seleccionar. **Guardar**:
+1. Asignación de los **TakeOver** canal a la pantalla a una hora programada. A continuación, rellene los campos siguientes desde la variable **Asignación de canales** y seleccionar. **Guardar**:
 
    * **Ruta de canal**: haga clic en la ruta al **TakeOver** canal
    * **Prioridad**: establezca la prioridad de este canal en mayor que **MainAdChannel**. Por ejemplo, la prioridad establecida en este ejemplo es 8.
    * **Eventos admitidos**: haga clic en **Pantalla inactiva** y **Temporizador**.
-   * **Programación**: introduzca el texto de la programación en la que desea que este canal ejecute la visualización. El texto de la **Programación** mencionado en este ejemplo es *el miércoles después de las 14:00 y antes de las 16:00*.
+   * **Programación**: introduzca el texto de la programación que desea que este canal se ejecute en la pantalla. El texto de la **Programación** mencionado en este ejemplo es *el miércoles después de las 14:00 y antes de las 16:00*.
 
      >[!NOTE]
      >Para obtener más información sobre las expresiones que puede agregar al **Programación**, consulte la [Expresiones de ejemplo](#example-expressions) más abajo.
@@ -101,7 +101,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
      ![recurso](assets/p_usecase7.png)
 
-     Navegue hasta la pantalla desde **TakeOver** > **Ubicaciones** > **MainLobby** > **MainLobbyDisplay** y haga clic en **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
+     Navegue hasta la pantalla desde **TakeOver** > **Ubicaciones** > **MainLobby** > **MainLobbyDisplay** A continuación, haga clic en **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
 
      >[!NOTE]
      >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.
@@ -111,7 +111,7 @@ Ahora, la **TakeOver** El canal se hace cargo de **MainAdChannel** a las 2:00 p.
 
 ## Expresiones de ejemplo {#example-expressions}
 
-La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a la programación al asignar un canal a una visualización.
+En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden añadir a la programación al asignar un canal a una visualización.
 
 | **Expresión** | **Interpretación** |
 |---|---|
@@ -119,7 +119,7 @@ La siguiente tabla resume algunas expresiones de ejemplo que se pueden agregar a
 | después de las 2:00 p.m. | el canal se reproduce después de las 2:00 p.m. todos los días |
 | después de las 12:15 y antes de las 12:45 | el canal se reproduce después de las 12:15 todos los días durante 30 minutos |
 | antes de las 12:15 también después de las 12:45 | el canal suena todos los días antes de las 12:15 p.m. y luego también después de las 12:45 p.m. |
-| el primer día de enero después de las 2:00 p.m. también el segundo día de enero también el tercer día de enero antes de las 3:00 a.m. | el canal comienza a reproducirse después de las 2:00 p.m. del 1 de enero, continúa reproduciendo durante todo el día del 2 de enero hasta las 3:00 a.m. del 3 de enero |
+| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el canal comienza a reproducirse después de las 2:00 p.m. del 1 de enero, continúa reproduciendo durante todo el día del 2 de enero hasta las 3:00 a.m. del 3 de enero |
 | los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
 
 >[!NOTE]

@@ -1,13 +1,13 @@
 ---
 title: Registro automático de reproductores
-description: Siga esta página para obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
+description: Siga esta página para poder obtener más información sobre el registro automático de reproductores con pantallas AMS/On-Prem.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Siga los pasos a continuación para implementar el registro automático de repro
 1. AEM Inicie sesión en la instancia de, haga clic en el proyecto de AEM Screens y en **Propiedades** de la barra de acciones.
 1. Haga clic en **Avanzadas** para poder ver la pestaña **Registro de dispositivos** sección.
 
-1. Especifique un código de registro automático en **Código de registro en bloque** y una visualización predeterminada opcional en **Asignación de visualización predeterminada** para asignar al reproductor que se ha registrado automáticamente.
+1. Especifique un código de registro automático en la **Código de registro en bloque** field. A continuación, una visualización predeterminada opcional en la variable **Asignación de visualización predeterminada** para asignar al reproductor que se ha registrado automáticamente.
 
    >[!NOTE]
    >Introduzca un código de su elección y haga clic en una pantalla predeterminada si es necesario.
@@ -44,11 +44,11 @@ En la sección siguiente se describen algunas de las prácticas recomendadas par
 
 * AEM AEM Asegúrese de que el código de registro no esté en peligro: configure el código en la configuración de justo antes de iniciar el registro masivo y, cuando haya terminado, borre ese campo y guarde los cambios en la configuración de la aplicación. Haga clic en.
 
-* Puede configurar la ruta `/bin/screens/registration` para que solo sea accesible desde intervalos de IP conocidos, si es posible.
+* Puede configurar la ruta `/bin/screens/registration` de modo que solo sea accesible desde intervalos de IP conocidos, si es posible.
 
 * Considere la posibilidad de utilizar un MDM para aprovisionar el reproductor con la configuración.
 
 * Usar siempre `HTTPS` y no `HTTP` AEM para que el reproductor se comunique con el.
 
   >[!NOTE]
-  >Actualmente, la asignación de visualización predeterminada solo funciona para el registro masivo y no para el registro manual sin código de registro.
+  >En este momento, la asignación de visualización predeterminada solo funciona para el registro masivo. No funciona para el registro manual cuando un código de registro no está disponible.
