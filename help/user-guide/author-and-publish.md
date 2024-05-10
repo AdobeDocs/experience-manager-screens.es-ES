@@ -2,9 +2,9 @@
 title: Configuración de las instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Antes de empezar a usar los servidores de creación y publicación, debe tener c
 >
 >AEM Para obtener más información sobre la descripción general de la arquitectura de Autor y Publicación y cómo se crea el contenido en una instancia de Autor y, a continuación, se replica mediante reenvío en varias instancias de Publicación, consulte [Información general sobre la arquitectura de creación y publicación](author-publish-architecture-overview.md).
 
-En la siguiente sección se explica cómo configurar agentes de replicación en la topología Autor y Publicación.
+En la siguiente sección se explica cómo configurar agentes de replicación en las topologías Autor y Publicación.
 
 Puede configurar un ejemplo sencillo, en el que aloje una instancia de autor y dos instancias de publicación:
 
@@ -101,18 +101,18 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
    >También puede copiar y cambiar el nombre de un agente de replicación predeterminado existente.
 
 
-#### Creación de agentes de replicación estándar  {#creating-standard-replication-agents}
+#### Creación de agentes de replicación estándar {#creating-standard-replication-agents}
 
-1. Cree un agente de replicación estándar para pub1 (el agente predeterminado predeterminado incorporado ya debe estar configurado). Por ejemplo, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Cree un agente de replicación estándar para pub1 (ya debe estar configurado un agente predeterminado). Por ejemplo, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
 1. Cree un agente de replicación estándar para pub2. Puede copiar como agente de replicación para pub1 y actualizar el transporte que se utilizará para pub2 cambiando el puerto en la configuración de transporte. Por ejemplo, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Creación de agentes de replicación de Screens {#creating-screens-replication-agents}
 
-1. Cree un agente de replicación de AEM Screens para pub1. De forma predeterminada, hay un agente de replicación de Screens que señala al puerto 4503. Actívelo.
-1. Cree un agente de replicación de AEM Screens para pub2. Copie el Agente de replicación de pantallas para pub1 y cambie el puerto a 4504 para pub2.
+1. Cree un agente de replicación de AEM Screens para pub1. De forma predeterminada, hay un agente de replicación llamado Screens que apunta al puerto 4503. Actívelo.
+1. Cree un agente de replicación de AEM Screens para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto a 4504 para pub2.
 
    >[!NOTE]
-   >Para obtener información sobre cómo configurar agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creación de agentes de replicación inversa de Screens {#creating-screens-reverse-replication-agents}
 
@@ -152,7 +152,7 @@ En cada instancia de publicación:
 1. En la consola OSGi, navegue hasta **PRINCIPAL** > **Compatibilidad con cifrado** (`https://<host>:<port>/system/console/crypto`).
 1. Escriba la contraseña de texto sin formato deseada (la misma para todas las instancias) en **Texto sin formato**
 1. Clic **Protect**.
-1. Copie el valor **Texto protegido** al bloc de notas o al editor de texto. Este valor se puede utilizar en la configuración OSGi para ActiveMQ.
+1. Copie el valor **Texto protegido** a un bloc de notas o editor de texto. Este valor se puede utilizar en la configuración OSGi para ActiveMQ.
 
 Dado que cada instancia de publicación, de forma predeterminada, tiene claves criptográficas únicas, realice este paso en cada instancia de publicación y guarde la clave única para la siguiente configuración.
 
@@ -169,7 +169,7 @@ En cada instancia de publicación:
 1. Clic **Proveedor de Apache ActiveMQ Artemis JMS** Configuración
 1. Actualice lo siguiente:
 
-   * ***Contraseña de clúster***: utilice el valor cifrado del paso anterior por cada instancia respectiva
+   * ***Contraseña de clúster***: utilice un valor cifrado del paso anterior por cada instancia respectiva
    * ***Temas***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Comprobar clúster de elementos ActiveMQ {#verify-activemq-artemis-cluster}
@@ -264,7 +264,7 @@ También puede activar el dispositivo desde la Consola de administración de dis
 
 >[!NOTE]
 >
->Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. Clic **Editar URL del servidor** en la barra de acciones, como se muestra en la figura siguiente, los cambios se propagarán al reproductor de AEM Screens.
+>Como alternativa, una vez activado el dispositivo, también puede editar o actualizar la URL del servidor. En la barra de acciones, haga clic en **Editar URL del servidor**, como se muestra en la figura siguiente. Los cambios se propagarán al Reproductor de AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,20 +272,20 @@ También puede activar el dispositivo desde la Consola de administración de dis
 
 Los siguientes puntos resumen la lista de comprobación de publicación:
 
-* *Usuario de dispositivo de Screens* AEM - Esto se almacena como usuario de la aplicación y se activa desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le agrega el prefijo &quot;screens&quot; con una cadena serializada larga.
+* *Usuario de dispositivo de Screens* AEM - Esta información se almacena como usuario de la red y se puede activar desde **Herramientas** > **Seguridad** > **Usuarios**. Al usuario se le agrega el prefijo &quot;screens&quot; con una cadena serializada larga.
 
 * *Proyecto* - El proyecto AEM Screens.
 * *Ubicación* - Ubicación a la que está conectado el dispositivo.
-* *Canales* - uno o más canales que se muestran en la ubicación
-* *Programación* - si utiliza una programación, asegúrese de que se publique
-* *Ubicación, horarios y carpeta del canal* : si los recursos correspondientes están dentro de una carpeta.
+* *Canales* - Uno o más canales que se están mostrando en la ubicación.
+* *Programación* : Si utiliza una programación, asegúrese de que esta se publica.
+* *Ubicación, horarios y carpeta del canal* : Si los recursos correspondientes están dentro de una carpeta.
 
 Siga los pasos a continuación para verificar el comportamiento de creación y publicación:
 
 1. Actualizar parte del contenido del canal en la instancia de autor.
 1. Realizar **Administrar publicación** para publicar nuevos cambios en todas las instancias de publicación.
 1. Prensa **Activar** para activar el dispositivo desde **Administrador de dispositivos**.
-1. **Editar URL** de la URL de instancia de autor a una de las URL de instancias de publicación.
+1. Seleccionar **Editar URL** de la URL de instancia de autor a una de las URL de instancias de publicación.
 1. Compruebe que el contenido actualizado del canal se muestra en el reproductor de AEM Screens.
 1. Repita estos pasos con una instancia de publicación diferente.
 
@@ -302,7 +302,7 @@ También puede actualizar o editar la URL del servidor desde la consola de admin
 
 1. Vaya al proyecto de AEM Screens y haga clic en **Dispositivos** carpeta.
 1. Clic **Administrador de dispositivos** de la barra de acciones.
-1. Haga clic en el dispositivo y en **Editar URL del servidor** de la barra de acciones, como se muestra en la figura siguiente, y los cambios se propagarán al reproductor de AEM Screens.
+1. Haga clic en el dispositivo y luego, en la barra de acciones, haga clic en **Editar URL del servidor**, como se muestra en la figura siguiente. Los cambios se propagarán al Reproductor de AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -310,7 +310,7 @@ El **Administrar publicación** Esta función permite enviar actualizaciones de 
 
 ## Sugerencias de resolución de problemas {#troubleshoot-tips}
 
-Siga esta sección para obtener respuestas a las preguntas frecuentes relacionadas con la configuración de Autor/Publicación.
+Siga la sección siguiente para obtener respuestas a las preguntas frecuentes relacionadas con la configuración de Autor/Publicación.
 
 ### Cómo añadir un Redireccionamiento de https a http después del registro inicial y la asignación? {#add-redirect}
 

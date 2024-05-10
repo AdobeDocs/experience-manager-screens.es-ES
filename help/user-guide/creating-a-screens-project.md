@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ También puede navegar directamente a: `http://localhost:4502/screens.html/conte
 
 >[!NOTE]
 >**Sugerencia de navegación:**
->AEM También puede utilizar las teclas del cursor para navegar por diferentes carpetas en la. Además, después de hacer clic en una entidad concreta, pulse la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
+>AEM También puede utilizar las teclas del cursor para navegar por diferentes carpetas en la. Además, después de hacer clic en una entidad concreta, presione la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
 
 ## Creación de un nuevo proyecto de Screens
 
@@ -46,7 +46,7 @@ En un proyecto hay cinco tipos de carpetas, como se muestra en la figura siguien
 
 >[!NOTE]
 >
->De forma predeterminada, la estructura inicial contiene la variable **Horarios**, **Ubicaciones**, **Aplicaciones**, **Canales**, y **Dispositivos** páginas principales, pero esto se puede ajustar manualmente si es necesario. Puede eliminar las opciones si las disponibles no son relevantes para el proyecto.
+>De forma predeterminada, la estructura inicial contiene la variable **Horarios**, **Ubicaciones**, **Aplicaciones**, **Canales**, y **Dispositivos** páginas principales, pero esta estructura se puede ajustar manualmente si es necesario. Puede eliminar las opciones si las disponibles no son relevantes para el proyecto.
 
 
 ## Visualización de propiedades {#viewing-properties}

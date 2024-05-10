@@ -2,7 +2,7 @@
 title: Compatibilidad con miniaturas para vídeos en AEM Screens
 description: Obtenga información sobre cómo añadir compatibilidad con miniaturas para vídeos en AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -13,12 +13,12 @@ ht-degree: 3%
 
 ## Introducción {#introduction}
 
-Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen se utilice como marcador de posición y pruebe correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. La imagen también se puede utilizar en caso de que falle la reproducción del vídeo.
+Un autor de contenido puede definir una miniatura para los vídeos, de modo que la imagen se utilice como marcador de posición. Puede probar correctamente la reproducción y la segmentación del contenido, mientras el equipo correspondiente finaliza el vídeo real. La imagen también se puede utilizar en caso de que falle la reproducción del vídeo.
 
 Añadir la compatibilidad con una imagen en miniatura en el componente de vídeo permite al cliente añadir correctamente un componente válido en el canal, con contenido real, y realizar cualquier configuración de segmentación antes de que se envíe el vídeo.
 
 >[!NOTE]
->La imagen en miniatura, si se establece en el componente de vídeo, se reproduce si hay un error de reproducción de vídeo en el reproductor. Esto permite enviar el mensaje deseado a la audiencia (reproduciendo contenido) en lugar de omitirlo por completo.
+>La imagen en miniatura, si se establece en el componente de vídeo, se reproduce si hay un error de reproducción de vídeo en el reproductor. Esta reserva le permite enviar el mensaje deseado a la audiencia (reproduciendo contenido) en lugar de omitirlo por completo.
 
 La compatibilidad con miniaturas le permite:
 
@@ -28,7 +28,7 @@ La compatibilidad con miniaturas le permite:
 
 ## Uso de miniaturas en vídeos {#using-thumbnails}
 
-Siga los pasos a continuación para utilizar las miniaturas en los vídeos:
+Siga los pasos a continuación para utilizar una miniatura en los vídeos:
 
 1. Vaya a un canal de AEM Screens existente o cree un canal.
 
