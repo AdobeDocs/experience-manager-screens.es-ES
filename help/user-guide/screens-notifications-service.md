@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Siga los pasos a continuación para configurar los ajustes de notificación por 
 
    **Frecuencia de programación** : especifique la hora (por ejemplo, 5:00 p. m. o 17:00) o la frecuencia en horas (por ejemplo, 1) a las que este monitor debe enviar correos electrónicos.
 
-   **Tiempo de espera de ping** : especifica el intervalo en minutos tras el cual se debe considerar que un dispositivo no está accesible.
+   **Tiempo de espera de ping** - Este campo especifica el intervalo en minutos tras el cual un dispositivo debe considerarse no accesible.
 
    **Servidor SMTP** : especifica el servidor SMTP que se utiliza para enviar correos electrónicos.
 
@@ -91,11 +91,14 @@ Después de establecer la configuración de las notificaciones por correo electr
 
 Al acceder a ese vínculo, accederá directamente al panel del dispositivo.
 
-Los correos electrónicos solo se envían si hay al menos un dispositivo que no ha hecho ping durante el tiempo de espera de ping especificado y sigue sin hacerlo en el momento de generar el correo electrónico.
+Los correos electrónicos solo se envían si:
+
+* hay al menos un dispositivo que no ha hecho ping durante el tiempo de espera de ping especificado, y
+* sigue sin hacer ping en el momento de generar el correo electrónico.
 
 ### Casos de uso de ejemplo {#example-use-cases}
 
-El siguiente ejemplo describe algunos escenarios como referencia para configurar las propiedades del servicio de supervisión de correo electrónico del dispositivo de Screens.
+En el siguiente ejemplo se describen algunos escenarios como referencia para configurar las propiedades del servicio de supervisión de correo electrónico del dispositivo de Screens.
 
 **Escenario 1**
 
@@ -103,4 +106,4 @@ La frecuencia de programación se establece en 1:00 a.m. y el tiempo de espera d
 
 **Escenario 2**
 
-Establezca la frecuencia de programación como 1 y el tiempo de espera de ping como 60. A continuación, si el dispositivo AEM Screens no hace ping entre una vez a cualquier hora del día en particular, recibirá una notificación por correo electrónico que confirma la inactividad del dispositivo.
+Establezca la frecuencia de programación como 1 y el tiempo de espera de ping como 60. A continuación, si el dispositivo AEM Screens no hace ping a la vez en ningún momento del día en particular, recibirá una notificación por correo electrónico que confirma la inactividad del dispositivo.

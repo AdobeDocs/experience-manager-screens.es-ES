@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Para ver el vídeo:
 
 Debe haber diferentes representaciones (una MP4 o M4V).
 
-AEM Si no hay ninguna representación, asegúrese de que tiene ffmpeg instalado en el sistema operativo donde se está ejecutando la.
+AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado en el sistema operativo donde se ejecuta el sistema operativo en el que se está ejecutando el.
 
 >[!CAUTION]
 >
->AEM Si no hay ninguna representación, asegúrese de que tiene ffmpeg instalado en el sistema operativo donde se está ejecutando la.
+>AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado en el sistema operativo donde se ejecuta el sistema operativo en el que se está ejecutando el.
 >
->Clic [aquí](https://www.ffmpeg.org/download.html) para instalar ffmpeg.
+>Clic [aquí](https://www.ffmpeg.org/download.html) para instalar FFMPEG.
 
 ## Recursos de vídeo {#video-assets}
 
 Si no ve un atributo de fuente en el vídeo, puede ser que el vídeo no se haya transcodificado. Si el vídeo se transcodifica correctamente, aparece en el panel, como se muestra en los siguientes ejemplos:
 
-Compruebe que ffmpeg está instalado y los perfiles de vídeo.
+Compruebe que FFMPEG está instalado y los perfiles de vídeo.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Compruebe que ffmpeg está instalado y los perfiles de vídeo.
 
 1. Cargue un vídeo de prueba y haga clic en **Ok** para que pueda comenzar la transcodificación.
 
-   Si el vídeo transcodificado falla, expanda la salida ffmpeg para comprender cualquier error en la salida de la consola de ffmpeg.
+   Si el vídeo transcodificado falla, expanda la salida FFMPEG para comprender cualquier error en la salida de la consola de FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Compruebe la lista de perfiles del diseño de página si el componente de vídeo
 1. Haga clic en el vídeo y abra **Editar** diálogo. Abra el **Perfiles** pestaña.
 
    >[!NOTE]
-   >Haga clic en diferentes perfiles (el perfil H.264 de &quot;alta calidad&quot; como mínimo debe estar allí).
+   >Haga clic en diferentes perfiles (al menos el perfil &quot;High Quality H.264&quot; debe estar allí).
 
 ### Comprobación del vídeo en el reproductor web {#checking-the-video-in-the-web-player}
 
 Utilice el **Reproductor web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` para validar la reproducción en navegadores (Chrome y Safari). Chrome se utiliza en dispositivos Android™ mientras que Safari es el navegador OS X y iOS.
 
-Si el vídeo no se ejecuta en Safari, tampoco se ejecuta en los reproductores de OS X y iOS. Es probable que se trate de un problema de codificación, por lo que el vídeo debe volver a codificarse.
+Si el vídeo no se ejecuta en Safari, tampoco se ejecuta en los reproductores de OS X y iOS. Es probable que este problema sea de codificación y se deba volver a codificar el vídeo.
 
 Para utilizar un flujo de trabajo DAM para crear representaciones FullHD, haga lo siguiente:
 
@@ -113,7 +113,7 @@ Siga los pasos a continuación para solucionar el problema de indicador de polí
 
 >[!NOTE]
 >
->Para obtener más información sobre las prácticas recomendadas para las buenas experiencias de usuario con las nuevas políticas de reproducción automática en Chrome, consulte la documentación de *Cambios de directiva de reproducción automática* en `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Para obtener más información acerca de las prácticas recomendadas para las buenas experiencias de usuario con las nuevas políticas de reproducción automática en Chrome. Consulte *Cambios de directiva de reproducción automática* en `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Sincronización de vídeo entre varios reproductores {#syncing-video-across-multiple-players}
 

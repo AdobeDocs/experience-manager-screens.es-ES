@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Esta página cubre los siguientes temas:
 
 ## Información general {#overview}
 
-Un ***Fragmento de experiencia*** es un grupo de uno o más componentes, incluido el contenido y el diseño, al que se puede hacer referencia en las páginas. Los fragmentos de experiencia pueden contener cualquier componente, como uno o varios componentes que pueden contener cualquier cosa dentro de un sistema de párrafos al que se hace referencia en la experiencia completa o que solicita un tercer punto final.
+Un ***Fragmento de experiencia*** es un grupo de uno o más componentes, incluido el contenido y el diseño, al que se puede hacer referencia en las páginas. Los fragmentos de experiencias pueden contener cualquier componente. Por ejemplo, puede contener uno o varios componentes que pueden contener cualquier cosa dentro de un sistema de párrafos al que se hace referencia en la experiencia completa o que solicita un tercer punto final.
 
 
 ## Uso de fragmentos de experiencias en AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -35,7 +35,7 @@ Un ***Fragmento de experiencia*** es un grupo de uno o más componentes, incluid
 >[!NOTE]
 >El siguiente ejemplo utiliza **`We.Retail`** como proyecto de demostración desde el que se aplica el fragmento de experiencia de una **Sites** a un proyecto de AEM Screens.
 
-Por ejemplo, el siguiente flujo de trabajo muestra el uso de fragmentos de experiencia de `We.Retail` en Sitios. Puede elegir una página web y utilizar ese contenido en su canal de AEM Screens en uno de sus proyectos.
+Por ejemplo, el siguiente flujo de trabajo muestra el uso de fragmentos de experiencias de `We.Retail` en Sitios. Puede elegir una página web y utilizar ese contenido en su canal de AEM Screens en uno de sus proyectos.
 
 ### Requisitos previos {#pre-requisites}
 
@@ -68,7 +68,7 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
 1. **Vaya a una página de Sites en We.Retail**
 
-   1. Vaya a Sitios y haga clic en **`We.Retail`** > **Estados Unidos** > **Inglés** > **Equipamiento** y haga clic en esta página para poder usarla como fragmento de experiencia para su canal de Screens.
+   1. Vaya a Sitios y haga clic en **`We.Retail`** > **Estados Unidos** > **Inglés** > **Equipamiento** y haga clic en esta página para poder utilizarla como fragmento de experiencia para su canal de Screens.
 
    1. Clic **Editar** en la barra de acciones, para poder abrir la página que desee utilizar como fragmento de experiencia para el canal de Screens.
 
@@ -92,7 +92,7 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Nota: Para hacer clic en una opción más sencilla, haga clic en la marca de verificación situada a la derecha del campo para abrir el cuadro de diálogo de selección.
+   Para seleccionar una opción más sencilla, haga clic en la marca de verificación situada a la derecha del campo para abrir el cuadro de diálogo de selección.
 
 1. **Creación de la Live Copy del fragmento de experiencia**
 
@@ -101,13 +101,13 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Haga clic en **ScreensFragment** de **Crear Live Copy** y haga clic en **Siguiente**.
+   c. Haga clic en **ScreensFragment** desde el **Crear Live Copy** y haga clic en **Siguiente**.
 
    d. Introduzca la **Título** y **Nombre** as **Screens**.
 
    e. Haga clic **Crear** para poder crear la Live Copy.
 
-   f. Haga clic **Listo** para poder volver a **ScreensFragment** página.
+   f. Haga clic **Listo** para poder volver a la sección **ScreensFragment** página.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    1. Haga clic en **Configuración sin conexión** , como se muestra en la figura siguiente.
 
-   Puede añadir la variable **Bibliotecas del lado del cliente** (Java™ y css) y **Archivos estáticos** a su Fragmento de experiencia.
+   Puede añadir la variable **Bibliotecas del lado del cliente** (Java™ y CSS) y **Archivos estáticos** a su Fragmento de experiencia.
 
    El siguiente ejemplo muestra la adición de bibliotecas del lado del cliente y las fuentes como parte de archivos estáticos al Fragmento de experiencia.  ![fragmento](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    e. Haga clic en **Fragmento de experiencia** y haga clic en el icono superior izquierdo (llave inglesa) para abrir **Fragmento de experiencia** Cuadro de diálogo.
 
-   f. Haga clic en **Screens** Live Copy del fragmento creado en *Paso 3* in **Ruta**.
+   f. Haga clic en **Screens** Live Copy del fragmento que ha creado en *Paso 3* in **Ruta**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Haga clic en **Screens** Live Copy del fragmento creado en *Paso 3* en el **Fragmento de experiencia**.
+   f. Haga clic en **Screens** Live Copy del fragmento que ha creado en *Paso 3* en el **Fragmento de experiencia**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -171,7 +171,7 @@ Ver el contenido desde **Sites** (Live Copy del fragmento de experiencia) en su 
 
 ***Live Copy*** hace referencia a la copia (del origen), mantenida mediante acciones de sincronización definidas según las configuraciones de despliegue.
 
-Dado que el fragmento de experiencia que ha creado es una Live Copy del **Sites** Si cambia ese fragmento concreto de la página principal, verá los cambios en el canal. O bien, vea el destino en el que ha utilizado el fragmento de experiencia.
+Porque el fragmento de experiencia que ha creado es una Live Copy del **Sites** Si cambia ese fragmento concreto de la página principal, verá los cambios en el canal. O bien, vea el destino en el que ha utilizado el fragmento de experiencia.
 
 >[!NOTE]
 >

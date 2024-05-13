@@ -2,9 +2,9 @@
 title: Enfoque recomendado
 description: Obtenga información acerca del enfoque recomendado en un proyecto de AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Consulte las siguientes recomendaciones antes de desarrollar e implementar un pr
   >
   > Los costes iniciales suelen ser más elevados en un proyecto de AEM Screens debido a la necesidad de invertir en hardware, accesorios y diseños de sitios. Por lo tanto, mantener las soluciones de contenido inicial más sencillas puede ayudar a administrar las expectativas presupuestarias.
 
-* **Cálculo De Entregables A Gran Escala**: Si la solución se entrega a gran escala, se recomienda desplegar los componentes de la aplicación en ubicaciones piloto cuidadosamente seleccionadas para su uso de prueba. Envío a nuevas ubicaciones y dispositivos a medida que la aplicación pasa la validación.
+* **Cálculo De Entregables A Gran Escala**: Si la solución se entrega a gran escala, implemente los componentes de la aplicación en ubicaciones piloto cuidadosamente seleccionadas para su uso de prueba. Envío a nuevas ubicaciones y dispositivos a medida que la aplicación pasa la validación.
 
   >[!NOTE]
   >

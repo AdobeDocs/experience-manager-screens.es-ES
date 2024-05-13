@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ El flujo de trabajo para el proceso es el siguiente:
 1. Recopilar todos los recursos relacionados.
 1. Empaquete todo en un archivo zip.
 1. Descargue el zip y extráigalo localmente.
-1. Mostrar la copia local del contenido.
+1. Mostrar una copia local del contenido.
 
 ## Actualizar controladores {#update-handlers}
 
@@ -77,14 +77,14 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
 
 Siga los pasos a continuación para probar la configuración de ContentSync:
 
-1. Abrir `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Haga clic en la configuración en la lista
-1. Haga clic en Borrar caché
-1. Haga clic en Actualizar caché
-1. Haga clic en Descargar completo
-1. Extraiga el archivo zip
-1. Iniciar un servidor local en la carpeta extraída
-1. Abra la página de inicio y compruebe el estado de la aplicación
+1. Abra `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Haga clic en la configuración en la lista.
+1. Clic **Borrar caché**.
+1. Clic **Actualizar caché**.
+1. Clic **Descargar completo**.
+1. Extraiga el archivo zip.
+1. Inicie un servidor local en la carpeta extraída.
+1. Abra la página de inicio y compruebe el estado de la aplicación.
 
 ## Habilitar la configuración sin conexión para un canal {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
 
 >[!NOTE]
 >
->Para obtener más información sobre la plantilla para controladores de recursos sin conexión personalizados y los requisitos mínimos de la `pom.xml` para ese proyecto específico, consulte [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desarrollo de un componente personalizado para AEM Screens**.
+>Obtenga información acerca de la plantilla para controladores de recursos sin conexión personalizados. Además, obtenga más información acerca de los requisitos mínimos en la `pom.xml` para el proyecto. Consulte [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desarrollo de un componente personalizado para AEM Screens**.

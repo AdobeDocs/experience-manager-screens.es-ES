@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ En el siguiente caso de uso se muestra el uso de la activación de reserva de ho
 
 ## Descripción {#description}
 
-Para este caso de uso, la Google Sheet se rellena con el porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y en función de la fórmula, el valor 1 o 2 se asigna al **AdTarget** Columna.
+Para este caso de uso, la Google Sheet se rellena con el porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y, según la fórmula, el valor 1 o 2 se asigna al **AdTarget** Columna.
 
-Si el valor de **`Restaurant1`** > **`Restaurant2`**, entonces **AdTarget** se ha asignado un valor **1** de otro modo **AdTarget** se ha asignado un valor **2**. El valor 1 genera *Comida para filetes* Opción y Valor dos resultados en la visualización de *Comida tailandesa* en la pantalla de visualización.
+Si el valor de **`Restaurant1`** > **`Restaurant2`**, entonces **AdTarget** se ha asignado un valor **1** de otro modo **AdTarget** se ha asignado un valor **2**. El valor 1 genera un *Comida para filetes* Opción y Valor dos dan como resultado una visualización de *Comida tailandesa* en la pantalla de visualización.
 
 ## Condiciones previas {#preconditions}
 
@@ -66,7 +66,7 @@ Siga los pasos del caso de uso a continuación para implementar la activación d
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
+   >Su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** ya debería haberse configurado la pestaña en este punto.
 
    ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
 

@@ -2,9 +2,9 @@
 title: Aspectos básicos de la publicidad dinámica para [!UICONTROL AEM Screens]
 description: Conozca los conceptos básicos de un proyecto de señalización digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Antes de sumergirse en las prácticas recomendadas de implementación de AEM Screens, es importante pensar en el proyecto como un proyecto de señalización digital, en lugar de como un desarrollo de software tradicional.
 
-Esta sección contiene recomendaciones sobre los principales elementos clave que son esenciales antes de la implementación de un proyecto de AEM Screens.
+En esta sección se ofrecen recomendaciones sobre los principales elementos clave esenciales para la implementación de un proyecto de AEM Screens.
 
 ## Elementos clave en la señalización digital {#key-elements}
 
@@ -40,14 +40,14 @@ La definición de los elementos clave es esencial antes de implementar un proyec
    La conectividad enfatiza en las siguientes preguntas:
    * ¿Conectado en red (móvil o wi-fi) o independiente?
       * ¿Debe permitir actualizaciones de contenido USB?
-      * ¿Debe permitir la recopilación de datos de uso?
+      * ¿Debe permitir el uso de la recopilación de datos?
 
 1. **Instalación**
 
    La instalación incluye:
    * Muestra: horizontal o vertical
    * ¿Cómo se monta la pantalla?
-      * Vertical frente a horizontal
+      * Orientación vertical u orientación horizontal
       * Vivienda completa
       * Placa de cubierta
    * Compatibilidad con sujeciones
@@ -79,7 +79,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
 1. **Entorno**
 
-   Environment hace hincapié en:
+   El entorno hace hincapié en:
    * ¿Mostrar ubicación?
       * Interior frente a exterior
       * Fuera del alcance o directamente expuesto

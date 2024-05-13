@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Consulte **[Canal de emergencia](emergency-channel.md)** Caso de uso para obtene
 
 * **AEM SPA Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics**
 
-En esta sección se describe cómo incrustar una aplicación interactiva de una sola página mediante REACT (o Angular) utilizando el editor de páginas de la aplicación de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la aplicaciónREACT (o AEM SPA) mediante el editor de. AEM Los profesionales empresariales pueden configurar el editor en el entorno de trabajo de la. También se describe cómo integrar la aplicación interactiva con Adobe Analytics sin conexión.
+En esta sección se describe cómo incrustar una aplicación interactiva de una sola página mediante REACT (o Angular) utilizando el editor de páginas de la aplicación de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la aplicaciónREACT (o AEM SPA) mediante el editor de. AEM Los profesionales empresariales de la administración de datos pueden configurar el editor de manera predeterminada. También se describe cómo integrar la aplicación interactiva con Adobe Analytics sin conexión.
 
 Consulte **[AEM SPA Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics](embedding-react-app.md)** para obtener más información.
 

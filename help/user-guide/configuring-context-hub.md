@@ -1,6 +1,6 @@
 ---
 title: Configuración de ContextHub en AEM Screens
-description: Obtenga información acerca de ContextHub en el motor de segmentación para que pueda definir un almacén de datos para el cambio de contenido del déclencheur de datos.
+description: Obtenga información sobre ContextHub en el motor de segmentación para poder definir un almacén de datos para el cambio de contenido del déclencheur de datos.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Antes de entrar en los detalles de la creación y administración de canales imp
 
 **Audiencia** - Define la regla.
 
-**Segmento** : La versión del recurso que se reproducirá para la regla determinada. Por ejemplo, si la temperatura es inferior a 50 grados Fahrenheit, la pantalla muestra una imagen de una bebida caliente; de lo contrario, una bebida fría.
+**Segmento** : La versión de un recurso que se reproducirá para la regla determinada. Por ejemplo, si la temperatura es inferior a 50 grados Fahrenheit, la pantalla muestra una imagen de una bebida caliente; de lo contrario, una bebida fría.
 
 El diagrama siguiente proporciona una representación visual de cómo las configuraciones de ContextHub coinciden con la actividad, la audiencia y los canales.
 
@@ -41,7 +41,7 @@ El diagrama siguiente proporciona una representación visual de cómo las config
 
 ## Condiciones previas {#preconditions}
 
-Antes de empezar a configurar Configuraciones de ContextHub para un proyecto de AEM Screens, configure Hojas de cálculo de Google (para fines de demostración).
+Antes de empezar a configurar las configuraciones de ContextHub para un proyecto de AEM Screens, configure las hojas de Google (con fines de demostración).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Antes de empezar a configurar Configuraciones de ContextHub para un proyecto de 
 
 Puede configurar el almacén de datos como un evento de E/S local o como un evento de base de datos local.
 
-El siguiente ejemplo de déclencheur de datos de nivel de recurso muestra un evento de base de datos local que configura un almacén de datos, como una hoja de Excel, que permite utilizar las configuraciones de ContextHub y la ruta de segmentos al canal de AEM Screens.
+El siguiente ejemplo de déclencheur de datos de nivel de recurso muestra un evento de base de datos local. El evento configura un almacén de datos, como una hoja de Excel, que permite utilizar las configuraciones de ContextHub y las rutas de segmentos al canal de AEM Screens.
 
 Después de configurar el `google` hoja correctamente, como se muestra en el ejemplo siguiente:
 
@@ -67,13 +67,13 @@ La siguiente validación es lo que se ve al comprobar la conexión introduciendo
 
 >[!NOTE]
 >
->El ejemplo específico siguiente muestra las hojas de cálculo de Google como un almacén de datos que déclencheur un cambio de recurso si el valor es superior a 100 o inferior a 50.
+>El ejemplo específico siguiente muestra las Hojas de cálculo de Google como un almacén de datos que almacena un déclencheur de cambio de recursos si el valor es superior a 100 o inferior a 50.
 
 ## Paso 2: Configuración de tiendas {#step-setting-store-configurations}
 
 1. **Navegación a ContextHub**
 
-   AEM Navegue hasta la instancia de y haga clic en el icono de herramientas de la barra lateral izquierda. Clic **Sites** > **ContextHub**, como se muestra en la figura siguiente.
+   AEM Navegue hasta la instancia de y haga clic en el icono de herramientas en la barra lateral izquierda. Clic **Sites** > **ContextHub**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ La siguiente validación es lo que se ve al comprobar la conexión introduciendo
 
       >[!CAUTION]
       >
-      >Si crea las hojas de cálculo de Google y almacena configuraciones fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), el direccionamiento no funciona de forma predeterminada.
+      >Si crea las Hojas de cálculo de Google para almacenar configuraciones fuera de la carpeta global (por ejemplo, en su propia carpeta de proyecto), el direccionamiento no funciona de forma predeterminada.
 
 1. **Configuración de la segmentación de tienda**
 
@@ -166,7 +166,7 @@ La siguiente validación es lo que se ve al comprobar la conexión introduciendo
 
    1. AEM Navegue desde la instancia de a **Personalización** > **Audiencias** > **pantallas**.
 
-   1. Clic **Crear** > **Crear segmento de Context Hub.** El **Nuevo segmento de ContextHub** se abre el cuadro de diálogo.
+   1. Clic **Crear** > **Crear segmento de ContextHub.** El **Nuevo segmento de ContextHub** se abre el cuadro de diálogo.
 
    1. Introduzca el **Título** as `**Higherthan50**` y haga clic en **Crear**. Del mismo modo, cree otro segmento con el título `**Lowerthan50**`.
 
@@ -304,7 +304,7 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
       >[!NOTE]
       >
-      >Utilice ContextHub y la ruta de segmentos, donde guardó inicialmente las configuraciones y segmentos de Context Hub.
+      >Utilice ContextHub y la ruta de segmentos, donde guardó inicialmente las configuraciones y segmentos de ContextHub.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
       >[!NOTE]
       >
-      >Si ha configurado todo correctamente, verá lo siguiente **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+      >Si ha configurado todo correctamente, verá el **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub21.png)
 

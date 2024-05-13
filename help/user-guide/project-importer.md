@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ El objetivo de esta función es reducir el tiempo necesario para configurar el p
 Al permitir que el autor proporcione una hoja de cálculo como archivo de entrada y permitir que el sistema cree automáticamente el árbol de ubicaciones en el back-end, esta función:
 
 * *obtiene un rendimiento mucho mejor que la selección manual a través de la interfaz de usuario*
-* *AEM permite que los clientes exporten las ubicaciones que tienen de su propio sistema e importen fácilmente directamente en los archivos de la interfaz de usuario de los clientes de*
+* *AEM permite al cliente exportar las ubicaciones que tiene desde su propio sistema e importarlas fácilmente directamente en el servicio de importación de datos de su propio sistema de*
 
-Esto ahorra tiempo y dinero durante la configuración inicial del proyecto o al ampliar el AEM Screens existente a nuevas ubicaciones.
+Este proceso ahorra tiempo y dinero durante la configuración inicial del proyecto o al ampliar el AEM Screens existente a nuevas ubicaciones.
 
 ## Información general de la arquitectura {#architectural-overview}
 
@@ -51,14 +51,14 @@ A continuación se describe el modelo de datos del importador de proyectos:
 | **Propiedad** | **Descripción** |
 |---|---|
 | ***`path {string*}`*** | Ruta de recurso de la ubicación |
-| ***`[./jcr:title] {string*}`*** | El nombre de la plantilla que se va a utilizar (es decir, la ubicación para *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | El nombre de la plantilla que se va a utilizar (es decir, la ubicación de ) *screens/core/templates/location*) |
 | ***`template {string}`*** | Título opcional que se usará para la página |
 | ***`[./jcr:description] {string}`*** | Descripción opcional que se utilizará para la página |
 
 Por lo tanto, el archivo de hoja de cálculo (CSV/XLS) requiere las siguientes columnas:
 
 * **ruta {string}** : Ruta de acceso para la ubicación que se va a importar, donde la raíz de la ruta es la carpeta de ubicación del proyecto (es decir, *`/foo`* se importa a *`/content/screens/<project>/locations/foo`*)
-* **plantilla {string}** : la plantilla que se utilizará para la nueva ubicación, por ahora el único valor permitido es &quot;ubicación&quot;, pero esto se ampliará a todas las plantillas de Screens en el futuro (`display`, `sequencechannel`, etc.)
+* **plantilla {string}** : La plantilla que se utilizará para la nueva ubicación, por ahora el único valor permitido es &quot;ubicación&quot;, pero este valor se amplía a todas las plantillas de Screens en el futuro (`display`, `sequencechannel`, etc.)
 * **[./*] {string}** - Cualquier propiedad opcional que se establezca en la ubicación (es decir, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versión actual no permite ningún filtrado.
 
 >[!NOTE]

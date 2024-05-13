@@ -1,5 +1,5 @@
 ---
-title: Usar el flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens
+title: Uso de un flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens
 description: Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos dinámicamente a un canal de Screens.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,17 +7,17 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
 
 
-# Usar el flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens {#automate-channel-updates-workflow}
+# Uso de un flujo de trabajo para automatizar las actualizaciones de recursos de un canal de AEM Screens {#automate-channel-updates-workflow}
 
-Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos dinámicamente a un canal de Screens. En este ejemplo, cuando se añade una imagen a una carpeta específica, se activa un flujo de trabajo que aplica una superposición de texto dinámico (proceso de marca de agua) y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
+Obtenga información sobre cómo crear un flujo de trabajo para procesar automáticamente los recursos cargados en Adobe Experience Manager y asignarlos dinámicamente a un canal de Screens. En este ejemplo, se activa un flujo de trabajo cuando se añade una imagen a una carpeta específica. El flujo de trabajo aplica una superposición de texto dinámico (proceso de marca de agua) y asigna la imagen a un canal de Screens. Las lecciones aprendidas de este ejemplo se pueden aplicar a una amplia variedad de escenarios de automatización.
 
 ## Requisitos previos {#prerequisites}
 
@@ -38,7 +38,7 @@ El siguiente vídeo ilustra cómo instalar un paquete de código de ejemplo que 
 
 ## Modelo de flujo de trabajo {#workflow-model}
 
-Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal de Screens de destino al que se deben agregar imágenes. Se utilizan dos modelos de flujo de trabajo para automatizar el procesamiento de recursos. El **Recurso de actualización DAM** flujo de trabajo se modifica para llamar a un flujo de trabajo personalizado, **Procesamiento de recursos de demostración de Screens** que inspecciona la carpeta contenedora del recurso para determinar el canal de Screens de destino. El **Procesamiento de recursos de demostración de Screens** El flujo de trabajo de también es responsable de aplicar la marca de agua a la imagen.
+Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal de Screens de destino al que se deben agregar imágenes. Se utilizan dos modelos de flujo de trabajo para automatizar el procesamiento de recursos. El **Recurso de actualización DAM** El flujo de trabajo se edita para llamar a un flujo de trabajo personalizado, **Procesamiento de recursos de demostración de Screens), que inspecciona la carpeta contenedora del recurso para determinar el canal de Screens de destino. El **Procesamiento de recursos de demostración de Screens** El flujo de trabajo de también es responsable de aplicar la marca de agua a la imagen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

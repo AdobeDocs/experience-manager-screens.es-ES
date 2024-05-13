@@ -2,9 +2,9 @@
 title: Estrategia de contenido empresarial para AEM Screens
 description: Obtenga más información acerca de la estrategia de contenido empresarial y de marketing en relación con AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >Un inversor habitual de esta actividad es un estratega de marketing/negocios.
 
-El contenido es un factor importante para impulsar la participación. En la fase de preventa, es importante definir una estrategia de contenido empresarial que tenga en cuenta cómo la aplicación utiliza los recursos de hardware, software y conectividad para ofrecer el valor deseado a los clientes del cliente.
+El contenido es un factor importante para impulsar la participación. En la fase de preventa, es importante definir una estrategia de contenido empresarial. Esa estrategia considera cómo la aplicación utiliza los recursos de hardware, software y conectividad para ofrecer el valor deseado a los clientes del cliente.
 
-Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador y los puntos de contacto de marketing del canal de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
+Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador. También tiene en cuenta los puntos de contacto de marketing del canal de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
 
-Considere cómo la aplicación Screens puede ayudar a conseguirlo y determine los indicadores clave de rendimiento (KPI) para ayudar a medir el éxito de la aplicación en la entrega de ese contenido.
+Considere cómo la aplicación Screens puede ayudar a lograr esta estrategia y determine los indicadores clave de rendimiento (KPI) para ayudar a medir el éxito de la aplicación en la entrega de ese contenido.
 
 >[!NOTE]
 >
