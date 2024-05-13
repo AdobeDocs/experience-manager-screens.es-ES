@@ -1,9 +1,9 @@
 ---
 title: Directrices de selección de hardware para dispositivos de reproducción
 description: Obtenga información acerca de las directrices de selección de hardware para dispositivos AEM Screens Player.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---

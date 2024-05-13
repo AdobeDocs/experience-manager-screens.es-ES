@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Siga las secciones a continuación para crear un proyecto de AEM Screens y asign
 
 Siga los pasos a continuación para configurar un proyecto y un canal:
 
-1. Cree un proyecto de AEM Screens con el título **Demostraciones**.
+1. Cree un proyecto de AEM Screens titulado como **Demostraciones**.
 
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
@@ -82,14 +82,14 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
    >[!NOTE]
    >
-   >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
+   >Para obtener más información sobre las propiedades de Asignación de canal, consulte la [Propiedades de canal](#channel-properties) sección.
 
 1. Desde el **Programación** haga clic en la opción **Ventana de activación** y **Horario de periodicidad**.
    ![imagen](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre las propiedades de asignación de canales, consulte [Propiedades de canal](#channel-properties) sección.
+   >Para obtener más información sobre las propiedades de Asignación de canal, consulte la [Propiedades de canal](#channel-properties) sección.
 
 1. Clic **Guardar** una vez configuradas las preferencias.
 
@@ -105,7 +105,7 @@ Puede ver el siguiente resultado a su elección de reproductor:
 
 ## Vista Cronología {#timeline-view}
 
-Cuando haya asignado un canal a una pantalla y haya configurado un programa de periodicidad, puede ver la cronología desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
+Cuando haya asignado un canal a una pantalla y haya configurado un Horario de periodicidad, puede ver la cronología desde el **CANALES Y PROGRAMACIONES ASIGNADOS** panel.
 
 Siga los pasos a continuación para navegar a la vista de cronología:
 
@@ -134,7 +134,7 @@ La selección de un canal permite proporcionar una referencia al canal deseado, 
 
 ### Función del canal {#role-channel}
 
-La función Canal define el contexto de la visualización. La función está dirigida por varias acciones y es independiente del canal real que cumple la función.
+La función Canal define el contexto de la visualización. Varias acciones se dirigen a la función. Es independiente del canal real que cumple la función.
 
 ### Prioridad {#priority-channel}
 
@@ -181,11 +181,11 @@ La ventana de activación permite seleccionar una **Fecha de inicio** y un **Fec
 
 ### Programación de repetición {#recurrence-schedule}
 
-El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Clic **+ Agregar programación** para añadir una programación de periodicidad al canal.
+El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Clic **+ Agregar programación** para añadir un Horario de periodicidad al canal.
 
 >[!NOTE]
 >Puede agregar varias programaciones recurrentes al canal.
->Los horarios de periodicidad presentan *DayParting* esto le permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
+>Los horarios de periodicidad presentan *DayParting*. Se establece una programación global con varios canales en ejecución a horas específicas del día y se reutiliza esa configuración para todas las pantallas a la vez.
 
 Puede establecer las siguientes opciones:
 

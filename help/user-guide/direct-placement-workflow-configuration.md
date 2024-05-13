@@ -1,9 +1,9 @@
 ---
 title: Configuración del flujo de trabajo de ubicación directa
 description: Esta página resalta la configuración del flujo de trabajo de colocación directa.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ Siga los pasos a continuación para configurar el flujo de trabajo de ubicación
 
 1. Navegue hasta AEM Screens AEM desde la instancia de y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
 
-1. Cree un canal con el título **Workflow-Assets** bajo **Canales** carpeta.
+1. Cree un canal con el título **Workflow-Assets** en el **Canales** carpeta.
 

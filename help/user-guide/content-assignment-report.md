@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Siga las instrucciones a continuación para descargar el informe de asignación 
 
    ![imagen](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. La hoja de cálculo descargada consta de dos pestañas, como **Ubicaciones** y **Contenido**. La pestaña Ubicación muestra cuatro columnas, como **Ubicaciones**, **Visualizaciones**, **Canales**, y **Dispositivos** que se puede utilizar para investigar más a fondo estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
+1. La hoja de cálculo descargada consta de dos pestañas, como **Ubicaciones** y **Contenido**. La pestaña Ubicación muestra cuatro columnas, como **Ubicaciones**, **Visualizaciones**, **Canales**, y **Dispositivos** que se puede utilizar para investigar estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

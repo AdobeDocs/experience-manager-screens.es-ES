@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Configuración de la consola web de Adobe Experience Manager.
-1. Busque servicios de actualización sin conexión en bloque.
+1. Busque los servicios de actualización sin conexión masiva.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
