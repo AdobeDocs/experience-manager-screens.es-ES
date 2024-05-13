@@ -4,9 +4,9 @@ description: Obtenga información acerca de cómo configurar agentes de replicac
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ En esta página se describe cómo configurar los agentes de replicación de Scre
 
 ## Objetivo {#objective}
 
-El agente de replicación de Screens es responsable de traer datos de comandos como, *usuario*, *contraseña*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* y muchos más de estos valores, de publicación a autor. Es esencial configurarlo para que el autor pueda mostrar el ping del dispositivo.
+El agente de replicación de Screens es responsable de traer datos de comandos como *usuario*, *contraseña*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* y muchos más de estos valores, de publicación a autor. Es esencial configurar este agente para que el autor pueda mostrar el ping del dispositivo.
 
 >[!NOTE]
 >Para obtener más información sobre los agentes de replicación de Screens, consulte [Agentes y comandos de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -129,4 +129,4 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Si la verificación de la conexión se realiza correctamente, ha completado la configuración del Agente de replicación de Screens.
+   Si la verificación de la conexión se realiza correctamente, habrá completado la configuración del agente de replicación de Screens.

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Siga los pasos a continuación para enviar actualizaciones de contenido de autor
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. El **Administrar publicación** se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
+1. El **Administrar publicación** Se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -72,7 +72,7 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
    >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de seleccionar **Publish** en el flujo de trabajo de administración de publicaciones.
 
    >[!CAUTION]
-   >Si, como autor o creador de contenido, desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
+   >Como creador de contenido, si desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
 
 1. Vaya al proyecto y haga clic en **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
 
@@ -100,7 +100,7 @@ Siga los pasos a continuación para entregar actualizaciones de contenido de Aut
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. El **Administrar publicación** se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
+1. El **Administrar publicación** Se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

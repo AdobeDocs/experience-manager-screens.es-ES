@@ -2,16 +2,16 @@
 title: Acerca de esta guía
 description: Obtenga información sobre las prácticas recomendadas para proyectos de AEM Screens para planificar y ejecutar proyectos, desde información estratégica y de diseño hasta implementación y asistencia posterior.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 45%
+source-wordcount: '257'
+ht-degree: 32%
 
 ---
 
 # Acerca de esta guía {#about-guide}
 
-El propósito de la guía de prácticas recomendadas de AEM Screens es proporcionar orientación sobre cómo planificar y ejecutar correctamente un proyecto de AEM Screens.
+El propósito de la Guía de prácticas recomendadas de AEM Screens es proporcionar directrices sobre cómo planificar y completar correctamente un proyecto de AEM Screens.
 
 La audiencia a la que va dirigido este documento es:
 

@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 En la siguiente sección se explica cómo separar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto.
 
-AEM Como administrador de un proyecto, desea asegurarse de que los integrantes del equipo de un proyecto no interfieran con otros proyectos y de que a cada uno de los usuarios se les asignen funciones específicas según los requisitos del proyecto.
+AEM Como administrador de un proyecto, desea asegurarse de que los integrantes del equipo de un proyecto no interfieran con otros proyectos. A cada usuario se le asignan funciones específicas según los requisitos del proyecto.
 
 ## Configuración de permisos {#setting-up-permissions}
 
@@ -66,12 +66,12 @@ La siguiente tabla resume la ruta con los permisos en el nivel de proyecto:
 
 | **Ruta** | **Permiso** | **Descripción** |
 |---|---|---|
-| `/apps/<project>` | LECTURA | Proporciona acceso a los archivos de proyecto, si corresponde. |
-| `/content/dam/<project>` | TODO | Proporciona acceso para almacenar los recursos del proyecto, como imágenes o vídeo, en DAM. |
+| `/apps/<project>` | LECTURA | Proporcionar acceso a los archivos de proyecto, si corresponde. |
+| `/content/dam/<project>` | TODO | Proporcionar acceso para almacenar los recursos del proyecto, como imágenes o vídeo, en DAM. |
 | `/content/screens/<project>` | TODO | Elimina el acceso a todos los demás proyectos en /content/screens. |
-| `/content/screens/svc` | LECTURA | Proporciona acceso al servicio de registro. |
-| `/libs/screens` | LECTURA | Proporciona acceso a DCC. |
-| `/var/contentsync/content/screens/` | TODO | Permite actualizar el contenido sin conexión del proyecto. |
+| `/content/screens/svc` | LECTURA | Proporcionar acceso al servicio de registro. |
+| `/libs/screens` | LECTURA | Proporcionar acceso a DCC. |
+| `/var/contentsync/content/screens/` | TODO | Ayudarle a actualizar el contenido sin conexión del proyecto. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ La siguiente tabla resume los grupos con descripción y permisos para un proyect
   </tr>
   <tr>
    <td>Reproductores de Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Agrupa todos los reproductores y todos los reproductores/dispositivos que son miembros de los colaboradores automáticamente.</td>
+   <td>Todos los reproductores y todos los reproductores/dispositivos son miembros de los colaboradores automáticamente.</td>
    <td><p> Miembro de colaboradores</p> </td>
   </tr>
  </tbody>

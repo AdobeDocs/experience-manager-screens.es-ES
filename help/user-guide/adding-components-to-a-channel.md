@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Para ver los componentes predeterminados del proyecto de Pantallas, siga los pas
 
 ### Agregar un nuevo componente {#adding-a-new-component}
 
-AEM La ofrece otros componentes. Siempre puede añadir otros componentes (no incluidos de forma predeterminada) al proyecto, ya que son compatibles con AEM Screens.
+AEM La ofrece otros componentes. Siempre puede agregar otros componentes (no incluidos de forma predeterminada) al proyecto, dado que esos componentes son compatibles con AEM Screens.
 
 El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto de AEM Screens:
 
@@ -50,7 +50,7 @@ El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto
 1. Clic **Editar** de la barra de acciones.
 1. Clic **Diseño** modo.
 1. Haga clic en todo el editor de diseño a la derecha y haga clic en el símbolo de configuración para poder abrir **Diseño de Parsys** Cuadro de diálogo.
-1. Puede hacer clic en los componentes que desea importar al proyecto de AEM Screens. El siguiente ejemplo muestra la adición de **Livefyre** a un proyecto de AEM Screens.
+1. Puede hacer clic en los componentes que desea importar al proyecto de AEM Screens. El siguiente ejemplo muestra la adición del **Livefyre** a un proyecto de AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -70,12 +70,12 @@ En la siguiente sección se explican los componentes de AEM Screens que puede ut
 
 El **Aplicación** Este componente permite añadir una aplicación al canal.
 
-El componente de aplicación tiene las siguientes propiedades:
+El componente de la aplicación tiene las siguientes propiedades:
 
 | **Propiedad** | **Descripción** |
 |---|---|
 | ***Ruta de aplicación*** | Haga clic en la ruta absoluta donde existe la aplicación. |
-| ***Duración (milisegundos)*** | Haga clic en la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
+| ***Duración (milisegundos)*** | Haga clic en la duración de la aplicación. De forma predeterminada, la duración se establece en -1, lo que significa que el elemento se ejecuta para siempre (es decir, una aplicación de una sola página). Al establecer el valor de duración >0, se muestra el elemento para la duración especificada y, a continuación, se pasa al siguiente. |
 
 El siguiente ejemplo muestra cómo incrustar un componente de aplicación junto con la vista previa de sus propiedades:
 
@@ -137,7 +137,7 @@ La página incrustada tiene las siguientes propiedades:
 >
 >Para obtener información detallada sobre las secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas.
 
-Una secuencia incrustada permite agregar un canal de secuencia incrustado dentro del canal existente (con otros recursos).
+Una secuencia incrustada le permite agregar un canal de secuencia incrustada dentro del canal existente (con otros recursos).
 
 La secuencia incrustada tiene las siguientes propiedades de página:
 
@@ -164,7 +164,7 @@ La secuencia incrustada tiene las siguientes propiedades de página:
 
 ### Secuencia integrada dinámica {#dynamic-embedded-sequence}
 
-Una secuencia incrustada dinámica permite agregar una secuencia similar a la mencionada anteriormente, excepto por función de canal.
+Una secuencia incrustada dinámica le permite agregar una secuencia similar a la mencionada anteriormente, excepto por función de canal.
 
 Para obtener más información sobre las secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en la sección Creación de pantallas.
 
@@ -293,7 +293,7 @@ El componente de transición tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Activo hasta</em></strong></td>
-   <td>Marca de tiempo que describe hasta cuándo puede estar activa la transición.</td>
+   <td>La marca de tiempo describe hasta cuándo puede estar activa la transición.</td>
   </tr>
   <tr>
    <td><strong><em>Programación</em></strong></td>

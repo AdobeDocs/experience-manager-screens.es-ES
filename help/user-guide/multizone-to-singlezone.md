@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Descripción del caso de uso {#use-case-description}
 
-En esta sección se describe un ejemplo de uso que hace hincapié en cómo configurar un canal de diseño de varias zonas que alterna con un canal de diseño de una sola zona. El canal de varias zonas tiene recursos de imagen/vídeo de secuenciación y muestra cómo puede configurar proyectos que alternan entre varias zonas y una sola zona, y a la inversa.
+En esta sección se describe un ejemplo de uso que hace hincapié en cómo configurar un canal de diseño de varias zonas que alterna con un canal de diseño de una sola zona. El canal de varias zonas tiene recursos de imagen/vídeo de secuenciación y muestra cómo puede configurar un proyecto que alterna entre varias zonas y una sola zona, y a la inversa.
 
 ### Condiciones previas {#preconditions}
 
@@ -78,7 +78,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
 Puede ver la salida deseada desde el reproductor o simplemente seleccionando **Previsualizar** del editor.
 
-El resultado muestra cómo se reproduce un diseño de varias zonas para *10000 milisegundos* y, a continuación, cambia al diseño de zona única que tiene una duración de reproducción de *3000 milisegundos* y vuelve al diseño de varias zonas.
+El resultado muestra cómo se reproduce un diseño de varias zonas para *10000 milisegundos*. A continuación, cambia a un diseño de zona única que tiene una duración de reproducción de *3000 milisegundos*. Y finalmente, vuelve al diseño de varias zonas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

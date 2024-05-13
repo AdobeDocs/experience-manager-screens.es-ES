@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Siga los pasos a continuación para agregar un componente de transición al proy
 
    >[!NOTE]
    >
-   >El **TestTransition** El canal ya tiene pocos recursos (imágenes y vídeos). Por ejemplo, la variable **TestTransition** El canal incluye tres imágenes y dos vídeos, como se muestra a continuación:
+   >El **TestTransition** El canal ya contiene algunos recursos (imágenes y vídeos). Por ejemplo, la variable **TestTransition** El canal incluye tres imágenes y dos vídeos, como se muestra a continuación:
 
    ![image2](assets/transitions2.png)
 
@@ -46,7 +46,7 @@ Siga los pasos a continuación para agregar un componente de transición al proy
 
    >[!CAUTION]
    >
-   >Antes de añadir la transición a los recursos del canal, asegúrese de no añadir la transición antes del primer recurso en el canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
+   >Antes de añadir la transición a los recursos del canal, asegúrese de no agregar la transición antes del primer recurso en el canal secuencial. El primer elemento del canal debe ser un recurso y no una transición.
 
    ![image3](assets/transitions3.png)
 
@@ -54,6 +54,6 @@ Siga los pasos a continuación para agregar un componente de transición al proy
    >
    >De forma predeterminada, las propiedades del componente de transición como **Tipo** se establece en **Atenuación** y el **Duración** se establece en *1600 milisegundos*. Además, no es aconsejable establecer un tiempo de duración de transición mayor que el recurso al que se está aplicando.
 
-1. Además, si agrega un **Secuencia incrustada** componente (que incluye un canal de secuencia) a este editor de canales, puede añadir un componente de transición al final. Esto garantiza que el contenido se reproduzca en el orden correcto, como se ve en la siguiente imagen:
+1. Además, si agrega un **Secuencia incrustada** componente (que incluye un canal de secuencia) a este editor de canales, puede añadir un componente de transición al final. Al hacerlo, se garantiza que el contenido se reproduzca en el orden correcto, como se ve en la siguiente imagen:
 
    ![image3](assets/transitions5.png)

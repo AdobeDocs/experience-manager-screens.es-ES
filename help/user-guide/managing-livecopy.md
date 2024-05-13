@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Una Live Copy es una copia de un canal que existe.
 
 Para ver el contenido de su Live Copy, consulte los pasos a continuación:
 
-1. Vaya al proyecto de Pantallas y haga clic en la ubicación en la que creó originalmente la Live Copy, como se muestra en la sección anterior. (En este caso, la ubicación se eligió como **Canales** folder)
+1. Vaya al proyecto de Pantallas y haga clic en la ubicación en la que creó originalmente una Live Copy, como se muestra en la sección anterior. (Aquí, se eligió la ubicación como **Canales** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Además, puede ver las propiedades del canal de Live Copy.
 
 El modo **Estado de Live Copy**, como se muestra en la figura siguiente, permite ver el estado de relación de todos los recursos del canal.
 
-1. Clic **Editar** para que pueda elegir el **Estado de Live Copy** y ver la asociación del contenido del canal con el canal original (desde el que se genera la live copy).
+1. Clic **Editar** para que pueda elegir el **Estado de Live Copy**. También puede ver la asociación del contenido del canal con el canal original desde el que se genera la Live Copy.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ En el siguiente ejemplo se muestra cómo hacer clic en la imagen en el modo de e
 
 ### Propagación de cambios en el canal de Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Si realiza cambios o actualizaciones en el canal original, propague esos cambios a su canal de Live Copy también.
+Si realiza cambios o actualizaciones en el canal original, propague esos cambios al canal de Live Copy también.
 
 Siga los pasos a continuación para asegurarse de que los cambios se propagan del canal original al canal de Live Copy:
 

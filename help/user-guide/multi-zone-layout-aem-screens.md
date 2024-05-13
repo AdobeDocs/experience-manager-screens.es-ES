@@ -1,6 +1,6 @@
 ---
 title: Diseño de varias zonas
-description: Obtenga información sobre cómo crear contenido de varias zonas y utilizar varios recursos, como vídeos, imágenes y texto, que se pueden combinar en una sola pantalla en AEM Screens.
+description: Obtenga información sobre cómo crear contenido de varias zonas y utilizar varios recursos, como vídeos, imágenes y texto, que se combinan en una sola pantalla en AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ En la siguiente página se describe el uso del diseño de varias zonas y se trat
 Según los requisitos del proyecto, a veces necesita varias zonas en un canal y editarlas como una unidad completa. Por ejemplo, una secuencia de productos con una fuente de medios sociales relacionada que se ejecuta en tres zonas independientes en un solo canal.
 
 >[!NOTE]
->En canales de varias zonas, no se recomienda la programación en el nivel de recurso debido a posibles conflictos y a un comportamiento no deseado. Si es necesaria la programación a nivel de recurso, se recomienda crear un canal de secuencia independiente y aplicar la lógica de programación dentro de ese canal. A continuación, incruste el canal de secuencia en el canal de varias zonas.
+>En canales de varias zonas, no se recomienda la programación en el nivel de recurso debido a posibles conflictos y a un comportamiento no deseado. Si es necesaria la programación a nivel de recurso, cree un canal de secuencia independiente y aplique la lógica de programación dentro de ese canal. A continuación, incruste el canal de secuencia en el canal de varias zonas.
 
 ### Requisitos previos {#prerequisites}
 
@@ -162,7 +162,7 @@ Asigne los canales a la pantalla para ver el contenido. Siga los pasos a continu
 
 ### Registro del dispositivo {#registering-device}
 
-Cuando haya configurado una ubicación y una pantalla, siga los pasos a continuación para registrar el dispositivo y asignarle una pantalla.
+Cuando haya configurado una ubicación y una pantalla, siga los pasos a continuación para registrar el dispositivo y asignar la pantalla al dispositivo.
 
 1. **Registro del dispositivo**
 

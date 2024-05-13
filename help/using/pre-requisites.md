@@ -2,9 +2,9 @@
 title: Requisitos previos [!UICONTROL AEM Screens]
 description: Descubra cuáles son los requisitos previos antes de iniciar un proyecto de AEM Screens.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Consulte los siguientes tutoriales y recursos para conocer Adobe Experience Mana
 
 * **[Introducción a Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction)**: Descubra artículos de introducción y tutoriales de vídeo para Adobe Experience Manager.
 
-* **[AEM Tutorials y vídeos de.5](https://experienceleague.adobe.com/en/docs/experience-manager-tutorials)**: una colección de tutoriales y vídeos que resaltan las funciones nuevas y actualizadas de AEM Sites, Assets, Forms AEM, Screens y Foundation con la versión 6.5 de la versión, respectivamente, de la versión 6.5.
+* **[AEM Tutorials y vídeos de.5](https://experienceleague.adobe.com/en/docs/experience-manager-tutorials)**: una colección de tutoriales y vídeos que resaltan las funciones nuevas y actualizadas de AEM Sites, Assets, Forms AEM, Screens y Foundation con la versión 6.5 de la versión de.
 
 * **[Primeros pasos para los autores](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/first-steps)**: Esta sección proporciona una descripción general de las tareas principales que puede utilizar al empezar a crear contenido con Adobe Experience Manager AEM ().
 
@@ -35,8 +35,8 @@ Para conocer los conceptos básicos de un proyecto de AEM Screens, consulte los 
 
 * **[AEM Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Proporciona un tutorial guiado que resalta los aspectos más importantes de una implementación de AEM Screens.
 
-* **[Vídeos sobre aspectos básicos de la red de señalización digital](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: proporciona cinco vídeos básicos que destacan elementos clave sobre el hardware de audio-vídeo, señalización digital, redes de señalización y el trabajo con integradores de audio-vídeo.
-   * *[Parte 1: Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*: resalta la parte 1 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor las funciones, responsabilidades y cronogramas. Estos elementos son necesarios durante los ciclos de vida útil de ventas y proyectos de publicidad dinámica. Abarca las funciones y responsabilidades del proyecto para Adobe AEM, implementadores de programas de implementación y integradores de audio y vídeo de alto nivel.
+* **[Vídeos sobre aspectos básicos de la red de señalización digital](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Proporciona vídeos básicos que resaltan elementos clave sobre el hardware de señalización digital y audio-vídeo. También hay vídeos sobre las redes de señalización y el trabajo con integradores de audio y vídeo.
+   * *[Parte 1: Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*: resalta la parte 1 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor las funciones, responsabilidades y cronogramas. Estos elementos son necesarios durante los ciclos de vida útil de ventas y proyectos de publicidad dinámica. Abarca las funciones y responsabilidades del proyecto para los Adobe AEM, implementadores de programas de implementación y integradores de audio y vídeo de alto nivel.
    * *[Parte 2: Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)*: resalta la parte 2 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los aspectos previos a la venta para desarrollar implementaciones de AEM Screens exitosas. Abarca los elementos que deben identificarse durante la elaboración del proyecto, junto con las aportaciones de las partes interesadas, para evaluar el proyecto y preparar un diseño adecuado.
    * *[Parte 3: Pruebas, POC, programas piloto y despliegues](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: resalta la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave. Estos términos son esenciales para garantizar que se desarrolle una solución correcta antes de un despliegue. Abarca las acciones relacionadas con las pruebas de laboratorio de hardware y la validación del rendimiento, las pruebas de concepto (también denominadas POC) y los programas piloto.
    * *[Parte 4: Administración e implementación de proyectos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: resalta la parte 4 de una serie de 5 partes diseñada para cubrir la gestión del proyecto y la preparación de la implementación. También define los factores clave de los que es responsable el integrador de audio y vídeo en relación con la gestión de proyectos y la preparación de la implementación. Abarca la preproducción, el inicio y la progresión del proyecto.

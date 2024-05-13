@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Esta sección trata los siguientes temas:
 
 El siguiente caso de uso implica colocar un vídeo (por ejemplo: 1280 x 720) en un canal en el que la visualización es de 1920 x 1080 y colocar el vídeo en 0x0 (parte superior izquierda). El vídeo no se debe estirar ni modificar de ninguna manera y no utilice **Cubierta** en el componente de vídeo.
 
-El vídeo se muestra como un objeto desde el píxel 1 al píxel 1280 de ancho y desde el píxel 1 al píxel 720 de abajo y el resto del canal es el color predeterminado.
+El vídeo se muestra como un objeto desde el píxel 1 al píxel 1280 de ancho y desde el píxel 1 al píxel 720 de abajo. El resto del canal es el color predeterminado.
 
 ## Requisitos previos {#prerequisites}
 
 Antes de crear un flujo de trabajo para vídeo, complete los siguientes requisitos previos:
 
-1. Cargar un vídeo en **Assets** AEM carpeta en la instancia de la
+1. Cargue un vídeo en **Assets** AEM carpeta en la instancia de la
 1. Cree un proyecto de AEM Screens (por ejemplo, **TestVideoRendition**) y un canal denominado (**VideoRendering**), como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,7 +58,7 @@ Siga los pasos a continuación para crear y utilizar el flujo de trabajo:
 Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
 1. AEM Vaya a la instancia de la.
-1. Haga clic en herramientas en el carril lateral.
+1. Haga clic en las herramientas desde el carril lateral.
 1. Clic **Flujo de trabajo** > **Modelos** para que pueda crear un modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
@@ -115,7 +115,7 @@ Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto 
 
 Para validar el resultado, haga lo siguiente:
 
-* Compruebe la previsualización del vídeo en el canal
+* Compruebe una previsualización del vídeo en el canal
 * Vaya a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** en CRXDE Lite, como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

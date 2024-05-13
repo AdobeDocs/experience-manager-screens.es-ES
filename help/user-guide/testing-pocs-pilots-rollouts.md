@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Este tutorial cubre los siguientes puntos relevantes para una implementación co
 
 >[!NOTE]
 >
->Los ciclos de venta habituales para la implantación de publicidad dinámica a escala oscilan entre los 9 y los 18 meses. Hay muchos factores involucrados que afectan la línea de tiempo final, entre los cuales se encuentra la forma en que el cliente final mide el éxito y la aversión al riesgo que sus socios comerciales tienen al introducir una nueva solución.
+>Los ciclos de venta habituales para la implantación de publicidad dinámica a escala oscilan entre los 9 y los 18 meses. Hay muchos factores involucrados que afectan la línea de tiempo final. Algunos de estos factores incluyen cómo mide el cliente final el éxito y la aversión al riesgo de sus socios comerciales cuando se introduce una nueva solución.
 
 Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un entorno minorista podrían ser:
 
@@ -46,7 +46,7 @@ Por ejemplo, las partes interesadas en un programa de publicidad dinámica en un
 
 ## Resumen de los términos clave implicados en un plan de proyecto general {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-En la siguiente sección se proporciona información general sobre los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y las implementaciones.
+En la siguiente sección se proporciona información general sobre los términos clave que intervienen en un plan de proyecto general. Los términos clave incluyen el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y las implementaciones.
 
 ### Prueba de concepto (POC) {#proof-of-concept-poc}
 
@@ -54,9 +54,9 @@ El propósito de un POC es obtener comentarios iniciales sobre las funcionalidad
 
 ### Control de calidad {#quality-control}
 
-Las pruebas de integración de sistemas y software comienzan con el equipo de ingeniería informática del integrador de audio y vídeo. En referencia al diseño de sistema aprobado, el equipo de ingeniería de TI configura, implementa y supervisa la instalación de componentes de hardware en un &quot;entorno de laboratorio&quot; en las instalaciones del integrador de audio y vídeo. Esto permite revisar y probar de cerca toda la solución para el control de calidad.
+Las pruebas de integración de sistemas y software comienzan con el equipo de ingeniería informática de los integradores de audio y vídeo. En referencia al diseño de sistema aprobado, el equipo de ingeniería de TI configura, implementa y supervisa la instalación de componentes de hardware en un &quot;entorno de laboratorio&quot; en las instalaciones del integrador de audio y vídeo. Esta disposición permite revisar y probar de cerca toda la solución para el control de calidad.
 
-Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para utilizarlos como referencia durante el día 2 de asistencia. Los aspectos del sistema que se deben probar incluyen los siguientes:
+Una vez finalizadas las pruebas de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para utilizarlos como referencia durante el día 2 de asistencia. Los aspectos del sistema que se deben probar incluyen los siguientes:
 
 * AEM Integraciones de implementadores de.
 * Integraciones de sistemas de terceros.
@@ -67,7 +67,7 @@ Una vez finalizada la prueba de control de calidad, el equipo de ingeniería de 
 
 ## Parte 3: Tutorial en vídeo sobre pruebas, POC, programas piloto y despliegues {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Siga el tutorial siguiente para comprender las pruebas, las pruebas de concepto, los programas piloto y los despliegues.
+Siga el tutorial siguiente para comprender las pruebas, las pruebas de concepto, los programas piloto y los lanzamientos.
 
 Considerar todas estas fases como parte del plan del proyecto general ayuda a administrar las expectativas e identifica los puntos naturales en los que se puede evaluar la inversión en una implementación de AEM Screens.
 
