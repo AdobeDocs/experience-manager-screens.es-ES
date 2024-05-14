@@ -2,9 +2,9 @@
 title: Administración del tráfico de red
 description: La página describe las Configuraciones de red estándar y cómo administrar el tráfico de red.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ En esta guía se destaca la introducción a los servidores proxy, seguida de las
 
 Una conexión a Internet depende del uso de un servidor proxy. Un servidor proxy es un equipo dedicado o un sistema de software que se ejecuta en un equipo. Actúa como intermediario entre un dispositivo de extremo, como un equipo, y otro servidor desde el que un usuario o cliente solicita un servicio. El servidor proxy puede existir en el mismo equipo que un servidor de firewall o en un servidor independiente, que reenvía solicitudes a través del firewall.
 
-Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan uno o más sitios de Internet con frecuencia, es probable que estén en la caché del proxy, lo que mejora aún más el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, que se pueden utilizar para solucionar problemas.
+Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan uno o más sitios de Internet con frecuencia, es probable que estos sitios estén en la caché del proxy. Este almacenamiento en caché mejora aún más el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, que se pueden utilizar para solucionar problemas.
 
-AEM Cuando un servidor proxy recibe una solicitud de un recurso de Internet (por ejemplo, una página Web o mientras se conecta a un publicador de la red), analiza su caché local de las direcciones URL antes denominadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy (actúa como cliente) en nombre del usuario y solicita la página desde el servidor en Internet. Cuando se devuelve el contenido, el servidor proxy lo relaciona con la solicitud original y la reenvía al usuario.
+AEM Cuando un servidor proxy recibe una solicitud de un recurso de Internet (por ejemplo, una página Web o mientras se conecta a un publicador de la red), analiza su caché local de las direcciones URL antes denominadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy actúa como cliente en nombre del usuario y solicita la página desde el servidor en Internet. Cuando se devuelve el contenido, el servidor proxy lo relaciona con la solicitud original y la reenvía al usuario.
 
 ## Explicación de las configuraciones de red estándar {#network-setups}
 
-Para implementar una configuración de red, consulte los siguientes escenarios con sus puntos fuertes y detalles de implementación.
+Para implementar una Configuración de red, consulte los siguientes escenarios con sus puntos fuertes y detalles de implementación.
 
 En esta guía se destacan cuatro tipos diferentes de configuraciones de red dentro de una organización:
 

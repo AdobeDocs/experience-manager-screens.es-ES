@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Esta sección trata los siguientes temas sobre la actualización de contenido co
 
 ## Información general {#overview}
 
-Bulk Offline Update, permite actualizar todos los canales de forma masiva. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
+Bulk Offline Update permite actualizar todos los canales de forma masiva. Esto evita la molestia de navegar a un canal en particular y actualizar el contenido. En su lugar, puede actualizar todo el contenido de los canales de un proyecto específico en un instante.
 
 También puede programar esta actividad para un momento de menor tráfico de red.
 
@@ -46,7 +46,7 @@ Puede utilizar manualmente la actualización sin conexión masiva desde la inter
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Haga clic en el proyecto y en **Actualizar contenido sin conexión** en la barra de acciones para actualizar manualmente el contenido del canal.
+1. Haga clic en el proyecto y en **Actualizar contenido sin conexión** en la barra de acciones para actualizar el contenido del canal manualmente.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -55,7 +55,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Configuración de la consola web de Adobe Experience Manager.
-1. Busque servicios de actualización sin conexión en bloque.
+1. Busque servicios de actualización sin conexión masivos.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

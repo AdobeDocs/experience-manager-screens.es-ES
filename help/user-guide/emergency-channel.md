@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Descripción del caso de uso {#use-case-description}
 
-En esta sección se describe un ejemplo de uso que hace hincapié en la creación y administración de un canal de emergencia que el autor de contenido puede cambiar de un canal de secuencia si hay una condición previa.
+En esta sección se describe un ejemplo de uso. Hace hincapié en la creación y administración de un canal de emergencia que el autor de contenido puede cambiar de un canal de secuencia, si hay una condición previa.
 
 ### Condiciones previas {#preconditions}
 
@@ -185,4 +185,4 @@ Si hay una emergencia, realice los siguientes pasos:
 
 El **EmergencyChannel** continuará mostrando su contenido hasta que el autor de contenido restablezca el valor de prioridad en 1.
 
-Cuando el autor del contenido recibe las instrucciones de que la emergencia se ha borrado, debe actualizar la prioridad del **MainAdChannel** lo que hace que se reanude la reproducción normal.
+Cuando el autor del contenido recibe las instrucciones de que la emergencia se ha borrado, debe actualizar la prioridad del **MainAdChannel**. Al hacerlo, la reproducción normal se reanuda.

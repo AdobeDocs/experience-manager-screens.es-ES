@@ -2,9 +2,9 @@
 title: Duración de reproducción de imagen de nivel de proyecto
 description: Aprenda a definir la duración de la reproducción de la imagen en el nivel de proyecto.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Esta función permite definir la duración de la reproducción de la imagen en e
 Antes de usar esta función, configure un proyecto como requisito previo para comenzar a implementar esta funcionalidad. Por ejemplo,
 
 1. Cree un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**).
-1. Crear un canal de secuencia como **PlayBackChannel** bajo **Canales** carpeta.
+1. Crear un canal de secuencia como **PlayBackChannel** en el **Canales** carpeta.
 1. Añadir contenido a **PlayBackChannel**.
 
    ![activos](assets/image_playback1.png)
@@ -64,7 +64,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
 ### Visualización del resultado {#viewing-the-result}
 
-Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (valor predeterminado).
+Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (el valor predeterminado).
 
 ![channel_preview](assets/channel_preview.gif)
 

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Siga los pasos a continuación para configurar un proyecto:
 
    ![recurso](assets/single-takeover4.png)
 
-1. Configure una ubicación y una visualización para sus canales. Por ejemplo, lo siguiente **Vestíbulo** ubicación y  **MainLobbyDisplay** se han configurado las visualizaciones para este proyecto.
+1. Configure una ubicación y una visualización para sus canales. Por ejemplo, lo siguiente **Vestíbulo** ubicación y **MainLobbyDisplay** se han configurado las visualizaciones para este proyecto.
 
    ![recurso](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ Siga los pasos a continuación para configurar un proyecto:
      >[!NOTE]
      >La prioridad puede ser cualquier valor superior al valor de prioridad del canal de reproducción normal.
    * **Eventos admitidos**: haga clic en **Pantalla inactiva** y **Temporizador**.
-   * **Programación**: introduzca el texto de la programación en la que desea que este canal ejecute la visualización. Por ejemplo, el texto aquí permite que el contenido se reproduzca 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m. El texto de la **Programación** mencionado en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00:01*.
+   * **Programación**: introduzca el texto de la programación que desea que este canal se ejecute en la pantalla. Por ejemplo, el texto aquí permite que el contenido se reproduzca 2 minutos antes de las 12:00 a.m. del 31 de diciembre hasta las 12:01 a.m. El texto de la **Programación** mencionado en este ejemplo es *el 31 de diciembre después de las 23:58 y también el 1 de enero antes de las 00:01*.
 
      ![recurso](assets/single-takeover8.png)
 
-     Navegue hasta la pantalla desde **SingleUseTakeOver** > **Ubicaciones** > **Vestíbulo** > **MainLobbyDisplay** y haga clic en **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
+     Navegue hasta la pantalla desde **SingleUseTakeOver** > **Ubicaciones** > **Vestíbulo** > **MainLobbyDisplay**. Clic **Tablero** en la barra de acciones, para poder ver los canales asignados con sus prioridades, como se muestra a continuación.
 
      >[!NOTE]
      >Es obligatorio establecer la prioridad del canal de adquisición como la más alta.

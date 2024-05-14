@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
 
    >[!CAUTION]
    >
-   >Debería haber configurado su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** pestaña.
+   >Su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** La pestaña ya debe estar configurada.
 
    ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Siga los pasos a continuación para implementar el caso de uso Activación de te
 1. **Comprobación de la previsualización**
 
    1. Clic **Vista previa.** Además, abra la hoja de Google y actualice su valor.
-   1. Cambie el valor por debajo de 50. Debería poder ver una imagen de una bebida fría. Si el valor de Google Sheets es 50 o superior, debería ver una imagen de una bebida caliente.
+   1. Cambie el valor por debajo de 50. Puede ver una imagen de una bebida fría. Si el valor de Google Sheets es 50 o superior, debería ver una imagen de una bebida caliente.
 
    ![result3](assets/result3.gif)

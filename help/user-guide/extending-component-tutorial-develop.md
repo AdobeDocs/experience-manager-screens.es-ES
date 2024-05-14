@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ El siguiente tutorial muestra los pasos y las prácticas recomendadas para ampli
 
 ## Información general {#overview}
 
-Este tutorial está diseñado para desarrolladores que son nuevos en AEM Screens. En este tutorial, el componente Imagen de pantallas se amplía para crear un componente Póster. Sobre la imagen se superponen un título, una descripción y un logotipo para crear una experiencia atractiva en un canal de secuencias.
+Este tutorial está diseñado para desarrolladores que son nuevos en AEM Screens. En este tutorial, el componente Imagen de pantallas se amplía para crear un componente Póster. Sobre una imagen se superponen un título, una descripción y un logotipo para crear una experiencia atractiva en un canal de secuencias.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Este tutorial está diseñado para desarrolladores que son nuevos en AEM Screens
 
 ![Componente de póster personalizado](assets/2018-05-07_at_4_09pm.png)
 
-El componente Póster personalizado se crea ampliando el componente Imagen.
+A `Custom Poster` se crea ampliando el componente de imagen.
 
 ## Requisitos previos {#prerequisites}
 
@@ -133,7 +133,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    Cuadro de diálogo copiado de `/libs/wcm/foundation/components/image/cq:dialog` hasta `/apps/weretail-run/components/content/poster`
 
-   El AEM Screens `image` El componente se superescribe en WCM Foundation `image` componente. Por lo tanto, `poster` El componente hereda la funcionalidad de ambos. El cuadro de diálogo del componente de póster se compone de una combinación de los cuadros de diálogo Screens y Foundation. Características de la **Fusión de recursos de Sling** se utilizan para ocultar campos de diálogo y fichas irrelevantes que se heredan de los componentes con supertipo.
+   El AEM Screens `image` El componente se superescribe en WCM Foundation `image` componente. Por lo tanto, el `poster` El componente hereda la funcionalidad de ambos. El cuadro de diálogo del componente de póster se compone de una combinación de los cuadros de diálogo Screens y Foundation. Características de la **Fusión de recursos de Sling** se utilizan para ocultar campos de diálogo y fichas irrelevantes que se heredan de los componentes con supertipo.
 
 1. Actualice el `cq:dialog` debajo `/apps/weretail-run/components/content/poster` con los siguientes cambios representados en XML:
 
@@ -240,7 +240,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    La propiedad `sling:hideChildren`= `"[linkURL,size]`&quot; se utiliza en `items` para garantizar que la variable **linkURL** y **talla** Los campos de están ocultos en el cuadro de diálogo. No basta con quitar estos nodos del cuadro de diálogo del póster. La propiedad `sling:hideResource="{Boolean}true"` en la pestaña accesibilidad se utiliza para ocultar toda la pestaña.
 
-   Se agregan dos campos de clic al cuadro de diálogo para que los autores controlen la posición del texto y el color del Título y la Descripción.
+   Se agregan dos campos de clic al cuadro de diálogo, Posición del texto y Color del texto, para dar a los autores control sobre la posición del texto y el color del Título y la Descripción.
 
    ![Póster - Estructura final del diálogo](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    `The h1` y las etiquetas h2 se añaden para mostrar el Título y la Descripción en función de las propiedades del componente: `${properties.jcr:title}` y `${properties.jcr:description}`.
 
-   Rodeando el `h1` y `h2` es un contenedor div con tres clases CSS con variaciones de &quot; `cmp-poster__text`&quot;. El valor de `textPosition` y `textColor` Las propiedades de se utilizan para cambiar la clase CSS representada en función de la selección del cuadro de diálogo del autor. En la siguiente sección, se escribe CSS desde las bibliotecas de cliente para habilitar estos cambios en la visualización.
+   Rodeando el `h1` y `h2` es un contenedor div con tres clases CSS con variaciones de &quot;`cmp-poster__text`.&quot; El valor de `textPosition` y `textColor` Las propiedades de se utilizan para cambiar la clase CSS representada en función de la selección del cuadro de diálogo del autor. En la siguiente sección, se escribe CSS desde las bibliotecas de cliente para habilitar estos cambios en la visualización.
 
    También se incluye un logotipo como superposición en el componente. En este ejemplo, la ruta al` We.Retail` El logotipo de está codificado en el DAM. Según el caso de uso, puede tener más sentido crear un campo de diálogo para que la ruta del logotipo sea un valor rellenado dinámicamente.
 
@@ -337,9 +337,9 @@ Los componentes de AEM Screens se representan de forma diferente en el modo de e
 
    Propiedades de /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   El `categories` es una cadena que identifica la biblioteca de cliente. El `cq.screens.components` se utiliza en los modos de edición y de previsualización/producción. Por lo tanto, cualquier CSS/JS definido en `shared` clientlib se carga en todos los modos.
+   El `categories` es una cadena que identifica la biblioteca de cliente. El `cq.screens.components` se utiliza en los modos de edición y de previsualización/producción. Por lo tanto, cualquier CSS/JS definido en la variable `shared` clientlib se carga en todos los modos.
 
-   Se recomienda no exponer nunca ninguna ruta directamente a /apps en un entorno de producción. El `allowProxy` garantiza que se haga referencia a la biblioteca de cliente CSS y JS mediante un prefijo de `/etc.clientlibs`. Más información sobre la [La propiedad allowProxy se puede encontrar aquí.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Como práctica recomendada, no exponga nunca ninguna ruta directamente a `/apps` en un entorno de producción. El `allowProxy` garantiza que se haga referencia a la biblioteca de cliente CSS y JS mediante un prefijo de `/etc.clientlibs`. Más información sobre la [La propiedad allowProxy se puede encontrar aquí.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crear archivo con el nombre `css.txt` debajo de la carpeta compartida.
 
@@ -362,7 +362,7 @@ Los componentes de AEM Screens se representan de forma diferente en el modo de e
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ Los componentes de AEM Screens se representan de forma diferente en el modo de e
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -491,9 +491,9 @@ Una tercera categoría de biblioteca de cliente: `cq.screens.components.edit` se
 
 ## Agregar el componente Póster a un canal de secuencia {#add-sequence-channel}
 
-El componente Póster se utiliza en un canal de secuencia. El paquete de inicio de este tutorial incluye un canal inactivo. El canal inactivo está preconfigurado para permitir componentes del grupo **`We.Retail Run - Content`**. El grupo del componente Póster está establecido en `We.Retail Run - Content` y está disponible para añadirse al canal.
+El componente Póster se utiliza en un canal de secuencia. El paquete de inicio de este tutorial incluye un canal inactivo. El canal Inactivo está preconfigurado para permitir componentes del grupo **`We.Retail Run - Content`**. El grupo del componente Póster está establecido en `We.Retail Run - Content` y está disponible para añadirse al canal.
 
-1. Abra el Canal inactivo desde el `We.Retail` Ejecutar proyecto: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Abra el canal Inactivo desde el `We.Retail` Ejecutar proyecto: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Arrastre y suelte una nueva instancia de **Póster** de la barra lateral a la página.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)

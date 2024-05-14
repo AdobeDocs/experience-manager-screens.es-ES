@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,14 @@ La planificación incluye:
 
 A continuación se indican algunas consideraciones clave para la compatibilidad con el día 2:
 
-* AEM Para garantizar la alineación y la transición sin problemas desde la implementación a la asistencia técnica operativa, el Implementador de la trabaja con el Integrador de audio y vídeo para garantizar que los scripts de asistencia adecuados se definan como parte del plan de asistencia del día 2.
+* AEM Para garantizar la alineación y la transición sin problemas desde la implementación a la asistencia técnica operativa, el Implementador de funciona con el Integrador de audio y vídeo. Juntos, garantizan que los scripts de asistencia adecuados se definan como parte del plan de asistencia del día 2.
 * Los requisitos como la gestión de dispositivos remotos, la disponibilidad del servicio de asistencia y la asistencia técnica in situ son prácticamente una realidad en esta fase de la evolución del sector de la señalización digital. Más allá de esta necesidad básica, los integradores de audio y vídeo también deberían explorar las variables de coste entre el monitorado proactivo y el reactivo, y los modelos de soporte.
-
 * Los requisitos como la gestión de dispositivos remotos, la disponibilidad del servicio de asistencia y la asistencia técnica in situ son prácticamente una realidad en esta fase de la evolución del sector de la señalización digital. Más allá de esta necesidad básica, los integradores de audio y vídeo también deberían explorar las variables de coste entre el monitorado proactivo y el reactivo, y los modelos de soporte.
 * Para prepararse para el éxito a largo plazo, es fundamental establecer un acuerdo de nivel de asistencia el día 2 (también denominado &quot;S.L.A.&quot;) en colaboración con el integrador de audio y vídeo. Los SLA detallan los servicios de asistencia posteriores a la implementación y ayudan a establecer las expectativas de los clientes.
-* La Knowledge Base es un recurso clave que se utiliza para gestionar correctamente varias redes. SharePoint es una plataforma popular para este tipo de recurso. La Base de conocimiento incluye preguntas y respuestas programadas para que los agentes de NOC las sigan, lo que garantiza que las solicitudes de resolución de problemas entrantes se gestionen de manera coherente. Las bases de conocimientos suelen incluir materiales de referencia para configuraciones de sistemas y ubicaciones de sitios, incluidas hojas de corte para hardware y materiales de referencia para software de sistemas.
+* La Knowledge Base es un recurso clave que se utiliza para gestionar correctamente varias redes. SharePoint es una plataforma popular para este tipo de recurso. La Base de conocimiento incluye preguntas y respuestas programadas para que los agentes de NOC las sigan, lo que garantiza que las solicitudes de resolución de problemas entrantes se gestionen de manera coherente. Las bases de conocimientos suelen incluir materiales de referencia para las configuraciones del sistema y las ubicaciones del sitio. La Knowledge Base puede incluir en ocasiones hojas de corte para el hardware y materiales de referencia para el software de sistemas.
 * Las capacidades de monitorización y administración dependen en gran medida de los sistemas operativos del reproductor de medios y de las capacidades de pantalla. Los sistemas operativos Windows ofrecen el máximo nivel de detalle. Para implementaciones que se ejecutan en dispositivos Android™ o iOS, se emplea la administración de dispositivos móviles (también conocida como MDM).
 * Algunos fabricantes de pantallas ofrecen la posibilidad de monitorizar pantallas independientes de los reproductores multimedia, mientras que otros requieren un dispositivo externo.
-* Los integradores de audio y vídeo utilizan una combinación de tecnologías, por lo que las soluciones siguen siendo flexibles para satisfacer mejor las necesidades del cliente final.
+* Los integradores de audio y vídeo utilizan una combinación de tecnologías, lo que garantiza que las soluciones se mantengan flexibles para satisfacer mejor las necesidades del cliente final.
 
 ## Parte 5: Tutorial en vídeo sobre consideraciones de soporte {#part-video-tutorial-on-support-considerations}
 

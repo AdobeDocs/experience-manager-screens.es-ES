@@ -1,6 +1,6 @@
 ---
 title: Creación y administración de programas
-description: Obtenga información sobre los Programas que le permiten organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
+description: Obtenga información sobre los Programas que permiten organizar los canales en grupos reutilizables para no tener que repetir su asignación individualmente.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Creación y administración de programas {#creating-and-managing-schedules}
 
-**Horarios** en AEM Screens, puede organizar los canales en grupos reutilizables para que no tenga que repetir su asignación individualmente para cada visualización en la que desee mostrar el contenido.
+**Horarios** en AEM Screens permite organizar los canales en grupos reutilizables. Hacerlo significa que no tiene que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 
 Programaciones, cuando se combinan con ***DayParting***, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
@@ -30,7 +30,7 @@ Programaciones, cuando se combinan con ***DayParting***, permite establecer una 
 
 Puede crear una programación para su proyecto de Screens que pueda administrar todas las actividades de su caso de uso.
 
-Siga los pasos a continuación para crear la programación de su canal:
+Siga los pasos a continuación para crear una programación para su canal:
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, en Screens. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
 1. Vaya al proyecto de Pantallas y haga clic en **Horarios**.
@@ -44,7 +44,7 @@ Puede ver una carpeta de programación con el nombre y título designados en el 
 
 ## Visualización del panel {#viewing-dashboard}
 
-Una vez creada la carpeta de programaciones en el proyecto, puede ver los detalles en el panel de programaciones.
+Después de crear una carpeta de programaciones en el proyecto, puede ver los detalles en el panel de programaciones.
 
 Siga los pasos a continuación para ver el panel de programación. El siguiente ejemplo muestra el panel del `We.Retail` proyecto:
 

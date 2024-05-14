@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%
@@ -22,7 +22,7 @@ AEM Los componentes de se utilizan para mantener, dar formato y representar el c
 
 >[!NOTE]
 >
->AEM AEM Para obtener más información sobre los detalles de la creación de componentes de, consulte Desarrollo de componentes de.
+>AEM AEM Para obtener más información sobre los detalles de la creación de componentes de la, consulte Desarrollo de componentes de la.
 
 ## Creación de canales {#authoring-channels}
 
@@ -48,7 +48,7 @@ Los componentes integrados utilizan las siguientes categorías de biblioteca de 
 | **Componente** | **Biblioteca de cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS y JS que deben cargarse durante la creación |
-| *cq.screens.components.production* | CSS y JS que deben cargarse cuando se está ejecutando el canal |
+| *cq.screens.components.production* | CSS y JS que deben cargarse cuando se ejecuta el canal |
 | *cq.screens.components* | CSS y JS compartidos |
 
 >[!NOTE]

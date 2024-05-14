@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1179'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
->AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Screens de la versión 6.5.5 de la versión de.
+>AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Pantallas de la versión 6.5.5 de la versión de.
 
 Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
 
@@ -40,21 +40,21 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
    ![imagen](/help/user-guide/assets/channel-assign1.png)
 
-   Puede configurar las propiedades desde el **Asignación de canales** Cuadro de diálogo de la sección siguiente. Consulte [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   Puede configurar las propiedades desde el **Asignación de canales** Cuadro de diálogo de la sección siguiente. Consulte la [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades del canal.
 
 ## Explicación de las propiedades de canal de la asignación de canal {#channel-properties}
 
 ### Canal de referencia {#ref-channel}
 
-El canal de referencia permite proporcionar una referencia al canal deseado, ya sea por nombre de canal o por ruta de canal.
+Un canal de referencia permite proporcionar una referencia al canal deseado, ya sea por nombre de canal o por ruta de canal.
 
 * **por ruta** : Se proporciona una referencia explícita utilizando la ruta absoluta del canal.
 
-* **por nombre** : Introduzca el nombre del canal que se resuelve en un canal real por contexto. Esta función le permite crear una versión local de un canal para resolver dinámicamente contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero el canal sigue teniendo una función sensata en todas las pantallas.
+* **por nombre** : Introduzca el nombre del canal que se resuelve en un canal real por contexto. Esta función permite crear una versión local de un canal para poder resolver de forma dinámica contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero el canal sigue teniendo una función sensata en todas las pantallas.
 
 ### Función del canal {#role-channel}
 
-La función Canal define el contexto de la visualización. La función está dirigida por varias acciones y es independiente del canal real que cumple la función.
+La función Canal define el contexto de la visualización. La función se dirige a varias acciones y es independiente del canal real que cumple la función.
 
 ### Prioridad {#priority-channel}
 
@@ -76,7 +76,7 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 >
 > Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or -->AEM Paquete de funciones 4 para.5.
 
-Como Autor de contenido, especifique cuándo se interrumpe un canal para que pueda elegir cortar el contenido no crítico, pero opcionalmente permita que el contenido importante se reproduzca antes de cortar su reproducción debido a la programación.
+Como autor de contenido, especifique cuándo se interrumpe un canal. Al hacerlo, puede cortar el contenido no crítico si lo desea, pero también puede permitir que el contenido importante se reproduzca antes de cortar su reproducción debido a la programación.
 
 Haga clic en una de las siguientes opciones que están disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
 
@@ -100,7 +100,7 @@ Mostrar información sobre la atracción define si la información sobre la atra
 
 ### DayParting {#dayparting}
 
-Programaciones cuando se combinan con **DayParting**, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
+Programaciones, cuando se combinan con **DayParting**, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
 DayParting se refiere a dividir un día en espacios de tiempo y especificar qué contenido se reproduce a la hora deseada. AEM Screens permite programar canales en términos de Partición del día en un día, una semana o un mes según sea necesario.
 
@@ -162,7 +162,7 @@ Aquí puede crear DayParting por mes, de modo que el contenido del canal se repr
 
 #### Reproducción de contenido para canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
 
-En este ejemplo se muestra el DayParting de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero dado que el Canal B tiene la prioridad establecida como 2, durante esa semana; el Canal B reproduce su contenido en lugar del Canal A.
+En este ejemplo se muestra el DayParting de una tienda que muestra su colección de invierno con la misma programación en el mes de diciembre. Pero dado que el canal B tiene la prioridad establecida como 2, durante esa semana; el canal B reproduce su contenido en lugar de canal A.
 
 | **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
