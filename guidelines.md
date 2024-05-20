@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Intente evitar cualquier referencia directa a una versión específica en todo e
 En un artículo, haga siempre referencia al producto por su nombre completo **Adobe Experience Manager** la primera vez que se utiliza. A partir de entonces, puede denominarse **AEM**.
 
 No se deben utilizar las palabras Día, Software de día, CQ y CRX, excepto cuando sea inevitable, como en nombres de clase o en referencia al historial de AEM.
+
