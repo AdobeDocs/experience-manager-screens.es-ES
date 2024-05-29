@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 11%
       + [Duración de reproducción masiva de imágenes a nivel de canal](channel-level-image-playback.md)
       + [Sincronización de comandos](using-command-sync.md)
       + [Creación con Déclencheur de datos](authoring-data-triggers.md)
+      + [Uso de etiquetas](tagging.md)
       + [Reconocimiento de voz](voice-recognition.md)
       + [Informe de asignación de contenido](content-assignment-report.md)
       + [Compatibilidad con miniaturas para vídeos](thumbnail-support.md)
