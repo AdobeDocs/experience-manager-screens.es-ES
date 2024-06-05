@@ -3,9 +3,9 @@ title: Etiquetado en Screens Cloud
 description: Esta página describe cómo se pueden crear, administrar y utilizar las etiquetas en Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ El usuario puede crear etiquetas en Screens Cloud y utilizarlas para clasificar 
 
 ## Creación y administración de etiquetas {#create-and-manage-tags}
 
-![Etiqueta de creación de VÍDEO](assets/tagging/create-tag.mp4).
+![crear etiqueta](assets/tagging/create-tag.gif).
 
 Utilice el mismo menú de acción para cambiar el nombre de una etiqueta o eliminarla.
 
@@ -35,13 +35,13 @@ Utilice el mismo menú de acción para cambiar el nombre de una etiqueta o elimi
 
 Utilice las etiquetas creadas en Pantallas y reproductores. Puede etiquetar una con un máximo de 30 etiquetas.
 
-![Asignación de etiquetas de administración de VÍDEO](assets/tagging/assign-tags-to-players.mp4).
+![administrar asignaciones de etiquetas](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtrar por etiquetas {#filter-by-tags}
 
 Seleccione etiquetas para filtrar la lista de pantallas o reproductores.
 
-![Filtro de VÍDEO por etiquetas](assets/tagging/filter-by-tags.mp4).
+![filtrar por etiquetas](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
