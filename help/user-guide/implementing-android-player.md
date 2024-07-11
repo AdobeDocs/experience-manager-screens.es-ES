@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Complete los siguientes pasos:
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método Ad Hoc permite instalar el último reproductor de Android™ (*.exe*). Visite la [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
+El método ad hoc permite instalar el último reproductor de Android™ (*.exe*). Visite la [**AEM Descargas del reproductor de 6.5 en**](https://download.macromedia.com/screens/) página.
 
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
@@ -84,15 +84,15 @@ Siga los pasos a continuación para firmar el apk de Android™ usando las clave
 1. Descargue el apk desde Google Play o desde [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/) página
 1. Obtenga las claves de plataforma del fabricante para que pueda obtener una *pk8* y una *pem* archivo
 
-1. Busque el `apksigner` herramienta en el SDK de Android™ con Buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Busque el `apksigner` herramienta en el SDK de Android™ con buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
 1. Busque la ruta a la herramienta zip align en el SDK de Android™
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Instalar ***aemscreensalign.apk*** usar la instalación de adb en el dispositivo
 
-## Explicación de los servicios de Android™ Watchdog {#android-watchdog-services}
+## Explicación de Android™ Watchdog Services {#android-watchdog-services}
 
-El servicio de vigilancia entre Android se implementa como complemento de Cordova mediante *AlarmManager*.
+El servicio de vigilancia entre Android™ se implementa como complemento de Cordova mediante *AlarmManager*.
 
 El diagrama siguiente muestra la implementación del servicio de vigilante:
 
@@ -110,10 +110,10 @@ El diagrama siguiente muestra la implementación del servicio de vigilante:
 
 ## Aprovisionamiento masivo del reproductor Android™ {#bulk-provision-android-player}
 
-AEM Al desplegar el reproductor Android™ de forma masiva, es necesario aprovisionar el reproductor para que apunte a una instancia de y configurar otras propiedades sin introducirlas manualmente en la IU del administrador.
+Al desplegar el reproductor AndroidAEM ™ de forma masiva, es necesario aprovisionar el reproductor para que apunte a una instancia de y configurar otras propiedades sin introducirlas manualmente en la IU de administración.
 
 >[!NOTE]
->Esta función está disponible en el reproductor 42.0.372 de Android™.
+>Esta función está disponible en el reproductor Android™ 42.0.372.
 
 Siga los pasos a continuación para permitir el aprovisionamiento masivo en el reproductor Android™:
 
@@ -172,11 +172,11 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 
 ## Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management {#bulk-provisioning}
 
-AEM Al implementar el reproductor de Android™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con la función de reproducción de la aplicación de forma. Utilice una solución de EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para que pueda aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+Al implementar el reproductor de AndroidAEM ™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con la opción de configuración de la aplicación de forma manual Utilice una solución de EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para que pueda aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
 ## Nombrar el reproductor Android™ {#name-android}
 
-AEM Puede asignar un nombre de dispositivo fácil de usar al reproductor de Android™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la aplicación (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor Android™, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo fácil de usar al reproductor de AndroidAEM ™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la red (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor Android™, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
