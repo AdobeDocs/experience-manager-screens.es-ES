@@ -20,7 +20,7 @@ ht-degree: 0%
 
 En esta página se describe la creación y administración de Live Copies de canales.
 
-A ***Live Copy*** es una copia de contenido de un sitio específico para el que se mantiene una relación activa con el origen. Esta relación activa permite que la Live Copy herede el contenido y las propiedades de página del origen.
+Una ***Live Copy*** es una copia de contenido específico del sitio para el cual se mantiene una relación activa con el origen. Esta relación activa permite que la Live Copy herede el contenido y las propiedades de página del origen.
 
 En esta página se describe la creación de una Live Copy de un canal, la visualización de propiedades, la comprobación de estado y la propagación de cambios de un canal a su Live Copy.
 
@@ -31,13 +31,13 @@ Siga los pasos a continuación para crear una Live Copy de un canal en la carpet
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, **Screens**. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
 
-1. Vaya al proyecto de Pantallas y haga clic en **Canales**.
-1. Clic **Crear** y haga clic en **Live Copy** para poder crear una live copy del canal.
-1. Haga clic en el destino y en **Siguiente**.
+1. Vaya al proyecto de Screens y haga clic en **Canales**.
+1. Haga clic en **Crear** y luego en **Live Copy** para crear una Live Copy del canal.
+1. Haga clic en el destino y luego en **Siguiente**.
 1. Haga clic en la ubicación donde puede residir la Live Copy.
-1. Introduzca el **Título** y **Nombre** en el **Crear Live Copy** página.
+1. Escriba **Title** y **Name** en la página **Crear Live Copy**.
 
-1. Clic **Abrir** para ver el contenido de la nueva live copy o **Listo** para volver a la página principal.
+1. Haga clic en **Abrir** para ver el contenido de la nueva Live Copy o en **Listo** para regresar a la página principal.
 
 Alternativamente, consulte los pasos siguientes para obtener una representación visual para crear una nueva Live Copy de un canal.
 
@@ -51,39 +51,39 @@ Una Live Copy es una copia de un canal que existe.
 
 Para ver el contenido de su Live Copy, consulte los pasos a continuación:
 
-1. Vaya al proyecto de Pantallas y haga clic en la ubicación en la que creó originalmente una Live Copy, como se muestra en la sección anterior. (Aquí, se eligió la ubicación como **Canales** folder)
+1. Vaya al proyecto de Screens y haga clic en la ubicación en la que creó originalmente una Live Copy, como se muestra en la sección anterior. (En este caso, la ubicación se eligió como la carpeta **Channels**)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Clic **Editar** de la barra de acciones.
+1. Haga clic en **Editar** en la barra de acciones.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
    >[!NOTE]
    >
-   >Cuando vea contenido para un canal de Live Copy, verá un elemento adicional en el menú como **Estado de Live Copy**. Consulte la sección siguiente para obtener más información.
+   >Cuando visualiza contenido para un canal de Live Copy, ve un elemento adicional en el menú como **Estado de Live Copy**. Consulte la sección siguiente para obtener más información.
 
 ### Visualización de propiedades de una Live Copy {#viewing-properties-of-a-live-copy}
 
 Además, puede ver las propiedades del canal de Live Copy.
 
-1. Vaya al canal de Live Copy y haga clic en **Propiedades** de la barra de acciones.
+1. Vaya al canal de Live Copy y haga clic en **Propiedades** desde la barra de acciones.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
-1. Haga clic en **Live Copy** para poder ver los detalles del canal.
+1. Haz clic en la pestaña **Live Copy** para poder ver los detalles de tu canal.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
 ### Estado de Live Copy   {#live-copy-status}
 
-El modo **Estado de Live Copy**, como se muestra en la figura siguiente, permite ver el estado de relación de todos los recursos del canal.
+El modo **Estado de Live Copy**, como se muestra en la figura siguiente, le permite ver el estado de relación de todos los recursos del canal.
 
-1. Clic **Editar** para que pueda elegir el **Estado de Live Copy**. También puede ver la asociación del contenido del canal con el canal original desde el que se genera la Live Copy.
+1. Haz clic en **Editar** para poder elegir el **estado de Live Copy**. También puede ver la asociación del contenido del canal con el canal original desde el que se genera la Live Copy.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-1. Clic **Estado de Live Copy** para poder mostrar la página de vista previa.
+1. Haga clic en **Estado de Live Copy** para mostrar la página de vista previa.
 
    Todos los recursos con borde verde muestran que el contenido se hereda del canal original.
 
@@ -103,7 +103,7 @@ Si realiza cambios o actualizaciones en el canal original, propague esos cambios
 
 Siga los pasos a continuación para asegurarse de que los cambios se propagan del canal original al canal de Live Copy:
 
-1. Haga clic en el canal original (***Canal inactivo***) y haga clic en **Editar** de la barra de acciones.
+1. Haga clic en el canal original (***Canal inactivo***) y luego haga clic en **Editar** en la barra de acciones.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,21 +111,21 @@ Siga los pasos a continuación para asegurarse de que los cambios se propagan de
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Haga clic en la Live Copy del canal (***IdleLiveCopy***) y haga clic en **Editar** de la barra de acciones. Observe que la imagen que ha eliminado sigue visible en la Live Copy.
+1. Haga clic en la Live Copy del canal (***IdleLiveCopy***) y, a continuación, haga clic en **Editar** en la barra de acciones. Observe que la imagen que ha eliminado sigue visible en la Live Copy.
 
    Para propagar los cambios, sincronice el canal.
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. AEM Para propagar los cambios al canal de Live Copy, vaya al panel de control de y haga clic en el canal de Live Copy y luego haga clic en **Propiedades** de la barra de acciones.
+1. AEM Para propagar los cambios al canal de Live Copy, vaya al panel de, haga clic en el canal de Live Copy y, a continuación, haga clic en **Propiedades** desde la barra de acciones.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-1. Haga clic en **Live Copy** y haga clic en **Sincronizar** de la barra de acciones.
+1. Haga clic en la pestaña **Live Copy** y luego en **Sincronizar** en la barra de acciones.
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Clic **Sincronización**, luego haga clic en **Guardar y cerrar** AEM para volver al panel de control de la.
+1. AEM Haga clic en **Sincronizar** y, a continuación, haga clic en **Guardar y cerrar** para volver al panel de control de.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

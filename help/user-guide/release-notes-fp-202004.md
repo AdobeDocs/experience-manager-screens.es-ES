@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 8 de la versión 6.4 de la versión, y el paquete de funciones 4 de la versión 6.5 de la versión 6.4.
 
-Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el paquete de funciones más reciente.
+Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el paquete de funciones más reciente.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -34,9 +34,9 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
   Como autor de contenido, especifique cuándo se interrumpe un canal. Esta acción ayuda a que pueda optar por cortar el contenido no crítico, pero también puede permitir que el contenido importante se reproduzca por completo antes de cortar la reproducción debido a la programación.
 
-  Para obtener más información sobre las opciones disponibles en **Asignación de canales** para implementar esta función en el proyecto de AEM Screens, consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Para obtener más información acerca de las opciones disponibles en el cuadro de diálogo **Asignación de canal** para implementar esta característica en su proyecto de AEM Screens, consulte la sección **[Método de interrupción](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
-* **Lanzamientos de Screens**
+* **Inicios de Screens**
 
   El flujo de experiencia del usuario Autor de contenido se ha mejorado y reducido el número de clics para utilizar la publicación futura.
 
@@ -44,14 +44,14 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
 * **Tablero de canal**
 
-  Refleja las actualizaciones de las instrucciones en el panel de canales de la **INFORMACIÓN DEL CANAL** panel.
+  Refleja las actualizaciones de las instrucciones del panel de canales en el panel **INFORMACIÓN DEL CANAL**.
 
 
 * **Ver manifiesto**
 
   Ahora puede ver el archivo de manifiesto desde el panel de canales.
 
-  Consulte **[Visualización del manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
+  Ver **[Ver el manifiesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposición de texto**
 
@@ -75,4 +75,4 @@ Los siguientes reproductores de AEM Screens se incluyen en el paquete de funcion
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)**.

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Creación y administración de programas {#creating-and-managing-schedules}
 
-**Horarios** en AEM Screens permite organizar los canales en grupos reutilizables. Hacerlo significa que no tiene que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
+Los **horarios** de AEM Screens le permiten organizar canales en grupos reutilizables. Hacerlo significa que no tiene que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 
-Programaciones, cuando se combinan con ***DayParting***, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
+Programaciones, cuando se combina con ***DayParting***, le permite establecer una programación global con varios canales que se ejecutan a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
 >[!NOTE]
 >
@@ -33,11 +33,11 @@ Puede crear una programación para su proyecto de Screens que pueda administrar 
 Siga los pasos a continuación para crear una programación para su canal:
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, en Screens. También puede ir directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya al proyecto de Pantallas y haga clic en **Horarios**.
-1. Clic **Crear** de la barra de acciones.
-1. Clic **Programación** desde el **Crear** y haga clic en **Siguiente**.
+1. Vaya al proyecto de Screens y haga clic en **Horarios**.
+1. Haga clic en **Crear** en la barra de acciones.
+1. Haga clic en **Programar** en el asistente **Crear** y luego haga clic en **Siguiente**.
 
-1. Introduzca el **Nombre** y **Título** y haga clic en **Crear**.
+1. Escriba **Name** y **Title** y haga clic en **Crear**.
 
 Puede ver una carpeta de programación con el nombre y título designados en el proyecto.
 
@@ -46,20 +46,20 @@ Puede ver una carpeta de programación con el nombre y título designados en el 
 
 Después de crear una carpeta de programaciones en el proyecto, puede ver los detalles en el panel de programaciones.
 
-Siga los pasos a continuación para ver el panel de programación. El siguiente ejemplo muestra el panel del `We.Retail` proyecto:
+Siga los pasos a continuación para ver el panel de programación. El ejemplo siguiente muestra el tablero del proyecto `We.Retail`:
 
-1. Vaya a **Horarios** carpeta de Pantallas (ejemplo, `We.Retail`) proyecto.
+1. Vaya a la carpeta **Programaciones** del proyecto Screens (por ejemplo, `We.Retail`).
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Clic **Tablero** de la barra de acciones.
+1. Haga clic en **Tablero** en la barra de acciones.
 
-   Puede ver tres paneles diferentes, como **INFORMACIÓN DE HORARIO**, **CANALES ASIGNADOS**, y **PANTALLAS ASIGNADAS**.
+   Puede ver tres paneles diferentes, como **INFORMACIÓN DE PROGRAMACIÓN**, **CANALES ASIGNADOS** y **PANTALLAS ASIGNADAS**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panel de información de programación** Haga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE PROGRAMACIÓN para ver o cambiar las propiedades de la programación.
+   **Panel de información de horario** Haga clic en Propiedades en la esquina superior derecha del Panel de información de horario para ver o cambiar las propiedades de la programación.
 
-   **Panel de canales asignados** Haga clic en +Asignar canal en la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
+   **Panel de canales asignados** Haga clic en +Asignar canal desde la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
 
-   **Panel de pantallas asignadas** Haga clic en cualquiera de las pantallas del panel PANTALLAS ASIGNADAS para abrir el panel de visualización.
+   **Panel de pantallas asignadas** Haga clic en cualquiera de las pantallas del panel de pantallas asignadas para abrir el panel de visualización.

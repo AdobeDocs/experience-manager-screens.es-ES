@@ -36,37 +36,37 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Haga clic en su **Dispositivos** y haga clic en **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y no asignados.
+1. Haga clic en la carpeta **Dispositivos** y luego en **Administrador de dispositivos** en la barra de acciones. Se muestran los dispositivos asignados y no asignados.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Haga clic en un dispositivo no asignado de la lista y, a continuación, haga clic en **Asignar dispositivo** en la barra de acciones.
+1. Haga clic en un dispositivo sin asignar de la lista y, a continuación, haga clic en **Asignar dispositivo** en la barra de acciones.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Haga clic en la pantalla a la que desee asignar el dispositivo desde la lista y haga clic en el botón **Asignar**.
+1. Haga clic en la pantalla a la que desee asignar el dispositivo desde la lista y, a continuación, haga clic en **Asignar**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. Haga clic en **Finalizar** para completar el proceso de asignación.
 
 
-   El panel de visualización muestra el dispositivo asignado en la **DISPOSITIVOS** panel.
+   El panel de visualización muestra el dispositivo asignado en el panel **DISPOSITIVOS**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Haga clic en el botón (**...**), en la esquina superior derecha de la **DISPOSITIVOS** panel para añadir la configuración del dispositivo o actualizar los dispositivos.
+   Haga clic en (**...**) en la esquina superior derecha del panel **DISPOSITIVOS** para agregar o actualizar los dispositivos.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
->Cada vez que se añade el primer dispositivo a un nuevo proyecto de Pantallas, se crea un grupo de usuarios.
+>Cada vez que se agrega el primer dispositivo a un nuevo proyecto de Screens, se crea un grupo de usuarios.
 >Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
->Este grupo se agrega como miembro del **Colaboradores** , como se muestra en la figura siguiente:
+>Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Pasos siguientes {#the-next-steps}
 
-Cuando esté familiarizado con la asignación de canales a una pantalla, consulte t[Monitorización y solución de problemas](monitoring-screens.md).
+Después de familiarizarse con la asignación de canales a una pantalla, consulte t[Monitorizar y solucionar problemas](monitoring-screens.md).

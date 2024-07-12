@@ -15,16 +15,16 @@ ht-degree: 3%
 # Notas de la versión del paquete de funciones 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM ha lanzado el paquete de funciones 8 de la versión 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.8 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas FP8 de 6,5**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.8 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP8**.
 
 >[!IMPORTANT]
->AEM Instale la versión mínima del conector de AMS de 6.5 Feature Pack 8 para que funcione después de instalar los paquetes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, y el `screens core bundles`.
+>AEM Instale la versión mínima del paquete de funciones 8 de 6.5 para que el conector AMS funcione después de instalar los paquetes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` y `screens core bundles`.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -32,9 +32,9 @@ La fecha de lanzamiento del paquete de funciones 202105 de AEM Screens es el 4 d
 
 ### Novedades {#what-is-new}
 
-* **Bloquear páginas en un canal de AEM Screens**
+* **Bloqueando página en un canal de AEM Screens**
 
-  AEM Screens ahora es compatible *Bloquear una página*, como ya se implementó en AEM Sites. Adobe Experience Manager AEM () permite bloquear páginas para que nadie más pueda editar su contenido. Esta función es útil cuando realiza varias ediciones en una página específica o cuando debe congelar una página durante un corto tiempo.
+  AEM Screens ahora admite *Bloquear una página*, como ya se implementó en AEM Sites. Adobe Experience Manager AEM () permite bloquear páginas para que nadie más pueda editar su contenido. Esta función es útil cuando realiza varias ediciones en una página específica o cuando debe congelar una página durante un corto tiempo.
 
 * **Nombrar el dispositivo del reproductor de AEM Screens**
 
@@ -46,9 +46,9 @@ De forma predeterminada, cuando se utiliza el registro masivo para registrar un 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [SO CHROME](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Generación de manifiestos**
+* **Generación de manifiesto**
 
   Generación de manifiestos de canal más rápida con un rendimiento mejorado, como la asignación de menos recursos en el servidor.
 
@@ -69,4 +69,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.

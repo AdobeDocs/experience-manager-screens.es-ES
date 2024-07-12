@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM ha lanzado el paquete de funciones 3 de la versión 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.3 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantalla FP3 de 6,5 pulgadas**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.3 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP3**.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -33,18 +33,18 @@ La fecha de lanzamiento del paquete de funciones 202001 de AEM Screens es el 31 
 * **Sincronización de comandos para la reproducción de recursos**
 
 La sincronización de comandos permite la reproducción sincronizada en diferentes reproductores. Los reproductores pueden reproducir contenido diferente, pero cada recurso debe tener la misma duración.
-Para obtener más información acerca de la sincronización de comandos y cómo establecer el principal y los clientes, consulte [Usar la sincronización de comandos](using-command-sync.md).
+Para obtener más información acerca de la sincronización de comandos y cómo establecer el principal y los clientes, vea [Usar la sincronización de comandos](using-command-sync.md).
 
 * **Marco de comprobación de estado para mostrar el estado de https y permitir referente vacío**
 
 El marco de comprobación de estado permite al usuario comprobar si hay dos configuraciones necesarias (Permitir solicitudes de referente vacías y Servicio HTTP basado en Apache Felix Jetty) configuradas antes de ejecutar un proyecto de AEM Screens.
 
-Para obtener más información acerca del marco de comprobación de estado, consulte [Marco de comprobación de estado](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Para obtener más información acerca del marco de comprobación de estado, vea [Marco de comprobación de estado](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Actualizaciones de tipos de transición predeterminados**
-Las propiedades del componente de transición, como **Tipo** ahora se establece en **Atenuación** y el **Duración** as **1600 milisegundos**, de forma predeterminada.
+* **Actualizaciones de los tipos de transición predeterminados**
+Las propiedades del componente de transición, como **Type**, ahora se establecen en **Fade** y **Duration** como **1600 milisegundos**, de forma predeterminada.
 
-  Consulte [Aplicación de transiciones](/help/user-guide/applying-transitions.md) Caso de uso para obtener más información.
+  Consulte [Aplicación de transiciones](/help/user-guide/applying-transitions.md) para obtener más información.
 
 
 ### Reproductores de AEM Screens publicados
@@ -57,4 +57,4 @@ Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del reproductor AEM Screens**](https://download.macromedia.com/screens/).
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [**Descargas del Reproductor de AEM Screens**](https://download.macromedia.com/screens/).

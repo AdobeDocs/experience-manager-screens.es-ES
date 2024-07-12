@@ -24,11 +24,11 @@ Este proceso se aplica a:
 
 Esto ayuda a que el proyecto pase de la fase de creación de prototipos a la fase de implementación real.
 
-De un **Vista de nivel de recurso**Además, debe crear mallas metálicas que definan varias opciones de diseño de contenido y agrupaciones de contenido. Este trabajo ayuda a definir el aspecto que pueden tener varios fragmentos de contenido cuando se ensamblan como un grupo.
+Desde una **vista de nivel de recurso**, debe crear mallas metálicas que definan varias opciones de diseño de contenido y agrupaciones de contenido. Este trabajo ayuda a definir el aspecto que pueden tener varios fragmentos de contenido cuando se ensamblan como un grupo.
 Normalmente, en esta actividad se utilizan gráficos, imágenes y vídeos preparados para la producción real.
 
-Desde una **Vista de nivel de canal** Además, debe crear mallas metálicas que muestren cómo se vinculan los canales de contenido en la experiencia general, incluidas las estrategias de reproducción de los canales incrustados. También puede revisar las transiciones de canal que se pueden producir a medida que se involucren los déclencheur de datos.
+Desde una **vista de nivel de canal**, debería crear mallas metálicas que muestren cómo se vinculan los canales de contenido en la experiencia general, incluidas las estrategias de reproducción para los canales incrustados. También puede revisar las transiciones de canal que se pueden producir a medida que se involucren los déclencheur de datos.
 
-En un **Nivel de proyecto**, puede empezar a modelar cómo varias pantallas o experiencias pueden trabajar juntas en un espacio físico para proporcionar un recorrido de usuario completo de varios puntos de contacto.
+En un **nivel de proyecto**, puede empezar a modelar cómo varias pantallas o experiencias pueden trabajar juntas en un espacio físico para proporcionar un recorrido de usuario completo de varios puntos de contacto.
 
 Estas estrategias deben alinearse con el mapa de Recorrido de experiencia de usuario creado anteriormente.

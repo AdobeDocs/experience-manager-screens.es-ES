@@ -15,7 +15,7 @@ En la siguiente sección se proporcionan las directrices de selección de hardwa
 
 ## Consideraciones importantes {#important-considerations}
 
-* Origen siempre ***Comercial*** o ***Industrial*** Componentes de nivel superior para el reproductor de PC y el panel de visualización o el proyector.
+* Use siempre componentes de nivel ***Comercial*** o ***Industrial*** para reproductores de PC y paneles de pantalla o proyectores.
 
 * Póngase en contacto con los proveedores que trabajan en el mercado de la publicidad dinámica.
 * Tenga siempre en cuenta factores ambientales como la temperatura ambiente y la humedad relativa.
@@ -46,7 +46,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td><p>*ChromeOS de 32 GB</p> <p>*Windows de 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet/inalámbrico,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Bucle estándar de pantalla completa<br /> </li>
@@ -60,10 +60,10 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/inalámbrico,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Contenido dinámico de origen único</li>
+     <li>Contenido dinámico de Source único</li>
      <li>Interactivo simple</li>
      <li>Diseños de zona 1-3</li>
     </ul> </td>
@@ -75,12 +75,12 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 4 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/inalámbrico,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 o más zonas de contenido, reproducción de vídeo simultánea</li>
      <li>Interactivo de varias páginas</li>
-     <li>Déclencheur de datos de varias fuentes</li>
+     <li>Déclencheur de datos de varias Source</li>
     </ul> </td>
   </tr>
  </tbody>

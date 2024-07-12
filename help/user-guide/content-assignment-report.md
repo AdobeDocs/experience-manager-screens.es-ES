@@ -20,7 +20,7 @@ La función Informe de asignación de contenido permite a un administrador de AE
 
 El informe de asignación de contenido permite a un autor o a un administrador de AEM Screens descargar el informe que contiene todos los recursos, como imágenes y vídeos, en todos los canales creados en un proyecto de AEM Screens. Además, incluye la información de todos los canales asignados a todas las pantallas designadas y, en adelante, de todos los dispositivos asignados a sus pantallas designadas.
 
-El informe de asignación de contenido no solo permite obtener una vista previa de todos los canales, activos, pantallas y dispositivos del proyecto de AEM Screens seleccionado, sino que también proporciona una estructura de alto nivel del proyecto.
+El informe de asignación de contenido no solo permite obtener una vista previa de todos los canales, Assets, pantallas y dispositivos del proyecto de AEM Screens seleccionado, sino que también proporciona una estructura de alto nivel del proyecto.
 
 
 ### Requisitos previos {#pre-reqs}
@@ -45,19 +45,19 @@ Cuando haya configurado el proyecto de AEM Screens y haya asignado pantallas a c
 
 Siga las instrucciones a continuación para descargar el informe de asignación de contenido:
 
-1. Vaya al proyecto de AEM Screens y haga clic en él **Demostraciones**.
+1. Vaya al proyecto de AEM Screens y haga clic en el proyecto **DemoScreens**.
 
-1. Clic **Informe de asignación de contenido** de la barra de acciones.
+1. Haga clic en **Informe de asignación de contenido** en la barra de acciones.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. La hoja de cálculo descargada consta de dos pestañas, como **Ubicaciones** y **Contenido**. La pestaña Ubicación muestra cuatro columnas, como **Ubicaciones**, **Visualizaciones**, **Canales**, y **Dispositivos** que se puede utilizar para investigar estas cuatro entidades pertenecientes a su proyecto de AEM Screens.
+1. La hoja de cálculo descargada consta de dos fichas, como **Ubicaciones** y **Contenido**. La pestaña Ubicación muestra cuatro columnas, como **Ubicaciones**, **Pantallas**, **Canales** y **Dispositivos**, que se pueden usar para investigar estas cuatro entidades que pertenecen a su proyecto de AEM Screens.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >Los datos mostrados en la hoja de cálculo se ordenan alfabéticamente en un formato fácil de leer.
 
-1. Seleccionar cualquiera de los canales de la lista **Canales** abre la columna **Contenido** pestaña. A su vez, le desplaza directamente a ese canal y le proporciona información sobre los recursos (imágenes y vídeos) asociados a ese canal específico.
+1. Al seleccionar cualquiera de los canales de la columna **Canales**, se abre la pestaña **Contenido**. A su vez, le desplaza directamente a ese canal y le proporciona información sobre los recursos (imágenes y vídeos) asociados a ese canal específico.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

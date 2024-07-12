@@ -32,7 +32,7 @@ Siga los pasos a continuación para utilizar una miniatura en los vídeos:
 
 1. Vaya a un canal de AEM Screens existente o cree un canal.
 
-1. Haga clic en el canal y en **Editar** de la barra de acciones.
+1. Haga clic en el canal y luego en **Editar** en la barra de acciones.
 
    ![imagen](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,15 +40,15 @@ Siga los pasos a continuación para utilizar una miniatura en los vídeos:
 
    ![imagen](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Haga clic en el vídeo y en *llave* icono.
+1. Haga clic en el vídeo y luego en el icono *llave inglesa*.
 
    ![imagen](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. El **Vídeo** se abrirá un cuadro de diálogo en el que podrá ver la **Miniatura** zona de colocación.
+1. Se abre el cuadro de diálogo **Vídeo** en el que puede ver la zona de colocación de **Miniatura**.
 
    ![imagen](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Arrastre y suelte una imagen desde el selector de recursos hasta el **Miniatura** zona de colocación y haga clic en **Listo**.
+1. Arrastre y suelte una imagen del selector de recursos en la zona de colocación de **Miniatura** y haga clic en **Listo**.
 
    ![imagen](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 

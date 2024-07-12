@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 2 de la versión 6.4.2 y el paquete de funciones 4 de la versión 6.3.3 con los siguientes detalles.
 
@@ -30,16 +30,16 @@ La fecha de lanzamiento del paquete de funciones 201809 de AEM Screens es el 1 d
 
 ### Novedades {#what-s-new}
 
-* **Informes de Adobe Analytics Proof of Play**: consulte [Integración de Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) para obtener más información.
+* **Informes de Adobe Analytics Proof of Play**: consulte la [Integración de Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) para obtener más información.
 
-* **Adobe Analytics Activar reproductores para almacenar en caché y enviar `playback` eventos para Adobe Analytics**: consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
+* **Adobe Analytics permite que los reproductores almacenen en caché y envíen eventos de `playback` a Adobe Analytics**: consulta [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información.
 
-* **Actualización masiva de contenido sin conexión**: Permite actualizar todos los canales de forma masiva y evita la molestia de navegar a un canal determinado y actualizar el contenido. Consulte [Actualización sin conexión masiva](bulk-offline-update.md) para obtener más información.
+* **Actualización masiva de contenido sin conexión**: permite actualizar todos los canales de forma masiva y evita la molestia de navegar a un canal en particular y actualizar el contenido. Consulte [Actualización sin conexión en lotes](bulk-offline-update.md) para obtener más información.
 
-* **Publicar canales de forma masiva en todas las instancias de publicación**
-* **Mecanismo de registro del reproductor mejorado**: puede especificar el número máximo de archivos de registro para un Reproductor de AEM Screens. Consulte [Uso de un reproductor AEM Screens](working-with-screens-player.md) para obtener más información.
+* **Canales de Publish de forma masiva a todas las instancias de publicación**
+* **Mecanismo mejorado de registro del reproductor**: puede especificar el número máximo de archivos de registro para un reproductor de AEM Screens. Consulte [Trabajar con un reproductor de AEM Screens](working-with-screens-player.md) para obtener más información.
 
-* **Implementación de autor/publicación (endurecimiento)**
+* **Implementación de autor/Publish (protección)**
 
 ### Reproductores de AEM Screens publicados
 
@@ -52,4 +52,4 @@ Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/).
+Para descargar el Reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte [Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/).

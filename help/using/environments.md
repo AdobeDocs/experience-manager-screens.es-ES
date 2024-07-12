@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Entornos {#environments}
 
-AEM Determine de antemano qué entornos de tiene el cliente y espera que utilice, tanto para *desarrollo* y *implementación*.
+AEM Determine de antemano qué entornos de tiene el cliente y espera que use, tanto para *desarrollo* como para *implementación*.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Siga las directrices siguientes para configurar el entorno de su proyecto de AEM
 
 1. Ejecute las versiones más actuales de los siguientes paquetes para su versión de Adobe Experience Manager:
 
-   * **AEM Paquete de servicio de**
+   * AEM **Paquete de servicio de**
    * **Paquete de funciones de Screens**
-   * **AEM Paquete de correcciones acumulativas de**
+   * AEM **Paquete De Correcciones Acumulativas De**
 
 1. Identifique los paquetes de desarrollo (por ejemplo, los componentes principales de WCM) o los kits de herramientas de terceros (por ejemplo, SAP Hybris) que sean necesarios.
 

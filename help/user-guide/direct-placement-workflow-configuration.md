@@ -26,17 +26,17 @@ Como autor de contenido, también puede hacer clic manualmente en **Actualizar c
 
 >[!NOTE]
 >
->Para obtener información sobre cómo utilizar la actualización sin conexión masiva, consulte [Actualización de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
+>Para aprender a utilizar la actualización sin conexión en lotes, consulte [Actualización de contenido como servicio](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuración del flujo de trabajo Direct Placement {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Antes de iniciar la configuración, instale el `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. AEM Una vez instalado el paquete, debe poder verlo y acceder a él desde su instancia de > Herramientas (icono) > **Flujo de trabajo** > **Modelos de flujo de trabajo**.
+>Antes de iniciar la configuración, instale `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. AEM Una vez que haya instalado el paquete, podrá verlo y acceder a él desde su instancia de > Herramientas (icono) > **Flujo de trabajo** > **Modelos de flujo de trabajo**.
 
 Siga los pasos a continuación para configurar el flujo de trabajo de ubicación directa:
 
-1. Navegue hasta AEM Screens AEM desde la instancia de y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
+1. Vaya a AEM Screens AEM desde la instancia de la y cree un proyecto de Screens con el título **Flujo de trabajo de recursos**.
 
-1. Cree un canal con el título **Workflow-Assets** en el **Canales** carpeta.
+1. Cree un canal con el título **Workflow-Assets** en la carpeta **Canales**.
 

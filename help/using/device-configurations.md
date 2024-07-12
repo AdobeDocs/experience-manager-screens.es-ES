@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Una de las partes interesadas habituales en esta actividad es un integrador de audio y vídeo.
 
-Basado en la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
+Basándose en la información recopilada durante *Día cero*, confirme la siguiente información antes de comenzar el desarrollo:
 
 * ¿Cuál es la orientación, las dimensiones y la resolución de las pantallas que se utilizan?
 

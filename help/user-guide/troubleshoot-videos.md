@@ -24,7 +24,7 @@ Las siguientes secciones describen cómo depurar y solucionar problemas de la re
 
 ## Representaciones DAM {#dam-renditions}
 
-AEM Después de cargar el vídeo en el canal, debería empezar a crear algunas representaciones para él. Puede ver los vídeos en Recursos.
+AEM Después de cargar el vídeo en el canal, debería empezar a crear algunas representaciones para él. Puede ver sus vídeos en Assets.
 
 Para ver el vídeo:
 
@@ -39,9 +39,9 @@ AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado 
 >
 >AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado en el sistema operativo donde se ejecuta el sistema operativo en el que se está ejecutando el.
 >
->Clic [aquí](https://www.ffmpeg.org/download.html) para instalar FFMPEG.
+>Haga clic [aquí](https://www.ffmpeg.org/download.html) para instalar FFMPEG.
 
-## Recursos de vídeo {#video-assets}
+## Video Assets {#video-assets}
 
 Si no ve un atributo de fuente en el vídeo, puede ser que el vídeo no se haya transcodificado. Si el vídeo se transcodifica correctamente, aparece en el panel, como se muestra en los siguientes ejemplos:
 
@@ -51,11 +51,11 @@ Compruebe que FFMPEG está instalado y los perfiles de vídeo.
 
 ### Comprobación del perfil de vídeo {#checking-video-profile}
 
-1. Vaya a **Perfil de vídeo**, es decir, `http://localhost:4502/etc/dam/video.html` y haga clic en **Cargar vídeo de prueba**.
+1. Vaya al **Perfil de vídeo**, es decir, `http://localhost:4502/etc/dam/video.html` y haga clic en **Cargar vídeo de prueba**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Cargue un vídeo de prueba y haga clic en **Ok** para que pueda comenzar la transcodificación.
+1. Cargue un vídeo de prueba y haga clic en **Aceptar** para que pueda iniciar la transcodificación.
 
    Si el vídeo transcodificado falla, expanda la salida FFMPEG para comprender cualquier error en la salida de la consola de FFMPEG.
 
@@ -73,28 +73,28 @@ Compruebe que FFMPEG está instalado y los perfiles de vídeo.
 
 Compruebe la lista de perfiles del diseño de página si el componente de vídeo no está configurado correctamente.
 
-1. Vaya al canal y haga clic en **Diseño** modo.
+1. Vaya al canal y haga clic en el modo **Diseño**.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Haga clic en el vídeo y abra **Editar** diálogo. Abra el **Perfiles** pestaña.
+1. Haga clic en el vídeo y abra el cuadro de diálogo **Editar**. Abra la ficha **Perfiles**.
 
    >[!NOTE]
    >Haga clic en diferentes perfiles (al menos el perfil &quot;High Quality H.264&quot; debe estar allí).
 
 ### Comprobación del vídeo en el reproductor web {#checking-the-video-in-the-web-player}
 
-Utilice el **Reproductor web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` para validar la reproducción en navegadores (Chrome y Safari). Chrome se utiliza en dispositivos Android™ mientras que Safari es el navegador OS X y iOS.
+Use el **Reproductor web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` para validar la reproducción en exploradores (Chrome y Safari). Chrome se utiliza en dispositivos Android™ mientras que Safari es el explorador OS X y iOS.
 
 Si el vídeo no se ejecuta en Safari, tampoco se ejecuta en los reproductores de OS X y iOS. Es probable que este problema sea de codificación y se deba volver a codificar el vídeo.
 
 Para utilizar un flujo de trabajo DAM para crear representaciones FullHD, haga lo siguiente:
 
-1. Vaya a *administrador de modelo de flujo de trabajo* es decir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Haga clic en **Actualizar recurso de Screens** modelo.
-1. Clic **Iniciar flujo de trabajo** de la barra de acciones.
-1. Desde el **Ejecutar flujo de trabajo** , haga clic en el recurso de vídeo en la **Carga útil**.
-1. Clic **Ejecutar**.
+1. Vaya al *administrador del modelo de flujo de trabajo* que está `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Haga clic en el modelo **Screens Update Asset**.
+1. Haga clic en **Iniciar flujo de trabajo** en la barra de acciones.
+1. En el cuadro de diálogo **Ejecutar flujo de trabajo**, haga clic en el recurso de vídeo en **Carga útil**.
+1. Haga clic en **Ejecutar**.
 
 >[!NOTE]
 >
@@ -107,13 +107,13 @@ En caso de que el Reproductor de AEM Screens capte el vídeo pero no se muestre,
 Siga los pasos a continuación para solucionar el problema de indicador de política de reproducción automática de Google:
 
 1. Vaya a ***chrome://flags/#autoplay-policy***
-1. Cambiar **Política de reproducción automática** de **Predeterminado** hasta **no se requiere ningún gesto del usuario**
+1. Cambiar **directiva de reproducción automática** de **Predeterminada** a **no se requiere ningún gesto de usuario**
 
 1. Vuelva a iniciar el explorador web y actualice el reproductor
 
 >[!NOTE]
 >
->Para obtener más información acerca de las prácticas recomendadas para las buenas experiencias de usuario con las nuevas políticas de reproducción automática en Chrome. Consulte *Cambios de directiva de reproducción automática* en `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Para obtener más información acerca de las prácticas recomendadas para las buenas experiencias de usuario con las nuevas directivas de reproducción automática en Chrome. Ver *cambios en la directiva de reproducción automática* en `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Sincronización de vídeo entre varios reproductores {#syncing-video-across-multiple-players}
 
@@ -137,7 +137,7 @@ Siga los pasos a continuación para configurar una estrategia absoluta:
 
 1. Vaya al autor del canal y haga clic en el componente de secuencia como se muestra en la figura siguiente.
 1. Abra su cuadro de diálogo de configuración.
-1. Edite el **Estrategia** y agregue absoluta.
+1. Edite la **estrategia** y agregue valores absolutos.
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
@@ -146,8 +146,8 @@ Siga los pasos a continuación para configurar una estrategia absoluta:
 
 **Alineación de relojes en OS X** Siga los pasos a continuación para alinear los relojes en OS X:
 
-1. Abrir **Fecha y hora** preferencias en cada cuadro de OS X
-1. Marque **Establecer fecha y hora automáticamente**
+1. Abrir las preferencias de **Fecha y hora** en cada cuadro de OS X
+1. Seleccionar **Establecer fecha y hora automáticamente**
 1. Pegue el valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com en el menú desplegable o simplemente ejecute *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Inicio de los más de 2 jugadores
 

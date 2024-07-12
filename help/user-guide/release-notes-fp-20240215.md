@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión del paquete de funciones 20240215 de Screens
+title: Notas de la versión de Feature Pack 20240215 de Screens
 description: Obtenga más información acerca del paquete de funciones 20240215 de AEM Screens lanzado el 15 de febrero de 2024.
 feature: Feature Pack
 role: Developer
@@ -15,13 +15,13 @@ ht-degree: 5%
 # Notas de la versión del paquete de funciones 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Puede obtener la información de la versión más reciente en [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
+>El Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager AEM (6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM ha lanzado el paquete de funciones 11.3 de 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.11.3 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas 6.5 FP11.3**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.11.3 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP11.3**.
 
 ## Fecha de lanzamiento {#release-date}
 

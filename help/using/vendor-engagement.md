@@ -20,6 +20,6 @@ En esta actividad, es importante identificar todos los proveedores clave necesar
 
 * Defina las capacidades y tareas de cada proveedor en relación con la categoría de producto que admiten.
 
-* Confirmar envío *plazos de entrega* para todos los entregables. Cree un plan de implementación que se adapte a todos los tiempos de espera con versiones anteriores a partir de una o más fechas de instalación deseadas de las primeras instalaciones requeridas.
+* Confirme los *plazos de entrega* para todos los entregables. Cree un plan de implementación que se adapte a todos los tiempos de espera con versiones anteriores a partir de una o más fechas de instalación deseadas de las primeras instalaciones requeridas.
 
-Al completar todos los pasos anteriores, ahora debería tener una *Día 1* plan de implementación listo para ejecutarse.
+Al completar todos los pasos anteriores, ahora debería tener un plan de implementación completo de *Day 1* listo para ejecutarse.

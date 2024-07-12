@@ -48,7 +48,7 @@ La E/S impulsa la reproducción condicional del contenido en función de la prox
 
 ### Tipos de recursos de contenido {#content-asset-types}
 
-Para ayudarle a comprender la intención del cliente final con respecto a los recursos de contenido, tenga en cuenta los siguientes puntos:
+Para ayudarle a comprender la intención del cliente final con respecto al Assets de contenido, tenga en cuenta los siguientes puntos:
 
 * ¿Si el contenido se reutiliza desde campañas impresas, de TV o web?
 * ¿Si el contenido consiste en imágenes estáticas o plantillas que incorporan componentes alimentados dinámicamente?
@@ -61,7 +61,7 @@ Para ayudarle a comprender la intención del cliente final con respecto a los re
 
 ### Segmentación de audiencia, partes de día {#audience-segmentation-day-parts}
 
-La inclusión de estrategias de parte de día puede permitir a los clientes finales segmentar su contenido. Puede ayudar a dirigir la mensajería a la audiencia correcta en el momento adecuado. Esta capacidad es especialmente eficaz para las redes publicitarias o minoristas, donde muchos colaboradores de contenido forman la totalidad de una lista de reproducción.
+La inclusión de estrategias de parte de día puede permitir a los clientes finales segmentar su contenido. Puede ayudar a dirigir la mensajería a la audiencia correcta en el momento adecuado. Esta capacidad es especialmente eficaz en las redes de Advertising o Retail, donde muchos colaboradores de contenido forman la totalidad de una lista de reproducción.
 
 ### Requisitos de operaciones empresariales {#business-operations-requirements}
 
@@ -83,7 +83,7 @@ Siga el tutorial siguiente para obtener más información sobre la estrategia de
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Obtenga información acerca la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.*
+*Obtenga información acerca de la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.*
 
 ## El siguiente paso {#the-next-step}
 

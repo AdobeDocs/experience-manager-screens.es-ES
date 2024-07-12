@@ -41,7 +41,7 @@ Específico del reproductor Tizen, puede utilizar el mando a distancia del hardw
 ## Más notas de uso {#using-additional-remote-control}
 
 1. Con la IU de administración abierta, puede utilizar las flechas arriba y abajo para navegar por las pestañas y ver información en ellas.
-1. Con el conmutador de canales abierto, puede utilizar las teclas de flecha arriba y abajo para desplazarse por los canales. También puede pulsar la tecla `Enter` (o el botón en el centro de las flechas del mando a distancia) para cambiar de canal.
+1. Con el conmutador de canales abierto, puede utilizar las teclas de flecha arriba y abajo para desplazarse por los canales. También puede presionar la tecla `Enter` (o el botón situado en el centro de las flechas del control remoto) para cambiar de canal.
 
 El diagrama siguiente ilustra el uso de la tecla en un control remoto Samsung:
 ![imagen](assets/tizen/remote.png)

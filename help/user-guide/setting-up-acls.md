@@ -26,23 +26,23 @@ AEM Como administrador de un proyecto, desea asegurarse de que los integrantes d
 
 Los siguientes pasos resumen el procedimiento para configurar ACL para un proyecto:
 
-1. AEM Inicie sesión en el servicio de correo electrónico y navegue hasta **Herramientas** > **Seguridad**.
+1. AEM Inicie sesión para iniciar sesión y navegue hasta **Herramientas** > **Seguridad**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Clic **Grupos** e introduzca un ID (por ejemplo, Acme).
+1. Haga clic en **Grupos** e introduzca un ID (por ejemplo, Acme).
 
-   También puede utilizar este vínculo. `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   También se puede usar este vínculo `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
    A continuación, haga clic en **Guardar**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Clic **Colaboradores** en la lista y haga doble clic en ella.
+1. Haga clic en **Colaboradores** de la lista y haga doble clic en él.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Añada el **Acme** (proyecto que ha creado) para **Añadir miembros al grupo**. Haga clic en **Guardar**.
+1. Agregue **Acme** (proyecto que creó) a **Agregar miembros al grupo**. Haga clic en **Guardar**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,13 +50,13 @@ Los siguientes pasos resumen el procedimiento para configurar ACL para un proyec
    >
    >Si desea que los miembros del equipo del proyecto registren jugadores (lo que implica crear un usuario para cada reproductor), busque los administradores de usuarios del grupo y añada el grupo ACME a los administradores de usuarios
 
-1. Agregue todos los usuarios que estén trabajando en la **Acme** Proyecto a **Acme** grupo.
+1. Agregue todos los usuarios que estén trabajando en el proyecto **Acme** al grupo **Acme**.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Configurar los permisos para el grupo **Acme** usando esto `(http://localhost:4502/useradmin)`.
+1. Configure los permisos para el grupo **Acme** con este(a) `(http://localhost:4502/useradmin)`.
 
-   Haga clic en el grupo **Acme** y haga clic en **permissions**.
+   Haga clic en el grupo **Acme** y luego en los **permisos**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -83,9 +83,9 @@ Al crear un proyecto, también se deben crear grupos de usuarios predeterminados
 
 Por ejemplo, puede crear los siguientes grupos específicos de proyectos:
 
-* Administradores de proyecto de Screens
+* Administradores de proyectos de Screens
 * Operadores de proyectos de Screens (registrar reproductores y administrar ubicaciones y dispositivos)
-* Usuarios del proyecto de Pantallas (trabajar con canales, programaciones y asignaciones de canales)
+* Usuarios de proyectos de Screens (trabajar con canales, programaciones y asignaciones de canales)
 
 La siguiente tabla resume los grupos con descripción y permisos para un proyecto de AEM Screens:
 
@@ -132,7 +132,7 @@ La siguiente tabla resume los grupos con descripción y permisos para un proyect
     </ul> </td>
   </tr>
   <tr>
-   <td>Reproductores de Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>Screens Players<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Todos los reproductores y todos los reproductores/dispositivos son miembros de los colaboradores automáticamente.</td>
    <td><p> Miembro de colaboradores</p> </td>
   </tr>

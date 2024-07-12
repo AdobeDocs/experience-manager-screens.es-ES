@@ -22,7 +22,7 @@ Puede administrar el contenido del canal y otros ajustes en el Reproductor de AE
 
 >[!NOTE]
 >
->Prensa ***Ctrl + Cmd + F*** para poder salir del modo de pantalla completa para el Reproductor de AEM Screens OS X.
+>Presione ***Ctrl+Cmd+F*** para poder salir del modo de pantalla completa para el Reproductor de AEM Screens de OS X.
 
 Después de asignar un canal a una pantalla, el Reproductor de AEM Screens muestra el contenido. Puede configurar los ajustes del reproductor mediante las preferencias de la IU del administrador (desde el panel) o desde el propio reproductor.
 
@@ -32,7 +32,7 @@ AEM Puede configurar las preferencias de su dispositivo desde el panel Dispositi
 
 1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
-   Clic **Dispositivos** y **Administrador de dispositivos** de la barra de acciones.
+   Haga clic en **Dispositivos** y **Administrador de dispositivos** en la barra de acciones.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
@@ -40,15 +40,15 @@ AEM Puede configurar las preferencias de su dispositivo desde el panel Dispositi
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Compruebe la **PREFERENCIAS** panel. Puede activar o desactivar las **IU de administración** y **Conmutador de canales** para su reproductor a partir de estas dos opciones.
+1. Compruebe el panel **PREFERENCIAS**. Puede habilitar o deshabilitar **IU de administración** y **conmutador de canal** para su reproductor desde estas dos opciones.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### La IU de administración {#the-admin-ui}
 
-Activación de la **IU de administración** desde el panel de preferencias el usuario puede abrir la configuración de administración desde el reproductor de Screens. Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá abrir la IU de administración desde el reproductor.
+Habilitar la **IU de administración** desde el panel de preferencias permite al usuario abrir la configuración de administración desde el Reproductor de Screens. Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá abrir la IU de administración desde el reproductor.
 
-Para ver la IU de administración desde el reproductor de Screens, pulse durante mucho tiempo la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón. La información se muestra una vez completado el registro y cargados los canales.
+Para ver la IU de administración desde el Reproductor de Screens, pulse durante mucho tiempo la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón. La información se muestra una vez completado el registro y cargados los canales.
 
 >[!NOTE]
 >
@@ -58,45 +58,45 @@ Para ver la IU de administración desde el reproductor de Screens, pulse durante
 
 #### Acceso a las opciones del menú de configuración {#configuration-options}
 
-Puede actualizar las configuraciones si hace clic en **Configuración** del menú lateral, como se muestra en la figura siguiente:
+Puede actualizar las configuraciones si hace clic en la opción **Configuración** del menú lateral, como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 El menú Configuration permite modificar las siguientes opciones:
 
-* Restablecer **Firmware**, **Preferencias**, o **A Fábrica** de este cuadro de diálogo.
+* Restablecer **firmware**, **preferencias** o **a fábrica** desde este cuadro de diálogo.
 
-* Especifique el número máximo de archivos de registro que desea conservar para un Reproductor de AEM Screens en **Número máximo. de archivos de registro que se van a conservar**.
+* Especifique el número máximo de archivos de registro que desea conservar para un Reproductor de AEM Screens en **Número máximo. de archivos de registro para conservar**.
 
-* Habilitar o deshabilitar el **Menú Administrador**, **Conmutador de canales**, y **IU de actividad** para el reproductor Screens.
+* Habilite o deshabilite **Menú de administración**, **Cambiar canal** y **IU de actividad** para el reproductor Screens.
 
-  Si la variable **IU de actividad** está habilitado desde el **Configuración** , el Reproductor de AEM Screens muestra el menú *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
+  Si la **IU de actividad** está habilitada desde el menú **Configuración**, el Reproductor de AEM Screens muestra *notificaciones de actividad del reproductor* en la esquina superior derecha del reproductor, como se muestra en la figura siguiente.
 
   ![imagen](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->El **Actualizar firmware** solo funciona en Cordova, como reproductores de Android™.
+>La opción **Actualizar firmware** solo funciona en Cordova, como reproductores Android™.
 
 >[!NOTE]
 >
->Se recomienda que la variable **IU de administración** Deshabilitarse en las implementaciones de producción.
+>Se recomienda deshabilitar la **IU de administración** en las implementaciones de producción.
 
 #### Acceso a las opciones del menú Caché de contenido {#content-cache-options}
 
 Puede borrar la caché de los canales y las aplicaciones desde la IU del administrador en el reproductor de AEM Screens.
 
-Haga clic en **Caché de contenido** desde el carril lateral para poder actualizar la caché.
+Haga clic en **Caché de contenido** en el carril lateral para actualizar la caché.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
 ### El conmutador de canales {#the-channel-switcher}
 
-Activación de la **Conmutador de canales** desde el panel de preferencias el usuario puede abrir los ajustes de selección de canal desde el reproductor de Screens.
+Al habilitar **Channel Switcher** en el panel de preferencias, el usuario podrá abrir la configuración de selección de canales desde el Reproductor de Screens.
 
-Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá controlar las preferencias de canal desde el reproductor de Screens.
+Además, si deshabilita esta opción desde el panel del dispositivo, el usuario no podrá controlar las preferencias de canal desde el Reproductor de Screens.
 
-Puede cambiar y controlar la configuración del canal desde el reproductor de Screens.
+Puede cambiar y controlar la configuración de su canal desde el Reproductor de Screens.
 
 Para ver el conmutador de canales desde el reproductor, pulse durante mucho tiempo la esquina inferior izquierda para abrir el conmutador de canales que permite cambiar canales y otras funciones.
 
@@ -106,7 +106,7 @@ Para ver el conmutador de canales desde el reproductor, pulse durante mucho tiem
 >
 >También puede habilitar o deshabilitar el menú de administración y el conmutador de canales para el reproductor desde el Reproductor de Screens.
 >
->(Consulte *Cambiar preferencias del reproductor de Screens* como se menciona en la sección siguiente).
+>(Consulte *Cambiar preferencias del reproductor Screens* como se menciona en la sección siguiente).
 
 ### Administración de preferencias desde el reproductor de AEM Screens
 
@@ -115,8 +115,8 @@ También puede cambiar la configuración de la IU de administración y el conmut
 Para cambiar las preferencias del reproductor:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda del canal inactivo para abrir el panel de administración.
-1. Vaya a **Configuración** en el menú de acción de la izquierda.
-1. Habilite o deshabilite la configuración para **IU de administración** o **Conmutador de canales**.
+1. Vaya a **Configuración** desde el menú de acción de la izquierda.
+1. Habilite o deshabilite la configuración de **IU de administración** o **conmutador de canal**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -137,7 +137,7 @@ Puede solucionar varios problemas asociados con el Reproductor de AEM Screens (h
 
 Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 
-| **Método** | **Detalles** | **a través de Remote** | **Automatizado** | **0 Tiempo de inactividad** |
+| **Método** | **Detalles** | **a través del control remoto** | **Automatizado** | **0 tiempo de inactividad** |
 |---|---|---|---|---|
 | Actualización de firmware | Se aplica a los reproductores instalados existentes mediante un comando remoto. Después de la actualización, el Reproductor se vuelve a cargar automáticamente con el contenido existente. | Sí | Personalizado | Casi - 1-3 segundos |
 | Actualizaciones del contenedor del reproductor | Un nuevo ejecutable que se implementa en el Reproductor. Esta funcionalidad requiere que copie de forma remota el nuevo binario en el reproductor, detenga el que se está ejecutando e inicie la nueva versión. Es posible que sea necesario volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizado | No |
@@ -146,7 +146,7 @@ Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 
 En la siguiente sección se proporcionan las directrices de selección de hardware para un proyecto de Screens:
 
-* Origen siempre ***Comercial*** o ***Industrial*** Componentes de nivel superior para el reproductor de PC y el panel de visualización o el proyector.
+* Use siempre componentes de nivel ***Comercial*** o ***Industrial*** para reproductores de PC y paneles de pantalla o proyectores.
 
 * Póngase en contacto con los proveedores que trabajan en el mercado de la publicidad dinámica.
 * Tenga siempre en cuenta factores ambientales como la temperatura ambiente y la humedad relativa.
@@ -174,7 +174,7 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td><p>*ChromeOS de 32 GB</p> <p>*Windows de 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/Inalámbrico<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet / inalámbrico<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Bucle estándar de pantalla completa<br /> </li>
@@ -188,10 +188,10 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/inalámbrico,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Contenido dinámico de origen único</li>
+     <li>Contenido dinámico de Source único</li>
      <li>Interactivo simple</li>
      <li>Diseños de zona 1-3</li>
     </ul> </td>
@@ -203,12 +203,12 @@ La siguiente tabla resume las configuraciones de hardware con casos de uso típi
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / Inalámbrico,<br /> 4 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/inalámbrico,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 o más zonas de contenido, reproducción de vídeo simultánea</li>
      <li>Interactivo de varias páginas</li>
-     <li>Déclencheur de datos de varias fuentes</li>
+     <li>Déclencheur de datos de varias Source</li>
     </ul> </td>
   </tr>
  </tbody>

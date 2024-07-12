@@ -75,7 +75,7 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y los despliegues.*
+*Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la Prueba de concepto, los programas piloto y los despliegues.*
 
 ## El siguiente paso {#the-next-step}
 

@@ -15,13 +15,13 @@ ht-degree: 4%
 # Notas de la versión del paquete de funciones 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM ha lanzado el paquete de funciones 11 de la versión 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.11 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el último paquete de funciones titulado **AEM Pantallas FP11 de 6.5**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.11 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP11**.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -35,13 +35,13 @@ Esta versión solo incluye correcciones de errores.
 
 * La segmentación/personalización no funcionaba. Este error se ha corregido.
 
-* El correo electrónico de monitorización de pantallas no funcionaba después del FP10. Este error se ha corregido.
+* El correo electrónico de monitorización de Screens no funcionaba después del FP10. Este error se ha corregido.
 
 * El Reproductor de Windows se bloqueaba al realizar una captura de pantalla en modo vertical. Este error se ha corregido.
 
-* SPA El canal de Screens estaba causando una pantalla en blanco con el Reproductor de Windows. Este error se ha corregido.
+* El canal de Screens SPA estaba causando una pantalla en blanco con el Reproductor de Windows. Este error se ha corregido.
 
-* El *wcmmode* El parámetro se ha eliminado de todas las solicitudes de Screens en la instancia de publicación.
+* El parámetro *wcmmode* se quitó de todas las solicitudes Screens en la instancia de publicación.
 
 * La IU de actividad del reproductor ahora funciona según lo esperado.
 
@@ -60,4 +60,4 @@ Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de fun
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.

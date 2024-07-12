@@ -22,7 +22,7 @@ En esta sección se explica cómo habilitar el direccionamiento en los canales.
 
 ## Requisitos previos {#prereqs}
 
-Antes de seguir los pasos a continuación para habilitar el direccionamiento en los canales, conozca la [Términos clave para la configuración en AEM Screens](configuring-context-hub.md) necesario para comprender ContextHub y la segmentación en AEM Screens.
+Antes de seguir los pasos siguientes para habilitar el direccionamiento en los canales, aprenda los [términos clave en Configuración en AEM Screens](configuring-context-hub.md) necesarios para comprender ContextHub y el direccionamiento en AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -30,8 +30,8 @@ Antes de seguir los pasos a continuación para habilitar el direccionamiento en 
 
 Siga los vínculos a continuación para obtener más información:
 
-1. **[Configuración del almacén de datos](configuring-context-hub.md)**
-1. **[Configuración de la segmentación de audiencia](configuring-context-hub.md)**
+1. **[Configurando almacén de datos](configuring-context-hub.md)**
+1. **[Configurando la segmentación de audiencia](configuring-context-hub.md)**
 
 Cuando haya completado los pasos anteriores, estará listo para habilitar el direccionamiento en sus canales.
 
@@ -43,17 +43,17 @@ Cuando haya completado los pasos anteriores, estará listo para habilitar el dir
 
 Siga los pasos a continuación para habilitar el direccionamiento en sus canales.
 
-1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar la segmentación utilizando **DataDrivenRetail** *(canal de secuencia)* creado en un canal de AEM Screens.
+1. Vaya a uno de los canales de AEM Screens. Los siguientes pasos muestran cómo habilitar el direccionamiento mediante **DataDrivenRetail** *(canal de secuencia)* creado en un canal de AEM Screens.
 
-1. Haga clic en el canal **DataDrivenRetail** y haga clic en **Propiedades** de la barra de acciones.
+1. Haga clic en el canal **DataDrivenRetail** y, a continuación, haga clic en **Propiedades** en la barra de acciones.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Haga clic en **Personalización** para poder configurar las configuraciones de ContextHub y hacer clic en la ruta de ContextHub y segmentos.
+1. Haga clic en la ficha **Personalization** para configurar las configuraciones de ContextHub y hacer clic en la ruta de acceso de ContextHub y segmentos.
 
-   1. Haga clic en **Ruta de ContextHub** as **libs** > **configuración** > **cloudsettings** > **predeterminado** > **Configuraciones de ContextHub** y haga clic en **Clic**.
+   1. Haga clic en la ruta de acceso de **ContextHub** como **libs** > **settings** > **cloudsettings** > **default** > **Configuraciones de ContextHub** y haga clic en **Click**.
 
-   1. Haga clic en **Ruta de segmentos** as **conf** > **`We.Retail`** > **configuración** > **wcm** > **segmentos** y haga clic en **Clic**.
+   1. Haga clic en la ruta de acceso de **segmentos** como **conf** > **`We.Retail`** > **settings** > **wcm** > **segments** y haga clic en **Click**.
 
    1. Haga clic en **Guardar y cerrar**.
 
@@ -63,22 +63,22 @@ Siga los pasos a continuación para habilitar el direccionamiento en sus canales
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue y haga clic en **DataDrivenRetail** de **DataDrivenAssets** > **Canales** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos en el editor de canales.
+1. Navegue y haga clic en **DataDrivenRetail** desde **DataDrivenAssets** > **Canales** y haga clic en **Editar** en la barra de acciones. Arrastre y suelte los recursos en el editor de canales.
 
    >[!NOTE]
    >
-   >Si ha configurado todo correctamente, verá el **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
+   >Si ha configurado todo correctamente, verá la opción **Segmentación** en la lista desplegable del editor, como se muestra en la figura siguiente.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Clic **Segmentación**.
+1. Haga clic en **Segmentación**.
 
-1. Clic **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
+1. Haga clic en **Marca** y en la **Actividad** del menú desplegable y luego haga clic en **Iniciar segmentación**.
 
 ### Más información: Casos de uso de ejemplo {#learn-more-example-use-cases}
 
 Después de configurar ContextHub para el proyecto de AEM Screens, puede seguir los diferentes casos de uso para comprender cómo los recursos activados por datos desempeñan un papel vital en diferentes industrias:
 
-1. **[Activación segmentada de inventario comercial](retail-inventory-activation.md)**
-1. **[Activación de temperatura del centro de viajes](local-temperature-activation.md)**
+1. **[Activación objetivo de inventario comercial](retail-inventory-activation.md)**
+1. **[Activación de temperatura en el centro de viajes](local-temperature-activation.md)**
 1. **[Activación de reserva de hospitalidad](hospitality-reservation-activation.md)**

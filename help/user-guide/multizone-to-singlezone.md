@@ -26,7 +26,7 @@ Antes de comenzar este caso de uso, asegúrese de comprender cómo:
 * **[Crear y administrar canales](managing-channels.md)**
 * **[Crear y administrar ubicaciones](managing-locations.md)**
 * **[Crear y administrar horarios](managing-schedules.md)**
-* **[Registro de dispositivos](device-registration.md)**
+* **[Registro de dispositivo](device-registration.md)**
 
 ### Actores principales {#primary-actors}
 
@@ -36,49 +36,49 @@ Autores de contenido
 
 Siga los pasos a continuación para configurar un proyecto:
 
-1. Cree un proyecto de AEM Screens con el nombre **TakeoverLoop**, como se muestra a continuación.
+1. Cree un proyecto de AEM Screens llamado **TakeoverLoop**, como se muestra a continuación.
 
    ![recurso](assets/mz-to-sz1.png)
 
 
-1. **Creación de un canal de pantallas de varias zonas**
+1. **Creación de un canal de Screens de varias zonas**
 
-   1. Haga clic en **Canales** y haga clic en **Crear** en la barra de acciones y abriendo el asistente para poder crear un canal.
-   1. Clic **Canal de pantalla dividida de barra izquierda** en el asistente y cree el canal titulado como **MultiZoneLayout**.
-   1. Añada contenido al canal. Arrastre y suelte los recursos en cada una de las zonas. El siguiente ejemplo muestra un **MultiZoneLayout** canal que consta de un vídeo, una imagen y un titular de texto (en una secuencia incrustada), como se muestra a continuación.
+   1. Haga clic en la carpeta **Canales**, luego en **Crear** en la barra de acciones y abra el asistente para crear un canal.
+   1. Haga clic en **Canal de pantalla dividida de barra izquierda** en el asistente y cree el canal con el título **MultiZoneLayout**.
+   1. Añada contenido al canal. Arrastre y suelte los recursos en cada una de las zonas. El ejemplo siguiente muestra un canal **MultiZoneLayout** que consta de un vídeo, una imagen y un titular de texto (en una secuencia incrustada), como se muestra a continuación.
 
    ![recurso](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la creación de un diseño de varias zonas en el canal, consulte [Diseño de varias zonas](multi-zone-layout-aem-screens.md).
+   >Para obtener más información sobre cómo crear un diseño de varias zonas en el canal, consulte [Diseño de varias zonas](multi-zone-layout-aem-screens.md).
 
 
-1. Cree otro canal con el título **TakeoverChannel** a su **Canales** carpeta.
+1. Cree otro canal con el título **TakeoverChannel** en su carpeta **Channels**.
 
    ![recurso](assets/mz-to-sz3.png)
 
-1. Clic **Editar** desde la barra de acciones para añadir contenido a este canal. Añadir un **Canal** y un recurso de imagen al que desee cambiar para este canal, como se muestra en la figura siguiente:
+1. Haz clic en **Editar** en la barra de acciones para agregar contenido a este canal. Agregue un componente **Canal** y un recurso de imagen a los que desee cambiar para este canal, como se muestra en la figura siguiente:
 
    ![recurso](assets/mz-to-sz4.png)
 
-1. Abra la configuración del componente Canal y diríjase al **MultiZoneLayout** canal que ha creado en *paso 2*.
+1. Abra la configuración del componente Canal y diríjala al canal **MultiZoneLayout** que creó en el *paso 2*.
 
    ![recurso](assets/mz-to-sz5.png)
 
-1. Establezca la duración desde el **Secuencia** field a **10000 milisegundos**.
+1. Establezca la duración del campo **Secuencia** en **10000 milisegundos**.
 
    ![recurso](assets/mz-to-sz6.png)
 
-1. Del mismo modo, abra la configuración de la imagen (recurso que ha agregado) y establezca su duración en **Secuencia** field a **3000 milisegundos**.
+1. Del mismo modo, abra la configuración de la imagen (recurso que agregó) y establezca su duración del campo **Secuencia** en **3000 milisegundos**.
 
    ![recurso](assets/mz-to-sz7.png)
 
 ## Comprobación de la previsualización {#checking-the-preview}
 
-Puede ver la salida deseada desde el reproductor o simplemente seleccionando **Previsualizar** del editor.
+Puedes ver la salida deseada desde el reproductor o simplemente seleccionando **Vista previa** en el editor.
 
-El resultado muestra cómo se reproduce un diseño de varias zonas para *10000 milisegundos*. A continuación, cambia a un diseño de zona única que tiene una duración de reproducción de *3000 milisegundos*. Y finalmente, vuelve al diseño de varias zonas.
+El resultado muestra cómo se reproduce un diseño de varias zonas durante *10000 milisegundos*. A continuación, cambia a un diseño de zona única que tiene una duración de reproducción de *3000 milisegundos*. Y finalmente, vuelve al diseño de varias zonas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

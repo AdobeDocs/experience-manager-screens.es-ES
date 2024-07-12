@@ -60,7 +60,7 @@ Siga este tutorial final a un tutorial de serie de 5 partes que se centra en gar
 
 >[!VIDEO](https://video.tv.adobe.com/v/28383)
 
-*Descubra cómo se solucionan los problemas de hardware, software y conectividad. Explore las estimaciones de costes y los marcos para la asistencia in situ.*
+*Descubra cómo se solucionan los problemas de hardware, software y conectividad. Explorar las estimaciones de costos y los marcos para la compatibilidad in situ.*
 
 ## Conclusión {#conclusion}
 

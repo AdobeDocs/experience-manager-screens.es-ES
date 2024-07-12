@@ -21,8 +21,8 @@ Después de crear un canal de secuencia y agregarle imágenes, de forma predeter
 Antes de implementar esta funcionalidad, asegúrese de haber configurado un proyecto como requisito previo para comenzar a implementarlo. Por ejemplo,
 
 1. Cree un proyecto de AEM Screens (en este ejemplo, **ChannelLevelPlayback**)
-1. Crear un canal de secuencia como **CanalDeReproducción** en el **Canales** carpeta
-1. Añadir contenido a **CanalDeReproducción**
+1. Cree un canal de secuencia como **PlaybackChannel** en la carpeta **Channels**
+1. Agregar contenido a **PlaybackChannel**
 
 ## Edición de asignación de duración de reproducción de imagen a nivel de canal {#editing-channel-level-image-playback-duration-assignment}
 
@@ -32,11 +32,11 @@ En la sección siguiente se explica cómo editar la duración de reproducción d
 
 Siga los pasos a continuación para aprender a actualizar la asignación de duración de reproducción de imagen a nivel de canal:
 
-1. Vaya al canal de secuencia **CanalDeReproducción**.
+1. Vaya al canal de secuencia **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Clic **Editar** de la barra de acciones.
+1. Haga clic en **Editar** en la barra de acciones.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -48,7 +48,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. El **Página** se abre el cuadro de diálogo.
+1. Se abre el cuadro de diálogo **Página**.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha de la etiqueta **Página** para que pueda guardar los cambios.
+   Edite la **duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Haga clic en la marca de verificación situada en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -64,5 +64,5 @@ Siga los pasos a continuación para aprender a actualizar la asignación de dura
 
 Cuando haya actualizado la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (el valor predeterminado).
 
-![channel_preview](assets/channel_preview.gif)
+![vista previa_de_canal](assets/channel_preview.gif)
 

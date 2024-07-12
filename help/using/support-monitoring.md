@@ -15,8 +15,8 @@ En esta sección se describen las prácticas recomendadas relacionadas con la ad
 
 La monitorización de soporte incluye:
 
-* **Monitorización de dispositivos**
-* **Monitorización de contenido**
+* **Supervisión de dispositivos**
+* **Supervisión del contenido**
 
 ## Monitorización de contenido {#content-monitoring}
 
@@ -24,15 +24,15 @@ La monitorización de contenido le permite solucionar los problemas relacionados
 
 1. Si se encuentra un problema de pantalla en blanco:
 
-   * Compruebe la *previsualización* para que puedan ver si el canal muestra una pantalla en negro.
-   * Registre un *Reproductor local de Chrome* (como extensión) en su portátil a esa pantalla y ver si se muestra una pantalla en negro.
-   * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.
+   * Comprueba la *vista previa* para ver si el canal muestra una pantalla en negro.
+   * Registre un *reproductor local de Chrome* (como extensión) en su portátil para ver si muestra una pantalla en negro.
+   * Haga clic con el botón derecho, inspeccione y compruebe los *registros aplicables*.
 
    Además, si el problema no se produce en el reproductor local, sino solo en el dispositivo:
 
-   * Compruebe la *tipo de medios* (en uso) que pueden tener problemas en ese dispositivo y también confirmar si el contenido se descargó correctamente localmente (IU del administrador borra la caché del canal).
-   * Incluir cualquiera *registros de dispositivo* en el ticket para una solución rápida de problemas.
-   * *Recopilar registros* AEM desde el dispositivo desde el punto de vista de la.
+   * Compruebe el *tipo de medio* (en uso) que puede tener problemas en ese dispositivo y también confirme si el contenido se descargó correctamente de manera local (IU del administrador borra la caché del canal).
+   * Incluya *registros de dispositivo* en el ticket para una rápida solución de problemas.
+   * AEM *Recopilar registros* del dispositivo desde el dispositivo de la cuenta de usuario de.
 
 ## Monitorización de dispositivos {#device-monitoring}
 
@@ -40,6 +40,6 @@ Monitorización del dispositivo relacionada con la monitorización del dispositi
 
 1. Si se encuentra un problema de pantalla en blanco:
 
-   * Compruebe si la variable *exhibición* está encendido.
-   * Compruebe si la variable *ordenador* está encendido y está enviando una señal.
+   * Comprueba si la *pantalla* está encendida.
+   * Comprueba si el *equipo* está encendido y está enviando una señal.
    * Haga clic con el botón derecho, inspeccione y compruebe *registros aplicables*.

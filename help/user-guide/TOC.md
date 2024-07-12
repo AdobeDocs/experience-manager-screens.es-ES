@@ -23,7 +23,7 @@ ht-degree: 11%
    + [Guía de KickStart](kickstart-for-aem-screens.md)
    + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/using/about-guide)
    + [Términos clave](screens-glossary.md)
-+ Conceptos básicos de red de publicidad dinámica {#digital-signage-network}
++ Conceptos básicos de red de señalización digital {#digital-signage-network}
    + [Parte 1: Funciones y responsabilidades del proyecto](project-roles-responsibilities.md)
    + [Parte 2: Consideraciones a medida que los proyectos se amplían](project-considerations.md)
    + [Parte 3: Pruebas, POC, programas piloto y despliegues](testing-pocs-pilots-rollouts.md)
@@ -33,38 +33,38 @@ ht-degree: 11%
    + [Configuración del servidor de Screens](configuring-screens-introduction.md)
    + [Configuración de Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalación del reproductor de Screens](installing-screens-player.md)
-   + [Conexión del reproductor de Screens](working-with-screens-player.md)
+   + [Conectando el reproductor Screens](working-with-screens-player.md)
    + [Registro de dispositivos](device-registration.md)
    + [Configuración de ACL](setting-up-acls.md)
    + [Lista de comprobación de seguridad de AEM Screens](security-checklist.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
    + [Nuevo importador de proyectos desde archivo](project-importer.md)
-   + [Duplicación de Déclencheur de datos en servidores de publicación](replicating-data-triggers.md)
-   + [Configuración de agentes de replicación en pantallas](configure-screens-replication.md)
+   + [Duplicación de Déclencheur de datos en servidores de Publish](replicating-data-triggers.md)
+   + [Configuración de agentes de replicación en Screens](configure-screens-replication.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
-      + [Uso del reproductor Chrome como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
+      + [Uso del Reproductor de Chrome como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
       + [Uso del mando a distancia](implementing-remote-control.md)
-   + Publicación de autor {#author-publish}
-      + [Información general sobre la arquitectura de creación y publicación](author-publish-architecture-overview.md)
-      + [Configuración de autor y publicación](author-and-publish.md)
+   + Autor Publish {#author-publish}
+      + [Información general sobre la arquitectura de Autor-Publish](author-publish-architecture-overview.md)
+      + [Configuración de Author y Publish](author-and-publish.md)
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Creación y ejemplos de casos de uso {#authoring}
-   + Configuración de un proyecto de Screens {#setting-up-projects}
+   + Configurando un proyecto de Screens {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Creación y administración de canales](managing-channels.md)
       + [Creación y administración de pantallas](managing-displays.md)
       + [Creación y administración de ubicaciones](managing-locations.md)
       + [Creación y administración de programas](managing-schedules.md)
       + [Administración de dispositivos](managing-devices.md)
-      + Asignación de canales {#assigning-channels}
+      + Asignando canales {#assigning-channels}
          + [Asignación de canales](channel-assignment-latest-fp.md)
          + [Asignación de canales: paquetes de funciones de AEM Screens anteriores](channel-assignment.md)
    + Uso de funciones de producto de código {#product-features}
@@ -89,10 +89,10 @@ ht-degree: 11%
       + [Informe de asignación de contenido](content-assignment-report.md)
       + [Compatibilidad con miniaturas para vídeos](thumbnail-support.md)
       + [Uso de representaciones adaptables en AEM Screens](using-adaptive-renditions.md)
-   + Administración de actualizaciones de contenido {#content-updates}
+   + Administrar actualizaciones de contenido {#content-updates}
       + [Actualización de contenido bajo demanda](on-demand-content.md)
       + [Actualización de contenido como servicio](content-update-as-a-service.md)
-      + [Actualización de contenido mediante Screens Launch](launches.md)
+      + [Actualización de contenido con Screens Launch](launches.md)
    + Ejemplos de casos de uso {#use-case-examples}
       + [Canales de emergencia](emergency-channel.md)
       + [Activación de temperatura del centro de viajes](local-temperature-activation.md)
@@ -113,7 +113,7 @@ ht-degree: 11%
    + [Crear plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de estilo y marca personalizados a las superposiciones de texto](custom-branding-text-overlays.md)
    + [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md)
-+ Resolución de problemas y preguntas frecuentes {#troubleshooting}
++ Solución de problemas y preguntas frecuentes {#troubleshooting}
    + [Preguntas frecuentes sobre AEM Screens](aem-screens-faqs.md)
    + [Solución de problemas del Centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)

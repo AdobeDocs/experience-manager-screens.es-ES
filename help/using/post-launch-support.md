@@ -1,6 +1,6 @@
 ---
-title: Compatibilidad posterior al inicio
-description: Obtenga información acerca de la compatibilidad posterior al inicio con AEM Screens en la Guía de prácticas recomendadas.
+title: Compatibilidad con Post-launch
+description: Obtenga información acerca de la compatibilidad de Post con AEM Screens en la Guía de prácticas recomendadas.
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '370'
@@ -9,11 +9,11 @@ ht-degree: 4%
 ---
 
 
-# Compatibilidad posterior al inicio {#post-launch-support}
+# Compatibilidad con Post-launch {#post-launch-support}
 
-No pase por alto la compatibilidad posterior al inicio en la fase inicial.
+No pase por alto la compatibilidad con Post-launch en la fase inicial.
 
-Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. El **Integrador de audio y vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios desde diferentes aspectos.
+Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. **Integrador de audio y vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios en diferentes aspectos.
 Tenga en cuenta los siguientes requisitos durante la compatibilidad posterior al lanzamiento:
 
 * administración de dispositivos remotos
@@ -27,15 +27,15 @@ Además, para prepararse para el éxito a largo plazo, es fundamental establecer
 >
 >AEM Defina los parámetros operativos que se incluirán en los presupuestos operativos y alinee las responsabilidades con el implementador de la y el integrador de audio y vídeo.
 >
->* ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
+>* ¿La implementación es una red Advertising con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
 >* ¿Es la aplicación muy visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.
 >* ¿Es la aplicación crítica para las operaciones empresariales, como los tableros de menú en las cadenas de comida rápida? En estos casos, el cliente final puede requerir resoluciones in situ con tiempos de respuesta cortos y redundancia en el hardware de reproducción.
 
-## Consideraciones y consultas posteriores al lanzamiento {#considerations-queries}
+## Consideraciones y consultas de Post Launch {#considerations-queries}
 
 Algunas consideraciones y preguntas que le ayudarán a definir la compatibilidad después del lanzamiento:
 
-1. ¿La implementación es una red publicitaria con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
+1. ¿La implementación es una red Advertising con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
  
    >[!NOTE]
    >

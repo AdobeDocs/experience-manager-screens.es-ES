@@ -23,21 +23,21 @@ El uso de secuencias incrustadas dinámicas abarca los siguientes temas:
 * **Información general**
 * **Uso de la experiencia integrada dinámica en AEM Screens**
 * **Visualización de los resultados**
-* **Restricción de usuarios y modificación de las ACL**
+* **Restringir usuarios y modificar las ACL**
 
 ## Información general {#overview}
 
-***Secuencias incrustadas dinámicas*** se crean para proyectos grandes que siguen una jerarquía principal-secundario, donde se hace referencia al elemento secundario dentro de una carpeta de ubicación y no de una carpeta de canal. Permite al usuario incrustar una secuencia dentro de un canal mediante ***Función del canal***. Permite al usuario definir marcadores de posición específicos de la ubicación para diferentes oficinas mediante una secuencia incrustada dentro de un canal principal.
+***Las secuencias incrustadas dinámicas*** se crean para proyectos grandes que siguen una jerarquía principal-secundaria, en la que se hace referencia al elemento secundario dentro de una carpeta de ubicación y no en una carpeta de canal. Permite al usuario incrustar una secuencia en un canal mediante ***Rol del canal***. Permite al usuario definir marcadores de posición específicos de la ubicación para diferentes oficinas mediante una secuencia incrustada dentro de un canal principal.
 
 Al asignar un canal a una visualización, tiene la opción de especificar la ruta de la visualización. O bien, puede especificar la función del canal que se resuelve en un canal real por contexto.
 
-Para utilizar la secuencia incrustada dinámica, asigne un canal de acuerdo con lo siguiente ***Función del canal***. La función del canal define el contexto de la visualización. La función se dirige a varias acciones y es independiente del canal real que cumple la función. En esta sección se describe un caso de uso que define canales por función y cómo puede aplicar ese contenido a un canal global. También puede considerar la función como un identificador para la asignación o como un alias para el canal en el contexto de.
+Para utilizar la secuencia incrustada dinámica, asigne un canal por ***Rol del canal***. La función del canal define el contexto de la visualización. La función se dirige a varias acciones y es independiente del canal real que cumple la función. En esta sección se describe un caso de uso que define canales por función y cómo puede aplicar ese contenido a un canal global. También puede considerar la función como un identificador para la asignación o como un alias para el canal en el contexto de.
 
 ### Ventajas de utilizar secuencias incrustadas dinámicas {#benefits-of-using-dynamic-embedded-sequences}
 
 Colocar un canal de secuencia dentro de una ubicación en lugar de la carpeta de canales permite a los autores locales o regionales editar el contenido relevante para ellos. También permite restringir la edición de canales en la parte superior de la jerarquía.
 
-Referencia a *Canal por rol*, permite crear una versión local de un canal. Al hacerlo, se resuelve dinámicamente el contenido específico de la ubicación y también se permite crear un canal global que utiliza el contenido para los canales específicos de la ubicación.
+La referencia a un *canal por rol* le permite crear una versión local de un canal. Al hacerlo, se resuelve dinámicamente el contenido específico de la ubicación y también se permite crear un canal global que utiliza el contenido para los canales específicos de la ubicación.
 
 >[!NOTE]
 >
@@ -45,15 +45,15 @@ Referencia a *Canal por rol*, permite crear una versión local de un canal. Al h
 >
 >Una secuencia incrustada dinámica es similar a una secuencia incrustada, pero permite al usuario seguir una jerarquía en la que los cambios y actualizaciones realizados en un canal se propagan a otro en relación. Sigue una jerarquía principal-secundario y también incluye recursos como imágenes o vídeos.
 >
->***Secuencias incrustadas dinámicas*** permite mostrar contenido específico de la ubicación, mientras que ***Secuencias incrustadas*** mostrar únicamente la presentación general del contenido. Además, al configurar Secuencias incrustadas dinámicas, configure el canal mediante la función y el nombre del canal. Consulte los pasos siguientes para ver una implementación práctica.
+>***Secuencias incrustadas dinámicas*** le permite mostrar contenido específico de la ubicación, mientras que ***Secuencias incrustadas*** solo muestran la presentación general del contenido. Además, al configurar Secuencias incrustadas dinámicas, configure el canal mediante la función y el nombre del canal. Consulte los pasos siguientes para ver una implementación práctica.
 >
 >Para obtener más información sobre la implementación de secuencias incrustadas, consulte [Secuencias incrustadas](embedded-sequences.md) en AEM Screens.
 
 En el ejemplo siguiente se proporciona una solución centrándose en los términos clave siguientes:
 
-* a ***canal de secuencia principal*** para la secuencia global.
-* ***secuencia incrustada dinámica*** componentes para cada parte personalizable localmente de la secuencia.
-* ***canales de secuencia individual*** en las ubicaciones respectivas con un *función* en la pantalla que coincida con el **componente de secuencia integrada dinámica *función***.
+* un ***canal de secuencia principal*** para la secuencia global.
+* ***componentes de secuencia incrustada dinámica*** para cada parte personalizable localmente de la secuencia.
+* ***canales de secuencia individual*** en las ubicaciones respectivas con un *rol* en la pantalla que coincide con el **rol ***del componente de secuencia incrustada dinámica.*
 
 >[!NOTE]
 >
@@ -67,11 +67,11 @@ En la siguiente sección se explica la creación de una secuencia incrustada din
 
 Antes de comenzar a implementar esta funcionalidad, asegúrese de que tiene los siguientes requisitos previos preparados para comenzar a implementar secuencias incrustadas dinámicas:
 
-* Cree un proyecto de AEM Screens (en este ejemplo, **Demostración**).
-* Crear un **Global** canal bajo el **Canales** carpeta.
-* Añada contenido a su **Global** Canal (*Marque **Resources.zip**para los activos relevantes*).
+* Cree un proyecto de AEM Screens (en este ejemplo, **Demo**).
+* Cree un canal **Global** en la carpeta **Canales**.
+* Agregue contenido a su canal **Global** (*Compruebe **Resources.zip**para ver si hay recursos relevantes*).
 
-La siguiente imagen muestra el **Demostración** proyecto con **Global** canal en el **Canales** carpeta.
+La siguiente imagen muestra el proyecto **Demo** con el canal **Global** en la carpeta **Channels**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Recursos {#resources}
@@ -85,79 +85,79 @@ Puede descargar los siguientes recursos (imágenes y añadirlos a los recursos) 
 >Para obtener información adicional sobre cómo crear un proyecto y cómo crear un canal de secuencia, consulte los siguientes recursos:
 >
 >* **[Creación y administración de proyectos](creating-a-screens-project.md)**
->* **[Administración de un canal](managing-channels.md)**
+>* **[Administrar un canal](managing-channels.md)**
 >
 
 La implementación de la secuencia incrustada dinámica en un proyecto de AEM Screens implica tres tareas principales:
 
-1. **Configuración de la taxonomía de proyecto, incluidos canales, ubicaciones y pantallas**
-1. **Creación de una programación**
-1. **Asignación de un programa a cada visualización**
+1. **Configurando taxonomía de proyecto que incluye canales, ubicaciones y pantallas**
+1. **Creando un horario**
+1. **Asignando horario a cada pantalla**
 
 Siga los pasos a continuación para implementar la funcionalidad:
 
 >[!CAUTION]
 >
->Al implementar Secuencias incrustadas dinámicas, tenga cuidado con lo siguiente **Nombre** y **Título** al crear canales en cada ubicación. Siga cuidadosamente las instrucciones de nomenclatura.
+>Al implementar secuencias incrustadas dinámicas, tenga cuidado con los campos **Nombre** y **Título** al crear canales en cada ubicación. Siga cuidadosamente las instrucciones de nomenclatura.
 
-1. **Cree dos carpetas de ubicaciones.**
+1. **Crear dos carpetas de ubicaciones.**
 
-   Navegue hasta su **Ubicaciones** en el proyecto de AEM Screens y cree dos carpetas de ubicación como **Región A** y **Región B**.
+   Vaya a la carpeta **Ubicaciones** de su proyecto de AEM Screens y cree dos carpetas de ubicación como **Región A** y **Región B**.
 
    >[!NOTE]
    >
-   >Al crear el **Región A** carpeta de ubicación, asegúrese de introducir la variable **Título** as **Región A** y puede dejar el **Nombre** campo vacío, de forma automática **region-a** el nombre se recoge.
+   >Al crear la carpeta de ubicación **Region A**, asegúrese de escribir el **Título** como **Region A** y de dejar vacío el campo **Name**, de modo que se seleccione automáticamente el nombre **region-a**.
    >
    >Es similar el caso para crear la carpeta de ubicación **Región B**, como se muestra a continuación:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >Para aprender a crear una ubicación, consulte **[Creación y administración de ubicaciones](managing-locations.md)**.
+   >Para obtener información sobre cómo crear una ubicación, vea **[Crear y administrar ubicaciones](managing-locations.md)**.
 
 1. **Cree dos ubicaciones y un canal en cada carpeta de ubicación.**
 
    1. Vaya a **Demostración** > **Ubicaciones** > **Región A**.
-   1. Clic **Región A** y haga clic en **+ Crear** de la barra de acciones.
-   1. Clic **Ubicación** del asistente con **Título** as **Almacén 1**. Del mismo modo, cree otra ubicación desde el asistente con el título **Almacén 2** con el **Título** as **Almacén 2**. Puede dejar el **Nombre** campo vacío al crear **Almacén 1** y **Almacén 2**.
-   1. Repita el paso (b) y haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **Región A** y **Nombre** como el **región** para este canal.
+   1. Haga clic en **Región A** y luego haga clic en **+ Crear** en la barra de acciones.
+   1. Haga clic en **Ubicación** del asistente con **Título** como **Tienda 1**. Del mismo modo, cree otra ubicación del asistente con el título **Tienda 2** y el título **Title** como **Tienda 2**. Puede dejar vacío el campo **Nombre** al crear **tienda 1** y **tienda 2**.
+   1. Repita el paso (b) y ahora haga clic en **Canal de secuencia** desde el asistente. Escriba **Title** como **Región A** y **Name** como **Región** para este canal.
 
    >[!CAUTION]
    >
-   >Asegúrese de que al crear el canal **Región A**, introduzca la variable **Título** as **Región A** y el **Nombre** as a **región**.
+   >Asegúrese de que al crear el canal **Región A**, escriba el **Título** como **Región A** y el **Nombre** como **Región**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
-   Del mismo modo, cree dos ubicaciones en **Región B** con título **Tienda 3** y **Tienda 4**. Además, cree un **Canal de secuencia** con **Título** as **Región B** y **Nombre** as **región**.
+   Del mismo modo, cree dos ubicaciones en **Región B** con el título **Tienda 3** y **Tienda 4**. Además, cree un **Canal de secuencia** con **Título** como **Región B** y **Nombre** como **Región**.
 
    >[!CAUTION]
    >
-   >Asegúrese de que puede utilizar el mismo nombre para los canales creados en **Región A** y **Región B** as **región**.
+   >Asegúrese de que puede usar el mismo nombre para los canales creados en **Región A** y **Región B** que en **Región**.
 
    ![screen_shot_2018-09-13at24408pm](assets/screen_shot_2018-09-13at24408pm.png)
 
-1. **Cree Pantalla y Canal en cada Ubicación.**
+1. **Crear pantalla y canal en cada ubicación.**
 
-   1. Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Almacén 1**.
-   1. Clic **Almacén 1** y haga clic en **+ Crear** de la barra de acciones.
-   1. Clic **Mostrar** en el asistente y cree **`Store1Display`**.
-   1. Repita el paso (b) y esta vez haga clic en **Canal de secuencia** en el asistente. Introduzca el **Título** as **`Store1Channel`** y el **Nombre** as **almacenar**.
+   1. Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Tienda 1**.
+   1. Haga clic en **Almacenar 1** y luego en **+ Crear** en la barra de acciones.
+   1. Haga clic en **Mostrar** en el asistente y cree **`Store1Display`**.
+   1. Repita el paso (b) y esta vez haga clic en **Canal de secuencia** desde el asistente. Escriba **Title** como **`Store1Channel`** y **Name** como **store**.
 
    >[!CAUTION]
    >
-   >Es importante que, al crear un canal de secuencia, **Título** del canal puede ser como su requisito, pero la variable **Nombre** debe ser el mismo en todos los canales locales.
-   >En este ejemplo, los canales bajo **Región A** y **Región B** compartir **Nombre** as **región** y canales en **`Store 1`**, **`Store 2`**, **`Store 3`**, y **`Store 4`** compartir **Nombre** as **almacenar**.
+   >Es importante que cuando cree un canal de secuencia, el **Título** del canal se pueda usar como requisito, pero el **Nombre** debería ser el mismo en todos los canales locales.
+   >En este ejemplo, los canales bajo **Región A** y **Región B** comparten **Nombre** como **región** y los canales bajo **`Store 1`**, **`Store 2`**, **`Store 3`** y **`Store 4`** comparten **Nombre** como **tienda**.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Del mismo modo, cree una pantalla como **`Store2Display`** y un canal **`Store2Channel`** bajo **`Store `2** (con nombre como **almacenar**).
+   Del mismo modo, cree una pantalla como **`Store2Display`** y un canal **`Store2Channel`** en **`Store `2** (con el nombre **store**).
 
    >[!NOTE]
-   >Asegúrese de que puede utilizar el mismo nombre para los canales creados en **`Store 1`** y **`Store 2`** as **almacenar**.
+   >Asegúrese de que puede usar el mismo nombre para los canales creados en **`Store 1`** y **`Store 2`** que **store**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   Siga los pasos anteriores para poder crear un canal y mostrarlo en **`Store 3`** y **`Store 4`** bajo **Región B**. De nuevo, asegúrese de utilizar el mismo **Nombre** as **almacenar** al crear el canal **`Store3Channel`** y **`Store4Channel`** respectivamente.
+   Siga los pasos anteriores para poder crear un canal y mostrarlo en **`Store 3`** y **`Store 4`** en la **región B**. De nuevo, asegúrese de usar el mismo **Nombre** que **tienda** al crear el canal **`Store3Channel`** y **`Store4Channel`** respectivamente.
 
    La siguiente imagen muestra la visualización y el canal en **`Store 3`**.
 
@@ -167,16 +167,16 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
    ![screen_shot_2018-09-19at120552pm](assets/screen_shot_2018-09-19at120552pm.png)
 
-1. **Añada contenido a los canales en sus respectivas ubicaciones.**
+1. **Agregar contenido a los canales en sus respectivas ubicaciones.**
 
-   Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Región A** y haga clic en **Editar** de la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
+   Vaya a **Demostración** > **Ubicaciones** > **Región A** > **Región A** y haga clic en **Editar** en la barra de acciones. Arrastre y suelte los recursos que desee añadir a su canal.
 
    >[!NOTE]
-   >Puede usar el complemento ***Resources.zip*** desde el **Recursos** , más arriba, para usar las imágenes como recursos para el contenido del canal.
+   >Puede usar el archivo ***Resources.zip*** de la sección **Resources** anterior para usar las imágenes como recursos para el contenido del canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Del mismo modo, vaya a **Demostración** > **Ubicaciones** > **Región B** > **Región B** y haga clic en **Editar** en la barra de acciones, para arrastrar y soltar los recursos en el canal, como se muestra a continuación:
+   Del mismo modo, ve a **Demo** > **Ubicaciones** > **Región B** > **Región B** y haz clic en **Editar** en la barra de acciones para arrastrar y soltar los recursos en tu canal, como se muestra a continuación:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,36 +189,36 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Crear un horario**
 
-   Navegue y haga clic en **Horarios** en el proyecto de AEM Screens. Luego haga clic en **Crear** de la barra de acciones.
+   Vaya a la carpeta **Programaciones** de su proyecto de AEM Screens y haga clic en ella. A continuación, haga clic en **Crear** en la barra de acciones.
 
-   La siguiente imagen muestra el **AdSchedule** creado en la **Demostración** proyecto.
+   La siguiente imagen muestra el **AdSchedule** creado en el proyecto **Demo**.
 
    ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
-1. **Asignar canales a una programación**
+1. **Asignar canales a un horario**
 
-   1. Vaya a **Demostración** > **Horarios** > **AdSchedule** y haga clic en **Tablero** de la barra de acciones.
-   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
-   1. Clic **Canal de referencia** por ruta.
-   1. Haga clic en **Ruta de canal**, igual que **Demostración** > ***Canales*** > ***Global***.
-   1. Introduzca el **Función del canal**, igual que **GlobalAdSegment**.
-   1. Haga clic en **Eventos admitidos**, igual que **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**.
+   1. Vaya a **Demostración** > **Programas** > **AdSchedule** y haga clic en **Tablero** desde la barra de acciones.
+   1. Haga clic en **+ Asignar canal** del panel **CANALES ASIGNADOS** para poder abrir el cuadro de diálogo **Asignación de canal**.
+   1. Haga clic en **Canal de referencia** por ruta.
+   1. Haga clic en la **Ruta del canal**, igual que en **Demostración** > ***Canales*** > ***Global***.
+   1. Escriba el **Rol del canal**, igual que **GlobalAdSegment**.
+   1. Haga clic en **Eventos admitidos**, al igual que en **Carga inicial**, **Pantalla inactiva** y **Interacción del usuario**.
    1. Haga clic en **Guardar**.
 
-   **Asignar canal por función para la región:**
+   **Asignar canal por rol para la región:**
 
-   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+   1. Haga clic en **+ Asignar canal** desde el panel **CANALES ASIGNADOS**.
    1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
-   1. Introduzca el **Nombre del canal** as **región***.
-   1. Introduzca el **Función del canal** as **RegionAdSegment**.
+   1. Escriba el **Nombre de canal** como **región***.
+   1. Escriba el **Rol de canal** como **RegionAdSegment**.
    1. Haga clic en **Guardar**.
 
    **Asignar canal por rol para tienda:**
 
-   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+   1. Haga clic en **+ Asignar canal** desde el panel **CANALES ASIGNADOS**.
    1. En el cuadro de diálogo Asignación de canal, haga clic en **Canal de referencia** por nombre.
-   1. Introduzca el **Nombre del canal** as **almacenar**.
-   1. Introduzca el **Función del canal** as **StoreAdSegment**.
+   1. Escriba el **Nombre de canal** como **tienda**.
+   1. Escriba el **Rol del canal** como **StoreAdSegment**.
    1. Haga clic en **Guardar**.
 
    La siguiente imagen muestra los canales asignados por ruta y por función.
@@ -227,26 +227,26 @@ Siga los pasos a continuación para implementar la funcionalidad:
 
 1. **Configuración de la secuencia incrustada dinámica en el canal global.**
 
-   Vaya a **Global** Canal que creó inicialmente en **Demostración** proyecto.
+   Vaya al canal **Global** que creó inicialmente en el proyecto **Demo**.
 
-   Clic **Editar** de la barra de acciones.
+   Haga clic en **Editar** en la barra de acciones.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
-   En el editor, arrastre y suelte dos **Secuencia integrada dinámica** componentes en el editor de canales.
+   En el editor, arrastre y suelte dos componentes de **Secuencia incrustada dinámica** en el editor de canales.
 
-   Abra las propiedades de uno de los componentes e introduzca la variable **Rol de asignación de canal** as **RegionAdSegment**.
+   Abra las propiedades de uno de los componentes e introduzca **Rol de asignación de canal** como **RegiónAdSegment**.
 
-   Del mismo modo, haga clic en los demás componentes y abra las propiedades para introducir la variable **Rol de asignación de canal** as **StoreAdSegment**.
+   Del mismo modo, haga clic en los demás componentes y abra las propiedades para escribir la **función de asignación de canal** como **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
-1. **Asignación de programación a cada visualización**
+1. **Asignando horario a cada pantalla**
 
-   1. Navegue hasta cada pantalla, por ejemplo, **Demostración** > **Ubicaciones** > **Región A** >**Almacén 1** >**`Store1Display`**.
-   1. Clic **Tablero** de la barra de acciones.
-   1. En el tablero, haga clic en **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
-   1. Haga clic en la ruta al Horario (por ejemplo, aquí, **Demostración** > **Horarios** > **AdSchedule**).
+   1. Vaya a cada pantalla, como **Demo** > **Ubicaciones** > **Región A** >**Tienda 1** >**`Store1Display`**.
+   1. Haga clic en **Tablero** en la barra de acciones.
+   1. En el panel, haga clic en **...** en el panel **CANALES Y PROGRAMACIONES ASIGNADOS** y, a continuación, haga clic en **+Asignar programa**.
+   1. Haga clic en la ruta al horario (por ejemplo, aquí, **Demostración** > **Horarios** > **AdSchedule**).
    1. Haga clic en **Guardar**.
 
 ## Visualización de los resultados {#viewing-the-results}
@@ -257,21 +257,21 @@ Cuando haya completado la configuración de los canales y la visualización, ini
 >
 >Para obtener más información acerca del Reproductor de AEM Screens, consulte los siguientes recursos:
 >
->* [Descargar el reproductor de AEM Screens](https://download.macromedia.com/screens/)
->* [Uso del Reproductor de AEM Screens](working-with-screens-player.md)
+>* [Descargar el Reproductor de AEM Screens](https://download.macromedia.com/screens/)
+>* [Trabajando con el reproductor de AEM Screens](working-with-screens-player.md)
 
 
 La siguiente salida confirma el contenido del canal en el Reproductor de AEM Screens, según la ruta de visualización.
 
-**Escenario 1**:
+**Ejemplo 1**:
 
-Si asigna la ruta de visualización como **Demostración** > **Ubicaciones** > **Región A** > **Almacén 1** > **`Store1Display`**, el siguiente contenido se muestra en el reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demo** > **Ubicaciones** > **Región A** > **Tienda 1** > **`Store1Display`**, se mostrará el siguiente contenido en el reproductor AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
-**Escenario 1**:
+**Ejemplo 1**:
 
-Si asigna la ruta de visualización como **Demostración** > **Ubicaciones** > **Región B** > **Tienda 3** > **`Store3Display`**, el siguiente contenido se muestra en el reproductor de AEM Screens.
+Si asigna la ruta de visualización como **Demo** > **Ubicaciones** > **Región B** > **Tienda 3** > **`Store3Display`**, se mostrará el siguiente contenido en el reproductor AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -289,28 +289,28 @@ Los privilegios asignados a cada grupo son los siguientes:
 
 **Grupos**:
 
-* **Global-Author**: consta de usuarios que tienen acceso a todas las ubicaciones y canales del **Demostración** proyecto y tienen todos los permisos de lectura, escritura y edición.
+* **Autor global**: Consta de usuarios que tienen acceso a todas las ubicaciones y canales del proyecto **Demo** y que tienen todos los permisos de lectura, escritura y edición.
 
-* **Region-Author**: consta de usuarios que tienen permisos de lectura, escritura y edición para **Región A** y **Región B**.
+* **Autor de región**: Consta de usuarios que tienen permisos de lectura, escritura y edición en **Región A** y **Región B**.
 
-* **Store-Author**: consta de usuarios que solo tienen permisos de lectura, escritura y edición para **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**.
+* **Store-Author**: Consta de usuarios que tienen permisos de lectura, escritura y edición solo para **Store 1**, **Store 2**, **Store 3** y **Store 4**.
 
 #### Pasos para crear grupos de usuarios, usuarios y configurar ACL {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 >
->Para obtener información detallada sobre cómo separar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto, consulte **Configuración de ACL**.
+>Para obtener información detallada sobre cómo separar proyectos mediante ACL para que cada individuo o equipo administre su propio proyecto, consulte **Configuración de ACL**.
 
 Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL según los permisos:
 
 1. **Crear grupos**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
-   1. Clic **Crear grupo** y escriba **Global-Author** in **ID**.
+   1. Haga clic en **Herramientas** > **Seguridad** > **Grupos**.
+   1. Haga clic en **Crear grupo** e introduzca **Autor global** en **ID**.
    1. Haga clic en **Guardar y cerrar**.
 
-   Del mismo modo, cree otros dos grupos como **Region-Author** y **Store-Author**.
+   Del mismo modo, cree otros dos grupos, como **Region-Author** y **Store-Author**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -318,39 +318,39 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 
    1. Vaya a **Adobe Experience Manager**.
    1. Haga clic en **Herramientas** > **Seguridad** > **Usuarios**.
-   1. Clic **Crear usuario** y escriba **Global-User** in **ID**.
-   1. Entrar **Contraseña** y confirme la contraseña de este usuario.
-   1. Haga clic en **Grupos** e introduzca el nombre del grupo en **Haga clic en Grupo**, por ejemplo, escriba **Global-Author** para agregar **Global-User** a ese grupo específico.
+   1. Haga clic en **Crear usuario** e introduzca **Usuario global** en **ID**.
+   1. Escriba **Password** y confirme la contraseña de este usuario.
+   1. Haga clic en la ficha **Grupos** e introduzca el nombre del grupo en **Haga clic en Grupo**; por ejemplo, escriba **Autor global** para agregar **Usuario global** a ese grupo específico.
    1. Haga clic en **Guardar y cerrar**.
 
-   Del mismo modo, cree otros dos usuarios como **Región-Usuario** y **Store-User** y agréguelas a. **Region-Author** y **Store-Author** respectivamente.
+   Del mismo modo, cree otros dos usuarios, como **Region-User** y **Store-User**, y agréguelos a **Region-Author** y **Store-Author** respectivamente.
 
    >[!NOTE]
    >Se recomienda agregar usuarios en un grupo y luego asignar permisos a cada grupo de usuarios en particular.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
-1. **Añadir todos los grupos a los colaboradores**
+1. **Agregar todos los grupos a los colaboradores**
 
    1. Vaya a **Adobe Experience Manager**.
-   1. Clic **Herramientas** > **Seguridad** > **Grupos**.
-   1. Clic **Colaboradores** en la lista y haga clic en el botón **Miembros** pestaña.
-   1. Haga clic en **Grupo** como **Global-Author**, **Region-Author,** y **Store-Author** a los colaboradores.
+   1. Haga clic en **Herramientas** > **Seguridad** > **Grupos**.
+   1. Haga clic en **Colaboradores** de la lista y luego en la ficha **Miembros**.
+   1. Haga clic en el **grupo**, como **Global-Author**, **Region-Author,** y **Store-Author**, para mostrar a los colaboradores.
    1. Haga clic en **Guardar y cerrar**.
 
-1. **Acceso a los permisos para cada grupo**
+1. **Permisos de acceso para cada grupo**
 
-   1. Vaya a *Administrador de usuarios* y utilice esta interfaz de usuario para modificar los permisos para diferentes grupos.
-   1. Buscar por **Global-Author** y haga clic en **Permisos** , como se muestra en la figura siguiente.
-   1. Del mismo modo, puede acceder a los permisos de para **Region-Author** y **Store-Author**.
+   1. Vaya a *User admin* y utilice esta interfaz de usuario para modificar los permisos para diferentes grupos.
+   1. Busque **Autor global** y haga clic en la ficha **Permisos**, como se muestra en la figura siguiente.
+   1. Del mismo modo, puede obtener acceso a los permisos de **Region-Author** y **Store-Author**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
-1. **Modificación de permisos para cada grupo**
+1. **Modificar permisos para cada grupo**
 
-   **Para Global-Author:**
+   **Para autor global:**
 
-   1. Vaya a **Permisos** pestaña
+   1. Vaya a la ficha **Permisos**
    1. Vaya a ***/content/screens/demo*** y compruebe todos los permisos
    1. Vaya a ***/content/screens/demo/locations*** y compruebe todos los permisos
    1. Vaya a ***/content/screens/demo/locations/region-a*** y compruebe todos los permisos. Del mismo modo, compruebe los permisos de **`region-b`**.
@@ -358,42 +358,42 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
    Consulte la siguiente figura para comprender los pasos:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   A continuación se muestra que la variable **Global-User** tiene acceso a la **Canal global**. Y, acceso a ambos **Región A** y **Región B** con las cuatro tiendas, concretamente **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**.
+   Lo siguiente muestra que **Global-User** tiene acceso al **Canal global**. Y también acceso a **Región A** y **Región B** con las cuatro tiendas, a saber **Tienda 1**, **Tienda 2**, **Tienda 3** y **Tienda 4**.
 
    ![global](assets/global.gif)
 
    **Para Region-Author:**
 
-   1. Vaya a **Permisos** pestaña.
-   1. Vaya a ***/content/screens/demo*** y compruebe solo la **Leer** permisos.
-   1. Vaya a ***/content/screens/demo/locations*** y compruebe solo la **Leer** permisos.
-   1. Vaya a ***/content/screens/demo/channels*** y desmarque los permisos para **Global** canal.
+   1. Vaya a la ficha **Permisos**.
+   1. Vaya a ***/content/screens/demo*** y compruebe solo los permisos de **Read**.
+   1. Vaya a ***/content/screens/demo/locations*** y compruebe solo los permisos de **Read**.
+   1. Vaya a ***/content/screens/demo/channels*** y desmarque los permisos para el canal **Global**.
    1. Vaya a ***/content/screens/demo/locations***/***region-a*** y compruebe todos los permisos. Del mismo modo, compruebe los permisos de **`region-b`**.
 
    Consulte la siguiente imagen para comprender los pasos:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   A continuación se muestra que el usuario de la región tiene acceso a ambos **Región A** y **Región B**. Y, el acceso a las cuatro tiendas, a saber **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**, pero no accede al **Global** Canal.
+   A continuación se muestra que el usuario de la región tiene acceso a **Región A** y a **Región B**. Además, tiene acceso a las cuatro tiendas, a saber, **Tienda 1**, **Tienda 2**, **Tienda 3** y **Tienda 4**, pero no tiene acceso al canal **Global**.
 
    ![región](assets/region.gif)
 
    **Para Store-Author:**
 
-   1. Vaya a **Permisos** pestaña.
-   1. Vaya a ***/content/screens/demo*** y compruebe solo la **Leer** permisos.
-   1. Vaya a ***/content/screens/demo/locations*** y compruebe solo la **Leer** permisos.
-   1. Vaya a ***/content/screens/demo/channels*** y desmarque los permisos para **Global** canal.
-   1. Vaya a ***/content/screens/demo/locations/region-a*** y compruebe solo la **Leer** permisos. Del mismo modo, compruebe solo la **Leer** permisos para **`region-b`**.
+   1. Vaya a la ficha **Permisos**.
+   1. Vaya a ***/content/screens/demo*** y compruebe solo los permisos de **Read**.
+   1. Vaya a ***/content/screens/demo/locations*** y compruebe solo los permisos de **Read**.
+   1. Vaya a ***/content/screens/demo/channels*** y desmarque los permisos para el canal **Global**.
+   1. Vaya a ***/content/screens/demo/locations/region-a*** y compruebe solo los permisos de **Read**. Del mismo modo, compruebe solamente los permisos de **Read** para **`region-b`**.
    1. Vaya a ***/content/screens/demo/locations***/***region-a /store-1*** y compruebe todos los permisos. Del mismo modo, compruebe los permisos de **store-2, store-3,** y **store-4**.
 
    Consulte la siguiente imagen para comprender los pasos:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   A continuación se muestra que la variable **Store-User** solo tiene acceso a **Almacén 1**, **Almacén 2**, **Tienda 3**, y **Tienda 4**. Sin embargo, no tiene permisos para acceder a **Global** o región (**Región A** y **Región B**) canales.
+   A continuación se muestra que **Store-User** solo tiene acceso a **Store 1**, **Store 2**, **Store 3** y **Store 4**. Sin embargo, no tiene permisos para acceder a los canales de **Global** o región (**Región A** y **Región B**).
 
-   ![almacenar](assets/store.gif)
+   ![tienda](assets/store.gif)
 
 >[!NOTE]
 >

@@ -24,8 +24,8 @@ Obtenga información sobre cómo crear un flujo de trabajo para procesar automá
 Para completar este tutorial, es necesario lo siguiente:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65)
-1. [AEM Paquete de servicio 8 o superior de](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes)
-1. [AEM Pantallas FP7 de 6.5 o superior](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
+1. AEM [Paquete de servicio 8 de o superior](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes)
+1. AEM [6.5 Screens FP7 o superior](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
 
 ## Configuración rápida {#quick-setup}
 
@@ -38,19 +38,19 @@ El siguiente vídeo ilustra cómo instalar un paquete de código de ejemplo que 
 
 ## Modelo de flujo de trabajo {#workflow-model}
 
-Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal de Screens de destino al que se deben agregar imágenes. Se utilizan dos modelos de flujo de trabajo para automatizar el procesamiento de recursos. El **Recurso de actualización DAM** El flujo de trabajo se edita para llamar a un flujo de trabajo personalizado, **Procesamiento de recursos de demostración de Screens), que inspecciona la carpeta contenedora del recurso para determinar el canal de Screens de destino. El **Procesamiento de recursos de demostración de Screens** El flujo de trabajo de también es responsable de aplicar la marca de agua a la imagen.
+Se ha creado un esquema de metadatos de carpeta personalizado para capturar el canal de Screens de destino al que se deben agregar imágenes. Se utilizan dos modelos de flujo de trabajo para automatizar el procesamiento de recursos. El flujo de trabajo **DAM Update Asset** se ha editado para llamar a un flujo de trabajo personalizado, **Screens Demo Asset Processing, que inspecciona la carpeta contenedora del recurso para determinar el canal de Screens de destino. El flujo de trabajo **Screens Demo Asset Processing** también es responsable de aplicar la marca de agua a la imagen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## Pasos del proceso de flujo de trabajo personalizado {#workflow-process-step}
 
-Inspect cuenta con dos pasos de proceso de flujo de trabajo personalizados que se utilizan como parte del **Procesamiento de recursos de demostración de Screens** flujo de trabajo.
+Inspect cuenta con dos pasos de proceso de flujo de trabajo personalizados que se usan como parte del flujo de trabajo **Procesamiento de recursos de demostración de Screens**.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-El `AssetProcessingCheck.java` un flujo de trabajo personalizado es un proceso que realiza una comprobación de la carga útil del flujo de trabajo. Determina si la carga útil es un recurso y si la carpeta contenedora está configurada para señalar a un canal de AEM Screens. Si se cumplen los requisitos, el paso del proceso conserva dos propiedades, `screen-channel` y `asset-path`, a los metadatos del flujo de trabajo.
+El flujo de trabajo personalizado `AssetProcessingCheck.java` es un proceso que realiza una comprobación de la carga útil del flujo de trabajo. Determina si la carga útil es un recurso y si la carpeta contenedora está configurada para señalar a un canal de AEM Screens. Si se cumplen los requisitos, el paso del proceso conserva dos propiedades, `screen-channel` y `asset-path`, en los metadatos del flujo de trabajo.
 
-El `AddAssetToChannel.java` el flujo de trabajo personalizado es un paso del proceso que inspecciona los metadatos del flujo de trabajo y actualiza el canal de AEM Screens para hacer referencia a la imagen.
+El flujo de trabajo personalizado `AddAssetToChannel.java` es un paso del proceso que inspecciona los metadatos del flujo de trabajo y actualiza el canal de AEM Screens para hacer referencia a la imagen.
 
-1. Descargue el código fuente: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
+1. Descargar el código fuente: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. Descomprima y vea el código usando su IDE favorito.

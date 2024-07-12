@@ -35,11 +35,11 @@ Es importante que todas las partes interesadas comprendan de qué es responsable
 
 ## Resumen de las tres fases de la gestión de proyectos {#summary-of-all-three-phases-in-project-management}
 
-Para permitir una implementación correcta de la señalización digital, es habitual segmentar el proyecto en tres fases. Estas fases se denominan comúnmente ***días***.
+Para permitir una implementación correcta de la señalización digital, es habitual segmentar el proyecto en tres fases. Estas etapas se denominan comúnmente ***días***.
 
 ### Actividades del día cero {#day-zero-activities}
 
-La primera etapa se llama ***Día cero***. Esta fase incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir el ámbito de un proyecto. La segunda etapa, ***Día uno***, hace referencia a todas las actividades incluidas en el esfuerzo de implementación. Finalmente, ***Día dos*** hace referencia a todas las operaciones en curso y a los elementos de soporte como parte de la solución total.
+La primera etapa se llama ***Día cero***. Esta fase incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir el ámbito de un proyecto. La segunda fase, ***Día uno***, se refiere a todas las actividades incluidas en el esfuerzo de implementación. Por último, ***Día dos*** hace referencia a todas las operaciones en curso y a los elementos de soporte como parte de la solución total.
 
 Las actividades del día cero implican preventa, detección de clientes, análisis de necesidades de aplicaciones y definición del ámbito del proyecto. Esta fase también puede incluir la participación inicial y la definición de los requisitos del proyecto para la gestión del proyecto, como preparación para la implementación.
 
@@ -56,7 +56,7 @@ El día cero consta de ocho pasos clave que cubren todos los aspectos de la mejo
 
 ### Actividades del día uno {#day-one-activities}
 
-La segunda etapa, ***Día uno***, hace referencia a todas las actividades incluidas en el esfuerzo de implementación. Otro documento técnico importante para un proyecto exitoso es el Diagrama de Gantt de implementación.
+La segunda fase, ***Día uno***, se refiere a todas las actividades incluidas en el esfuerzo de implementación. Otro documento técnico importante para un proyecto exitoso es el Diagrama de Gantt de implementación.
 
 Cuando una oportunidad de ventas cambia a un proyecto, se programa una reunión de inicio para confirmar lo siguiente:
 
@@ -82,8 +82,8 @@ Obtenga información sobre la administración de proyectos y la preparación de 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*Obtenga información sobre la administración y la preparación de la implementación de proyectos (preproducción, inicio y progresión de proyectos).*
+*Obtenga información acerca de la administración de proyectos y la preparación de la implementación (la preproducción del proyecto, el inicio del proyecto y la progresión del proyecto).*
 
 ## El siguiente paso {#the-next-step}
 
-Cuando haya terminado con las consideraciones clave relacionadas con la administración de proyectos para implementaciones de AEM Screens, vaya a **[Parte 5: Consideraciones de soporte](support-considerations.md)** para que entienda el soporte del Día 2 y los procesos involucrados.
+Cuando haya terminado con las consideraciones clave relacionadas con la administración de proyectos para implementaciones de AEM Screens, vaya a **[Parte 5: Consideraciones de soporte](support-considerations.md)** para comprender el soporte técnico del Día 2 y los procesos involucrados.

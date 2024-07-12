@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >AEM Un inversor habitual de esta actividad es un implementador de.
 
-AEM A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, debe prepararse para la creación real de un proyecto de Screens en el que se pueda implementar un diseño de pantalla en el que se pueda realizar una implementación de forma remota.
+A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, debe prepararse para la creación real de un proyecto de Screens AEM en el que se pueda implementar un proyecto de forma remota.
 
 Este proyecto incluye la asignación de configuraciones específicas de la plataforma a requisitos definidos de forma flexible en la fase de creación de prototipos.
 
@@ -23,12 +23,12 @@ Algunos ejemplos son cómo y cuándo utilizar lo siguiente:
 
 * **Fragmentos de experiencias** para crear agrupaciones de contenido.
 * **Fragmentos de contenido** para crear variaciones de texto.
-* **Context Hub** SPA para crear almacenes de datos externos, para experiencias interactivas, haga lo siguiente
+* SPA **ContextHub** para crear almacenes de datos externos, para crear experiencias interactivas, y para obtener información sobre las mismas.
 * **Servicios OSGi** para alertas de red.
-* **Asset Link** para el abastecimiento de Creative Cloud.
+* **Vínculo de recurso** para el abastecimiento del Creative Cloud.
 * **Carpetas de red** para la asignación de recursos.
 * **Superposición de texto** para datos en tiempo real.
-* **Horarios** para agrupaciones de visualización/canales.
+* **Programas** para agrupaciones de canales/pantallas.
 * **Flujos de trabajo** para ediciones de contenido automatizadas.
 
 En esta fase, revise todas las tareas y actividades necesarias que requieran atención y documéntelas correctamente para que las tareas asignadas se puedan rastrear correctamente en la fase de implementación.

@@ -19,7 +19,7 @@ El contenido es un factor importante para impulsar la participación. En la fase
 
 Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador. También tiene en cuenta los puntos de contacto de marketing del canal de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
 
-Considere cómo la aplicación Screens puede ayudar a lograr esta estrategia y determine los indicadores clave de rendimiento (KPI) para ayudar a medir el éxito de la aplicación en la entrega de ese contenido.
+Considere cómo la aplicación de Screens puede ayudar a lograr esta estrategia y determine los indicadores clave de rendimiento (KPI) para ayudar a medir el éxito de la aplicación en la entrega de ese contenido.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Revise y responda las siguientes preguntas al crear una estrategia de contenido 
 * ¿Cuándo es el momento ideal para atraer a la audiencia?
 * ¿Quién va a crear el contenido?
 * ¿Por qué debería preocupar al público objetivo el contenido?
-* ¿Qué problemas les ayuda a resolver el contenido? (Por ejemplo, ¿ayuda la aplicación Screens a un cliente a encontrar los zapatos más adecuados para la escalada extrema o un electrodoméstico perfecto para su nuevo hogar?)
+* ¿Qué problemas les ayuda a resolver el contenido? (Por ejemplo, ¿ayuda la aplicación de Screens a un cliente a encontrar los zapatos más adecuados para la escalada extrema o un electrodoméstico perfecto para su nuevo hogar?)
 * ¿Cómo interactúa el cliente con la aplicación o cómo experimenta el usuario?
 * ¿Cuál es su estrategia de actualización y actualización?
 * ¿Con qué frecuencia prevé la creación de contenido nuevo y necesario?

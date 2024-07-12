@@ -24,9 +24,9 @@ En la siguiente página se describe cómo utilizar la sincronización de comando
 
 Las soluciones de comunicación digital deben admitir paredes de vídeo y reproducción sincronizada. Este escenario es verdadero si intenta admitir escenarios como la cuenta atrás de Año Nuevo o un vídeo grande dividido para reproducirse en varias pantallas. En estos escenarios es donde la sincronización de comandos entra en juego.
 
-Para utilizar la sincronización de comandos, un reproductor actúa como *principal* y envía el comando y todos los demás jugadores actúan como *clientes* y juegan cuando reciben el comando.
+Para usar la sincronización de comandos, un reproductor actúa como *principal* y envía el comando, y todos los demás reproductores actúan como *clientes* y juegan cuando reciben el comando.
 
-El *principal* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esta acción puede ser el índice del elemento que se va a reproducir, el HTML exterior del elemento que se va a reproducir o ambos.
+*primary* envía un comando a todos los clientes registrados cuando está a punto de iniciar la reproducción de un elemento. La carga útil de esta acción puede ser el índice del elemento que se va a reproducir, el HTML exterior del elemento que se va a reproducir o ambos.
 
 ## Implementar la sincronización de comandos {#using-command-sync}
 
@@ -42,65 +42,65 @@ Antes de usar la función Sincronización de comandos, asegúrese de que tiene u
 
 1. El siguiente ejemplo muestra un proyecto de demostración denominado **CommandSyncDemo** y un canal de secuencia **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1-1.png)
+   ![imagen1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >Para aprender a crear un canal o añadir contenido a un canal, consulte [Creación y administración de canales](/help/user-guide/managing-channels.md)
+   >Para obtener información sobre cómo crear un canal o agregar contenido a un canal, consulte [Creación y administración de canales](/help/user-guide/managing-channels.md)
 
    El canal contiene el siguiente contenido, como se muestra en la figura siguiente.
 
-   ![image1](assets/command-sync/command-sync2-1.png)
+   ![imagen1](assets/command-sync/command-sync2-1.png)
 
-1. Crear una ubicación **Vestíbulo** y luego una pantalla titulada **LobbyDisplay** en el **Ubicaciones** , como se muestra en la figura siguiente.
-   ![image1](assets/command-sync/command-sync3-1.png)
+1. Cree una ubicación **Lobby** y luego una pantalla con el título **LobbyDisplay** en la carpeta **Locations**, como se muestra en la figura siguiente.
+   ![imagen1](assets/command-sync/command-sync3-1.png)
 
-1. Asigne el canal, **ChannelLobby** a su **LobbyDisplay**. Ahora puede ver el canal asignado a la visualización desde el panel de visualización.
-   ![image1](assets/command-sync/command-sync4-1.png)
+1. Asigne el canal **ChannelLobby** a **LobbyDisplay**. Ahora puede ver el canal asignado a la visualización desde el panel de visualización.
+   ![imagen1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
    >Para obtener información sobre cómo asignar un canal a una pantalla, consulte [Creación y administración de pantallas](/help/user-guide/managing-displays.md).
 
-1. Vaya a **Dispositivos** carpeta.
-1. Clic **Administrador de dispositivos** de la barra de acciones.
+1. Vaya a la carpeta **Dispositivos**.
+1. Haga clic en **Administrador de dispositivos** en la barra de acciones.
 
-   ![image1](assets/command-sync5.png)
+   ![imagen1](assets/command-sync5.png)
 
    >[!NOTE]
    >
    >Para obtener información sobre cómo registrar un dispositivo, consulte [Registro de dispositivos](/help/user-guide/device-registration.md)
 
 1. Para fines de demostración, este ejemplo muestra un dispositivo Chrome y un Reproductor de Windows como dos dispositivos independientes. Ambos dispositivos apuntan a la misma pantalla.
-   ![image1](assets/command-sync6.png)
+   ![imagen1](assets/command-sync6.png)
 
 ### Actualizando configuración de canal
 
 1. Vaya a **ChannelLobby**.
-1. Clic **Editar** de la barra de acciones.
+1. Haga clic en **Editar** en la barra de acciones.
 1. Haga clic en todo el canal, como se muestra en la figura siguiente.
-   ![image1](assets/command-sync/command-sync7-1.png)
+   ![imagen1](assets/command-sync/command-sync7-1.png)
 
 1. Haga clic en el icono de llave inglesa.
-   ![image1](assets/command-sync/command-sync8-1.png)
+   ![imagen1](assets/command-sync/command-sync8-1.png)
 
-1. En el **Página** , introduzca la variable *sincronizado* palabra clave en **Estrategia** field.
-   ![image1](assets/command-sync/command-sync9-1.png)
+1. En el cuadro de diálogo **Página**, escriba la palabra clave *sincronizada* en el campo **Estrategia**.
+   ![imagen1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configuración de un principal {#setting-up-primary}
 
-1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones**  > **Vestíbulo** > **LobbyDisplay**. Luego haga clic en **Tablero** de la barra de acciones.
-Observe los dos dispositivos (Chrome y Windows Player) en **DISPOSITIVOS** panel, como se ve a continuación:
-   ![image1](assets/command-sync/command-sync10-1.png)
+1. Vaya al panel de visualización desde **CommandSyncDemo** > **Ubicaciones** > **Lobby** > **LobbyDisplay**. A continuación, haga clic en **Tablero** en la barra de acciones.
+Observe los dos dispositivos (Chrome y Windows Player) en el panel **DISPOSITIVOS**, como se muestra a continuación:
+   ![imagen1](assets/command-sync/command-sync10-1.png)
 
-1. Desde el **DISPOSITIVOS** , haga clic en el dispositivo que desee establecer como principal. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como dispositivo principal. Clic **Establecer como dispositivo principal**.
+1. En el panel **DISPOSITIVOS**, haga clic en el dispositivo que desee establecer como principal. En el siguiente ejemplo se muestra la configuración del dispositivo Chrome como dispositivo principal. Haga clic en **Establecer como dispositivo principal**.
 
-   ![image1](assets/command-sync/command-sync11-1.png)
+   ![imagen1](assets/command-sync/command-sync11-1.png)
 
-1. Introduzca la dirección IP en **Establecer como dispositivo principal** y haga clic en **Guardar**.
+1. Escriba la dirección IP en **Establecer como dispositivo principal** y haga clic en **Guardar**.
 
-   ![image1](assets/command-sync/command-sync12-1.png)
+   ![imagen1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
@@ -108,19 +108,19 @@ Observe los dos dispositivos (Chrome y Windows Player) en **DISPOSITIVOS** panel
 
 ### Sincronización con el principal {#sync-up-primary}
 
-1. Una vez que haya establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el Reproductor de Windows) para sincronizarlo con el principal.
-Haga clic en el otro dispositivo (en este caso, el Reproductor de Windows) en **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
+1. Una vez establecido el dispositivo Chrome como principal, sincronice el otro dispositivo (en este caso, el Reproductor de Windows) para que se sincronice con el principal.
+Haga clic en el otro dispositivo (en este caso, el Reproductor de Windows) en el panel **DISPOSITIVOS** y haga clic en **Sincronizar con el dispositivo principal**.
 
-   ![image1](assets/command-sync/command-sync13-1.png)
+   ![imagen1](assets/command-sync/command-sync13-1.png)
 
-1. Haga clic en el dispositivo en la lista y seleccione **Guardar**.
+1. Haga clic en el dispositivo en la lista y luego en **Guardar**.
 
    >[NOTA:]
-   > El **Sincronizar con el dispositivo principal** El cuadro de diálogo muestra la lista de dispositivos principales. Seleccione el preferido.
+   > El cuadro de diálogo **Sincronizar con el dispositivo principal** muestra la lista de dispositivos principales. Seleccione el preferido.
 
-1. Cuando el dispositivo (Reproductor de Windows) está sincronizado con el principal (Reproductor de Chrome), puede ver el dispositivo sincronizado en la **DISPOSITIVOS** panel.
+1. Cuando el dispositivo (Reproductor de Windows) se sincroniza con el principal (Reproductor de Chrome), puede ver el dispositivo sincronizado en el panel **DISPOSITIVOS**.
 
-   ![image1](assets/command-sync/command-sync14-1.png)
+   ![imagen1](assets/command-sync/command-sync14-1.png)
 
 ### Desincronización con el principal {#desync-up-primary}
 
@@ -132,13 +132,13 @@ Una vez que haya sincronizado uno o varios dispositivos con un dispositivo princ
 
 Para quitar la sincronización del dispositivo principal, siga los pasos a continuación:
 
-1. Vaya a **DISPOSITIVOS** y haga clic en el dispositivo.
+1. Vaya al panel **DISPOSITIVOS** y haga clic en el dispositivo.
 
-1. Clic **Desincronizar dispositivos** para poder desincronizar el cliente desde el dispositivo principal.
+1. Haga clic en **Desincronizar dispositivos** para poder desincronizar el cliente desde el dispositivo principal.
 
-   ![image1](assets/command-sync/command-sync15-1.png)
+   ![imagen1](assets/command-sync/command-sync15-1.png)
 
-1. Clic **Confirmar** para desincronizar el dispositivo seleccionado del dispositivo principal.
+1. Haga clic en **Confirmar** para anular la sincronización del dispositivo seleccionado del dispositivo principal.
 
    >[NOTA:]
    > Si hace clic en el dispositivo principal y utiliza la opción de desincronización, todos los dispositivos conectados al dispositivo principal se desincronizan en un solo paso.

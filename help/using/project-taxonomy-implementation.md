@@ -21,11 +21,11 @@ Tenga en cuenta los siguientes elementos antes de implementar la solución de se
 
 * **Ubicaciones**
 * **MediaZones**
-* **Visualizaciones**
+* **Pantallas**
 * **Programación**
 * **Vista previa del contenido**
 
-Para obtener más información sobre estos términos, consulte la [Glosario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Para obtener más información sobre estos términos, consulte el [Glosario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ Un autor de AEM Screens es responsable de crear y administrar una experiencia de
 
 Un autor suele iniciar un proyecto de AEM Screens de las siguientes formas:
 
-* [creación de un proyecto de AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [creación de canales](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [adición de componentes y recursos al canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [creación de horarios](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [creación de ubicaciones](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [creación de pantallas](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [asignación de canales a las pantallas](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [creando un proyecto de AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [creando canales](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [agregando componentes y recursos al canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [creando programaciones](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [creando ubicaciones](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [creando pantallas](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [asignando canales a las pantallas](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [visualización de contenido en un reproductor de AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [visualización de contenido en un reproductor AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->También puede importar de forma masiva un conjunto de ubicaciones de una hoja de cálculo CSV/XLS a su proyecto de AEM Screens. Consulte [Nuevo importador de proyectos desde archivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).
+>También puede importar de forma masiva un conjunto de ubicaciones de una hoja de cálculo CSV/XLS a su proyecto de AEM Screens. Ver [Nuevo importador de proyectos desde archivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

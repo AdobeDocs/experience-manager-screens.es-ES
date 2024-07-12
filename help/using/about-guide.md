@@ -32,7 +32,7 @@ Esta guía proporciona información completa y consejos prácticos para imaginar
 > Esta guía está diseñada para identificar obstáculos comunes al implementar un proyecto de AEM Screens. El material se centra principalmente en los siguientes temas:
 >
 > * **[Funciones y responsabilidades del proyecto](roles-responsibilities.md)**
-> * **[Gráfico RACI para diferentes funciones](roles-responsibilities.md#raci-chart)**
+> * **[Gráfico RACI para diferentes roles](roles-responsibilities.md#raci-chart)**
 > * **[Configuraciones de la plataforma AEM](aem-platform-configurations.md)**
 > * **[Asistencia y supervisión](support-monitoring.md)**
 
@@ -41,4 +41,4 @@ Esta guía proporciona información completa y consejos prácticos para imaginar
 > Términos utilizados en esta guía (en el contexto de AEM Screens):
 >
 > * Se considera que **Experiencia de usuario** es el conjunto de experiencias de señalización digital que se muestra a los clientes finales.
-> * **IU** se considera que significa la interfaz de usuario que le permite crear y administrar sus proyectos en Screens.
+> * Se considera que **IU** es la interfaz de usuario que le permite crear y administrar sus proyectos en Screens.

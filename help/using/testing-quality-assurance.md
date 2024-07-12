@@ -48,9 +48,9 @@ Se recomiendan las siguientes consideraciones de software:
 
 ## 3. Consideraciones de administración de dispositivos {#device-management-considerations}
 
-AEM Screens incluye un módulo del Centro de control de dispositivos que permite administrar los extremos de la aplicación del reproductor Screens.
+AEM Screens incluye un módulo del Centro de control de dispositivos que permite administrar los extremos de la aplicación del reproductor de Screens.
 
-Hace referencia a cualquier *jugador* AEM dispositivo de hardware que tiene instalada la aplicación de reproducción Screens y está registrado en una instancia de, así como una instancia de, que se ha creado en un servidor de correo electrónico de la aplicación de reproducción de.
+Hace referencia a cualquier dispositivo de hardware *player* que tenga instalada la aplicación Screens AEM player y esté registrado en una instancia de.
 Este módulo le permite:
 
 1. Monitorizar registros de errores de aplicaciones del reproductor
@@ -58,7 +58,7 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de aplicaciones
 
-Para obtener más información sobre ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guía del usuario de AEM Screens**.
+Para obtener información detallada sobre el ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) en la **Guía del usuario de AEM Screens**.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Para obtener más información sobre ***Centro de control de dispositivos***, co
 >
 > El Adobe recomienda utilizar plataformas de administración de dispositivos de terceros para todas las implementaciones.
 
-La plataforma específica elegida depende de varios factores, incluidos los siguientes ***sistema operativo de destino***, ***requisitos del proyecto***, y ***número de puntos finales***.
+La plataforma específica elegida depende de varios factores, entre ellos ***sistema operativo de destino***, ***requisitos del proyecto*** y ***número de puntos finales***.
 
 Algunos ejemplos son los siguientes:
 

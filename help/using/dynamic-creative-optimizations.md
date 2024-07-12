@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >AEM Un inversor habitual de esta actividad es un implementador de.
 
-**Dynamic Creative Optimization**, o DCO, se utiliza para crear experiencias de señalización digital que reflejen las circunstancias únicas de cualquier ubicación determinada, en cualquier momento y para cualquier usuario.
+**Dynamic Creative Optimization**, o DCO, se usa para crear experiencias de señalización digital que reflejen las circunstancias únicas de cualquier ubicación en un momento dado y para cualquier usuario dado.
 
 Este uso también se denomina aplanamiento del contenido en el lado del cliente.
 
@@ -37,4 +37,4 @@ Tener una estrategia de comercialización visual que incluya DCO puede aumentar 
 Existen dos tipos principales de déclencheur de datos:
 
 * **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si toca la pantalla, se activa un sensor que déclencheur un recurso de datos local o un conmutador de canal.
-* **Déclencheur de datos remotos**: esto implicaba un conmutador de canal activado por datos o un conmutador de recurso en función de los valores devueltos por una API de servicio web.
+* **Déclencheur de datos remotos**: esto implicó un cambio de canal activado por datos o un cambio de recurso basado en los valores devueltos por una API de servicio web.

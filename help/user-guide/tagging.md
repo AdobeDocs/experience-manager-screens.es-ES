@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->El **Etiquetado** Esta función solo está disponible si está habilitada para su inquilino. Póngase en contacto con el departamento de ingeniería de AEM Screens para habilitarlo.
+>La característica **Etiquetado** solo está disponible si está habilitada para su inquilino. Póngase en contacto con el departamento de ingeniería de AEM Screens para habilitarlo.
 
 ## Introducción {#introduction}
 

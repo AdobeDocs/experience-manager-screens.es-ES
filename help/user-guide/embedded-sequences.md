@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Secuencias incrustadas {#embedded-sequences}
 
-Uso de ***Secuencias incrustadas***, en el caso de los canales, permite al usuario añadir componentes en el canal principal y también reutilizar el contenido de un canal diferente e incrustarlo en el canal principal.
+Con ***Secuencias incrustadas***, en el caso de los canales, un usuario puede agregar componentes en el canal principal y también reutilizar el contenido de un canal diferente e incrustarlo en el canal principal.
 
 ## Adición de secuencias incrustadas {#adding-embedded-sequences}
 
@@ -30,29 +30,29 @@ Tiene la opción de añadir los siguientes componentes al canal de secuencia:
 
 >[!NOTE]
 >
->Para obtener más información sobre el uso de otros componentes en el proyecto de Screens, consulte [Adición de componentes a un canal](adding-components-to-a-channel.md).
+>Para obtener más información sobre el uso de otros componentes en el proyecto de Screens, consulte [Agregar componentes a un canal](adding-components-to-a-channel.md).
 
 ### Añadir una secuencia incrustada {#adding-an-embedded-sequence}
 
-Puede añadir una secuencia incrustada al canal. Una secuencia incrustada es otro canal que incluye recursos como imágenes o vídeos. Añadir una secuencia incrustada permite al usuario añadir la secuencia a un canal mediante ***Ruta de canal***.
+Puede añadir una secuencia incrustada al canal. Una secuencia incrustada es otro canal que incluye recursos como imágenes o vídeos. Añadir una secuencia incrustada permite al usuario agregar la secuencia a un canal mediante ***Ruta del canal***.
 
 >[!NOTE]
->***Ruta de canal*** define una referencia explícita al canal.
->Para obtener más información acerca de *Ruta de canal*, consulte [Asignación de canales](channel-assignment.md) en Creación en Screens.
+>***Ruta de acceso al canal*** define una referencia explícita al canal.
+>Para obtener más información acerca de *Ruta del canal*, consulte [Asignación del canal](channel-assignment.md) en Creación de Screens.
 
 Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 
 1. Haga clic en el canal en el que desee incrustar una página. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
 
-1. Clic **Editar** de la barra de acciones.
-1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para añadir la página incrustada. Arrastre y suelte el **Secuencia incrustada** al editor.
-1. Haga doble clic en **Secuencia incrustada** para que pueda añadir el canal al canal de secuencia original.
+1. Haga clic en **Editar** en la barra de acciones.
+1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para añadir la página incrustada. Arrastre y suelte la **secuencia incrustada** en el editor.
+1. Haga doble clic en el componente **Secuencia incrustada** para que pueda agregar el canal al canal de secuencia original.
 1. Haga clic en **Ruta de canal** del canal.
-1. Haga clic en **Duración (milisegundos)** para el canal incrustado en **Secuencia** pestaña. De forma predeterminada, la duración está configurada en **-1**, significa que el canal incrustado se ejecuta completamente. Si el usuario especifica una duración, la subsiguiente se interrumpe (es decir, se corta) a la hora especificada.
+1. Haga clic en **Duración (milisegundos)** para el canal incrustado en la ficha **Secuencia**. De manera predeterminada, la duración se establece en **-1**, lo que significa que el canal incrustado se está ejecutando completamente. Si el usuario especifica una duración, la subsiguiente se interrumpe (es decir, se corta) a la hora especificada.
 
-1. Configure las variables **Estrategia de reproducción medida** hasta **normal**.
+1. Establezca la **Estrategia de reproducción medida** en **normal**.
 
-De forma predeterminada, se establece en **normal**. Estableciendo el valor en **normal** (Reproducir todos los elementos) significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es **Reproducir un solo elemento**. Ese valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.
+De manera predeterminada, se establece en **normal**. Establecer el valor en **normal** (Reproducir todos los elementos) significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es **Reproducir un solo elemento**. Ese valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.
 
 >[!IMPORTANT]
 >
@@ -60,20 +60,20 @@ De forma predeterminada, se establece en **normal**. Estableciendo el valor en *
 >
 >Siga los pasos a continuación después de agregar una secuencia incrustada al canal desde los pasos anteriores:
 >
->1. Vaya a la pantalla y haga clic en la pantalla desde el **Ubicaciones** carpeta.
->1. Clic **Tablero** de la barra de acciones.
->1. En el panel de visualización, haga clic en **+ Asignar canales** desde el **CANALES ASIGNADOS Y PANELES PROGRAMADOS** para poder abrir **Cuadro de diálogo Asignación de canales**.
+>1. Vaya a la pantalla y haga clic en la pantalla desde la carpeta **Ubicaciones**.
+>1. Haga clic en **Tablero** en la barra de acciones.
+>1. En el panel de visualización, haga clic en **+ Asignar canales** de los **CANALES ASIGNADOS y PANELES PROGRAMADOS** para poder abrir el **cuadro de diálogo Asignación de canales**.
 >
->1. Haga clic en la ruta del canal que utilizó en la secuencia incrustada, en **Ruta de canal**.
->1. Asegúrese de que la variable **Prioridad** es inferior al canal principal.
+>1. Haga clic en la ruta del canal que utilizó en la secuencia incrustada, en **Ruta del canal**.
+>1. Asegúrese de que **Priority** sea inferior al canal principal.
 >
->1. No haga clic en ninguna **Eventos admitidos**.
->1. Clic **Guardar** cuando termine.
+>1. No haga clic en **Eventos compatibles**.
+>1. Haga clic en **Guardar** cuando haya terminado.
 >
 
-En el ejemplo siguiente se muestra la adición de una secuencia incrustada (**Canal inactivo - Noche**) a un canal existente (**Canal inactivo**).
+El siguiente ejemplo muestra la adición de una secuencia incrustada (**Canal inactivo - Noche**) a un canal existente (**Canal inactivo**).
 
-![new2](assets/new2.gif)
+![nuevo2](assets/new2.gif)
 
 ### Adición de una secuencia incrustada dinámica {#adding-a-dynamic-embedded-sequence}
 
@@ -81,22 +81,22 @@ Puede añadir una secuencia incrustada dinámica al canal. Una secuencia incrust
 
 >[!NOTE]
 >
->***Función del canal*** define el contexto de la visualización.
+>***Rol del canal*** define el contexto de la visualización.
 >
->Para obtener más información acerca de *Función del canal*, consulte [Asignación de canales](channel-assignment.md) en Creación en Screens.
+>Para obtener más información sobre *la función del canal*, consulte [Asignación del canal](channel-assignment.md) en Creación de Screens.
 
 Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 
 1. Haga clic en el canal en el que desee incrustar una secuencia dinámica. Por ejemplo, **`We.Retail`En tienda** > **Canales** > **Canal inactivo**.
 
-1. Clic **Editar** de la barra de acciones.
-1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para añadir la secuencia incrustada dinámica. Arrastre y suelte el **Dinámico** **Secuencia incrustada** al editor.
+1. Haga clic en **Editar** en la barra de acciones.
+1. En el modo de editor, haga clic en el icono de componentes de la barra lateral izquierda para añadir la secuencia incrustada dinámica. Arrastre y suelte la **secuencia incrustada** **dinámica** en el editor.
 
-1. Haga doble clic en **Dinámico** **Secuencia incrustada** para poder añadir la página al canal de secuencia.
+1. Haga doble clic en el componente **Secuencia incrustada** **dinámica** para que pueda agregar la página al canal de secuencia.
 
-1. Introduzca el **Rol de asignación de canal**.
-1. Configure las variables **Estrategia de reproducción medida** hasta **normal**. De forma predeterminada, se establece en **normal**. Estableciendo el valor en **normal** (Reproducir todos los elementos) significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es **Reproducir un solo elemento**. Ese valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.
+1. Escriba el **Rol de asignación de canal**.
+1. Establezca la **Estrategia de reproducción medida** en **normal**. De manera predeterminada, se establece en **normal**. Establecer el valor en **normal** (Reproducir todos los elementos) significa que la subsiguiente se ejecuta completamente en cada ciclo de la secuencia principal. El otro valor posible es **Reproducir un solo elemento**. Ese valor solo muestra un elemento de la subsiguiente en cada ejecución. Por ejemplo, el primer elemento del primer bucle y el segundo elemento del segundo bucle.
 
-1. Haga clic en **Duración (milisegundos)** en el **Secuencia** para el canal incrustado en la secuencia.
+1. Haga clic en **Duración (milisegundos)** en la ficha **Secuencia** para el canal incrustado en la secuencia.
 
-![última versión](assets/latest.gif)
+![más reciente](assets/latest.gif)

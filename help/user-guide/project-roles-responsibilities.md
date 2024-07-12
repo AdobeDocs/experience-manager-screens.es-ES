@@ -40,7 +40,7 @@ El Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de
 
 #### AEM Implementadores de {#aem-implementors}
 
-Un **AEM Implementador de** AEM es responsable de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de la plataforma de integración de.
+AEM AEM Un **Implementador de** es responsable de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de la plataforma de trabajo de la plataforma de trabajo de la plataforma de trabajo de la plataforma de trabajo de la plataforma de trabajo de la plataforma de.
 
 Las funciones personalizadas necesarias para abordar los parámetros de experiencia de usuario (UX) del cliente final también se capturan y entregan a través de este proceso.
 
@@ -48,7 +48,7 @@ AEM Los implementadores suelen implementar funcionalidades personalizadas en fas
 
 #### Integradores de audio y vídeo {#av-integrators}
 
-Un **Integrador de audio y vídeo** es responsable de llevar a cabo el descubrimiento con los clientes finales para definir los requisitos y determinar el ámbito del proyecto para diseñar, crear y administrar de forma eficaz las implementaciones en torno al hardware de señalización digital.
+Un **integrador de audio y vídeo** es responsable de llevar a cabo la detección con los clientes finales para definir los requisitos, determinar el ámbito del proyecto para diseñar, crear y administrar de manera eficaz las implementaciones en torno al hardware de señalización digital.
 
 ## Parte 1: Tutorial en vídeo sobre Funciones y responsabilidades del proyecto {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -58,10 +58,10 @@ Siga el tutorial siguiente para comprender exactamente cómo cada parte influye 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Obtenga información acerca de las funciones y responsabilidades de los integradores de Adobe AEM, audiovisuales e implementadores de.*
+*Obtenga información acerca de las funciones y responsabilidades de Adobe AEM, integradores audiovisuales e implementadores de.*
 
 ## El siguiente paso {#the-next-step}
 
 Cuando comprenda las funciones y responsabilidades del proyecto en la implementación de un proyecto de señalización digital, siga el siguiente tutorial. Profundiza en temas como las consideraciones de prueba y preventa, ya que el proyecto tiene alcance al desarrollar oportunidades de AEM Screens.
 
-Vaya a **[Parte 2: Consideraciones a medida que los proyectos se amplían](project-considerations.md)** para obtener más información.
+Vaya a **[Parte 2: Consideraciones ya que los proyectos tienen ámbito](project-considerations.md)** para obtener más detalles.

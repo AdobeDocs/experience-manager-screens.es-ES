@@ -68,10 +68,10 @@ A continuación, el paquete de datos necesario debe ser al menos de:
 
 
 >[!IMPORTANT]
->Para la carga inicial de archivos multimedia mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga; esto se refleja en los supuestos anteriores. Una red 4G con *bueno* cobertura y *ilimitado* Los datos deben coincidir con las instalaciones más comunes de esta Configuración de red.
+>Para la carga inicial de archivos multimedia mientras se integran nuevos reproductores, se debe esperar una mayor cantidad de datos y un mayor tiempo de descarga; esto se refleja en los supuestos anteriores. Una red 4G con *buena* cobertura y *ilimitado* datos debe coincidir con las instalaciones más comunes en esta configuración de red.
 
 >[!NOTE]
->Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor AEM Screens. Si sólo hay una cobertura adecuada disponible en una ubicación específica, considere cambiar la configuración general de la red a [Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).
+>Un plan 3G mínimo con una buena cobertura de red debería llevar a un rendimiento de descarga aceptable para un reproductor AEM Screens. Si sólo hay cobertura razonable disponible en una ubicación específica, considere cambiar la configuración general de red a [Red móvil con enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md).
 
 
 ### Red de área local {#lan-connection}
@@ -80,7 +80,7 @@ El objetivo del rendimiento de la red de área local (LAN), además de la accesi
 
 Al utilizar otros componentes de red activos, es obligatorio que todos coincidan con los requisitos de ancho de banda de la red. Por ejemplo, los componentes de red deben coincidir al menos con el estándar de 100 Mbps y con el ancho de banda proporcionado por el acceso a Internet o la especificación del enrutador. De lo contrario, el ancho de banda total está limitado por el eslabón más débil de la cadena de red.
 
-## Descarga de medios y recursos {#download}
+## Descarga de medios y Assets {#download}
 
 AEM Screens ofrece una ventaja significativa a los usuarios de señalización digital. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo para mostrar en una visualización específica.
 

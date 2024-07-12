@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Funciones y responsabilidades del proyecto {#roles-responsibilities}
 
-AEM Como implementador experimentado de la, probablemente haya visto las funciones a las que se hace referencia como *Autores*, *Desarrolladores*, y *Técnicos de TI*.
+AEM Como implementador experimentado en la implementación de la, es probable que haya visto las funciones que se denominan *Autores*, *Desarrolladores* y *Técnicos de TI*.
 
 En un proyecto típico de AEM Screens, las funciones se refinan aún más, ya que cada una cumple un propósito importante en el proyecto.
 
@@ -81,22 +81,22 @@ Los jefes de proyecto suelen administrar toda la implementación para la impleme
 
 >[!NOTE]
 >
->Para obtener información detallada sobre las distintas funciones y responsabilidades y sobre la audiencia destinataria de un proyecto de publicidad dinámica, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fases del proyecto {#project-stages}
 
-Para permitir una implementación correcta de la publicidad dinámica, es habitual segmentar el proyecto en tres fases. Estas fases se denominan comúnmente **Días**. No son días literales, sino designaciones para cada etapa principal del proyecto.
+Para permitir una implementación correcta de la publicidad dinámica, es habitual segmentar el proyecto en tres fases. Estas etapas se denominan comúnmente **Días**. No son días literales, sino designaciones para cada etapa principal del proyecto.
 
-1. La primera fase se denomina *Día cero*. Esta fase incluye todas las tareas de preventa y descubrimiento necesarias para definir el ámbito del proyecto.
-1. La segunda etapa, *Día uno*, hace referencia a todas las actividades incluidas en el esfuerzo de implementación.
-1. La tercera y última etapa es *Día dos*. Hace referencia a todas las operaciones en curso y a los elementos de soporte como parte de la solución total.
+1. La primera etapa se conoce como *Día cero*. Esta fase incluye todas las tareas de preventa y descubrimiento necesarias para definir el ámbito del proyecto.
+1. La segunda fase, *Día uno*, se refiere a todas las actividades incluidas en el esfuerzo de implementación.
+1. La tercera y última etapa es el *Día dos*. Hace referencia a todas las operaciones en curso y a los elementos de soporte como parte de la solución total.
 
 >[!NOTE]
 >
->Aunque esta guía pone énfasis principalmente en *Día uno* y *Día dos* Por lo tanto, es necesario prestar atención a las tres etapas para ejecutar un proyecto de publicidad dinámica exitoso.
+>Aunque esta guía pone énfasis principalmente en *Día uno* y *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de señalización digital exitoso.
 >
->Para obtener más información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación de proyectos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -108,19 +108,19 @@ A continuación se muestra un ejemplo de gráfico RACI utilizando las definicion
 
 ### Definiciones de RACI {#raci-definitions}
 
-* **Responsable**: realiza el trabajo necesario para completar la tarea.
+* **Responsable**: realiza el trabajo para completar la tarea.
 
-* **Responsable**: los delegados trabajan y son la última parte en revisar la tarea antes de que se complete.
+* **Responsable**: Los delegados trabajan y son la última parte en revisar la tarea antes de que se complete.
 
-* **Consultado**: revisa la tarea o el envío para proporcionar los datos.
+* **Consultado**: revisa la tarea o el envío para proporcionar datos.
 
-* **Informado**: Se mantiene informado del progreso de la tarea, pero no participa en los detalles del entregable.
+* **Informado**: se mantiene informado del progreso de la tarea, pero no participa en los detalles de la entrega.
 
 A continuación se muestra un ejemplo de gráfico RACI que utiliza las definiciones de funciones y proporciona un ejemplo de tareas y consideraciones comunes en un proyecto de AEM Screens.
 
-La siguiente tabla resume los **Día cero: consideraciones previas a la venta**:
+La siguiente tabla resume el **día cero: consideraciones previas a la venta**:
 
-| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
@@ -130,9 +130,9 @@ La siguiente tabla resume los **Día cero: consideraciones previas a la venta**:
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
 
-La siguiente tabla resume los **Día uno: implementación del proyecto (diseño de la aplicación)**:
+La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño de aplicación)**:
 
-| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y el horario del proyecto | RA | RA | C | C |
@@ -150,19 +150,19 @@ La siguiente tabla resume los **Día uno: implementación del proyecto (diseño 
 | Plan para la transición de la fase piloto a la producción | RA | RA | I | I |
 | Transferencia de conocimientos | RA | RA | I | I |
 
-La siguiente tabla resume los **Día uno: Implementación del proyecto (preparación para minoristas)**:
+La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación para la venta minorista)**:
 
-| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Pedidos y almacenamiento de hardware | RA | I | I | I |
 | Horario de incorporación comercial | I | I | C | RA |
 | Pruebas de aceptación de usuarios de ensayo | I | C | RA |   |
 | Configuración masiva de hardware | RA | I | C | I |
-| Acuerdo de asistencia posterior al lanzamiento | RA | C | RA | C |
+| Acuerdo de asistencia para Post Launch | RA | C | RA | C |
 
-La siguiente tabla resume los **Día uno: Día uno: Implementación del proyecto (hardware)**:
+La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
-| **Fase** | **Integrador de audio y vídeo** | **AEM Implementador de** | **Estrategia empresarial** | **Gestión de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | El diseño comercial incluye operaciones de cableado | - | - | - | - |
@@ -173,19 +173,19 @@ La siguiente tabla resume los **Día uno: Día uno: Implementación del proyecto
 
 >[!NOTE]
 >
->Las funciones cambian durante el segundo día (compatibilidad posterior al inicio).
+>Las funciones cambian durante el segundo día (compatibilidad con Post Launch).
 
-* **Autor**: Gestión de contenido + Estrategia
+* **Autor**: Administración de contenido + Estrategia
 
 * **Desarrollador**: Normalmente, es miembro del equipo de implementación de AEM Screens o se transfiere a un equipo de desarrollo interno
 
-* **Técnico**: contratado por el integrador de audio y vídeo o forma parte de la misma empresa.
+* **Técnico**: Es contratado por el Integrador de audio-vídeo o forma parte de la misma empresa.
 
-La siguiente tabla resume los **Día dos: compatibilidad con el gráfico RACI tras el lanzamiento**:
+La siguiente tabla resume el **Día dos: Post Launch Support RACI Chart**:
 
 | **Fase** | **Autor** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
-| *Día dos: asistencia posterior al inicio* |
+| *Día Dos: Soporte Post-Launch* |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA |
 | Compatibilidad de nivel 1 | I | I | RA |
 | Compatibilidad de nivel 2 | I | C | RA |

@@ -25,7 +25,7 @@ Esta página muestra la creación y administración de ubicaciones para Screens.
 **Requisitos previos**:
 
 * [Configuración e implementación de Screens](configuring-screens-introduction.md)
-* [Creación y administración de proyectos de Screens](creating-a-screens-project.md)
+* [Creación y administración de un proyecto de Screens](creating-a-screens-project.md)
 * [Creación y administración de canales](managing-channels.md)
 
 ## Creación de una nueva ubicación {#creating-a-new-location}
@@ -33,15 +33,15 @@ Esta página muestra la creación y administración de ubicaciones para Screens.
 Después de crear el proyecto para Screens, siga los pasos a continuación para crear una ubicación para un proyecto de Screens:
 
 1. Haga clic en el vínculo Adobe Experience Manager (parte superior izquierda) y, a continuación, en Screens. También puede navegar directamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Vaya al proyecto de Pantallas y haga clic en **Ubicaciones**.
-1. Clic **Crear** situado junto al icono más en la barra de acciones.
-1. Haga clic en la plantilla **Ubicación** en el asistente y haga clic en **Siguiente**.
-1. Introduzca las propiedades de **Título y etiquetas**, **Más títulos y descripciones**, **Tiempo de activación/desactivación**, y **URL de vanidad**.
-1. Clic **Crear** y la ubicación se crea y se añade a la carpeta de ubicaciones.
+1. Vaya al proyecto de Screens y haga clic en **Ubicaciones**.
+1. Haga clic en **Crear** junto al icono de signo más en la barra de acciones.
+1. Haga clic en la plantilla **Ubicación** del asistente y luego haga clic en **Siguiente**.
+1. Escriba las propiedades de **Título y etiquetas**, **Más títulos y descripciones**, **Tiempo de activación/desactivación** y **URL de vanidad**.
+1. Haga clic en **Crear** y la ubicación se creará y se agregará a la carpeta de ubicaciones.
 
 Consulte los pasos siguientes para comprender la creación de una ubicación para un proyecto de AEM Screens. Para fines de demostración, la nueva ubicación (San José) se crea en *DemoProject*.
 
-![player2](assets/player2.gif)
+![reproductor2](assets/player2.gif)
 
 Después de crear una ubicación, cree una pantalla para la ubicación.
 
@@ -50,9 +50,9 @@ Después de crear una ubicación, cree una pantalla para la ubicación.
 Para editar o acceder a las propiedades de una ubicación:
 
 1. Haga clic en la ubicación.
-1. Clic **Propiedades** de la barra de acciones.
+1. Haga clic en **Propiedades** en la barra de acciones.
 
-![player3](assets/player3.gif)
+![reproductor3](assets/player3.gif)
 
 #### Pasos siguientes {#the-next-steps}
 

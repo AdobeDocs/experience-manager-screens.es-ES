@@ -19,9 +19,9 @@ AEM Screens puede capturar localmente cada evento rastreable que ejecuta cada di
 
 Existen dos razones fundamentales por las que es posible que desee capturar estos datos.
 
-La primera implica **bucles de comentarios y aprendizaje automático** mientras que el segundo implica el **creación de gráficos, tableros e informes** destinados al consumo humano.
+El primero implica **bucles de comentarios y aprendizaje automático**, mientras que el segundo implica la **creación de gráficos, paneles e informes** destinados al consumo humano.
 
-AEM En el caso de uso del bucle de comentarios, no es necesario preocuparse por los informes visuales o los paneles, sino que desea definir reglas que se puedan ejecutar en para la modificación de contenido. Al consumir y procesar todos los datos de evento del reproductor Screens de un periodo determinado, puede definir una regla que evalúe la eficacia de image1 frente a image2. AEM Al combinar los datos de ventas con los datos de reproducción, puede determinar que image1 tiene un mayor impacto en las ventas e indica automáticamente a todos los reproductores que utilicen image1.
+AEM En el caso de uso del bucle de comentarios, no es necesario preocuparse por los informes visuales o los paneles, sino que desea definir reglas que se puedan ejecutar en para la modificación de contenido. Al consumir y procesar todos los datos de evento del reproductor de Screens de un periodo determinado, puede definir una regla que evalúe la eficacia de image1 frente a image2. AEM Al combinar los datos de ventas con los datos de reproducción, puede determinar que image1 tiene un mayor impacto en las ventas e indica automáticamente a todos los reproductores que utilicen image1.
 
 El segundo caso de uso con Analytics es para procesar eventos de reproducción y datos de uso para el consumo humano mediante informes y paneles.
 Puede utilizar estos datos para crear un mapa de calor de una experiencia interactiva y determinar el mapa de recorrido preferido mediante la aplicación. También puede crear un panel que proporcione una interpretación gráfica de cuántas veces interactúan los consumidores con la aplicación.

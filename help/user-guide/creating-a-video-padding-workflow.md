@@ -23,15 +23,15 @@ Esta sección trata los siguientes temas:
 
 * **Información general**
 * **Requisitos previos**
-* **Creación de un flujo de trabajo de relleno de vídeo**
-   * **Creación de un flujo de trabajo**
+* **Creando un flujo de trabajo de relleno de vídeo**
+   * **Creando un flujo de trabajo**
    * **Uso del flujo de trabajo en el proyecto de AEM Screens**
 
-* **Validación de la salida para el flujo de trabajo**
+* **Validando la salida del flujo de trabajo**
 
 ## Información general {#overview}
 
-El siguiente caso de uso implica colocar un vídeo (por ejemplo: 1280 x 720) en un canal en el que la visualización es de 1920 x 1080 y colocar el vídeo en 0x0 (parte superior izquierda). El vídeo no se debe estirar ni modificar de ninguna manera y no utilice **Cubierta** en el componente de vídeo.
+El siguiente caso de uso implica colocar un vídeo (por ejemplo: 1280 x 720) en un canal en el que la visualización es de 1920 x 1080 y colocar el vídeo en 0x0 (parte superior izquierda). El vídeo no se debe estirar ni modificar de ninguna manera y no uses **Cover** en el componente de vídeo.
 
 El vídeo se muestra como un objeto desde el píxel 1 al píxel 1280 de ancho y desde el píxel 1 al píxel 720 de abajo. El resto del canal es el color predeterminado.
 
@@ -39,7 +39,7 @@ El vídeo se muestra como un objeto desde el píxel 1 al píxel 1280 de ancho y 
 
 Antes de crear un flujo de trabajo para vídeo, complete los siguientes requisitos previos:
 
-1. Cargue un vídeo en **Assets** AEM carpeta en la instancia de la
+1. Cargue un vídeo en la carpeta **Assets AEM** de su instancia de la cuenta de usuario de la cuenta de usuario de la instancia de
 1. Cree un proyecto de AEM Screens (por ejemplo, **TestVideoRendition**) y un canal denominado (**VideoRendering**), como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -59,39 +59,39 @@ Siga los pasos a continuación para crear un flujo de trabajo para el vídeo:
 
 1. AEM Vaya a la instancia de la.
 1. Haga clic en las herramientas desde el carril lateral.
-1. Clic **Flujo de trabajo** > **Modelos** para que pueda crear un modelo.
+1. Haga clic en **Flujo de trabajo** > **Modelos** para poder crear un modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelos** > **Crear** > **Crear modelo**. Introduzca el **Título** (como **VideoRendition**) y **Nombre** en el **Agregar modelo de flujo de trabajo**. Clic **Listo** para agregar el modelo de flujo de trabajo.
+1. Haga clic en **Modelos** > **Crear** > **Crear modelo**. Escriba **Title** (como **VideoRendition**) y **Name** en **Agregar modelo de flujo de trabajo**. Haga clic en **Listo** para agregar el modelo de flujo de trabajo.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Después de crear el modelo de flujo de trabajo, haga clic en el modelo (**VideoRendition**) y haga clic en **Editar** de la barra de acciones.
+1. Después de crear el modelo de flujo de trabajo, haga clic en el modelo (**VideoRendition**) y, a continuación, haga clic en **Editar** en la barra de acciones.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Arrastre y suelte el **`Command Line`** al flujo de trabajo.
+1. Arrastre y suelte el componente **`Command Line`** en el flujo de trabajo.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Haga clic en **`Command Line`** y abra el cuadro de diálogo de propiedades.
+1. Haga clic en el componente **`Command Line`** y abra el cuadro de diálogo de propiedades.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Haga clic en **Argumentos** pestaña.
-1. En el **Línea de comandos - Propiedades de la etapa** , introduzca el formato en la **Tipos MIME** (como ***video/mp4***) y el comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Este comando inicia el flujo de trabajo en **Comandos** field.
+1. Haga clic en la ficha **Argumentos**.
+1. En el cuadro de diálogo **Línea de comandos - Propiedades del paso**, escriba el formato en **Tipos MIME** (como ***video/mp4***) y el comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Este comando inicia el flujo de trabajo en el campo **Commands**.
 
-   Consulte los detalles sobre **Tipos MIME** y **Comandos** en la nota siguiente.
+   Vea los detalles de **Tipos MIME** y **Comandos** en la nota siguiente.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Haga clic en el flujo de trabajo (**VideoRenditions**).
-1. Clic **Iniciar flujo de trabajo** de la barra de acciones.
+1. Haga clic en **Iniciar flujo de trabajo** en la barra de acciones.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. En el **Ejecutar flujo de trabajo** , haga clic en la ruta del recurso en el **Carga útil** (como ***/content/dam/huseinpeyda-cross-roads01_512kb 2.mp4***) e introduzca la **Título** as ***RunVideo*** y haga clic en **Ejecutar**.
+1. En el cuadro de diálogo **Ejecutar flujo de trabajo**, haga clic en la ruta del recurso en la **carga útil** (como ***/content/dam/huseinpeyda-cross01_512kb 2.mp4***), escriba el **Título** como ***RunVideo*** y haga clic en **Ejecutar**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto 
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Clic **Editar** de la barra de acciones. Arrastre y suelte el vídeo que cargó inicialmente en **Assets**.
+1. Haga clic en **Editar** en la barra de acciones. Arrastre y suelte el vídeo que subió inicialmente a **Assets**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Cuando haya cargado el vídeo, haga clic en **Previsualizar** para ver el resultado.
+1. Cuando haya subido el vídeo, haga clic en **Vista previa** para ver el resultado.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
@@ -116,6 +116,6 @@ Siga los pasos a continuación para utilizar el flujo de trabajo en su proyecto 
 Para validar el resultado, haga lo siguiente:
 
 * Compruebe una previsualización del vídeo en el canal
-* Vaya a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** en CRXDE Lite, como se muestra en la figura siguiente:
+* Vaya a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** en el CRXDE Lite, como se muestra en la figura siguiente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

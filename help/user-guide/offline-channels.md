@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Canales sin conexión {#offline-channels}
 
-El reproductor Screens proporciona compatibilidad sin conexión con los canales mediante el ***ContentSync*** tecnología.
+El reproductor Screens proporciona compatibilidad sin conexión para los canales mediante el uso de la tecnología ***ContentSync***.
 
 Los reproductores utilizan un servidor http local para proporcionar el contenido descomprimido.
 
-Cuando un canal está configurado para ejecutarse *en línea* AEM , el reproductor sirve a los recursos del canal accediendo al servidor de la. Sin embargo, cuando el canal está configurado para ejecutarse, *sin conexión*, el reproductor sirve los recursos de canal desde un servidor http local.
+AEM Cuando un canal está configurado para ejecutar *en línea*, el reproductor sirve los recursos del canal al acceder al servidor de. Sin embargo, cuando el canal está configurado para ejecutar *offline*, el reproductor proporciona los recursos de canal desde un servidor http local.
 
 El flujo de trabajo para el proceso es el siguiente:
 
@@ -35,11 +35,11 @@ El flujo de trabajo para el proceso es el siguiente:
 
 ## Actualizar controladores {#update-handlers}
 
-El ***ContentSync*** utiliza controladores de actualización para analizar y recopilar todas las páginas y recursos necesarios para un proyecto específico. AEM Screens utiliza los siguientes controladores de actualización:
+***ContentSync*** usa controladores de actualización para analizar y recopilar todas las páginas y recursos necesarios para un proyecto específico. AEM Screens utiliza los siguientes controladores de actualización:
 
 ### Opciones comunes {#common-options}
 
-* *type*: el tipo de controlador de actualización que se va a utilizar
+* *tipo*: el tipo de controlador de actualización que se va a utilizar
 * *ruta*: ruta al recurso
 * *[targetRootDirectory]*: carpeta de destino en el archivo zip
 
@@ -53,7 +53,7 @@ El ***ContentSync*** utiliza controladores de actualización para analizar y rec
   <tr>
    <td><code>channels</code></td> 
    <td>recopila un canal</td> 
-   <td>extension: extensión del recurso que se va a recopilar<br /> [pathSuffix='']: sufijo para agregar a la ruta del canal<br /> </td> 
+   <td>extensión: extensión del recurso que se va a recopilar<br /> [pathSuffix='']: sufijo que se va a agregar a la ruta de acceso del canal <br /> </td> 
   </tr>
   <tr>
    <td><code>clientlib</code></td> 
@@ -79,9 +79,9 @@ Siga los pasos a continuación para probar la configuración de ContentSync:
 
 1. Abra `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. Haga clic en la configuración en la lista.
-1. Clic **Borrar caché**.
-1. Clic **Actualizar caché**.
-1. Clic **Descargar completo**.
+1. Haga clic en **Borrar caché**.
+1. Haga clic en **Actualizar caché**.
+1. Haga clic en **Descargar completo**.
 1. Extraiga el archivo zip.
 1. Inicie un servidor local en la carpeta extraída.
 1. Abra la página de inicio y compruebe el estado de la aplicación.
@@ -95,12 +95,12 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Vaya al panel de canales.
-1. Clic **...** en el **INFORMACIÓN DEL CANAL** Panel.
+1. Haga clic en **...** en el panel **INFORMACIÓN DEL CANAL**.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Vaya a las propiedades del canal.
-1. En la pestaña (Canal), asegúrese de que la casilla de verificación esté desactivada y haga clic en **Guardar y cerrar**.
+1. En la ficha (Canal), asegúrese de que la casilla de verificación esté deshabilitada y luego haga clic en **Guardar y cerrar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
@@ -108,7 +108,7 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   El **Sin conexión** estado en **PROPIEDADES** también se actualiza en consecuencia.
+   El estado de **Sin conexión** en **PROPIEDADES** también se actualiza en consecuencia.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
@@ -118,4 +118,4 @@ Siga los pasos a continuación para habilitar la configuración sin conexión pa
 
 >[!NOTE]
 >
->Obtenga información acerca de la plantilla para controladores de recursos sin conexión personalizados. Además, obtenga más información acerca de los requisitos mínimos en la `pom.xml` para el proyecto. Consulte [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desarrollo de un componente personalizado para AEM Screens**.
+>Obtenga información acerca de la plantilla para controladores de recursos sin conexión personalizados. Además, obtenga más información acerca de los requisitos mínimos de `pom.xml` para el proyecto. Vea [Plantilla para controladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) en **Desarrollo de un componente personalizado para AEM Screens**.

@@ -23,13 +23,13 @@ En el siguiente caso de uso se muestra el uso de la activación de reserva de ho
 
 ## Descripción {#description}
 
-Para este caso de uso, la Google Sheet se rellena con el porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y, según la fórmula, el valor 1 o 2 se asigna al **AdTarget** Columna.
+En este caso de uso, la hoja Google Sheet se rellena con un porcentaje de reservas en dos restaurantes **`Restaurant1`** y **`Restaurant2`**. Se aplica una fórmula basada en los valores de `Restaurant1` y `Restaurant2` y, según la fórmula, el valor 1 o 2 se asigna a la columna **AdTarget**.
 
-Si el valor de **`Restaurant1`** > **`Restaurant2`**, entonces **AdTarget** se ha asignado un valor **1** de otro modo **AdTarget** se ha asignado un valor **2**. El valor 1 genera un *Comida para filetes* Opción y Valor dos dan como resultado una visualización de *Comida tailandesa* en la pantalla de visualización.
+Si el valor de **`Restaurant1`** > **`Restaurant2`**, entonces **AdTarget** tiene asignado el valor **1**; de lo contrario, **AdTarget** tiene asignado el valor **2**. El valor 1 genera una opción de *Alimento para carne* y el valor dos da como resultado una visualización de la opción *Alimento tailandés* en la pantalla.
 
 ## Condiciones previas {#preconditions}
 
-Antes de comenzar a implementar la activación de la reserva, aprenda a configurar ***Almacén de datos***, ***Segmentación de audiencia*** y ***Habilitar la segmentación para canales*** en un proyecto de AEM Screens.
+Antes de comenzar a implementar la activación de la reserva, aprende a configurar ***Almacén de datos***, ***Segmentación de audiencia*** y ***Habilitar la segmentación para canales*** en un proyecto de AEM Screens.
 
 Consulte [Configuración de ContextHub en AEM Screens](configuring-context-hub.md) para obtener información detallada.
 
@@ -37,7 +37,7 @@ Consulte [Configuración de ContextHub en AEM Screens](configuring-context-hub.m
 
 Siga los pasos del caso de uso a continuación para implementar la activación de la reserva de hospitalidad para su proyecto de AEM Screens:
 
-1. **Rellenar las hojas de Google y agregar la fórmula**.
+1. **Rellenando las hojas de Google y agregando la fórmula**.
 
    Por ejemplo, aplique la fórmula a la tercera columna **AdTarget**, como se muestra en la figura siguiente.
 
@@ -45,35 +45,35 @@ Siga los pasos del caso de uso a continuación para implementar la activación d
 
 1. **Configuración de los segmentos en Audiences según los requisitos**
 
-   1. Vaya a los segmentos de la audiencia (consulte ***Paso 2: Configuración de la segmentación de audiencia*** in **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
-   1. Haga clic en **Hojas A1 1** y haga clic en **Editar**.
-   1. Haga clic en la propiedad de comparación y en **Configuración** icono.
-   1. Clic **googlesheets/value/1/2** de la lista desplegable en **Nombre de propiedad**.
-   1. Haga clic en **Operador** as **igualar** en el menú desplegable.
-   1. Introduzca el **Valor** as **1**.
-   1. Igualmente, haga clic en **Hojas A1 2** y haga clic en **Editar**.
-   1. Haga clic en la propiedad de comparación y en **Configuración** icono.
-   1. Clic **googlesheets/value/1/2** de la lista desplegable en **Nombre de propiedad**.
-   1. Haga clic en **Operador** as **2**.
+   1. Vaya a los segmentos de su audiencia (consulte ***Paso 2: Configuración de la segmentación de audiencia*** en la página **[Configuración de ContextHub en AEM Screens](configuring-context-hub.md)** para obtener más información).
+   1. Haga clic en **Hojas A1 1** y luego en **Editar**.
+   1. Haga clic en la propiedad de comparación y luego en el icono **Configuración**.
+   1. Haga clic en **googlesheets/value/1/2** en la lista desplegable de **Nombre de propiedad**.
+   1. Haga clic en el **Operador** como **igual** en el menú desplegable.
+   1. Escriba **Value** como **1**.
+   1. Del mismo modo, haga clic en **Hojas A1 2** y luego en **Editar**.
+   1. Haga clic en la propiedad de comparación y luego en el icono **Configuración**.
+   1. Haga clic en **googlesheets/value/1/2** en la lista desplegable de **Nombre de propiedad**.
+   1. Haga clic en el **Operador** como **2**.
 
-1. Navegue, haga clic en el canal () y seleccione **Editar** de la barra de acciones. En el ejemplo siguiente, **DataDrivenRestaurant**, se utiliza un canal secuencial para mostrar la funcionalidad.
+1. Navegue y haga clic en el canal () y luego haga clic en **Editar** en la barra de acciones. En el ejemplo siguiente, **DataDrivenRestaurant**, se usa un canal secuencial para mostrar la funcionalidad.
 
    >[!NOTE]
    >
-   >El canal ya debe tener una imagen predeterminada y las audiencias deben preconfigurarse como se describe en [Configuración de ContextHub en AEM Screens](configuring-context-hub.md).
+   >El canal ya debería tener una imagen predeterminada y las audiencias deberían preconfigurarse como se describe en [Configuración de ContextHub en AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >Su **ContextHub** **Configuraciones** uso del canal **Propiedades** > **Personalización** ya debería haberse configurado la pestaña en este punto.
+   >Tu **ContextHub** **configuraciones** con el canal **Propiedades** > pestaña **Personalization** ya debería haberse configurado en este momento.
 
-   ![screen_shot_2019-05-08a114106m](assets/screen_shot_2019-05-08at114106am.png)
+   ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Clic **Segmentación** en el editor y haga clic en **Marca** y el **Actividad** en el menú desplegable y haga clic en **Iniciar segmentación**.
-1. **Comprobación de la previsualización**
+1. Haga clic en **Segmentación** en el editor, luego haga clic en **Marca** y en la **Actividad** en el menú desplegable y luego haga clic en **Iniciar segmentación**.
+1. **Comprobando la vista previa**
 
-   1. Clic **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
-   1. Actualice el valor en **`Restaurant1`** y **`Restaurant2`** columnas. If **`Restaurant1`** > **`Restaurant2`,** debería poder ver una imagen de *Filete* comida de otro modo, *Tailandés* la imagen de la comida se muestra en la pantalla.
+   1. Haga clic en **Vista previa.** Además, abra las Hojas de cálculo de Google y actualice su valor.
+   1. Actualice el valor en las columnas **`Restaurant1`** y **`Restaurant2`**. Si **`Restaurant1`** > **`Restaurant2`,**, deberías poder ver una imagen de la comida de *Steak*; de lo contrario, la imagen de la comida de *Thai* se mostrará en tu pantalla.
 
-   ![result5](assets/result5.gif)
+   ![resultado5](assets/result5.gif)

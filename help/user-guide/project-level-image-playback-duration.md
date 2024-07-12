@@ -21,14 +21,14 @@ Esta función permite definir la duración de la reproducción de la imagen en e
 Antes de usar esta función, configure un proyecto como requisito previo para comenzar a implementar esta funcionalidad. Por ejemplo,
 
 1. Cree un proyecto de AEM Screens (en este ejemplo, **ProjectLevelPlayback**).
-1. Crear un canal de secuencia como **PlayBackChannel** en el **Canales** carpeta.
-1. Añadir contenido a **PlayBackChannel**.
+1. Cree un canal de secuencia como **PlayBackChannel** en la carpeta **Channels**.
+1. Agregar contenido a **PlayBackChannel**.
 
-   ![activos](assets/image_playback1.png)
+   ![recursos](assets/image_playback1.png)
 
-   Por ejemplo, la siguiente imagen muestra las imágenes agregadas al **PlayBackChannel** editor:
+   Por ejemplo, la siguiente imagen muestra las imágenes agregadas al editor **PlayBackChannel**:
 
-   ![activos](assets/image_playback2.png)
+   ![recursos](assets/image_playback2.png)
 
 ## Edición de asignación de duración de reproducción de imagen a nivel de proyecto {#editing-project-level-image-playback-duration-assignment}
 
@@ -39,18 +39,18 @@ En la sección siguiente se explica cómo editar la duración de reproducción d
 
 >[!NOTE]
 >
->Si desea actualizar una duración de reproducción a nivel de imagen o de canal, consulte [Duración de reproducción de imagen a nivel de canal](channel-level-image-playback.md).
+>Si desea actualizar una duración de reproducción de nivel de canal o imagen, consulte [Duración de reproducción de imagen de nivel de canal](channel-level-image-playback.md).
 
 Siga los pasos a continuación para aprender a actualizar la duración de reproducción de imagen a nivel de proyecto:
 
-1. Navegar al proyecto **ProjectLevelPlayback** y haga clic en **Propiedades** de la barra de acciones.
-   ![activos](assets/image_playback3.png)
+1. Vaya al proyecto **ProjectLevelPlayback** y haga clic en **Propiedades** en la barra de acciones.
+   ![recursos](assets/image_playback3.png)
 
 1. Haga clic en todas las imágenes del canal y haga clic en el icono de la llave inglesa en la parte superior izquierda (como se muestra en la figura siguiente) para abrir el cuadro de diálogo Configurar nivel de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. El **Página** se abre el cuadro de diálogo.
+1. Se abre el cuadro de diálogo **Página**.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite el **Duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Seleccione la marca de verificación en la parte superior derecha de la **Página** para que se guarden los cambios.
+   Edite la **duración** de 8000 (milisegundos) a 3000 (milisegundos), es decir, 3 segundos. Seleccione la marca de verificación situada en la parte superior derecha del cuadro de diálogo **Página** para guardar los cambios.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -66,5 +66,5 @@ Siga los pasos a continuación para aprender a actualizar la duración de reprod
 
 Después de actualizar la duración de reproducción del canal (en este ejemplo, las tres imágenes), observe que las imágenes ahora se reproducen durante 3 segundos en lugar de 8 segundos (el valor predeterminado).
 
-![channel_preview](assets/channel_preview.gif)
+![vista previa_de_canal](assets/channel_preview.gif)
 

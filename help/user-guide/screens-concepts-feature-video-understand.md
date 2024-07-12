@@ -26,19 +26,19 @@ ht-degree: 0%
 
 Para seguir junto con los vídeos, necesita lo siguiente:
 
-1. **AEM,4** o **AEM,3*+ **Screens Feature Pack 1**
+1. AEM AEM **6.4** o **6.3*+ **Paquete de funciones de Screens 1**
 
 1. Reproductor de Screens
 
-Para descargar el Reproductor de AEM Screens, haga clic en [aquí](https://download.macromedia.com/screens/). Además, AEM Screens está disponible en la Tienda Google Play. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Para descargar AEM Screens Player, haga clic [aquí](https://download.macromedia.com/screens/). Además, AEM Screens está disponible en la Tienda Google Play. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
-El siguiente vídeo detalla la creación de un nuevo canal, la creación de nuevo contenido y la adición de un canal a una programación reutilizable. Sigue vagamente la primera mitad del [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
+El siguiente vídeo detalla la creación de un nuevo canal, la creación de nuevo contenido y la adición de un canal a una programación reutilizable. Sigue de manera imprecisa la primera mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## Mostrar asignaciones y registro de dispositivos - Parte 2 {#display-and-device-pt2}
 
-El siguiente vídeo muestra la creación de una ubicación, una pantalla y la configuración del dispositivo. El vídeo también muestra los pasos para registrar un dispositivo y asignarlo a una pantalla. Sigue vagamente la segunda mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
+El siguiente vídeo muestra la creación de una ubicación, una pantalla y la configuración del dispositivo. El vídeo también muestra los pasos para registrar un dispositivo y asignarlo a una pantalla. Sigue de manera imprecisa la segunda mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
 

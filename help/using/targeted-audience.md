@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Audiencia objetivo {#target-audience}
 
-AEM Como implementador experimentado de la, probablemente haya visto las funciones a las que se hace referencia como *Autores*, *Desarrolladores*, y *Técnicos de TI*.
+AEM Como implementador experimentado en la implementación de la, es probable que haya visto las funciones que se denominan *Autores*, *Desarrolladores* y *Técnicos de TI*.
 
 En un proyecto típico de AEM Screens, las funciones se refinan aún más, ya que cada una cumple un propósito importante en el proyecto.
 
@@ -65,4 +65,4 @@ La administración de creativos y contenido puede ser una de las siguientes:
 Los jefes de proyecto suelen administrar toda la implementación para la implementación de AEM Screens. Un administrador de proyectos es la persona clave para toda la implementación del proyecto designado. Desempeñan importantes responsabilidades, como el establecimiento de plazos, la gestión de las necesidades del equipo y las comunicaciones. También abordan los desafíos y garantizan el cumplimiento de los objetivos.
 
 >[!NOTE]
->Para obtener información detallada sobre las distintas funciones y responsabilidades y la audiencia destinataria de un proyecto de señalización digital, consulte **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, consulte **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

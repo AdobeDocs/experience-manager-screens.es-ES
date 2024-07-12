@@ -29,7 +29,7 @@ Antes de comenzar este caso de uso, asegúrese de comprender cómo:
 * **[Crear y administrar canales](managing-channels.md)**
 * **[Crear y administrar ubicaciones](managing-locations.md)**
 * **[Crear y administrar horarios](managing-schedules.md)**
-* **[Registro de dispositivos](device-registration.md)**
+* **[Registro de dispositivo](device-registration.md)**
 
 ### Actores principales {#primary-actors}
 
@@ -46,27 +46,27 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
-1. **Creación de un canal de secuencia**
+1. **Creando un canal de secuencia**
 
-   1. Haga clic en **Canales** y haga clic en **Crear**.
+   1. Haga clic en la carpeta **Canales** y luego en **Crear**.
 
-   1. Clic **Canal de secuencia** en el asistente y cree el canal titulado como **MainAdChannel**.
+   1. Haga clic en **Canal de secuencia** en el asistente y cree el canal con el título **Canal de publicidad principal**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
-1. **Adición de contenido al canal de secuencia**
+1. **Agregando contenido al canal de secuencia**
 
    1. Haga clic en el canal (**MainAdChannel**).
-   1. Clic **Editar** de la barra de acciones.
+   1. Haga clic en **Editar** en la barra de acciones.
    1. Arrastre y suelte algunos recursos en el canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
-1. **Creación de un canal de emergencia**
+1. **Creando un canal de emergencia**
 
-   1. Haga clic en **Canales** carpeta.
+   1. Haga clic en la carpeta **Canales**.
    1. Haga clic en **Crear**.
-   1. Clic **Canal de secuencia** en el asistente y cree el canal titulado como **EmergencyChannel**.
+   1. Haga clic en **Canal de secuencia** en el asistente y cree el canal con el título **Canal de emergencia**.
 
    >[!NOTE]
    >
@@ -74,49 +74,49 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    ![screen_shot_2019-02-21at40151pm](assets/screen_shot_2019-02-21at40151pm.png)
 
-1. **Añadir contenido al canal de emergencia**
+1. **Agregando contenido al canal de emergencia**
 
    1. Haga clic en el canal (**Canal de emergencia)**.
-   1. Clic **Editar** de la barra de acciones.
+   1. Haga clic en **Editar** en la barra de acciones.
    1. Arrastre y suelte el recurso que desea ejecutar durante una emergencia en su canal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
-1. **Creación de una ubicación**
+1. **Creando una ubicación**
 
-   1. Vaya a **Ubicaciones** carpeta.
-   1. Clic **Crear** en la barra de acciones y cree una ubicación con el título **Almacenar** en el asistente.
+   1. Vaya a la carpeta **Ubicaciones**.
+   1. Haga clic en **Crear** en la barra de acciones y cree una ubicación con el título **Almacenar** desde el asistente.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
-1. **Creación de pantallas en su ubicación**
+1. **Creando pantallas en su ubicación**
 
-   Vaya a su ubicación (**Almacenar**) y haga clic en **Crear** de la barra de acciones. Después del asistente, cree dos **Visualizaciones** con título **StoreFront** y **StoreBack**.
+   Vaya a su ubicación (**Tienda**) y haga clic en **Crear** desde la barra de acciones. Después del asistente, crea dos **pantallas** con el título **StoreFront** y **StoreBack**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
-1. **Creación de una programación**
+1. **Creando un horario**
 
-   1. Navegue hasta su **Horarios** carpeta.
-   1. Clic **Crear** de la barra de acciones.
-   1. Después del asistente, cree una programación titulada como **Programación de tienda**.
+   1. Vaya a la carpeta **Horarios**.
+   1. Haga clic en **Crear** en la barra de acciones.
+   1. Después del asistente, cree una programación con el título **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Asigne ambas pantallas al programa y establezca prioridades
 
-   1. Haga clic en la programación **(StoreSchedule)** y haga clic en **Tablero** de la barra de acciones.
+   1. Haga clic en la programación **(StoreSchedule)** y, a continuación, haga clic en **Tablero** en la barra de acciones.
 
-   1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+   1. Haga clic en **+ Asignar canal** desde el panel **CANALES ASIGNADOS**.
 
-   1. Desde el **Asignación de canales** Cuadro de diálogo:
+   1. Desde el cuadro de diálogo **Asignación de canal**:
 
-      1. Haga clic en la ruta al **MainAdChannel**
-      1. Configure las variables **Prioridad** as 2
-      1. Definir los eventos admitidos como **Carga inicial** y **Pantalla inactiva**.
-      1. Clic **Guardar**
+      1. Haga clic en la ruta de acceso al **MainAdChannel**
+      1. Establecer la **prioridad** como 2
+      1. Configure los eventos admitidos como **Carga inicial** y **Pantalla inactiva**.
+      1. Haga clic en **Guardar**
 
-      Del mismo modo, vuelva a seguir los mismos pasos para asignar el **EmergencyChannel** y establezca su **Prioridad**.
+      Del mismo modo, siga los mismos pasos de nuevo para asignar **EmergencyChannel** y establecer su **Prioridad**.
 
    >[!NOTE]
    >
@@ -124,65 +124,65 @@ Siga los pasos a continuación para configurar un canal de emergencia:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Clic **+ Asignar canal** desde el **CANALES ASIGNADOS** panel.
+1. Haga clic en **+ Asignar canal** desde el panel **CANALES ASIGNADOS**.
 
-1. Desde el **Asignación de canales** Cuadro de diálogo:
+1. Desde el cuadro de diálogo **Asignación de canal**:
 
-   1. Haga clic en la ruta al **EmergencyChannel**
-   1. Configure las variables **Prioridad** como 1
+   1. Haga clic en la ruta al **canal de emergencia**
+   1. Establecer la **prioridad** como 1
 
-   1. Definir los eventos admitidos como **Carga inicial**, **Pantalla inactiva**, y **Interacción del usuario**
+   1. Definir los eventos admitidos como **Carga inicial**, **Pantalla inactiva** e **Interacción del usuario**
 
-   1. Clic **Guardar**
+   1. Haga clic en **Guardar**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
-   Puede ver los canales asignados desde el **Programación de tienda** panel.
+   Puede ver los canales asignados desde el panel **StoreSchedule**.
 
    ![screen_shot_2019-02-25at93658pm](assets/screen_shot_2019-02-25at93658pm.png)
 
-1. **Asignación de programación a cada visualización**
+1. **Asignando horario a cada pantalla**
 
-   1. Navegue hasta cada pantalla, por ejemplo, **EmergencyChannel** > **Ubicaciones** > **Almacenar** >**StoreFront**.
+   1. Vaya a cada pantalla, como **EmergencyChannel** > **Ubicaciones** > **Tienda** >**StoreFront**.
 
-   1. Clic **Tablero** de la barra de acciones.
-   1. Clic **...** desde el **CANALES Y PROGRAMACIONES ASIGNADOS** y haga clic en **+Asignar horario**.
+   1. Haga clic en **Tablero** en la barra de acciones.
+   1. Haga clic en **...** en el panel **CANALES Y PROGRAMACIONES ASIGNADOS** y, a continuación, haga clic en **+Asignar programa**.
 
-   1. Haga clic en la ruta al Horario (por ejemplo, aquí, **EmergencyChannel** > **Horarios** >**Programación de tienda**).
+   1. Haga clic en la ruta de acceso al horario (por ejemplo, aquí, **CanalDeEmergencia** > **Horarios** >**HorarioDeTienda**).
 
    1. Haga clic en **Guardar**.
 
-   Puede ver la programación asignada en la pantalla desde el **Programación de tienda** panel.
+   Puede ver la programación asignada en la pantalla desde el panel **StoreSchedule**.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
-1. **Registro de dispositivos**
+1. **Registro de dispositivo**
 
    Complete el proceso de registro del dispositivo. Una vez registrado, puede ver el siguiente resultado en su reproductor de AEM Screens.
 
-   ![new30](assets/new30.gif)
+   ![nuevo30](assets/new30.gif)
 
 ## Cambio al canal de emergencia {#switching-to-emergency-channel}
 
 Si hay una emergencia, realice los siguientes pasos:
 
-1. Vaya a **EmergencyChannel** > **Horarios** > **Programación de tienda** y haga clic en **Tablero** de la barra de acciones.
+1. Vaya a **EmergencyChannel** > **Horarios** > **StoreSchedule** y haga clic en **Tablero** en la barra de acciones.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Haga clic en **EmergencyChannel** desde el **Programación de tienda** panel y haga clic en **Editar asignación**.
+1. Haga clic en **EmergencyChannel** en el panel de **StoreSchedule** y luego en **Editar asignación**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Actualice el **Prioridad** de la **EmergencyChannel** hasta **3** desde el **Asignación de canales** y haga clic en **Guardar**.
+1. Actualice la **prioridad** del **canal de emergencia** a **3** desde el cuadro de diálogo **Asignación de canal** y haga clic en **Guardar**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Cuando se actualiza la prioridad del canal, todo el reproductor de AEM Screens muestra la variable **EmergencyChannel** contenido.
+1. Cuando se actualiza la prioridad del canal, todo el reproductor de AEM Screens muestra el contenido de **EmergencyChannel**.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusión {#conclusion}
 
-El **EmergencyChannel** continuará mostrando su contenido hasta que el autor de contenido restablezca el valor de prioridad en 1.
+**EmergencyChannel** continúa mostrando su contenido hasta que el autor de contenido restablezca el valor de prioridad en 1.
 
-Cuando el autor del contenido recibe las instrucciones de que la emergencia se ha borrado, debe actualizar la prioridad del **MainAdChannel**. Al hacerlo, la reproducción normal se reanuda.
+Cuando el autor de contenido reciba las instrucciones de que se ha borrado la emergencia, deberá actualizar la prioridad de **MainAdChannel**. Al hacerlo, la reproducción normal se reanuda.

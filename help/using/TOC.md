@@ -41,7 +41,7 @@ ht-degree: 25%
 + Información sobre la implementación {#deployment-brief}
    + [AEM Configuraciones de plataforma de](aem-platform-configurations.md)
    + [Taxonomía e implementación del proyecto](project-taxonomy-implementation.md)
-   + Administración del tráfico de red {#manage-network-traffic}
+   + Administración de tráfico de red {#manage-network-traffic}
       + [Administración del tráfico de red](/help/using/managing-network-traffic.md)
       + [Red de Internet directa (por cable/inalámbrica)](/help/using/direct-internet-network.md)
       + [Red móvil directa](/help/using/mobile-network.md)

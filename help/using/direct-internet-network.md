@@ -16,7 +16,7 @@ AEM La red de acceso directo a Internet contiene un punto de acceso de entrada p
 Los puertos estándar para la comunicación de AEM Screens son:
 
 * `ssl-secured https (TCP Port 443)`
-  <br>O bien,</br>
+  <br>O,</br>
 
 * `http (TCP Port 80)`, si su caso de uso particular no requiere ese nivel de seguridad.
 
@@ -43,10 +43,10 @@ AEM Siga los pasos a continuación para asegurarse de que la conexión de los re
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
-   >**Sugerencia de resolución de problemas**
+   >**Sugerencia para solucionar problemas**
    >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
-   >1. Compruebe en el cortafuegos de su enrutador de Internet si hay alguna restricción con respecto a `TCP/IP Port 80/443`.
+   >1. Compruebe en el firewall del enrutador de Internet si hay restricciones con respecto a `TCP/IP Port 80/443`.
    >1. Asegúrese de que todos los puertos requeridos estén permitidos.
 
 ## Configuración de la red de Internet directa {#requirements-direct}
@@ -72,13 +72,13 @@ El rendimiento de la conexión a Internet, además de la accesibilidad de la red
 El rendimiento de la red de área local (LAN), además de la accesibilidad de la red, es proporcionar suficiente ancho de banda para utilizar AEM Screens.
 
 La red LAN suele coincidir con una red de 100 Mb/s, por lo que hay suficiente ancho de banda para conectar al sistema muchos dispositivos con buen rendimiento.
-Si se prevé una solución Wi-Fi para conectar AEM Screens al Internet Link, se recomienda utilizar estándares Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquiera *más reciente* Estándares como `802.11h-n` son de mejor calidad.
+Si se prevé una solución Wi-Fi para conectar AEM Screens al enlace de Internet, se recomienda usar estándares de Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquier estándar *más reciente* como `802.11h-n` es de mejor calidad.
 
 >[!NOTE]
 >
 >Si se requiere un repetidor de Wi-Fi, Adobe recomienda un punto de acceso Wi-Fi de malla como Google Nest Mesh Wi-Fi o similar. Otras tecnologías de repetición de Wi-Fi terminan en una pérdida masiva de ancho de banda en la red general.
 
-## Descarga de medios y recursos {#download}
+## Descarga de medios y Assets {#download}
 
 AEM Screens ofrece una ventaja significativa a los usuarios de señalización digital. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeos. El tráfico de red principal se produce cuando hay contenido nuevo para mostrar en una visualización específica.
 

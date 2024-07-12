@@ -20,12 +20,12 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Servicio de notificaciones de AEM Screens*** describe la actividad del dispositivo monitor.
+***Servicio de notificaciones de AEM Screens*** describe la actividad del dispositivo de supervisión.
 
 Esta sección trata los siguientes temas:
 
 * **Información general**
-* **Configuración de correo electrónico**
+* **Configurar correo electrónico**
 * **Notificación por correo electrónico**
 * **Ejemplo de caso de uso**
 
@@ -38,7 +38,7 @@ Esta sección trata los siguientes temas:
 
 ## Información general {#overview}
 
-***Servicio de notificaciones de AEM Screens*** permite a los administradores recibir un correo electrónico si un reproductor de AEM Screens no hace ping durante un tiempo configurable.
+El ***servicio de notificaciones de AEM Screens*** permite a los administradores recibir un correo electrónico si un reproductor de AEM Screens no hace ping durante un tiempo configurable.
 
 Este servicio se puede configurar en la consola web de OSGi.
 
@@ -46,44 +46,44 @@ Este servicio se puede configurar en la consola web de OSGi.
 
 Siga los pasos a continuación para configurar los ajustes de notificación por correo electrónico:
 
-1. Abrir **Configuración de la consola web Adobe Experience Manager**.
-1. Abrir **Servicio de supervisión del correo electrónico del dispositivo Screens**.
+1. Abra **Configuración de la consola web de Adobe Experience Manager**.
+1. Abra **Servicio de supervisión de correo electrónico del dispositivo Screens**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Defina los siguientes campos para poder configurar los ajustes del correo electrónico:
 
-   **Ruta de dispositivos** Introduzca la ruta a los proyectos de Screens que desea monitorizar. El camino suele ser `/home/users/screens/<Name of your project>`.
+   **Ruta de acceso de los dispositivos** Escriba la ruta de acceso a los proyectos de Screens que desee supervisar. La ruta de acceso suele ser `/home/users/screens/<Name of your project>`.
 
-   Por ejemplo, si el proyecto es **`We.Retail`**, utilice la ruta del proyecto como ***/home/users/screens/we-retail***.
+   Por ejemplo, si su proyecto es **`We.Retail`**, utilice la ruta del proyecto como ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Especifique la ruta del proyecto, donde se encuentran los usuarios del dispositivo.
 
-   **Frecuencia de programación** : especifique la hora (por ejemplo, 5:00 p. m. o 17:00) o la frecuencia en horas (por ejemplo, 1) a las que este monitor debe enviar correos electrónicos.
+   **Frecuencia de horario**: especifique la hora (por ejemplo, 5:00 p. m. o 17:00) o la frecuencia en horas (por ejemplo, 1) a las que este monitor debe enviar correos electrónicos.
 
-   **Tiempo de espera de ping** - Este campo especifica el intervalo en minutos tras el cual un dispositivo debe considerarse no accesible.
+   **Tiempo de espera de ping**: este campo especifica el intervalo en minutos tras el cual se debe considerar que un dispositivo no está accesible.
 
-   **Servidor SMTP** : especifica el servidor SMTP que se utiliza para enviar correos electrónicos.
+   **Servidor SMTP**: especifica el servidor SMTP que se usa para enviar correos electrónicos.
 
-   **Puerto SMTP** - Introduzca el puerto SMTP.
+   **Puerto SMTP**: introduzca el puerto SMTP.
 
-   **Usar TLS** - Seguridad de la capa de transporte (TLS) permite utilizar una comunicación segura con el servidor SMTP.
+   **Usar TLS** - Seguridad de la capa de transporte (TLS) permite usar una comunicación segura con el servidor SMTP.
 
    El Adobe recomienda utilizar TLS para una conexión segura con servidores de correo corporativos. Consulte con su administrador de correo los valores apropiados.
 
    **nombre de usuario** - Especifique el nombre de usuario para enviar correos electrónicos.
 
-   **contraseña** : especifique la contraseña para enviar correos electrónicos.
+   **contraseña** - Especifique la contraseña para enviar correos electrónicos.
 
-   **Destinatario** : especifique la dirección de correo electrónico del destinatario.
+   **Destinatario** - Especifique la dirección de correo electrónico del destinatario.
 
    >[!NOTE]
    >
    >Solo puede escribir una dirección de correo electrónico. Para enviar un correo electrónico masivo, cree un grupo o una lista de distribución con los usuarios relevantes.
 
-1. Clic **Guardar** para configurar la actividad del monitor mediante un correo electrónico para el dispositivo AEM Screens.
+1. Haga clic en **Guardar** para configurar la actividad del monitor mediante un mensaje de correo electrónico para el dispositivo AEM Screens.
 
 ## Notificación por correo electrónico {#email-notification}
 
@@ -98,7 +98,7 @@ Los correos electrónicos solo se envían si:
 
 ### Casos de uso de ejemplo {#example-use-cases}
 
-En el siguiente ejemplo se describen algunos escenarios como referencia para configurar las propiedades del servicio de supervisión de correo electrónico del dispositivo de Screens.
+En el siguiente ejemplo se describen algunos escenarios como referencia para configurar las propiedades del servicio de monitorización de correo electrónico de dispositivos de Screens.
 
 **Escenario 1**
 

@@ -1,5 +1,5 @@
 ---
-title: Aspectos básicos de la publicidad dinámica para [!UICONTROL AEM Screens]
+title: Conceptos básicos de señalización digital para [!UICONTROL AEM Screens]
 description: Conozca los conceptos básicos de un proyecto de señalización digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
@@ -17,7 +17,7 @@ En esta sección se ofrecen recomendaciones sobre los principales elementos clav
 
 ## Elementos clave en la señalización digital {#key-elements}
 
-El *Elementos clave* en un proyecto de señalización digital son:
+Los *elementos clave* de un proyecto de señalización digital son:
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
    Hardware define qué componentes de hardware son ideales para la implementación de proyectos de señalización digital:
    * ¿Tiene el dispositivo espacio de almacenamiento suficiente para ejecutar todas las variaciones de las experiencias sin conexión?
-   * ¿Ha permitido el tipo y la longitud del cable de vídeo? ¿Y el dispositivo admite ambas resoluciones deseadas (HD, FullHD, `4K`, etc.) y códecs de vídeo que planeo implementar (h.264, h.265, etc.)
+   * ¿Ha permitido el tipo y la longitud del cable de vídeo? ¿Es compatible el dispositivo con las resoluciones deseadas (HD, FullHD, `4K`, etc.) y los códecs de vídeo que planeo implementar (h.264, h.265, etc.)?
    * Uso de alambre de cobre físico
    * Tamaño de las pantallas
    * Número de pantallas

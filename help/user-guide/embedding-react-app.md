@@ -46,16 +46,16 @@ AEM SPA Siga los pasos a continuación para utilizar el Editor de:
 
    >[!NOTE]
    >
-   >Esta documentación utiliza el **GroupId** as ***com.adobe.aem.screens*** y el **ArtifactId** as ***SPA Mi ejemplo*** (que son los valores predeterminados). Puede elegir el suyo propio según sea necesario.
+   >SPA Esta documentación usa **GroupId** como ***com.adobe.aem.screens*** y **ArtifactId** como ***My SampleId*** (que son los valores predeterminados). Puede elegir el suyo propio según sea necesario.
 
 1. Una vez creado el proyecto, utilice un IDE o un editor de su elección e importe el proyecto Maven generado.
-1. AEM Implemente en la instancia de la instancia local de mediante el comando ***instalación limpia de mvn: PautoInstallPackage***.
+1. AEM Implemente en la instancia de local con el comando ***mvn clean install -PautoInstallPackage***.
 
 ### Edición de contenido en la aplicación REACT {#editing-content-in-the-react-app}
 
 Para editar el contenido en la aplicación REACT:
 
-1. Vaya a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (reemplace el nombre de host, el puerto y el nombre del proyecto según corresponda).
+1. Vaya a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (reemplace el nombre de host, puerto y nombre de proyecto según corresponda).
 1. Poder editar el texto mostrado en la aplicación Hello World.
 
 ### Adición de la aplicación interactiva REACT a AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
@@ -63,25 +63,25 @@ Para editar el contenido en la aplicación REACT:
 Siga los pasos a continuación para agregar la aplicación REACT interactiva a AEM Screens:
 
 1. Cree un proyecto de AEM Screens. Consulte [Creación y administración de proyectos](creating-a-screens-project.md) para obtener más información.
-1. Crear un **Canal de aplicaciones** (preferiblemente) (o plantilla 1x1 o canal de varias zonas) en el **Canales** del proyecto de AEM Screens.
+1. Cree un **canal de aplicación** (preferiblemente) (o una plantilla de 1x1 o un canal de varias zonas) en la carpeta **Canales** de su proyecto de AEM Screens.
 
    >[!NOTE]
-   >**Canales de secuencia** se desaconsejan para este caso de uso porque vienen inherentemente con una lógica de presentación de diapositivas que entra en conflicto con la naturaleza interactiva de la experiencia.
+   >Se desaconsejan **Canales de secuencia** para este caso de uso porque vienen inherentemente con una lógica de presentación de diapositivas que entra en conflicto con la naturaleza interactiva de la experiencia.
    >Consulte [Creación y administración de canales](managing-channels.md) para obtener más información.
 
 1. Edite cualquier canal de secuencia y arrastre y suelte un componente de página incrustado.
 
-   Consulte [Adición de componentes a un canal](adding-components-to-a-channel.md) para obtener más información.
+   Consulte [Agregar componentes a un canal](adding-components-to-a-channel.md) para obtener más información.
 
    >[!NOTE]
    >
    >Asegúrese de añadir el evento de interacción del usuario al asignar el canal a la visualización.
 
-1. Clic **Editar** en la barra de acciones para poder editar las propiedades del canal.
+1. Haga clic en **Editar** en la barra de acciones para poder editar las propiedades del canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Arrastre y suelte el **Página integrada** o reutilice el componente existente en un canal de aplicaciones y haga clic en la página principal de la aplicación mysamplespa, por ejemplo, ***/content/mysamplespa/en/home***.
+1. Arrastre y suelte el componente **Página incrustada** o reutilice el componente existente en un canal de aplicaciones y haga clic en la página principal de la aplicación mysamplespa; por ejemplo, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -100,7 +100,7 @@ SPA Siga los pasos a continuación para integrar la con Adobe Analytics con la c
 
 1. Configure Adobe Analytics en AEM Screens.
 
-   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información sobre cómo realizar la secuenciación en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
+   Consulte [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) para obtener más información sobre cómo realizar secuenciaciones en Adobe Analytics con AEM Screens y enviar eventos personalizados con Adobe Analytics sin conexión.
 
 1. Edite la aplicación react en el IDE/editor que elija (especialmente el componente de texto u otro componente que desee que emita eventos).
 1. En el evento de clic u otro evento que desee capturar para el componente, agregue la información de análisis mediante el modelo de datos estándar.

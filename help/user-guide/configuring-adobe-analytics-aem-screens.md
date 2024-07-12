@@ -39,7 +39,7 @@ El ***proceso de secuenciación*** comienza con un servicio de almacenamiento de
 
 En el siguiente diagrama de secuencia se explica la integración de Adobe Analytics con AEM Screens:
 
-![analytics_chunking](assets/analytics_chunking.png)
+![análisis_fragmentado](assets/analytics_chunking.png)
 
 ## Envío De Eventos Personalizados Mediante Adobe Analytics Sin Conexión {#sending-custom-events-using-offline-adobe-analytics}
 
@@ -99,7 +99,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td>recomendado</td> 
    <td>cadena</td> 
    <td> </td> 
-   <td>Nombre del flujo de trabajo (Pantallas)</td> 
+   <td>Nombre del flujo de trabajo (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td>Requerido</td> 
    <td>cadena</td> 
    <td> </td> 
-   <td>Categoría principal (ESCRITORIO, MÓVIL, WEB, PROCESO, SDK, SERVICIO, ECOSISTEMA): agrupación de tipos de eventos: <strong>Reproductor enviado</strong></td> 
+   <td>Categoría principal (ESCRITORIO, MÓVIL, WEB, PROCESO, SDK, SERVICIO, ECOSISTEMA): agrupación de tipos de eventos: <strong>Se envió el reproductor</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -234,10 +234,10 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td> </td> 
    <td>cadena</td> 
    <td> </td> 
-   <td>Descripción del error<br /> </td> 
+   <td>Descripción del error <br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>Producto de origen/original</em></strong></td> 
+   <td><strong><em>Source/Producto original</em></strong></td> 
    <td>Nombre</td> 
    <td>source.name</td> 
    <td>Requerido</td> 

@@ -26,7 +26,7 @@ AEM Los componentes de se utilizan para mantener, dar formato y representar el c
 
 ## Creación de canales {#authoring-channels}
 
-El canal es el objeto central del contenido enviado a un conjunto de pantallas. Por lo tanto, un autor de contenido suele abrir un canal en el editor para agregar o modificar contenido. Porque el canal es un ***`cq:Page`***, sigue el mismo patrón de experiencia de usuario tradicional para añadir y cambiar componentes en el canal.
+El canal es el objeto central del contenido enviado a un conjunto de pantallas. Por lo tanto, un autor de contenido suele abrir un canal en el editor para agregar o modificar contenido. Como el canal es un ***`cq:Page`***, sigue el mismo patrón de experiencia de usuario tradicional para agregar y cambiar componentes en el canal.
 
 Sin embargo, como los componentes de un canal suelen procesarse a pantalla completa, la experiencia de creación sufre al intentar editar componentes únicos o componer nuevos pedidos. Por lo tanto, el canal depende de selectores para procesar diferentes vistas de los componentes. El entorno de creación utiliza el selector de edición para activar el procesamiento del canal personalizado.
 
@@ -53,4 +53,4 @@ Los componentes integrados utilizan las siguientes categorías de biblioteca de 
 
 >[!NOTE]
 >
->Para desarrollar componentes personalizados, utilice el ***[Plantilla de componente de muestra de AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+>Para desarrollar componentes personalizados, use la ***[plantilla de componente de ejemplo de AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.

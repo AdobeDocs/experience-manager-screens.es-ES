@@ -22,7 +22,7 @@ ht-degree: 0%
 Esta sección cubre los siguientes temas sobre la actualización masiva sin conexión:
 
 * **Información general**
-* **Uso de actualización sin conexión masiva**
+* **Usando actualización sin conexión en lotes**
 
 <!-- OBSOLETE VERSIONS
 >[!CAUTION]
@@ -50,7 +50,7 @@ Puede utilizar manualmente la actualización sin conexión masiva desde la inter
 Siga los pasos a continuación para utilizar la actualización sin conexión masiva para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Haga clic en el proyecto y luego en **Actualizar contenido sin conexión** desde la barra de acciones para poder actualizar manualmente el contenido del canal.
+1. Haga clic en el proyecto y luego en **Actualizar contenido sin conexión** en la barra de acciones para que pueda actualizar manualmente el contenido del canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -65,7 +65,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
 1. Añada las siguientes propiedades:
 
-   **Ruta de proyecto** Especifique la ruta del proyecto de AEM Screens. El camino suele ser `/content/screens/<Name of your project>`.
+   **Ruta del proyecto** Especifique la ruta de su proyecto de AEM Screens. La ruta de acceso suele ser `/content/screens/<Name of your project>`.
 
    *Por ejemplo*, `/content/screens/we-retail`. Puede encontrar esta ruta en la dirección URL seleccionando cualquier proyecto en AEM Screens (no haga clic en el icono).
 
@@ -73,6 +73,6 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
    >
    >Especifique la ruta del proyecto relativa al canal.
 
-   **Frecuencia de programación** Especifique la hora, por ejemplo, 5:00 p. m. o 17:00 p. m. a la que este servicio debe actualizar el contenido sin conexión.
+   **Frecuencia de horario** Especifique una hora, por ejemplo, 5:00 p.m. o 17:00 a las que este servicio debe actualizar el contenido sin conexión.
 
-1. Clic **Guardar** para guardar la configuración. El contenido se actualiza a la hora especificada.
+1. Haz clic en **Guardar** para guardar la configuración. El contenido se actualiza a la hora especificada.

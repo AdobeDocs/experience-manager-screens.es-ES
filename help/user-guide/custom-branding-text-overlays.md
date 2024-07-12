@@ -21,7 +21,7 @@ Aprenda a aplicar una marca y un estilo personalizados a las superposiciones de 
 
 Siga los pasos a continuación para crear una personalización de marca y estilo para las superposiciones de texto:
 
-1. Cree un proyecto de AEM Screens. Este ejemplo muestra la funcionalidad creando un proyecto denominado **`customstyle`** y un canal titulado **DemoBrand**, como se muestra en la figura siguiente.
+1. Cree un proyecto de AEM Screens. Este ejemplo muestra la funcionalidad creando un proyecto denominado **`customstyle`** y un canal denominado **DemoBrand**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -34,11 +34,11 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 
 1. Vaya al CRXDE Lite AEM desde la instancia de la > Herramientas > **CRXDE Lite**.
 
-1. Creación de un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`, por ejemplo, en este caso, vaya a `/apps/settings/wcm/designs/customstyle/`
+1. Crear un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`; por ejemplo, en este caso, vaya a `/apps/settings/wcm/designs/customstyle/`
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Crear un *static.css* y establezca las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
+1. Cree un archivo *static.css* y establezca las siguientes reglas css. También se muestra como ejemplo en la figura debajo de las reglas css.
 
    ```shell
     //global styles
@@ -65,56 +65,56 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Copie la ruta al proyecto; en este caso, la ruta es `/apps/settings/wcm/designs/customstyle`.
+1. Copie la ruta de acceso a su proyecto; en este caso, la ruta de acceso es `/apps/settings/wcm/designs/customstyle`.
 
-1. Vaya al canal con el título **DemoBrand** (creado en el paso(1)) y haga clic en **Propiedades** en la barra de acciones después de seleccionar el canal.
+1. Vaya al canal con el título **DemoBrand** (creado en el paso ) y haga clic en **Propiedades** de la barra de acciones después de seleccionar el canal.
 
-1. Vaya a **Avanzadas** y marque la **Diseño** field.
+1. Vaya a la pestaña **Avanzado** y marque el campo **Diseño**.
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >De forma predeterminada, la variable **Diseño** muestra la ruta que señala a los diseños de la carpeta libs.
+   >De forma predeterminada, el campo **Diseño** muestra la ruta que señala a los diseños de la carpeta libs.
 
-1. Actualice el **Diseño** con la ruta a la carpeta del proyecto. En este caso, es `/apps/settings/wcm/designs/customstyle`.
+1. Actualice el campo **Diseño** con la ruta a la carpeta del proyecto. En este caso, es `/apps/settings/wcm/designs/customstyle`.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Clic **Guardar y cerrar** para actualizar la ruta de diseño.
+1. Haga clic en **Guardar y cerrar** para actualizar la ruta de diseño.
 
    >[!IMPORTANT]
-   >Si lo desea, puede superponer las plantillas de Screens existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más información.
+   >Opcionalmente, puede superponer las plantillas de Screens existentes para insertar sus propios diseños de forma predeterminada o crear su propia plantilla por completo. Consulte los pasos a continuación para obtener más información.
 
 1. Para superponer las plantillas de Screens existentes e insertar sus propios diseños de forma predeterminada:
 
-   1. Superposición `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. Modifique la *`cq:designPath`* propiedad en `/apps/screens/core/templates/sequencechannel/jcr:content` para que apunte al nuevo diseño.
+   1. Superposición `/libs/screens/core/templates/sequencechannel` en `/apps/screens/core/templates/sequencechannel`.
+   1. Modifique la propiedad *`cq:designPath`* en `/apps/screens/core/templates/sequencechannel/jcr:content` para que apunte al nuevo diseño.
 
 1. Para crear su propia plantilla:
    1. Copie `/libs/screens/core/templates/sequencechannel` en `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Modifique la *`cq:designPath`* propiedad en `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para que apunte al nuevo diseño.
+   1. Modifique la propiedad *`cq:designPath`* en `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para que apunte al nuevo diseño.
 
 
 ### Actualización de ACL {#updating-acls}
 
 Actualice las ACL de estos diseños para que el reproductor pueda descargarlos.
 
-1. Vaya al administrador de usuarios y elija `screens-<project>-devices group` y conceda permiso de lectura a la ruta de diseño personalizada.
+1. Vaya a la administración de usuarios, elija `screens-<project>-devices group` y asígnele permiso de lectura en la ruta de diseño personalizada.
 
-1. Proporcionar `screens-<project>-administrators` permisos de lectura y modificación de grupo para esta ruta.
+1. Proporcione permisos de lectura y modificación del grupo `screens-<project>-administrators` a esta ruta.
 
 ## Visualización del resultado {#viewing-the-result}
 
-Cuando haya completado los pasos anteriores, puede actualizar su *stats.css* archivo de **CRXDE Lite** y, por lo tanto, vea la actualización de la superposición de texto que ya se ha agregado al recurso.
+Cuando haya completado los pasos anteriores, puede actualizar su archivo *stat.css* desde **CRXDE Lite** y, por lo tanto, ver la actualización de la superposición de texto que ya se ha agregado al recurso.
 
 Siga los pasos a continuación para ver el diseño actualizado en la superposición de texto:
 
-1. Vaya al proyecto de AEM Screens titulado como **`customstyle`** > **Canales** > **DemoBrand**. Haga clic en el canal y en **Editar** de la barra de acciones.
+1. Vaya a su proyecto de AEM Screens titulado **`customstyle`** > **Canales** > **DemoBrand**. Haga clic en el canal y luego en **Editar** en la barra de acciones.
 
-1. Dado que ahora ha añadido el diseño a su **Diseños** , como se ha mencionado anteriormente, haga clic en **Previsualizar** para ver el estilo actual en la imagen con superposición de texto.
+1. Dado que ahora ha agregado el diseño a su campo **Diseños**, como se mencionó anteriormente, haga clic en **Vista previa** para ver el estilo actual en la imagen con superposición de texto.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navegue hasta su *static.css* en el CRXDE Lite y agregue la fuente, como, `font-family: "Lucida Console", Courier, monospace;` a este archivo, como se muestra a continuación.
+1. Vaya al archivo *static.css* en el CRXDE Lite y agregue la fuente `font-family: "Lucida Console", Courier, monospace;` a este archivo, como se muestra a continuación.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
@@ -122,7 +122,7 @@ Siga los pasos a continuación para ver el diseño actualizado en la superposici
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Además, puede eliminar los dos últimos bloques de código de la *static.css* para quitar el estilo de la caja alrededor de la superposición de texto.
+1. Además, puede quitar los dos últimos bloques de código del archivo *static.css* para quitar el estilo en forma de caja alrededor de la superposición de texto.
 
 ![imagen](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

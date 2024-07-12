@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En esta sección se describe el contenido bajo demanda para la administración de publicaciones.
 
-## Administración de publicaciones: entrega de actualizaciones de contenido del autor para su publicación en el dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Administración de publicaciones: entrega de actualizaciones de contenido de Autor a Publish y a dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 Puede publicar y cancelar la publicación de contenido desde AEM Screens. La función Administrar publicación permite enviar actualizaciones de contenido desde el autor a la publicación en el dispositivo. Puede publicar/cancelar la publicación del contenido de todo el proyecto de AEM Screens o solo de uno de los canales, la ubicación, el dispositivo, la aplicación o una programación.
 
@@ -26,19 +26,19 @@ Puede publicar y cancelar la publicación de contenido desde AEM Screens. La fun
 Siga los pasos a continuación para enviar actualizaciones de contenido de autor a publicación en dispositivo para un proyecto de AEM Screens:
 
 1. Vaya al proyecto de AEM Screens.
-1. Clic **Administrar publicación** en la barra de acciones para poder publicar el proyecto en la instancia de publicación.
+1. Haga clic en **Administrar publicación** en la barra de acciones para poder publicar el proyecto en la instancia de Publish.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. El **Administrar publicación** Se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
+1. Se abre el asistente **Administrar publicación**. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Marque la casilla para poder hacer clic en todo el proyecto desde el **`Manage Publication`** asistente.
+1. Marque la casilla para que pueda hacer clic en todo el proyecto desde el asistente **`Manage Publication`**.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Clic **+ Incluir elementos secundarios** en la barra de acciones, desmarque todas las opciones para poder publicar todos los módulos del proyecto y haga clic en **Añadir** para publicar.
+1. Haga clic en **+ Incluir elementos secundarios** en la barra de acciones, desmarque todas las opciones para poder publicar todos los módulos del proyecto y haga clic en **Agregar** para publicar.
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ Siga los pasos a continuación para enviar actualizaciones de contenido de autor
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
-   **Descripción de Incluir elementos secundarios, cuadro de diálogo**
+   **Descripción del cuadro de diálogo Incluir elementos secundarios**
 
    Los pasos mencionados anteriormente muestran cómo publicar todo el contenido. Si desea utilizar las otras tres alternativas disponibles, debe marcar esa opción en particular.
 Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar solo las páginas modificadas del proyecto:
@@ -54,12 +54,15 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
 
    Siga las explicaciones siguientes para comprender las opciones disponibles:
 
-   1. **Incluir solo los elementos secundarios inmediatos**: Esta opción permite administrar las actualizaciones solo a los subnodos de la estructura del proyecto.
-   1. **Incluir solo las páginas modificadas**: Esta opción permite administrar las actualizaciones solo en las páginas modificadas del proyecto en las que los cambios se encuentren en la estructura del proyecto.
-   1. **Incluir solo las páginas ya publicadas**: Esta opción permite administrar las actualizaciones solo de las páginas publicadas anteriormente.
+   1. **Incluir solo elementos secundarios inmediatos**:
+Esta opción permite administrar las actualizaciones únicamente en los subnodos de la estructura del proyecto.
+   1. **Incluir solo las páginas modificadas**:
+Esta opción le permite administrar las actualizaciones únicamente en las páginas modificadas del proyecto en las que los cambios se encuentren en la estructura del proyecto.
+   1. **Incluir solo las páginas ya publicadas**:
+Esta opción le permite administrar las actualizaciones solo de las páginas publicadas anteriormente.
 
 
-1. Desde el **`Manage Publication wizard`**, haga clic en **Publish**.
+1. En **`Manage Publication wizard`**, haga clic en **Publish**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -68,13 +71,13 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
    >
    >
-   >    1. El flujo de trabajo no funciona si no hay cambios en el proyecto ni nada para **Actualizar contenido sin conexión**.
-   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de seleccionar **Publish** en el flujo de trabajo de administración de publicaciones.
+   >    1. El flujo de trabajo no funcionará si no hay cambios en el proyecto ni nada para **Actualizar contenido sin conexión**.
+   >    1. El flujo de trabajo no funcionará si el autor no completa el proceso de replicación (el contenido aún se está cargando en la instancia de publicación) después de seleccionar el botón **Publish** en el flujo de trabajo de administración de publicaciones.
 
    >[!CAUTION]
-   >Como creador de contenido, si desea ver los cambios en los dispositivos conectados a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel de canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
+   >Como creador de contenido, si desea ver los cambios en los dispositivos adjuntos a la instancia de autor, haga clic en **Actualizar contenido sin conexión** en el panel del canal o seleccionando el proyecto. En este caso, la actualización del contenido sin conexión solo se realiza en la instancia de autor.
 
-1. Vaya al proyecto y haga clic en **Actualizar contenido sin conexión** de la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de publicación.
+1. Vaya al proyecto y haga clic en **Actualizar contenido sin conexión** desde la barra de acciones. Esta acción reenvía el mismo comando a la instancia de publicación, de modo que los archivos zip sin conexión se crean también en la instancia de Publish.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -89,22 +92,22 @@ Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar so
 
 ### Administración de la publicación de un canal {#managing-publication-for-a-channel}
 
-Siga los pasos a continuación para entregar actualizaciones de contenido de Autor > Publicar > Dispositivo para un canal en un proyecto de AEM Screens:
+Siga los pasos a continuación para entregar actualizaciones de contenido de Autor > Publish > Dispositivo para un canal en un proyecto de AEM Screens:
 
 >[!NOTE]
 >
 >Siga esta sección solo si hay cambios en un canal. Si un canal no tiene ningún cambio después de la actualización anterior del contenido sin conexión, el flujo de trabajo de administración de publicaciones de un canal individual no funcionará.
 
 1. Vaya al proyecto de AEM Screens y haga clic en el canal.
-1. Clic **Administrar publicación** en la barra de acciones para poder publicar el canal en la instancia de publicación.
+1. Haga clic en **Administrar publicación** en la barra de acciones para poder publicar el canal en la instancia de Publish.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. El **Administrar publicación** Se abre el asistente. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
+1. Se abre el asistente **Administrar publicación**. Puede hacer clic en **Acción** y también programar la hora de publicación para ahora o más tarde. Haga clic en **Siguiente**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Clic **Publish** desde el **`Manage Publication`** asistente.
+1. Haga clic en **Publish** desde el asistente de **`Manage Publication`**.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -112,13 +115,13 @@ Siga los pasos a continuación para entregar actualizaciones de contenido de Aut
    >
    >Espere unos segundos/minutos para que el contenido llegue a la instancia de publicación.
 
-1. Activador **Actualizar contenido sin conexión** en el panel de canal solo inserta el contenido sin conexión en la instancia de autor, pero no en la instancia de publicación. Los pasos del 1 al 4 sirven para insertar contenido sin conexión en una instancia de publicación.
+1. Al activar **Actualizar contenido sin conexión** en el panel del canal, solo se inserta el contenido sin conexión en la instancia de autor, pero no en la instancia de publicación. Los pasos del 1 al 4 son para insertar contenido sin conexión en una instancia de Publish.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Publique primero y, a continuación, almacene en déclencheur el contenido sin conexión de actualización como se resume en los pasos anteriores.
+   >En primer lugar, Publish y, a continuación, almacene en déclencheur el contenido sin conexión de actualización como se resume en los pasos anteriores.
 
 ### Reasignación de canales y dispositivos: {#channel-and-device-re-assignment}
 

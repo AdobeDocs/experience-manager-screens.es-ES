@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 ## Disponibilidad {#availability}
 
 AEM Screens AEM ha lanzado el paquete de funciones 5 de la versión 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.5 de AEM Screens en [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a **Adobe Experience Manager** pestaña y busque **Screens** para obtener el paquete de funciones más reciente.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.5 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el paquete de funciones más reciente.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -30,17 +30,17 @@ La fecha de lanzamiento del paquete de funciones 202008 de AEM Screens es el 3 d
 
 ### Novedades {#what-is-new}
 
-* **Vista de cronología en el tablero de programa**
+* **Vista de escala de tiempo en el tablero de horario**
 
   La vista Cronología permite al usuario ver las programaciones asignadas al canal desde el panel de visualización.
 
-  Consulte [Vista Cronología](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obtener más información.
+  Consulte [Vista de escala de tiempo](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obtener más información.
 
 * **Horario de periodicidad**
 
   El Horario de periodicidad le permite establecer una programación recurrente para su canal. Puede configurar varias programaciones de periodicidad para un canal.
 
-  Consulte [Horario de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más información.
+  Consulte [Programación de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más información.
 
 * **Funciones de reconocimiento de voz en AEM Screens**
 
@@ -52,9 +52,10 @@ La fecha de lanzamiento del paquete de funciones 202008 de AEM Screens es el 3 d
 
 ### Problemas y correcciones conocidos {#known-issues}
 
-Configure un entorno para el reproductor Windows o Android™ si utiliza el paquete de servicio de AEM Screens 6.5.5.
+Configure un entorno para Windows o el reproductor Android™ si utiliza el paquete de servicio de AEM Screens 6.5.5.
 
-Configure las variables **Atributo SameSite para las cookies de token de inicio de sesión** de **Laxo** hasta **Ninguno** de **Configuración de la consola web Adobe Experience Manager** AEM en todas las instancias de autor y publicación de la.
+Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None** desde la **consola web de Adobe Experience Manager
+AEM Configuración** en todas las instancias de autor y publicación de la.
 
 * Consulte [Implementación del Reproductor de Windows 10](implementing-windows-player.md#fp-environment-setup) para obtener más información.
 
@@ -64,10 +65,10 @@ Configure las variables **Atributo SameSite para las cookies de token de inicio 
 
 Los siguientes reproductores de AEM Screens se incluyen en el paquete de funciones 5 de AEM Screens AEM lanzado con la versión 6.5 de la versión 19999000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
-* Chrome OS
+* SO CHROME
 * Windows
 * Android™
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte **[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/index.html)**.

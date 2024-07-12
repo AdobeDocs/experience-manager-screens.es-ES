@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM es compatible con el mantenimiento de la plataforma Pantallas de la versión 6.3 de.
+>El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
 
 AEM Screens AEM AEM ha lanzado el paquete de funciones 5 de la versión 6.4.5 de la versión 6.1 y el paquete de funciones 1 de la versión 6.5.1 de la versión con los siguientes detalles.
 
@@ -31,12 +31,12 @@ La fecha de lanzamiento del paquete de funciones 201907 de AEM Screens es el 31 
 
 ### Novedades {#what-s-new}
 
-* **El Déclencheur de datos impulsa el cambio de recursos en un canal de AEM Screens**
+* **El Déclencheur de datos genera cambios de recursos en un canal de AEM Screens**
 
 El reproductor cambia a un canal que muestra información de emergencia. El sistema de emergencia envía esta información cuando recibe un evento. El canal se reproduce exclusivamente hasta que termine la situación de emergencia.
 
 
-Consulte [Canal de emergencia](emergency-channel.md) Caso de uso de para la implementación.
+Consulte el caso de uso [Canal de emergencia](emergency-channel.md) para la implementación.
 
 * **Segmentación habilitada para componentes asincrónicos
 
@@ -46,9 +46,9 @@ Para obtener más información sobre cómo habilitar el direccionamiento para lo
 
 Después de configurar ContextHub para el proyecto de AEM Screens, siga diferentes casos de uso para comprender cómo los recursos activados por datos desempeñan un papel vital en diferentes industrias:
 
-**[Activación segmentada de inventario comercial](retail-inventory-activation.md)**
+**[Activación objetivo de inventario comercial](retail-inventory-activation.md)**
 
-**[Activación de temperatura del centro de viajes](local-temperature-activation.md)**
+**[Activación de temperatura en el centro de viajes](local-temperature-activation.md)**
 
 **[Activación de reserva de hospitalidad](hospitality-reservation-activation.md)**
 
@@ -75,4 +75,4 @@ Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de
 
 #### Descargas del reproductor AEM Screens
 
-Para descargar el último Reproductor de AEM Screens y obtener más información sobre las correcciones de errores, consulte [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/).
+Para descargar el Reproductor de AEM Screens más reciente y obtener más información sobre las correcciones de errores, consulte [Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/).

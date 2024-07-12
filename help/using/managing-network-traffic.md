@@ -17,7 +17,7 @@ En esta guía se destaca la introducción a los servidores proxy, seguida de las
 
 >[!NOTE]
 >**Requisitos de red de AEM Screens**
->AEM Screens AEM se comunica directamente con el as a Cloud Service de la, por lo que es necesario establecer una conexión estable entre los dos nodos. Los firewalls son obligatorios para el acceso comercial a Internet. Como cliente, es importante saber qué puertos de comunicación deben abrirse en estos servidores de seguridad y en otros componentes de red relacionados con la seguridad de TI.
+>AEM Screens se comunica directamente con AEM as a Cloud Service, por lo que es necesario establecer una conexión estable entre los dos nodos. Los firewalls son obligatorios para el acceso comercial a Internet. Como cliente, es importante saber qué puertos de comunicación deben abrirse en estos servidores de seguridad y en otros componentes de red relacionados con la seguridad de TI.
 
 ## Introducción a los servidores proxy {#proxy-servers}
 
@@ -33,16 +33,16 @@ Para implementar una Configuración de red, consulte los siguientes escenarios c
 
 En esta guía se destacan cuatro tipos diferentes de configuraciones de red dentro de una organización:
 
-* **[Red de Internet directa (por cable/inalámbrica)](/help/using/direct-internet-network.md)**
+* **[Red de Internet directa (por cable o inalámbrica)](/help/using/direct-internet-network.md)**
 * **[Red móvil directa](/help/using/mobile-network.md)**
 * **[Red móvil con el enrutador de datos móvil y componentes de red activos](/help/using/mobile-network-router.md)**
-* **[Red corporativa cerrada (por cable/inalámbrica)](/help/using/enclosed-corporate-network.md)**
+* **[Red Corporativa Cerrada (Por Cable/Inalámbrica)](/help/using/enclosed-corporate-network.md)**
 
 En la tabla siguiente se describen los diferentes tipos de configuraciones de red con ventajas y desventajas:
 
 | Configuración de red | Ventajas | Desventajas |
 |--- |--- |--- |
-| **Red de Internet directa (por cable/inalámbrica)** | Fácil y directo a SetUp<br>Buena opción para instalaciones medianas o grandes<br>La red dedicada se puede encapsular<br>Pocos puntos de error<br>Relativamente barato<br>Buena escalabilidad | Plan de datos obligatorio de Internet |
-| **Red móvil directa** | Fácil de configurar<br>Buena opción para instalaciones medianas o grandes<br>Buena escalabilidad<br>Pantallas encapsuladas | Conexión obligatoria a Internet |
-| **Red móvil con el enrutador de datos móvil y componentes de red activos** | Fácil de configurar<br>Buena opción para instalaciones medianas o grandes<br>La red dedicada se puede encapsular<br>Pocos puntos de error<br>Relativamente barato<br>Buena escalabilidad | Plan de datos obligatorio de Internet |
-| **Red corporativa cerrada (por cable/inalámbrica)** | Gran flexibilidad y escalabilidad<br>Altamente seguro debido a las diferentes líneas de defensa<br>Redes encapsuladas<br>Fácil de monitorizar y mantener<br>Fiable | Complicado y caro<br>Recomendado para especialistas en redes o integradores de sistemas |
+| **Red de Internet directa (por cable o inalámbrica)** | Fácil y directo a SetUp<br>Buena opción para instalaciones medianas o grandes<br>La red dedicada se puede encapsular<br>Pocos puntos de error<br>Relativamente barata<br>Buena escalabilidad | Plan de datos obligatorio de Internet |
+| **Red móvil directa** | Fácil de configurar<br>Buena elección para instalaciones medianas o grandes<br>Buena escalabilidad<br>Screens encapsulado | Conexión obligatoria a Internet |
+| **Red móvil con el enrutador de datos móvil y componentes de red activos** | Fácil de configurar<br>Buena elección para instalaciones medianas o grandes<br>La red dedicada se puede encapsular<br>Pocos puntos de error<br>Es relativamente barata<br>Buena escalabilidad | Plan de datos obligatorio de Internet |
+| **Red Corporativa Cerrada (Por Cable/Inalámbrica)** | Alta flexibilidad y escalabilidad<br>Altamente seguras gracias a las diferentes líneas de defensa<br>Redes encapsuladas<br>Fáciles de supervisar y mantener<br>Confiables | Complicado y caro<br>Recomendado para especialistas en redes o integradores de sistemas |

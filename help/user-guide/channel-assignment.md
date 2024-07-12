@@ -15,7 +15,7 @@ ht-degree: 2%
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
->AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Pantallas de la versión 6.5.5 de la versión de.
+>AEM En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de Screens de la versión 6.5.5 de.
 
 Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
 
@@ -28,19 +28,19 @@ Esta página muestra la asignación de un canal a la visualización.
 
 Siga los pasos a continuación para asignar un canal a una visualización:
 
-1. Navegue hasta la visualización requerida, por ejemplo, **DemoProject** > **Ubicaciones** > **San José** > **StoreDisplay**.
+1. Vaya a la pantalla requerida, por ejemplo, **DemoProject** > **Ubicaciones** > **SanJose** > **StoreDisplay**.
 
    ![imagen](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Clic **Asignar canal** en la barra de acciones.
+1. Haga clic en **Asignar canal** en la barra de acciones.
 
    o,
 
-   Clic **Tablero** y haga clic en **+Asignar canal** desde el **CANALES ASIGNADOS** para poder abrir el panel **Asignación de canales** Cuadro de diálogo.
+   Haga clic en **Panel** y luego en **+Asignar canal** en el panel **CANALES ASIGNADOS** para poder abrir el cuadro de diálogo **Asignación de canal**.
 
    ![imagen](/help/user-guide/assets/channel-assign1.png)
 
-   Puede configurar las propiedades desde el **Asignación de canales** Cuadro de diálogo de la sección siguiente. Consulte la [Propiedades de canal](#channel-properties) para obtener más información sobre las propiedades del canal.
+   Puede configurar las propiedades desde el cuadro de diálogo **Asignación de canal** en la sección siguiente. Consulte la sección [Propiedades del canal](#channel-properties) para obtener más información sobre las propiedades del canal.
 
 ## Explicación de las propiedades de canal de la asignación de canal {#channel-properties}
 
@@ -48,9 +48,9 @@ Siga los pasos a continuación para asignar un canal a una visualización:
 
 Un canal de referencia permite proporcionar una referencia al canal deseado, ya sea por nombre de canal o por ruta de canal.
 
-* **por ruta** : Se proporciona una referencia explícita utilizando la ruta absoluta del canal.
+* **por ruta de acceso**: se proporciona una referencia explícita mediante la ruta de acceso absoluta del canal.
 
-* **por nombre** : Introduzca el nombre del canal que se resuelve en un canal real por contexto. Esta función permite crear una versión local de un canal para poder resolver de forma dinámica contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero el canal sigue teniendo una función sensata en todas las pantallas.
+* **por nombre**: escribe el nombre del canal que se resuelve en un canal real por contexto. Esta función permite crear una versión local de un canal para poder resolver de forma dinámica contenido específico de la ubicación. Por ejemplo, un canal con el nombre *ofertas del día*, donde el contenido real sería diferente en dos ciudades, pero aún tiene el rol de canal simulado en todas las pantallas.
 
 ### Función del canal {#role-channel}
 
@@ -61,46 +61,46 @@ La función Canal define el contexto de la visualización. La función se dirige
 La prioridad se usa para ordenar las asignaciones en caso de que varias coincidan con los criterios de reproducción. El que tiene el valor más alto siempre tiene prioridad sobre los valores más bajos. Por ejemplo, si hay dos canales, A y B. A tiene una prioridad de 1 y B tiene una prioridad de 2. A continuación, se muestra el canal B, ya que tiene una prioridad mayor que A.
 
 >[!NOTE]
->La prioridad de un canal se establece como un número (1 como mínimo) en la variable **Asignación de canales** , como se ha mencionado anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
+>La prioridad de un canal se establece como un número (1 como mínimo) en el cuadro de diálogo **Asignación de canal**, como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
 ### Eventos admitidos {#supported-events-channel}
 
-* **Carga inicial** - Carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales con una programación.
-* **Pantalla inactiva** - Se carga cuando la pantalla está inactiva. Se puede asignar a varios canales con una programación.
-* **Temporizador** - Debe configurarse cuando se proporciona una programación.
-* **Interacción del usuario** - El reproductor cambia al canal especificado si hay una interacción del usuario en la pantalla (táctil) en un canal inactivo y se carga cuando se toca la pantalla.
+* **Carga inicial**: carga el canal cuando se inicia el reproductor. Se puede asignar a varios canales con una programación.
+* **Pantalla inactiva**: se carga cuando la pantalla está inactiva. Se puede asignar a varios canales con una programación.
+* **Temporizador**: debe establecerse cuando se proporcione una programación.
+* **Interacción de usuario**: el reproductor cambia al canal especificado si hay una interacción de usuario en la pantalla (táctil) en un canal inactivo y se carga cuando se toca la pantalla.
 
 ### Método de interrupción {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
-> Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or -->AEM Paquete de funciones 4 para.5.
+> AEM Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or -->Paquete de funciones 4 de 6.5 de.
 
 Como autor de contenido, especifique cuándo se interrumpe un canal. Al hacerlo, puede cortar el contenido no crítico si lo desea, pero también puede permitir que el contenido importante se reproduzca antes de cortar su reproducción debido a la programación.
 
-Haga clic en una de las siguientes opciones que están disponibles para establecer el método de interrupción desde el **Asignación de canales** Cuadro de diálogo:
+Haga clic en una de las siguientes opciones disponibles para establecer el método de interrupción desde el cuadro de diálogo **Asignación de canal**:
 
-* **Inmediata** : Siempre que se active la programación o se reciba una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido.
-* **Al final del elemento actual** : Cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que el elemento actual de la secuencia termine de reproducirse. Solo después de eso puede actualizar o reproducir el nuevo contenido.
+* **Inmediatamente**: cada vez que se active la programación o se reciba una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido.
+* **Al final del elemento actual**: cuando se active una nueva programación o se reciba una actualización, puede esperar opcionalmente a que el elemento actual de la secuencia termine de reproducirse. Solo después de eso puede actualizar o reproducir el nuevo contenido.
 
   >[!NOTE]
   >Esta opción está seleccionada de forma predeterminada.
-* **Al final de la secuencia** : Cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que toda la secuencia llegue a su final. A continuación, justo antes de la secuencia deseada, puede volver al primer elemento, actualizar o reproducir el nuevo contenido.
+* **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que toda la secuencia llegue a su final. A continuación, justo antes de la secuencia deseada, puede volver al primer elemento, actualizar o reproducir el nuevo contenido.
 
   >[!NOTE]
   >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se difieran ligeramente. El motivo es que el reproductor espera el final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso depende de la duración de reproducción del elemento.
 
 ### Programación {#schedule-channel}
 
-Programar permite proporcionar una descripción en texto cuando el canal debe aparecer. También permite definir una fecha de inicio (**activo desde**) y una fecha de finalización (**activo hasta**) para que se muestre el canal.
+Programar permite proporcionar una descripción en texto cuando el canal debe aparecer. También le permite definir una fecha de inicio (**activa desde**) y una fecha de finalización (**activa hasta**) para que se muestre el canal.
 
-**Mostrar información de atracción**
+**Mostrar información sobre atracciones**
 
-Mostrar información sobre la atracción define si la información sobre la atracción (&quot;*Toque en cualquier lugar para empezar*&quot;) se debe mostrar o no mientras se ejecuta el canal.
+Mostrar información de objeto de atracción define si la información de objeto de atracción (&quot;*Pulsar en cualquier lugar para comenzar*&quot;) debe mostrarse o no mientras se ejecuta el canal.
 
 ### DayParting {#dayparting}
 
-Programaciones, cuando se combinan con **DayParting**, permite establecer una programación global con varios canales en ejecución a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
+Programaciones, cuando se combina con **DayParting**, le permite establecer una programación global con varios canales que se ejecutan a horas específicas del día y reutilizar esa configuración para todas las pantallas a la vez.
 
 DayParting se refiere a dividir un día en espacios de tiempo y especificar qué contenido se reproduce a la hora deseada. AEM Screens permite programar canales en términos de Partición del día en un día, una semana o un mes según sea necesario.
 
@@ -134,13 +134,13 @@ Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo 
    <td>LiveConcert</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 de octubre de 2017: 22 de octubre de 2017 <br /> después de las 20:00 antes de las 22:00</td>
+   <td>Del 21 de octubre de 2017 al 22 de octubre de 2017 <br /> después de las 20:00 antes de las 22:00</td>
   </tr>
   <tr>
    <td>SpecialsDinner</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 de octubre de 2017: 22 de octubre de 2017 <br /> después de las 22:00 antes de la 1:00</td>
+   <td>Del 21 de octubre de 2017 al 22 de octubre de 2017 <br /> después de las 22:00 antes de la 1:00</td>
   </tr>
  </tbody>
 </table>
@@ -158,7 +158,7 @@ Aquí puede crear DayParting por mes, de modo que el contenido del canal se repr
 
 >[!NOTE]
 >
->Además, puede definir lo siguiente ***Prioridad*** para cada uno de los canales. Por ejemplo, si se establecen dos canales para el mismo día y hora o para el mismo mes, el canal con mayor prioridad se reproduce primero. El valor mínimo de prioridad puede establecerse como 0.
+>Además, puede definir ***Prioridad*** para cada uno de los canales. Por ejemplo, si se establecen dos canales para el mismo día y hora o para el mismo mes, el canal con mayor prioridad se reproduce primero. El valor mínimo de prioridad puede establecerse como 0.
 
 #### Reproducción de contenido para canales con la misma prioridad {#playing-content-for-channels-with-same-priority}
 
@@ -175,4 +175,4 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 > Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
 >* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Administrar la periodicidad de los recursos de un canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
