@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 11%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 11%
    + [Guía de KickStart](kickstart-for-aem-screens.md)
    + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/using/about-guide)
    + [Términos clave](screens-glossary.md)
+   + [Terminología y conceptos de Screens](screens-concepts-feature-video-understand.md)
 + Conceptos básicos de red de señalización digital {#digital-signage-network}
    + [Parte 1: Funciones y responsabilidades del proyecto](project-roles-responsibilities.md)
    + [Parte 2: Consideraciones a medida que los proyectos se amplían](project-considerations.md)
