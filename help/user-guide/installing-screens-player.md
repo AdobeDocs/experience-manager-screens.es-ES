@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -57,6 +57,7 @@ En cada `ping` se incluyen las siguientes propiedades:
 | lastContentChange {string} | marca de tiempo del último cambio de contenido |
 
 >[!NOTE]
+>
 >De forma opcional, se puede activar una propiedad más avanzada en las preferencias del reproductor (Activar monitorización de reproducción), que puede ser:
 >
 >| Propiedad | Descripción |
