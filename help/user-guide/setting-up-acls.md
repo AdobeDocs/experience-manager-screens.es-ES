@@ -1,6 +1,6 @@
 ---
 title: Configuración de ACL
-description: Aprenda a separar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto.
+description: Aprenda a separar proyectos mediante Listas de control de acceso (ACL) para que cada individuo o equipo administre su propio proyecto.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
 
-# Configuración de ACL {#setting-up-acls}
+# Configuración de listas de control de acceso (ACL) {#setting-up-acls}
 
-En la siguiente sección se explica cómo separar proyectos mediante ACL para que cada individuo o equipo gestione su propio proyecto.
+En la siguiente sección se explica cómo separar proyectos mediante Listas de control de acceso (ACL) para que cada individuo o equipo administre su propio proyecto.
 
 AEM Como administrador de un proyecto, desea asegurarse de que los integrantes del equipo de un proyecto no interfieran con otros proyectos. A cada usuario se le asignan funciones específicas según los requisitos del proyecto.
 
