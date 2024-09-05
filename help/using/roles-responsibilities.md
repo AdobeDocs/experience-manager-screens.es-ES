@@ -2,9 +2,9 @@
 title: Funciones y responsabilidades del proyecto AEM Screens
 description: Obtenga información acerca de las funciones y responsabilidades del proyecto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ AEM Los implementadores suelen implementar la funcionalidad personalizada por fa
 El integrador de audio y vídeo es el proveedor-socio de hardware. Son la parte que se ocupa del diseño comercial y la preparación del sitio, incluida la adquisición, configuración e implementación de hardware. Suele ser un tercero contratado que tiene acceso a un centro de operaciones de red (NOC). A menudo, el integrador de audio y vídeo es el propietario del proyecto debido a su implicación continua después del lanzamiento.
 
 Un integrador de audio y vídeo es responsable de llevar a cabo la detección con los clientes finales para definir los requisitos y determinar el ámbito del proyecto para diseñar, crear y administrar de forma eficaz las implementaciones en torno al hardware de señalización digital.
+
+>[!NOTE]
+>
+> Debe tener un integrador de audio y vídeo como parte de la implementación de AEM Screens.
 
 #### Considerar partner de hardware {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (preparaci
 | Horario de incorporación comercial | I | I | C | RA |
 | Pruebas de aceptación de usuarios de ensayo | I | C | RA |   |
 | Configuración masiva de hardware | RA | I | C | I |
-| Acuerdo de asistencia para Post Launch | RA | C | RA | C |
+| Acuerdo de asistencia posterior al lanzamiento | RA | C | RA | C |
 
 La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
@@ -173,7 +177,7 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 
 >[!NOTE]
 >
->Las funciones cambian durante el segundo día (compatibilidad con Post Launch).
+>Las funciones cambian durante el segundo día (compatibilidad posterior al inicio).
 
 * **Autor**: Administración de contenido + Estrategia
 
@@ -181,11 +185,11 @@ La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto 
 
 * **Técnico**: Es contratado por el Integrador de audio-vídeo o forma parte de la misma empresa.
 
-La siguiente tabla resume el **Día dos: Post Launch Support RACI Chart**:
+La siguiente tabla resume el **Día dos: después del inicio admite el gráfico RACI**:
 
 | **Fase** | **Autor** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
-| *Día Dos: Soporte Post-Launch* |
+| *Día dos: soporte posterior al inicio* |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA |
 | Compatibilidad de nivel 1 | I | I | RA |
 | Compatibilidad de nivel 2 | I | C | RA |
