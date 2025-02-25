@@ -3,9 +3,9 @@ title: Etiquetado en Screens Cloud
 description: En esta página se describe cómo se pueden crear, administrar y utilizar las etiquetas en Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ Utilice las etiquetas creadas en Pantallas y reproductores.
 ![administrar asignaciones de etiquetas](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
-> 
-> Una pantalla o un reproductor pueden tener un máximo de 100 etiquetas.
-> Se pueden etiquetar como máximo 30 elementos de una sola vez.
+>  
+>Se pueden etiquetar como máximo 30 elementos de una sola vez.
 
 ## Filtrar por etiquetas {#filter-by-tags}
 
@@ -49,5 +48,5 @@ Seleccione etiquetas para filtrar la lista de pantallas o reproductores.
 
 >[!NOTE]
 > 
-> Las etiquetas definidas en Screens AEM Cloud no están relacionadas ni sincronizadas con las etiquetas definidas en la sección de etiquetas de la aplicación de la aplicación de la aplicación de la aplicación de.
+> Las etiquetas definidas en Screens Cloud no están relacionadas ni sincronizadas con las etiquetas definidas en AEM.
 > 
