@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [Lista de comprobación de seguridad de AEM Screens](security-checklist.md)
    + [Transición de ContentSync a SmartSync](smartsync.md)
    + [Nuevo importador de proyectos desde archivo](project-importer.md)
-   + [Duplicación de Déclencheur de datos en servidores de Publish](replicating-data-triggers.md)
+   + [Duplicación de Déclencheur de datos en servidores de publicación](replicating-data-triggers.md)
    + [Configuración de agentes de replicación en Screens](configure-screens-replication.md)
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
       + [Uso del mando a distancia](implementing-remote-control.md)
-   + Autor Publish {#author-publish}
-      + [Información general sobre la arquitectura de Autor-Publish](author-publish-architecture-overview.md)
-      + [Configuración de Author y Publish](author-and-publish.md)
+   + Crear/publicar {#author-publish}
+      + [Información general sobre la arquitectura de creación y publicación](author-publish-architecture-overview.md)
+      + [Configuración de autor y publicación](author-and-publish.md)
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [Canales sin conexión](offline-channels.md)
    + [Ampliación de un componente de AEM Screens](extending-component-tutorial-develop.md)
    + [Creación de componentes](creating-components.md)
-   + [AEM SPA Incrustación de una aplicación REACT mediante el Editor de de trabajo e integración con AEM Screens Analytics](embedding-react-app.md)
+   + [Incrustación de una aplicación REACT con AEM SPA Editor e integración con AEM Screens Analytics](embedding-react-app.md)
    + [Configuración de ContextHub en AEM Screens](configuring-context-hub.md)
    + [Crear plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de estilo y marca personalizados a las superposiciones de texto](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Solución de problemas del Centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión del paquete de funciones 202401](release-notes-fp-20250215.md)
    + [Notas de la versión del paquete de funciones 202401](release-notes-fp-202401.md)
    + [Notas de la versión del paquete de funciones 20240116](release-notes-fp-20240116.md)
    + [Notas de la versión del paquete de funciones 20240215](release-notes-fp-20240215.md)
