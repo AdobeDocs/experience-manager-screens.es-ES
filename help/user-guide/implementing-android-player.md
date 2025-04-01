@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Implementación del reproductor Android™ {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager (AEM 6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
 
 En esta sección se describe la configuración del reproductor Android™. Proporciona información sobre el archivo de configuración y las opciones disponibles, así como recomendaciones sobre los ajustes que se deben utilizar para el desarrollo y las pruebas.
 
@@ -27,20 +30,20 @@ Además, **Watchdog** es una solución para recuperar al jugador de bloqueos. Un
 
 Para implementar el Reproductor de Android™ para AEM Screens, instale el Reproductor de Android™ para AEM Screens.
 
-AEM Visita la página [**Descargas del reproductor de 6.5 de**](https://download.macromedia.com/screens/).
+Visite la página [**Descargas del reproductor AEM 6.5**](https://download.macromedia.com/screens/).
 
 ### Configuración del entorno para el paquete de servicio de AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
 >Configure un entorno para el reproductor Android™ si utiliza el paquete de servicio de AEM Screens 6.5.5.
 
-Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None** desde la **configuración de la consola web de Adobe Experience Manager AEM** en todas las instancias de autor y publicación de la.
+Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None** desde la **configuración de la consola web de Adobe Experience Manager** en todas las instancias de autor y publicación de AEM.
 
 Complete los siguientes pasos:
 
 1. Vaya a **Configuración de la consola web de Adobe Experience Manager** con `http://localhost:4502/system/console/configMgr`.
 
-1. Busque *Controlador de autenticación de token de Granite de Adobe*.
+1. Busque *Controlador de autenticación de token de Adobe Granite*.
 
 1. Establezca el atributo **SameSite para las cookies de token de inicio de sesión** de **Lax** a **None**.
    ![imagen](/help/user-guide/assets/granite-updates.png)
@@ -50,12 +53,12 @@ Complete los siguientes pasos:
 
 ### Método ad hoc {#ad-hoc-method}
 
-El método Ad Hoc le permite instalar el último reproductor Android™ (*.exe*). AEM Visita la página [**Descargas del reproductor de 6.5 de**](https://download.macromedia.com/screens/).
+El método Ad Hoc le permite instalar el último reproductor Android™ (*.exe*). Visite la página [**Descargas del reproductor AEM 6.5**](https://download.macromedia.com/screens/).
 
 Después de descargar la aplicación, siga los pasos del reproductor para completar la instalación ad-hoc:
 
 1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
-1. AEM Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la ubicación (dirección) de la instancia de la instancia de la que desea conectarse y haga clic en **Guardar**.
+1. Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la ubicación (dirección) de la instancia de AEM a la que desea conectarse y haga clic en **Guardar**.
 
 1. Vaya al vínculo **Dispositivo** **Registro** del menú de acciones de la izquierda para comprobar el estado del proceso de registro del dispositivo.
 
@@ -77,16 +80,16 @@ Para obtener acceso a algunas de las API privilegiadas de Android™ como *Power
 >
 >Requisitos previos:
 >
->Debe tener instalado el SDK de Android™ antes de realizar los siguientes pasos.
+>Debe tener Android™ SDK instalado antes de realizar los siguientes pasos.
 
 Siga los pasos a continuación para firmar el apk de Android™ usando las claves del fabricante:
 
 1. Descargue el apk desde Google Play o desde la página [Descargas del reproductor de AEM Screens](https://download.macromedia.com/screens/)
 1. Obtenga las claves de plataforma del fabricante para obtener un *pk8* y un archivo *pem*
 
-1. Busque la herramienta `apksigner` en el SDK de Android™ mediante Buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Busque la herramienta `apksigner` en Android™ SDK mediante Buscar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Busque la ruta a la herramienta zip align en el SDK de Android™
+1. Busque la ruta a la herramienta de alineación zip en Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Instalar ***aemscreensalign.apk*** mediante la instalación de ADB en el dispositivo
 
@@ -110,7 +113,7 @@ El diagrama siguiente muestra la implementación del servicio de vigilante:
 
 ## Aprovisionamiento masivo del reproductor Android™ {#bulk-provision-android-player}
 
-Al desplegar el reproductor AndroidAEM ™ de forma masiva, es necesario aprovisionar el reproductor para que apunte a una instancia de y configurar otras propiedades sin introducirlas manualmente en la IU de administración.
+Al desplegar el reproductor Android™ de forma masiva, es necesario aprovisionar el reproductor para que apunte a una instancia de AEM y configurar otras propiedades sin introducirlas manualmente en la IU de administración.
 
 >[!NOTE]
 >Esta función está disponible en el reproductor Android™ 42.0.372.
@@ -124,7 +127,7 @@ Vea [Ejemplo de directiva JSON](#example-json) y una tabla que describe el uso d
 
 1. Cuando implemente el archivo, utilice el MDM para instalar la aplicación de reproducción.
 
-1. AEM Cuando se inicia la aplicación de reproducción, este archivo de configuración se lee y señala al servidor de reproducción aplicable donde se registra y, a continuación, se controla.
+1. Cuando se inicia la aplicación de reproducción, este archivo de configuración se lee y señala al servidor de AEM correspondiente donde se registra y, a continuación, se controla.
 
    >[!NOTE]
    >Este archivo es *de solo lectura* la primera vez que se inicia la aplicación y no se puede usar para configuraciones posteriores. Si el reproductor se inicia antes de que se descarte el archivo de configuración, simplemente desinstale y vuelva a instalar la aplicación en el dispositivo.
@@ -172,11 +175,11 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 
 ## Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management {#bulk-provisioning}
 
-Al implementar el reproductor de AndroidAEM ™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con la opción de configuración de la aplicación de forma manual Utilice una solución EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para poder aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+Al implementar el reproductor Android™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con AEM. Utilice una solución EMM (Enterprise Mobility Management) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox para poder aprovisionar y administrar de forma remota su implementación. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
 ## Nombrar el reproductor Android™ {#name-android}
 
-Puede asignar un nombre de dispositivo fácil de usar al reproductor de AndroidAEM ™ y, de este modo, enviar el nombre de dispositivo asignado a los usuarios de la red (Adobe Experience Manager) a los que desee asignar un nombre de dispositivo (). Esta capacidad no solo le permite asignar un nombre al reproductor Android™, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo fácil de usar al reproductor de Android™ y, de este modo, enviar el nombre de dispositivo asignado a AEM (Adobe Experience Manager). Esta capacidad no solo le permite asignar un nombre al reproductor Android™, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
@@ -198,7 +201,7 @@ Siga los pasos a continuación para permitir el aprovisionamiento masivo en Andr
 1. Configure estos parámetros, guarde e implemente la directiva en los dispositivos.
 
    >[!NOTE]
-   >Los dispositivos deben recibir la aplicación junto con la configuración. AEM Debe apuntar al servidor de correcto con la configuración seleccionada. AEM Si elige configurar el código de registro en bloque y lo mantiene igual que el configurado en, el reproductor debe poder registrarse automáticamente. Si configuró una pantalla predeterminada, también puede descargar y mostrar contenido predeterminado (que luego puede cambiar según le convenga).
+   >Los dispositivos deben recibir la aplicación junto con la configuración. Debe señalar al servidor de AEM correcto con la configuración seleccionada. Si elige configurar el código de registro en bloque y lo mantiene igual que en AEM, el reproductor debe poder registrarse automáticamente. Si configuró una pantalla predeterminada, también puede descargar y mostrar contenido predeterminado (que luego puede cambiar según le convenga).
 
 Además, debe consultar al proveedor de EMM sobre la compatibilidad con AppConfig. Los más populares, como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) y [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm), entre otros, son compatibles con este estándar del sector.
 
