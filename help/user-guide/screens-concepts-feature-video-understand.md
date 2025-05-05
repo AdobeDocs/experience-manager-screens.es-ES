@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Para seguir junto con los vídeos, necesita lo siguiente:
 
-1. AEM AEM **6.4** o **6.3*+ **Paquete de funciones de Screens 1**
+1. AEM AEM **6.4** o **6.3*+ &#x200B;** Paquete de funciones de Screens 1**
 
 1. Reproductor de Screens
 

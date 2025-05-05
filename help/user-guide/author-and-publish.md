@@ -54,7 +54,7 @@ Para crear agentes de replicación, aprenda a crear un agente de replicación es
 
 Hay tres agentes de replicación necesarios para Screens:
 
-1. **Agente de replicación predeterminado ***(especificado como*** agente de replicación estándar**)
+1. **Agente de replicación predeterminado &#x200B;***(especificado como&#x200B;*** agente de replicación estándar**)
 1. **Agente de replicación de Screens**
 1. **Agente de replicación inversa**
 

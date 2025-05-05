@@ -44,14 +44,14 @@ La instalación de Cloud Player puede variar en diferentes plataformas. En gener
 >
 >### Opción de instalación de Cloud Player {#cloud-player-install-option}
 >
-1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS. La compatibilidad para instalar PWA desde la Web varía según el explorador y la plataforma.
-1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador puede comprobar (más detalles aquí):
+>1. La opción de instalación de un PWA también se conoce como &quot;Añadir a la pantalla de inicio&quot; o función A2HS. La compatibilidad para instalar PWA desde la Web varía según el explorador y la plataforma.
+>1. Cada navegador tiene diferentes criterios para comprobar si la aplicación del PWA se puede instalar o no. Generalmente, el explorador puede comprobar (más detalles aquí):
 >
-* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
-* Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura
-* La aplicación debe proporcionarse a través de https
+>* Si la aplicación tiene un archivo json de manifiesto con las claves mínimas requeridas para instalar la aplicación en la plataforma, es decir, nombre, iconos, start_url, mostrar
+>* Si la aplicación tiene un archivo de trabajo de servicio con un detector de eventos de captura
+>* La aplicación debe proporcionarse a través de https
 >
-1. La opción de instalación puede estar visible en diferentes ubicaciones en diferentes exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
+>1. La opción de instalación puede estar visible en diferentes ubicaciones en diferentes exploradores y tipos de dispositivos. Algunos exploradores pueden ocultar el icono de instalación en la barra de menús de opciones.
 
 ## Aprovisionamiento masivo de Cloud Player {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ AEM AEM En función del tipo de instancia de, haga clic en una de las siguientes
 
 >[!NOTE]
 >
-## Desaprobación de aplicaciones Chrome por Google
+>## Desaprobación de aplicaciones Chrome por Google
 >
-1. Aplicaciones de Chrome en el hardware del sistema operativo Chrome:
+>1. Aplicaciones de Chrome en el hardware del sistema operativo Chrome:
 >
-Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. Por lo tanto, la aplicación del reproductor de AEM Screens en el sistema operativo Chrome deja de funcionar en función de la cronología compartida. El Adobe insta a los usuarios que actualmente utilizan el Reproductor de Chrome en producción a que planifiquen la transición al Reproductor de Screens Cloud.
+>Google ha estado desaprobando activamente las aplicaciones de Chrome en favor de las aplicaciones de PWA, con una migración planificada hasta enero de 2025. Por lo tanto, la aplicación del reproductor de AEM Screens en el sistema operativo Chrome deja de funcionar en función de la cronología compartida. El Adobe insta a los usuarios que actualmente utilizan el Reproductor de Chrome en producción a que planifiquen la transición al Reproductor de Screens Cloud.
 >
-1. Chrome Extension Player en Mac, Windows y Linux®:
+>1. Chrome Extension Player en Mac, Windows y Linux®:
 >
-Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Adobe le aconseja que cambie a su reproductor en la nube de Screens para todos sus requisitos de desarrollo y prueba.
+>Debido al proceso de desaprobación de Google, a partir de la versión 114 de Google Chrome, el reproductor de extensiones de Screens Chrome ya no es compatible. Adobe le aconseja que cambie a su reproductor en la nube de Screens para todos sus requisitos de desarrollo y prueba.
 
 ## Compatibilidad sin conexión con la recuperación de contenido externo {#offline-support}
 

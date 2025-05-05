@@ -175,6 +175,7 @@ Cuando haya configurado una ubicación y una pantalla, siga los pasos a continua
 
    1. Si el título coincide con el token del dispositivo, haz clic en el dispositivo y haz clic en **Registrar dispositivo** en la barra de acciones.
    1. Si el código de registro coincide con el código de la ficha **Registro de dispositivo** del reproductor de Screens, haga clic en **Validar** en la barra de acciones.
+
       ![imagen](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Escriba **Title** como **`Chrome-Device1`** y haga clic en **Registrar**.
    1. Haga clic en **Asignar pantalla** y haga clic en la ruta de acceso a la configuración del dispositivo.
