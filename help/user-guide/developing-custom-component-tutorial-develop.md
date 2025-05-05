@@ -578,7 +578,7 @@ El uso de estos dos componentes principales de Screens también ofrece la ventaj
 
 ## Código finalizado {#finished-code}
 
-A continuación se muestra el código terminado del tutorial. AEM **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** y **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** son los paquetes compilados de la. El **&#x200B; **&#x200B;SRC-screens-weretail-run-0.0.1.zip es el código fuente no compilado que se puede implementar mediante Maven.
+A continuación se muestra el código terminado del tutorial. AEM **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** y **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** son los paquetes compilados de la. El **&#x200B; &#x200B;**&#x200B;SRC-screens-weretail-run-0.0.1.zip es el código fuente no compilado que se puede implementar mediante Maven.
 
 [Obtener archivo](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
