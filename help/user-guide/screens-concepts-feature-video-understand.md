@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Terminología y conceptos de Screens {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40171?quality=9&captions=spa)
 
 
 ## Creación de canales y programas: parte 1 {#channels-and-schedules-part-2}
@@ -34,11 +34,11 @@ Para descargar AEM Screens Player, haga clic [aquí](https://download.macromedia
 
 El siguiente vídeo detalla la creación de un nuevo canal, la creación de nuevo contenido y la adición de un canal a una programación reutilizable. Sigue de manera imprecisa la primera mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39369?quality=9&captions=spa)
 
 ## Mostrar asignaciones y registro de dispositivos - Parte 2 {#display-and-device-pt2}
 
 El siguiente vídeo muestra la creación de una ubicación, una pantalla y la configuración del dispositivo. El vídeo también muestra los pasos para registrar un dispositivo y asignarlo a una pantalla. Sigue de manera imprecisa la segunda mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39390?quality=9&captions=spa)
 

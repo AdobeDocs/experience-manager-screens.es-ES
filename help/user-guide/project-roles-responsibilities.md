@@ -56,7 +56,7 @@ Siga el tutorial siguiente para comprender exactamente cómo cada parte influye 
 
 ### Parte 1: Funciones y responsabilidades del proyecto
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32821?captions=spa)
 
 *Obtenga información acerca de las funciones y responsabilidades de Adobe AEM, integradores audiovisuales e implementadores de.*
 
