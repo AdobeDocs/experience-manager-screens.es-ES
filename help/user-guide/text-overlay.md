@@ -94,7 +94,7 @@ En la siguiente sección se describe el uso de valores de un almacén de datos, 
 
 Configure las opciones de ContextHub para el proyecto de AEM Screens.
 
-Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Después de configurar las configuraciones necesarias para el proyecto, siga los pasos a continuación para utilizar los valores de las Hojas de cálculo de Google:
 

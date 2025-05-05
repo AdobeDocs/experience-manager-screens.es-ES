@@ -174,5 +174,5 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 >
 > Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
->* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

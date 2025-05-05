@@ -45,7 +45,7 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal Tour
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publish en el dispositivo.
+   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publish en el dispositivo.
 
 ## Estrategia de migración {#migration-strategy}
 

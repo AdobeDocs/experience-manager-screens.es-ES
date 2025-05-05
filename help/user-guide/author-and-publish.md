@@ -112,7 +112,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 1. Cree un agente de replicación de AEM Screens para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto a 4504 para pub2.
 
    >[!NOTE]
-   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creación de agentes de replicación inversa de Screens {#creating-screens-reverse-replication-agents}
 
