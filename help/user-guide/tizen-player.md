@@ -119,7 +119,7 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 
 >[!NOTE]
 >Las configuraciones de la directiva de la IU de administración del reproductor se aplican estrictamente y no se anulan manualmente. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.
->>Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
+>&#x200B;>Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
 
 | **Nombre de directiva** | **Propósito** |
 |---|---|

@@ -53,7 +53,7 @@ En el ejemplo siguiente se proporciona una solución centrándose en los términ
 
 * un ***canal de secuencia principal*** para la secuencia global.
 * ***componentes de secuencia incrustada dinámica*** para cada parte personalizable localmente de la secuencia.
-* ***canales de secuencia individual*** en las ubicaciones respectivas con un *rol* en la pantalla que coincide con el **rol ***del componente de secuencia incrustada dinámica.*
+* ***canales de secuencia individual*** en las ubicaciones respectivas con un *rol* en la pantalla que coincide con el **rol &#x200B;***del componente de secuencia incrustada dinámica.*
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Antes de comenzar a implementar esta funcionalidad, asegúrese de que tiene los 
 
 * Cree un proyecto de AEM Screens (en este ejemplo, **Demo**).
 * Cree un canal **Global** en la carpeta **Canales**.
-* Agregue contenido a su canal **Global** (*Compruebe **Resources.zip**para ver si hay recursos relevantes*).
+* Agregue contenido a su canal **Global** (*Compruebe **Resources.zip**&#x200B;para ver si hay recursos relevantes*).
 
 La siguiente imagen muestra el proyecto **Demo** con el canal **Global** en la carpeta **Channels**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)

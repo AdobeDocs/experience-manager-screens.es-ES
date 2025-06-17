@@ -101,7 +101,7 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Haga clic en el proyecto ** DemoProjectImporter **>** Crear **>** ubicaciones de importación** desde la barra lateral.
+1. Haga clic en el proyecto **&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crear &#x200B;**>**&#x200B; ubicaciones de importación** desde la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

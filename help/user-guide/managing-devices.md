@@ -62,8 +62,8 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 >[!NOTE]
 >
 >Cada vez que se agrega el primer dispositivo a un nuevo proyecto de Screens, se crea un grupo de usuarios.
->>Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
->>Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
+>&#x200B;>Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
+>&#x200B;>Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

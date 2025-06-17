@@ -28,8 +28,8 @@ Siga los pasos a continuación para crear un proyecto de ejemplo para AEM Screen
 
 >[!IMPORTANT]
 >**Ajustes de configuración de OSGi**
->>Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente `Apache Sling` Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
->>Siga los pasos a continuación para habilitar el ***Filtro de referente de Apache Sling Permitir vacío***:
+>&#x200B;>Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente `Apache Sling` Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
+>&#x200B;>Siga los pasos a continuación para habilitar el ***Filtro de referente de Apache Sling Permitir vacío***:
 
 
 ## Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}

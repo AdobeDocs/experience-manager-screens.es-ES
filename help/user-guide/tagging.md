@@ -39,7 +39,7 @@ Utilice las etiquetas creadas en Pantallas y reproductores.
 >[!NOTE]
 >
 > Una pantalla o un reproductor pueden tener un máximo de 30 etiquetas asignadas.
-> > Se pueden etiquetar como máximo 30 elementos de una sola vez.
+> &#x200B;> Se pueden etiquetar como máximo 30 elementos de una sola vez.
 
 ## Filtrar por etiquetas {#filter-by-tags}
 

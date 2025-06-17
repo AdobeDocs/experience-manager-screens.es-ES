@@ -146,8 +146,8 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 >[!NOTE]
 >
 >Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:
->>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
->>[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
+>&#x200B;>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
+>&#x200B;>[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
 
 
 ## Administrar la periodicidad para Assets en un canal {#handling-recurrence-in-assets}

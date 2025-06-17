@@ -54,7 +54,7 @@ Para crear agentes de replicación, aprenda a crear un agente de replicación es
 
 Hay tres agentes de replicación necesarios para Screens:
 
-1. **Agente de replicación predeterminado ***(especificado como*** agente de replicación estándar**)
+1. **Agente de replicación predeterminado &#x200B;***(especificado como&#x200B;*** agente de replicación estándar**)
 1. **Agente de replicación de Screens**
 1. **Agente de replicación inversa**
 
@@ -159,7 +159,7 @@ Dado que cada instancia de publicación, de forma predeterminada, tiene claves c
 >[!NOTE]
 >
 >La contraseña debe comenzar y finalizar con llaves. Por ejemplo:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar el clúster de ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
