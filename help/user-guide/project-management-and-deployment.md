@@ -1,5 +1,5 @@
 ---
-title: "Parte 4: Administración e implementación de proyectos"
+title: 'Parte 4: Administración e implementación de proyectos'
 description: Obtenga información acerca de la administración y la preparación de la implementación de proyectos (preproducción, inicio y progresión de proyectos) para AEM Screens.
 contentOwner: jsyal
 content-type: reference
@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Es importante que todas las partes interesadas comprendan de qué es responsable
 
 >[!NOTE]
 >
->La identificación de un integrador de audio y vídeo con experiencia en la gestión de proyectos de implementaciones de señalización digital a escala es importante para el éxito a largo plazo. AEM Se sugiere comparar los planes del proyecto entre el integrador de audio y vídeo y el implementador de la aplicación de la. Al hacerlo, se garantiza la alineación a medida que se elaboran y finalizan los planes.
+>La identificación de un integrador de audio y vídeo con experiencia en la gestión de proyectos de implementaciones de señalización digital a escala es importante para el éxito a largo plazo. Se sugiere comparar los planes del proyecto entre el integrador de audio y vídeo y el implementador de AEM. Al hacerlo, se garantiza la alineación a medida que se elaboran y finalizan los planes.
 >
 >Los socios que adoptan un enfoque integral en la gestión de las fases de &quot;preproducción&quot;, inicio y progresión del proyecto ayudan a garantizar que sus clientes finales estén posicionados para obtener el máximo valor de su inversión
 
@@ -41,9 +41,9 @@ Para permitir una implementación correcta de la señalización digital, es habi
 
 La primera etapa se llama ***Día cero***. Esta fase incluye todos los esfuerzos de preventa y descubrimiento necesarios para definir el ámbito de un proyecto. La segunda fase, ***Día uno***, se refiere a todas las actividades incluidas en el esfuerzo de implementación. Por último, ***Día dos*** hace referencia a todas las operaciones en curso y a los elementos de soporte como parte de la solución total.
 
-Las actividades del día cero implican preventa, detección de clientes, análisis de necesidades de aplicaciones y definición del ámbito del proyecto. Esta fase también puede incluir la participación inicial y la definición de los requisitos del proyecto para la gestión del proyecto, como preparación para la implementación.
+Las actividades del ***día cero*** implican preventa, descubrimiento de clientes, análisis de necesidades de aplicaciones y definición del ámbito del proyecto. Esta fase también puede incluir la participación inicial y la definición de los requisitos del proyecto para la gestión del proyecto, como preparación para la implementación.
 
-El día cero consta de ocho pasos clave que cubren todos los aspectos de la mejora de la gestión del proyecto:
+Todo ***día cero*** consta de ocho pasos clave que cubren todos los aspectos de la mejora de la administración del proyecto:
 
 * Definición del ámbito del trabajo
 * Definición de la programación del proyecto
@@ -72,7 +72,7 @@ Cuando una oportunidad de ventas cambia a un proyecto, se programa una reunión 
 
 La última parte de una iniciativa del Día Uno es completar una entrega de NOC. Si un proyecto completado incluye cualquier servicio y soporte del Día dos, el administrador del proyecto organiza una reunión de entrega del NOC con los supervisores de esos equipos.
 
-Esta reunión está formada principalmente por representantes de integradores de audio y vídeo de Administración de cuentas, Operaciones de red, Logística de campo, Servicios de contenido y Contabilidad. Participan en él representantes de la gestión de proyectos de Adobe AEM, implementador de y cliente final, y el integrador de audio y vídeo define la programación, la cadencia y las puertas de acceso. Los gerentes de proyectos suelen ser los mejores para coordinar las discusiones a fin de asegurar la alineación de las partes apropiadas y el desarrollo de la documentación necesaria para la Reunión de Entrega de NOC. Es probable que la documentación de asistencia esencial provenga de los departamentos de ingeniería de TI o de audio-vídeo, además de los recursos de ventas y administración de cuentas de todas las partes involucradas. Para cualquier cliente que requiera soporte de servicio telefónico de un NOC, se debe proporcionar documentación a los supervisores del NOC para que la carguen en una plataforma de Knowledge Base.
+Esta reunión está formada principalmente por representantes de integradores de audio y vídeo de Administración de cuentas, Operaciones de red, Logística de campo, Servicios de contenido y Contabilidad. Participan en él representantes de la gestión de proyectos de Adobe, del implementador de AEM y del cliente final, y el integrador de audio y vídeo define la programación, la cadencia y las puertas de acceso. Los gerentes de proyectos suelen ser los mejores para coordinar las discusiones a fin de asegurar la alineación de las partes apropiadas y el desarrollo de la documentación necesaria para la Reunión de Entrega de NOC. Es probable que la documentación de asistencia esencial provenga de los departamentos de ingeniería de TI o de audio-vídeo, además de los recursos de ventas y administración de cuentas de todas las partes involucradas. Para cualquier cliente que requiera soporte de servicio telefónico de un NOC, se debe proporcionar documentación a los supervisores del NOC para que la carguen en una plataforma de Knowledge Base.
 
 ## Parte 4: Tutorial en vídeo sobre administración e implementación de proyectos {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -80,7 +80,7 @@ Obtenga información sobre la administración de proyectos y la preparación de 
 
 ### Administración e implementación de proyectos
 
->[!VIDEO](https://video.tv.adobe.com/v/32791?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Obtenga información acerca de la administración de proyectos y la preparación de la implementación (la preproducción del proyecto, el inicio del proyecto y la progresión del proyecto).*
 

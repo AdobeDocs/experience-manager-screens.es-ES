@@ -2,9 +2,9 @@
 title: Red corporativa adjunta
 description: Red corporativa adjunta
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ La configuración de red corporativa adjunta es aplicable a las empresas más pe
 
 ## Conexión del Reproductor de AEM Screens al acceso directo a Internet
 
-AEM Siga los pasos a continuación para asegurarse de que la conexión de los reproductores de pantalla de la pantalla de la es correcta en esta configuración:
+Siga los pasos a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
-1. AEM Asegúrese de que cada uno de los reproductores de pantalla de la pantalla está conectado a la red de enrutadores.
+1. Asegúrese de que cada uno de los reproductores de pantalla de AEM esté conectado a la red de enrutadores.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el explorador del sistema.
 
    >[!NOTE]

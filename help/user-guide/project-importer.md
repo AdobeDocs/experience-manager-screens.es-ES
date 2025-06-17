@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ El objetivo de esta función es reducir el tiempo necesario para configurar el p
 Al permitir que el autor proporcione una hoja de cálculo como archivo de entrada y permitir que el sistema cree automáticamente el árbol de ubicaciones en el back-end, esta función:
 
 * *obtiene un rendimiento mucho mejor que seleccionando manualmente a través de la interfaz de usuario*
-* AEM *permite al cliente exportar las ubicaciones que tiene desde su propio sistema e importarlas fácilmente directamente en el sitio de destino*
+* *permite al cliente exportar las ubicaciones que tiene desde su propio sistema e importarlas fácilmente directamente en AEM*
 
 Este proceso ahorra tiempo y dinero durante la configuración inicial del proyecto o al ampliar el AEM Screens existente a nuevas ubicaciones.
 
@@ -57,9 +57,9 @@ A continuación se describe el modelo de datos del importador de proyectos:
 
 Por lo tanto, el archivo de hoja de cálculo (CSV/XLS) requiere las siguientes columnas:
 
-* **ruta de acceso {string}** - La ruta de acceso de la ubicación que se va a importar, donde la raíz de la ruta de acceso es la carpeta de ubicación del proyecto (es decir, *`/foo`* se importa a *`/content/screens/<project>/locations/foo`*)
-* **plantilla {string}**: la plantilla que se usará para la nueva ubicación, por ahora el único valor permitido es &quot;ubicación&quot;, pero este valor se extenderá a todas las plantillas de Screens en el futuro (`display`, `sequencechannel`, etc.)
-* **[./*] {string}**: cualquier propiedad opcional que se va a establecer en la ubicación (es decir, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versión actual no permite ningún filtrado.
+* **ruta de acceso{string}**: ruta de acceso de la ubicación que se va a importar, donde la raíz de la ruta de acceso es la carpeta de ubicación del proyecto (es decir, *`/foo`* se importa a *`/content/screens/<project>/locations/foo`*)
+* **plantilla{string}**: la plantilla que se usará para la nueva ubicación, por ahora el único valor permitido es &quot;ubicación&quot;, pero este valor se amplía a todas las `Screens` plantillas en el futuro (`display`, `sequencechannel`, etc.)
+* **[./*] {string}** - Cualquier propiedad opcional que se va a establecer en la ubicación (es decir, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versión actual no permite ningún filtrado.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Haga clic en el proyecto **&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crear &#x200B;**>**&#x200B; ubicaciones de importación** desde la barra lateral.
+1. Haga clic en el proyecto ** DemoProjectImporter **>** Crear **>** ubicaciones de importación** desde la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

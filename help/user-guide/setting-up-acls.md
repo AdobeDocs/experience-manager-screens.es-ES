@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 En la siguiente sección se explica cómo separar proyectos mediante Listas de control de acceso (ACL) para que cada individuo o equipo administre su propio proyecto.
 
-AEM Como administrador de un proyecto, desea asegurarse de que los integrantes del equipo de un proyecto no interfieran con otros proyectos. A cada usuario se le asignan funciones específicas según los requisitos del proyecto.
+Como administrador de AEM, debe asegurarse de que los integrantes del equipo de un proyecto no interfieran con otros proyectos. A cada usuario se le asignan funciones específicas según los requisitos del proyecto.
 
 ## Configuración de permisos {#setting-up-permissions}
 
 Los siguientes pasos resumen el procedimiento para configurar ACL para un proyecto:
 
-1. AEM Inicie sesión para iniciar sesión y navegue hasta **Herramientas** > **Seguridad**.
+1. Inicie sesión en AEM y vaya a **Herramientas** > **Seguridad**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -75,7 +75,7 @@ La siguiente tabla resume la ruta con los permisos en el nivel de proyecto:
 
 >[!NOTE]
 >
->A veces, puede separar las funciones de creación (como la administración de recursos y la creación de canales) de las funciones de administración (como el registro de reproductores). En este caso, cree dos grupos y agregue el grupo Autores a Colaboradores y el grupo Administrador a Colaboradores y a administradores de usuarios.
+>A veces, puede separar las funciones de creación (como la administración de recursos y la creación de canales) de las funciones de administración (como el registro de reproductores). En este caso, cree dos grupos y agregue el grupo del autor a colaboradores y el grupo de administración a colaboradores y administradores de usuarios.
 
 ### Creación de grupos {#creating-groups}
 

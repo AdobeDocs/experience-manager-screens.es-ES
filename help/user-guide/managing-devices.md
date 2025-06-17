@@ -1,5 +1,5 @@
 ---
-title: Administración de dispositivos
+title: Administrar dispositivos
 description: Obtenga información acerca de la asignación y administración de dispositivos en AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
 
-# Administración de dispositivos {#managing-devices}
+# Administrar dispositivos {#managing-devices}
 
 Esta página describe la asignación de dispositivos.
 
@@ -40,7 +40,7 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Haga clic en un dispositivo sin asignar de la lista y, a continuación, haga clic en **Asignar dispositivo** en la barra de acciones.
+1. Haga clic en un dispositivo sin asignar de la lista y, a continuación, en la barra de acciones, haga clic en **Asignar dispositivo**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 >[!NOTE]
 >
 >Cada vez que se agrega el primer dispositivo a un nuevo proyecto de Screens, se crea un grupo de usuarios.
->Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
->Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
+>>Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
+>>Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

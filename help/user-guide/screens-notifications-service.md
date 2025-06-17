@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Siga los pasos a continuación para configurar los ajustes de notificación por 
 
 1. Defina los siguientes campos para poder configurar los ajustes del correo electrónico:
 
-   **Ruta de acceso de los dispositivos** Escriba la ruta de acceso a los proyectos de Screens que desee supervisar. La ruta de acceso suele ser `/home/users/screens/<Name of your project>`.
+   **Ruta de acceso de dispositivos**: escriba la ruta de acceso a los proyectos de Screens que desea supervisar. La ruta de acceso suele ser `/home/users/screens/<Name of your project>`.
 
    Por ejemplo, si su proyecto es **`We.Retail`**, utilice la ruta del proyecto como ***/home/users/screens/we-retail***.
 
@@ -71,7 +71,7 @@ Siga los pasos a continuación para configurar los ajustes de notificación por 
 
    **Usar TLS** - Seguridad de la capa de transporte (TLS) permite usar una comunicación segura con el servidor SMTP.
 
-   El Adobe recomienda utilizar TLS para una conexión segura con servidores de correo corporativos. Consulte con su administrador de correo los valores apropiados.
+   Adobe recomienda utilizar TLS para una conexión segura con servidores de correo corporativos. Consulte con su administrador de correo los valores apropiados.
 
    **nombre de usuario** - Especifique el nombre de usuario para enviar correos electrónicos.
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
 
 1. Añada las siguientes propiedades:
 
-   **Ruta del proyecto** Especifique la ruta de su proyecto de AEM Screens. La ruta de acceso suele ser `/content/screens/<Name of your project>`.
+   **Ruta del proyecto** - Especifica la ruta de su proyecto de AEM Screens. La ruta de acceso suele ser `/content/screens/<Name of your project>`.
 
    *Por ejemplo*, `/content/screens/we-retail`. Puede encontrar esta ruta en la dirección URL seleccionando cualquier proyecto en AEM Screens (no haga clic en el icono).
 
@@ -73,6 +73,6 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
    >
    >Especifique la ruta del proyecto relativa al canal.
 
-   **Frecuencia de horario** Especifique una hora, por ejemplo, 5:00 p.m. o 17:00 a las que este servicio debe actualizar el contenido sin conexión.
+   **Frecuencia de horario** - Especifica una hora, por ejemplo, 5:00 p.m. o 17:00 a las que este servicio debe actualizar el contenido sin conexión.
 
 1. Haz clic en **Guardar** para guardar la configuración. El contenido se actualiza a la hora especificada.

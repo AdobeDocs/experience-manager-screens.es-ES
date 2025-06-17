@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Uso del control remoto de Screens {#implementing-remote-control}
 
-La función de control remoto facilita el acceso a la interfaz de usuario del administrador, al conmutador de canales o a funciones como Borrar caché y volver a cargar. Además, proporciona un método para ver la versión local del firmware y la información del sistema en el reproductor. Esta capacidad es especialmente útil porque puede resultar difícil conectar un mouse. AEM O bien, puede operar en dispositivos de producción que estén fuera del alcance y aún más si el reproductor ha perdido la conexión con los dispositivos de producción que se encuentran fuera de su alcance o con los dispositivos de producción que se encuentran fuera de su alcance. También resulta útil cuando se utiliza Samsung RMS, ya que la diferencia de resolución puede dificultar la localización y apertura de la interfaz de usuario del administrador con un ratón.
+La función de control remoto facilita el acceso a la IU de administración, al conmutador de canales o a funciones como Borrar caché y volver a cargar. Además, proporciona un método para ver la versión local del firmware y la información del sistema en el reproductor. Esta capacidad es especialmente útil porque puede resultar difícil conectar un mouse. O bien, puede operar en dispositivos de producción que estén fuera del alcance y aún más si el reproductor ha perdido la conexión con AEM. También resulta útil cuando se utiliza Samsung RMS, ya que la diferencia de resolución puede dificultar la localización y apertura de la interfaz de usuario del administrador con un ratón.
 
 ## Combinaciones de teclas comunes de control remoto {#using-common-remote-control}
 

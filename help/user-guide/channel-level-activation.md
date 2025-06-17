@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -145,9 +145,9 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 
 >[!NOTE]
 >
->AEM Para obtener más información acerca de Reproductor de pantalla de la aplicación, consulte los siguientes recursos:
->[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
->[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
+>Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:
+>>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
+>>[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
 
 
 ## Administrar la periodicidad para Assets en un canal {#handling-recurrence-in-assets}

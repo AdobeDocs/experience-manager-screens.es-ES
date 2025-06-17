@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Debido a la arquitectura de Android™, para reiniciar el dispositivo es necesar
 
 ### Señalización de Android™ `apks` con claves del fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
-Para obtener acceso a algunas de las API privilegiadas de Android™ como *PowerManager* o *HDMIControlServices*, firme Android™ `apk` con las claves del fabricante.
+Para obtener acceso a algunas de las API privilegiadas de Android™, como *PowerManager* o *HDMIControlServices*, firme Android™ `apk` con las claves del fabricante.
 
 >[!CAUTION]
 >
@@ -143,7 +143,7 @@ La siguiente tabla resume los atributos de la política con un ejemplo de JSON d
 | *rebootSchedule* | La programación para reiniciar se aplica a todas las plataformas. |
 | *enableAdminUI* | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en *false* una vez que esté completamente configurado y en producción. |
 | *enableOSD* | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecerlo en *false* después de que esté completamente configurado y en producción. |
-| *enableActivityUI* | Habilite la opción si desea mostrar el progreso de las actividades como la descarga y la sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| *enableActivityUI* | Habilite la opción si desea mostrar el progreso de las actividades, como la descarga y la sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
 | *enableNativeVideo* | Habilite esta opción si desea utilizar la aceleración de hardware nativa para la reproducción de vídeo (solo Android™). |
 
 ### Ejemplo de directiva JSON {#example-json}

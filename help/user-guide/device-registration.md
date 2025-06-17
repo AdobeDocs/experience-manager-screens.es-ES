@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ En la siguiente página se describe el proceso de registro de dispositivos en un
 El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
 * El dispositivo real que se va a registrar, por ejemplo, la pantalla de señalización
-* AEM El servidor de utilizado para registrar el dispositivo
+* El servidor de AEM que se utiliza para registrar el dispositivo
 
 >[!NOTE]
 >
->AEM Después de descargar el Reproductor de Windows más reciente (*.exe*), desde la página [Descargas del Reproductor de 6.4](https://download.macromedia.com/screens/), siga los pasos que aparecen en el reproductor para completar la instalación ad hoc:
+>Después de descargar el último Reproductor de Windows (*.exe*) desde la página [Descargas del Reproductor de AEM 6.4](https://download.macromedia.com/screens/), siga los pasos que aparecen en el reproductor para completar la instalación ad hoc:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. AEM Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la dirección de ubicación de la instancia de la instancia en **Servidor** y haga clic en **Guardar**.
+>1. Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la dirección de ubicación de la instancia de AEM en **Servidor** y haga clic en **Guardar**.
 >1. Haga clic en el vínculo **Registro** del menú de acción de la izquierda y siga los pasos a continuación para completar el proceso de registro del dispositivo.
 >
 
@@ -43,11 +43,11 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. AEM En la carpeta **Dispositivos** de su proyecto, vaya a la carpeta de su proyecto.
+1. En AEM, vaya a la carpeta **Dispositivos** de su proyecto.
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la creación de un proyecto para Screens AEM en el panel de control de, consulte [Crear y administrar un proyecto de Screens](creating-a-screens-project.md).
+   >Para obtener más información sobre cómo crear un proyecto para Screens en el panel de AEM, consulte [Crear y administrar un proyecto de Screens](creating-a-screens-project.md).
 
 1. Haga clic en el botón **Administrador de dispositivos** de la barra de acciones.
 
@@ -61,7 +61,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. AEM En, espere a que el dispositivo envíe su código de registro.
+1. En AEM, espere a que el dispositivo envíe su código de registro.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -69,7 +69,7 @@ El proceso de registro del dispositivo se realiza en dos equipos independientes:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. AEM Si el **código de registro** es el mismo en ambos equipos, haga clic en el botón **Validar** en, tal y como se muestra en el paso (6).
+1. Si el **código de registro** es el mismo en ambos equipos, haga clic en el botón **Validar** de AEM, como se muestra en el paso (6).
 1. Defina el nombre que desee para el dispositivo y haga clic en **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)

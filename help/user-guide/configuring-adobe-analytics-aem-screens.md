@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 10%
 
 ---
@@ -198,7 +198,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td>necesario para AA</td> 
    <td>cadena</td> 
    <td> </td> 
-   <td>Compatibilidad de Adobe Analytics con Nombre de página personalizado</td> 
+   <td>Compatibilidad con Nombre de página personalizado en Adobe Analytics</td> 
   </tr>
   <tr>
    <td> </td> 

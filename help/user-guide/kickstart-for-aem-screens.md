@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ Siga los pasos a continuación para crear un proyecto de ejemplo para AEM Screen
 
 >[!IMPORTANT]
 >**Ajustes de configuración de OSGi**
->Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente de Apache Sling Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
->Siga los pasos a continuación para habilitar el ***Filtro de referente de Apache Sling Permitir vacío***:
+>>Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente `Apache Sling` Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
+>>Siga los pasos a continuación para habilitar el ***Filtro de referente de Apache Sling Permitir vacío***:
 
 
 ## Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
 
-1. Vaya a la **configuración de la consola web de Adobe Experience Manager AEM** mediante la instancia de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a la **configuración de la consola web de Adobe Experience Manager** mediante AEM instance > hammer icon > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
@@ -54,7 +54,7 @@ Siga los pasos a continuación para crear un proyecto de ejemplo para AEM Screen
 
 El primer paso es crear un proyecto de AEM Screens.
 
-1. Vaya a la instancia de Adobe Experience Manager AEM () y haga clic en **Screens**. También puede navegar directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Vaya a la instancia de Adobe Experience Manager (AEM) y haga clic en **Screens**. También puede navegar directamente desde `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
 1. Haga clic en **Crear proyecto de Screens** para poder crear un proyecto de Screens.
 1. Escriba el título como **DemoScreens** y haga clic en **Guardar**.
@@ -162,7 +162,7 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 1. Se abre el cuadro de diálogo **Asignación de canal**.
 
-1. En la opción **Settings**, elija el canal **por ruta** y **Eventos compatibles** como **Carga inicial** y **Pantalla inactiva**.
+1. En la opción **Settings**, elija el canal **por ruta** y **Eventos compatibles**, como **Carga inicial** y **Pantalla inactiva**.
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
 
 ### Registro de un dispositivo y asignación de un dispositivo a una pantalla {#registering-device}
 
-AEM Registre el dispositivo mediante el panel de control de.
+Registre el dispositivo mediante el tablero de AEM.
 
 >[!IMPORTANT]
 >El reproductor Chrome OS se puede instalar como complemento del explorador de Chrome en modo de desarrollador sin necesidad de un dispositivo Chrome Player real. Para la instalación, siga los pasos a continuación:
@@ -196,7 +196,7 @@ AEM Registre el dispositivo mediante el panel de control de.
 
 Una vez que el reproductor del sistema operativo Chrome esté encendido, siga los pasos a continuación para registrar un dispositivo Chrome.
 
-1. AEM Vaya a la carpeta **Dispositivos** de su proyecto desde la instancia de la.
+1. Vaya a la carpeta **Dispositivos** del proyecto desde la instancia de AEM.
 
 1. Haga clic en **Administrador de dispositivos** en la barra de acciones.
 
@@ -211,7 +211,7 @@ Una vez que el reproductor del sistema operativo Chrome esté encendido, siga lo
 1. Espere a que el dispositivo envíe su código de registro y compruebe simultáneamente el **código de registro** desde su dispositivo Chrome.
    ![imagen](assets/kickstart/demo-register3.png)
 
-1. AEM Si el **código de registro** es el mismo en ambos equipos, haga clic en **Validar** en la.
+1. Si el **código de registro** es el mismo en ambos equipos, haga clic en **Validar** en AEM.
 
 1. Establezca el nombre deseado como **ChromeDeviceForDemo** para el dispositivo y haga clic en **Registrar**.
 

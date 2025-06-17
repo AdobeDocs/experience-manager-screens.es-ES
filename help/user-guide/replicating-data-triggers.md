@@ -1,20 +1,20 @@
 ---
-title: Replicación de déclencheur de datos en servidores de Publish
+title: Replicar déclencheur de datos en servidores de publicación
 description: Obtenga información sobre cómo replicar déclencheur de datos en el servidor de publicación para AEM Screens.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
-# Duplicación de Déclencheur de datos en servidores de Publish {#replicating-data-triggers}
+# Duplicación de Déclencheur de datos en servidores de publicación {#replicating-data-triggers}
 
-AEM Al utilizar ContextHub y el motor de segmentación de para personalizar el contenido en función de los déclencheur de datos en una configuración de autor/publicación, todas las configuraciones relacionadas con ContextHub y Personalization no se replican automáticamente con los canales cuando se publican.
+Al utilizar ContextHub y el motor de segmentación de AEM para personalizar el contenido en función de los déclencheur de datos en una configuración de autor/publicación, todas las configuraciones relacionadas con ContextHub y Personalization no se replican automáticamente con los canales cuando se publican.
 
 Esta página le ayuda a conocer los pasos manuales necesarios para publicar estas configuraciones por separado.
 
@@ -24,13 +24,13 @@ Este proceso se reduce básicamente a la publicación manual de lo siguiente:
 1. Audiencias de Personalization
 1. Actividades de Personalization
 
-## Pasos para replicar Déclencheur de datos en el servidor de Publish {#replicating-data-triggers-publish}
+## Pasos para replicar Déclencheur de datos en el servidor de publicación {#replicating-data-triggers-publish}
 
 Siga los pasos a continuación para replicar los déclencheur de datos en el servidor de publicación.
 
 ### Paso 1: Duplicación de configuraciones de ContextHub {#replicating-contexthub-configurations}
 
-1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de Publish** y haga clic en el agente de publicación para configurar los ajustes.
+1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de publicación** y haga clic en el agente de publicación para configurar los ajustes.
 
    ![imagen1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -52,7 +52,7 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 ### Duplicación de audiencias {#replicating-audiences}
 
-1. AEM Vaya a la instancia de la > **Personalization** > **Audiencias** o use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para navegar directamente.
+1. Vaya a la instancia de AEM > **Personalization** > **Audiencias** o use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para navegar directamente.
 
 1. Profundice en la carpeta del proyecto, por ejemplo, `/conf/screens/`.
 
@@ -62,11 +62,11 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 1. Haga clic en **Administrar publicación** en la barra de acciones.
 
-1. Haga clic en **Siguiente** y **Publish**.
+1. Haga clic en **Siguiente** y **Publicar**.
 
 ### Duplicación de actividades {#replicating-activities}
 
-1. AEM Vaya a la instancia de la > **Personalization** > **Actividades** o use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para navegar directamente.
+1. Vaya a la instancia de AEM > **Personalization** > **Actividades** o use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para navegar directamente.
 
 1. Profundice en la carpeta del proyecto, es decir, `/content/campaigns/screens/…`.
 
@@ -74,7 +74,7 @@ Siga los pasos a continuación para replicar los déclencheur de datos en el ser
 
 1. Haga clic en **Administrar publicación** en la barra de acciones.
 
-1. Haga clic en **Siguiente** y **Publish**.
+1. Haga clic en **Siguiente** y **Publicar**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Si la replicación se realiza correctamente, debe ver la siguiente estructura en
 
 Si la conexión de prueba falla al replicar las configuraciones de ContextHub, siga la sección siguiente para solucionar el problema:
 
-1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de Publish**.
+1. Vaya a **Herramientas** > **Implementación** > **Distribución** > **Agente de publicación**.
 
 1. Haga clic en **Editar** en la barra de acciones y asegúrese de que la dirección URL del extremo del campo **Extremos del importador** también apunte a la dirección URL del servidor de publicación en el agente de distribución.
    ![imagen1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -102,7 +102,7 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
    Complete los siguientes pasos:
 
    1. Vaya a Herramientas > **Operaciones** > **Consola web** `http://localhost:4502/system/console/configMgr`para poder abrir la pantalla de la **Consola web de Adobe Experience Manager**.
-   1. Buscar **credenciales de transporte de distribución de Apache Sling - Credenciales de usuario basadas en DistributionTransportSecretProvider**
+   1. Buscar **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![imagen1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
@@ -116,4 +116,4 @@ Si la conexión de prueba falla al replicar las configuraciones de ContextHub, s
       ![imagen1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Actualice `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. AEM Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla de **Agente de distribución** de la instancia de la.
+   1. Haga clic en **Guardar** y vuelva a ejecutar la conexión de prueba desde la pantalla de **Agente de distribución** de la instancia de AEM.

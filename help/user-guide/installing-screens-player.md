@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,14 @@ En esta página se describe cómo instalar AEM Screens Player.
 
 El Reproductor de AEM Screens está disponible para Android™, el sistema operativo Chrome y Windows.
 
-Para descargar **AEM Screens AEM Player**, visita la página [Descargas del reproductor de 6.500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000](https://download.macromedia.com/screens/)
+Para descargar **AEM Screens Player**, visita la página [Descargas del reproductor AEM 6.5](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >
 >Después de descargar el último reproductor (*.exe*), siga los pasos del reproductor para completar la instalación ad hoc:
 >
 >1. Pulse durante mucho tiempo en la esquina superior izquierda para abrir el panel de administración.
->1. AEM Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la dirección de ubicación de la instancia de la instancia en **Servidor** y haga clic en **Guardar**.
+>1. Vaya a **Configuración** desde el menú de acción de la izquierda, escriba la dirección de ubicación de la instancia de AEM en **Servidor** y haga clic en **Guardar**.
 >1. Haga clic en el vínculo **Registro** del menú de acción de la izquierda y siga los pasos a continuación para completar el proceso de registro del dispositivo.
 
 ## Monitorización de reproducción básica {#playback-monitoring}
@@ -70,9 +70,9 @@ A continuación se enumeran algunas limitaciones de la monitorización básica d
 
 * El reproductor informa de su propio estado de reproducción al servidor, por lo que requiere una conexión activa.
 
-* La propiedad de `isContentRendering` que comprueba la GPU consume muchos más recursos, por lo que se habilita de forma predeterminada y requiere la inclusión explícita en las preferencias del reproductor. El Adobe recomienda no utilizarlo con vídeos en producción.
+* La propiedad de `isContentRendering` que comprueba la GPU consume muchos más recursos, por lo que se habilita de forma predeterminada y requiere la inclusión explícita en las preferencias del reproductor. Adobe recomienda no utilizarlo con vídeos en producción.
 
-* SPA Esta función solo se admite para canales de secuencia y aún no cubre el caso de uso de canales interactivos ().
+* Esta función solo se admite para canales de secuencia y aún no cubre el caso de uso de canales interactivos (SPA).
 
 * Las métricas aún no están completamente expuestas a los clientes, pero Adobe está trabajando para habilitar pronto mecanismos de creación de informes y alertas similares a los de un panel.
 

@@ -3,9 +3,9 @@ title: Etiquetado en Screens Cloud
 description: En esta página se describe cómo se pueden crear, administrar y utilizar las etiquetas en Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Utilice las etiquetas creadas en Pantallas y reproductores.
 >[!NOTE]
 >
 > Una pantalla o un reproductor pueden tener un máximo de 30 etiquetas asignadas.
-> Se pueden etiquetar como máximo 30 elementos de una sola vez.
+> > Se pueden etiquetar como máximo 30 elementos de una sola vez.
 
 ## Filtrar por etiquetas {#filter-by-tags}
 

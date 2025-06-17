@@ -1,6 +1,6 @@
 ---
-title: Creación y administración de programas
-description: Obtenga información sobre los Programas que permiten organizar los canales en grupos reutilizables para no tener que repetir su asignación individualmente.
+title: Crear y administrar horarios
+description: Obtenga información sobre las programaciones que le permiten organizar canales en grupos reutilizables para que no tenga que repetir su asignación individualmente.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Creación y administración de programas {#creating-and-managing-schedules}
+# Creación y administración de programaciones {#creating-and-managing-schedules}
 
 Los **horarios** de AEM Screens le permiten organizar canales en grupos reutilizables. Hacerlo significa que no tiene que repetir su asignación individualmente para cada pantalla en la que desee mostrar el contenido.
 
@@ -24,7 +24,7 @@ Programaciones, cuando se combina con ***DayParting***, le permite establecer un
 
 >[!NOTE]
 >
->Esta funcionalidad de AEM Screens AEM solo está disponible si ha instalado el paquete de funciones 1 de Sites de la versión 6.3 de. Para obtener acceso a este paquete de funciones, póngase en contacto con el Soporte técnico de Adobe y solicite acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
+>Esta funcionalidad de AEM Screens solo está disponible si ha instalado el paquete de funciones 1 de AEM 6.3 Sites. Para obtener acceso a este paquete de funciones, póngase en contacto con el Soporte técnico de Adobe y solicite acceso. Una vez que tenga los permisos necesarios, puede descargarlo desde Package Share.
 
 ## Creación de una programación {#creating-a-schedule}
 
@@ -42,7 +42,7 @@ Siga los pasos a continuación para crear una programación para su canal:
 Puede ver una carpeta de programación con el nombre y título designados en el proyecto.
 
 
-## Visualización del panel {#viewing-dashboard}
+## Ver tablero {#viewing-dashboard}
 
 Después de crear una carpeta de programaciones en el proyecto, puede ver los detalles en el panel de programaciones.
 
@@ -58,8 +58,8 @@ Siga los pasos a continuación para ver el panel de programación. El ejemplo si
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panel de información de horario** Haga clic en Propiedades en la esquina superior derecha del Panel de información de horario para ver o cambiar las propiedades de la programación.
+   **Panel de información de horario**: haga clic en Propiedades en la esquina superior derecha del panel INFORMACIÓN DE HORARIO para ver o cambiar las propiedades de la programación.
 
-   **Panel de canales asignados** Haga clic en +Asignar canal desde la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
+   **Panel de canales asignados**: haga clic en +Asignar canal desde la esquina superior derecha del panel CANALES ASIGNADOS para abrir el cuadro de diálogo Asignación de canal.
 
-   **Panel de pantallas asignadas** Haga clic en cualquiera de las pantallas del panel de pantallas asignadas para abrir el panel de visualización.
+   **Panel de pantallas asignadas**: haga clic en cualquiera de las pantallas del panel de pantallas asignadas para abrir el panel de visualización.

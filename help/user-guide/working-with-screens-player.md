@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Después de asignar un canal a una pantalla, el Reproductor de AEM Screens muest
 
 ## Uso del tablero de dispositivos {#using-the-device-dashboard}
 
-AEM Puede configurar las preferencias de su dispositivo desde el panel Dispositivo, al que se puede acceder mediante la instancia de creación de la instancia de la instancia de creación de la.
+Puede configurar las preferencias de su dispositivo desde el panel Dispositivo, al que se puede acceder mediante la instancia de creación de AEM.
 
 1. Vaya al panel de dispositivos desde el proyecto, por ejemplo, ***Proyecto de prueba*** > ***Dispositivos***.
 
@@ -48,7 +48,7 @@ AEM Puede configurar las preferencias de su dispositivo desde el panel Dispositi
 
 Habilitar la **IU de administración** desde el panel de preferencias permite al usuario abrir la configuración de administración desde el Reproductor de Screens. Además, si desactiva esta opción desde el panel del dispositivo, el usuario no podrá abrir la IU de administración desde el reproductor.
 
-Para ver la IU de administración desde el Reproductor de Screens, pulse durante mucho tiempo la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón. La información se muestra una vez completado el registro y cargados los canales.
+Para ver la IU de administración desde el Reproductor de Screens, pulse durante mucho tiempo la esquina superior izquierda para abrir el menú Administración, en el reproductor de AEM Screens táctil o con un ratón. La información se muestra después de completar el registro y de cargar los canales.
 
 >[!NOTE]
 >
@@ -124,12 +124,12 @@ Para cambiar las preferencias del reproductor:
 
 Puede solucionar varios problemas asociados con el Reproductor de AEM Screens (hardware y software):
 
-| **Problemas** | **Recommendations** |
+| **Problemas** | **Recomendaciones** |
 |---|---|
 | El almacenamiento del reproductor está lleno | Eliminar archivos innecesarios |
 | El reproductor perdió la red | Utilice un cable Cat-5 o Cat-6. Para wifi, reduce la distancia desde el router al dispositivo de reproducción |
 | Reproductor de AEM Screens bloqueado | Se recomienda tener una aplicación de vigilancia que se asegure de que el reproductor de AEM Screens siempre se ejecute |
-| El Reproductor de AEM Screens perdió la configuración | AEM Comprobar la conexión con el servidor de |
+| El Reproductor de AEM Screens perdió la configuración | Comprobar conexión con el servidor de AEM |
 | El Reproductor de AEM Screens no se inicia automáticamente después de reiniciar el Reproductor | Compruebe la carpeta de inicio del sistema operativo o el procedimiento de inicialización |
 | El Reproductor de AEM Screens muestra contenido incorrecto o antiguo | Comprobar conexión de red |
 
@@ -149,7 +149,7 @@ En la siguiente sección se proporcionan las directrices de selección de hardwa
 * Use siempre componentes de nivel ***Comercial*** o ***Industrial*** para reproductores de PC y paneles de pantalla o proyectores.
 
 * Póngase en contacto con los proveedores que trabajan en el mercado de la publicidad dinámica.
-* Tenga siempre en cuenta factores ambientales como la temperatura ambiente y la humedad relativa.
+* Tenga siempre en cuenta los factores ambientales, como la temperatura ambiente y la humedad relativa.
 * Revise siempre los requisitos de alimentación y el acondicionador de alimentación.
 * Revise cuidadosamente las necesidades de rendimiento y los puertos de E/S necesarios para la aplicación.
 

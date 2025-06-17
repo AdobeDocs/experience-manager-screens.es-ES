@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 # Notas de la versión del paquete de funciones 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Adobe recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
 ## Disponibilidad {#availability}
 
-AEM Screens AEM ha lanzado el paquete de funciones 9 de la versión 6.5.
+AEM Screens ha lanzado el paquete de funciones 9 de AEM 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.9 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP9**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.9 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último paquete de funciones titulado **AEM 6.5 Screens FP9**.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -37,7 +37,7 @@ Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail
 * **Monitorización de reproducción básica**
 
   AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informa de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, detecta varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo el contenido correctamente y mejora la reacción a pantallas en blanco o experiencias rotas en el campo. También reduce el riesgo de mostrar una experiencia rota al usuario final.
-Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obtener más información.
+Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obtener más información.
 
 * **Actualizaciones en el informe de asignación de contenido**
 
@@ -58,7 +58,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
    * Borre todos los trabajos de contenido sin conexión pendientes tanto en la creación como en la publicación.
 
-      * Vaya a CRXDE Lite en Author y Publish.
+      * Vaya a CRXDE Lite en Autor y Publish.
 
       * Haga clic en Herramientas > Consulta.
 
@@ -77,8 +77,8 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
    * Actualice el componente personalizado.
 
 
-   * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
-   * Si usa componentes personalizados como parte de manifiestos de la versión 3, vea [Plantilla para controladores personalizados](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
+   * Si usa componentes personalizados como parte de manifiestos de la versión 3, vea [Plantilla para controladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correcciones de errores {#bug-fixes}
@@ -152,7 +152,7 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 9 de la versión 6.5 de:
+Los siguientes reproductores AEM Screens se incluyen en el paquete de funciones 9 de AEM 6.5:
 
 * ChromeOS
 * Windows

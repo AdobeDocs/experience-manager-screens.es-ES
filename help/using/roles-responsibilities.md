@@ -2,16 +2,16 @@
 title: Funciones y responsabilidades del proyecto AEM Screens
 description: Obtenga información acerca de las funciones y responsabilidades del proyecto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
 # Funciones y responsabilidades del proyecto {#roles-responsibilities}
 
-AEM Como implementador experimentado en la implementación de la, es probable que haya visto las funciones que se denominan *Autores*, *Desarrolladores* y *Técnicos de TI*.
+Como implementador experimentado de AEM, es probable que haya visto que las funciones se denominan *Autores*, *Desarrolladores* y *Técnicos de TI*.
 
 En un proyecto típico de AEM Screens, las funciones se refinan aún más, ya que cada una cumple un propósito importante en el proyecto.
 
@@ -29,15 +29,15 @@ La siguiente sección ofrece información general sobre la audiencia de destino:
 
 ### Adobe {#adobe-audience}
 
-El Adobe incluye recursos de Managed Services de Adobe como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
+Adobe incluye recursos de Adobe Managed Services como el CSE (ingeniero de éxito del cliente) y la asistencia de Adobe.
 
-### AEM Implementadores de {#aem-implementors}
+### Implementadores de AEM {#aem-implementors}
 
-AEM AEM Los implementadores de son responsables de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para los usuarios de.
+Los implementadores de AEM son responsables de realizar tareas de desarrollo e integración para desarrollar la experiencia del usuario, las plantillas personalizadas y las integraciones back-end para AEM.
 
 Las funciones personalizadas necesarias para abordar los parámetros de experiencia de usuario (UX) del cliente final también se capturan y entregan a través de este proceso.
 
-AEM Los implementadores suelen implementar la funcionalidad personalizada por fases a lo largo del tiempo en las ubicaciones. Por ejemplo, pueden establecer primero una compatibilidad con la reproducción de vídeo en bucle básico o contenido gráfico estático. La siguiente fase incluye la posibilidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos. Otras fases incorporan la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, déclencheur dinámicos, etc.
+Los implementadores de AEM generalmente implementan la funcionalidad personalizada por fases a lo largo del tiempo en las ubicaciones. Por ejemplo, pueden establecer primero una compatibilidad con la reproducción de vídeo en bucle básico o contenido gráfico estático. La siguiente fase incluye la posibilidad de admitir la reproducción de contenido localizado mediante plantillas dinámicas y etiquetas de metadatos. Otras fases incorporan la compatibilidad con elementos interactivos mediante pantallas táctiles, sensores, déclencheur dinámicos, etc.
 
 ### Integradores de audio y vídeo {#av-integrators}
 
@@ -53,7 +53,7 @@ Un integrador de audio y vídeo es responsable de llevar a cabo la detección co
 
 Es crucial hacer clic en el socio de hardware adecuado. Deben tenerse en cuenta las siguientes cuestiones:
 
-1. ¿Cuáles son los términos del acuerdo de nivel de servicio?
+1. ¿Cuáles son los términos de Service level agreement?
 
 1. ¿Qué es la cobertura global?
 
@@ -76,7 +76,7 @@ El equipo de creativos y gestión de contenido trabaja estrechamente con el equi
 
 La administración de contenido y creativos puede ser la siguiente:
 
-* Agencia Creativa o,
+* Agencia Creative o,
 * Administrador de marca
 
 ### Gestores de proyecto {#project-managers}
@@ -85,7 +85,7 @@ Los jefes de proyecto suelen administrar toda la implementación para la impleme
 
 >[!NOTE]
 >
->Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fases del proyecto {#project-stages}
@@ -100,7 +100,7 @@ Para permitir una implementación correcta de la publicidad dinámica, es habitu
 >
 >Aunque esta guía pone énfasis principalmente en *Día uno* y *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de señalización digital exitoso.
 >
->Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -124,19 +124,19 @@ A continuación se muestra un ejemplo de gráfico RACI que utiliza las definicio
 
 La siguiente tabla resume el **día cero: consideraciones previas a la venta**:
 
-| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **Implementador de AEM** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Formación del equipo y selección de proveedores | I | I | RA | RA |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | Alineación con los objetivos estratégicos | CI | I | RA | RA |
 | Necesidades de informes e identificación de ROI | I | C | RA | C |
-| Visita al sitio y requisitos de hardware | RA | I | C | C |
+| Visitas al sitio y requisitos de hardware | RA | I | C | C |
 | Definición del proceso de soporte | C | I | RA | I |
 | Definir ámbito de trabajo y plan de proyecto | RA | RA | C | C |
 
 La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño de aplicación)**:
 
-| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **Implementador de AEM** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | Alineación en el plan y el horario del proyecto | RA | RA | C | C |
@@ -156,7 +156,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (diseño d
 
 La siguiente tabla resume el **Día uno: Implementación del proyecto (preparación para la venta minorista)**:
 
-| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **Implementador de AEM** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Pedidos y almacenamiento de hardware | RA | I | I | I |
 | Horario de incorporación comercial | I | I | C | RA |
@@ -166,7 +166,7 @@ La siguiente tabla resume el **Día uno: Implementación del proyecto (preparaci
 
 La siguiente tabla resume el **Día uno: Día uno: Implementación del proyecto (hardware)**:
 
-| **Fase** | **Integrador de audio y vídeo** | AEM **Implementador de** | **Estrategia empresarial** | **Administración de contenido** |
+| **Fase** | **Integrador de audio y vídeo** | **Implementador de AEM** | **Estrategia empresarial** | **Administración de contenido** |
 |---|---|---|---|---|
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA | RA |
 | El diseño comercial incluye operaciones de cableado | - | - | - | - |

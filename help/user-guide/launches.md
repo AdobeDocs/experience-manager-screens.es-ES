@@ -1,5 +1,5 @@
 ---
-title: Actualización de contenido con Screens Launch
+title: Actualizaciones de contenido mediante Screens Launch
 description: Aprenda a crear una versión futura de los canales, conocida como Launch, y a establecer una fecha de lanzamiento para que el contenido se publique en dispositivos o reproductores.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# Actualización de contenido con Screens Launch {#launches}
+# Actualizaciones de contenido mediante Screens Launch {#launches}
 
 Los autores de contenido pueden crear una versión futura de los canales y establecer la fecha de lanzamiento. Esta capacidad permite que el contenido esté activo en dispositivos o reproductores en la fecha en directo especificada.
 
@@ -68,10 +68,10 @@ Por lo tanto, cada vez que se programa un lanzamiento activo, la promoción comi
 
 En esta sección se explica cómo actualizar un periodo de gracia predeterminado a 10 minutos.
 
-1. Vaya al CRXDE Lite y luego a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Vaya a CRXDE Lite y luego a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Haga clic con el botón derecho y copie el archivo.
 1. Vaya a `/apps/system/config`, haga clic con el botón derecho y pegue.
-1. Haga doble clic en `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para poder abrir el archivo en el editor en CRXDE Lite. Debe mostrar el período de gracia para la ruta de acceso */content/screens/* como **86400**. Cambie ese valor a **600**.
+1. Haga doble clic en `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para poder abrir el archivo en el editor de CRXDE Lite. Debe mostrar el período de gracia para la ruta de acceso */content/screens/* como **86400**. Cambie ese valor a **600**.
 
 Ahora, el contenido del archivo de texto debería tener un aspecto similar al siguiente:
 

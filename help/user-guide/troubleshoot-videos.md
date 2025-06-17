@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Las siguientes secciones describen cómo depurar y solucionar problemas de la re
 
 ## Representaciones DAM {#dam-renditions}
 
-AEM Después de cargar el vídeo en el canal, debería empezar a crear algunas representaciones para él. Puede ver sus vídeos en Assets.
+Después de cargar el vídeo en el canal, AEM debe empezar a crear algunas representaciones para él. Puede ver sus vídeos en Assets.
 
 Para ver el vídeo:
 
@@ -33,11 +33,11 @@ Para ver el vídeo:
 
 Debe haber diferentes representaciones (una MP4 o M4V).
 
-AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado en el sistema operativo donde se ejecuta el sistema operativo en el que se está ejecutando el.
+Si no hay representación, asegúrese de que tiene FFMPEG instalado en el sistema operativo donde se ejecuta AEM.
 
 >[!CAUTION]
 >
->AEM Si no hay ninguna representación, asegúrese de que FFMPEG está instalado en el sistema operativo donde se ejecuta el sistema operativo en el que se está ejecutando el.
+>Si no hay representación, asegúrese de que tiene FFMPEG instalado en el sistema operativo donde se ejecuta AEM.
 >
 >Haga clic [aquí](https://www.ffmpeg.org/download.html) para instalar FFMPEG.
 
@@ -148,7 +148,7 @@ Siga los pasos a continuación para configurar una estrategia absoluta:
 
 1. Abrir las preferencias de **Fecha y hora** en cada cuadro de OS X
 1. Seleccionar **Establecer fecha y hora automáticamente**
-1. Pegue el valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com en el menú desplegable o simplemente ejecute *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Pegue el valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com en el menú desplegable o simplemente ejecute *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Inicio de los más de 2 jugadores
 
 Puede tomar algún tiempo antes de que los jugadores comiencen una nueva secuencia alineada.

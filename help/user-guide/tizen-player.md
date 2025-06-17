@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Complete los siguientes pasos:
 
 ### Nombrando reproductor Tizen {#name-tizen}
 
-Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager AEM (). Esta capacidad no solo le permite asignar un nombre al reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
+Puede asignar un nombre de dispositivo fácil de usar al reproductor Tizen, enviando así el nombre de dispositivo asignado a Adobe Experience Manager (AEM). Esta capacidad no solo le permite asignar un nombre al reproductor Tizen, sino que también le permite asignar fácilmente el contenido adecuado.
 
 >[!NOTE]
 >Solo puede elegir el nombre del reproductor antes del registro. Una vez registrado el reproductor, el nombre ya no se puede cambiar.
@@ -73,15 +73,15 @@ Siga los pasos a continuación en el dispositivo Samsung para completar la insta
 ## Exención de agentes de usuario con el problema de cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Esta sección se aplica a Adobe Experience Manager AEM AEM () 6.5.5 a.5.7**
+>**Esta sección se aplica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
 >
->AEM AEM Hay algunos motores de explorador que son incompatibles con el atributo *`SameSite=None`* utilizado en el token de inicio de sesión emitido por la versión 6.5.5 a la versión 6.5.7 de la versión 6.5.7 de la aplicación de inicio de sesión de. Normalmente, el problema se puede resolver actualizando el explorador a la última versión disponible. A veces, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, descodificadores u otros dispositivos con motores de exploración integrados.
+>Hay algunos motores de explorador que son incompatibles con el atributo *`SameSite=None`* utilizado en el token de inicio de sesión emitido por AEM 6.5.5 a AEM 6.5.7. Normalmente, el problema se puede resolver actualizando el explorador a la última versión disponible. A veces, estas actualizaciones pueden no ser posibles, como con pantallas inteligentes, descodificadores u otros dispositivos con motores de exploración integrados.
 
 Siga los pasos a continuación para eximir a estos clientes incompatibles cuando use *SameSite=None*:
 
-1. Actualice al paquete de servicio 6.5.7 de Adobe Experience Manager AEM ().
+1. Actualice a Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. AEM Después de reiniciar el equipo, vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token de Granite de Adobe**. Establezca el valor del valor de **SameSite** en **None**.
+1. Después de reiniciar AEM, vaya a `/system/console/configMgr` y busque **Controlador de autenticación de token de Adobe Granite**. Establezca el valor del valor de **SameSite** en **None**.
 
 1. Debería ver una nueva opción *`User agents to be exempted from samesite attribute`*. Rellene esta opción con una regex correspondiente al agente de usuario que sea incompatible con el atributo *SameSite=None*.
 
@@ -89,7 +89,7 @@ Siga los pasos a continuación para eximir a estos clientes incompatibles cuando
    >
    >Consulte [SameSite=None: Clientes incompatibles conocidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obtener más información. Para el reproductor Tizen, use la expresión regular: `(.*)Tizen(.*)`.
 
-1. AEM Registre el reproductor Tizen en su instancia de la versión 6.5.5 y superior de la y deberá registrarse y mostrar el contenido normalmente.
+1. Registre el reproductor Tizen con su AEM 6.5.5 y superior y debe registrarse y mostrar el contenido normalmente.
 
 ## Aprovisionamiento remoto del reproductor Tizen {#remote-provisioning}
 
@@ -119,18 +119,18 @@ En la tabla siguiente se resumen las directivas con sus funciones.
 
 >[!NOTE]
 >Las configuraciones de la directiva de la IU de administración del reproductor se aplican estrictamente y no se anulan manualmente. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.
->Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
+>>Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
 
 | **Nombre de directiva** | **Propósito** |
 |---|---|
-| servidor | La dirección URL del servidor de Adobe Experience Manager AEM (). |
+| servidor | La URL del servidor de Adobe Experience Manager (AEM). |
 | registrationKey | Se utiliza para el registro masivo de dispositivos mediante una clave previamente compartida. |
 | resolución | La resolución del dispositivo. |
 | rebootSchedule | Programación para reiniciar el reproductor. |
 | enableAdminUI | Habilite la IU de administración para configurar el dispositivo en el sitio. Se establece en false una vez que esté completamente configurado y en producción. |
-| enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de establecer en false, una vez que esté completamente configurado y en producción. |
-| enableActivityUI | Habilite para que pueda mostrar el progreso de las actividades como descarga y sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
-| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a Screens as a Cloud Service. AEM Configúrelo en False para conectarse a AMS o a la red local de servicios (On-). |
+| enableOSD | Habilite la interfaz de usuario del conmutador de canales para que los usuarios cambien de canal en el dispositivo. Considere la posibilidad de configurarlo como False una vez que esté completamente configurado y en producción. |
+| enableActivityUI | Habilite para que pueda mostrar el progreso de las actividades, como la descarga y la sincronización. Habilite para la resolución de problemas y deshabilite una vez que esté completamente configurado y en producción. |
+| cloudMode | Configúrelo en true si desea que el reproductor Tizen se conecte a Screens as a Cloud Service. Configúrelo en False para conectarse a AMS o a AEM local. |
 | cloudToken | Token de registro para registrarse en Screens as a Cloud Service. |
 
 
@@ -147,7 +147,7 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 
 1. Configure TLS si es necesario. Vaya al puerto, haga clic en el número de puerto del servidor y seleccione **Guardar**.
 
-1. Vaya a la ficha **Dispositivo** y busque el dispositivo que configuró. Cuando se encuentre un dispositivo, haga clic en la casilla de verificación y, a continuación, haga clic en **Aprobar**.
+1. Vaya a la ficha **Dispositivo** y busque el dispositivo que configuró. Cuando se encuentre un dispositivo, haga clic en la casilla de verificación y luego en **Aprobar**.
 
    >![imagen](/help/user-guide/assets/tizen/rms-3.png)
 

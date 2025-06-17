@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,15 +45,15 @@ La función SmartSync proporciona varios beneficios a su proyecto de AEM Screens
 
 >[!NOTE]
 >
->El Adobe recomienda encarecidamente no utilizar SmartSync para proyectos de AEM Screens.
+>Adobe recomienda utilizar SmartSync para proyectos de AEM Screens.
 
 ## Migración de ContentSync a SmartSync {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
->AEM AEM Si ya ha instalado el paquete de funciones 5 de la versión 6.3 y el paquete de funciones 3 de la versión 6.4 de la versión 6.3, puede habilitar SmartSync para que los recursos mejoren el uso del espacio en disco. Para habilitar SmartSync, siga la sección siguiente para pasar de ContentSync a SmartSync, habilitando así SmartSync.
+>Si ya ha instalado el paquete de funciones 5 de AEM 6.3 y el paquete de funciones 3 de AEM 6.4, puede habilitar SmartSync para los recursos a fin de mejorar el uso del espacio en disco. Para habilitar SmartSync, siga la sección siguiente para pasar de ContentSync a SmartSync, habilitando así SmartSync.
 >
->SmartSync está disponible para Screens AEM Player con los servidores compatibles con el FP3 de la versión 6.4.3 de la aplicación.
+>SmartSync está disponible para Screens Player con servidores compatibles AEM 6.4.3 FP3.
 >
 >Consulte [Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/) para descargar el reproductor más reciente. En la tabla siguiente se describe la versión mínima del reproductor necesaria para cada plataforma:
 
@@ -75,7 +75,7 @@ Siga los pasos a continuación para pasar de ContentSync a SmartSync:
    >
    >Se debe borrar toda la caché de contenido antes de utilizar SmartSync por primera vez.
 
-1. Vaya a la **configuración de la consola web de Adobe Experience Manager AEM** mediante la instancia de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a la **configuración de la consola web de Adobe Experience Manager** mediante AEM instance > hammer icon > **Operaciones** > **Consola web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

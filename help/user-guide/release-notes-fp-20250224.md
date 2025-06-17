@@ -4,9 +4,10 @@ description: Obtenga más información acerca del paquete de funciones 20250224 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 5%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager (AEM 6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
->FeaturePack (FP) versión 11.5 es compatible con ServicePack (SP) hasta la versión 21.
+>>FeaturePack (FP) versión 11.5 es compatible con ServicePack (SP) hasta la versión 21.
 
 
 ## Disponibilidad {#availability}
@@ -35,4 +36,4 @@ La fecha de lanzamiento del AEM Screens Feature Pack 20250224 es el 24 de febrer
 ### Correcciones de errores {#bug-fixes}
 
 * Conflicto de paquetes con Service Pack 21 y Feature Pack de Screens. (SCRNS-4638)
-* Corrección de errores en /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* Corrección de vulnerabilidades en `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` (SCRNS-4607)

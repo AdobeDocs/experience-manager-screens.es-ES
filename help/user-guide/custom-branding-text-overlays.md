@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Siga los pasos a continuación para crear una personalización de marca y estilo
    >[!NOTE]
    >Para obtener información sobre cómo agregar una superposición de texto al recurso en un editor de canales, consulte [Superposición de texto](/help/user-guide/text-overlay.md).
 
-1. Vaya al CRXDE Lite AEM desde la instancia de la > Herramientas > **CRXDE Lite**.
+1. Vaya a CRXDE Lite desde su instancia de AEM > Herramientas > **CRXDE Lite**.
 
 1. Crear un diseño personalizado en `/apps/settings/wcm/designs/<your-project>/`; por ejemplo, en este caso, vaya a `/apps/settings/wcm/designs/customstyle/`
 
@@ -114,7 +114,7 @@ Siga los pasos a continuación para ver el diseño actualizado en la superposici
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Vaya al archivo *static.css* en el CRXDE Lite y agregue la fuente `font-family: "Lucida Console", Courier, monospace;` a este archivo, como se muestra a continuación.
+1. Vaya al archivo *static.css* en CRXDE Lite y agregue la fuente como `font-family: "Lucida Console", Courier, monospace;` a este archivo, como se muestra a continuación.
 
    ![imagen](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

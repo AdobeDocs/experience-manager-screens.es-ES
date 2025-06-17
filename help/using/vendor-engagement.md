@@ -2,9 +2,9 @@
 title: Participación del proveedor
 description: Obtenga información acerca de la participación del proveedor para la Guía de prácticas recomendadas de AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ En esta actividad, es importante identificar todos los proveedores clave necesar
 
 * Defina las capacidades y tareas de cada proveedor en relación con la categoría de producto que admiten.
 
-* Confirme los *plazos de entrega* para todos los entregables. Cree un plan de implementación que se adapte a todos los tiempos de espera con versiones anteriores a partir de una o más fechas de instalación deseadas de las primeras instalaciones requeridas.
+* Confirme los *plazos de entrega* para todos los entregables. Cree un plan de implementación que incluya todos los plazos de trabajo con versiones anteriores a partir de una o más fechas de instalación deseadas de las primeras instalaciones requeridas.
 
 Al completar todos los pasos anteriores, ahora debería tener un plan de implementación completo de *Day 1* listo para ejecutarse.

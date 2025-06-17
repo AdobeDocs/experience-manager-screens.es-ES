@@ -10,20 +10,20 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
 
 # Adición de componentes a un canal{#adding-components-to-a-channel}
 
-AEM Los componentes son los elementos fundamentales de la experiencia de la (Adobe Experience Manager). Puede utilizar varios componentes y añadirlos al canal en un proyecto de AEM Screens.
+Los componentes son los elementos fundamentales de la experiencia de AEM (Adobe Experience Manager). Puede utilizar varios componentes y añadirlos al canal en un proyecto de AEM Screens.
 
 ## Componentes en AEM Screens {#components-in-aem-screens}
 
-AEM Screens AEM proporciona diferentes componentes de la que se pueden utilizar en un proyecto de Screens.
+AEM Screens proporciona diferentes componentes de AEM que se pueden utilizar en un proyecto de Screens.
 
 ### Visualización de componentes de AEM Screens {#viewing-aem-screens-components}
 
@@ -34,14 +34,14 @@ Para ver los componentes predeterminados del proyecto de Screens, siga los pasos
 1. Haga clic en el canal. Por ejemplo, **`We.Retail In Store`** > **Canales** > **Canal inactivo**.
 
 1. Haga clic en **Editar** en la barra de acciones.
-1. AEM En el Editor de, haga clic en el icono **+** de la barra lateral.
+1. En el Editor de AEM, haga clic en el icono **+** de la barra lateral.
 1. Se muestran todos los componentes que se incluyen de forma predeterminada en un proyecto de AEM Screens, como se muestra en la figura siguiente.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Agregar un nuevo componente {#adding-a-new-component}
 
-AEM La ofrece otros componentes. Siempre puede agregar otros componentes (no incluidos de forma predeterminada) al proyecto, dado que esos componentes son compatibles con AEM Screens.
+AEM proporciona otros componentes. Siempre puede agregar otros componentes (no incluidos de forma predeterminada) al proyecto, dado que esos componentes son compatibles con AEM Screens.
 
 El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto de AEM Screens:
 
@@ -58,7 +58,7 @@ El siguiente ejemplo muestra la adición de un componente Livefyre a un proyecto
 >
 >Del mismo modo, puede agregar al proyecto cualquier otro número de componentes nuevos que sean compatibles con AEM Screens.
 
-## AEM Explicación de los componentes de pantalla {#understanding-aem-screen-components}
+## Explicación de los componentes de pantalla de AEM {#understanding-aem-screen-components}
 
 En la siguiente sección se explican los componentes de AEM Screens que puede utilizar en el proyecto.
 
@@ -193,7 +193,7 @@ La secuencia incrustada dinámica tiene las siguientes propiedades:
 
 ### Fragmento de experiencias {#experience-fragment}
 
-Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. AEM Arrastre y suelte el componente en el Editor de y haga clic en el Fragmento de experiencia.
+Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. Arrastre y suelte el componente en el Editor de AEM y haga clic en el Fragmento de experiencia.
 
 Para obtener más información sobre cómo crear un fragmento de experiencia y aplicarlo a un proyecto de AEM Screens, consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md).
 
@@ -289,7 +289,7 @@ El componente de transición tiene las siguientes propiedades:
   </tr>
   <tr>
    <td><strong><em>Activo desde</em></strong></td>
-   <td>Marca de tiempo que describe desde cuándo puede estar activa la transición.<br /> </td>
+   <td>Marca de tiempo que describe cuándo puede estar activa la transición.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Activo hasta</em></strong></td>

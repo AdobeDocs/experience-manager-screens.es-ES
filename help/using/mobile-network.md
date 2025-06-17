@@ -2,9 +2,9 @@
 title: Red móvil directa
 description: Obtenga información acerca de la configuración de Direct Mobile Network en AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ En AEM Screens, el contenido necesario se descarga físicamente en el controlado
 
 La ventaja de conectar AEM Screens Players over Cellular 3/4/5G a su proveedor de datos de servicio móvil es que el router móvil se puede colocar en un lugar optimizado. Al hacerlo, se asegura la mejor cobertura de red disponible. Esta ubicación suele estar en una posición elevada y abierta con el menor número posible de estructuras de hormigón o metal alrededor.
 
-AEM Esta configuración ofrece a los usuarios de pantalla de la pantalla de la pantalla de la pantalla de la pantalla una gran flexibilidad, ya que no se requiere conexión de línea fija para conectarse a AEM Screens. Este arreglo es interesante para configuraciones efímeras o móviles.
+Esta configuración ofrece a los usuarios de AEM Screen una gran flexibilidad porque no se requiere conexión de línea fija para conectarse a AEM Screens. Este arreglo es interesante para configuraciones efímeras o móviles.
 
 El diagrama siguiente muestra la configuración de Direct Mobile Network. Consiste en un único segmento de conexión de red y la conexión de cada reproductor a la red de datos móviles o celulares.
 
@@ -25,9 +25,9 @@ El diagrama siguiente muestra la configuración de Direct Mobile Network. Consis
 
 ## Conexión del Reproductor de AEM Screens a la red móvil directa
 
-AEM Siga los pasos a continuación para asegurarse de que la conexión de los reproductores de pantalla de la pantalla de la es correcta en esta configuración:
+Siga los pasos a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
-1. AEM Asegúrese de que cada uno de los reproductores de pantalla de la pantalla está conectado a la red del enrutador.
+1. Asegúrese de que cada uno de los reproductores de pantalla de AEM esté conectado a la red del enrutador.
 
 1. Pruebe la conexión a Internet llamando a una dirección URL en el explorador del sistema.
 

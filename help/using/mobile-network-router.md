@@ -2,21 +2,21 @@
 title: Red móvil con el enrutador de datos móvil y componentes de red activos
 description: La página describe la red móvil con el enrutador de datos móvil y los componentes de red activos
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Red móvil con el enrutador de datos móvil y componentes de red activos {#mobile-network-setup}
 
-Adobe AEM Screens Los reproductores también pueden conectarse mediante redes móviles o celulares que ejecuten al menos una red 3G.
+Los reproductores Adobe AEM Screens también se pueden conectar a través de redes móviles o celulares que ejecuten al menos una red 3G.
 
 En AEM Screens, el contenido necesario se descarga físicamente en el controlador del reproductor o en el equipo y se almacena correctamente en el sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y a las actualizaciones de contenido, y no influye en el rendimiento de la reproducción regular de las pantallas.
 
 La ventaja de esta configuración es que el router móvil se puede colocar en un lugar optimizado para garantizar la mejor cobertura de red disponible. Este lugar suele estar en una posición elevada y abierta, con el menor número posible de estructuras de hormigón o metal circundantes.
-AEM Esta configuración proporciona flexibilidad a los usuarios de pantalla de la pantalla de la pantalla de la pantalla porque no se requiere una línea fija para conectarse a AEM Screens. También es interesante para configuraciones efímeras o móviles.
+Esta configuración proporciona a los usuarios de AEM Screen flexibilidad porque no se requiere una línea fija para conectarse a AEM Screens. También es interesante para configuraciones efímeras o móviles.
 
 El diagrama siguiente muestra la configuración de Red móvil con el enrutador de datos móvil y los componentes de red activos. Contiene un acceso a Internet de cualquiera de los controladores AEM Screens mediante acceso directo a Internet mediante un propio enlace de datos 3/4/5G.
 
@@ -24,11 +24,11 @@ El diagrama siguiente muestra la configuración de Red móvil con el enrutador d
 
 ## Conexión del Reproductor de AEM Screens a la red móvil con el enrutador de datos móvil y los componentes de red activos {#connecting-aem-screens-players}
 
-AEM Siga los pasos a continuación para asegurarse de que la conexión de los reproductores de pantalla de la pantalla de la es correcta en esta configuración:
+Siga los pasos a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
 La configuración asigna un acceso a Internet para cada controlador de AEM Screens mediante el acceso directo a Internet mediante un vínculo de datos dedicado 3/4/5G.
 
-1. Asegúrese de que el enrutador de datos móvil está conectado correctamente a la red de datos móviles como se indica en el sistema operativo. AEM Además, asegúrese de que cada uno de los reproductores de pantalla de la pantalla de la red de enrutadores está conectado a la red de la pantalla de la pantalla de la red de la red de la red de la red de la red.
+1. Asegúrese de que el enrutador de datos móvil está conectado correctamente a la red de datos móviles como se indica en el sistema operativo. Además, asegúrese de que cada uno de los reproductores de pantalla de AEM esté conectado a la red de enrutadores.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el explorador del sistema.
 
    >[!NOTE]

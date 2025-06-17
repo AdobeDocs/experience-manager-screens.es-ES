@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ Para ver el contenido de su Live Copy, consulte los pasos a continuación:
 
    >[!NOTE]
    >
-   >Cuando visualiza contenido para un canal de Live Copy, ve un elemento adicional en el menú como **Estado de Live Copy**. Consulte la sección siguiente para obtener más información.
+   >Cuando visualiza contenido para un canal de Live Copy, ve un elemento adicional en el menú como **Estado de Live Copy**. Consulte la siguiente sección para obtener más información.
 
 ### Visualización de propiedades de una Live Copy {#viewing-properties-of-a-live-copy}
 
@@ -93,7 +93,7 @@ El modo **Estado de Live Copy**, como se muestra en la figura siguiente, le perm
 
 También puede cancelar la herencia de la Live Copy, por lo que el contenido se vuelve independiente de la rama original.
 
-En el siguiente ejemplo se muestra cómo hacer clic en la imagen en el modo de edición y hacer clic en el símbolo de herencia cancel de la parte superior derecha.
+El siguiente ejemplo muestra que hace clic en la imagen en el modo de edición y hace clic en el icono **Cancelar herencia** en la parte superior derecha.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Siga los pasos a continuación para asegurarse de que los cambios se propagan de
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. AEM Para propagar los cambios al canal de Live Copy, vaya al panel de, haga clic en el canal de Live Copy y, a continuación, haga clic en **Propiedades** desde la barra de acciones.
+1. Para propagar los cambios al canal de Live Copy, vaya al panel de AEM, haga clic en el canal de Live Copy y, a continuación, haga clic en **Propiedades** desde la barra de acciones.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -125,7 +125,7 @@ Siga los pasos a continuación para asegurarse de que los cambios se propagan de
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. AEM Haga clic en **Sincronizar** y, a continuación, haga clic en **Guardar y cerrar** para volver al panel de control de.
+1. Haga clic en **Sincronizar** y, a continuación, haga clic en **Guardar y cerrar** para volver al panel de AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

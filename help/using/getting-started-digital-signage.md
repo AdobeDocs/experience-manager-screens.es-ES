@@ -2,9 +2,9 @@
 title: Conceptos básicos de señalización digital para [!UICONTROL AEM Screens]
 description: Conozca los conceptos básicos de un proyecto de señalización digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ La definición de los elementos clave es esencial antes de implementar un proyec
 
 1. **Conectividad**
 
-   La conectividad enfatiza en las siguientes preguntas:
+   La conectividad hace hincapié en las siguientes preguntas:
    * ¿Conectado en red (móvil o wi-fi) o independiente?
       * ¿Debe permitir actualizaciones de contenido USB?
       * ¿Debe permitir el uso de la recopilación de datos?

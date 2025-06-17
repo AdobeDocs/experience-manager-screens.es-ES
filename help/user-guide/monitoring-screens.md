@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,7 @@ Además, haz clic en **Configuración** en la esquina superior derecha para actu
 
 >[!NOTE]
 >Puede hacer clic en cualquiera de los siguientes niveles de registro:
+>
 >* **Disable**
 >* **Depurar**
 >* **Información**
@@ -126,7 +127,7 @@ Además, haz clic en **Configuración** en la esquina superior derecha para actu
 
 Active el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla.
 
-Actualmente, algunas de estas características solo están disponibles si el *Filtro de referente de Apache Sling Permitir vacío* está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
+Actualmente, algunas de estas características solo están disponibles si *`Apache Sling Referrer Filter Allow Empty`* está habilitado en la configuración OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
 
 Siga los pasos a continuación para habilitar el Filtro de referente de Apache Sling Permitir vacío
 
@@ -140,14 +141,14 @@ Siga los pasos a continuación para habilitar el Filtro de referente de Apache S
 
 En la siguiente sección se recomienda monitorizar los vínculos de red, los servidores y los reproductores para comprender el estado y reaccionar ante los problemas.
 
-AEM proporciona una monitorización integrada para:
+AEM proporciona monitorización integrada para:
 
 * *Heartbeat* cada 5 segundos para indicar que el Reproductor de AEM Screens está en funcionamiento.
 * *Captura de pantalla* del reproductor que muestra lo que se muestra en el reproductor.
 * La versión *Firmware del reproductor AEM Screens* está instalada en el reproductor.
 * *Espacio de almacenamiento gratuito* en el reproductor.
 
-Recommendations para monitorado remoto con software de terceros:
+Recomendaciones para el monitorado remoto con software de terceros:
 
 * Uso de CPU en reproductores.
 * Compruebe si el proceso del Reproductor de AEM Screens se está ejecutando.

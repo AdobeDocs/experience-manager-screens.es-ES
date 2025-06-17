@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
 ht-degree: 1%
@@ -53,7 +53,7 @@ En el ejemplo siguiente se proporciona una solución centrándose en los términ
 
 * un ***canal de secuencia principal*** para la secuencia global.
 * ***componentes de secuencia incrustada dinámica*** para cada parte personalizable localmente de la secuencia.
-* ***canales de secuencia individual*** en las ubicaciones respectivas con un *rol* en la pantalla que coincide con el **rol &#x200B;***del componente de secuencia incrustada dinámica.*
+* ***canales de secuencia individual*** en las ubicaciones respectivas con un *rol* en la pantalla que coincide con el **rol ***del componente de secuencia incrustada dinámica.*
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Antes de comenzar a implementar esta funcionalidad, asegúrese de que tiene los 
 
 * Cree un proyecto de AEM Screens (en este ejemplo, **Demo**).
 * Cree un canal **Global** en la carpeta **Canales**.
-* Agregue contenido a su canal **Global** (*Compruebe **Resources.zip**&#x200B;para ver si hay recursos relevantes*).
+* Agregue contenido a su canal **Global** (*Compruebe **Resources.zip**para ver si hay recursos relevantes*).
 
 La siguiente imagen muestra el proyecto **Demo** con el canal **Global** en la carpeta **Channels**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -318,7 +318,7 @@ Siga los pasos a continuación para crear grupos y usuarios, y modificar las ACL
 
    1. Vaya a **Adobe Experience Manager**.
    1. Haga clic en **Herramientas** > **Seguridad** > **Usuarios**.
-   1. Haga clic en **Crear usuario** e introduzca **Usuario global** en **ID**.
+   1. Haz clic en **Crear usuario** y luego, en **ID**, escribe **Usuario global**.
    1. Escriba **Password** y confirme la contraseña de este usuario.
    1. Haga clic en la ficha **Grupos** e introduzca el nombre del grupo en **Haga clic en Grupo**; por ejemplo, escriba **Autor global** para agregar **Usuario global** a ese grupo específico.
    1. Haga clic en **Guardar y cerrar**.

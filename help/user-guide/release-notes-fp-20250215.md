@@ -4,9 +4,10 @@ description: Obtenga más información acerca del paquete de funciones 20250327 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
+exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager (AEM 6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
->Adobe recomienda utilizar FP11.6 con SP(servicepack) >= 21.
+>>Adobe recomienda utilizar FP11.6 con SP(servicepack) >= 21.
 
 ## Disponibilidad {#availability}
 
@@ -35,7 +36,7 @@ La fecha de lanzamiento del AEM Screens Feature Pack 20250327 es el 27 de marzo 
 
 * **Actualización de AEM Screens Players**
    * El reproductor AEM Screens basado en Linux está oficialmente obsoleto. Se aconseja a los usuarios migrar a otro sistema operativo compatible con AEM Screens.
-   * No se realizarán más actualizaciones ni mejoras en el Reproductor de AEM Screens basado en Android. Se recomienda a los usuarios migrar a un sistema operativo alternativo compatible con AEM Screens.
+   * No se realizan más actualizaciones ni mejoras en el Reproductor de AEM Screens basado en Android. Se recomienda a los usuarios migrar a un sistema operativo alternativo compatible con AEM Screens.
 
 ### Correcciones de errores {#bug-fixes}
 
