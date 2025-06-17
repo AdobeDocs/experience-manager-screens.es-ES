@@ -80,7 +80,7 @@ Obtenga información sobre la administración de proyectos y la preparación de 
 
 ### Administración e implementación de proyectos
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/32791?captions=spa)
 
 *Obtenga información acerca de la administración de proyectos y la preparación de la implementación (la preproducción del proyecto, el inicio del proyecto y la progresión del proyecto).*
 
