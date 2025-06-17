@@ -31,4 +31,4 @@ Los entregables clave en esta etapa incluyen:
 >
 >Identifique lo antes posible los datos necesarios para la aplicación y de dónde provienen. La exploración más profunda se produce durante la implementación. No obstante, asegúrese de tomarse un tiempo durante *día cero* para averiguar qué datos piensa usar el cliente. Averigüe dónde se almacenan actualmente esos datos y cómo puede acceder a ellos la aplicación que se está creando. Notificar al equipo de desarrollo antes de que surjan desafíos ayuda a que una implementación se realice sin problemas.
 
-Vea el vídeo [Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Vea el vídeo [Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

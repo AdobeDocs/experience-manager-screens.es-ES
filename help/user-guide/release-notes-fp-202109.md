@@ -37,7 +37,7 @@ Consulte [Compatibilidad con miniaturas para vídeos](/help/user-guide/thumbnail
 * **Monitorización de reproducción básica**
 
   AEM Screens ahora admite la monitorización básica de la reproducción. El reproductor ahora informa de varias métricas de reproducción con cada ping (el valor predeterminado es de 30 segundos). En función de las métricas, detecta varios casos extremos (experiencia atascada, pantalla en blanco, problema de programación, etc.). Esta función permite que el equipo supervise de forma remota si un reproductor está reproduciendo el contenido correctamente y mejora la reacción a pantallas en blanco o experiencias rotas en el campo. También reduce el riesgo de mostrar una experiencia rota al usuario final.
-Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obtener más información.
+Consulte [Monitorización de reproducción básica](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obtener más información.
 
 * **Actualizaciones en el informe de asignación de contenido**
 
@@ -77,8 +77,8 @@ Consulte [Informe de asignación de contenido](/help/user-guide/content-assignme
    * Actualice el componente personalizado.
 
 
-   * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
-   * Si usa componentes personalizados como parte de manifiestos de la versión 3, vea [Plantilla para controladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
+   * Si usa componentes personalizados como parte de manifiestos de la versión 3, vea [Plantilla para controladores personalizados](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correcciones de errores {#bug-fixes}
