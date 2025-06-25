@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager (AEM 6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Adobe recomienda utilizar FP11.6 con SP(servicepack) >= 21.
+>>Adobe recomienda utilizar FP11.6 con SP(servicepack) >= 21.
 
 ## Disponibilidad {#availability}
 
@@ -43,3 +43,5 @@ La fecha de lanzamiento del AEM Screens Feature Pack 20250327 es el 27 de marzo 
 * Conflicto de paquetes con Service Pack 21 y Feature Pack de Screens. (SCRNS-4638)
 
 * El panel de Screens no funciona. (SCRNS-4749)
+
+* Problema XSS en /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js (SCRNS-4761)
