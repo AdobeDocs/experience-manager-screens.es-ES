@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Prácticas recomendadas para proyectos de AEM Screens
+user-guide-title: Prácticas recomendadas de AEM Screens
 breadcrumb-title: Guía de prácticas recomendadas de AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
@@ -12,13 +12,13 @@ feature: Content
 role: User
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Prácticas recomendadas para proyectos de AEM Screens {#using}
+# Prácticas recomendadas de AEM Screens {#using}
 
 + [Acerca de esta guía](about-guide.md)
 + Información general {#overview}
