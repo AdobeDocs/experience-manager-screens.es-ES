@@ -8,9 +8,9 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 11%
    + [Guía de prácticas recomendadas de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/using/about-guide)
    + [Términos clave](screens-glossary.md)
    + [Terminología y conceptos de Screens](screens-concepts-feature-video-understand.md)
-+ Conceptos básicos de red de señalización digital {#digital-signage-network}
++ Conceptos básicos de red de publicidad dinámica {#digital-signage-network}
    + [Parte 1: Funciones y responsabilidades del proyecto](project-roles-responsibilities.md)
    + [Parte 2: Consideraciones a medida que los proyectos se amplían](project-considerations.md)
    + [Parte 3: Pruebas, POC, programas piloto y despliegues](testing-pocs-pilots-rollouts.md)
@@ -51,24 +51,24 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de reproductores](auto-registration-players.md)
       + [Uso del mando a distancia](implementing-remote-control.md)
-   + Crear/publicar {#author-publish}
+   + Publicación de autor {#author-publish}
       + [Información general sobre la arquitectura de creación y publicación](author-publish-architecture-overview.md)
       + [Configuración de autor y publicación](author-and-publish.md)
    + Integración de Analytics con AEM Screens {#analytics-integration}
       + [Integración de Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuración de Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Creación y ejemplos de casos de uso {#authoring}
-   + Configurando un proyecto de Screens {#setting-up-projects}
+   + Configuración de un proyecto de Screens {#setting-up-projects}
       + [Creación y administración de proyectos](creating-a-screens-project.md)
       + [Creación y administración de canales](managing-channels.md)
       + [Creación y administración de pantallas](managing-displays.md)
       + [Creación y administración de ubicaciones](managing-locations.md)
       + [Creación y administración de programas](managing-schedules.md)
       + [Administración de dispositivos](managing-devices.md)
-      + Asignando canales {#assigning-channels}
+      + Asignación de canales {#assigning-channels}
          + [Asignación de canales](channel-assignment-latest-fp.md)
          + [Asignación de canales: paquetes de funciones de AEM Screens anteriores](channel-assignment.md)
-   + Uso de funciones de producto de código {#product-features}
+   + Uso de funciones de producto de código  {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización sin conexión masiva](bulk-offline-update.md)
       + [Servicio de notificaciones de AEM Screens](screens-notifications-service.md)
@@ -90,7 +90,7 @@ ht-degree: 11%
       + [Informe de asignación de contenido](content-assignment-report.md)
       + [Compatibilidad con miniaturas para vídeos](thumbnail-support.md)
       + [Uso de representaciones adaptables en AEM Screens](using-adaptive-renditions.md)
-   + Administrar actualizaciones de contenido {#content-updates}
+   + Administración de actualizaciones de contenido {#content-updates}
       + [Actualización de contenido bajo demanda](on-demand-content.md)
       + [Actualización de contenido como servicio](content-update-as-a-service.md)
       + [Actualización de contenido con Screens Launch](launches.md)
@@ -114,11 +114,12 @@ ht-degree: 11%
    + [Crear plantillas personalizadas para diseños de varias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicación de estilo y marca personalizados a las superposiciones de texto](custom-branding-text-overlays.md)
    + [Representaciones adaptables: Información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md)
-+ Solución de problemas y preguntas frecuentes {#troubleshooting}
++ Resolución de problemas y preguntas frecuentes {#troubleshooting}
    + [Preguntas frecuentes sobre AEM Screens](aem-screens-faqs.md)
    + [Solución de problemas del Centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión del paquete de funciones 20251007](release-notes-fp-20251007.md)
    + [Notas de la versión del paquete de funciones 20250327](release-notes-fp-20250327.md)
    + [Notas de la versión del paquete de funciones 20250224](release-notes-fp-20250224.md)
    + [Notas de la versión del paquete de funciones 20240715](release-notes-fp-20240715.md)
