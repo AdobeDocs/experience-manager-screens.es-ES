@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 0%
+source-wordcount: '1103'
+ht-degree: 1%
 
 ---
 
@@ -143,6 +143,10 @@ Existen dos tipos de actualizaciones para el Reproductor de AEM Screens:
 | Actualizaciones del contenedor del reproductor | Un nuevo ejecutable que se implementa en el Reproductor. Esta funcionalidad requiere que copie de forma remota el nuevo binario en el reproductor, detenga el que se está ejecutando e inicie la nueva versión. Es posible que sea necesario volver a descargar la precarga de los paquetes. | Sí (a través de shell remoto) | Personalizado | No |
 
 ## Directrices de selección de hardware para dispositivos de reproducción {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**OBSOLETO:** Esta guía de selección de hardware está obsoleta y no debe usarse para nuevas implementaciones. Un integrador AV cualificado debe proporcionar las especificaciones y recomendaciones de hardware en función de los requisitos de implementación y casos de uso específicos.
 
 En la siguiente sección se proporcionan las directrices de selección de hardware para un proyecto de Screens:
 
