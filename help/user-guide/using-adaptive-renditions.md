@@ -2,10 +2,10 @@
 title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
@@ -13,11 +13,14 @@ ht-degree: 0%
 
 ## Introducción {#introduction}
 
+>[!CAUTION]
+>Esta función solo se admite en AEM local (AEM 6.x). No es compatible con AEM as a Cloud Service.
+
 Las representaciones adaptables permiten a los dispositivos hacer clic en la mejor representación automáticamente para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso en función de estas reglas. Permite a los clientes centrarse en diseñar la experiencia *main*.
 
 ## Objetivo {#objective}
 
-AEM Como autor de contenido de Scrßeens, ahora puede configurar representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
+Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
 Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
 
 >[!IMPORTANT]
@@ -32,9 +35,9 @@ Una vez que un desarrollador agrega las propiedades y reglas de asignación de r
 
 Para aplicar representaciones a los recursos que desee utilizar en el canal Tour Screens, haga lo siguiente.
 
-1. Navegue hasta la carpeta **Assets AEM** de la instancia de la.
+1. Vaya a la carpeta **Assets** de la instancia de AEM.
 1. Cree una versión del recurso que se adapte mejor a la pantalla de señalización, por ejemplo, `seahorse.jpg`.
-1. Elija el patrón de nomenclatura de la representación, por ejemplo, `landscape`, similar a lo que se definió en la propiedad **pattern** de **CRXDE Lite**. Consulte [Agregar reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
+1. Elija el patrón de nomenclatura de la representación, por ejemplo, `landscape`, similar a lo definido en la propiedad **pattern** de **CRXDE Lite**. Consulte [Agregar reglas de asignación de representación](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obtener más información.
 1. Haga clic en **Agregar representación** para cargar la representación, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -45,7 +48,7 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal Tour
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publish en el dispositivo.
+   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publicar en el dispositivo.
 
 ## Estrategia de migración {#migration-strategy}
 
