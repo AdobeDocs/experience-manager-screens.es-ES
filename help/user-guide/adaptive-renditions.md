@@ -1,10 +1,10 @@
 ---
 title: Información general y configuraciones de la arquitectura de representaciones adaptables
-description: Obtenga información acerca de la descripción general de la arquitectura y las configuraciones en CRXDE Lite para representaciones adaptables en AEM Screens.
+description: Obtenga información sobre la descripción general de la arquitectura y las configuraciones en CRXDE Lite para representaciones adaptables en AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 2%
 
 ---
@@ -12,6 +12,9 @@ ht-degree: 2%
 # Representaciones adaptables: Información general de arquitectura y configuraciones {#adaptive-renditions}
 
 ## Introducción {#introduction}
+
+>[!CAUTION]
+>Esta función solo se admite en AEM local (AEM 6.5). No es compatible con AEM as a Cloud Service.
 
 Las representaciones adaptables permiten a los dispositivos hacer clic en la mejor representación automáticamente para un dispositivo en función de las reglas definidas por el cliente. Los dispositivos descargan y reproducen automáticamente la representación más adecuada de un recurso según estas reglas, lo que permite a los clientes centrarse en diseñar únicamente la experiencia *main*.
 
@@ -41,7 +44,7 @@ Siga los pasos a continuación para configurar la configuración:
    >![imagen](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si ha instalado el paquete de funciones más reciente 202109, verá la estructura de nodos **rendition-mapping** previamente rellenada en `/conf/screens/sling:configs/rendition-mapping` en el CRXDE Lite. Consulte [Notas de la versión del paquete de funciones 202109](/help/user-guide/release-notes-fp-202109.md) para obtener información sobre el paquete de funciones más reciente.
+   >Si ha instalado el paquete de funciones más reciente 202109, verá la estructura de nodos **rendition-mapping** previamente rellenada en `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Consulte [Notas de la versión del paquete de funciones 202109](/help/user-guide/release-notes-fp-202109.md) para obtener información sobre el paquete de funciones más reciente.
    >Para los proyectos existentes, asegúrese de que el proyecto de Screens tenga la configuración **rendition-mapping** asociada. Consulte [Agregar asignación de representación a un proyecto existente](#rendition-mapping-existing) para obtener más información.
 
 ### Agregar una propiedad de asignación de representación a un proyecto existente {#rendition-mapping-existing}
@@ -57,7 +60,7 @@ Siga los pasos a continuación para configurar la configuración:
 
 Siga los pasos a continuación para agregar un nodo en Asignación de representación:
 
-1. Vaya a esta ruta de acceso `/conf/screens/sling:configs/rendition-mapping` desde **CRXDE Lite**.
+1. Vaya a esta ruta `/conf/screens/sling:configs/rendition-mapping` desde **CRXDE Lite**.
 1. Cree un nodo en **rendition-mapping**. Haga clic con el botón derecho en **rendition-mapping** y haga clic en **Crear** > **Crear nodo**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node1.png)
@@ -72,7 +75,7 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
    >[!NOTE]
    >Consulte [Uso de sintaxis de consulta de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para obtener más información.
 
-   Haga clic en la **regla1** que creó e introduzca la **expresión** en **Nombre** y **(orientación:horizontal)** en **Valor**, como se muestra a continuación. Haga clic en **Agregar**.
+   Haga clic en la **regla1** que creó e introduzca la **expresión** en **Nombre** y **(orientación:landscape)** en **Valor**, como se muestra a continuación. Haga clic en **Agregar**.
 
    ![imagen](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
