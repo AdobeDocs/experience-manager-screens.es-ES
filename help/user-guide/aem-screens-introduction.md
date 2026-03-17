@@ -57,7 +57,7 @@ En la siguiente figura se definen los perfiles y sus funciones para Experience M
 
 * **Aspectos básicos de la implementación guiada**
 
-  Siga la ruta de aprendizaje guiado **[Aspectos básicos de la implementación de Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a)** que cubre las características básicas y avanzadas compatibles con Experience Manager Screens.
+  Siga la ruta de aprendizaje guiado **[Aspectos básicos de la implementación de Experience Manager Screens](https://experienceleague.adobe.com/es?launch=AEM-7a)** que cubre las características básicas y avanzadas compatibles con Experience Manager Screens.
 
 * **Guía de prácticas recomendadas para proyectos de Experience Manager Screens**
 
