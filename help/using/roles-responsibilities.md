@@ -2,9 +2,9 @@
 title: Funciones y responsabilidades del proyecto AEM Screens
 description: Obtenga información acerca de las funciones y responsabilidades del proyecto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Los jefes de proyecto suelen administrar toda la implementación para la impleme
 
 >[!NOTE]
 >
->Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fases del proyecto {#project-stages}
@@ -100,7 +100,7 @@ Para permitir una implementación correcta de la publicidad dinámica, es habitu
 >
 >Aunque esta guía pone énfasis principalmente en *Día uno* y *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de señalización digital exitoso.
 >
->Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -189,7 +189,7 @@ La siguiente tabla resume el **Día dos: después del inicio admite el gráfico 
 
 | **Fase** | **Autor** | **Desarrollador** | **Técnico** |
 |---|---|---|---|
-| *Día dos: soporte posterior al inicio* |
+| *Día dos: soporte posterior al inicio* | | | |
 | Acuerdo sobre Funciones y Responsabilidades | RA | RA | RA |
 | Compatibilidad de nivel 1 | I | I | RA |
 | Compatibilidad de nivel 2 | I | C | RA |

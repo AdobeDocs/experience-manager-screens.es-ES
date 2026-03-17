@@ -1,5 +1,5 @@
 ---
-title: "Parte 2: Consideraciones a medida que los proyectos se amplían"
+title: 'Parte 2: Consideraciones a medida que los proyectos se amplían'
 description: Obtenga información acerca de la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia en AEM Screens. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.
 contentOwner: jsyal
 content-type: reference
@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---

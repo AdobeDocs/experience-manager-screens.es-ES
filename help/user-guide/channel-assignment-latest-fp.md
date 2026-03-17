@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->AEM En esta sección se destaca la asignación de canales y la programación de canales para el paquete de funciones de Screens 6.5.5 y versiones posteriores, así como para los canales de.
+>En esta sección se destaca la asignación de canales y la programación de canales para el paquete de funciones de AEM 6.5.5 Screens y versiones posteriores.
 
 Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
 
@@ -154,7 +154,7 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 ### Método de interrupción {#interruption-method-channel}
 
 >[!IMPORTANT]
-> AEM Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or-->Paquete de funciones 4 de 6.5 de.
+> Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
 Como autor de contenido, puede especificar cuándo se interrumpe un canal. Al hacerlo, puede optar por cortar el contenido no crítico. Pero también le ofrece la opción de permitir que el contenido importante se reproduzca por completo antes de acortarlo debido a la programación.
 
@@ -179,7 +179,7 @@ Las siguientes propiedades se establecen desde la opción **Programar** del cuad
 
 La ventana de activación le permite seleccionar una **fecha de inicio** y una **fecha de finalización** para mostrar el contenido.
 
-### Programación de repetición {#recurrence-schedule}
+### Programación de periodicidad {#recurrence-schedule}
 
 El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Haz clic en **+ Agregar horario** para agregar un horario de periodicidad a tu canal.
 
@@ -210,18 +210,18 @@ En este caso, cada día se divide en diferentes franjas horarias, de modo que el
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Desayuno | Cada día | 06:00 | 11:00 |
-| Almuerzo | Cada día | 11:00 | 15:00 |
-| Cena | Cada día | 15:00 | 20:00 |
+| Desayuno | Cada día | 6:00 A.M. | 11:00 A.M. |
+| Almuerzo | Cada día | 11:00 A.M. | 3:00 P.M. |
+| Cena | Cada día | 3:00 P.M. | 20:00 |
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-En este ejemplo se muestra el DayParting implementado en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de la cena después de las 22:00 y hasta la 01:00.
+Este ejemplo muestra el DayParting implementado en un casino donde los eventos en vivo ocurren todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta las 1:00 a.m.
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Weekend | Semanal: sábado y domingo | 20:00 | 22:00 |
-| Especiales | Diario: de lunes a viernes | 22:00 | 01:00 |
+| Weekend | Semanal: sábado y domingo | 20:00 | 10:00 P.M. |
+| Especiales | Diario: de lunes a viernes | 10:00 P.M. | 1:00 A.M. |
 
 >[!NOTE]
 >

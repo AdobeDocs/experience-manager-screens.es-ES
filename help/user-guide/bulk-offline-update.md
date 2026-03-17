@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -24,12 +24,14 @@ Esta sección cubre los siguientes temas sobre la actualización masiva sin cone
 * **Información general**
 * **Usando actualización sin conexión en lotes**
 
-<!-- OBSOLETE VERSIONS
+<!--
+OBSOLETE VERSIONS
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share.
+-->
 
 ## Información general {#overview}
 
@@ -73,6 +75,6 @@ Siga los pasos a continuación para utilizar la actualización sin conexión mas
    >
    >Especifique la ruta del proyecto relativa al canal.
 
-   **Frecuencia de horario** - Especifica una hora, por ejemplo, 5:00 p.m. o 17:00 a las que este servicio debe actualizar el contenido sin conexión.
+   **Frecuencia de horario** - Especifica una hora, por ejemplo, 5:00 p. m. o 17:00 a la que este servicio debe actualizar el contenido sin conexión.
 
 1. Haz clic en **Guardar** para guardar la configuración. El contenido se actualiza a la hora especificada.

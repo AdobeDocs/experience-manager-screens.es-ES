@@ -10,21 +10,23 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '631'
 ht-degree: 10%
 
 ---
 
 # Configuración de Adobe Analytics con AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
-<!-- OBSOLETE NOTE>
+<!--
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. 
+-->
 
 Esta sección trata los siguientes temas:
 
@@ -51,7 +53,7 @@ La siguiente tabla resume el modelo de datos estándar para eventos. Enumera tod
    <td><strong>Sección</strong></td> 
    <td><strong>Etiqueta de propiedad</strong></td> 
    <td><strong>Nombre/clave de propiedad</strong></td> 
-   <td><strong>Requerido</strong></td> 
+   <td><strong>Necesario</strong></td> 
    <td><strong>Tipo de datos</strong></td> 
    <td><strong>Tipo de propiedad</strong><br /> </td> 
    <td><strong>Descripción</strong></td> 

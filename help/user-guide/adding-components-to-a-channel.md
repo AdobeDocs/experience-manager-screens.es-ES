@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---
@@ -191,7 +191,7 @@ La secuencia incrustada dinámica tiene las siguientes propiedades:
  </tbody>
 </table>
 
-### Fragmento de experiencias {#experience-fragment}
+### Fragmento de experiencia {#experience-fragment}
 
 Un fragmento de experiencia le permite añadir un fragmento de experiencia (un grupo de uno o más componentes, incluido contenido y diseño, al que se puede hacer referencia dentro de las páginas) al canal de AEM Screens. Arrastre y suelte el componente en el Editor de AEM y haga clic en el Fragmento de experiencia.
 
@@ -201,10 +201,10 @@ Para obtener más información sobre cómo crear un fragmento de experiencia y a
 
 | **Propiedad** | **Descripción** |
 |---|---|
-| **Fragmento de experiencias** |
-| ***Fragmento de experiencias*** | Seleccione el Fragmento de experiencia. |
+| **Fragmento de experiencia** | |
+| ***Fragmento de experiencia*** | Seleccione el Fragmento de experiencia. |
 | ***Duración*** | Seleccione toda la duración del fragmento de experiencia que se reproduce en el canal. |
-| **Configuración sin conexión** |
+| **Configuración sin conexión** |  |
 | ***Bibliotecas de cliente*** | Archivos JavaScript y CSS. |
 | ***Archivos estáticos*** | Archivos estáticos que se pueden agregar como configuraciones sin conexión al Fragmento de experiencia. |
 
@@ -220,15 +220,15 @@ El recurso de imagen tiene tres fichas, a saber **Imagen**, **Accesibilidad** y 
 
 | **Propiedad** | **Descripción** |
 |---|---|
-| **Imagen** |
+| **Imagen** |  |
 | ***Recurso de imagen*** | Haga clic en el recurso de imagen. |
 | ***Título*** | Título de la imagen. |
 | ***Vincular A*** | Añada un vínculo a la imagen. |
 | ***Descripción*** | Descripción breve de la imagen. |
 | ***Tamaño*** | Tamaño de la imagen. |
-| **Accesibilidad** |
+| **Accesibilidad** |  |
 | ***Texto alternativo*** | Texto alternativo a la imagen. |
-| **Secuencia** |
+| **Secuencia** |  |
 | ***Duración*** | De manera predeterminada, la duración está establecida en *8000 milisegundos*. Si desea cambiar la duración de reproducción de la imagen, actualice el campo **Duration**. |
 
 ### Transición {#transition}

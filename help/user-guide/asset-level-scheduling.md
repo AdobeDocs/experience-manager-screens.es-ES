@@ -5,9 +5,9 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,14 @@ En esta sección se tratan los siguientes temas:
 * Activación de varios recursos
 * Sustitución Global Para La Hora De Inicio Universal
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Información general {#overview}
 
@@ -81,7 +83,7 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 Puede programar la reaparición de activos en determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
 
-Supongamos que desea mostrar una imagen sólo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
+Supongamos que desea mostrar una imagen solamente los viernes desde las 13:00 hasta las 22:00. Puede usar la pestaña **Activación** para establecer el intervalo recurrente deseado para su recurso.
 
 ### División por día {#day-parting}
 
@@ -100,14 +102,14 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
-| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
-| después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el recurso del canal se reproduce antes de las 12:15 todos los días y después de las 12:45. |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a.m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce después de las 2:00 de la tarde todos los días |
+| después de 12:15 y antes de 12:45 | el recurso del canal se reproduce después de las 12:15 p. m. todos los días durante 30 minutos |
+| antes de 12:15 también después de 12:45 | el recurso del canal se reproduce antes de las 12:15 p.m. todos los días y después de las 12:45 p.m. |
 
 >[!NOTE]
 >
->También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -175,11 +177,11 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 | **Expresión** | **Interpretación** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | el recurso del canal comienza a reproducirse después de las 2:00 de la tarde del 1 de enero y continúa reproduciéndose durante todo el día del 2 de enero hasta las 3:00 de la mañana del 3 de enero |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
 
 >[!NOTE]
->Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.*(2:00 P.M.).
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.*(2:00 P.M.).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***Activación de varios recursos*** permite que el usuario haga clic en varios recursos y aplique una programación de reproducción a todos los recursos seleccionados.
 

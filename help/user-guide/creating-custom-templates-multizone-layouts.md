@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,9 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
 
    | **Nombre de diseño** | **Descripción** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que le permite crear tres zonas: <br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80% de la pantalla horizontal y 20% de la pantalla vertical justificada a la derecha<br>* Zona 3 como 100% de la pantalla horizontal y 80% de la pantalla vertical. La relación de aspecto es de 16:9 |
-   | `Upper20-PortraitHD2Zone` | Una plantilla vertical de dos zonas que cubre el 20% de la pantalla desde la parte superior, con una relación de aspecto de 16:9 |
-   | `Right20-LandscapeSD3Zone` | Una plantilla de tres zonas que cubre el 20 % de la pantalla desde la derecha, con una relación de aspecto de 4:3 |
+   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que le permite crear tres zonas: <br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80% de la pantalla horizontal y 20% de la pantalla vertical justificada a la derecha<br>* Zona 3 como 100% de la pantalla horizontal y 80% de la pantalla vertical. La proporción de aspecto es 16:9 |
+   | `Upper20-PortraitHD2Zone` | Una plantilla vertical de dos zonas que cubre el 20% de la pantalla desde arriba, con una proporción de aspecto de 16:9 |
+   | `Right20-LandscapeSD3Zone` | Una plantilla de tres zonas que cubre el 20% de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
 
    >[!IMPORTANT]
    >Es posible que las zonas definidas dentro del diseño personalizado no coincidan con la relación de aspecto general de todo el diseño. La convención de nombres que se sigue en este documento especifica la proporción de aspecto del diseño personalizado en su conjunto.
@@ -47,7 +47,7 @@ Siga la sección siguiente para crear una plantilla personalizada *`Left20-Lands
 
 * **`Left20`**: la zona superior izquierda que cubre el 20 % del tamaño horizontal y vertical de la pantalla.
 * **`Landscape`** - La orientación de pantalla.
-* **`HD`**: la relación de aspecto es de 16:9.
+* **`HD`** - La proporción de aspecto era 16:9.
 * **`3Zone`**: tres zonas de la pantalla.
 
 ## Representación visual del diseño de varias zonas {#multi-layout-visual-one}
@@ -64,7 +64,7 @@ Siga los pasos a continuación para crear un diseño de `Left20-LandscapeHD3Zone
 
    ![imagen](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Vaya a **CRXDE Lite AEM** desde su instancia de > Herramientas > **CRXDE Lite**.
+1. Vaya a **CRXDE Lite** desde su instancia de AEM > Herramientas > **CRXDE Lite**.
 
 1. Cree una carpeta en **apps** con el título **`customtemplate`**. Del mismo modo, cree otra carpeta con el título **plantilla** en **`customtemplate`**, como se muestra en la figura siguiente.
 

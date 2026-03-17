@@ -1,5 +1,5 @@
 ---
-title: "Parte 3: Pruebas, POC, pilotos y despliegues"
+title: 'Parte 3: Pruebas, POC, programas piloto y despliegues'
 description: Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los programas piloto y los despliegues.
 contentOwner: jsyal
 content-type: reference
@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Las pruebas de integración de sistemas y software comienzan con el equipo de in
 
 Una vez finalizadas las pruebas de control de calidad, el equipo de ingeniería de TI crea documentación, flujos de trabajo y formación para utilizarlos como referencia durante el día 2 de asistencia. Los aspectos del sistema que se deben probar incluyen los siguientes:
 
-* AEM Integraciones de implementadores de.
+* Implementaciones o integraciones de AEM.
 * Integraciones de sistemas de terceros.
 * Software.
 * Tornillería.
@@ -73,7 +73,7 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 
 ### Pruebas, POC, programas piloto y despliegues
 
->[!VIDEO](https://video.tv.adobe.com/v/32812?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la Prueba de concepto, los programas piloto y los despliegues.*
 
