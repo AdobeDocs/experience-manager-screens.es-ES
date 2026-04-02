@@ -8,7 +8,7 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 12%
@@ -143,3 +143,4 @@ ht-degree: 12%
    + [Notas de la versión del paquete de funciones 201905](screens-release-notes-fp-201905.md)
    + [Notas de la versión del paquete de funciones 201812](release-notes-fp-201812.md)
    + [Notas de la versión del paquete de funciones 201809](screens-release-notes.md)
+
