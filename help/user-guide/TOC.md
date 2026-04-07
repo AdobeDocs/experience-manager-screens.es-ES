@@ -8,10 +8,10 @@ user-guide-description: Aprenda a utilizar una solución de señalización digit
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 11%
+source-wordcount: '581'
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 11%
    + Consideraciones específicas del cliente {#installing-client}
       + [Reproductor de Chrome OS](implementing-chrome-os-player.md)
       + [Uso del Reproductor de Chrome como extensión para la resolución de problemas](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [Reproductor de Android™](implementing-android-player.md)
       + [Reproductor de Windows](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
@@ -68,7 +68,7 @@ ht-degree: 11%
       + Asignación de canales {#assigning-channels}
          + [Asignación de canales](channel-assignment-latest-fp.md)
          + [Asignación de canales: paquetes de funciones de AEM Screens anteriores](channel-assignment.md)
-   + Uso de funciones de producto de código  {#product-features}
+   + Uso de funciones de producto de código {#product-features}
       + [Superposición de texto](text-overlay.md)
       + [Actualización sin conexión masiva](bulk-offline-update.md)
       + [Servicio de notificaciones de AEM Screens](screens-notifications-service.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Solución de problemas del Centro de control de dispositivos](monitoring-screens.md)
    + [Configuración de reproducción de vídeo](troubleshoot-videos.md)
 + Notas de la versión {#release-notes}
+   + [Notas de la versión del paquete de funciones 20260318](release-notes-fp-20260318.md)
    + [Notas de la versión del paquete de funciones 20251007](release-notes-fp-20251007.md)
    + [Notas de la versión del paquete de funciones 20250327](release-notes-fp-20250327.md)
    + [Notas de la versión del paquete de funciones 20250224](release-notes-fp-20250224.md)
@@ -142,3 +143,4 @@ ht-degree: 11%
    + [Notas de la versión del paquete de funciones 201905](screens-release-notes-fp-201905.md)
    + [Notas de la versión del paquete de funciones 201812](release-notes-fp-201812.md)
    + [Notas de la versión del paquete de funciones 201809](screens-release-notes.md)
+

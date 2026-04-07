@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 1%
+source-wordcount: '2364'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
 1. Descargue e instale los siguientes paquetes con [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp):
 
-[Obtener archivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obtener archivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtener archivo](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Opcionalmente** Si trabaja con Eclipse u otro IDE, descargue el siguiente paquete de origen. Implemente el proyecto en una instancia local de AEM mediante el comando Maven:
@@ -53,7 +53,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
    Inicie el proyecto de ejecución de HelloWorld SRC Screens `We.Retail`.
 
-[Obtener archivo](assets/src-screens-weretail-run.zip)
+   [Obtener archivo](assets/src-screens-weretail-run.zip)
 
 1. En [Administrador de paquetes de CRX](http://localhost:4502/crx/packmgr/index.jsp), compruebe que estén instalados los dos paquetes siguientes:
 
@@ -124,14 +124,14 @@ AEM Screens tiene algunas restricciones interesantes que no son necesariamente v
 
    ```xml
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/helloworld.html
-   
+
    */-->
-   
+
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-   
+
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -150,9 +150,9 @@ AEM Screens tiene algunas restricciones interesantes que no son necesariamente v
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-   
+
    */-->
-   
+
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -169,19 +169,20 @@ AEM Screens tiene algunas restricciones interesantes que no son necesariamente v
    Rellene el archivo con lo siguiente:
 
    ```xml
+
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/edit.html
-   
+
    */-->
-   
+
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-   
+
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"
@@ -391,7 +392,7 @@ Debajo se crea una página de diseño de ejecución `We.Retail` que almacena tod
 1. Cree un nodo debajo de la carpeta de diseños, denominado `we-retail-run` con un tipo de `cq:Page`.
 1. Bajo la página `we-retail-run`, agregue otro nodo denominado `jcr:content` de tipo `nt:unstructured`. Agregue las siguientes propiedades al nodo `jcr:content`:
 
-   | Nombre | Tipo | Valor  |
+   | Nombre | Tipo | Valor |
    |---|---|---|
    | `jcr:title` | Cadena | Ejecución de `We.Retail` |
    | `sling:resourceType` | Cadena | `wcm`, `core`, `components`, `designer` |
@@ -578,7 +579,7 @@ El uso de estos dos componentes principales de Screens también ofrece la ventaj
 
 ## Código finalizado {#finished-code}
 
-A continuación se muestra el código terminado del tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** y **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** son los paquetes compilados de AEM. El **&#x200B; &#x200B;**&#x200B;SRC-screens-weretail-run-0.0.1.zip es el código fuente no compilado que se puede implementar mediante Maven.
+A continuación se muestra el código terminado del tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** y **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** son los paquetes compilados de AEM. El **&#x200B; **&#x200B;SRC-screens-weretail-run-0.0.1.zip es el código fuente no compilado que se puede implementar mediante Maven.
 
 [Obtener archivo](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

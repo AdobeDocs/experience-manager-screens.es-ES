@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 1%
+source-wordcount: '1846'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Para completar este tutorial, necesita lo siguiente:
 1. [Reproductor de AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Entorno de desarrollo local
 
-Los pasos y las capturas de pantalla del tutorial se realizan con CRXDE-Lite. Los IDE [Eclipse](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) también se pueden usar para completar el tutorial. Encontrará más información sobre el uso de un IDE para [desarrollar con AEM aquí](https://experienceleague.adobe.com/es/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Los pasos y las capturas de pantalla del tutorial se realizan con CRXDE-Lite. [Los IDE Eclipse](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) también se pueden usar para completar el tutorial. Encontrará más información sobre el uso de un IDE para [desarrollar con AEM aquí](https://experienceleague.adobe.com/es/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuración del proyecto {#project-setup}
 
@@ -48,7 +48,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
 1. Descargue e instale los siguientes paquetes usando **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-[Obtener archivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obtener archivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtener archivo](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Opcionalmente,** si trabaja con Eclipse u otro IDE, descargue el siguiente paquete de origen. Implemente el proyecto en una instancia local de AEM mediante el comando Maven:
@@ -57,7 +57,7 @@ El código fuente de un proyecto de Screens se administra normalmente como un pr
 
    SRC Iniciar Screens `We.Retail` Ejecutar proyecto
 
-[Obtener archivo](assets/start-poster-screens-weretail-run.zip)
+   [Obtener archivo](assets/start-poster-screens-weretail-run.zip)
 
 1. En **Administrador de paquetes de CRX** `http://localhost:4502/crx/packmgr/index.jsp` están instalados los dos paquetes siguientes:
 
@@ -258,9 +258,9 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/production.html
-   
+
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +292,11 @@ El componente Póster se representa en pantalla completa en el modo de previsual
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/edit.html
-   
+
    */-->
-   
+
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text

@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 0%
+source-wordcount: '2241'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ En este tema encontrará respuestas a las preguntas más frecuentes relacionadas
 >[!NOTE]
 >La variable obligatoria indicada comprueba que el servicio de asistencia primaria o el servicio de asistencia al cliente deben probarse antes de plantear un problema.
 
-### &#x200B;1. ¿Cuáles deben ser los pasos de solución de problemas de primeros auxilios para cualquier cliente que se enfrente a una pantalla en negro o a contenido que no se esté reproduciendo? {#troubleshooting-blank-screen}
+### &#x200B;1. ¿Cuáles deben ser los pasos de solución de problemas de primeros auxilios para cualquier cliente que se enfrente a una pantalla negra o a contenido que no se esté reproduciendo? {#troubleshooting-blank-screen}
 
 * Compruebe si la previsualización del canal funciona.
 * Comprobar si la previsualización de visualización funciona
@@ -29,7 +29,7 @@ En este tema encontrará respuestas a las preguntas más frecuentes relacionadas
 * Con el reproductor en ejecución en el sistema, vaya a `http://localhost:24502`. Compruebe si todo el contenido se descarga correctamente.
 * Compruebe los recursos para asegurarse de que se crean las representaciones adecuadas y de que se reproduce la representación correcta.
 * Compruebe si hay contenido programado y si las horas son correctas. Compruebe si la hora configurada en el reproductor es correcta.
-* Inspeccione los registros de la consola del reproductor y compruebe si hay errores. Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si está usando el Reproductor de Windows, presione `CTRL + ALT +I` para que aparezca la consola de desarrollo y se vean los registros.
+* Inspeccione los registros de la consola del reproductor y compruebe si hay errores. Haga clic con el botón derecho e inspeccione para ver los registros de la consola. Si está usando el Reproductor de Windows, presione `CTRL + ALT +I` para que aparezca la consola de desarrollo y se vean los archivos de registro.
 
 ### &#x200B;2. ¿Cómo resolver un problema de pantalla gris en AEM Screens al crear un canal o un horario predeterminado?
 
@@ -64,7 +64,7 @@ Para *referencias dinámicas*, la resolución se produce una vez que el canal se
 
 Y así sucesivamente, hasta que llegue a la carpeta de ubicaciones. Deténgase en este momento (para que no pueda hacer referencia a un canal que estaría en la carpeta de canales, por ejemplo, solo a canales del subárbol de ubicación).
 
-### &#x200B;5. ¿Cómo configurar la configuración sin conexión clientlib personalizada en el canal de AEM Screens?
+### &#x200B;5. Cómo configurar la configuración sin conexión de clientlib personalizada en el canal de AEM Screens
 
 Al utilizar un código personalizado del lado del cliente `clientlib` creado en un canal de AEM Screens, son necesarios los siguientes pasos. Los pasos garantizan que los archivos de `clientlib` se carguen correctamente en el canal (`manifest.json`) y que contengan la ruta de acceso de `clientlib`.
 
@@ -121,7 +121,7 @@ Ya forma parte del apk un vigilante multiplataforma de Android™ que utiliza AP
 
 Para obtener más información sobre cómo implementar el reproductor Android™, consulte [**Implementación del reproductor Android™**](implementing-android-player.md).
 
-### &#x200B;5. ¿Qué herramientas (software) de monitorización y alertas remotas de terceros recomienda Adobe/AMS para monitorizar cada dispositivo? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### &#x200B;5. ¿Qué herramientas de monitorización remota y alertas (software) de terceros recomienda Adobe/AMS para monitorizar cada dispositivo? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Según lo que desee en las alertas de monitorización, un nuevo servicio de notificaciones de AEM Screens le notificará si un dispositivo no ha hecho ping en un tiempo. Las herramientas de terceros dependen del sistema operativo, de sus capacidades y de las necesidades específicas del cliente.
 
@@ -129,7 +129,7 @@ Para obtener más información sobre dónde puede supervisar la actividad del di
 
 ## Reproductor de AEM Screens
 
-### &#x200B;1. ¿Cómo instalar el reproductor ChromeOS como complemento del explorador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### &#x200B;1. Cómo instalar el reproductor ChromeOS como complemento del navegador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 El reproductor ChromeOS se puede instalar como complemento del explorador de Chrome en modo de desarrollador sin necesidad de un dispositivo Chrome Player real. Para la instalación, siga los pasos a continuación:
 
@@ -159,7 +159,7 @@ Siga los pasos a continuación para activar Permanecer despierto en cualquier re
 
 No hay modo de ventana en Windows Player. Siempre está en modo de pantalla completa.
 
-### &#x200B;5. ¿Cómo solucionar problemas si un reproductor de AEM Screens envía continuamente solicitudes de inicio de sesión?
+### &#x200B;5. Solucionar problemas si un reproductor de AEM Screens envía continuamente solicitudes de inicio de sesión
 
 Siga los pasos a continuación para solucionar problemas de un reproductor de AEM Screens que envía solicitudes continuamente a `/content/screens/svc.json` y `/libs/granite/core/content/login.validate/j_security_check`:
 
@@ -175,7 +175,7 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 
 1. Compruebe si la configuración de Apache Sling Resource Resolver Factory provoca reescrituras internas.
 
-### &#x200B;6. ¿Cómo obtener los detalles de la pantalla y el dispositivo desde la API del reproductor?
+### &#x200B;6. ¿Cómo puedo obtener los detalles de la pantalla y el dispositivo desde la API de reproductor?
 
 Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
@@ -195,7 +195,7 @@ Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
 ## Sugerencias generales de resolución de problemas {#general-troubleshooting-tips}
 
-### &#x200B;1. ¿Cómo deshabilitar Livefyre para evitar un error de Screens A/P?
+### &#x200B;1. Cómo deshabilitar Livefyre para evitar un error de Screens A/P
 
 Deshabilite Livefyre para evitar errores de registro haciendo lo siguiente.
 
@@ -211,7 +211,7 @@ Deshabilite Livefyre para evitar errores de registro haciendo lo siguiente.
    * Agregue una propiedad *habilitada* de tipo *Boolean*.
    * Establezca la propiedad **Enabled** en **false**.
 
-### &#x200B;2. ¿Cómo añadir información del índice de Oak? {#add-oak-index-info}
+### &#x200B;2. Cómo añadir información de índice de Oak {#add-oak-index-info}
 
 AEM Screens crea definiciones de índice para las consultas utilizadas por el producto.
 Si hay *advertencias de recorrido de la consulta* en `error.log`, cree un índice personalizado para la consulta. Consulte [Configuración de los índices](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obtener más información.
@@ -243,7 +243,7 @@ Consulte [Plantilla para controladores personalizados](https://experienceleague.
 
 Instale una versión mínima de AEM 6.5 Feature Pack 8 para que funcione el conector AMS. Consulta [Disponibilidad](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obtener la versión mínima del paquete de funciones de AEM Screens.
 
-### &#x200B;5. ¿Cómo configurar el servicio CQ Link Externalizer en Screens?
+### &#x200B;5. Cómo configurar el servicio CQ Link Externalizer en Screens
 
 El servicio se utiliza para definir el nombre de host público para las instancias de autor y publicación, y los valores se utilizan para actualizar las URL del servidor de dispositivos y también para la segmentación de ContextHub.
 
