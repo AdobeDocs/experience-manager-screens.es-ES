@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 926946c00f83d9125059815918da928ede6dc162
+source-git-commit: 01f26d940627133208c3b93a9b004e4404776ed4
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 13%
+source-wordcount: '209'
+ht-degree: 12%
 
 ---
 
@@ -38,4 +38,4 @@ La fecha de lanzamiento del AEM Screens Feature Pack 20260318 es el 18 de marzo 
 * Problema XSS en /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js (SCRNS-4856)
 * Problema XSS en /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.assignChannel.js (SCRNS-5068)
 * Problema XSS en /libs/screens/dcc/components/importreview/clientlibs/js/script.js (SCRNS-5100)
-* Problema XSS en /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js
+* Problema XSS en /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js (SCRNS-5073)
