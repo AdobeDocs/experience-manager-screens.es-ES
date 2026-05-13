@@ -5,23 +5,28 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: 407
+ht-degree: 4%
 
 ---
 
 # Notas de la versión del paquete de funciones 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Adobe recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
 ## Disponibilidad {#availability}
 
-AEM Screens AEM ha lanzado el paquete de funciones 7 de la versión 6.5.
+AEM Screens ha lanzado el paquete de funciones 7 de AEM 6.5.
 
-Puede descargar el paquete de funciones más reciente para la versión 6.5.7 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens AEM** para obtener el último paquete de funciones con el título **6.5 Screens FP7**.
+Puede descargar el paquete de funciones más reciente para la versión 6.5.7 de AEM Screens desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el último paquete de funciones titulado **AEM 6.5 Screens FP7**.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -31,14 +36,14 @@ La fecha de lanzamiento del paquete de funciones 202103 de AEM Screens es el 5 d
 
 * **Registro automático de reproductores en AEM Screens**
 
-  El registro masivo de miles de jugadores manualmente es engorroso y añade tiempo y costo. AEM Para simplificar este proceso, la función Registro automático de reproductores le permite especificar una clave previamente compartida en la. Esta clave se puede aprovisionar en un reproductor mediante un archivo de configuración o una solución de administración de dispositivos móviles (MDM).
+  El registro masivo de miles de jugadores manualmente es engorroso y añade tiempo y costo. Para simplificar este proceso, la función Registro automático de reproductores permite especificar una clave previamente compartida en AEM. Esta clave se puede aprovisionar en un reproductor mediante un archivo de configuración o una solución de administración de dispositivos móviles (MDM).
 
   Consulte [Registro automático de jugadores](/help/user-guide/auto-registration-players.md) para obtener más información.
 
 
 * **Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management**
 
-  Al implementar el reproductor de AndroidAEM ™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con la opción de configuración de la aplicación de forma manual Se recomienda encarecidamente usar una solución de EMM (Enterprise Mobility Management) como `VMWare Airwatch`, `MobileIron` o `Samsung Knox` para aprovisionar y administrar la implementación de forma remota. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
+  Al implementar el reproductor Android™ de forma masiva, resulta tedioso registrar cada reproductor manualmente con AEM. Se recomienda encarecidamente usar una solución de EMM (Enterprise Mobility Management) como `VMWare Airwatch`, `MobileIron` o `Samsung Knox` para aprovisionar y administrar la implementación de forma remota. El reproductor AEM Screens Android™ es compatible con el estándar del sector EMM AppConfig para permitir el aprovisionamiento remoto.
 
   Consulte [Aprovisionamiento masivo del reproductor Android™ mediante Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obtener más información.
 
@@ -63,7 +68,7 @@ La fecha de lanzamiento del paquete de funciones 202103 de AEM Screens es el 5 d
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores de AEM Screens AEM se incluyen en el paquete de funciones 7 de la versión 6.5 de:
+Los siguientes reproductores AEM Screens se incluyen en el paquete de funciones 7 de AEM 6.5:
 
 * SO CHROME
 * Windows

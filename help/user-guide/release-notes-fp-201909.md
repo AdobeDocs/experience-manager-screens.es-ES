@@ -5,10 +5,15 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: 290
+ht-degree: 3%
 
 ---
 
@@ -16,9 +21,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona soporte de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Adobe recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
-AEM Screens AEM AEM ha lanzado el paquete de funciones 6 de la versión 6.4.6 de la versión 6 y el paquete de funciones 2 de la versión 6.5.2 de la versión con los siguientes detalles.
+AEM Screens ha lanzado el paquete de funciones 6 de AEM 6.4.6 y el paquete de funciones 2 de AEM 6.5.2 con los siguientes detalles.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -49,7 +54,7 @@ Consulte [Uso de fragmentos de experiencias](experience-fragments-in-screens.md)
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores AEM Screens AEM AEM se incluyen en el paquete de funciones 6 de la versión 6.4.6 de la versión 6 de la versión y en el paquete de funciones 2 de la versión 6.5.2 de la versión 6 de la versión:
+Los siguientes reproductores de AEM Screens están disponibles para el paquete de funciones 6 de AEM 6.4.6 y el paquete de funciones 2 de AEM 6.5.2:
 
 * ChromeOS
 * Windows

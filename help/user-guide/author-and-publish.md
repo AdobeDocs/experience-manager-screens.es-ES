@@ -2,13 +2,16 @@
 title: Configuración de instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
-
 
 # Configuración de instancias de autor y publicación en AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -54,7 +57,7 @@ Para crear agentes de replicación, aprenda a crear un agente de replicación es
 
 Hay tres agentes de replicación necesarios para Screens:
 
-1. **Agente de replicación predeterminado &#x200B;***(especificado como&#x200B;*** agente de replicación estándar**)
+1. **Agente de replicación predeterminado ***(especificado como*** agente de replicación estándar**)
 1. **Agente de replicación de Screens**
 1. **Agente de replicación inversa**
 
@@ -112,7 +115,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 1. Cree un agente de replicación de AEM Screens para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto a 4504 para pub2.
 
    >[!NOTE]
-   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Crear agentes de replicación inversa de Screens {#creating-screens-reverse-replication-agents}
 
@@ -159,7 +162,7 @@ Dado que cada instancia de publicación, de forma predeterminada, tiene claves c
 >[!NOTE]
 >
 >La contraseña debe comenzar y finalizar con llaves. Por ejemplo:
->&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar el clúster de ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 

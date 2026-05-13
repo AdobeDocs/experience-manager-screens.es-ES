@@ -2,9 +2,13 @@
 title: Administración del tráfico de red
 description: La página describe las Configuraciones de red estándar y cómo administrar el tráfico de red.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Una conexión a Internet depende del uso de un servidor proxy. Un servidor proxy
 
 Una ventaja de un servidor proxy es que su caché puede servir a todos los usuarios. Si se solicitan uno o más sitios de Internet con frecuencia, es probable que estos sitios estén en la caché del proxy. Este almacenamiento en caché mejora aún más el tiempo de respuesta del usuario. Un proxy también puede registrar sus interacciones, que se pueden utilizar para solucionar problemas.
 
-AEM Cuando un servidor proxy recibe una solicitud de un recurso de Internet (por ejemplo, una página Web o mientras se conecta a un publicador de la red), analiza su caché local de las direcciones URL antes denominadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy actúa como cliente en nombre del usuario y solicita la página desde el servidor en Internet. Cuando se devuelve el contenido, el servidor proxy lo relaciona con la solicitud original y la reenvía al usuario.
+Cuando un servidor proxy recibe una solicitud de un recurso de Internet (como una página Web o mientras se conecta a un publicador de AEM), analiza su caché local de direcciones URL antes denominadas. Si encuentra la página, la devuelve al usuario sin reenviar la solicitud a Internet. Si la página no está en la caché, el servidor proxy actúa como cliente en nombre del usuario y solicita la página desde el servidor en Internet. Cuando se devuelve el contenido, el servidor proxy lo relaciona con la solicitud original y la reenvía al usuario.
 
 ## Explicación de las configuraciones de red estándar {#network-setups}
 

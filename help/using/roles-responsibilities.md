@@ -2,9 +2,14 @@
 title: Funciones y responsabilidades del proyecto AEM Screens
 description: Obtenga información acerca de las funciones y responsabilidades del proyecto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
+TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1303
 ht-degree: 0%
 
 ---
@@ -85,7 +90,7 @@ Los jefes de proyecto suelen administrar toda la implementación para la impleme
 
 >[!NOTE]
 >
->Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para obtener información detallada sobre las diferentes funciones y responsabilidades y la audiencia de destino de un proyecto de señalización digital, visite **[Funciones y responsabilidades del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fases del proyecto {#project-stages}
@@ -100,7 +105,7 @@ Para permitir una implementación correcta de la publicidad dinámica, es habitu
 >
 >Aunque esta guía pone énfasis principalmente en *Día uno* y *Día dos*, es necesario prestar atención a las tres etapas para ejecutar un proyecto de señalización digital exitoso.
 >
->Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para obtener información sobre la preproducción, el inicio y la progresión del proyecto, vea un vídeo sobre **[Administración e implementación del proyecto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 

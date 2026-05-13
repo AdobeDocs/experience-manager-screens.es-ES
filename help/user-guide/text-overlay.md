@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/Vf9FDFJ9XI-vMFniqvL4jtq9afwXRRwNFnKyYjk-dBg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: 788
 ht-degree: 1%
 
 ---
@@ -28,7 +35,7 @@ Esta sección trata los siguientes temas:
 
 >[!CAUTION]
 >
->AEM AEM La característica **Superposición de texto** solo está disponible si ha instalado el paquete de características 5 o 3 de la versión 6.3 de la versión 6.3 de la versión 6.3 de la versión de.
+>La característica **Superposición de texto** solo está disponible si ha instalado el paquete de funciones 5 de AEM 6.3 o el paquete de funciones 3 de AEM 6.4.
 
 ## Información general {#overview}
 
@@ -94,7 +101,7 @@ En la siguiente sección se describe el uso de valores de un almacén de datos, 
 
 Configure las opciones de ContextHub para el proyecto de AEM Screens.
 
-Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Después de configurar las configuraciones necesarias para el proyecto, siga los pasos a continuación para utilizar los valores de las Hojas de cálculo de Google:
 
@@ -138,7 +145,7 @@ Después de configurar las configuraciones necesarias para el proyecto, siga los
 
    ![imagen1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Vuelva a la ficha **Superposición de texto** del cuadro de diálogo Imagen y agregue el texto *Temperatura actual {Value}*, como se muestra en la figura siguiente.
+1. Vuelva a la ficha **Superposición de texto** del cuadro de diálogo Imagen y agregue el texto *Temperatura actual{Value}*, como se muestra en la figura siguiente.
 
    ![imagen1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

@@ -4,10 +4,15 @@ description: Obtenga información sobre cómo configurar agentes de replicación
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 4%
+source-wordcount: 485
+ht-degree: 5%
 
 ---
 
@@ -20,7 +25,7 @@ En esta página se describe cómo configurar los agentes de replicación de Scre
 El Agente de replicación de Screens es responsable de traer datos de comandos como *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* y muchos más valores de este tipo de la publicación al autor. Es esencial configurar este agente para que el autor pueda mostrar el ping del dispositivo.
 
 >[!NOTE]
->Para obtener más información acerca de los agentes de replicación de Screens, vea [Agentes y comandos de replicación de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Para obtener más información acerca de los agentes de replicación de Screens, vea [Agentes y comandos de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Complete ambas secciones si desea completar la configuración del Agente de replicación de Screens:
 
@@ -34,7 +39,7 @@ Siga los pasos a continuación para habilitar usuarios y actualizar la contrase�
 >[!NOTE]
 >Por motivos de seguridad, se recomienda evitar el uso de la contraseña de administrador para `screens-receiver-user`.
 
-1. AEM Vaya a la instancia de autor de la.
+1. Vaya a la instancia de AEM Author.
 
 1. Haga clic en herramientas > **Seguridad** > **Usuarios**.
 
@@ -95,7 +100,7 @@ Siga esta sección para actualizar la configuración del agente de replicación 
 >[!IMPORTANT]
 >Complete los siguientes pasos en TODOS los agentes de replicación de AEM Screens existentes.
 
-1. AEM Vaya a la instancia de la.
+1. Vaya a la instancia de AEM.
 1. Haga clic en herramientas > **Implementación** > **Replicación**.
 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1a.png)

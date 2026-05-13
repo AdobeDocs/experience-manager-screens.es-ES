@@ -2,9 +2,14 @@
 title: Enfoque recomendado
 description: Obtenga información acerca del enfoque recomendado en un proyecto de AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: 436
 ht-degree: 0%
 
 ---
@@ -53,4 +58,4 @@ Dividir la entrega de funciones en tareas mensurables permite recibir comentario
 Si su cliente desea un producto con numerosas funciones, envíe una parte de la funcionalidad planificada al principio del proyecto y programe otras funciones para fases futuras. Una primera entrega con muchas funciones conlleva un mayor riesgo y es más difícil de validar con el cliente.
 
 * **Explicación del ámbito de las integraciones personalizadas**:
-Los componentes interactivos con interacción de pantalla táctil, sensor de movimiento o RFID requieren un desarrollo personalizado significativo en el método de implementación. Las presentaciones de diapositivas, los anuncios de vídeo o los menús estáticos pueden entregarse como contenido gráfico o como HTML en un canal de Screens.
+Los componentes interactivos con interacción de pantalla táctil, sensor de movimiento o RFID requieren un desarrollo personalizado significativo en el método de implementación. Las presentaciones de diapositivas, los anuncios de vídeo o los menús estáticos se pueden entregar como contenido gráfico o HTML en un canal de Screens.

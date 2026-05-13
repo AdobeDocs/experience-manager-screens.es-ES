@@ -10,10 +10,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 1%
+source-wordcount: 314
+ht-degree: 2%
 
 ---
 
@@ -21,9 +25,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Se recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Se recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
-AEM Screens AEM AEM ha lanzado el paquete de funciones 6 de la versión 6.3.3.3 y el paquete de funciones 4 de la versión 6.4.4.0 de la versión 6 de la versión con los detalles siguientes.
+AEM Screens ha lanzado el paquete de funciones 6 de AEM 6.3.3.3 y el paquete de funciones 4 de AEM 6.4.4.0 con los siguientes detalles.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -49,15 +53,15 @@ Este ejemplo de caso de uso hace hincapié en la creación y administración de 
 
 Consulte el caso de uso **[Canal de emergencia](emergency-channel.md)** para obtener más información.
 
-* AEM SPA **Incrustación de una aplicación REACT mediante el Editor de de datos e integración con AEM Screens Analytics**
+* **Incrustación de una aplicación REACT mediante el Editor de SPA de AEM e integración con AEM Screens Analytics**
 
-En esta sección se describe cómo incrustar una aplicación interactiva de una sola página mediante REACT (o Angular) utilizando el editor de páginas de la aplicación de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de la aplicaciónREACT (o AEM SPA) mediante el editor de. AEM Los profesionales empresariales de la administración de datos pueden configurar el editor de manera predeterminada. También se describe cómo integrar la aplicación interactiva con Adobe Analytics sin conexión.
+En esta sección se describe cómo incrustar una aplicación interactiva de una sola página mediante REACT (o Angular) mediante el editor de SPA de AEM. Los profesionales empresariales de AEM pueden configurar el editor. También se describe cómo integrar la aplicación interactiva con Adobe Analytics sin conexión.
 
-AEM SPA Consulte **[Incrustación de una aplicación REACT mediante el Editor de e Integración con AEM Screens Analytics](embedding-react-app.md)** para obtener más información.
+Consulte **[Incrustación de una aplicación REACT con el Editor de SPA de AEM e Integración con AEM Screens Analytics](embedding-react-app.md)** para obtener más información.
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores AEM Screens AEM AEM se incluyen en el paquete de funciones 6 de la versión 6.3.3.3 y en el paquete de funciones 4 de la versión 6.4.4.0 de la versión 6 de la versión 6 de la versión:
+Los siguientes reproductores AEM Screens se lanzaron para el Feature Pack 6 de AEM 6.3.3.3 y el Feature Pack 4 de AEM 6.4.4.0:
 
 * ChromeOS
 * Windows

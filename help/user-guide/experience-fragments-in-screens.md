@@ -10,9 +10,15 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
@@ -96,18 +102,18 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
 1. **Creando Live Copy del fragmento de experiencia**
 
-   1. AEM Vaya a la página de inicio de la.
+   1. Vaya a la página de inicio de AEM.
    1. Haga clic en **Fragmentos de experiencias**, resalte **ScreensFragment** y haga clic en **Variación como Live Copy**, como se muestra en la figura siguiente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Haga clic en **ScreensFragment** del asistente de **Crear Live Copy** y haga clic en **Siguiente**.
+   c. Haga clic en **ScreensFragment** del asistente de **Crear Live Copy** y luego haga clic en **Siguiente**.
 
    d. Escriba **Title** y **Name** como **Screens**.
 
-   e. Haz clic en **Crear** para crear Live Copy.
+   e. Haga clic en **Crear** para crear Live Copy.
 
-   f. Haz clic en **Listo** para poder volver a la página **ScreensFragment**.
+   f. Haga clic en **Listo** para poder volver a la página **ScreensFragment**.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -137,7 +143,7 @@ Siga los pasos a continuación para aplicar el contenido de **`We.Retail`** a su
 
    e. Haga clic en el componente **Fragmento de experiencia** y haga clic en el icono superior izquierdo (llave inglesa) para abrir el cuadro de diálogo **Fragmento de experiencia**.
 
-   f. Haga clic en la Live Copy **Screens** del fragmento que creó en el *Paso 3* en **Ruta**.
+   f. Haga clic en la Live Copy **Screens** del fragmento que creó en el *paso 3* en **Ruta**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 

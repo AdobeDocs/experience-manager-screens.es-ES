@@ -1,13 +1,16 @@
 ---
 title: Compatibilidad posterior al inicio
 description: Obtenga información acerca de la compatibilidad posterior al inicio con AEM Screens en la Guía de prácticas recomendadas.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # Compatibilidad posterior al inicio {#post-launch-support}
 
@@ -21,11 +24,11 @@ Tenga en cuenta los siguientes requisitos durante la compatibilidad posterior al
 * asistencia técnica in situ
 * administración de dispositivos (soporte de garantía y almacenamiento de dispositivos de repuesto)
 
-Además, para prepararse para el éxito a largo plazo, es fundamental establecer un acuerdo de nivel de servicio (SLA) de día 2 en colaboración con el integrador de audio y vídeo. SLA debe detallar todos los servicios de asistencia posteriores a la implementación para ayudar a establecer con precisión las expectativas de los clientes.
+Además, para prepararse para el éxito a largo plazo, es fundamental crear una Service level agreement (SLA) Day 2 en colaboración con el integrador de audio y vídeo. SLA debe detallar todos los servicios de asistencia posteriores a la implementación para ayudar a establecer con precisión las expectativas de los clientes.
 
 >[!NOTE]
 >
->AEM Defina los parámetros operativos que se incluirán en los presupuestos operativos y alinee las responsabilidades con el implementador de la y el integrador de audio y vídeo.
+>Defina los parámetros operativos en una fase inicial de los presupuestos operativos y alinee las responsabilidades con el implementador de AEM y el integrador de audio y vídeo.
 >
 >* ¿La implementación es una red Advertising con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
 >* ¿Es la aplicación muy visible para el liderazgo ejecutivo del cliente final? Los sitios con alta visibilidad pueden merecer diferentes tratamientos.

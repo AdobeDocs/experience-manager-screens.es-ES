@@ -10,10 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: 1476
+ht-degree: 2%
 
 ---
 
@@ -45,7 +51,7 @@ Antes de empezar a configurar las configuraciones de ContextHub para un proyecto
 
 >[!IMPORTANT]
 >
->En el ejemplo siguiente, se utilizan las Hojas de cálculo de Google como sistema de base de datos de ejemplo desde el que se recuperan los valores y que es únicamente con fines educativos. El Adobe no aprueba el uso de hojas de Google para entornos de producción.
+>En el ejemplo siguiente, se utilizan las Hojas de cálculo de Google como sistema de base de datos de ejemplo desde el que se recuperan los valores y que es únicamente con fines educativos. Adobe no recomienda el uso de Hojas de cálculo de Google para entornos de producción.
 >
 >Para obtener más información, consulte [Obtener clave API](https://developers.google.com/maps/documentation/javascript/get-api-key) en la documentación de Google.
 
@@ -73,7 +79,7 @@ La siguiente validación es lo que ve al comprobar la conexión al escribir los 
 
 1. **Navegando a ContextHub**
 
-   AEM Navegue hasta la instancia de y haga clic en el icono de herramientas en la barra lateral izquierda. Haga clic en **Sitios** > **ContextHub**, como se muestra en la figura siguiente.
+   Vaya a la instancia de AEM y haga clic en el icono de herramientas en la barra lateral izquierda. Haga clic en **Sitios** > **ContextHub**, como se muestra en la figura siguiente.
 
    ![imagen](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -96,11 +102,11 @@ La siguiente validación es lo que ve al comprobar la conexión al escribir los 
 
    >[!CAUTION]
    >
-   >AEM AEM Como parte del paquete de funciones 4 o 8 del paquete de funciones 8 de la versión 6.5 de la, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
+   >Como parte del paquete de funciones 4 de AEM 6.5 o del paquete de funciones 8 de AEM 6.4, los clientes deben actualizar `/conf/screens/settings/cloudsettings` a `sling:Folder`.
    >
    >Complete los siguientes pasos:
    >
-   >1. Vaya al CRXDE Lite y luego a `/conf/screens/settings/cloudsettings`.
+   >1. Vaya a CRXDE Lite y luego a `/conf/screens/settings/cloudsettings`.
    >1. Comprobar si `cloudsettings jcr:primaryType` está en `sling:Folder`. Si `jcr:primaryType` no está en `sling:folder`, continúe con los pasos siguientes.
    >1. Haga clic con el botón secundario en `/conf/screens/settings`, cree un nodo con *nombre* como **`cloudsettings1`** y *Tipo* como **`sling:Folder`**, y guarde los cambios.
    >1. Mueva todos los nodos bajo `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
@@ -108,12 +114,12 @@ La siguiente validación es lo que ve al comprobar la conexión al escribir los 
    >1. Cambie el nombre de `cloudsettings1` a `cloudsettings` y guárdelo.
    >1. Observe que `/conf/screens/settings/cloudsettings` tiene `jcr:primaryType` como `sling:Folder`.
    >
-   >Siga estos pasos en Autor y Publish antes o después de la actualización.
+   >Siga estos pasos en Creación y publicación antes o después de la actualización.
 
    1. Escriba **Title** como **Google Sheets**, **Store Name** como **`googlesheets`** y **Store Type** como **c`ontexthub.generic-jsonp`** y haga clic en **Siguiente**.
 
       >[!CAUTION]
-      >Si usa Adobe Experience Manager AEM () 6.4, escriba **Título de configuración** como **`googlesheets`** y **Tipo de tienda** como **c`ontexthub.generic-jsonp`**.
+      >Si usa Adobe Experience Manager (AEM) 6.4, escriba **Configuration Title** como **`googlesheets`** y **Store Type** como **c`ontexthub.generic-jsonp`**.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -164,16 +170,15 @@ La siguiente validación es lo que ve al comprobar la conexión al escribir los 
 
 1. **Creando segmentos en las audiencias**
 
-   1. AEM Vaya de la instancia de la a **Personalization** > **Audiencias** > **pantallas**.
+   1. Vaya de su instancia de AEM a **Personalization** > **Audiencias** > **pantallas**.
 
-   1. Haga clic en **Crear** > **Crear segmento de ContextHub.** Se abre el cuadro de diálogo **Nuevo segmento de ContextHub**.
+   1. Haga clic en **Crear** > **Crear segmento de ContextHub.** Se abre el **nuevo segmento de ContextHub**.
 
    1. Escriba **Title** como `**Higherthan50**` y haga clic en **Crear**. Del mismo modo, cree otro segmento con el título `**Lowerthan50**`.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Haga clic en el segmento `**Higherthan50**` y luego en **Propiedades** en la barra de acciones.
-
       ![imagen](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Haga clic en la ficha **Personalization** en **Propiedades del segmento**. Establezca la **Ruta de ContextHub** en `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` y la **Ruta de segmentos** en `/conf/screens/settings/wcm/segments`, y haga clic en **Guardar**, como se muestra en la figura siguiente.
@@ -188,7 +193,7 @@ Siga los pasos a continuación para crear una marca en sus actividades y áreas 
 
 1. **Creando una marca en actividades**
 
-   1. AEM Vaya de la instancia de la a **Personalization** > **Actividades**.
+   1. Vaya de su instancia de AEM a **Personalization** > **Actividades**.
 
    1. Haga clic en **Crear** > **Crear marca**.
 
@@ -224,11 +229,11 @@ Después de configurar un almacén de datos y definir la actividad (marca y áre
 
 1. **Creando segmentos en actividades**
 
-   1. AEM Vaya de la instancia de la a **Personalization** > **Actividades** > **ScreensBrand** >**ScreensValue**.
+   1. Vaya de su instancia de AEM a **Personalization** > **Actividades** > **ScreensBrand** >**ScreensValue**.
 
-   1. Haga clic en **Crear** > **Crear actividad.**: Se abre el **Asistente para configurar actividad**.
+   1. Haga clic en **Crear** > **Crear actividad.** Se abre **Asistente para configurar actividad**.
 
-   1. Escriba **Title** como **ValueCheck50** y **Name** como **valuecheck50**. AEM Haga clic en **Motor de segmentación** como **ContextHub ()** en la lista desplegable y haga clic en **Siguiente**.
+   1. Escriba **Title** como **ValueCheck50** y **Name** como **valuecheck50**. Haga clic en **Motor de segmentación** como **ContextHub (AEM)** en la lista desplegable y haga clic en **Siguiente**.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -248,7 +253,7 @@ Después de configurar un almacén de datos y definir la actividad (marca y áre
 
 1. **Editando los segmentos**
 
-   1. AEM Vaya de la instancia de la a **Personalization** > **Audiencias** > **pantallas**.
+   1. Vaya de su instancia de AEM a **Personalization** > **Audiencias** > **pantallas**.
 
    1. Haga clic en el segmento `**Higherthan50**` y, a continuación, haga clic en **Editar** en la barra de acciones.
 
@@ -269,7 +274,7 @@ Después de configurar un almacén de datos y definir la actividad (marca y áre
 
       >[!NOTE]
       >
-      >AEM La valida los datos de la hoja de cálculo de Google mostrando el segmento como verde.
+      >AEM valida los datos de la Google Sheet mostrando el segmento como verde.
 
       ![imagen](/help/user-guide/assets/context-hub/context-hub18.png)
 

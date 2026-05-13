@@ -5,9 +5,15 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: 1239
 ht-degree: 2%
 
 ---
@@ -114,13 +120,13 @@ En este caso, se divide cada día en tres franjas horarias diferentes para que e
 
 | **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
-| Menú_A | Desayuno |  | Después de las 6:00 y antes de las 11:00 |
-| Menu_B | Almuerzo |  | Después de las 11:00 y antes de las 15:00 |
-| Menu_C | Cena |  | Después de las 15:00 y antes de las 20:00 |
+| Menú_A | Desayuno |  | Después de 6:00 y antes de 11:00 |
+| Menu_B | Almuerzo |  | Después de 11:00 y antes de 15:00 |
+| Menu_C | Cena |  | Después de 15:00 y antes de 20:00 |
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta la 1:00 a.m.
+Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta las 1:00 a.m.
 
 <table>
  <tbody>
@@ -174,5 +180,5 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 >
 > Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
->* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

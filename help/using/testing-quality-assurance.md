@@ -1,15 +1,19 @@
 ---
-title: Pruebas y control de calidad
+title: Pruebas y calidad de Assurance
 description: Obtenga información acerca de las pruebas y la garantía de calidad para AEM Screens en la Guía de prácticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 346
 ht-degree: 0%
 
 ---
 
-# Pruebas y control de calidad {#testing-quality}
+# Pruebas y calidad de Assurance {#testing-quality}
 
 >[!NOTE]
 >Una de las partes interesadas habituales en esta actividad es un integrador de audio y vídeo.
@@ -25,7 +29,7 @@ Se debe crear una lista de comprobación que identifique todos los KPI definidos
 
 Deben tenerse en cuenta los siguientes elementos:
 
-## 1. Consideraciones mecánicas {#mechanical-considerations}
+## &#x200B;1. Consideraciones mecánicas {#mechanical-considerations}
 
 Se recomiendan las siguientes consideraciones mecánicas:
 
@@ -36,7 +40,7 @@ Se recomiendan las siguientes consideraciones mecánicas:
 * tendido de cables
 * redes de dispositivos
 
-## 2. Consideraciones de software {#software-considerations}
+## &#x200B;2. Consideraciones de software {#software-considerations}
 
 Se recomiendan las siguientes consideraciones de software:
 
@@ -46,11 +50,11 @@ Se recomiendan las siguientes consideraciones de software:
 * dependencias de base de datos (previamente definidas)
 
 
-## 3. Consideraciones de administración de dispositivos {#device-management-considerations}
+## &#x200B;3. Consideraciones de administración de dispositivos {#device-management-considerations}
 
 AEM Screens incluye un módulo del Centro de control de dispositivos que permite administrar los extremos de la aplicación del reproductor de Screens.
 
-Hace referencia a cualquier dispositivo de hardware *player* que tenga instalada la aplicación Screens AEM player y esté registrado en una instancia de.
+Hace referencia a cualquier dispositivo de hardware *player* que tenga instalada la aplicación Screens player y esté registrado en una instancia de AEM.
 Este módulo le permite:
 
 1. Monitorizar registros de errores de aplicaciones del reproductor
@@ -58,7 +62,7 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de aplicaciones
 
-Para obtener información detallada sobre el ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) en la **Guía del usuario de AEM Screens**.
+Para obtener información detallada sobre el ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) en la **Guía del usuario de AEM Screens**.
 
 >[!CAUTION]
 >
@@ -72,7 +76,7 @@ Para obtener información detallada sobre el ***Centro de control de dispositivo
 
 >[!NOTE]
 >
-> El Adobe recomienda utilizar plataformas de administración de dispositivos de terceros para todas las implementaciones.
+> Adobe recomienda utilizar plataformas de administración de dispositivos de terceros dedicadas para todas las implementaciones.
 
 La plataforma específica elegida depende de varios factores, entre ellos ***sistema operativo de destino***, ***requisitos del proyecto*** y ***número de puntos finales***.
 

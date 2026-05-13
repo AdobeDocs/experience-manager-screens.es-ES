@@ -10,9 +10,13 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -59,7 +63,7 @@ Por lo tanto, el archivo de hoja de cálculo (CSV/XLS) requiere las siguientes c
 
 * **ruta de acceso{string}**: ruta de acceso de la ubicación que se va a importar, donde la raíz de la ruta de acceso es la carpeta de ubicación del proyecto (es decir, *`/foo`* se importa a *`/content/screens/<project>/locations/foo`*)
 * **plantilla{string}**: la plantilla que se usará para la nueva ubicación, por ahora el único valor permitido es &quot;ubicación&quot;, pero este valor se amplía a todas las `Screens` plantillas en el futuro (`display`, `sequencechannel`, etc.)
-* **[./*] {string}** - Cualquier propiedad opcional que se va a establecer en la ubicación (es decir, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versión actual no permite ningún filtrado.
+* **[./*] {string}** - Cualquier propiedad opcional que se establezca en la ubicación (es decir, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versión actual no permite ningún filtrado.
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ En la siguiente sección se describe cómo se utiliza el importador de proyectos
 >Restricciones:
 >
 >* La versión actual no admite archivos que no sean extensiones CSV/XLS/XLSX.
->* No existe ningún filtrado de las propiedades para los archivos importados y nada que comience por &quot;./&quot; se importa.
+>* No existe ningún filtrado de las propiedades para los archivos importados y se importa cualquier elemento que comience por &quot;./&quot;.
 >
 
 ### Requisitos previos {#prerequisites}
@@ -101,7 +105,7 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Haga clic en el proyecto **&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crear &#x200B;**>**&#x200B; ubicaciones de importación** desde la barra lateral.
+1. Haga clic en el proyecto **DemoProjectImporter**>**Crear**>** ubicaciones de importación** desde la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

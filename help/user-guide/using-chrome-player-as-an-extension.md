@@ -5,9 +5,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -52,7 +57,7 @@ Siga esta página para obtener información acerca de la instalación del reprod
    > Si la URL mencionada anteriormente no funciona, significa que el reproductor no tiene asignada una pantalla o que el contenido no se ha descargado correctamente. Compruebe la pestaña de red del JSON de configuración del reproductor para ver si el reproductor obtiene los detalles correctos y para cualquier problema de red en la descarga.
 
 1. Haga clic con el botón derecho e inspeccione tres capas del reproductor de Chrome.
-   **Contenido de depuración**: haga clic con el botón derecho e inspeccione el contenido para depurar el contenido en ejecución (debería haber un solo elemento llamado &quot;Inspect&quot; en el menú contextual)
+   **Contenido de depuración**: haga clic con el botón secundario e inspeccione el contenido para depurar el contenido en ejecución (debería haber un solo elemento llamado &quot;Inspeccionar&quot; en el menú contextual)
 
    **Depurar firmware**: Abra la interfaz de usuario del administrador, haga clic con el botón secundario e inspeccione para depurar el código del firmware (reproductor). (Debe haber una opción para inspeccionar e inspeccionar la página de fondo y simular un reinicio del explorador).
 

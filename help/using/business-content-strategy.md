@@ -2,9 +2,13 @@
 title: Estrategia de contenido empresarial para AEM Screens
 description: Obtenga más información acerca de la estrategia de contenido empresarial y de marketing en relación con AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 0%
 
 El contenido es un factor importante para impulsar la participación. En la fase de preventa, es importante definir una estrategia de contenido empresarial. Esa estrategia considera cómo la aplicación utiliza los recursos de hardware, software y conectividad para ofrecer el valor deseado a los clientes del cliente.
 
-Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador. También tiene en cuenta los puntos de contacto de marketing del canal de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
+Una estrategia de contenido empresarial bien definida establece una ruta para crear, distribuir y rastrear el uso del contenido en relación con el recorrido del comprador. También tiene en cuenta los puntos de contacto de marketing del funnel de ventas. Es crucial enviar el mensaje correcto al cliente correcto en el momento adecuado.
 
 Considere cómo la aplicación de Screens puede ayudar a lograr esta estrategia y determine los indicadores clave de rendimiento (KPI) para ayudar a medir el éxito de la aplicación en la entrega de ese contenido.
 

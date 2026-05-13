@@ -2,9 +2,12 @@
 title: Transición a la plataforma
 description: Obtenga información acerca de la transición a la plataforma en AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+TQID: https://experienceleague.adobe.com/xefeUV4bgG-I7zVOGcAnNkcdx1Y-XQfmAr2bFT5nFN0
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -13,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Un inversor habitual de esta actividad es un implementador de.
+>Una parte interesada típica de esta actividad es un implementador de AEM.
 
-A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, debe prepararse para la creación real de un proyecto de Screens AEM en el que se pueda implementar un proyecto de forma remota.
+A medida que el proyecto ha progresado de una visión estratégica a una realidad estructurada por cable, debe prepararse para la creación real de un proyecto de Screens en AEM que pueda implementar.
 
 Este proyecto incluye la asignación de configuraciones específicas de la plataforma a requisitos definidos de forma flexible en la fase de creación de prototipos.
 
@@ -23,9 +26,9 @@ Algunos ejemplos son cómo y cuándo utilizar lo siguiente:
 
 * **Fragmentos de experiencias** para crear agrupaciones de contenido.
 * **Fragmentos de contenido** para crear variaciones de texto.
-* SPA **ContextHub** para crear almacenes de datos externos, para crear experiencias interactivas, y para obtener información sobre las mismas.
+* **ContextHub** para crear almacenes de datos externos y SPA para experiencias interactivas.
 * **Servicios OSGi** para alertas de red.
-* **Vínculo de recurso** para el abastecimiento del Creative Cloud.
+* **Vínculo de recurso** para el abastecimiento de Creative Cloud.
 * **Carpetas de red** para la asignación de recursos.
 * **Superposición de texto** para datos en tiempo real.
 * **Programas** para agrupaciones de canales/pantallas.

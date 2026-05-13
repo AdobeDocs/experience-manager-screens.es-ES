@@ -2,10 +2,14 @@
 title: Introducción a AEM Screens
 description: Obtenga información acerca de AEM Screens y lo que puede hacer por usted.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 52%
+source-wordcount: 690
+ht-degree: 53%
 
 ---
 
@@ -26,7 +30,7 @@ Además, Screens proporciona muchas aplicaciones únicas para clientes y emplead
 * **promoción de la marca**
 * **adición de un plus de ambiente a su entorno**
 
-La creación y gestión de una red de señalización digital mediante AEM Screens es sencilla e intuitiva. Una aplicación de reproducción aloja los canales de contenido creados por clientes o socios de implementación para AEM Screens. *Las ubicaciones* administran una jerarquía de ubicaciones predefinida y contienen pantallas. Cada *pantalla* tiene un panel que muestra diferentes dispositivos y pantallas. El contenido de AEM Screens se administra en *canales*. El *reproductor de AEM Screens* procesa el contenido presente en los canales y lo muestra en pantallas.
+La creación y gestión de una red de señalización digital mediante AEM Screens es sencilla e intuitiva. Una aplicación de reproducción aloja los canales de contenido creados por clientes o socios de implementación para AEM Screens. *Las ubicaciones* administran una jerarquía de ubicaciones predefinida y contienen pantallas. Cada *pantalla* tiene un panel de control que muestra diferentes dispositivos y pantallas. El contenido de AEM Screens se administra en *canales*. El *reproductor de AEM Screens* procesa el contenido presente en los canales y lo muestra en pantallas.
 
 >[!NOTE]
 >
@@ -48,11 +52,11 @@ AEM Screens proporciona una plataforma unificada de creación y reproducción pa
 
 * **Segmentación de bucles de medios**: configurar cada dispositivo de reproducción para que tenga su propio segmento de bucle garantiza que el contenido localizado se pueda crear, publicar y reproducir fácilmente dentro de la experiencia digital general. Los activos de medios incluidos en los canales de secuencias incrustadas se agregan al segmento de bucle anterior y ofrecen la oportunidad de segmentar un segmento de bucle de medios para cada grupo de ubicaciones.
 
-* **Experiencias interactivas**: se puede crear y enviar una aplicación táctil y de quiosco en un canal de Screens AEM SPA mediante el editor de segmentos y el editor de la. Se recomienda aplicar propiedades de diseño omnicanal coherentes, un temporizador de inactividad para restablecer la experiencia y una llamada a la acción clara para las tareas que la aplicación pueda ejecutar. La página de destino debe constar de elementos digitales clave diseñados para transmitir valor, atraer al usuario a la pantalla y pedirle que interactúe con esta.
+* **Experiencias interactivas**: se puede crear y enviar una aplicación táctil y de quiosco en un canal de Screens mediante AEM y el editor de SPA. Se recomienda aplicar propiedades de diseño omnicanal coherentes, un temporizador de inactividad para restablecer la experiencia y una call to action clara para las tareas que la aplicación pueda ejecutar. La página de destino debe constar de elementos digitales clave diseñados para transmitir valor, atraer al usuario a la pantalla y pedirle que interactúe con esta.
 
 AEM Screens proporciona un marco para implementar contenido en dispositivos físicos. El contenido se asigna a los canales en Screens, que pueden contener contenido multimedia o aplicaciones de pantalla táctil. Dentro de este marco, una aplicación de AEM Sites podría entregarse como contenido a través de un canal.
 
-AEM Se debe dar formato a un sitio para que su uso se adapte a las dimensiones del dispositivo de visualización para el que está destinado. Debe hacerse antes de dejarse caer en un canal en Screens.
+Se debe dar formato a un sitio AEM para que su uso se adapte a las dimensiones del dispositivo de visualización para el que está destinado. Debe hacerse antes de dejarse caer en un canal en Screens.
 
 >[!NOTE]
 >Muchos componentes de AEM Sites no son compatibles con AEM Screens. AEM Screens incluye muchos de sus propios componentes de forma predeterminada, lo que le permite crear experiencias digitales sin necesidad de recurrir a la personalización. Si los requisitos del proyecto lo permiten, utilice la funcionalidad integrada de AEM Screens siempre que sea posible.
