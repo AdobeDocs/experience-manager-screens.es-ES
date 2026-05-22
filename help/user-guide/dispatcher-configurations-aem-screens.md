@@ -5,10 +5,22 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: 662
+ht-degree: 2%
 
 ---
 
@@ -25,7 +37,7 @@ En la siguiente página se proporcionan las directrices para configurar un Dispa
 >Si no hay ningún Dispatcher, deshabilite el servlet de registro en la lista de componentes OSGi.
 
 Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
-Consulte [Configuración de Dispatcher](https://experienceleague.adobe.com/es_es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obtener más información.
+Consulte [Configuración de Dispatcher](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obtener más información.
 
 ## Configurar Dispatcher para la versión 2 de manifiesto {#configuring-dispatcher}
 
@@ -173,7 +185,7 @@ Siga estos dos requisitos previos antes de configurar un Dispatcher (manifiesto 
 
 * Agregar `/allowAuthorized "1"` a la sección `/cache` en `publish_farm.any`.
 
-* Todos los reproductores de AEM Screens AEM utilizan una sesión autenticada para conectarse a la red (autor/publicación. De forma predeterminada, una Dispatcher no almacena en caché estas direcciones URL, por lo que debe habilitarlas.
+* Todos los reproductores de AEM Screens utilizan una sesión autenticada para conectarse a AEM (autor/publicación). De forma predeterminada, una Dispatcher no almacena en caché estas direcciones URL, por lo que debe habilitarlas.
 
 * Agregar `statfileslevel "10"` a la sección `/cache` en `publish_farm.any`
 Esta regla admite el almacenamiento en caché de hasta diez niveles desde la caché docroot e invalida en consecuencia cuando se publica contenido, en lugar de invalidar todo. No dude en cambiar este nivel en función de la profundidad de la estructura de contenido
@@ -231,7 +243,7 @@ Esta regla admite el almacenamiento en caché de hasta diez niveles desde la cac
 
 ### Añadir regla de invalidación para segments.js {#invalidsegmentjs}
 
-Si está usando campañas de destino con AEM Screens, entonces el `segments.js file` servido por Dispatcher AEM debe invalidarse, a medida que agregue y publique nuevos segmentos en el sitio web de. Sin esta regla de invalidación, las nuevas campañas segmentadas no funcionan en el reproductor de AEM Screens (muestra el contenido predeterminado en su lugar).
+Si está usando campañas de destino con AEM Screens, el `segments.js file` servido por Dispatcher debe invalidarse a medida que agregue y publique nuevos segmentos en AEM. Sin esta regla de invalidación, las nuevas campañas segmentadas no funcionan en el reproductor de AEM Screens (muestra el contenido predeterminado en su lugar).
 
 * Agregar una regla de invalidación a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Esta es la regla que se debe agregar:
 

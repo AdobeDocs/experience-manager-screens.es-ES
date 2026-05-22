@@ -1,6 +1,6 @@
 ---
 title: Configuración e implementación de AEM Screens
-description: El reproductor AEM Screens está disponible para Android& trade;, Chrome OS, iOS y Windows. Obtenga información acerca de la configuración y la implementación de AEM Screens.
+description: El reproductor AEM Screens está disponible para Android&trade;, el sistema operativo Chrome, iOS y Windows. Obtenga información acerca de la configuración y la implementación de AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,17 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -24,7 +32,7 @@ Esta página muestra cómo instalar y configurar los reproductores de Screens en
 
 >[!IMPORTANT]
 >
->El Reproductor de AEM Screens no utiliza el token de falsificación de solicitud entre sitios (CSRF). AEM Por lo tanto, para configurar el servidor de para que esté listo para usarse en AEM Screens, omita el filtro de referente y permita los referentes vacíos.
+>El Reproductor de AEM Screens no utiliza el token de falsificación de solicitud entre sitios (CSRF). Por lo tanto, para configurar el servidor de AEM para que esté listo para usarse en AEM Screens, omita el filtro de referente permitiendo referentes vacíos.
 
 ## Marco de comprobación de estado {#health-check-framework}
 
@@ -37,7 +45,7 @@ Permite al usuario comprobar las dos comprobaciones de configuración siguientes
 
 Siga los pasos a continuación para comprobar si estas dos configuraciones vitales están habilitadas para AEM Screens:
 
-1. Vaya a [Comprobación de estado de Sling de la consola web de Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Vaya a [Comprobación de estado de Sling de la consola web de Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
 
    ![recursos](assets/health-check1.png)
 
@@ -60,11 +68,11 @@ Siga los pasos a continuación para comprobar si estas dos configuraciones vital
 
 ### Requisitos previos {#prerequisites}
 
-AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor para que esté listo para su uso en AEM Screens.
+Los siguientes puntos clave ayudan a configurar y configurar el servidor de AEM para que esté listo para su uso en AEM Screens.
 
 #### Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
 
-1. Vaya a la **configuración de la consola web de Adobe Experience Manager AEM** mediante la instancia de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a la **configuración de la consola web de Adobe Experience Manager** mediante AEM instance > hammer icon > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
@@ -81,7 +89,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
 #### Servicio HTTP basado en Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Vaya a la **configuración de la consola web de Adobe Experience Manager AEM** mediante la instancia de la instancia de > icono de martillo > **Operaciones** > **Consola web**.
+1. Vaya a la **configuración de la consola web de Adobe Experience Manager** mediante AEM instance > hammer icon > **Operaciones** > **Consola web**.
 
    ![imagen](assets/config/empty-ref1.png)
 
@@ -97,7 +105,7 @@ AEM Los siguientes puntos clave ayudan a configurar y a configurar el servidor p
 
 #### Habilitar la IU táctil para AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens requiere una interfaz de usuario táctil y no funciona con la IU clásica de Adobe Experience Manager AEM ().
+AEM Screens requiere una interfaz de usuario táctil y no funciona con la IU clásica de Adobe Experience Manager (AEM).
 
 1. Navegue hasta `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Asegúrese de que el **modo predeterminado de la interfaz de usuario de creación** esté establecido en **TOUCH**, como se muestra en la figura siguiente
@@ -110,9 +118,9 @@ También puede realizar la misma configuración con las herramientas de su insta
 >
 >Siempre puede habilitar la IU clásica para usuarios específicos mediante las preferencias de usuario.
 
-#### AEM en modo de ejecución NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
+#### AEM en el modo de ejecución NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-AEM La ejecución de la producción de la utiliza el modo de ejecución **NOSAMPLECONTENT**. Quite el encabezado *X-Frame-Options=SAMEORIGIN* (en la sección de encabezado de respuesta adicional) de
+Al ejecutar AEM en producción se utiliza el modo de ejecución **NOSAMPLECONTENT**. Quite el encabezado *X-Frame-Options=SAMEORIGIN* (en la sección de encabezado de respuesta adicional) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -128,7 +136,7 @@ Puede configurar ***DeviceServiceImpl*** desde el vínculo siguiente para habili
 
 Siga los pasos a continuación para configurar ***DeviceServiceImpl***:
 
-1. Vaya a la **configuración de la consola web de Adobe Experience Manager AEM** a través de su instancia de la instancia de la instancia de la > icono del martillo > **Operaciones** > **Consola web**.
+1. Vaya a la **configuración de la consola web de Adobe Experience Manager** mediante la instancia de AEM > icono de martillo > **Operaciones** > **Consola web**.
 
 1. **Se abre la configuración de la consola web de Adobe Experience Manager**. Busque `*deviceservice*`. Para buscar en la propiedad, presione **Comando+F** para macOS y **Control+F** para Microsoft® Windows.
 

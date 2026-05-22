@@ -2,9 +2,18 @@
 title: Acerca de esta guía
 description: Obtenga información sobre las prácticas recomendadas para proyectos de AEM Screens para planificar y ejecutar proyectos, desde información estratégica y de diseño hasta implementación y asistencia posterior.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 258
 ht-degree: 32%
 
 ---
@@ -23,9 +32,9 @@ La audiencia a la que va dirigido este documento es:
 
 Sin embargo, cabe destacar que muchas otras funciones también pueden beneficiarse de la lectura de esta guía.
 
-AEM Screens es una nueva extensión de Adobe Experience Manager AEM (). Dado que las herramientas son nuevas y sus aplicaciones potenciales variadas, es fundamental identificar consideraciones importantes y factores de riesgo comunes que intervienen en el desarrollo e implementación de AEM Screens.
+AEM Screens es una nueva extensión de Adobe Experience Manager (AEM). Dado que las herramientas son nuevas y sus aplicaciones potenciales variadas, es fundamental identificar consideraciones importantes y factores de riesgo comunes que intervienen en el desarrollo e implementación de AEM Screens.
 
-Esta guía proporciona información completa y consejos prácticos para imaginar, diseñar e incorporar experiencias de clientes intencionales en la implementación de señalización digital. También explica cómo crear un impacto positivo en su empresa mediante algunas de las prácticas recomendadas que se deberían seguir al implementar un proyecto de señalización digital en AEM Screens.
+Esta guía proporciona información práctica y de insight para imaginar, diseñar e incorporar experiencias personalizadas para los clientes en su implementación de sistemas de firma digital. También explica cómo crear un impacto positivo en su empresa mediante algunas de las prácticas recomendadas que se deberían seguir al implementar un proyecto de señalización digital en AEM Screens.
 
 >[!IMPORTANT]
 >

@@ -5,10 +5,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 2%
+source-wordcount: 1256
+ht-degree: 3%
 
 ---
 
@@ -126,14 +142,14 @@ Haga clic en (**...**) en la barra de acciones **INFORMACIÓN DEL CANAL** para q
 Puede ver el manifiesto desde el panel de canales.
 
 >[!IMPORTANT]
->AEM AEM Esta opción solo está disponible con el paquete de funciones 8 o 4 del paquete de funciones 4 de la versión 6.4 de la o con el paquete de funciones 4 de la versión 6.5.
+>Esta opción solo está disponible con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 Siga estos pasos para poder habilitar esta opción desde el panel de canales:
 
 1. **Establecer el canal sin conexión**
    1. Haga clic en el canal y luego en **Propiedades** en la barra de acciones
    1. Vaya a la pestaña **Canal** y asegúrese de desactivar la opción **Modo de desarrollador (forzar al canal a estar en línea)**
-   1. Haga clic en **Guardar y cerrar**
+   1. Hacer clic en **Guardar y cerrar**
 1. **Actualizar contenido sin conexión**
    1. Haga clic en el canal y luego en **Panel** en la barra de acciones
    1. Vaya al panel **INFORMACIÓN DE CANAL** y haga clic en *...*

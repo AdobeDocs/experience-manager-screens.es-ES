@@ -2,9 +2,15 @@
 title: Especificaciones del dispositivo
 description: Obtenga más información acerca de las especificaciones de los dispositivos en lo que respecta a AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/nRZXWarHxFk1wgwR5YLLNcxx3OKs-fWKq1U9uB7yeBw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ Basándose en la información recopilada durante *Día cero*, confirme la siguie
 
 * ¿Qué software y sistema operativo deben instalarse en los dispositivos de visualización?
 
-* AEM ¿Se requiere una conexión a Internet en los reproductores para sincronizar las pantallas con los servidores de?
+* ¿Se requiere una conexión a Internet en los reproductores para sincronizar las pantallas con los servidores de AEM?
 
 * ¿Cuándo se actualiza el contenido en los reproductores?
 

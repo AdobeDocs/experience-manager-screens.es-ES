@@ -2,16 +2,26 @@
 title: Acceso directo a Internet
 description: Acceso directo a Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # Red de Internet directa (por cable/inalámbrica) {#direct-internet-access}
 
-AEM La red de acceso directo a Internet contiene un punto de acceso de entrada para el acceso a Internet a fin de llegar a los Cloud Service de la red a los que debe conectarse AEM Screens.
+La red de Internet directa contiene un punto de acceso de entrada para que el acceso a Internet llegue a los servicios de nube de AEM a los que AEM Screens debe conectarse.
 
 Los puertos estándar para la comunicación de AEM Screens son:
 
@@ -20,7 +30,7 @@ Los puertos estándar para la comunicación de AEM Screens son:
 
 * `http (TCP Port 80)`, si su caso de uso particular no requiere ese nivel de seguridad.
 
-AEM Los puertos pueden variar debido a la configuración de la configuración de su instalación de configuración de la dedicada. En esta configuración, todos los dispositivos están conectados directamente al enrutador de Internet, como se muestra en la figura siguiente.
+Los puertos pueden variar debido a la configuración de la configuración de AEM. En esta configuración, todos los dispositivos están conectados directamente al enrutador de Internet, como se muestra en la figura siguiente.
 
 ![](/help/assets/direct-access-2.png)
 
@@ -28,9 +38,9 @@ La configuración también incluye un acceso a Internet por cualquier proveedor 
 
 ## Conexión del Reproductor de AEM Screens al acceso directo a Internet
 
-AEM Siga los pasos a continuación para asegurarse de que la conexión de los reproductores de pantalla de la pantalla de la es correcta en esta configuración:
+Siga los pasos a continuación para garantizar la conexión adecuada de los reproductores de pantalla de AEM en esta configuración:
 
-1. AEM Asegúrese de que cada uno de los reproductores de pantalla de la pantalla de la aplicación esté conectado a la red del enrutador.
+1. Asegúrese de que cada uno de los reproductores de pantalla de AEM esté conectado a la red del enrutador.
 1. Pruebe la conexión a Internet llamando a una dirección URL en el explorador del sistema.
 
    >[!NOTE]
@@ -43,7 +53,7 @@ AEM Siga los pasos a continuación para asegurarse de que la conexión de los re
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
-   >**Sugerencia para solucionar problemas**
+   >**Sugerencia de solución de problemas**
    >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe en el firewall del enrutador de Internet si hay restricciones con respecto a `TCP/IP Port 80/443`.

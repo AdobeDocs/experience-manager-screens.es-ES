@@ -10,10 +10,20 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/fbTrzAj52dW2JuRe-6InIkh-dT52Au9pGgoAEjR7WW8
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 1%
+source-wordcount: 378
+ht-degree: 2%
 
 ---
 
@@ -21,9 +31,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Adobe recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
-AEM Screens AEM AEM ha lanzado el paquete de funciones 5 de la versión 6.4.5 de la versión 6.1 y el paquete de funciones 1 de la versión 6.5.1 de la versión con los siguientes detalles.
+AEM Screens ha lanzado el paquete de funciones 5 de AEM 6.4.5 y el paquete de funciones 1 de AEM 6.5.1 con los siguientes detalles.
 
 ## Fecha de lanzamiento {#release-date}
 
@@ -67,7 +77,7 @@ Ahora puede agregar configuraciones sin conexión (bibliotecas del lado del clie
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores de AEM Screens AEM AEM se incluyen en el paquete de funciones 5 y 1 de la versión 6.4.5 de la versión 6.4.5 de la versión 1 del paquete de funciones de la versión 6.4.5 de la versión:
+Los siguientes reproductores de AEM Screens están disponibles para el paquete de funciones 5 de AEM 6.4.5 y el paquete de funciones 1 de AEM 6.5.1:
 
 * ChromeOS
 * Windows

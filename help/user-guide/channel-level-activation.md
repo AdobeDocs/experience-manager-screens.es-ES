@@ -6,9 +6,26 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: 1808
 ht-degree: 1%
 
 ---
@@ -145,16 +162,15 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 
 >[!NOTE]
 >
->Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:
->&#x200B;>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
->&#x200B;>[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
+>Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:>[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)
+>[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
 
 
 ## Administrar la periodicidad para Assets en un canal {#handling-recurrence-in-assets}
 
 Puede programar los recursos de un canal para que se repitan a intervalos específicos diariamente, semanalmente o mensualmente, según sus necesidades.
 
-Supongamos que desea mostrar el contenido de un canal sólo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
+Supongamos que desea mostrar el contenido de un canal solamente los viernes de 1:00 p.m. a 10:00 p.m. Puede usar la pestaña **Activación** para establecer el intervalo recurrente deseado para su recurso.
 
 ### División por día {#day-parting}
 
@@ -174,17 +190,17 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
-| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
-| después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el recurso del canal se reproduce antes de las 12:15 todos los días y después de las 12:45. |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a.m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce después de las 2:00 de la tarde todos los días |
+| después de 12:15 y antes de 12:45 | el recurso del canal se reproduce después de las 12:15 p. m. todos los días durante 30 minutos |
+| antes de 12:15 también después de 12:45 | el recurso del canal se reproduce antes de las 12:15 p.m. todos los días y después de las 12:45 p.m. |
 | Lun, Mar, Mié o Lun-Mié | el recurso se reproduce en el recurso del canal de lunes a miércoles |
-| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
-| los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
+| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2:00 de la tarde del 1 de enero y continúa reproduciéndose durante todo el día del 2 de enero hasta las 3:00 de la mañana del 3 de enero |
+| el 1-2 días de enero después de las 2:00 p.m. también el 2-3 días de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
 
 >[!NOTE]
 >
->También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -205,14 +221,14 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 | **Expresión** | **Interpretación** |
 |---|---|
 | Lun, Mar, Mié o Lun-Mié | el recurso se reproduce en el recurso del canal de lunes a miércoles |
-| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
-| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
-| después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
-| antes de las 12:15 también después de las 12:45 | el canal suena todos los días antes de las 12:15 p.m. y luego también después de las 12:45 p.m. |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a.m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce después de las 2:00 de la tarde todos los días |
+| después de 12:15 y antes de 12:45 | el recurso del canal se reproduce después de las 12:15 p. m. todos los días durante 30 minutos |
+| antes de 12:15 también después de 12:45 | el canal se reproduce antes de las 12:15 p.m. todos los días y después de las 12:45 p.m. |
 
 >[!NOTE]
 >
->También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 
 ### MonthParting {#month-parting}
@@ -241,7 +257,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 >[!NOTE]
 >
->También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### Combinación de Particiones {#combined-parting}
 
@@ -261,10 +277,10 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| después de las 6:00 y antes de las 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
-| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
-| los días 1-2 de enero después de las 2:00 p.m. también los días 2-3 de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
+| después del 6:00 y antes del 18:00 el lunes, miércoles de enero a marzo | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
+| el primer día de enero después de las 2:00 p.m., también el segundo día de enero y también el tercer día de enero antes de las 3:00 a.m. | el recurso del canal comienza a reproducirse después de las 2:00 de la tarde del 1 de enero y continúa reproduciéndose durante todo el día del 2 de enero hasta las 3:00 de la mañana del 3 de enero |
+| el 1-2 días de enero después de las 2:00 p.m. también el 2-3 días de enero antes de las 3:00 a.m. | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
 
 >[!NOTE]
 >
->Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).

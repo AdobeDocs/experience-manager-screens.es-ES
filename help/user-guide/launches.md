@@ -10,9 +10,24 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -25,9 +40,9 @@ Con la ayuda de ***Screens Launch***, los autores pueden obtener una vista previ
 
 Por ejemplo, si el autor desea crear versiones futuras de c1, c2 (canales), se crea un lanzamiento y se establece una fecha de lanzamiento (por ejemplo, 10 de noviembre a las 8:00 a.m.). Cualquier otra actualización del contenido se envía para su revisión.
 
-Después de la aprobación y en la fecha de lanzamiento (10 de noviembre a las 8:00 a.m.), este lanzamiento reproduce el contenido en los dispositivos o reproductores.
+Después de la aprobación y en la fecha de lanzamiento (10 de noviembre de 8:00 a.m.), este lanzamiento reproduce el contenido en los dispositivos o reproductores.
 
-## Requisitos  {#requirements}
+## Requisitos {#requirements}
 
 Antes de empezar a usar *Screens Launch* en un proyecto de AEM Screens, asegúrese de comprender el concepto de período de gracia y su relevancia.
 
@@ -47,7 +62,7 @@ La ejecución de una experiencia en la fecha en directo establecida en el reprod
 
 Para que el reproductor pueda empezar a reproducir el contenido en la fecha en directo establecida, inicie las actividades anteriores a la fecha en directo.
 
-Si la fecha de activación es el *24 de noviembre a las 9:00 a.m.* y *24 horas* es el período de gracia, la secuencia de acciones anterior comienza en (fecha de activación - período de gracia), es decir, el 23 de noviembre a las 9:00 a.m. hora del servidor. Esta configuración proporciona 24 horas para completar todas las acciones mencionadas anteriormente para que el contenido llegue a los reproductores. Los jugadores entienden que este periodo es un contenido de lanzamiento. Como tal, el contenido no se reproduce inmediatamente, pero los reproductores pueden almacenar este contenido como una versión futura y hacer que comience a reproducirse exactamente en la fecha en directo establecida en la zona horaria del reproductor.
+Si la fecha de activación es el *24 de noviembre de 9:00 a.m.* y *24 horas* es el período de gracia, la secuencia de acciones anterior comienza en (fecha de activación - período de gracia), es decir, el 23 de noviembre de 9:00 a.m. hora del servidor. Esta configuración proporciona 24 horas para completar todas las acciones mencionadas anteriormente para que el contenido llegue a los reproductores. Los jugadores entienden que este periodo es un contenido de lanzamiento. Como tal, el contenido no se reproduce inmediatamente, pero los reproductores pueden almacenar este contenido como una versión futura y hacer que comience a reproducirse exactamente en la fecha en directo establecida en la zona horaria del reproductor.
 
 Por ejemplo, el servidor está en PST y los dispositivos en EST. La diferencia de tiempo máxima es de tres horas. Supone que la promoción tarda 1 minuto y la publicación del autor a la publicación tarda 10 minutos y que el reproductor puede descargar los recursos normalmente en 10-15 minutos. A continuación, el periodo de gracia = diferencia horaria (tres horas):
 
@@ -83,7 +98,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 El período de gracia se establece en 10 minutos en el ejemplo anterior. Por lo tanto, cuando establece una fecha de lanzamiento para cualquier lanzamiento de recursos en */content/screens*, la promoción comienza con este desplazamiento.
 
-Por ejemplo, si la fecha de lanzamiento se establece en 24 de noviembre a las 9:00 a.m. y el período de gracia es de 600 segundos, el trabajo de promoción se iniciará el 24 de noviembre a las 8:50 a.m.
+Por ejemplo, si la fecha de lanzamiento se establece en 24 de noviembre de 9:00 a.m. y el período de gracia es de 600 segundos, el trabajo de promoción se iniciará el 24 de noviembre a las 8:50 a.m.
 
 ## Uso de Screens Launch {#using-launches}
 

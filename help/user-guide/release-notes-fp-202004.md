@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/YLrwBzcHSxB1YdY2h8O3gCGIHsQaZs74ib8Hp624Tio
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 4%
 
 ---
 
@@ -16,11 +24,11 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->El Adobe recomienda actualizar a la última versión de Adobe Experience Manager AEM (). AEM Screens AEM proporciona compatibilidad de mantenimiento para la plataforma Screens de la versión 6.3 de la plataforma de la.
+>Adobe recomienda actualizar a la última versión de Adobe Experience Manager (AEM). AEM Screens proporciona compatibilidad de mantenimiento para la plataforma Screens de AEM 6.3.
 
 ## Disponibilidad {#availability}
 
-AEM Screens AEM AEM ha lanzado el paquete de funciones 8 de la versión 6.4 de la versión, y el paquete de funciones 4 de la versión 6.5 de la versión 6.4.
+AEM Screens ha lanzado el paquete de funciones 8 de AEM 6.4 y el paquete de funciones 4 de AEM 6.5.
 
 Puede descargar el paquete de funciones más reciente para AEM Screens 6.4.8 o AEM Screens 6.5.4 desde el [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) con su Adobe ID. Vaya a la pestaña **Adobe Experience Manager** y busque **Screens** para obtener el paquete de funciones más reciente.
 
@@ -67,7 +75,7 @@ La fecha de lanzamiento del paquete de funciones 202004 de AEM Screens es el 20 
 
 ### Reproductores de AEM Screens publicados
 
-Los siguientes reproductores de AEM Screens se incluyen en el paquete de funciones 4 de AEM Screens AEM AEM, que incluye el paquete de funciones 8 y 6.5 de la versión 6.4 de la versión 199980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Los siguientes reproductores de AEM Screens están disponibles para el paquete de funciones 8 de AEM 6.4 y 4 de AEM 6.5, ambos lanzados por AEM Screens:
 
 * ChromeOS
 * Windows
