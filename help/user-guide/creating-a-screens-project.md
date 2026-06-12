@@ -24,8 +24,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 1%
+source-wordcount: 290
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ También puede navegar directamente a: `http://localhost:4502/screens.html/conte
 
 >[!NOTE]
 >**Sugerencia de navegación:**
->También puede utilizar las teclas del cursor para desplazarse por diferentes carpetas en AEM. Además, después de hacer clic en una entidad concreta, presione la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
+>También puede usar las teclas de cursor para desplazarse por diferentes carpetas de AEM. Además, después de hacer clic en una entidad concreta, presione la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
 
 ## Creación de un nuevo proyecto de Screens
 
