@@ -55,8 +55,8 @@ Según los requisitos del proyecto, a veces necesita varias zonas en un canal y 
 
 Antes de comenzar a implementar esta funcionalidad, asegúrese de tener los conocimientos conceptuales sobre lo siguiente:
 
-* [Creación de un proyecto de AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Creación de una visualización](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Creación de un proyecto de AEM Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Creación de una visualización](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Asignación de un canal a una pantalla](/help/user-guide/channel-assignment.md)
 
 ## Creación de diseños de varias zonas {#creating-multi-zone-layout}
