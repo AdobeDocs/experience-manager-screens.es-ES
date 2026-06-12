@@ -6,19 +6,14 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1224
-ht-degree: 2%
+source-wordcount: 1128
+ht-degree: 1%
 
 ---
 
@@ -108,8 +103,8 @@ El aprovisionamiento remoto del reproductor Tizen le permite implementar cientos
 Esta función le permite configurar de forma remota el reproductor Tizen y también actualizar esas configuraciones de forma centralizada, si es necesario. Todo lo que necesita es el servidor `HTTP` utilizado para hospedar la aplicación Tizen `(wgt and xml file)` y un editor de texto para guardar `config.json` con los parámetros apropiados.
 
 Asegúrese de haber configurado la dirección URL del lanzador en el dispositivo Tizen. Haga clic en el botón Inicio > Configuración del lanzador de URL.
-En el servidor `HTTP` que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el archivo `wgt`. El nombre del archivo debe ser `config.json`.
-El reproductor Tizen instala y en el inicio (y cada vez que se reinicia), comprueba y aplica la configuración del archivo `config.json`.
+En el servidor `HTTP` que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el archivo `wgt`. El nombre de archivo debe ser `config.json`.
+El reproductor Tizen instala y, en el momento del inicio (y cada vez que se reinicia), comprueba y aplica la configuración del archivo `config.json`.
 
 ### Ejemplo de directiva JSON {#example-json}
 
