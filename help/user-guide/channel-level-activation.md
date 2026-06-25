@@ -23,14 +23,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1845
 ht-degree: 1%
 
 ---
 
 # Activación de nivel de canal {#channel-level-activation-single-event-playback}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página describe la activación a nivel de canal para los recursos utilizados en Canales.
 
@@ -162,8 +165,8 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 
 >[!NOTE]
 >
->Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:>[Descargas del reproductor AEM Screens](https://download.macromedia.com/screens/)
->[Trabajando con el Reproductor de AEM Screens](working-with-screens-player.md)
+>Para obtener información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
+>[Trabajar con el reproductor AEM Screens](working-with-screens-player.md)
 
 
 ## Administrar la periodicidad para Assets en un canal {#handling-recurrence-in-assets}

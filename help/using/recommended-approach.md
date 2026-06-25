@@ -14,14 +14,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 482
 ht-degree: 0%
 
 ---
 
 # Enfoque recomendado {#recommended-approach}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Es una práctica recomendada pensar en cualquier proyecto de AEM Screens a nivel empresarial como una empresa a largo plazo. Es probable que la duración de un proyecto sea de uno o más años, especialmente si la solución permite una interacción compleja del usuario o se implementa en varios dispositivos y ubicaciones.
 

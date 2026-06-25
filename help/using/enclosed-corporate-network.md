@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 660
 ht-degree: 0%
 
 ---
 
 # Red corporativa cerrada (por cable/inalámbrica) {#enclosed-corporate-networks}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La configuración de red corporativa adjunta es aplicable a las empresas más pequeñas, grandes y empresariales. En teoría, puede ser más complejo y la configuración lógica se muestra en la figura siguiente.
 
@@ -43,7 +46,7 @@ Siga los pasos a continuación para garantizar la conexión adecuada de los repr
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
-   >**Sugerencia de solución de problemas**
+   >**Sugerencia para solucionar problemas**
    >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe en el firewall de enrutador de Internet si hay restricciones con respecto a `TCP/IP Port 80/443`.
