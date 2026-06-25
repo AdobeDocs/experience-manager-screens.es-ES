@@ -20,7 +20,7 @@ ht-degree: 0%
 # Pruebas y calidad de Assurance {#testing-quality}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Una de las partes interesadas habituales en esta actividad es un integrador de audio y vídeo.
@@ -69,7 +69,7 @@ Este módulo le permite:
 1. Administrar descargas de contenido
 1. Administrar problemas de reinicio de aplicaciones
 
-Para obtener información detallada sobre el ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) en la **Guía del usuario de AEM Screens**.
+Para obtener información detallada sobre el ***Centro de control de dispositivos***, consulte [Solución de problemas del Centro de control de dispositivos](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) en la **Guía del usuario de AEM Screens**.
 
 >[!CAUTION]
 >

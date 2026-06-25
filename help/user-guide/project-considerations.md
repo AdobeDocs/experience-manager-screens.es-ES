@@ -35,7 +35,7 @@ ht-degree: 0%
 # Parte 2: Consideraciones a medida que los proyectos se amplían {#part-considerations-as-projects-are-scoped}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En esta página se destaca la parte 2 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los aspectos previos a la venta para desarrollar implementaciones de AEM Screens exitosas.
 

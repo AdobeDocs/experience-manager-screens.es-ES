@@ -36,7 +36,7 @@ ht-degree: 1%
 # Superposición de texto {#text-overlay}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta sección trata los siguientes temas:
 
@@ -113,7 +113,7 @@ En la siguiente sección se describe el uso de valores de un almacén de datos, 
 
 Configure las opciones de ContextHub para el proyecto de AEM Screens.
 
-Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Para obtener información sobre cómo configurar y administrar los cambios de recursos impulsados por datos mediante un almacén de datos, consulte [Configuración de ContextHub en AEM Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Después de configurar las configuraciones necesarias para el proyecto, siga los pasos a continuación para utilizar los valores de las Hojas de cálculo de Google:
 

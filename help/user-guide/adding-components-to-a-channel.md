@@ -38,7 +38,7 @@ ht-degree: 5%
 # Adición de componentes a un canal{#adding-components-to-a-channel}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Los componentes son los elementos fundamentales de la experiencia de AEM (Adobe Experience Manager). Puede utilizar varios componentes y añadirlos al canal en un proyecto de AEM Screens.
 

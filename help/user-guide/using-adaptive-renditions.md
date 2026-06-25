@@ -20,7 +20,7 @@ ht-degree: 1%
 ## Introducción {#introduction}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Esta función solo se admite en AEM local (AEM 6.x). No es compatible con AEM as a Cloud Service.
@@ -57,7 +57,7 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal Tour
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publicar en el dispositivo.
+   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publicar en el dispositivo.
 
 ## Estrategia de migración {#migration-strategy}
 

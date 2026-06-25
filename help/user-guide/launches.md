@@ -35,7 +35,7 @@ ht-degree: 0%
 # Actualizaciones de contenido mediante Screens Launch {#launches}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Los autores de contenido pueden crear una versión futura de los canales y establecer la fecha de lanzamiento. Esta capacidad permite que el contenido esté activo en dispositivos o reproductores en la fecha en directo especificada.
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 # Consideraciones a medida que se amplían los proyectos {#pre-sales-considerations}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Un inversor habitual de esta actividad es un estratega de marketing/negocios.
@@ -44,4 +44,4 @@ Los entregables clave en esta etapa incluyen:
 >
 >Identifique lo antes posible los datos necesarios para la aplicación y de dónde provienen. La exploración más profunda se produce durante la implementación. No obstante, asegúrese de tomarse un tiempo durante *día cero* para averiguar qué datos piensa usar el cliente. Averigüe dónde se almacenan actualmente esos datos y cómo puede acceder a ellos la aplicación que se está creando. Notificar al equipo de desarrollo antes de que surjan desafíos ayuda a que una implementación se realice sin problemas.
 
-Vea el vídeo [Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Vea el vídeo [Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
