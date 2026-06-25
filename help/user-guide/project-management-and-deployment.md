@@ -11,22 +11,20 @@ role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 721
 ht-degree: 0%
 
 ---
 
 # Parte 4: Administración e implementación de proyectos {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En esta página se destaca la parte 4 de una serie de 5 partes diseñada para cubrir la gestión del proyecto y la preparación de la implementación, así como para definir los factores clave de los que el integrador de audio y vídeo es responsable en relación con la gestión del proyecto y la preparación de la implementación.
 
@@ -89,7 +87,7 @@ Obtenga información sobre la administración de proyectos y la preparación de 
 
 ### Administración e implementación de proyectos
 
->[!VIDEO](https://video.tv.adobe.com/v/32791?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Obtenga información acerca de la administración de proyectos y la preparación de la implementación (la preproducción del proyecto, el inicio del proyecto y la progresión del proyecto).*
 

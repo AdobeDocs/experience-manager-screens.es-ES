@@ -3,16 +3,10 @@ title: Acceso directo a Internet
 description: Acceso directo a Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 706
 ht-degree: 0%
@@ -20,6 +14,9 @@ ht-degree: 0%
 ---
 
 # Red de Internet directa (por cable/inalámbrica) {#direct-internet-access}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La red de Internet directa contiene un punto de acceso de entrada para que el acceso a Internet llegue a los servicios de nube de AEM a los que AEM Screens debe conectarse.
 
@@ -53,7 +50,7 @@ Siga los pasos a continuación para garantizar la conexión adecuada de los repr
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
-   >**Sugerencia de solución de problemas**
+   >**Sugerencia para solucionar problemas**
    >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe en el firewall del enrutador de Internet si hay restricciones con respecto a `TCP/IP Port 80/443`.

@@ -3,14 +3,17 @@ title: Etiquetado en Screens Cloud
 description: En esta página se describe cómo se pueden crear, administrar y utilizar las etiquetas en Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # Etiquetado en Screens Cloud {#tagging-on-Screens-Cloud}
+
+>[!IMPORTANT]
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >
@@ -39,7 +42,7 @@ Utilice las etiquetas creadas en Pantallas y reproductores.
 >[!NOTE]
 >
 > Una pantalla o un reproductor pueden tener un máximo de 30 etiquetas asignadas.
-> Se pueden etiquetar como máximo 30 elementos de una sola vez.
+> Como máximo se pueden etiquetar 30 elementos de una sola vez.
 
 ## Filtrar por etiquetas {#filter-by-tags}
 
