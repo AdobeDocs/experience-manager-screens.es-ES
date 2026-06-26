@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 392
 ht-degree: 0%
 
 ---
@@ -25,8 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >Una de las partes interesadas habituales en esta actividad es un integrador de audio y vídeo.
 
-A medida que se acerca la implementación de la red de publicidad dinámica, cree un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.
-En esta fase, deben construirse y probarse completamente todos los sistemas de ensayo.
+A medida que se acerca la implementación de la red de publicidad dinámica, cree un plan de pruebas y control de calidad que aborde todos los elementos de la red, incluidos todos los componentes de hardware, todos los componentes de software y todos los componentes de red.En esta fase, deben construirse y probarse completamente todos los sistemas de ensayo.
 
 Se debe crear una lista de comprobación que identifique todos los KPI definidos anteriormente y mida las entregas con respecto a ellos.
 
@@ -61,8 +60,7 @@ Se recomiendan las siguientes consideraciones de software:
 
 AEM Screens incluye un módulo del Centro de control de dispositivos que permite administrar los extremos de la aplicación del reproductor de Screens.
 
-Hace referencia a cualquier dispositivo de hardware *player* que tenga instalada la aplicación Screens player y esté registrado en una instancia de AEM.
-Este módulo le permite:
+Hace referencia a cualquier dispositivo de hardware *player* que tenga instalada la aplicación Screens player y esté registrado en una instancia de AEM.Este módulo le permite:
 
 1. Monitorizar registros de errores de aplicaciones del reproductor
 1. Administrar capturas de pantalla remotas
@@ -94,3 +92,4 @@ Algunos ejemplos son los siguientes:
 * AirWatch
 * `42Gears`
 * Middleware de integrador de audio y vídeo patentado
+

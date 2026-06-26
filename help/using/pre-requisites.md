@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 6%
@@ -52,3 +52,4 @@ Para conocer los conceptos básicos de un proyecto de AEM Screens, consulte los 
    * *[Parte 3: Pruebas, POC, pilotos y despliegues](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: Destaca la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave. Estos términos son esenciales para garantizar que se desarrolle una solución correcta antes de un despliegue. Abarca las acciones relacionadas con las pruebas de laboratorio de hardware y la validación del rendimiento, las pruebas de concepto (también denominadas POC) y los programas piloto.
    * *[Parte 4: Administración e implementación de proyectos](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: resalta la parte 4 de una serie de 5 partes diseñada para cubrir la administración de proyectos y la preparación de la implementación. También define los factores clave de los que es responsable el integrador de audio y vídeo en relación con la gestión de proyectos y la preparación de la implementación. Abarca la preproducción, el inicio y la progresión del proyecto.
    * *[Parte 5: Consideraciones sobre la compatibilidad](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*: resalta la parte final de una serie de cinco partes diseñada para ayudar a los integrantes del equipo a conocer cómo se solucionan los problemas de hardware, software y conectividad. En esta fase se exploran las estimaciones de costes y los marcos para la asistencia in situ. También se explica cómo se administran los parámetros de SLA, los presupuestos operativos y los traspasos de NOC.
+

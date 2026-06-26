@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 1%
@@ -170,7 +170,7 @@ Puede insertar una imagen como capa de fondo en el diseño:
 Puede ajustar la regla CSS para que utilice &quot;data-uri&quot; y coloque directamente en línea la imagen (`Base64` codificada) en el archivo CSS que creó en (paso 13), *static.css*.
 
 Esta disposición se hace de la siguiente manera:
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+
 
 O bien, puede seguir los pasos a continuación:
 
@@ -183,3 +183,4 @@ O bien, puede seguir los pasos a continuación:
 Para cambiar el color de fondo, agregue el código siguiente al archivo xml (paso 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

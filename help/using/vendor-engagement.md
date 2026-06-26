@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 0%
@@ -32,3 +32,4 @@ En esta actividad, es importante identificar todos los proveedores clave necesar
 * Confirme los *plazos de entrega* para todos los entregables. Cree un plan de implementación que incluya todos los plazos de trabajo con versiones anteriores a partir de una o más fechas de instalación deseadas de las primeras instalaciones requeridas.
 
 Al completar todos los pasos anteriores, ahora debería tener un plan de implementación completo de *Day 1* listo para ejecutarse.
+

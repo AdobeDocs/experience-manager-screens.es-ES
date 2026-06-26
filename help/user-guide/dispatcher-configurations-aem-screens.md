@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: 709
 ht-degree: 2%
 
 ---
@@ -39,8 +39,7 @@ En la siguiente página se proporcionan las directrices para configurar un Dispa
 >
 >Si no hay ningún Dispatcher, deshabilite el servlet de registro en la lista de componentes OSGi.
 
-Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.
-Consulte [Configuración de Dispatcher](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obtener más información.
+Antes de configurar Dispatcher para un proyecto de AEM Screens, debe tener conocimientos previos de Dispatcher.Consulte [Configuración de Dispatcher](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obtener más información.
 
 ## Configurar Dispatcher para la versión 2 de manifiesto {#configuring-dispatcher}
 
@@ -262,3 +261,4 @@ Si está usando campañas de destino con AEM Screens, el `segments.js file` serv
 ```
 
 * Esta regla garantiza que el archivo `segments.js` se invalidará y que se recuperará la última versión cuando se modifique.
+

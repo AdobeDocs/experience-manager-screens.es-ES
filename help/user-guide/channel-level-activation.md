@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 1%
 
 ---
@@ -165,8 +165,7 @@ El reproductor muestra el contenido de **MainAdChannel** y exactamente a las 11:
 
 >[!NOTE]
 >
->Para obtener información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:>[Descargas del Reproductor de AEM Screens](https://download.macromedia.com/screens/)
->[Trabajar con el reproductor AEM Screens](working-with-screens-player.md)
+>Para obtener más información acerca del Reproductor de pantalla de AEM, consulte los siguientes recursos:Descargas del reproductor AEM ScreensTrabajando con el Reproductor de AEM Screens&rbrack;(working-with-screens-player.md)
 
 
 ## Administrar la periodicidad para Assets en un canal {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 >[!NOTE]
 >
 >Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+

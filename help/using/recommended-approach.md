@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ Si su cliente desea un producto con numerosas funciones, envíe una parte de la 
 
 * **Explicación del ámbito de las integraciones personalizadas**:
 Los componentes interactivos con interacción de pantalla táctil, sensor de movimiento o RFID requieren un desarrollo personalizado significativo en el método de implementación. Las presentaciones de diapositivas, los anuncios de vídeo o los menús estáticos se pueden entregar como contenido gráfico o HTML en un canal de Screens.
+

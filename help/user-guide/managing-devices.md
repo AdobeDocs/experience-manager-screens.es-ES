@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 6%
+source-wordcount: 288
+ht-degree: 5%
 
 ---
 
@@ -79,12 +79,11 @@ Siga los pasos a continuación para asignar un dispositivo a una pantalla:
 
 >[!NOTE]
 >
->Cada vez que se agrega el primer dispositivo a un nuevo proyecto de Screens, se crea un grupo de usuarios.
->Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.
->Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
+>Cada vez que se agrega el primer dispositivo a un nuevo proyecto de Screens, se crea un grupo de usuarios.Por ejemplo, si el nombre del nodo del proyecto es *we-retail*, el nombre del grupo de usuarios es *screens-we-retail-devices*.Este grupo se agrega como miembro del grupo **Colaboradores**, como se muestra en la figura siguiente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Pasos siguientes {#the-next-steps}
 
 Después de familiarizarse con la asignación de canales a una pantalla, consulte t[Monitorizar y solucionar problemas](monitoring-screens.md).
+

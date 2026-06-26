@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 2%
 
 ---
@@ -201,8 +201,7 @@ La ventana de activación le permite seleccionar una **fecha de inicio** y una *
 El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Haz clic en **+ Agregar horario** para agregar un horario de periodicidad a tu canal.
 
 >[!NOTE]
->Puede agregar varias programaciones recurrentes al canal.
->Los horarios de periodicidad presentan *DayParting*. Se establece una programación global con varios canales en ejecución a horas específicas del día y se reutiliza esa configuración para todas las pantallas a la vez.
+>Puede agregar varias programaciones recurrentes al canal.Los horarios de periodicidad presentan *DayParting*. Se establece una programación global con varios canales en ejecución a horas específicas del día y se reutiliza esa configuración para todas las pantallas a la vez.
 
 Puede establecer las siguientes opciones:
 
@@ -243,3 +242,4 @@ Este ejemplo muestra el DayParting implementado en un casino donde los eventos e
 >[!NOTE]
 >
 >Además, puede definir ***Prioridad*** para cada uno de los canales. Por ejemplo, si se establecen dos canales para el mismo día y hora o para el mismo mes, el canal con mayor prioridad se reproduce primero. El valor mínimo de prioridad puede establecerse como 0.
+

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 751
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Siga los pasos a continuación para garantizar la conexión adecuada de los repr
 1. Si la llamada URL se realiza correctamente, puede continuar instalando AEM Screens y registrarse. Inicie AEM Screens.
 
    >[!NOTE]
-   >**Sugerencia para solucionar problemas**
+   >**Sugerencia de solución de problemas
    >Si AEM Screens no se conecta correctamente y no se muestra el contenido esperado:
    >
    >1. Compruebe en el firewall de enrutador de Internet si hay restricciones con respecto a `TCP/IP Port 80/443`.
@@ -61,8 +61,7 @@ La configuración de red corporativa adjunta se puede separar lógicamente en do
 
 ### Red de área amplia {#wan-connection}
 
-El rendimiento de la conexión a Internet, además de la accesibilidad de la red, debe proporcionar suficiente ancho de banda para gestionar las actualizaciones de contenido de AEM Screens sin problemas.
-*Ancho de banda suficiente* depende del número de AEM Screens conectados. También depende del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi invitadas.
+El rendimiento de la conexión a Internet, además de la accesibilidad de la red, debe proporcionar suficiente ancho de banda para gestionar las actualizaciones de contenido de AEM Screens sin problemas.*Ancho de banda suficiente* depende del número de AEM Screens conectados. También depende del uso de otros consumidores dentro de la red, como smartphones, tabletas, cajeros, computadoras o redes Wi-Fi invitadas.
 
 >[!NOTE]
 >
@@ -78,11 +77,9 @@ Por ejemplo, los componentes de red deben coincidir al menos con el estándar de
 
 ### Características de otras redes corporativas {#other-networks}
 
-Las redes corporativas tienen varios dispositivos conectados, están separadas en varias subredes y tienen conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para muchos miles de accesos simultáneos.
-Este esquema se simplifica y se adapta, en la mayoría de los casos, a los entornos disponibles para el cliente.
+Las redes corporativas tienen varios dispositivos conectados, están separadas en varias subredes y tienen conexiones a Internet redundantes o multiplexadas para proporcionar un rendimiento suficiente para muchos miles de accesos simultáneos.Este esquema se simplifica y se adapta, en la mayoría de los casos, a los entornos disponibles para el cliente.
 
-Si se prevé una solución Wi-Fi para conectar AEM Screens al enlace de Internet, se recomienda usar estándares de Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquier estándar *más reciente* como `802.11h-n` es de mejor calidad. Si se requiere un repetidor de Wi-Fi, Adobe recomienda tecnologías de punto de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similares.
-Otras tecnologías de repetición de Wi-Fi terminan en una pérdida masiva de ancho de banda en la red general.
+Si se prevé una solución Wi-Fi para conectar AEM Screens al enlace de Internet, se recomienda usar estándares de Wi-Fi modernos como `IEEE 802.11g` como mínimo. Este estándar admite conexiones de hasta 54 Mbps. Cualquier estándar *más reciente* como `802.11h-n` es de mejor calidad. Si se requiere un repetidor de Wi-Fi, Adobe recomienda tecnologías de punto de acceso Wi-Fi Mesh como Google Nest Mesh Wi-Fi o similares.Otras tecnologías de repetición de Wi-Fi terminan en una pérdida masiva de ancho de banda en la red general.
 
 ## Descarga de medios y Assets {#download}
 
@@ -98,3 +95,4 @@ En la tabla siguiente se proporciona información general sobre los datos clave 
 >La información permite ver el consumo de cada dispositivo en la red solicitando y descargando una fuente de Internet. Cada una de estas solicitudes suma y amplía el tiempo de descarga.
 
 ![](/help/using/assets/enclosed-network-download.png)
+

@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -29,8 +29,7 @@ Las representaciones adaptables permiten a los dispositivos hacer clic en la mej
 
 ## Objetivo {#objective}
 
-Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
-Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
+Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
 
 >[!IMPORTANT]
 >Antes de empezar a utilizar representaciones adaptables en un canal de AEM Screens, Adobe recomienda que conozca la Información general y la configuración de arquitectura de esta función. Ver [representaciones adaptables: información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md).
@@ -79,3 +78,4 @@ Para habilitar la función, agregue al menos una regla de asignación y asegúre
 
    >[!NOTE]
    >Después de completar la migración, asegúrese de quitar todas las referencias de configuración de los canales, las pantallas y las ubicaciones, y agregue una sola al nodo de contenido del proyecto.
+

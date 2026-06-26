@@ -15,10 +15,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 1%
+source-wordcount: 1274
+ht-degree: 2%
 
 ---
 
@@ -110,9 +110,7 @@ El aprovisionamiento remoto del reproductor Tizen le permite implementar cientos
 
 Esta función le permite configurar de forma remota el reproductor Tizen y también actualizar esas configuraciones de forma centralizada, si es necesario. Todo lo que necesita es el servidor `HTTP` utilizado para hospedar la aplicación Tizen `(wgt and xml file)` y un editor de texto para guardar `config.json` con los parámetros apropiados.
 
-Asegúrese de haber configurado la dirección URL del lanzador en el dispositivo Tizen. Haga clic en el botón Inicio > Configuración del lanzador de URL.
-En el servidor `HTTP` que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el archivo `wgt`. El nombre de archivo debe ser `config.json`.
-El reproductor Tizen instala y, en el momento del inicio (y cada vez que se reinicia), comprueba y aplica la configuración del archivo `config.json`.
+Asegúrese de haber configurado la dirección URL del lanzador en el dispositivo Tizen. Haga clic en el botón Inicio > Configuración del lanzador de URL.En el servidor `HTTP` que aloja la aplicación Tizen, coloque el archivo `config.json` en la misma ubicación que el archivo `wgt`. El nombre del archivo debe ser `config.json`.El reproductor Tizen instala y en el inicio (y cada vez que se reinicia), comprueba y aplica la configuración del archivo `config.json`.
 
 ### Ejemplo de directiva JSON {#example-json}
 
@@ -131,8 +129,7 @@ El reproductor Tizen instala y, en el momento del inicio (y cada vez que se rein
 En la tabla siguiente se resumen las directivas con sus funciones.
 
 >[!NOTE]
->Las configuraciones de la directiva de la IU de administración del reproductor se aplican estrictamente y no se anulan manualmente. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.
->Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
+>Las configuraciones de la directiva de la IU de administración del reproductor se aplican estrictamente y no se anulan manualmente. Para permitir la configuración manual del reproductor para una directiva en particular, no especifique la directiva en la configuración de la directiva.Por ejemplo, si desea permitir la configuración manual para la programación de reinicio, no especifique la clave `rebootSchedule` en la configuración de directiva. Las configuraciones de directivas se leen cada vez que el reproductor se vuelve a cargar.
 
 | **Nombre de directiva** | **Propósito** |
 |---|---|
@@ -185,3 +182,4 @@ Siga los pasos a continuación para inscribir el dispositivo Tizen en el servici
 ### Uso del control remoto de Screens {#using-remote-control}
 
 AEM Screens proporciona la funcionalidad Control remoto. Obtenga más información acerca de esta característica aquí: [Control remoto de Screens](implementing-remote-control.md)
+

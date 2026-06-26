@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 0%
@@ -108,3 +108,4 @@ Siga el tutorial siguiente para obtener más información sobre la estrategia de
 Comprender los elementos identificados durante la presentación del proyecto, junto con la aportación de las partes interesadas, para evaluar el proyecto y preparar un diseño adecuado. Conozca los términos clave involucrados en un plan general del proyecto. Estos términos incluyen el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la prueba de concepto, los proyectos piloto y los despliegues.
 
 Vaya a **[Pruebas, POC, programas piloto y despliegues](testing-pocs-pilots-rollouts.md)** para obtener más información.
+

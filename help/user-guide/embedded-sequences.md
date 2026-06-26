@@ -26,9 +26,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 825
 ht-degree: 0%
 
 ---
@@ -56,8 +56,7 @@ Tiene la opción de añadir los siguientes componentes al canal de secuencia:
 Puede añadir una secuencia incrustada al canal. Una secuencia incrustada es otro canal que incluye recursos como imágenes o vídeos. Añadir una secuencia incrustada permite al usuario agregar la secuencia a un canal mediante ***Ruta del canal***.
 
 >[!NOTE]
->***Ruta de acceso al canal*** define una referencia explícita al canal.
->Para obtener más información acerca de *Ruta del canal*, consulte [Asignación del canal](channel-assignment.md) en Creación de Screens.
+>***Ruta de acceso al canal*** define una referencia explícita al canal.Para obtener más información acerca de *Ruta del canal*, consulte [Asignación del canal](channel-assignment.md) en Creación de Screens.
 
 Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 
@@ -119,3 +118,4 @@ Siga los pasos a continuación para añadir una secuencia incrustada al canal:
 1. Haga clic en **Duración (milisegundos)** en la ficha **Secuencia** para el canal incrustado en la secuencia.
 
 ![más reciente](assets/latest.gif)
+

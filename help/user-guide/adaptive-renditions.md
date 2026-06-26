@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 3%
 
 ---
@@ -53,8 +53,7 @@ Siga los pasos a continuación para configurar la configuración:
    >![imagen](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si ha instalado el paquete de funciones más reciente 202109, verá la estructura de nodos **rendition-mapping** previamente rellenada en `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Consulte [Notas de la versión del paquete de funciones 202109](/help/user-guide/release-notes-fp-202109.md) para obtener información sobre el paquete de funciones más reciente.
-   >Para los proyectos existentes, asegúrese de que el proyecto de Screens tenga la configuración **rendition-mapping** asociada. Consulte [Agregar asignación de representación a un proyecto existente](#rendition-mapping-existing) para obtener más información.
+   >Si ha instalado el paquete de funciones más reciente 202109, verá la estructura de nodos **rendition-mapping** previamente rellenada en `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Consulte [Notas de la versión del paquete de funciones 202109](/help/user-guide/release-notes-fp-202109.md) para obtener información sobre el paquete de funciones más reciente.   >Para los proyectos existentes, asegúrese de que el proyecto de Screens tenga la configuración **rendition-mapping** asociada. Consulte [Agregar asignación de representación a un proyecto existente](#rendition-mapping-existing) para obtener más información.
 
 ### Agregar una propiedad de asignación de representación a un proyecto existente {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ Siga los pasos a continuación para agregar un nodo en Asignación de representa
 ## Pasos siguientes {#next-steps}
 
 Después de agregar propiedades y reglas de asignación de representación, como autor de contenido, puede configurar los recursos. Puede utilizar representaciones adaptables y también migrar los dispositivos de redes grandes para utilizar esta función en los canales de AEM Screens. Consulte [Uso de representaciones adaptables en AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obtener más información.
+

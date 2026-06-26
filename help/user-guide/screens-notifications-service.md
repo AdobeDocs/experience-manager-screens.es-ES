@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 0%
@@ -128,3 +128,4 @@ Estableció la frecuencia de horario como 1:00 a.m. y el tiempo de espera de pin
 **Escenario 2**
 
 Establezca la frecuencia de programación como 1 y el tiempo de espera de ping como 60. A continuación, si el dispositivo AEM Screens no hace ping a la vez en ningún momento del día en particular, recibirá una notificación por correo electrónico que confirma la inactividad del dispositivo.
+

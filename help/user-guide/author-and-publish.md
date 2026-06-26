@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -155,8 +155,7 @@ Para cualquiera de las instancias de publicación, vaya a `https://:/system/cons
 
 #### Paso 3: Configurar el clúster de ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Este paso le permite crear una contraseña cifrada para el clúster de ActiveMQ Artemis.
-El usuario y la contraseña de clúster de todas las instancias de publicación de la topología deben ser idénticos. La contraseña de la configuración de ActiveMQ Artemis debe estar cifrada. Dado que cada instancia tiene su propia clave de cifrado, es necesario utilizar la compatibilidad con cifrado para crear una cadena de contraseña cifrada. A continuación, la contraseña cifrada se puede utilizar en la configuración OSGi para ActiveMQ.
+Este paso le permite crear una contraseña cifrada para el clúster de ActiveMQ Artemis.El usuario y la contraseña de clúster de todas las instancias de publicación de la topología deben ser idénticos. La contraseña de la configuración de ActiveMQ Artemis debe estar cifrada. Dado que cada instancia tiene su propia clave de cifrado, es necesario utilizar la compatibilidad con cifrado para crear una cadena de contraseña cifrada. A continuación, la contraseña cifrada se puede utilizar en la configuración OSGi para ActiveMQ.
 
 En cada instancia de publicación:
 
@@ -170,7 +169,6 @@ Dado que cada instancia de publicación, de forma predeterminada, tiene claves c
 >[!NOTE]
 >
 >La contraseña debe comenzar y finalizar con llaves. Por ejemplo:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar el clúster de ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 

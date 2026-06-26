@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 2%
@@ -76,3 +76,4 @@ La miniatura en vídeos admite los siguientes casos de uso:
 * Un componente de vídeo con el vídeo (si el vídeo tiene la representación correcta) y el conjunto de miniaturas reproduce el vídeo.
 
 * Un componente de vídeo con el conjunto de vídeos reproduce la miniatura, si hay un error de reproducción, o pasa al siguiente elemento en caso de que la miniatura no esté configurada.
+

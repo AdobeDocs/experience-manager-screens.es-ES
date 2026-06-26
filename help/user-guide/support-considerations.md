@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 0%
@@ -79,3 +79,4 @@ Siga este tutorial final a un tutorial de serie de 5 partes que se centra en gar
 ## Conclusión {#conclusion}
 
 Estas series de cinco partes se centran en consideraciones clave críticas para garantizar el éxito de su proyecto. Consulte otras secciones de la Guía del usuario de AEM Screens para obtener más información sobre la implementación.
+

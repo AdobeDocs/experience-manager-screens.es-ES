@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 **Canal de secuencia**: un canal de secuencia es una página que puede crear y que contiene componentes que se muestran uno a uno en una presentación.
 
 **Zonas**: las zonas son una segmentación de pantallas que se utilizan como entidades direccionables principales para los canales. En los casos en que las pantallas abarcan varias pantallas, resulta ventajoso definir las zonas que coinciden con las dimensiones de la pantalla, especialmente si las pantallas muestran un borde físico prominente.
+

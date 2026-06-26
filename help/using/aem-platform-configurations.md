@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -72,8 +72,7 @@ Instale y ejecute las versiones más actuales de los siguientes paquetes para su
 * Paquete de correcciones acumulativas de AEM
 
 Además de lo anterior, identifique cualquier paquete de desarrollo (por ejemplo, WCM Core
-componentes) o kits de herramientas de terceros (por ejemplo, SAP Hybris) necesarios.
-Instale los mismos paquetes de software en su entorno de desarrollo local. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crean problemas al implementar y probar.
+componentes) o kits de herramientas de terceros (por ejemplo, SAP Hybris) necesarios.Instale los mismos paquetes de software en su entorno de desarrollo local. Indique a su cliente que adopte la misma configuración en todos sus servidores de control de calidad, fase y producción. Las configuraciones de servidor no coincidentes crean problemas al implementar y probar.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Instale los mismos paquetes de software en su entorno de desarrollo local. Indiq
 La configuración de ACL explica cómo separar proyectos para que cada individuo o equipo administre su propio proyecto.
 
 Consulte [Configuración de ACL](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/setting-up-acls) para obtener más información.
+

@@ -13,7 +13,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 0%
@@ -52,3 +52,4 @@ Existen dos tipos principales de déclencheur de datos:
 
 * **Déclencheur de datos locales**: estos déclencheur de datos son locales en el dispositivo. Por ejemplo, si toca la pantalla, se activa un sensor que déclencheur un recurso de datos local o un conmutador de canal.
 * **Déclencheur de datos remotos**: esto implicó un cambio de canal activado por datos o un cambio de recurso basado en los valores devueltos por una API de servicio web.
+

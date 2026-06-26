@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ En la tabla siguiente se destacan las redes de datos con su ancho de banda está
 
 Al considerar qué red de datos debe utilizarse, tenga en cuenta lo siguiente:
 
-La velocidad de red disponible depende del plan específico del proveedor de datos móviles y de la cobertura disponible que se alcance en la ubicación del controlador de AEM Screens.
-Al seguir esta configuración, tenga en cuenta que, además del ancho de banda disponible, algunos planes del proveedor de datos móviles limitan la cantidad de datos disponibles que llegan a través de la conexión en un tiempo específico. Se debe garantizar que haya suficiente capacidad en los datos y en las cantidades de ancho de banda.
-A continuación, el paquete de datos necesario debe ser al menos de:
+La velocidad de red disponible depende del plan específico del proveedor de datos móviles y de la cobertura disponible que se alcance en la ubicación del controlador de AEM Screens.Al seguir esta configuración, tenga en cuenta que, además del ancho de banda disponible, algunos planes del proveedor de datos móviles limitan la cantidad de datos disponibles que llegan a través de la conexión en un tiempo específico. Se debe garantizar que haya suficiente capacidad en los datos y en las cantidades de ancho de banda.A continuación, el paquete de datos necesario debe ser al menos de:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ En la tabla siguiente se proporciona información general sobre los datos clave 
 >Toda la información se refiere al consumo de cada dispositivo en la red solicitando y descargando una fuente de Internet. Cada una de estas solicitudes suma y amplía el tiempo de descarga.
 
 ![](/help/using/assets/download-times-mobile.png)
+

@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -40,8 +40,7 @@ AEM Screens está disponible seleccionando el vínculo Adobe Experience Manager 
 También puede navegar directamente a: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Sugerencia de navegación:**
->También puede usar las teclas de cursor para desplazarse por diferentes carpetas de AEM. Además, después de hacer clic en una entidad concreta, presione la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
+>**Sugerencia de navegación:También puede utilizar las teclas del cursor para desplazarse por diferentes carpetas en AEM. Además, después de hacer clic en una entidad concreta, presione la barra espaciadora para editar o ver las propiedades de esa carpeta específica.
 
 ## Creación de un nuevo proyecto de Screens
 
@@ -92,3 +91,4 @@ Los siguientes pasos muestran la creación de una carpeta de aplicaciones en la 
 ### Pasos siguientes {#the-next-steps}
 
 Cuando haya creado su propio proyecto, consulte [Administración de canales](managing-channels.md) para crear y administrar contenido en su canal.
+

@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 0%
+source-wordcount: 436
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 No pase por alto la compatibilidad posterior al inicio en la fase inicial.
 
-Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. **Integrador de audio y vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios en diferentes aspectos.
-Tenga en cuenta los siguientes requisitos durante la compatibilidad posterior al lanzamiento:
+Garantizar que los sitios reciban la asistencia adecuada del proveedor de hardware es crucial para sus operaciones comerciales. **Integrador de audio y vídeo** debe trabajar en estrecha colaboración con las partes interesadas de la empresa e identificar los requisitos necesarios en diferentes aspectos.Tenga en cuenta los siguientes requisitos durante la compatibilidad posterior al lanzamiento:
 
 * administración de dispositivos remotos
 * disponibilidad del centro de asistencia
@@ -45,7 +44,6 @@ Además, para prepararse para el éxito a largo plazo, es fundamental crear una 
 Algunas consideraciones y preguntas que le ayudarán a definir la compatibilidad después del lanzamiento:
 
 1. ¿La implementación es una red Advertising con muchas partes interesadas vinculadas a una red monetizada? Esta situación puede exigir periodos de resolución más cortos en comparación con una red de comunicaciones corporativas.
- 
    >[!NOTE]
    >
    >Indica periodos de tiempo de resolución más cortos en comparación con una red de comunicaciones corporativas.
@@ -69,3 +67,4 @@ Algunas consideraciones y preguntas que le ayudarán a definir la compatibilidad
 1. ¿Cuál de sus establecimientos comerciales requiere monitorización las 24 horas del día, los 7 días de la semana?
 
 1. ¿Las pantallas son parte de su negocio? (es decir, configuración de coche, alertas de ventas)
+

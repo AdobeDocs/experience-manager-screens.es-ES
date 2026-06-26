@@ -14,7 +14,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 1%
@@ -49,3 +49,4 @@ El siguiente vídeo detalla la creación de un nuevo canal, la creación de nuev
 El siguiente vídeo muestra la creación de una ubicación, una pantalla y la configuración del dispositivo. El vídeo también muestra los pasos para registrar un dispositivo y asignarlo a una pantalla. Sigue de manera imprecisa la segunda mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/39390?captions=spa&quality=9)
+

@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 2%
 
 ---
@@ -40,9 +40,7 @@ Siga los pasos a continuación para crear un proyecto de ejemplo para AEM Screen
 >El siguiente tutorial muestra la reproducción del contenido del canal en un reproductor del sistema operativo Chrome.
 
 >[!IMPORTANT]
->**Ajustes de configuración de OSGi**
->Debe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente de `Apache Sling` Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.
->Siga los pasos a continuación para habilitar el ***Filtro de referente de Apache Sling Permitir vacío***:
+>**Ajustes de configuración de OSGiDebe habilitar el referente vacío para permitir que el dispositivo publique datos en el servidor. Por ejemplo, si la propiedad referrer vacía está deshabilitada, el dispositivo no podrá devolver una captura de pantalla. Actualmente, algunas de estas funciones solo están disponibles si el Filtro de referente `Apache Sling` Permitir vacío está habilitado en la configuración de OSGi. Es posible que el tablero muestre una advertencia indicando que la configuración de seguridad puede impedir que funcionen algunas de estas características.Siga los pasos a continuación para habilitar el &#x200B;***Filtro de referente de Apache Sling Permitir vacío***:
 
 
 ## Permitir solicitudes de referente vacías {#allow-empty-referrer-requests}
@@ -186,8 +184,7 @@ Cuando finalice la configuración del proyecto, asigne el canal a una pantalla p
    Además, puede hacer clic en **Ventana de activación** y **Programación de periodicidad**.
 
    >[!NOTE]
-   >*Programación de periodicidad* le permite establecer una programación recurrente para su canal. Puede configurar varias programaciones de periodicidad para un canal.
-   >Consulte [Programación de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más información.
+   >*Programación de periodicidad* le permite establecer una programación recurrente para su canal. Puede configurar varias programaciones de periodicidad para un canal.   >Consulte [Programación de periodicidad](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obtener más información.
 
 1. Haz clic en **Guardar** una vez que hayas configurado tus preferencias.
 
@@ -253,3 +250,4 @@ Todos los recursos del canal se están reproduciendo en el reproductor del siste
 ¡Felicidades por reproducir contenido en un canal de AEM Screens!
 
 ![imagen](assets/kickstart/demo-video-screens.gif)
+

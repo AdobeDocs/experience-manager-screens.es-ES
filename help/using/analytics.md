@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 335
 ht-degree: 0%
 
 ---
@@ -34,5 +34,5 @@ El primero implica **bucles de comentarios y aprendizaje automático**, mientras
 
 En el caso de uso del bucle de comentarios, no es necesario preocuparse por los informes visuales o los paneles, sino que desea definir reglas en las que AEM puede ejecutar la modificación de contenido. Al consumir y procesar todos los datos de evento del reproductor de Screens de un periodo determinado, puede definir una regla que evalúe la eficacia de image1 frente a image2. Al combinar los datos de ventas con los datos de reproducción, AEM puede determinar que image1 tiene un mayor impacto en las ventas e indicar automáticamente a todos los reproductores que utilicen image1.
 
-El segundo caso de uso con Analytics es para procesar eventos de reproducción y datos de uso para el consumo humano mediante informes y paneles.
-Puede utilizar estos datos para crear un mapa de calor de una experiencia interactiva y determinar el mapa de recorrido preferido mediante la aplicación. También puede crear un panel que proporcione una interpretación gráfica de cuántas veces interactúan los consumidores con la aplicación.
+El segundo caso de uso con Analytics es para procesar eventos de reproducción y datos de uso para el consumo humano mediante informes y paneles.Puede utilizar estos datos para crear un mapa de calor de una experiencia interactiva y determinar el mapa de recorrido preferido mediante la aplicación. También puede crear un panel que proporcione una interpretación gráfica de cuántas veces interactúan los consumidores con la aplicación.
+

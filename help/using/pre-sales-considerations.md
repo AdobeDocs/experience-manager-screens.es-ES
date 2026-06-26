@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ ht-degree: 0%
 >[!NOTE]
 >Un inversor habitual de esta actividad es un estratega de marketing/negocios.
 
-Esta fase incluye todas las tareas de preventa y descubrimiento necesarias para definir completamente el ámbito del proyecto. El trabajo completado el `Day Zero` establece las bases del proyecto y afecta directamente al éxito general de la aplicación.
-En esta etapa, se identifican y se reúnen los principales proveedores para ayudar a formular el plan del proyecto. Durante esta fase es importante que la inclusión también se establezca con las partes interesadas clave del proyecto dentro de la compañía del cliente. Estas partes interesadas incluyen a ejecutivos de ventas, gestores de marketing y equipos de TI. Todas estas personas tienen un papel importante que desempeñar en el desarrollo de la aplicación y su mantenimiento continuo.
+Esta fase incluye todas las tareas de preventa y descubrimiento necesarias para definir completamente el ámbito del proyecto. El trabajo completado el `Day Zero` establece las bases del proyecto y afecta directamente al éxito general de la aplicación.En esta etapa, se identifican y se reúnen los principales proveedores para ayudar a formular el plan del proyecto. Durante esta fase es importante que la inclusión también se establezca con las partes interesadas clave del proyecto dentro de la compañía del cliente. Estas partes interesadas incluyen a ejecutivos de ventas, gestores de marketing y equipos de TI. Todas estas personas tienen un papel importante que desempeñar en el desarrollo de la aplicación y su mantenimiento continuo.
 
 ## Entregables clave {#key-deliverables}
 
@@ -45,3 +44,4 @@ Los entregables clave en esta etapa incluyen:
 >Identifique lo antes posible los datos necesarios para la aplicación y de dónde provienen. La exploración más profunda se produce durante la implementación. No obstante, asegúrese de tomarse un tiempo durante *día cero* para averiguar qué datos piensa usar el cliente. Averigüe dónde se almacenan actualmente esos datos y cómo puede acceder a ellos la aplicación que se está creando. Notificar al equipo de desarrollo antes de que surjan desafíos ayuda a que una implementación se realice sin problemas.
 
 Vea el vídeo [Consideraciones a medida que los proyectos se amplían](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+

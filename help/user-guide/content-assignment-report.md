@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -40,8 +40,7 @@ El informe de asignación de contenido no solo permite obtener una vista previa 
 
 ### Requisitos previos {#pre-reqs}
 
-Antes de descargar el informe de asignación de contenido, asegúrese de haber configurado un proyecto de AEM Screens con canales, ubicaciones y dispositivos.
-Consulte los siguientes recursos para obtener más información:
+Antes de descargar el informe de asignación de contenido, asegúrese de haber configurado un proyecto de AEM Screens con canales, ubicaciones y dispositivos.Consulte los siguientes recursos para obtener más información:
 
 1. [Creación y administración de proyectos](/help/user-guide/creating-a-screens-project.md)
 1. [Creación y administración de canales](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ Siga las instrucciones a continuación para descargar el informe de asignación 
 1. Al seleccionar cualquiera de los canales de la columna **Canales**, se abre la pestaña **Contenido**. A su vez, le desplaza directamente a ese canal y le proporciona información sobre los recursos (imágenes y vídeos) asociados a ese canal específico.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 2%
+source-wordcount: 1537
+ht-degree: 3%
 
 ---
 
@@ -230,8 +230,7 @@ Siga los pasos a continuación para crear una marca en sus actividades y áreas 
 
    1. Haga clic en **Área** del asistente para **Crear página** y luego haga clic en **Siguiente**.
 
-   1. Escriba **Title** como **ScreensValue** y haga clic en **Crear**.
-Se crea un área en su marca.
+   1. Escriba **Title** como **ScreensValue** y haga clic en **Crear**.Se crea un área en su marca.
 
 ## Paso 5: Creación de los segmentos en una actividad {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ Después de configurar ContextHub para el proyecto de AEM Screens, puede seguir 
 1. **[Activación objetivo de inventario comercial](retail-inventory-activation.md)**
 1. **[Activación de temperatura en el centro de viajes](local-temperature-activation.md)**
 1. **[Activación de reserva de hospitalidad](hospitality-reservation-activation.md)**
+

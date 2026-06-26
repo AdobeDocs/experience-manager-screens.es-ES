@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ Siga los pasos a continuación para enviar actualizaciones de contenido de autor
 
    **Comprender el cuadro de diálogo Incluir elementos secundarios**
 
-   Los pasos mencionados anteriormente muestran cómo publicar todo el contenido. Si desea utilizar las otras tres alternativas disponibles, debe marcar esa opción en particular.
-Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar solo las páginas modificadas del proyecto:
-   ![imagen](assets/author-publish-manage.png)
+   Los pasos mencionados anteriormente muestran cómo publicar todo el contenido. Si desea utilizar las otras tres alternativas disponibles, debe marcar esa opción en particular.Por ejemplo, la siguiente imagen muestra cómo puede administrar y actualizar solo las páginas modificadas del proyecto:   ![imagen](assets/author-publish-manage.png)
 
    Siga las explicaciones siguientes para comprender las opciones disponibles:
 
@@ -143,3 +141,4 @@ Siga los pasos a continuación para entregar actualizaciones de contenido de Aut
 Si ha reasignado un dispositivo, publique la visualización inicial y la nueva visualización, una vez que el dispositivo se haya reasignado a la nueva visualización.
 
 Del mismo modo, si ha reasignado un canal, publique tanto la visualización inicial como la nueva visualización, una vez que el canal se haya reasignado a la nueva visualización.
+

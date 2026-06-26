@@ -14,7 +14,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 531
 ht-degree: 5%
@@ -143,3 +143,4 @@ Siga esta sección para actualizar la configuración del agente de replicación 
    ![imagen](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
    Si la verificación de la conexión se realiza correctamente, habrá completado la configuración del Agente de replicación de Screens.
+
