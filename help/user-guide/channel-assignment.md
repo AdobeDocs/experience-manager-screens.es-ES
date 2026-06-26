@@ -36,7 +36,7 @@ Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el
 
 Esta página muestra la asignación de un canal a la visualización.
 
-Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Puede asignar varios canales a una visualización.
@@ -191,6 +191,6 @@ En este ejemplo se muestra el DayParting de una tienda que muestra su colección
 >
 > Para obtener más información sobre DayParting, consulte las secciones siguientes:
 >
->* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Administrar la periodicidad en Assets](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Administrar la periodicidad para Assets en un canal](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
 

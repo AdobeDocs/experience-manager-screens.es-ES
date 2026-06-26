@@ -28,7 +28,7 @@ ht-degree: 0%
 # Implementación de Cloud Player {#implementing-cloud-player}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Tradicionalmente, AEM Screens ha ofrecido distintas aplicaciones de reproductor nativo para diversas plataformas, incluidas ChromeOS, Windows, Android™ y `Tizen`. Sin embargo, en respuesta a la evolución de las necesidades de los usuarios, Adobe ha introducido una solución innovadora: AEM Screens Cloud Player.
 
