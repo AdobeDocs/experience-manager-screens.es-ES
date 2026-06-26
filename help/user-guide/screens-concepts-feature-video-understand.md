@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## Terminología y conceptos de Screens {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40171?captions=spa&quality=9)
 
 >[!IMPORTANT]
 >Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
@@ -42,11 +42,11 @@ Para descargar AEM Screens Player, haga clic [aquí](https://download.macromedia
 
 El siguiente vídeo detalla la creación de un nuevo canal, la creación de nuevo contenido y la adición de un canal a una programación reutilizable. Sigue de manera imprecisa la primera mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39369?captions=spa&quality=9)
 
 ## Mostrar asignaciones y registro de dispositivos - Parte 2 {#display-and-device-pt2}
 
 El siguiente vídeo muestra la creación de una ubicación, una pantalla y la configuración del dispositivo. El vídeo también muestra los pasos para registrar un dispositivo y asignarlo a una pantalla. Sigue de manera imprecisa la segunda mitad de la [Guía de KickStart de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39390?captions=spa&quality=9)
 
