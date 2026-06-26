@@ -3,14 +3,11 @@ title: Uso de representaciones adaptables en AEM Screens
 description: Aprenda a utilizar las representaciones adaptables en AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 1%
 ## Introducción {#introduction}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Esta función solo se admite en AEM local (AEM 6.x). No es compatible con AEM as a Cloud Service.
@@ -29,8 +26,7 @@ Las representaciones adaptables permiten a los dispositivos hacer clic en la mej
 
 ## Objetivo {#objective}
 
-Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.
-Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
+Como autor de contenido de AEM Screens, ahora puede configurar las representaciones de recursos específicas del dispositivo para que se descarguen y reproduzcan automáticamente sin tener que crear todas las variaciones de contenido manualmente.Una vez que un desarrollador agrega las propiedades y reglas de asignación de representación, estará listo para aplicar la asignación de representación a los recursos e incluirlos en un canal de AEM Screens.
 
 >[!IMPORTANT]
 >Antes de empezar a utilizar representaciones adaptables en un canal de AEM Screens, Adobe recomienda que conozca la Información general y la configuración de arquitectura de esta función. Ver [representaciones adaptables: información general de arquitectura y configuraciones](/help/user-guide/adaptive-renditions.md).
@@ -57,7 +53,7 @@ Para aplicar representaciones a los recursos que desee utilizar en el canal Tour
    ![imagen](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publicar en el dispositivo.
+   >Consulte [Actualización de contenido bajo demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para obtener más información sobre cómo administrar la publicación y enviar actualizaciones de contenido de Autor a Publicar en el dispositivo.
 
 ## Estrategia de migración {#migration-strategy}
 
@@ -79,3 +75,4 @@ Para habilitar la función, agregue al menos una regla de asignación y asegúre
 
    >[!NOTE]
    >Después de completar la migración, asegúrese de quitar todas las referencias de configuración de los canales, las pantallas y las ubicaciones, y agregue una sola al nodo de contenido del proyecto.
+

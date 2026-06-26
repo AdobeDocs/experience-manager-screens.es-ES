@@ -10,14 +10,10 @@ role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
 TQID: https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -27,7 +23,7 @@ ht-degree: 0%
 # Uso del control remoto de Screens {#implementing-remote-control}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La función de control remoto facilita el acceso a la IU de administración, al conmutador de canales o a funciones como Borrar caché y volver a cargar. Además, proporciona un método para ver la versión local del firmware y la información del sistema en el reproductor. Esta capacidad es especialmente útil porque puede resultar difícil conectar un mouse. O bien, puede operar en dispositivos de producción que estén fuera del alcance y aún más si el reproductor ha perdido la conexión con AEM. También resulta útil cuando se utiliza Samsung RMS, ya que la diferencia de resolución puede dificultar la localización y apertura de la interfaz de usuario del administrador con un ratón.
 
@@ -63,3 +59,4 @@ El diagrama siguiente ilustra el uso de la tecla en un control remoto Samsung:
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
 ```
+

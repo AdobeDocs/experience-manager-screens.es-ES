@@ -11,14 +11,10 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 1%
@@ -32,7 +28,7 @@ En esta sección se describe una funcionalidad para importar de forma masiva un 
 ## Introducción {#introduction}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cuando configure un proyecto de AEM Screens por primera vez en su organización, cree también todas las ubicaciones. Si el proyecto incluye muchas ubicaciones, se produce una tarea tediosa que implica mucho seleccionar y esperar en la interfaz de usuario.
 
@@ -112,7 +108,7 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Haga clic en el proyecto **DemoProjectImporter**>**Crear**>**&#x200B; ubicaciones de importación** desde la barra lateral.
+1. Haga clic en el proyecto **DemoProjectImporter**>**Crear**>** ubicaciones de importación** desde la barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
@@ -129,3 +125,4 @@ Siga los pasos a continuación para importar un archivo a una carpeta de ubicaci
 1. Como resultado, ahora puede ver todas las ubicaciones importadas al proyecto.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

@@ -11,20 +11,12 @@ role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 TQID: https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 0%
@@ -34,7 +26,7 @@ ht-degree: 0%
 # Parte 3: Pruebas, POC, programas piloto y despliegues {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En esta página se destaca la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave esenciales para garantizar que se pueda desarrollar una solución exitosa antes de un despliegue.
 
@@ -90,7 +82,7 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 
 ### Pruebas, POC, programas piloto y despliegues
 
->[!VIDEO](https://video.tv.adobe.com/v/32812?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la Prueba de concepto, los programas piloto y los despliegues.*
 
@@ -99,3 +91,4 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 Cuando haya terminado con las pruebas, las pruebas de concepto, los programas piloto y las implementaciones, siga el siguiente tutorial que profundiza en la administración de proyectos y los procesos involucrados.
 
 Vaya a **[Parte 4: Administración e implementación de proyectos](project-management-and-deployment.md)** para obtener más información.
+

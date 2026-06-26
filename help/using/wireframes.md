@@ -3,14 +3,11 @@ title: Mallas metálicas
 description: Obtenga información sobre el uso de mallas metálicas para un proyecto de AEM Screens.
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 TQID: https://experienceleague.adobe.com/vZIM1FREMXC5FemQIbC5F5O27wTU6acsRyv5GP5zDEw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 # Mallas metálicas {#wireframes}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Un inversor habitual de esta actividad es un estratega de marketing/negocios.
@@ -33,11 +30,11 @@ Este proceso se aplica a:
 
 Esto ayuda a que el proyecto pase de la fase de creación de prototipos a la fase de implementación real.
 
-Desde una **vista de nivel de recurso**, debe crear mallas metálicas que definan varias opciones de diseño de contenido y agrupaciones de contenido. Este trabajo ayuda a definir el aspecto que pueden tener varios fragmentos de contenido cuando se ensamblan como un grupo.
-Normalmente, en esta actividad se utilizan gráficos, imágenes y vídeos preparados para la producción real.
+Desde una **vista de nivel de recurso**, debe crear mallas metálicas que definan varias opciones de diseño de contenido y agrupaciones de contenido. Este trabajo ayuda a definir el aspecto que pueden tener varios fragmentos de contenido cuando se ensamblan como un grupo.Normalmente, en esta actividad se utilizan gráficos, imágenes y vídeos preparados para la producción real.
 
 Desde una **vista de nivel de canal**, debería crear mallas metálicas que muestren cómo se vinculan los canales de contenido en la experiencia general, incluidas las estrategias de reproducción para los canales incrustados. También puede revisar las transiciones de canal que se pueden producir a medida que se involucren los déclencheur de datos.
 
 En un **nivel de proyecto**, puede empezar a modelar cómo varias pantallas o experiencias pueden trabajar juntas en un espacio físico para proporcionar un recorrido de usuario completo de varios puntos de contacto.
 
 Estas estrategias deben alinearse con el mapa de Recorrido de experiencia de usuario creado anteriormente.
+

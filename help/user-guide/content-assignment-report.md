@@ -6,20 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -27,7 +21,7 @@ ht-degree: 2%
 # Informe de asignación de contenido {#content-assignment-report}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *Informe de asignación de contenido* en formato de hoja de cálculo.
 
@@ -40,8 +34,7 @@ El informe de asignación de contenido no solo permite obtener una vista previa 
 
 ### Requisitos previos {#pre-reqs}
 
-Antes de descargar el informe de asignación de contenido, asegúrese de haber configurado un proyecto de AEM Screens con canales, ubicaciones y dispositivos.
-Consulte los siguientes recursos para obtener más información:
+Antes de descargar el informe de asignación de contenido, asegúrese de haber configurado un proyecto de AEM Screens con canales, ubicaciones y dispositivos.Consulte los siguientes recursos para obtener más información:
 
 1. [Creación y administración de proyectos](/help/user-guide/creating-a-screens-project.md)
 1. [Creación y administración de canales](/help/user-guide/managing-channels.md)
@@ -76,3 +69,4 @@ Siga las instrucciones a continuación para descargar el informe de asignación 
 1. Al seleccionar cualquiera de los canales de la columna **Canales**, se abre la pestaña **Contenido**. A su vez, le desplaza directamente a ese canal y le proporciona información sobre los recursos (imágenes y vídeos) asociados a ese canal específico.
 
    ![imagen](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

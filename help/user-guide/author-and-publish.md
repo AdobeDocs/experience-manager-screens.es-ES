@@ -3,17 +3,12 @@ title: Configuración de instancias de autor y publicación en AEM Screens
 description: Obtenga información sobre cómo configurar una instancia de autor y una instancia de publicación para AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -23,7 +18,7 @@ ht-degree: 0%
 En esta página se destacan los siguientes temas:
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Configuración de instancias de autor y publicación**
 * **Configurando la topología de publicación**
@@ -65,7 +60,7 @@ Para crear agentes de replicación, aprenda a crear un agente de replicación es
 
 Hay tres agentes de replicación necesarios para Screens:
 
-1. **Agente de replicación predeterminado &#x200B;***(especificado como&#x200B;*** agente de replicación estándar**)
+1. **Agente de replicación predeterminado ***(especificado como*** agente de replicación estándar**)
 1. **Agente de replicación de Screens**
 1. **Agente de replicación inversa**
 
@@ -123,7 +118,7 @@ Siga los pasos a continuación para crear un agente de replicación predetermina
 1. Cree un agente de replicación de AEM Screens para pub2. Copie el agente de replicación de Screens para pub1 y cambie el puerto a 4504 para pub2.
 
    >[!NOTE]
-   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Para obtener información sobre cómo configurar los agentes de replicación de Screens, consulte [Configuración del agente de replicación de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Crear agentes de replicación inversa de Screens {#creating-screens-reverse-replication-agents}
 
@@ -155,8 +150,7 @@ Para cualquiera de las instancias de publicación, vaya a `https://:/system/cons
 
 #### Paso 3: Configurar el clúster de ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Este paso le permite crear una contraseña cifrada para el clúster de ActiveMQ Artemis.
-El usuario y la contraseña de clúster de todas las instancias de publicación de la topología deben ser idénticos. La contraseña de la configuración de ActiveMQ Artemis debe estar cifrada. Dado que cada instancia tiene su propia clave de cifrado, es necesario utilizar la compatibilidad con cifrado para crear una cadena de contraseña cifrada. A continuación, la contraseña cifrada se puede utilizar en la configuración OSGi para ActiveMQ.
+Este paso le permite crear una contraseña cifrada para el clúster de ActiveMQ Artemis.El usuario y la contraseña de clúster de todas las instancias de publicación de la topología deben ser idénticos. La contraseña de la configuración de ActiveMQ Artemis debe estar cifrada. Dado que cada instancia tiene su propia clave de cifrado, es necesario utilizar la compatibilidad con cifrado para crear una cadena de contraseña cifrada. A continuación, la contraseña cifrada se puede utilizar en la configuración OSGi para ActiveMQ.
 
 En cada instancia de publicación:
 
@@ -170,7 +164,6 @@ Dado que cada instancia de publicación, de forma predeterminada, tiene claves c
 >[!NOTE]
 >
 >La contraseña debe comenzar y finalizar con llaves. Por ejemplo:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Paso 4: Activar el clúster de ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 

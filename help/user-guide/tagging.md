@@ -3,9 +3,9 @@ title: Etiquetado en Screens Cloud
 description: En esta página se describe cómo se pueden crear, administrar y utilizar las etiquetas en Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Etiquetado en Screens Cloud {#tagging-on-Screens-Cloud}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >
@@ -41,8 +41,7 @@ Utilice las etiquetas creadas en Pantallas y reproductores.
 
 >[!NOTE]
 >
-> Una pantalla o un reproductor pueden tener un máximo de 30 etiquetas asignadas.
-> Como máximo se pueden etiquetar 30 elementos de una sola vez.
+> Una pantalla o un reproductor pueden tener un máximo de 30 etiquetas asignadas.Se pueden etiquetar como máximo 30 elementos de una sola vez.
 
 ## Filtrar por etiquetas {#filter-by-tags}
 
@@ -54,3 +53,4 @@ Seleccione etiquetas para filtrar la lista de pantallas o reproductores.
 > 
 > Las etiquetas definidas en Screens Cloud no están relacionadas ni sincronizadas con las etiquetas definidas en AEM.
 > 
+

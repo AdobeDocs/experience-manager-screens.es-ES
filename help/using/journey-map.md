@@ -3,12 +3,9 @@ title: Mapa del recorrido
 description: Obtenga información sobre el Mapa de Recorrido para AEM Screens.
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 TQID: https://experienceleague.adobe.com/0nsSBxEy-LN9JRQwmUDvijGZthdcWfv40HCH4QtykiM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -18,7 +15,7 @@ ht-degree: 0%
 # Mapa del Recorrido UX {#journey-map}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -38,3 +35,4 @@ Permita que los líderes del proyecto y las partes interesadas experimenten con 
 
 >[!NOTE]
 > Comience a recopilar análisis durante la prueba piloto para que pueda ayudar a los equipos empresariales a validar el éxito de la solución con las métricas específicas que intentan lograr. Saber el rendimiento de la prueba piloto ayuda al equipo empresarial a determinar qué mejoras se deben realizar.
+
