@@ -192,7 +192,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 >[!NOTE]
 >
->>Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus requisitos.
+>&#x200B;>Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus requisitos.
 
 1. Escriba la expresión en **Schedule** y el recurso se mostrará durante el intervalo particular de día y hora.
 
