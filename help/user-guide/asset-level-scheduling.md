@@ -8,29 +8,35 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 1%
-
 ---
-
 # Activación de nivel de recurso {#asset-level-scheduling}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página describe la activación a nivel de recurso para los recursos utilizados en los canales.
 
@@ -40,10 +46,10 @@ En esta sección se tratan los siguientes temas:
 * Ventana de activación
 * Reproducción de un solo evento
 * Administrar la periodicidad en Assets
-   * DayParting
-   * WeekParting
-   * MonthParting
-   * Combinación de Particiones
+  * DayParting
+  * WeekParting
+  * MonthParting
+  * Combinación de Particiones
 * Activación de varios recursos
 * Sustitución Global Para La Hora De Inicio Universal
 
@@ -101,7 +107,7 @@ Siga los pasos a continuación para realizar la programación de nivel de recurs
 
 Puede programar la reaparición de activos en determinados intervalos de forma diaria, semanal o mensual, según sus necesidades.
 
-Supongamos que desea mostrar una imagen solamente los viernes desde las 13:00 hasta las 22:00. Puede usar la pestaña **Activación** para establecer el intervalo recurrente deseado para su recurso.
+Supongamos que desea mostrar una imagen sólo los viernes de 1:00 p.m. a 10:00 p.m. Puede usar la ficha **Activación** para establecer el intervalo recurrente deseado para el recurso.
 
 ### División por día {#day-parting}
 
@@ -120,14 +126,14 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 | **Expresión** | **Interpretación** |
 |---|---|
-| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a.m. todos los días |
-| después de las 2:00 p.m. | el recurso del canal se reproduce después de las 2:00 de la tarde todos los días |
-| después de 12:15 y antes de 12:45 | el recurso del canal se reproduce después de las 12:15 p. m. todos los días durante 30 minutos |
-| antes de 12:15 también después de 12:45 | el recurso del canal se reproduce antes de las 12:15 p.m. todos los días y después de las 12:45 p.m. |
+| antes de las 8:00 a.m. | el recurso del canal se reproduce antes de las 8:00 a. m. todos los días |
+| después de las 2:00 p.m. | el recurso del canal se reproduce todos los días después de las 2 de la tarde |
+| después de las 12:15 y antes de las 12:45 | el recurso del canal se reproduce después de las 12:15 todos los días durante 30 minutos |
+| antes de las 12:15 también después de las 12:45 | el recurso del canal se reproduce antes de las 12:15 todos los días y después de las 12:45. |
 
 >[!NOTE]
 >
->También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
+>También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -175,6 +181,7 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 | `on February-July` | el recurso se reproduce en el canal de febrero a finales de julio |
 
 >[!NOTE]
+>
 >Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero.
 
 ### Combinación de Particiones {#combined-parting}
@@ -183,8 +190,9 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 
 1. Después de escribir la fecha/hora de inicio y la fecha/hora de finalización, puede utilizar una expresión o una versión de texto natural para especificar la programación de periodicidad.
 
-   >[!NOTE]
-   >Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus requisitos.
+>[!NOTE]
+>
+>>Puede omitir o incluir los campos **Activo desde** y **Activo hasta** y agregar la expresión al campo Programaciones, según sus requisitos.
 
 1. Escriba la expresión en **Schedule** y el recurso se mostrará durante el intervalo particular de día y hora.
 
@@ -195,11 +203,12 @@ En la tabla siguiente se resumen algunas expresiones de ejemplo que se pueden a�
 | **Expresión** | **Interpretación** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | el recurso se reproduce en el canal entre las 6 a. m. y las 6 p. m. los lunes y miércoles de enero a finales de marzo |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | el recurso del canal comienza a reproducirse después de las 2:00 de la tarde del 1 de enero y continúa reproduciéndose durante todo el día del 2 de enero hasta las 3:00 de la mañana del 3 de enero |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | el recurso del canal inicia el reproductor después de las 2:00 p.m. del 1 de enero, continúa reproduciendo hasta las 3:00 a.m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p.m. y continúa reproduciendo hasta las 3:00 a.m. del 3 de enero |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | el recurso del canal comienza a reproducirse después de las 2 de la tarde del 1 de enero y continúa reproduciendo durante todo el día del 2 de enero hasta las 3 de la madrugada del 3 de enero |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | el recurso del canal inicia el reproductor después de las 2:00 p. m. del 1 de enero, continúa reproduciendo hasta las 3:00 a. m. del 2 de enero, luego comienza nuevamente el 2 de enero a las 2:00 p. m. y continúa reproduciendo hasta las 3:00 a. m. del 3 de enero |
 
 >[!NOTE]
->Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _tiempo militar_ (14:00) en lugar de *A.M./P.M.*(2:00 P.M.).
+>
+>Al definir los días de la semana y los meses, puede utilizar las notaciones de nombre completo y abreviado, como Lunes/Lunes y Enero/Enero. También puede usar la notación _hora militar_ (14:00) en lugar de *A.M./P.M.*(2:00 P.M.).
 
 
 ## Activación de varios recursos {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ La anulación global de ***hora de inicio universal*** se realiza configurando l
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Para una anulación global, ingrese la hora de activación en la sección **Anulación de zona horaria** del recurso. Si no introduce nada en esta área, la zona horaria aplicada es la del reproductor.
-
-
-

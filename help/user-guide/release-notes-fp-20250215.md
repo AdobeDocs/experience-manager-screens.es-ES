@@ -8,22 +8,26 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 TQID: https://experienceleague.adobe.com/q6KAClMHbAULOEumQlx5-FdaaVmAcMOCL8m6KWIB458
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 10%
-
 ---
-
 # Notas de la versión del paquete de funciones 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe recomienda actualizar a la última versión de 6.5 Adobe Experience Manager (AEM 6.5). Puede obtener la información de la versión más reciente de [aquí](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
+> 
 >Adobe recomienda utilizar FP11.6 con SP(servicepack) >= 21.
 
 ## Disponibilidad {#availability}
@@ -43,8 +47,8 @@ La fecha de lanzamiento del AEM Screens Feature Pack 20250327 es el 27 de marzo 
 * Esta versión corrige el problema con la vista de tarjetas con SP22 y versiones posteriores.
 
 * **Actualización de AEM Screens Players**
-   * El reproductor AEM Screens basado en Linux está oficialmente obsoleto. Se aconseja a los usuarios migrar a otro sistema operativo compatible con AEM Screens.
-   * No se realizan más actualizaciones ni mejoras en el Reproductor de AEM Screens basado en Android. Se recomienda a los usuarios migrar a un sistema operativo alternativo compatible con AEM Screens.
+  * El reproductor AEM Screens basado en Linux está oficialmente obsoleto. Se aconseja a los usuarios migrar a otro sistema operativo compatible con AEM Screens.
+  * No se realizan más actualizaciones ni mejoras en el Reproductor de AEM Screens basado en Android. Se recomienda a los usuarios migrar a un sistema operativo alternativo compatible con AEM Screens.
 
 ### Correcciones de errores {#bug-fixes}
 
