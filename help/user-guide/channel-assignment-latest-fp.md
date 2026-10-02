@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 2%
-
 ---
-
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,7 +178,8 @@ La prioridad se usa para ordenar las asignaciones en caso de que varias coincida
 ### Método de interrupción {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+>
+>Esta opción solo está disponible con <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
 Como autor de contenido, puede especificar cuándo se interrumpe un canal. Al hacerlo, puede optar por cortar el contenido no crítico. Pero también le ofrece la opción de permitir que el contenido importante se reproduzca por completo antes de acortarlo debido a la programación.
 
@@ -180,13 +188,15 @@ Seleccione una de las siguientes opciones disponibles para establecer el método
 * **Inmediatamente**: cada vez que se active la programación o se reciba una actualización, puede interrumpir la reproducción y actualizar o reproducir inmediatamente el nuevo contenido
 * **Fin del elemento actual**: cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que el elemento actual de la secuencia termine de reproducirse. A continuación, solo después de eso, puede actualizar o reproducir el nuevo contenido.
 
-  >[!NOTE]
-  >Esta opción está seleccionada de forma predeterminada.
+>[!NOTE]
+>
+>Esta opción está seleccionada de forma predeterminada.
 
 * **Al final de la secuencia**: cuando se activa una nueva programación o se recibe una actualización, puede esperar opcionalmente a que toda la secuencia llegue a su final. A continuación, justo antes de la secuencia deseada, puede volver al primer elemento, actualizar o reproducir el nuevo contenido.
 
-  >[!NOTE]
-  >El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se difieran ligeramente. El motivo es que el reproductor espera el final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso depende de la duración de reproducción del elemento.
+>[!NOTE]
+>
+>El uso de la segunda o tercera opción puede hacer que los tiempos de programación definidos en la asignación se difieran ligeramente. El motivo es que el reproductor espera el final del elemento o la secuencia (después del tiempo especificado) antes de actualizar. El retraso depende de la duración de reproducción del elemento.
 
 Las siguientes propiedades se establecen desde la opción **Programar** del cuadro de diálogo **Asignación de canal**.
 
@@ -201,7 +211,8 @@ La ventana de activación le permite seleccionar una **fecha de inicio** y una *
 El Horario de periodicidad le permite establecer una programación recurrente para el contenido. Haz clic en **+ Agregar horario** para agregar un horario de periodicidad a tu canal.
 
 >[!NOTE]
->Puede agregar varias programaciones recurrentes al canal.Los horarios de periodicidad presentan *DayParting*. Se establece una programación global con varios canales en ejecución a horas específicas del día y se reutiliza esa configuración para todas las pantallas a la vez.
+>Puede agregar varias programaciones recurrentes al canal.
+>Los horarios de periodicidad presentan *DayParting*. Se establece una programación global con varios canales en ejecución a horas específicas del día y se reutiliza esa configuración para todas las pantallas a la vez.
 
 Puede establecer las siguientes opciones:
 
@@ -209,8 +220,8 @@ Puede establecer las siguientes opciones:
 * **Repetir** - Elija si la programación se ejecuta **diariamente**, **semanalmente**, **mensualmente** o **anualmente**.
 * **Inicio**: la hora de inicio de su programación.
 * **Fin**: la hora de finalización de su programación. Puede establecerlo por tiempo o duración.
-   * **Hora**: la programación finaliza a una hora especificada.
-   * **Duración**: la programación se ejecuta durante un período de tiempo determinado en horas o minutos.
+  * **Hora**: la programación finaliza a una hora especificada.
+  * **Duración**: la programación se ejecuta durante un período de tiempo determinado en horas o minutos.
 
 ### DayParting {#dayparting}
 
@@ -226,18 +237,18 @@ En este caso, cada día se divide en diferentes franjas horarias, de modo que el
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Desayuno | Cada día | 6:00 A.M. | 11:00 A.M. |
-| Almuerzo | Cada día | 11:00 A.M. | 3:00 P.M. |
-| Cena | Cada día | 3:00 P.M. | 20:00 |
+| Desayuno | Cada día | 06:00 | 11:00 |
+| Almuerzo | Cada día | 11:00 | 15:00 |
+| Cena | Cada día | 15:00 | 20:00 |
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra el DayParting implementado en un casino donde los eventos en vivo ocurren todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta las 1:00 a.m.
+En este ejemplo se muestra el DayParting implementado en un casino en el que los eventos en directo tienen lugar todos los fines de semana de 20:00 a 22:00 y los especiales están disponibles para el menú de la cena después de las 22:00 y hasta la 01:00.
 
 | **Nombre** | **Repeticiones** | **Inicial** | **Fin** |
 |---|---|---|---|
-| Weekend | Semanal: sábado y domingo | 20:00 | 10:00 P.M. |
-| Especiales | Diario: de lunes a viernes | 10:00 P.M. | 1:00 A.M. |
+| Weekend | Semanal: sábado y domingo | 20:00 | 22:00 |
+| Especiales | Diario: de lunes a viernes | 22:00 | 01:00 |
 
 >[!NOTE]
 >

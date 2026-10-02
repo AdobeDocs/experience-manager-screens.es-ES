@@ -8,28 +8,36 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1295'
 ht-degree: 1%
-
 ---
-
 # Asignación de canales {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >En esta sección se destaca la asignación de canales y la programación de canales para paquetes de funciones anteriores a la versión de AEM 6.5.5 de Screens.
 
 Cuando haya configurado una pantalla, asigne un canal a una pantalla para ver el contenido.
@@ -78,6 +86,7 @@ La función Canal define el contexto de la visualización. La función se dirige
 La prioridad se usa para ordenar las asignaciones en caso de que varias coincidan con los criterios de reproducción. El que tiene el valor más alto siempre tiene prioridad sobre los valores más bajos. Por ejemplo, si hay dos canales, A y B. A tiene una prioridad de 1 y B tiene una prioridad de 2. A continuación, se muestra el canal B, ya que tiene una prioridad mayor que A.
 
 >[!NOTE]
+>
 >La prioridad de un canal se establece como un número (1 como mínimo) en el cuadro de diálogo **Asignación de canal**, como se mencionó anteriormente. Además, los canales asignados se ordenan según la prioridad descendente.
 
 ### Eventos admitidos {#supported-events-channel}
@@ -131,13 +140,13 @@ En este caso, se divide cada día en tres franjas horarias diferentes para que e
 
 | **Canal** | **Función** | **Prioridad** | **Programación** |
 |---|---|---|---|
-| Menú_A | Desayuno |  | Después de 6:00 y antes de 11:00 |
-| Menu_B | Almuerzo |  | Después de 11:00 y antes de 15:00 |
-| Menu_C | Cena |  | Después de 15:00 y antes de 20:00 |
+| Menú_A | Desayuno |  | Después de las 6:00 y antes de las 11:00 |
+| Menu_B | Almuerzo |  | Después de las 11:00 y antes de las 15:00 |
+| Menu_C | Cena |  | Después de las 15:00 y antes de las 20:00 |
 
 #### Reproducción de contenido en un día de la semana concreto {#playing-content-on-a-particular-day-of-the-week}
 
-Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta las 1:00 a.m.
+Este ejemplo muestra el dayParting logrado en un casino donde el evento en vivo ocurre todos los fines de semana desde las 8:00 p.m. hasta las 10:00 p.m. y los especiales están disponibles para el menú de cena después de las 10:00 p.m. hasta la 1:00 a.m.
 
 <table>
  <tbody>
