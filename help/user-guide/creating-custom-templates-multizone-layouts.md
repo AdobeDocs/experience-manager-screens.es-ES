@@ -6,21 +6,26 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '943'
 ht-degree: 1%
-
 ---
-
 # Crear plantillas personalizadas para diseños de varias zonas {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
@@ -45,9 +50,9 @@ Hay dos consideraciones importantes que debe tener en cuenta antes de crear una 
 
    | **Nombre de diseño** | **Descripción** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que le permite crear tres zonas: <br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80% de la pantalla horizontal y 20% de la pantalla vertical justificada a la derecha<br>* Zona 3 como 100% de la pantalla horizontal y 80% de la pantalla vertical. La proporción de aspecto es 16:9 |
-   | `Upper20-PortraitHD2Zone` | Una plantilla vertical de dos zonas que cubre el 20% de la pantalla desde arriba, con una proporción de aspecto de 16:9 |
-   | `Right20-LandscapeSD3Zone` | Una plantilla de tres zonas que cubre el 20% de la pantalla desde la derecha, con una proporción de aspecto de 4:3 |
+   | `Left20-LandscapeHD3Zone` | Diseño horizontal de tres zonas que le permite crear tres zonas: <br>* Zona 1 como 20% de la pantalla horizontal y vertical desde la izquierda<br>* Zona 2 como 80% de la pantalla horizontal y 20% de la pantalla vertical justificada a la derecha<br>* Zona 3 como 100% de la pantalla horizontal y 80% de la pantalla vertical. La relación de aspecto es de 16:9 |
+   | `Upper20-PortraitHD2Zone` | Una plantilla vertical de dos zonas que cubre el 20% de la pantalla desde la parte superior, con una relación de aspecto de 16:9 |
+   | `Right20-LandscapeSD3Zone` | Una plantilla de tres zonas que cubre el 20 % de la pantalla desde la derecha, con una relación de aspecto de 4:3 |
 
    >[!IMPORTANT]
    >Es posible que las zonas definidas dentro del diseño personalizado no coincidan con la relación de aspecto general de todo el diseño. La convención de nombres que se sigue en este documento especifica la proporción de aspecto del diseño personalizado en su conjunto.
@@ -58,7 +63,7 @@ Siga la sección siguiente para crear una plantilla personalizada *`Left20-Lands
 
 * **`Left20`**: la zona superior izquierda que cubre el 20 % del tamaño horizontal y vertical de la pantalla.
 * **`Landscape`** - La orientación de pantalla.
-* **`HD`** - La proporción de aspecto era 16:9.
+* **`HD`**: la relación de aspecto es de 16:9.
 * **`3Zone`**: tres zonas de la pantalla.
 
 ## Representación visual del diseño de varias zonas {#multi-layout-visual-one}
@@ -170,7 +175,7 @@ Puede insertar una imagen como capa de fondo en el diseño:
 Puede ajustar la regla CSS para que utilice &quot;data-uri&quot; y coloque directamente en línea la imagen (`Base64` codificada) en el archivo CSS que creó en (paso 13), *static.css*.
 
 Esta disposición se hace de la siguiente manera:
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 O bien, puede seguir los pasos a continuación:
 
