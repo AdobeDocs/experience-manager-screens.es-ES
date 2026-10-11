@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-TQID: https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo
+TQID: 'https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '316'
 ht-degree: 5%
-
 ---
-
 # Notas de la versión del paquete de funciones 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,18 +45,18 @@ La fecha de lanzamiento del paquete de funciones 202011 de AEM Screens es el 30 
 * **Informe de asignación de contenido**
 
   La función Informe de asignación de contenido permite a un administrador de AEM Screens o a un autor exportar un *Informe de asignación de contenido* en formato de hoja de cálculo.
-Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
+  Consulte [Informe de asignación de contenido](/help/user-guide/content-assignment-report.md) para obtener más información.
 
 
 * **Reproductor Tizen**
 
   Se ha presentado un nuevo reproductor, denominado Tizen player, con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
-Consulte [Implementación de Tizen Player](/help/user-guide/tizen-player.md) para obtener más información.
+  Consulte [Implementación de Tizen Player](/help/user-guide/tizen-player.md) para obtener más información.
 
 * **Funcionalidad de búsqueda del Administrador de dispositivos**
 
   Ahora hay disponible una nueva funcionalidad de búsqueda en la interfaz de usuario del Administrador de dispositivos con el último paquete de funciones para la versión 6.5.6 de AEM Screens.
-Consulte [Buscar un dispositivo desde el Administrador de dispositivos](/help/user-guide/device-registration.md#search-device) para obtener más información.
+  Consulte [Buscar un dispositivo desde el Administrador de dispositivos](/help/user-guide/device-registration.md#search-device) para obtener más información.
 
 * **Intervalo de ping predeterminado**
 

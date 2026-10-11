@@ -5,32 +5,48 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+TQID: 'https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: '2299'
 ht-degree: 2%
-
 ---
-
 # Preguntas frecuentes sobre AEM Screens {#aem-screens-faqs}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En este tema encontrará respuestas a las preguntas más frecuentes relacionadas con un proyecto de AEM Screens.
 
@@ -185,7 +201,7 @@ Siga los pasos a continuación para solucionar problemas de un reproductor de AE
 
 1. Compruebe si la configuración de Dispatcher permite estas solicitudes en `/filters`.
 
-   Consulte [Configuración de filtros de Screens](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obtener más información.
+   Consulte [Configuración de filtros de Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obtener más información.
 
 1. Compruebe si las reglas de reescritura de Dispatcher están reescribiendo cualquiera de las rutas de pantalla a una ruta diferente.
 
@@ -202,14 +218,14 @@ Puede obtener los detalles de la pantalla y el dispositivo mediante:
 
   Siga los pasos a continuación para utilizar estos valores de tienda de ContentHub:
 
-   * Edite las propiedades del canal y establezca la ruta de ContextHub en la pestaña de personalización con el valor (como se ha mencionado anteriormente)
-   * En el JS de canal, puede utilizar lo siguiente:
+  * Edite las propiedades del canal y establezca la ruta de ContextHub en la pestaña de personalización con el valor (como se ha mencionado anteriormente)
+  * En el JS de canal, puede utilizar lo siguiente:
 
-     ```shell
-        ContextHub.getStore('screens-device');
-        ContextHub.getStore('screens-display');
-        ContextHub.getStore('screens-channels');
-     ```
+    ```shell
+       ContextHub.getStore('screens-device');
+       ContextHub.getStore('screens-display');
+       ContextHub.getStore('screens-channels');
+    ```
 
 ## Sugerencias generales de resolución de problemas {#general-troubleshooting-tips}
 
@@ -231,7 +247,8 @@ Deshabilite Livefyre para evitar errores de registro haciendo lo siguiente.
 
 ### &#x200B;2. Cómo añadir información de índice de Oak {#add-oak-index-info}
 
-AEM Screens crea definiciones de índice para las consultas utilizadas por el producto.Si hay *advertencias de recorrido de la consulta* en `error.log`, cree un índice personalizado para la consulta. Consulte [Configuración de los índices](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obtener más información.
+AEM Screens crea definiciones de índice para las consultas utilizadas por el producto.
+Si hay *advertencias de recorrido de la consulta* en `error.log`, cree un índice personalizado para la consulta. Consulte [Configuración de los índices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obtener más información.
 
 También puede ver un recurso adicional en [Documentación de Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -240,9 +257,11 @@ También puede ver un recurso adicional en [Documentación de Oak](https://jackr
 
 Para habilitar el manifiesto v3, haga lo siguiente:
 
-* Actualice Dispatcher.Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
+* Actualice Dispatcher.
+Consulte [Configuración de Dispatcher para la versión de manifiesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obtener más información.
 
-* Actualizar componente personalizado.Consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obtener más información.
+* Actualizar componente personalizado.
+Consulte [Plantilla para controladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obtener más información.
 
 * Deshabilitar ContentSync en `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -256,7 +275,7 @@ Para habilitar el manifiesto v3, haga lo siguiente:
 
 ### &#x200B;4. ¿Qué debe hacer si, después del paquete screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 y los paquetes principales de screens están instalados pero no están activos?
 
-Instale una versión mínima de AEM 6.5 Feature Pack 8 para que funcione el conector AMS. Consulta [Disponibilidad](https://experienceleague.adobe.com/es/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obtener la versión mínima del paquete de funciones de AEM Screens.
+Instale una versión mínima de AEM 6.5 Feature Pack 8 para que funcione el conector AMS. Consulta [Disponibilidad](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obtener la versión mínima del paquete de funciones de AEM Screens.
 
 ### &#x200B;5. Cómo configurar el servicio CQ Link Externalizer en Screens
 
