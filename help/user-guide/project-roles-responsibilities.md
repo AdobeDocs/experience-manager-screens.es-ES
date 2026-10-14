@@ -44,7 +44,7 @@ ht-degree: 0%
 # Parte 1: Funciones y responsabilidades del proyecto {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página resalta la parte 1 de una serie de 5 partes. Se ha diseñado para ayudar a los integrantes del equipo a comprender mejor las funciones, responsabilidades y plazos necesarios durante el ciclo de vida del proyecto y las ventas de un proyecto de publicidad dinámica.
 
@@ -88,7 +88,7 @@ Siga el tutorial siguiente para comprender exactamente cómo cada parte influye 
 
 ### Parte 1: Funciones y responsabilidades del proyecto
 
->[!VIDEO](https://video.tv.adobe.com/v/32821?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Obtenga información acerca de las funciones y responsabilidades de Adobe, los integradores de audio y vídeo y los implementadores de AEM.*
 

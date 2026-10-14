@@ -45,7 +45,7 @@ ht-degree: 0%
 # Parte 3: Pruebas, POC, programas piloto y despliegues {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En esta página se destaca la parte 3 de una serie de 5 partes diseñada para ayudar a los integrantes del equipo a comprender mejor los términos clave esenciales para garantizar que se pueda desarrollar una solución exitosa antes de un despliegue.
 
@@ -101,7 +101,7 @@ Considerar todas estas fases como parte del plan del proyecto general ayuda a ad
 
 ### Pruebas, POC, programas piloto y despliegues
 
->[!VIDEO](https://video.tv.adobe.com/v/32812?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Conozca los términos clave involucrados en un plan de proyecto general, como el ciclo del proyecto, las acciones relacionadas con las pruebas de hardware, la Prueba de concepto, los programas piloto y los despliegues.*
 

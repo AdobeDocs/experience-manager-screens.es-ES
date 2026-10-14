@@ -38,7 +38,7 @@ ht-degree: 0%
 # Parte 4: Administración e implementación de proyectos {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En esta página se destaca la parte 4 de una serie de 5 partes diseñada para cubrir la gestión del proyecto y la preparación de la implementación, así como para definir los factores clave de los que el integrador de audio y vídeo es responsable en relación con la gestión del proyecto y la preparación de la implementación.
 
@@ -101,7 +101,7 @@ Obtenga información sobre la administración de proyectos y la preparación de 
 
 ### Administración e implementación de proyectos
 
->[!VIDEO](https://video.tv.adobe.com/v/32791?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Obtenga información acerca de la administración de proyectos y la preparación de la implementación (la preproducción del proyecto, el inicio del proyecto y la progresión del proyecto).*
 

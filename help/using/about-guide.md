@@ -5,23 +5,26 @@ exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 27%
-
 ---
-
 # Acerca de esta guía {#about-guide}
 
 >[!IMPORTANT]
->Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Este contenido es válido para AEM on-premise/AMS (AEM 6.5LTS y AEM 6.5). Para el contenido de AEM as a Cloud Service Screens, consulte la [guía de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 El propósito de la Guía de prácticas recomendadas de AEM Screens es proporcionar directrices sobre cómo planificar y completar correctamente un proyecto de AEM Screens.
 
@@ -46,7 +49,7 @@ Esta guía proporciona información práctica y de insight para imaginar, diseñ
 > * **[Funciones y responsabilidades del proyecto](roles-responsibilities.md)**
 > * **[Gráfico RACI para diferentes roles](roles-responsibilities.md#raci-chart)**
 > * **[Configuraciones de la plataforma AEM](aem-platform-configurations.md)**
-> * **[Asistencia y supervisión](support-monitoring.md)**
+> * **[Asistencia y monitorización](support-monitoring.md)**
 
 >[!NOTE]
 >

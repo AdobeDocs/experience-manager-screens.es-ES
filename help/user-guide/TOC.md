@@ -12,9 +12,7 @@ source-git-commit: f6d6f9295d60388b33c1a55752ce28c5b70f07ca
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 11%
-
 ---
-
 
 # Guía del usuario de AEM Screens {#user-guide}
 
