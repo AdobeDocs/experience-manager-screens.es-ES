@@ -5,18 +5,20 @@ exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
 TQID: https://experienceleague.adobe.com/uKyl9w97xF0m6W9kj-PTAbIgt5HtZRAgkOUCstAuti4
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: '1114'
 ht-degree: 0%
-
 ---
-
 # Red móvil con el enrutador de datos móvil y componentes de red activos {#mobile-network-setup}
 
 >[!IMPORTANT]
@@ -26,7 +28,8 @@ Los reproductores Adobe AEM Screens también se pueden conectar a través de red
 
 En AEM Screens, el contenido necesario se descarga físicamente en el controlador del reproductor o en el equipo y se almacena correctamente en el sistema operativo subyacente. Por lo tanto, el ancho de banda dado solo afecta a los tiempos de descarga iniciales y a las actualizaciones de contenido, y no influye en el rendimiento de la reproducción regular de las pantallas.
 
-La ventaja de esta configuración es que el router móvil se puede colocar en un lugar optimizado para garantizar la mejor cobertura de red disponible. Este lugar suele estar en una posición elevada y abierta, con el menor número posible de estructuras de hormigón o metal circundantes.Esta configuración proporciona a los usuarios de AEM Screen flexibilidad porque no se requiere una línea fija para conectarse a AEM Screens. También es interesante para configuraciones efímeras o móviles.
+La ventaja de esta configuración es que el router móvil se puede colocar en un lugar optimizado para garantizar la mejor cobertura de red disponible. Este lugar suele estar en una posición elevada y abierta, con el menor número posible de estructuras de hormigón o metal circundantes.
+Esta configuración proporciona a los usuarios de AEM Screen flexibilidad porque no se requiere una línea fija para conectarse a AEM Screens. También es interesante para configuraciones efímeras o móviles.
 
 El diagrama siguiente muestra la configuración de Red móvil con el enrutador de datos móvil y los componentes de red activos. Contiene un acceso a Internet de cualquiera de los controladores AEM Screens mediante acceso directo a Internet mediante un propio enlace de datos 3/4/5G.
 
@@ -67,7 +70,9 @@ La configuración de red se puede separar lógicamente en dos bloques:
 
 El rendimiento de la conexión a Internet, además de la accesibilidad de red ya descrita, debe proporcionar suficiente ancho de banda para realizar descargas de contenido de AEM Screens sin problemas.
 
-*Suficiente* depende del número de dispositivos AEM Screens conectados. También depende del uso de otros consumidores dentro de la red, como smartphones, tablets, cajeros, computadoras o redes Wi-Fi de invitados.Tenga en cuenta que todos los dispositivos tienen acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente al tiempo que añade más consumidores/equipos a la red.Además de la conexión de red teórica específica, se debe asegurar que la cobertura del enrutador móvil sea al menos *buena*. Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda para servir a todos los clientes conectados dentro de la LAN conectada.
+*Suficiente* depende del número de dispositivos AEM Screens conectados. También depende del uso de otros consumidores dentro de la red, como smartphones, tablets, cajeros, computadoras o redes Wi-Fi de invitados.
+Tenga en cuenta que todos los dispositivos tienen acceso simultáneo a la conexión a Internet y el ancho de banda disminuye linealmente al tiempo que añade más consumidores/equipos a la red.
+Además de la conexión de red teórica específica, se debe asegurar que la cobertura del enrutador móvil sea al menos *buena*. Además, el plan mensual subyacente tiene que cubrir suficiente capacidad de datos y ancho de banda para servir a todos los clientes conectados dentro de la LAN conectada.
 
 En la tabla siguiente se destacan las redes de datos con su ancho de banda estándar:
 
@@ -103,7 +108,10 @@ Si se prevé una solución Wi-Fi para conectar la pantalla al vínculo a Interne
 
 ## Descarga de medios y Assets {#download}
 
-AEM Screens ofrece una ventaja significativa a los usuarios de señalización digital. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeo. Debido a este concepto, el tráfico de red principal se produce en el caso de que haya contenido nuevo para mostrar en una pantalla específica.Para un funcionamiento normal, al tener una lista de reproducción definida que no se actualiza con frecuencia, ofrece una operación casi independiente de la red cuando todos los archivos se guardan en el reproductor.En los casos de uso en los que hay más interacciones con sensores u otros Déclencheur y el contenido es dinámico, una conexión de red rápida y fiable es esencial para una reacción de pantalla inmediata. Garantiza la mejor experiencia del cliente posible.Las siguientes tablas ofrecen una buena descripción general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los tiempos de espera potenciales.
+AEM Screens ofrece una ventaja significativa a los usuarios de señalización digital. Descarga y guarda localmente todos los archivos multimedia necesarios, como imágenes y vídeo. Debido a este concepto, el tráfico de red principal se produce en el caso de que haya contenido nuevo para mostrar en una pantalla específica.
+Para un funcionamiento normal, al tener una lista de reproducción definida que no se actualiza con frecuencia, ofrece una operación casi independiente de la red cuando todos los archivos se guardan en el reproductor.
+En los casos de uso en los que hay más interacciones con sensores u otros Déclencheur y el contenido es dinámico, una conexión de red rápida y fiable es esencial para una reacción de pantalla inmediata. Garantiza la mejor experiencia del cliente posible.
+Las siguientes tablas ofrecen una buena descripción general de lo que significan los datos clave de conectividad de red para el rendimiento que se puede esperar y los tiempos de espera potenciales.
 
 >[!NOTE]
 >

@@ -5,18 +5,20 @@ exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '910'
 ht-degree: 0%
-
 ---
-
 # Red móvil directa {#mobile-network-setup}
 
 >[!IMPORTANT]
@@ -71,7 +73,9 @@ En la tabla siguiente se destacan las redes de datos con su ancho de banda está
 
 Al considerar qué red de datos debe utilizarse, tenga en cuenta lo siguiente:
 
-La velocidad de red disponible depende del plan específico del proveedor de datos móviles y de la cobertura disponible que se alcance en la ubicación del controlador de AEM Screens.Al seguir esta configuración, tenga en cuenta que, además del ancho de banda disponible, algunos planes del proveedor de datos móviles limitan la cantidad de datos disponibles que llegan a través de la conexión en un tiempo específico. Se debe garantizar que haya suficiente capacidad en los datos y en las cantidades de ancho de banda.A continuación, el paquete de datos necesario debe ser al menos de:
+La velocidad de red disponible depende del plan específico del proveedor de datos móviles y de la cobertura disponible que se alcance en la ubicación del controlador de AEM Screens.
+Al seguir esta configuración, tenga en cuenta que, además del ancho de banda disponible, algunos planes del proveedor de datos móviles limitan la cantidad de datos disponibles que llegan a través de la conexión en un tiempo específico. Se debe garantizar que haya suficiente capacidad en los datos y en las cantidades de ancho de banda.
+A continuación, el paquete de datos necesario debe ser al menos de:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
