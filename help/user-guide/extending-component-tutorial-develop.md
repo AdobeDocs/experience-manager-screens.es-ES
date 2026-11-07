@@ -533,7 +533,7 @@ El componente Póster se utiliza en un canal de secuencia. El paquete de inicio 
 
 El siguiente vídeo muestra el componente terminado y cómo se puede añadir a un canal de secuencia. A continuación, el canal se añade a una pantalla de ubicación y, finalmente, se asigna a un reproductor de Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507016?captions=spa&quaity=9)
 
 ## Código finalizado {#finished-code}
 
