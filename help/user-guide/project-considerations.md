@@ -111,7 +111,7 @@ Siga el tutorial siguiente para obtener más información sobre la estrategia de
 
 ### Consideraciones a medida que se amplían los proyectos
 
->[!VIDEO](https://video.tv.adobe.com/v/28380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507215?captions=spa)
 
 *Obtenga información acerca de la estrategia de contenido, las capas de E/S, los tipos de recursos y la segmentación de audiencia. Obtenga información acerca de las partes del día, los requisitos de operaciones empresariales y las consideraciones de preparación del sitio.*
 

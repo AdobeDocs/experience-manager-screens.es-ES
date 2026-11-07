@@ -586,7 +586,7 @@ El siguiente código proporciona los requisitos mínimos en `pom.xml` para ese p
 
 El siguiente vídeo muestra el componente terminado y cómo se puede añadir a un canal de secuencia. A continuación, el canal se añade a una pantalla de ubicación y, finalmente, se asigna a un reproductor de Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507025?captions=spa&quaity=9)
 
 ## Otras consideraciones para los componentes personalizados que incrustan otras páginas o fragmentos {#additional-considerations}
 

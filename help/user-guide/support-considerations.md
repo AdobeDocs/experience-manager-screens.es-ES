@@ -82,7 +82,7 @@ Siga este tutorial final a un tutorial de serie de 5 partes que se centra en gar
 
 ### Consideraciones del proyecto
 
->[!VIDEO](https://video.tv.adobe.com/v/28383)
+>[!VIDEO](https://video.tv.adobe.com/v/3507258?captions=spa)
 
 *Descubra cómo se solucionan los problemas de hardware, software y conectividad. Explorar las estimaciones de costos y los marcos para la compatibilidad in situ.*
 
